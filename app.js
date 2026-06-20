@@ -112,6 +112,14 @@ function topicText(paper) {
   return paper.topics.join(" ").toLowerCase();
 }
 
+function titleText(paper) {
+  return paper.title.toLowerCase();
+}
+
+function datasetText(paper) {
+  return paper.dataset.toLowerCase();
+}
+
 function searchTerms() {
   const query = state.query.trim().toLowerCase();
   if (!query) return [];
@@ -130,12 +138,19 @@ function scorePaper(paper) {
 
   const haystack = searchableText(paper);
   const labels = topicText(paper);
+  const title = titleText(paper);
+  const dataset = datasetText(paper);
   const commaMode = state.query.includes(",");
   const matchedTerms = terms.filter((term) => haystack.includes(term));
 
   if (commaMode && matchedTerms.length !== terms.length) return 0;
 
-  return matchedTerms.reduce((score, term) => score + (labels.includes(term) ? 4 : 1), 0);
+  return matchedTerms.reduce((score, term) => {
+    if (labels.includes(term)) return score + 5;
+    if (title.includes(term)) return score + 4;
+    if (dataset.includes(term)) return score + 3;
+    return score + 1;
+  }, 0);
 }
 
 function filteredPapers() {
