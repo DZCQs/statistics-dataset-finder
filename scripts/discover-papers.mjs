@@ -2,6 +2,8 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { LABEL_REGISTRY, LABEL_RULES } from "../labels.mjs";
 
 const DEFAULT_LIMIT = 25;
+const REQUEST_DELAY_MS = 3500;
+const RETRY_DELAY_MS = 20000;
 const DATASET_SIGNALS = [
   "dataset",
   "data set",
@@ -39,10 +41,60 @@ const DISCOVERY_QUERIES = [
   "mcmc diagnostics bayesian benchmark dataset"
 ];
 
+const ARXIV_STAT_CATEGORIES = ["stat.AP", "stat.ME", "stat.CO", "stat.TH"];
+const ARXIV_DATA_TERMS = [
+  "\"data are available\"",
+  "\"publicly available\"",
+  "\"replication data\"",
+  "\"supplementary data\"",
+  "\"data and code\"",
+  "dataverse",
+  "zenodo",
+  "figshare",
+  "github",
+  "\"public-use microdata\""
+];
+
+const DATA_LINK_PATTERNS = [
+  /https?:\/\/[^\s<>"')]+/gi,
+  /(?:github\.com|zenodo\.org|dataverse\.harvard\.edu|figshare\.com|osf\.io|physionet\.org|openicpsr\.org|archive\.ics\.uci\.edu)[^\s<>"')]+/gi
+];
+
+const NON_STAT_NOISE = [
+  "computer vision",
+  "image classification",
+  "object detection",
+  "semantic segmentation",
+  "lidar",
+  "point cloud",
+  "large language model",
+  "language model",
+  "natural language processing",
+  "speech recognition",
+  "remote sensing",
+  "video dataset",
+  "question answering"
+];
+
 function clean(value) {
   return String(value || "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function fetchWithRetry(url, label) {
+  await sleep(REQUEST_DELAY_MS);
+  let response = await fetch(url);
+  if (response.status === 429) {
+    await sleep(RETRY_DELAY_MS);
+    response = await fetch(url);
+  }
+  if (!response.ok) throw new Error(`${label} failed: ${response.status}`);
+  return response;
 }
 
 function slug(value) {
@@ -72,9 +124,10 @@ function textFor(paper) {
 function datasetScore(paper) {
   const text = textFor(paper);
   const hits = DATASET_SIGNALS.filter((signal) => text.includes(signal));
+  const dataLinks = extractDataLinks(text);
   return {
-    score: hits.length,
-    evidence: hits
+    score: hits.length + dataLinks.length * 2,
+    evidence: [...hits, ...dataLinks]
   };
 }
 
@@ -88,6 +141,57 @@ function scoreLabels(paper) {
     .filter((item) => item.score >= LABEL_RULES.scoreThreshold)
     .sort((a, b) => b.score - a.score || a.label.localeCompare(b.label))
     .slice(0, LABEL_RULES.maxLabelsPerPaper);
+}
+
+function hasStatisticsSignal(paper) {
+  const text = textFor(paper);
+  const statsSignals = [
+    "statistics",
+    "statistical",
+    "causal",
+    "survey",
+    "missing data",
+    "imputation",
+    "survival",
+    "forecast",
+    "time series",
+    "bayesian",
+    "mcmc",
+    "hierarchical",
+    "multilevel",
+    "panel data",
+    "treatment effect",
+    "propensity",
+    "nonresponse"
+  ];
+  return statsSignals.some((signal) => text.includes(signal));
+}
+
+function hasNoiseSignal(paper) {
+  const text = textFor(paper);
+  return NON_STAT_NOISE.some((signal) => text.includes(signal));
+}
+
+function extractArxivCategories(entry) {
+  return [...entry.matchAll(/<category[^>]*term="([^"]+)"/g)].map((match) => match[1]);
+}
+
+function hasArxivStatisticsCategory(paper) {
+  if (!paper.arxivCategories) return true;
+  return paper.arxivCategories.some((category) => category.startsWith("stat."));
+}
+
+function extractDataLinks(text) {
+  const links = DATA_LINK_PATTERNS.flatMap((pattern) => text.match(pattern) || []);
+  return [...new Set(links.map((link) => link.replace(/[.,;:]+$/, "")))];
+}
+
+function inferDatasetUrl(paper) {
+  const links = extractDataLinks(textFor(paper));
+  const preferred = links.find((link) =>
+    /github\.com|zenodo\.org|dataverse|figshare|osf\.io|physionet|openicpsr|archive\.ics\.uci/i.test(link)
+  );
+  return preferred || paper.datasetUrl || "";
 }
 
 function normalizeSemanticScholarPaper(raw, query) {
@@ -119,6 +223,7 @@ function parseArxivFeed(xml, query) {
     const title = tag("title");
     const abstract = tag("summary");
     const idUrl = tag("id");
+    const arxivCategories = extractArxivCategories(entry);
     const authors = [...entry.matchAll(/<author>\s*<name>([\s\S]*?)<\/name>\s*<\/author>/g)]
       .map((match) => clean(match[1]))
       .filter(Boolean);
@@ -130,13 +235,14 @@ function parseArxivFeed(xml, query) {
       year,
       citations: 0,
       dataset: "",
-      datasetUrl: idUrl,
+      datasetUrl: "",
       paperUrl: idUrl,
       access: "open",
       formats: [],
       properties: ["candidate"],
       topics: [],
       abstract,
+      arxivCategories,
       bestFor: abstract,
       note: `Discovered from arXiv query: ${query}`
     };
@@ -149,8 +255,7 @@ async function searchSemanticScholar(query, limit) {
   url.searchParams.set("limit", String(limit));
   url.searchParams.set("fields", "paperId,title,abstract,year,url,authors,citationCount,openAccessPdf,tldr");
 
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`Semantic Scholar failed: ${response.status}`);
+  const response = await fetchWithRetry(url, "Semantic Scholar");
   const data = await response.json();
   return (data.data || []).map((paper) => normalizeSemanticScholarPaper(paper, query));
 }
@@ -163,16 +268,29 @@ async function searchArxiv(query, limit) {
   url.searchParams.set("sortBy", "submittedDate");
   url.searchParams.set("sortOrder", "descending");
 
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`arXiv failed: ${response.status}`);
+  const response = await fetchWithRetry(url, "arXiv");
   return parseArxivFeed(await response.text(), query);
 }
 
+async function searchArxivStatCategory(category, term, limit) {
+  const url = new URL("https://export.arxiv.org/api/query");
+  url.searchParams.set("search_query", `cat:${category} AND all:${term}`);
+  url.searchParams.set("start", "0");
+  url.searchParams.set("max_results", String(limit));
+  url.searchParams.set("sortBy", "submittedDate");
+  url.searchParams.set("sortOrder", "descending");
+
+  const response = await fetchWithRetry(url, `arXiv ${category}`);
+  return parseArxivFeed(await response.text(), `${category} ${term}`);
+}
+
 function screenCandidate(paper) {
+  const datasetUrl = inferDatasetUrl(paper);
   const labels = scoreLabels(paper);
-  const dataset = datasetScore(paper);
+  const dataset = datasetScore({ ...paper, datasetUrl });
   return {
     ...paper,
+    datasetUrl,
     topics: labels.map((item) => item.label),
     discovery: {
       datasetEvidence: dataset.evidence,
@@ -194,14 +312,21 @@ function dedupe(papers) {
 
 const limitArg = Number(process.argv.find((arg) => arg.startsWith("--limit="))?.split("=")[1]);
 const limit = Number.isFinite(limitArg) && limitArg > 0 ? limitArg : DEFAULT_LIMIT;
+const sourceArg = process.argv.find((arg) => arg.startsWith("--sources="))?.split("=")[1];
+const enabledSources = new Set((sourceArg || "arxiv-stat").split(",").map((source) => source.trim()).filter(Boolean));
+const categoryArg = process.argv.find((arg) => arg.startsWith("--categories="))?.split("=")[1];
+const enabledCategories = categoryArg
+  ? categoryArg.split(",").map((category) => category.trim()).filter(Boolean)
+  : ARXIV_STAT_CATEGORIES;
 const allCandidates = [];
 const errors = [];
 
+if (enabledSources.has("semantic-scholar") || enabledSources.has("arxiv")) {
 for (const query of DISCOVERY_QUERIES) {
   for (const [source, search] of [
     ["semantic-scholar", searchSemanticScholar],
     ["arxiv", searchArxiv]
-  ]) {
+  ].filter(([source]) => enabledSources.has(source))) {
     try {
       const results = await search(query, limit);
       allCandidates.push(...results.map((paper) => ({ ...paper, source })));
@@ -210,12 +335,29 @@ for (const query of DISCOVERY_QUERIES) {
     }
   }
 }
+}
+
+if (enabledSources.has("arxiv-stat")) {
+for (const category of enabledCategories) {
+  for (const term of ARXIV_DATA_TERMS) {
+    try {
+      const results = await searchArxivStatCategory(category, term, limit);
+      allCandidates.push(...results.map((paper) => ({ ...paper, source: "arxiv-stat" })));
+    } catch (error) {
+      errors.push({ query: `${category} ${term}`, source: "arxiv-stat", error: error.message });
+    }
+  }
+}
+}
 
 const screened = dedupe(allCandidates)
   .map(screenCandidate)
   .filter((paper) => {
     return (
       paper.discovery.datasetScore > 0 &&
+      hasStatisticsSignal(paper) &&
+      !hasNoiseSignal(paper) &&
+      hasArxivStatisticsCategory(paper) &&
       paper.topics.length >= LABEL_RULES.minLabelsPerPaper &&
       paper.datasetUrl &&
       paper.paperUrl
@@ -238,6 +380,8 @@ await writeFile(
 console.log(
   JSON.stringify(
     {
+      enabledSources: [...enabledSources],
+      enabledCategories,
       searchedQueries: DISCOVERY_QUERIES.length,
       candidates: screened.length,
       errors

@@ -33,6 +33,7 @@ const els = {
 
 const accessLabels = {
   open: "Open download",
+  "open-link": "Clear data link",
   credentialed: "Credentialed",
   request: "Request access"
 };

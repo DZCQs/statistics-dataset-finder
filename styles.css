@@ -385,6 +385,11 @@ h1 {
   color: #166534;
 }
 
+.access-badge.open-link {
+  background: #dff2fb;
+  color: #075985;
+}
+
 .access-badge.credentialed {
   background: #fff1d6;
   color: var(--gold);

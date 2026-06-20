@@ -44,6 +44,20 @@ assigned labels are supported by the paper metadata, whether labels are reused,
 and whether any paper has too few or too many labels. It is intended to prevent
 label drift when the catalog grows.
 
+## Automated Expansion
+
+The current catalog can be expanded from dataset-first scholarly discovery:
+
+```bash
+node scripts/expand-openalex.mjs --target=450 --pages=4
+```
+
+This writes `data/openalex-candidates.json`. The script starts from known public
+statistics datasets, finds papers through OpenAlex, reuses only the controlled
+labels in `labels.mjs`, and marks generated records as `auto-discovered` and
+`needs-review`. Candidate records should be audited before being treated as
+fully curated.
+
 ## Next Backend Step
 
 The current prototype uses `data/papers.json` as its paper database. A later
