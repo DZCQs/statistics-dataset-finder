@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dataset Paper Finder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Dataset search filters">
+        <a class="brand" href="#" aria-label="Dataset Paper Finder home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" role="img">
+              <path d="M9 13.5c0-3 2.4-5.5 5.5-5.5h19C36.6 8 39 10.5 39 13.5v21c0 3-2.4 5.5-5.5 5.5h-19A5.5 5.5 0 0 1 9 34.5v-21Z" />
+              <path d="M16 18h16M16 24h10M16 30h15" />
+              <circle cx="34" cy="15" r="5" />
+            </svg>
+          </span>
+          <span>
+            <strong>Dataset Paper Finder</strong>
+            <small>Research-ready dataset sources</small>
+          </span>
+        </a>
+
+        <section class="filter-block">
+          <div class="filter-heading">
+            <h2>Topics</h2>
+            <button class="ghost-button" id="clearTopics" type="button">Clear</button>
+          </div>
+          <div class="chip-list" id="topicFilters"></div>
+        </section>
+
+        <section class="filter-block">
+          <h2>Dataset Properties</h2>
+          <label class="check-row">
+            <input type="checkbox" value="open" data-filter="access" />
+            Open download
+          </label>
+          <label class="check-row">
+            <input type="checkbox" value="credentialed" data-filter="access" />
+            Credentialed access
+          </label>
+          <label class="check-row">
+            <input type="checkbox" value="benchmark" data-filter="property" />
+            Benchmark dataset
+          </label>
+          <label class="check-row">
+            <input type="checkbox" value="new-dataset" data-filter="property" />
+            Introduces dataset
+          </label>
+          <label class="check-row">
+            <input type="checkbox" value="code" data-filter="property" />
+            Code available
+          </label>
+        </section>
+
+        <section class="filter-block">
+          <h2>Data Format</h2>
+          <select id="formatFilter">
+            <option value="all">Any format</option>
+          </select>
+        </section>
+      </aside>
+
+      <main class="main">
+        <section class="search-panel" aria-labelledby="pageTitle">
+          <div class="search-copy">
+            <p class="eyebrow">Statistics dataset paper discovery</p>
+            <h1 id="pageTitle">Find statistical papers with datasets that fit your method.</h1>
+          </div>
+          <div class="search-box">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="m21 21-4.3-4.3m1.3-5.2a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" />
+            </svg>
+            <input
+              id="searchInput"
+              type="search"
+              autocomplete="off"
+              placeholder="Search labels, or combine them: causal inference, survey weighting"
+            />
+          </div>
+        </section>
+
+        <section class="insights-grid" aria-label="Catalog summary">
+          <div>
+            <span id="paperCount">0</span>
+            <small>Papers indexed</small>
+          </div>
+          <div>
+            <span id="datasetCount">0</span>
+            <small>Dataset links</small>
+          </div>
+          <div>
+            <span id="topicCount">0</span>
+            <small>Research labels</small>
+          </div>
+          <div>
+            <span id="savedCount">0</span>
+            <small>Saved papers</small>
+          </div>
+        </section>
+
+        <section class="toolbar" aria-label="Result tools">
+          <p id="resultSummary">Showing all papers</p>
+          <div class="toolbar-actions">
+            <select id="sortSelect" aria-label="Sort papers">
+              <option value="relevance">Sort by relevance</option>
+              <option value="year-desc">Newest first</option>
+              <option value="year-asc">Oldest first</option>
+              <option value="citations">Most cited</option>
+            </select>
+            <button id="showSaved" class="secondary-button" type="button" aria-pressed="false">
+              Saved only
+            </button>
+          </div>
+        </section>
+
+        <section class="content-grid">
+          <div class="results" id="results" aria-live="polite"></div>
+
+          <aside class="detail-panel" aria-label="Selected paper details">
+            <div class="empty-detail" id="emptyDetail">
+              <svg viewBox="0 0 160 120" aria-hidden="true">
+                <rect x="18" y="18" width="116" height="78" rx="8" />
+                <path d="M35 38h72M35 54h47M35 70h62" />
+                <circle cx="125" cy="84" r="22" />
+                <path d="M115 84h20M125 74v20" />
+              </svg>
+              <h2>Choose a paper</h2>
+              <p>Open details to inspect labels, dataset access, likely use cases, and collection notes.</p>
+            </div>
+            <article class="paper-detail hidden" id="paperDetail"></article>
+          </aside>
+        </section>
+
+        <section class="submission-panel" aria-labelledby="submitTitle">
+          <div>
+            <p class="eyebrow">Curator review</p>
+            <h2 id="submitTitle">Suggest a paper for review</h2>
+            <p>
+              Public suggestions are private candidates only. They do not change
+              the catalog until a curator verifies the paper, dataset access, and labels.
+            </p>
+          </div>
+          <form id="suggestionForm" name="paper-suggestion" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="paper-suggestion" />
+            <label>
+              Paper title
+              <input name="title" required maxlength="220" placeholder="Paper title" />
+            </label>
+            <label>
+              Paper link
+              <input name="paperUrl" required type="url" placeholder="https://..." />
+            </label>
+            <label>
+              Dataset link
+              <input name="datasetUrl" required type="url" placeholder="https://..." />
+            </label>
+            <label>
+              Suggested research area
+              <input name="researchArea" maxlength="160" placeholder="e.g. missing data, survey weighting, survival models" />
+            </label>
+            <label>
+              Why this dataset is useful
+              <textarea
+                name="note"
+                maxlength="600"
+                placeholder="Briefly mention the dataset access page or why it fits the catalog."
+              ></textarea>
+            </label>
+            <p class="review-note">
+              Suggestions are reviewed before publication. User text is never added directly
+              to the public catalog.
+            </p>
+            <button type="submit">Submit for review</button>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

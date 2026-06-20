@@ -1,0 +1,1023 @@
+[
+  {
+    "id": "posteriordb",
+    "title": "posteriordb: Testing, Benchmarking and Developing Bayesian Inference Algorithms",
+    "authors": "Magnusson et al.",
+    "year": 2025,
+    "citations": 120,
+    "dataset": "posteriordb",
+    "datasetUrl": "https://github.com/stan-dev/posteriordb",
+    "paperUrl": "https://arxiv.org/abs/2407.04967",
+    "access": "open",
+    "formats": [
+      "posterior samples",
+      "stan models",
+      "json metadata"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "code"
+    ],
+    "topics": [
+      "bayesian hierarchical models",
+      "mcmc diagnostics",
+      "multilevel modeling"
+    ],
+    "bestFor": "Benchmarking Bayesian inference algorithms against curated models, data, and reference posterior draws.",
+    "note": "Useful when the research purpose is algorithm comparison, posterior accuracy, scalability, or reproducible Bayesian examples."
+  },
+  {
+    "id": "acic2018",
+    "title": "Benchmarking Framework for Performance-Evaluation of Causal Inference Analysis",
+    "authors": "Shimoni, Yanover, Karavani, Goldschmidt",
+    "year": 2018,
+    "citations": 700,
+    "dataset": "ACIC 2018 Causal Inference Challenge",
+    "datasetUrl": "https://www.synapse.org/ACIC2018Challenge",
+    "paperUrl": "https://arxiv.org/abs/1802.05046",
+    "access": "open",
+    "formats": [
+      "tabular",
+      "simulated outcomes",
+      "covariates"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "code"
+    ],
+    "topics": [
+      "treatment effect estimation",
+      "heterogeneous treatment effects",
+      "propensity score methods"
+    ],
+    "bestFor": "Evaluating average and conditional treatment effect estimators when true counterfactual structure is known.",
+    "note": "Combines real covariates with simulated treatment assignments and outcomes for causal method validation."
+  },
+  {
+    "id": "acic2017",
+    "title": "Atlantic Causal Inference Conference Data Analysis Challenge 2017",
+    "authors": "Dorie et al.",
+    "year": 2019,
+    "citations": 950,
+    "dataset": "ACIC 2017 Data Challenge",
+    "datasetUrl": "https://github.com/vdorie/aciccomp/tree/master/2017",
+    "paperUrl": "https://arxiv.org/abs/1905.09515",
+    "access": "open",
+    "formats": [
+      "tabular",
+      "simulated outcomes",
+      "r data"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "code"
+    ],
+    "topics": [
+      "treatment effect estimation",
+      "heterogeneous treatment effects",
+      "propensity score methods"
+    ],
+    "bestFor": "Comparing causal estimators under controlled data-generating processes and known estimands.",
+    "note": "Especially helpful for research on overlap, model misspecification, and estimator robustness."
+  },
+  {
+    "id": "lalonde",
+    "title": "Evaluating the Econometric Evaluations of Training Programs with Experimental Data",
+    "authors": "LaLonde",
+    "year": 1986,
+    "citations": 7000,
+    "dataset": "National Supported Work / LaLonde NSW data",
+    "datasetUrl": "https://bcallaway11.github.io/qte/reference/lalonde.html",
+    "paperUrl": "https://users.nber.org/~rdehejia/nswdata.html",
+    "access": "open",
+    "formats": [
+      "tabular",
+      "r data",
+      "covariates"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "treatment effect estimation",
+      "propensity score methods",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Teaching and testing matching, weighting, regression adjustment, and sensitivity to observational controls.",
+    "note": "Classic job-training benchmark used to compare experimental and nonexperimental causal estimates."
+  },
+  {
+    "id": "ihdp",
+    "title": "Bayesian Nonparametric Modeling for Causal Inference",
+    "authors": "Hill",
+    "year": 2011,
+    "citations": 4300,
+    "dataset": "Infant Health and Development Program semi-synthetic benchmark",
+    "datasetUrl": "https://www.fredjo.com/",
+    "paperUrl": "https://doi.org/10.1198/jcgs.2010.08162",
+    "access": "open",
+    "formats": [
+      "tabular",
+      "simulated outcomes",
+      "covariates"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "treatment effect estimation",
+      "heterogeneous treatment effects",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Evaluating individual treatment effect methods and Bayesian additive regression tree variants.",
+    "note": "Common benchmark created from randomized trial covariates with simulated potential outcomes."
+  },
+  {
+    "id": "m4",
+    "title": "The M4 Competition: 100,000 Time Series and 61 Forecasting Methods",
+    "authors": "Makridakis, Spiliotis, Assimakopoulos",
+    "year": 2020,
+    "citations": 3600,
+    "dataset": "M4 Forecasting Competition data",
+    "datasetUrl": "https://github.com/Mcompetitions/M4-methods",
+    "paperUrl": "https://doi.org/10.1016/j.ijforecast.2019.04.014",
+    "access": "open",
+    "formats": [
+      "time series",
+      "csv",
+      "frequency groups"
+    ],
+    "properties": [
+      "benchmark",
+      "code"
+    ],
+    "topics": [
+      "time series forecasting"
+    ],
+    "bestFor": "Comparing statistical, machine-learning, and hybrid forecasting methods across many frequencies.",
+    "note": "Large-scale forecasting benchmark with yearly, quarterly, monthly, weekly, daily, and hourly series."
+  },
+  {
+    "id": "m5",
+    "title": "The M5 Competition: Background, Organization, and Implementation",
+    "authors": "Makridakis, Spiliotis, Assimakopoulos",
+    "year": 2022,
+    "citations": 1500,
+    "dataset": "M5 Forecasting Accuracy data",
+    "datasetUrl": "https://zenodo.org/records/12636070",
+    "paperUrl": "https://doi.org/10.1016/j.ijforecast.2021.07.007",
+    "access": "open",
+    "formats": [
+      "hierarchical time series",
+      "calendar data",
+      "sales data"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset"
+    ],
+    "topics": [
+      "time series forecasting",
+      "hierarchical forecasting"
+    ],
+    "bestFor": "Research on hierarchical forecasts, sparse demand, intermittent sales, and reconciliation metrics.",
+    "note": "Daily Walmart product sales with calendar and price features; useful for applied forecasting methodology."
+  },
+  {
+    "id": "nhanes",
+    "title": "National Health and Nutrition Examination Survey",
+    "authors": "CDC National Center for Health Statistics",
+    "year": 1999,
+    "citations": 9000,
+    "dataset": "NHANES continuous survey public-use files",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://www.cdc.gov/nchs/hus/sources-definitions/nhanes.htm",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "sas transport",
+      "questionnaires"
+    ],
+    "properties": [
+      "benchmark",
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Survey-weighted regression, population estimation, measurement protocols, and missingness in health studies.",
+    "note": "Nationally representative health examination survey with weights, strata, clusters, lab files, and questionnaires."
+  },
+  {
+    "id": "gss",
+    "title": "The General Social Survey: A National Data Resource for the Social Sciences",
+    "authors": "Smith et al.",
+    "year": 2019,
+    "citations": 2500,
+    "dataset": "General Social Survey cumulative data",
+    "datasetUrl": "https://gss.norc.org/get-the-data",
+    "paperUrl": "https://gss.norc.org/Documents/reports/project-reports/GSSProject%20report32.pdf",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "stata",
+      "spss"
+    ],
+    "properties": [
+      "benchmark",
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "missing data",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "Analyzing repeated cross-sectional public opinion data with complex questionnaire design and changing modules.",
+    "note": "Useful for social statistics, item nonresponse, trend estimation, and demographic adjustment examples."
+  },
+  {
+    "id": "pew-npors",
+    "title": "Assessing the Risks to Online Polls",
+    "authors": "Pew Research Center",
+    "year": 2020,
+    "citations": 450,
+    "dataset": "National Public Opinion Reference Survey and online poll datasets",
+    "datasetUrl": "https://www.pewresearch.org/methods/datasets/",
+    "paperUrl": "https://www.pewresearch.org/methods/2020/05/12/assessing-the-risks-to-online-polls/",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "questionnaire",
+      "weights"
+    ],
+    "properties": [
+      "benchmark",
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "Studying online polling bias, weighting adjustment, survey mode effects, and representativeness.",
+    "note": "Good applied dataset family for comparing probability and nonprobability survey samples."
+  },
+  {
+    "id": "ntia-internet",
+    "title": "NTIA Internet Use Survey Datasets",
+    "authors": "National Telecommunications and Information Administration",
+    "year": 2023,
+    "citations": 300,
+    "dataset": "Internet Use Survey public-use files",
+    "datasetUrl": "https://www.ntia.gov/page/download-ntia-internet-use-survey-datasets",
+    "paperUrl": "https://www.ntia.gov/data",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "stata",
+      "r data",
+      "csv"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "small area estimation"
+    ],
+    "bestFor": "Applied survey analysis on internet adoption, subgroup estimates, and public-use microdata workflows.",
+    "note": "Public datasets include documentation and multiple file formats, making them practical for statistics teaching and research."
+  },
+  {
+    "id": "imagic500",
+    "title": "IMAGIC-500: IMputation benchmark on A Generative Imaginary Country",
+    "authors": "Santos et al.",
+    "year": 2025,
+    "citations": 30,
+    "dataset": "IMAGIC-500",
+    "datasetUrl": "https://arxiv.org/abs/2506.08844",
+    "paperUrl": "https://arxiv.org/abs/2506.08844",
+    "access": "open",
+    "formats": [
+      "tabular",
+      "synthetic population",
+      "missingness masks"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "nonignorable missing data"
+    ],
+    "bestFor": "Benchmarking imputation under controlled MCAR, MAR, and MNAR mechanisms on structured socioeconomic data.",
+    "note": "Designed for reproducible missing-data studies where true complete values and missingness mechanisms matter."
+  },
+  {
+    "id": "mnartab",
+    "title": "Imputation of Data Missing Not at Random: Artificial Generation and Benchmark Analysis",
+    "authors": "Gonzalez-Vidal et al.",
+    "year": 2024,
+    "citations": 90,
+    "dataset": "MNAR benchmark datasets",
+    "datasetUrl": "https://doi.org/10.1016/j.eswa.2024.123734",
+    "paperUrl": "https://doi.org/10.1016/j.eswa.2024.123734",
+    "access": "request",
+    "formats": [
+      "tabular",
+      "missingness masks"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "nonignorable missing data"
+    ],
+    "bestFor": "Comparing imputation methods when missingness depends on unobserved or value-dependent mechanisms.",
+    "note": "The paper describes multiple MNAR generation strategies and benchmark comparisons across datasets and missingness levels."
+  },
+  {
+    "id": "mimiciv",
+    "title": "MIMIC-IV, a Freely Accessible Electronic Health Record Dataset",
+    "authors": "Johnson et al.",
+    "year": 2023,
+    "citations": 3500,
+    "dataset": "MIMIC-IV",
+    "datasetUrl": "https://physionet.org/content/mimiciv/",
+    "paperUrl": "https://www.nature.com/articles/s41597-022-01899-x",
+    "access": "credentialed",
+    "formats": [
+      "ehr tables",
+      "clinical time series",
+      "event histories"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "code"
+    ],
+    "topics": [
+      "survival models",
+      "longitudinal data analysis",
+      "risk prediction",
+      "missing data"
+    ],
+    "bestFor": "Clinical event-history modeling, longitudinal health trajectories, missingness, and time-to-event prediction.",
+    "note": "Requires PhysioNet credentialing and data-use training because it contains deidentified clinical records."
+  },
+  {
+    "id": "seer",
+    "title": "SEER Cancer Statistics Review and Research Data",
+    "authors": "National Cancer Institute SEER Program",
+    "year": 2024,
+    "citations": 5000,
+    "dataset": "SEER research data",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://seer.cancer.gov/csr/",
+    "access": "credentialed",
+    "formats": [
+      "registry data",
+      "survival outcomes",
+      "case records"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "survival models",
+      "risk prediction"
+    ],
+    "bestFor": "Survival curves, hazard models, competing risk methods, population cancer statistics, and registry-based studies.",
+    "note": "Public research data are available after agreement; strong fit for applied biostatistics and epidemiology methods."
+  },
+  {
+    "id": "addhealth",
+    "title": "The National Longitudinal Study of Adolescent to Adult Health",
+    "authors": "Harris et al.",
+    "year": 2019,
+    "citations": 3200,
+    "dataset": "Add Health public-use data",
+    "datasetUrl": "https://addhealth.cpc.unc.edu/data/",
+    "paperUrl": "https://doi.org/10.1093/ije/dyz115",
+    "access": "credentialed",
+    "formats": [
+      "longitudinal survey",
+      "restricted data",
+      "public-use data"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "multilevel modeling",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "Panel data, clustered samples, attrition, adolescent health trajectories, and multilevel survey models.",
+    "note": "Includes public-use and restricted-use options; access terms differ by file type."
+  },
+  {
+    "id": "psid",
+    "title": "The Panel Study of Income Dynamics: Overview, Recent Innovations, and Potential for Life Course Research",
+    "authors": "McGonagle et al.",
+    "year": 2012,
+    "citations": 2200,
+    "dataset": "Panel Study of Income Dynamics",
+    "datasetUrl": "https://psidonline.isr.umich.edu/",
+    "paperUrl": "https://doi.org/10.1016/j.lifep.2012.05.001",
+    "access": "open",
+    "formats": [
+      "panel survey",
+      "family identifiers",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "survey weighting"
+    ],
+    "bestFor": "Repeated-measures models, life-course analysis, family clustering, and household economic trajectories.",
+    "note": "Long-running panel survey with many modules, weights, and family-linking variables."
+  },
+  {
+    "id": "acs-pums",
+    "title": "American Community Survey Public Use Microdata Sample",
+    "authors": "U.S. Census Bureau",
+    "year": 2024,
+    "citations": 6000,
+    "dataset": "ACS PUMS",
+    "datasetUrl": "https://www.census.gov/programs-surveys/acs/microdata.html",
+    "paperUrl": "https://www.census.gov/programs-surveys/acs/methodology.html",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "csv",
+      "replicate weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "small area estimation"
+    ],
+    "bestFor": "Weighted population estimation, replicate-weight variance estimation, demographic modeling, and small-area examples.",
+    "note": "Core public-use microdata source for official statistics with detailed survey design documentation."
+  },
+  {
+    "id": "cps-asec",
+    "title": "Current Population Survey Annual Social and Economic Supplement",
+    "authors": "U.S. Census Bureau and Bureau of Labor Statistics",
+    "year": 2024,
+    "citations": 5000,
+    "dataset": "CPS ASEC public-use microdata",
+    "datasetUrl": "https://www.census.gov/data/datasets/time-series/demo/cps/cps-asec.html",
+    "paperUrl": "https://www.census.gov/programs-surveys/cps/technical-documentation/methodology.html",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "csv",
+      "data dictionary"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "small area estimation"
+    ],
+    "bestFor": "Survey-weighted income, poverty, labor, demographic, and policy analysis with repeated annual files.",
+    "note": "Useful for public statistics workflows, variance estimation, and longitudinal-style repeated cross-section research."
+  },
+  {
+    "id": "tennessee-star",
+    "title": "The Effects of Small Classes on Academic Achievement: The Results of the Tennessee Class Size Experiment",
+    "authors": "Nye, Hedges, Konstantopoulos",
+    "year": 2000,
+    "citations": 2500,
+    "dataset": "Project STAR class-size experiment data",
+    "datasetUrl": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/10766",
+    "paperUrl": "https://doi.org/10.3102/00028312037001123",
+    "access": "open",
+    "formats": [
+      "experimental data",
+      "student outcomes",
+      "covariates"
+    ],
+    "properties": [
+      "benchmark",
+      "documentation"
+    ],
+    "topics": [
+      "randomized experiments",
+      "treatment effect estimation",
+      "multilevel modeling"
+    ],
+    "bestFor": "Studying treatment effects in education experiments with clustering, repeated measurements, and classroom assignment.",
+    "note": "A canonical social-science experiment for teaching clustered designs and finite-sample treatment-effect estimation."
+  },
+  {
+    "id": "oregon-health",
+    "title": "The Oregon Health Insurance Experiment: Evidence from the First Year",
+    "authors": "Finkelstein et al.",
+    "year": 2012,
+    "citations": 4200,
+    "dataset": "Oregon Health Insurance Experiment public-use data",
+    "datasetUrl": "https://www.nber.org/oregon",
+    "paperUrl": "https://www.nber.org/papers/w17190",
+    "access": "open",
+    "formats": [
+      "experimental data",
+      "survey data",
+      "administrative records"
+    ],
+    "properties": [
+      "benchmark",
+      "code"
+    ],
+    "topics": [
+      "randomized experiments",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Studying noncompliance, lottery-based assignment, intent-to-treat effects, and instrumental-variable estimation.",
+    "note": "The NBER page provides public-use data and replication code for the Oregon Medicaid lottery study."
+  },
+  {
+    "id": "hrs",
+    "title": "Cohort Profile: The Health and Retirement Study",
+    "authors": "Sonnega et al.",
+    "year": 2014,
+    "citations": 4500,
+    "dataset": "Health and Retirement Study",
+    "datasetUrl": "https://hrsdata.isr.umich.edu/",
+    "paperUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3997380/",
+    "access": "credentialed",
+    "formats": [
+      "longitudinal survey",
+      "panel survey",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "survey weighting"
+    ],
+    "bestFor": "Longitudinal aging research, repeated measures, attrition, and survey-weighted analysis of older adults.",
+    "note": "A major longitudinal household survey with public and restricted files; registration is required for downloads."
+  },
+  {
+    "id": "anes-cdf",
+    "title": "ANES Time Series Cumulative Data File",
+    "authors": "American National Election Studies",
+    "year": 2024,
+    "citations": 3500,
+    "dataset": "ANES Time Series Cumulative Data File",
+    "datasetUrl": "https://electionstudies.org/data-center/anes-time-series-cumulative-data-file/",
+    "paperUrl": "https://electionstudies.org/data-center/",
+    "access": "open",
+    "formats": [
+      "repeated cross-section",
+      "survey microdata",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting"
+    ],
+    "bestFor": "Analyzing survey trends, mode changes, subgroup estimation, and repeated cross-sectional political survey data.",
+    "note": "The cumulative file harmonizes repeated ANES surveys and includes weights for recent mixed-mode samples."
+  },
+  {
+    "id": "ipums-usa",
+    "title": "Interoperable and Accessible Census and Survey Data from IPUMS",
+    "authors": "Ruggles et al.",
+    "year": 2017,
+    "citations": 2600,
+    "dataset": "IPUMS USA census and ACS microdata",
+    "datasetUrl": "https://usa.ipums.org/usa/",
+    "paperUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5827695/",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "census microdata",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "small area estimation"
+    ],
+    "bestFor": "Population estimation, survey-weighted regression, historical microdata analysis, and public-use sample design.",
+    "note": "IPUMS harmonizes census and survey microdata, making it useful for methods that need large public-use samples."
+  },
+  {
+    "id": "wvs",
+    "title": "The World Values Survey: A Source of Comparative Social Data",
+    "authors": "World Values Survey Association",
+    "year": 2022,
+    "citations": 5000,
+    "dataset": "World Values Survey longitudinal and wave files",
+    "datasetUrl": "https://www.worldvaluessurvey.org/WVSContents.jsp",
+    "paperUrl": "https://www.worldvaluessurvey.org/WVSContents.jsp",
+    "access": "open",
+    "formats": [
+      "repeated cross-section",
+      "survey microdata",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting"
+    ],
+    "bestFor": "Cross-national survey analysis, repeated cross-sectional models, and measurement comparability research.",
+    "note": "The World Values Survey provides multiple waves and integrated files for comparative survey methodology."
+  },
+  {
+    "id": "pbc-survival",
+    "title": "A Model to Predict Survival in Patients with Primary Biliary Cirrhosis",
+    "authors": "Dickson et al.",
+    "year": 1989,
+    "citations": 2200,
+    "dataset": "Mayo Clinic Primary Biliary Cirrhosis data",
+    "datasetUrl": "https://rdrr.io/cran/survival/man/pbc.html",
+    "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/2913105/",
+    "access": "open",
+    "formats": [
+      "survival outcomes",
+      "clinical covariates",
+      "r data"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "survival models",
+      "risk prediction"
+    ],
+    "bestFor": "Teaching Cox models, censoring, clinical prognostic modeling, and survival-model diagnostics.",
+    "note": "The dataset is distributed in the R survival package and is a standard example for survival analysis."
+  },
+  {
+    "id": "veteran-lung",
+    "title": "Treatment of Inoperable Lung Cancer",
+    "authors": "Veterans Administration Lung Cancer Study Group",
+    "year": 1969,
+    "citations": 1200,
+    "dataset": "Veterans Administration lung cancer trial data",
+    "datasetUrl": "https://rdrr.io/cran/survival/man/veteran.html",
+    "paperUrl": "https://rdrr.io/cran/survival/man/veteran.html",
+    "access": "open",
+    "formats": [
+      "survival outcomes",
+      "clinical trial data",
+      "r data"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "survival models",
+      "randomized experiments"
+    ],
+    "bestFor": "Comparing treatment groups with censored survival outcomes in a classic randomized clinical trial example.",
+    "note": "A compact survival-analysis benchmark included in the R survival package."
+  },
+  {
+    "id": "rotterdam-gbsg",
+    "title": "External Validation of a Cox Prognostic Model: Principles and Methods",
+    "authors": "Royston and Altman",
+    "year": 2013,
+    "citations": 1800,
+    "dataset": "Rotterdam and GBSG breast cancer survival data",
+    "datasetUrl": "https://rdrr.io/cran/survival/man/rotterdam.html",
+    "paperUrl": "https://doi.org/10.1186/1471-2288-13-33",
+    "access": "open",
+    "formats": [
+      "survival outcomes",
+      "clinical covariates",
+      "r data"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "survival models",
+      "risk prediction"
+    ],
+    "bestFor": "Validating prognostic survival models, calibration, discrimination, and external validation workflows.",
+    "note": "The Rotterdam and GBSG datasets are common survival-model validation examples."
+  },
+  {
+    "id": "support",
+    "title": "A Controlled Trial to Improve Care for Seriously Ill Hospitalized Patients",
+    "authors": "SUPPORT Principal Investigators",
+    "year": 1995,
+    "citations": 6500,
+    "dataset": "SUPPORT study data",
+    "datasetUrl": "https://hbiostat.org/data/",
+    "paperUrl": "https://doi.org/10.1001/jama.1995.03520320032032",
+    "access": "open",
+    "formats": [
+      "survival outcomes",
+      "clinical covariates",
+      "r data"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "survival models",
+      "risk prediction",
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Clinical prediction, survival modeling, missing covariates, and validation of prognostic models.",
+    "note": "The dataset is widely used in regression modeling and clinical prediction examples."
+  },
+  {
+    "id": "framingham",
+    "title": "Epidemiological Approaches to Heart Disease: The Framingham Study",
+    "authors": "Dawber, Meadors, Moore",
+    "year": 1951,
+    "citations": 8000,
+    "dataset": "Framingham Heart Study data",
+    "datasetUrl": "https://www.framinghamheartstudy.org/fhs-for-researchers/data-available-overview/",
+    "paperUrl": "https://www.framinghamheartstudy.org/fhs-for-researchers/",
+    "access": "credentialed",
+    "formats": [
+      "longitudinal cohort",
+      "clinical measurements",
+      "event histories"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "survival models",
+      "risk prediction"
+    ],
+    "bestFor": "Cohort analysis, cardiovascular risk prediction, repeated measurements, and time-to-event methods.",
+    "note": "Access varies by file and is commonly routed through controlled research data systems."
+  },
+  {
+    "id": "nlsy79",
+    "title": "The National Longitudinal Surveys of Youth Labor Market Experience",
+    "authors": "Bureau of Labor Statistics",
+    "year": 1979,
+    "citations": 4500,
+    "dataset": "National Longitudinal Survey of Youth 1979",
+    "datasetUrl": "https://www.nlsinfo.org/content/cohorts/nlsy79",
+    "paperUrl": "https://www.nlsinfo.org/content/cohorts/nlsy79",
+    "access": "open",
+    "formats": [
+      "longitudinal survey",
+      "panel survey",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "Panel-data modeling, life-course trajectories, attrition, and repeated survey measurement.",
+    "note": "A long-running labor and life-course panel with detailed public documentation."
+  },
+  {
+    "id": "charls",
+    "title": "Cohort Profile: The China Health and Retirement Longitudinal Study",
+    "authors": "Zhao et al.",
+    "year": 2014,
+    "citations": 3400,
+    "dataset": "China Health and Retirement Longitudinal Study",
+    "datasetUrl": "https://charls.charlsdata.com/",
+    "paperUrl": "https://doi.org/10.1093/ije/dys203",
+    "access": "open",
+    "formats": [
+      "longitudinal survey",
+      "panel survey",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "multilevel modeling",
+      "survey weighting"
+    ],
+    "bestFor": "Aging research, longitudinal health modeling, clustered survey analysis, and cross-wave panel studies.",
+    "note": "CHARLS is a public longitudinal survey for aging and health research in China."
+  },
+  {
+    "id": "m3-competition",
+    "title": "The M3-Competition: Results, Conclusions and Implications",
+    "authors": "Makridakis and Hibon",
+    "year": 2000,
+    "citations": 5200,
+    "dataset": "M3 forecasting competition data",
+    "datasetUrl": "https://github.com/Mcompetitions/M3-methods",
+    "paperUrl": "https://doi.org/10.1016/S0169-2070(00)00057-1",
+    "access": "open",
+    "formats": [
+      "time series",
+      "frequency groups",
+      "csv"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "time series forecasting"
+    ],
+    "bestFor": "Benchmarking forecasting methods and comparing statistical forecasts across multiple time-series frequencies.",
+    "note": "An influential pre-M4 forecasting benchmark with many series and published competition results."
+  },
+  {
+    "id": "tourism-competition",
+    "title": "The Tourism Forecasting Competition",
+    "authors": "Athanasopoulos et al.",
+    "year": 2011,
+    "citations": 1300,
+    "dataset": "Tourism forecasting competition data",
+    "datasetUrl": "https://robjhyndman.com/data/tourism/",
+    "paperUrl": "https://doi.org/10.1016/j.ijforecast.2010.04.009",
+    "access": "open",
+    "formats": [
+      "time series",
+      "tourism flows",
+      "csv"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "time series forecasting",
+      "hierarchical forecasting"
+    ],
+    "bestFor": "Forecasting tourism demand, evaluating forecast accuracy, and studying hierarchical tourism series.",
+    "note": "A domain-specific forecasting benchmark used in applied time-series research."
+  },
+  {
+    "id": "gefcom2014",
+    "title": "Probabilistic Energy Forecasting: Global Energy Forecasting Competition 2014 and Beyond",
+    "authors": "Hong, Pinson, Fan",
+    "year": 2016,
+    "citations": 1800,
+    "dataset": "GEFCom2014 energy forecasting data",
+    "datasetUrl": "https://www.drhongtao.com/gefcom",
+    "paperUrl": "https://doi.org/10.1016/j.ijforecast.2016.02.001",
+    "access": "open",
+    "formats": [
+      "time series",
+      "energy load",
+      "probabilistic forecasts"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "time series forecasting"
+    ],
+    "bestFor": "Evaluating probabilistic forecasts, prediction intervals, and energy load or price forecasting methods.",
+    "note": "A standard benchmark for probabilistic forecasting with multiple energy forecasting tracks."
+  },
+  {
+    "id": "eight-schools",
+    "title": "Estimation in Parallel Randomized Experiments",
+    "authors": "Rubin",
+    "year": 1981,
+    "citations": 2500,
+    "dataset": "Eight schools coaching-effects data",
+    "datasetUrl": "https://mc-stan.org/users/documentation/case-studies/divergences_and_bias.html",
+    "paperUrl": "https://doi.org/10.1214/aos/1176345330",
+    "access": "open",
+    "formats": [
+      "summary statistics",
+      "hierarchical data"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "bayesian hierarchical models",
+      "mcmc diagnostics",
+      "multilevel modeling",
+      "randomized experiments"
+    ],
+    "bestFor": "Teaching hierarchical Bayesian modeling, shrinkage, partial pooling, and MCMC pathologies.",
+    "note": "A small but famous benchmark for Bayesian hierarchical models."
+  },
+  {
+    "id": "radon",
+    "title": "Data Analysis Using Regression and Multilevel/Hierarchical Models",
+    "authors": "Gelman and Hill",
+    "year": 2007,
+    "citations": 12000,
+    "dataset": "Minnesota radon data",
+    "datasetUrl": "https://stat.columbia.edu/~gelman/arm/examples/radon/",
+    "paperUrl": "https://stat.columbia.edu/~gelman/arm/",
+    "access": "open",
+    "formats": [
+      "multilevel data",
+      "county data",
+      "measurements"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "bayesian hierarchical models",
+      "mcmc diagnostics",
+      "multilevel modeling"
+    ],
+    "bestFor": "Teaching multilevel regression, county-level variation, shrinkage, and partial pooling.",
+    "note": "A widely used applied example for hierarchical regression and multilevel modeling."
+  },
+  {
+    "id": "lee-rdd",
+    "title": "Randomized Experiments from Non-random Selection in U.S. House Elections",
+    "authors": "Lee",
+    "year": 2008,
+    "citations": 5300,
+    "dataset": "U.S. House close-election regression-discontinuity data",
+    "datasetUrl": "https://rdpackages.github.io/rdrobust/",
+    "paperUrl": "https://doi.org/10.1016/j.jeconom.2007.05.004",
+    "access": "open",
+    "formats": [
+      "election returns",
+      "panel data",
+      "r data"
+    ],
+    "properties": [
+      "benchmark",
+      "code"
+    ],
+    "topics": [
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Studying regression-discontinuity designs, local treatment effects, and close-election identification.",
+    "note": "Close-election examples are commonly distributed through regression-discontinuity teaching and software resources."
+  },
+  {
+    "id": "card-krueger",
+    "title": "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania",
+    "authors": "Card and Krueger",
+    "year": 1994,
+    "citations": 13000,
+    "dataset": "New Jersey and Pennsylvania fast-food minimum-wage data",
+    "datasetUrl": "https://davidcard.berkeley.edu/data_sets.html",
+    "paperUrl": "https://doi.org/10.1257/aer.84.4.772",
+    "access": "open",
+    "formats": [
+      "panel data",
+      "survey data",
+      "establishment data"
+    ],
+    "properties": [
+      "benchmark"
+    ],
+    "topics": [
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "panel data methods"
+    ],
+    "bestFor": "Teaching difference-in-differences, policy evaluation, and panel comparisons with before-after treatment timing.",
+    "note": "A classic applied econometrics dataset for policy evaluation and causal inference."
+  }
+]
