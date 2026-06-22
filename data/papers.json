@@ -14119,67 +14119,30 @@
     }
   },
   {
-    "id": "oa-alzheimer-s-disease-neuroimaging-initiative-alzheimer-s-disease-neuroimaging-initiative-adni",
+    "id": "adni",
     "title": "Alzheimer's Disease Neuroimaging Initiative (ADNI)",
-    "authors": "Ronald C. Petersen, Paul Aisen, Laurel Beckett, Michael Donohue, Anthony Gamst, Danielle Harvey",
+    "authors": "Petersen et al.",
     "year": 2009,
     "citations": 2533,
     "dataset": "Alzheimer's Disease Neuroimaging Initiative",
     "datasetUrl": "https://adni.loni.usc.edu/data-samples/access-data/",
     "paperUrl": "https://doi.org/10.1212/wnl.0b013e3181cb3e25",
-    "access": "open-link",
+    "access": "credentialed",
     "formats": [
-      "public dataset",
-      "article metadata"
+      "longitudinal imaging",
+      "biomarkers",
+      "clinical assessments"
     ],
     "properties": [
-      "existing-dataset",
-      "auto-discovered",
-      "needs-review"
+      "documentation"
     ],
     "topics": [
       "longitudinal data analysis",
       "risk prediction",
-      "survival models",
-      "randomized experiments"
+      "multilevel modeling"
     ],
-    "bestFor": "Finding a Alzheimer's Disease Neuroimaging Initiative example for longitudinal data analysis, risk prediction, survival models, randomized experiments.",
-    "note": "Auto-discovered with OpenAlex from dataset seed \"Alzheimer's Disease Neuroimaging Initiative\". Review the abstract and dataset use before treating this as fully curated.",
-    "discovery": {
-      "source": "openalex",
-      "openalexUrl": "https://openalex.org/W2122328291",
-      "labelEvidence": [
-        {
-          "label": "longitudinal data analysis",
-          "score": 3,
-          "evidence": [
-            "Alzheimer's Disease Neuroimaging Initiative"
-          ]
-        },
-        {
-          "label": "risk prediction",
-          "score": 3,
-          "evidence": [
-            "Alzheimer's Disease Neuroimaging Initiative"
-          ]
-        },
-        {
-          "label": "survival models",
-          "score": 3,
-          "evidence": [
-            "Alzheimer's Disease Neuroimaging Initiative"
-          ]
-        },
-        {
-          "label": "randomized experiments",
-          "score": 2,
-          "evidence": [
-            "trial",
-            "clinical trial"
-          ]
-        }
-      ]
-    }
+    "bestFor": "Modeling longitudinal cognitive decline with multi-site biomarkers, repeated imaging, and prediction of future Alzheimer's outcomes.",
+    "note": "ADNI is a multi-site longitudinal cohort with registered access, useful for repeated-measures analysis, clustered site effects, and prognostic modeling."
   },
   {
     "id": "oa-alzheimer-s-disease-neuroimaging-initiative-cerebrospinal-fluid-biomarker-signature-in-alzheimer-s-disease-neuroimag",
@@ -26529,5 +26492,161 @@
         }
       ]
     }
+  },
+  {
+    "id": "elsa",
+    "title": "Cohort Profile: The English Longitudinal Study of Ageing",
+    "authors": "Steptoe et al.",
+    "year": 2012,
+    "citations": 1701,
+    "dataset": "English Longitudinal Study of Ageing",
+    "datasetUrl": "https://www.elsa-project.ac.uk/accessing-elsa-data",
+    "paperUrl": "https://doi.org/10.1093/ije/dys168",
+    "access": "credentialed",
+    "formats": [
+      "longitudinal survey",
+      "panel survey",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "survey weighting"
+    ],
+    "bestFor": "Longitudinal ageing research with panel survey waves, sample weights, repeated measures, and linked health outcomes.",
+    "note": "Canonical cohort-profile paper for ELSA, a registered-access ageing study that supports panel methods, attrition-aware longitudinal analysis, and weighted population inference."
+  },
+  {
+    "id": "share",
+    "title": "Data Resource Profile: The Survey of Health, Ageing and Retirement in Europe (SHARE)",
+    "authors": "Boersch-Supan et al.",
+    "year": 2013,
+    "citations": 2308,
+    "dataset": "Survey of Health, Ageing and Retirement in Europe",
+    "datasetUrl": "https://share-eric.eu/data",
+    "paperUrl": "https://doi.org/10.1093/ije/dyt088",
+    "access": "credentialed",
+    "formats": [
+      "longitudinal survey",
+      "panel survey",
+      "cross-national microdata"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "multilevel modeling"
+    ],
+    "bestFor": "Cross-national panel analyses of ageing with repeated waves, clustered country structure, and harmonized survey microdata.",
+    "note": "SHARE is a registered-access longitudinal resource with panel interviews across countries, making it useful for panel methods, multilevel modeling, and comparative ageing research."
+  },
+  {
+    "id": "eicu",
+    "title": "The eICU Collaborative Research Database, a freely available multi-center database for critical care research",
+    "authors": "Pollard et al.",
+    "year": 2018,
+    "citations": 1841,
+    "dataset": "eICU Collaborative Research Database",
+    "datasetUrl": "https://physionet.org/content/eicu-crd/2.0/",
+    "paperUrl": "https://doi.org/10.1038/sdata.2018.178",
+    "access": "credentialed",
+    "formats": [
+      "electronic health records",
+      "time-stamped events",
+      "clinical outcomes"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models"
+    ],
+    "bestFor": "ICU risk prediction, time-to-event modeling, repeated-measures trajectories, and multi-center critical-care benchmarking.",
+    "note": "PhysioNet distributes eICU after training and agreement. The database supports longitudinal ICU trajectories, prognostic risk prediction, and survival-style outcomes research."
+  },
+  {
+    "id": "meps",
+    "title": "The Medical Expenditure Panel Survey",
+    "authors": "Cohen, Cohen, Banthin",
+    "year": 2009,
+    "citations": 341,
+    "dataset": "Medical Expenditure Panel Survey",
+    "datasetUrl": "https://meps.ahrq.gov/mepsweb/",
+    "paperUrl": "https://doi.org/10.1097/mlr.0b013e3181a23e3a",
+    "access": "open-link",
+    "formats": [
+      "panel survey",
+      "medical expenditures",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "panel data methods"
+    ],
+    "bestFor": "Health-care utilization and expenditure research with panel survey design, weights, and repeated household interviews.",
+    "note": "MEPS is a publicly documented health survey resource designed for policy analysis with complex survey design features, survey weighting, and short panel structure."
+  },
+  {
+    "id": "sipp",
+    "title": "Survey of Income and Program Participation",
+    "authors": "Herriot, Kasprzyk",
+    "year": 1984,
+    "citations": 228,
+    "dataset": "Survey of Income and Program Participation",
+    "datasetUrl": "https://www.census.gov/programs-surveys/sipp/data.html",
+    "paperUrl": "https://www.popline.org/node/418635",
+    "access": "open",
+    "formats": [
+      "panel survey",
+      "income histories",
+      "program participation"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "survey weighting"
+    ],
+    "bestFor": "Income dynamics, transfer-program participation, household transitions, and weighted panel analysis over repeated interview waves.",
+    "note": "Foundational SIPP design paper describing the longitudinal household survey, rotating interview waves, and data products for panel and program-participation research."
+  },
+  {
+    "id": "nhis",
+    "title": "Current Estimates from the National Health Interview Survey",
+    "authors": "National Center for Health Statistics",
+    "year": 1981,
+    "citations": 1875,
+    "dataset": "National Health Interview Survey",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhis/index.html",
+    "paperUrl": "https://pubmed.ncbi.nlm.nih.gov/7324382/",
+    "access": "open-link",
+    "formats": [
+      "survey microdata",
+      "questionnaires",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "National health survey analysis with complex sample design, weighting, nonresponse adjustment, and official health-estimate workflows.",
+    "note": "Core NHIS survey documentation and summary source for a large public-use health survey with design variables, weighting, and nonresponse-related estimation concerns."
   }
 ]
