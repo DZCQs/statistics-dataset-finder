@@ -26648,5 +26648,189 @@
     ],
     "bestFor": "National health survey analysis with complex sample design, weighting, nonresponse adjustment, and official health-estimate workflows.",
     "note": "Core NHIS survey documentation and summary source for a large public-use health survey with design variables, weighting, and nonresponse-related estimation concerns."
+  },
+  {
+    "id": "scf-multiple-imputation",
+    "title": "Multiple imputation in the Survey of Consumer Finances",
+    "authors": "Kennickell",
+    "year": 2017,
+    "citations": 176,
+    "dataset": "Survey of Consumer Finances public microdata",
+    "datasetUrl": "https://www.federalreserve.gov/econres/scfindex.htm",
+    "paperUrl": "https://doi.org/10.3233/sji-160278",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "multiply imputed files",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "multiple imputation",
+      "missing data",
+      "survey weighting",
+      "complex survey design"
+    ],
+    "bestFor": "Studying how multiple implicates, item nonresponse, and survey weights interact in public-use wealth microdata.",
+    "note": "The SCF public files are released with multiple implicates and survey weights, making this paper a strong dataset-specific anchor for missing-data and weighted-estimation workflows."
+  },
+  {
+    "id": "fragile-families-sample-design",
+    "title": "Fragile Families: sample and design",
+    "authors": "Reichman, Teitler, Garfinkel, McLanahan",
+    "year": 2001,
+    "citations": 1594,
+    "dataset": "Fragile Families and Child Wellbeing Study",
+    "datasetUrl": "https://ffcws.princeton.edu/",
+    "paperUrl": "https://doi.org/10.1016/S0190-7409(01)00141-4",
+    "access": "open-link",
+    "formats": [
+      "longitudinal survey",
+      "birth cohort",
+      "family panel"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "multilevel modeling",
+      "survey weighting"
+    ],
+    "bestFor": "Longitudinal family research with repeated interviews, clustered city sampling, and public-use panel files.",
+    "note": "The Fragile Families study combines a birth-cohort design, repeated follow-up waves, and weighted public data, making it useful for panel, multilevel, and longitudinal methodology work."
+  },
+  {
+    "id": "yrbss-methods-2023",
+    "title": "Overview and Methods for the Youth Risk Behavior Surveillance System — United States, 2023",
+    "authors": "Brener, Mpofu, Krause, Jones",
+    "year": 2024,
+    "citations": 80,
+    "dataset": "Youth Risk Behavior Surveillance System",
+    "datasetUrl": "https://www.cdc.gov/yrbs/",
+    "paperUrl": "https://doi.org/10.15585/mmwr.su7304a1",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "questionnaires",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "State and national adolescent survey analysis with school-based stratified sampling, weights, and response-rate adjustments.",
+    "note": "The YRBSS methods overview documents multistage sampling, weighting, and nonresponse handling for a widely reused public-use survey."
+  },
+  {
+    "id": "nsfg-2002",
+    "title": "Fertility, family planning, and reproductive health of U.S. women: Data from the 2002 National Survey of Family Growth",
+    "authors": "Chandra, Martinez, Mosher, Abma",
+    "year": 2005,
+    "citations": 964,
+    "dataset": "National Survey of Family Growth public-use files",
+    "datasetUrl": "https://www.cdc.gov/nchs/nsfg/index.htm",
+    "paperUrl": "https://doi.org/10.1037/e414702008-001",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "questionnaires",
+      "weights"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "National fertility and family-health survey analysis with complex design features, official weights, and documented response adjustments.",
+    "note": "NSFG provides public-use survey files and documentation that support design-aware estimation and nonresponse-sensitive analysis in household survey research."
+  },
+  {
+    "id": "mtf-2017-overview",
+    "title": "Monitoring the Future national survey results on drug use, 1975-2017: Overview, key findings on adolescent drug use",
+    "authors": "Johnston et al.",
+    "year": 2018,
+    "citations": 1205,
+    "dataset": "Monitoring the Future study",
+    "datasetUrl": "https://monitoringthefuture.org/data/",
+    "paperUrl": "https://doi.org/10.3998/2027.42/148123",
+    "access": "open-link",
+    "formats": [
+      "repeated cross-sections",
+      "questionnaires",
+      "trend tables"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "Repeated national adolescent trend analysis with school-based survey design, annual questionnaire changes, and weighted estimates.",
+    "note": "Monitoring the Future is a long-running public survey series whose official overview is useful for survey-design, weighting, and nonresponse-aware trend analysis."
+  },
+  {
+    "id": "pisa-data-analysis-manual",
+    "title": "PISA Data Analysis Manual: SPSS, Second Edition",
+    "authors": "OECD",
+    "year": 2009,
+    "citations": 255,
+    "dataset": "PISA international assessment database",
+    "datasetUrl": "https://www.oecd.org/pisa/data/",
+    "paperUrl": "https://doi.org/10.1787/9789264056275-en",
+    "access": "open",
+    "formats": [
+      "assessment microdata",
+      "replicate weights",
+      "student questionnaires"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "multilevel modeling"
+    ],
+    "bestFor": "Large-scale educational assessment analysis with replicate weights, clustered student-school structure, and multilevel modeling workflows.",
+    "note": "The OECD manual is the core documentation for working with PISA microdata, especially weighted estimation and multilevel analyses."
+  },
+  {
+    "id": "brfss-weighting",
+    "title": "National weighting of data from the Behavioral Risk Factor Surveillance System (BRFSS)",
+    "authors": "Iachan, Pierannunzi, Healey, Greenlund",
+    "year": 2016,
+    "citations": 96,
+    "dataset": "Behavioral Risk Factor Surveillance System",
+    "datasetUrl": "https://www.cdc.gov/brfss/",
+    "paperUrl": "https://doi.org/10.1186/s12874-016-0255-7",
+    "access": "open",
+    "formats": [
+      "survey microdata",
+      "weights",
+      "state-based survey"
+    ],
+    "properties": [
+      "documentation"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey weighting",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "Analyzing large state-based survey data with raking weights, response adjustments, and design-aware estimation.",
+    "note": "BRFSS is a major public-use survey, and this weighting paper is directly useful for work on survey adjustment, calibration, and design-aware inference."
   }
 ]
