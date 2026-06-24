@@ -26832,5 +26832,2819 @@
     ],
     "bestFor": "Analyzing large state-based survey data with raking weights, response adjustments, and design-aware estimation.",
     "note": "BRFSS is a major public-use survey, and this weighting paper is directly useful for work on survey adjustment, calibration, and design-aware inference."
+  },
+  {
+    "id": "oa-nhanes-potential-us-population-impact-of-the-2017-acc-aha-high-blood-pressure-g",
+    "title": "Potential US Population Impact of the 2017 ACC/AHA High Blood Pressure Guideline",
+    "authors": "Paul Muntner, Robert M. Carey, Samuel S. Gidding, Daniel W. Jones, Sandra J. Taler, Jackson T. Wright",
+    "year": 2017,
+    "citations": 972,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1161/circulationaha.117.032582",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2783873885",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-trends-in-prevalence-of-diabetes-and-control-of-risk-factors-in-diabetes",
+    "title": "Trends in Prevalence of Diabetes and Control of Risk Factors in Diabetes Among US Adults, 1999-2018",
+    "authors": "Li Wang, Xiaoguang Li, Zhaoxin Wang, Michael P. Bancks, Mercedes R. Carnethon, Philip Greenland",
+    "year": 2021,
+    "citations": 562,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1001/jama.2021.9883",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W3174681850",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-urinary-concentrations-of-triclosan-in-the-u-s-population-2003-2004",
+    "title": "Urinary Concentrations of Triclosan in the U.S. Population: 2003–2004",
+    "authors": "Antonia M. Calafat, Xiaoyun Ye, Lee-Yang Wong, John A. Reidy, Larry L. Needham",
+    "year": 2007,
+    "citations": 555,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1289/ehp.10768",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2009553946",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-exposure-to-polyfluoroalkyl-chemicals-and-cholesterol-body-weight-and-in",
+    "title": "Exposure to Polyfluoroalkyl Chemicals and Cholesterol, Body Weight, and Insulin Resistance in the General U.S. Population",
+    "authors": "Jessica Nelson, Elizabeth E. Hatch, Thomas F. Webster",
+    "year": 2009,
+    "citations": 548,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1289/ehp.0901165",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2025315910",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-the-association-between-triglyceride-glucose-index-and-its-combination-w",
+    "title": "The association between triglyceride-glucose index and its combination with obesity indicators and cardiovascular disease: NHANES 2003–2018",
+    "authors": "Keke Dang, Xuanyang Wang, Jinxia Hu, Yuntao Zhang, Licheng Cheng, Qi Xiang",
+    "year": 2024,
+    "citations": 540,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1186/s12933-023-02115-9",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting",
+      "survival models"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W4390640401",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 2,
+          "evidence": [
+            "cox",
+            "hazard"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-using-the-lower-limit-of-normal-for-the-fev1-fvc-ratio-reduces-the-miscl",
+    "title": "Using the lower limit of normal for the FEV1/FVC ratio reduces the misclassification of airway obstruction",
+    "authors": "MP Swanney, Gregg L Ruppel, Paul Enright, Ole F. Pedersen, Robert O. Crapo, Martin R. Miller",
+    "year": 2008,
+    "citations": 537,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1136/thx.2008.098483",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2145153937",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-sedentary-activity-associated-with-metabolic-syndrome-independent-of-phy",
+    "title": "Sedentary Activity Associated With Metabolic Syndrome Independent of Physical Activity",
+    "authors": "Andrea Bankoski, Tamara B. Harris, James J. McClain, Robert J. Brychta, Paolo Caserotti, Kong Y. Chen",
+    "year": 2011,
+    "citations": 535,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.2337/dc10-0987",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2028089831",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-application-of-support-vector-machine-modeling-for-prediction-of-common-",
+    "title": "Application of support vector machine modeling for prediction of common diseases: the case of diabetes and pre-diabetes",
+    "authors": "Wei Yu, Tiebin Liu, Rodolfo Valdéz, Marta Gwinn, Muin J. Khoury",
+    "year": 2010,
+    "citations": 520,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1186/1472-6947-10-16",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2131414141",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-consumption-of-ultra-processed-foods-and-associated-sociodemographic-fac",
+    "title": "Consumption of ultra-processed foods and associated sociodemographic factors in the USA between 2007 and 2012: evidence from a nationally representative cross-sectional study",
+    "authors": "Larissa Galastri Baraldi, Eurídice Martínez Steele, Daniela Silva Canella, Carlos Augusto Monteiro",
+    "year": 2018,
+    "citations": 503,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1136/bmjopen-2017-020574",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2789692613",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-association-between-serum-perfluorooctanoic-acid-pfoa-and-thyroid-diseas",
+    "title": "Association between Serum Perfluorooctanoic Acid (PFOA) and Thyroid Disease in the U.S. National Health and Nutrition Examination Survey",
+    "authors": "David Melzer, Neil Rice, Michael H. Depledge, William Henley, Tamara S. Galloway",
+    "year": 2010,
+    "citations": 497,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1289/ehp.0901584",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2025817299",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-serum-concentrations-of-uric-acid-and-the-metabolic-syndrome-among-us-ch",
+    "title": "Serum Concentrations of Uric Acid and the Metabolic Syndrome Among US Children and Adolescents",
+    "authors": "Earl S. Ford, Chaoyang Li, Stephen Cook, Hyon K. Choi",
+    "year": 2007,
+    "citations": 496,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1161/circulationaha.106.657627",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2035074225",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-lead-cadmium-smoking-and-increased-risk-of-peripheral-arterial-disease",
+    "title": "Lead, Cadmium, Smoking, and Increased Risk of Peripheral Arterial Disease",
+    "authors": "Ana Navas‐Acién, Elizabeth Selvin, A. Richey Sharrett, Emma S. Calderón‐Aranda, Ellen K. Silbergeld, Eliseo Güallar",
+    "year": 2004,
+    "citations": 490,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1161/01.cir.0000130848.18636.b2",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2139693177",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-blood-organic-mercury-and-dietary-mercury-intake-national-health-and-nut",
+    "title": "Blood organic mercury and dietary mercury intake: National Health and Nutrition Examination Survey, 1999 and 2000.",
+    "authors": "Kathryn R. Mahaffey, Robert P. Clickner, Catherine C Bodurow",
+    "year": 2003,
+    "citations": 490,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1289/ehp.6587",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2022086221",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-predicted-lean-body-mass-fat-mass-and-all-cause-and-cause-specific-morta",
+    "title": "Predicted lean body mass, fat mass, and all cause and cause specific mortality in men: prospective US cohort study",
+    "authors": "Dong Hoon Lee, NaNa Keum, Frank B. Hu, E. John Orav, Eric B. Rimm, Walter C. Willett",
+    "year": 2018,
+    "citations": 489,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1136/bmj.k2575",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting, longitudinal data analysis.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2810529814",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "longitudinal data analysis",
+          "score": 2,
+          "evidence": [
+            "cohort",
+            "followed"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-is-glycemic-control-improving-in-u-s-adults",
+    "title": "Is Glycemic Control Improving in U.S. Adults?",
+    "authors": "Thomas J. Hoerger, Joel E. Segel, Edward W. Gregg, Jinan Saaddine",
+    "year": 2007,
+    "citations": 480,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.2337/dc07-1572",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting, longitudinal data analysis.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2162037642",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "longitudinal data analysis",
+          "score": 2,
+          "evidence": [
+            "waves",
+            "over time"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-systemic-immune-inflammation-index-sii-system-inflammation-response-inde",
+    "title": "Systemic Immune Inflammation Index (SII), System Inflammation Response Index (SIRI) and Risk of All-Cause Mortality and Cardiovascular Mortality: A 20-Year Follow-Up Cohort Study of 42,875 US Adults",
+    "authors": "Yiyuan Xia, Chunlei Xia, Li‐Da Wu, Zheng Li, Hui Li, Junxia Zhang",
+    "year": 2023,
+    "citations": 480,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.3390/jcm12031128",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "complex survey design",
+      "survey weighting",
+      "survival models"
+    ],
+    "bestFor": "Finding a NHANES example for risk prediction, complex survey design, survey weighting, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W4318833910",
+      "labelEvidence": [
+        {
+          "label": "risk prediction",
+          "score": 4,
+          "evidence": [
+            "prognostic",
+            "prediction",
+            "risk",
+            "mortality"
+          ]
+        },
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 2,
+          "evidence": [
+            "cox",
+            "hazard"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-ultra-processed-food-consumption-and-excess-weight-among-us-adults",
+    "title": "Ultra-processed food consumption and excess weight among US adults",
+    "authors": "Filippa Juul, Eurídice Martínez Steele, Niyati Parekh, Carlos Augusto Monteiro, Virginia W. Chang",
+    "year": 2018,
+    "citations": 477,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1017/s0007114518001046",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2800651690",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-differences-in-obesity-prevalence-by-demographics-and-urbanization-in-us",
+    "title": "Differences in Obesity Prevalence by Demographics and Urbanization in US Children and Adolescents, 2013-2016",
+    "authors": "Cynthia L. Ogden, Cheryl D. Fryar, Craig M. Hales, Margaret D. Carroll, Yutaka Aoki, David S. Freedman",
+    "year": 2018,
+    "citations": 472,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1001/jama.2018.5158",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2809044706",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-nhsr-158-national-health-and-nutrition-examination-survey-2017-march-202",
+    "title": "NHSR 158. National Health and Nutrition Examination Survey 2017–March 2020 Pre-pandemic Data Files",
+    "authors": "Stierman Bryan, Joseph Benjamin Archibald Afful, Margaret D. Carroll, Chen Te-Ching, Davy Orlando, Steven Fink",
+    "year": 2021,
+    "citations": 467,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.15620/cdc:106273",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W3161237422",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 5,
+          "evidence": [
+            "survey",
+            "strata",
+            "sampling",
+            "weights",
+            "design"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-the-triglyceride-glucose-index-is-a-predictor-for-cardiovascular-and-all",
+    "title": "The triglyceride-glucose index is a predictor for cardiovascular and all-cause mortality in CVD patients with diabetes or pre-diabetes: evidence from NHANES 2001–2018",
+    "authors": "Qin Zhang, Shucai Xiao, Xiaojuan Jiao, Yunfeng Shen",
+    "year": 2023,
+    "citations": 462,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1186/s12933-023-02030-z",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting",
+      "survival models"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W4387701431",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 2,
+          "evidence": [
+            "cox",
+            "hazard"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-psoriasis-prevalence-in-adults-in-the-united-states",
+    "title": "Psoriasis Prevalence in Adults in the United States",
+    "authors": "April W. Armstrong, Manan D. Mehta, Clayton W. Schupp, George Gondo, Stacie Bell, C.E.M. Griffiths",
+    "year": 2021,
+    "citations": 459,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1001/jamadermatol.2021.2007",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting, longitudinal data analysis.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W3173226927",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "longitudinal data analysis",
+          "score": 2,
+          "evidence": [
+            "followed",
+            "over time"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-epidemiology-of-anemia-associated-with-chronic-renal-insufficiency-among",
+    "title": "Epidemiology of Anemia Associated with Chronic Renal Insufficiency among Adults in the United States",
+    "authors": "Chi‐yuan Hsu, Charles E. McCulloch, Gary C. Curhan",
+    "year": 2002,
+    "citations": 458,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1681/asn.v132504",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2104416692",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-urinary-concentrations-of-four-parabens-in-the-u-s-population-nhanes-200",
+    "title": "Urinary Concentrations of Four Parabens in the U.S. Population: NHANES 2005–2006",
+    "authors": "Antonia M. Calafat, Xiaoyun Ye, Lee-Yang Wong, Amber M. Bishop, Larry L. Needham",
+    "year": 2010,
+    "citations": 453,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1289/ehp.0901560",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2032789267",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-adolescent-girls-with-polycystic-ovary-syndrome-have-an-increased-risk-o",
+    "title": "Adolescent Girls with Polycystic Ovary Syndrome Have an Increased Risk of the Metabolic Syndrome Associated with Increasing Androgen Levels Independent of Obesity and Insulin Resistance",
+    "authors": "Andrea D. Coviello, Richard S. Legro, Andrea Dunaif",
+    "year": 2006,
+    "citations": 452,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1210/jc.2005-1666",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2157068724",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-blood-lead-below-0-48-mol-l-10-g-dl-and-mortality-among-us-adults",
+    "title": "Blood Lead Below 0.48 μmol/L (10 μg/dL) and Mortality Among US Adults",
+    "authors": "Andy Menke, Paul Muntner, Vecihi Batuman, Ellen K. Silbergeld, Eliseo Güallar",
+    "year": 2006,
+    "citations": 452,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1161/circulationaha.106.628321",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2142147297",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-morbid-obesity-as-a-risk-factor-for-hospitalization-and-death-due-to-200",
+    "title": "Morbid Obesity as a Risk Factor for Hospitalization and Death Due to 2009 Pandemic Influenza A(H1N1) Disease",
+    "authors": "Oliver Morgan, Anna M. Bramley, Ashley Fowlkes, David S. Freedman, Thomas H. Taylor, Paul Gargiullo",
+    "year": 2010,
+    "citations": 449,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0009694",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2061727827",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-nhanes-trends-in-the-association-between-obesity-and-socioeconomic-status-in-u-",
+    "title": "Trends in the Association between Obesity and Socioeconomic Status in U.S. Adults: 1971 to 2000",
+    "authors": "Qi Zhang, Youfa Wang",
+    "year": 2004,
+    "citations": 444,
+    "dataset": "NHANES",
+    "datasetUrl": "https://www.cdc.gov/nchs/nhanes/",
+    "paperUrl": "https://doi.org/10.1038/oby.2004.202",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W1999746054",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "NHANES"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-health-and-retirement-study-the-effects-of-health-insurance-and-self-insurance-on-retirement-behavio",
+    "title": "The Effects of Health Insurance and Self-Insurance on Retirement Behavior",
+    "authors": "Eric French, John Bailey Jones",
+    "year": 2011,
+    "citations": 450,
+    "dataset": "Health and Retirement Study",
+    "datasetUrl": "https://hrs.isr.umich.edu/about",
+    "paperUrl": "https://doi.org/10.3982/ecta7560",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "survival models"
+    ],
+    "bestFor": "Finding a Health and Retirement Study example for longitudinal data analysis, panel data methods, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"Health and Retirement Study\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2129386857",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "Health and Retirement Study"
+          ]
+        },
+        {
+          "label": "panel data methods",
+          "score": 3,
+          "evidence": [
+            "Health and Retirement Study"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "Health and Retirement Study"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-health-and-retirement-study-association-between-persistent-pain-and-memory-decline-and-dementia-in-a",
+    "title": "Association Between Persistent Pain and Memory Decline and Dementia in a Longitudinal Cohort of Elders",
+    "authors": "Elizabeth L. Whitlock, L. Grisell Diaz‐Ramirez, M. Maria Glymour, W. John Boscardin, Kenneth E. Covinsky, Alexander K. Smith",
+    "year": 2017,
+    "citations": 418,
+    "dataset": "Health and Retirement Study",
+    "datasetUrl": "https://hrs.isr.umich.edu/about",
+    "paperUrl": "https://doi.org/10.1001/jamainternmed.2017.1622",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "longitudinal data analysis",
+      "panel data methods",
+      "survival models"
+    ],
+    "bestFor": "Finding a Health and Retirement Study example for complex survey design, longitudinal data analysis, panel data methods, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"Health and Retirement Study\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2623489298",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "sampling",
+            "weights",
+            "design"
+          ]
+        },
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "Health and Retirement Study"
+          ]
+        },
+        {
+          "label": "panel data methods",
+          "score": 3,
+          "evidence": [
+            "Health and Retirement Study"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "Health and Retirement Study"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-panel-study-of-income-dynamics-earnings-losses-of-displaced-workers-revisited",
+    "title": "Earnings Losses of Displaced Workers Revisited",
+    "authors": "Kenneth A. Couch, Dana W. Placzek",
+    "year": 2010,
+    "citations": 671,
+    "dataset": "Panel Study of Income Dynamics",
+    "datasetUrl": "https://psidonline.isr.umich.edu/",
+    "paperUrl": "https://doi.org/10.1257/aer.100.1.572",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "longitudinal data analysis",
+      "panel data methods",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a Panel Study of Income Dynamics example for complex survey design, longitudinal data analysis, panel data methods, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"Panel Study of Income Dynamics\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2029038602",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "Panel Study of Income Dynamics"
+          ]
+        },
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "Panel Study of Income Dynamics"
+          ]
+        },
+        {
+          "label": "panel data methods",
+          "score": 3,
+          "evidence": [
+            "Panel Study of Income Dynamics"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "Panel Study of Income Dynamics"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-medical-expenditure-panel-survey-direct-medical-costs-of-obesity-in-the-united-states-and-the-most-populo",
+    "title": "Direct medical costs of obesity in the United States and the most populous states",
+    "authors": "John Cawley, Adam Biener, Chad D. Meyerhoefer, Yuchen Ding, Tracy Zvenyach, B. Gabriel Smolarz",
+    "year": 2021,
+    "citations": 394,
+    "dataset": "Medical Expenditure Panel Survey",
+    "datasetUrl": "https://meps.ahrq.gov/mepsweb/",
+    "paperUrl": "https://doi.org/10.18553/jmcp.2021.20410",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "panel data methods",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W3125193263",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "panel data methods",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-medical-expenditure-panel-survey-self-reported-financial-burden-of-cancer-care-and-its-effect-on-physical",
+    "title": "Self‐reported financial burden of cancer care and its effect on physical and mental health‐related quality of life among US cancer survivors",
+    "authors": "Hrishikesh Kale, Norman V. Carroll",
+    "year": 2016,
+    "citations": 355,
+    "dataset": "Medical Expenditure Panel Survey",
+    "datasetUrl": "https://meps.ahrq.gov/mepsweb/",
+    "paperUrl": "https://doi.org/10.1002/cncr.29808",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "panel data methods",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2301857081",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "panel data methods",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-medical-expenditure-panel-survey-treatment-of-adult-depression-in-the-united-states",
+    "title": "Treatment of Adult Depression in the United States",
+    "authors": "Mark Olfson, Carlos Blanco, Steven C. Marcus",
+    "year": 2016,
+    "citations": 350,
+    "dataset": "Medical Expenditure Panel Survey",
+    "datasetUrl": "https://meps.ahrq.gov/mepsweb/",
+    "paperUrl": "https://doi.org/10.1001/jamainternmed.2016.5057",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "panel data methods",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2516765934",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "panel data methods",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-medical-expenditure-panel-survey-trends-in-healthcare-expenditures-among-us-adults-with-hypertension-nati",
+    "title": "Trends in Healthcare Expenditures Among US Adults With Hypertension: National Estimates, 2003–2014",
+    "authors": "Elizabeth B. Kirkland, Marc Heincelman, Kinfe G. Bishu, Samuel O. Schumann, Andrew D. Schreiner, R. Neal Axon",
+    "year": 2018,
+    "citations": 330,
+    "dataset": "Medical Expenditure Panel Survey",
+    "datasetUrl": "https://meps.ahrq.gov/mepsweb/",
+    "paperUrl": "https://doi.org/10.1161/jaha.118.008731",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "panel data methods",
+      "risk prediction",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2805865327",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "panel data methods",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "Medical Expenditure Panel Survey"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-behavioral-risk-factor-surveillance-system-i-vital-signs-i-estimated-proportion-of-adult-health-problems-attributab",
+    "title": "<i>Vital Signs:</i> Estimated Proportion of Adult Health Problems Attributable to Adverse Childhood Experiences and Implications for Prevention — 25 States, 2015–2017",
+    "authors": "Melissa T. Merrick, Derek Ford, Katie A. Ports, Angie S. Guinn, Jieru Chen, Joanne Klevens",
+    "year": 2019,
+    "citations": 680,
+    "dataset": "Behavioral Risk Factor Surveillance System",
+    "datasetUrl": "https://www.cdc.gov/brfss/",
+    "paperUrl": "https://doi.org/10.15585/mmwr.mm6844e1",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "small area estimation",
+      "survey weighting"
+    ],
+    "bestFor": "Finding a Behavioral Risk Factor Surveillance System example for complex survey design, risk prediction, small area estimation, survey weighting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"Behavioral Risk Factor Surveillance System\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2983439809",
+      "labelEvidence": [
+        {
+          "label": "complex survey design",
+          "score": 3,
+          "evidence": [
+            "Behavioral Risk Factor Surveillance System"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "Behavioral Risk Factor Surveillance System"
+          ]
+        },
+        {
+          "label": "small area estimation",
+          "score": 3,
+          "evidence": [
+            "Behavioral Risk Factor Surveillance System"
+          ]
+        },
+        {
+          "label": "survey weighting",
+          "score": 3,
+          "evidence": [
+            "Behavioral Risk Factor Surveillance System"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-prognosis-of-medullary-thyroid-carcinoma",
+    "title": "Prognosis of medullary thyroid carcinoma",
+    "authors": "Sanziana A. Roman, Rong Lin, Julie Ann Sosa",
+    "year": 2006,
+    "citations": 544,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.1002/cncr.22244",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W1990171304",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-myelodysplastic-syndromes",
+    "title": "Myelodysplastic syndromes",
+    "authors": "Xiaomei Ma, Monique B. Does, Azra Raza, Susan T. Mayne",
+    "year": 2007,
+    "citations": 542,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.1002/cncr.22570",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models",
+      "small area estimation"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models, small area estimation.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W1979144446",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "small area estimation",
+          "score": 2,
+          "evidence": [
+            "subgroup",
+            "geographic"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-trends-in-esophageal-adenocarcinoma-incidence-and-mortality",
+    "title": "Trends in esophageal adenocarcinoma incidence and mortality",
+    "authors": "Chin Hur, M Miller, Chung Yin Kong, Emily C. Dowling, Kevin J. Nattinger, Michelle Dunn",
+    "year": 2012,
+    "citations": 510,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.1002/cncr.27834",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W1606124548",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-male-breast-cancer-a-population-based-comparison-with-female-breast-canc",
+    "title": "Male Breast Cancer: A Population-Based Comparison With Female Breast Cancer",
+    "authors": "William F. Anderson, Ismail Jatoi, Julia Tse, Philip S. Rosenberg",
+    "year": 2009,
+    "citations": 489,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.1200/jco.2009.23.8162",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2141926802",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-the-clinicopathological-features-and-survival-outcomes-of-patients-with-",
+    "title": "The Clinicopathological features and survival outcomes of patients with different metastatic sites in stage IV breast cancer",
+    "authors": "Ru Wang, Yayun Zhu, Xiaoxu Liu, Xiaoqin Liao, Jianjun He, Ligang Niu",
+    "year": 2019,
+    "citations": 460,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.1186/s12885-019-6311-z",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2988364315",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-trends-in-breast-cancer-by-race-and-ethnicity",
+    "title": "Trends in Breast Cancer by Race and Ethnicity",
+    "authors": "Adnan Ghafoor, Ahmedin Jemal, Elizabeth Ward, Vilma Cokkinides, Robert A. Smith, M. J. Thun",
+    "year": 2003,
+    "citations": 454,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.3322/canjclin.53.6.342",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2118651985",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-survival-and-low-grade-glioma-the-emergence-of-genetic-information",
+    "title": "Survival and low-grade glioma: the emergence of genetic information",
+    "authors": "Elizabeth B. Claus, Kyle M. Walsh, John K. Wiencke, Annette M. Molinaro, Joseph L. Wiemels, Joellen M. Schildkraut",
+    "year": 2015,
+    "citations": 449,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.3171/2014.10.focus12367",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models",
+      "randomized experiments"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models, randomized experiments.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2010573862",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "randomized experiments",
+          "score": 2,
+          "evidence": [
+            "trial",
+            "clinical trial"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-increasing-incidence-of-oral-tongue-squamous-cell-carcinoma-in-young-whi",
+    "title": "Increasing Incidence of Oral Tongue Squamous Cell Carcinoma in Young White Women, Age 18 to 44 Years",
+    "authors": "S. Patel, William R. Carpenter, Seth Tyree, Marion E. Couch, Mark C. Weissler, Trevor Hackman",
+    "year": 2011,
+    "citations": 431,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.1200/jco.2010.31.7883",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2122997780",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-early-death-rate-in-acute-promyelocytic-leukemia-remains-high-despite-al",
+    "title": "Early death rate in acute promyelocytic leukemia remains high despite all-trans retinoic acid",
+    "authors": "Jae H. Park, Baozhen Qiao, Katherine S. Panageas, Maria J. Schymura, Joseph G. Jurcic, Todd Rosenblat",
+    "year": 2011,
+    "citations": 420,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.1182/blood-2011-04-346437",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models",
+      "randomized experiments"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models, randomized experiments.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W1987176851",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "randomized experiments",
+          "score": 2,
+          "evidence": [
+            "trial",
+            "clinical trial"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-survival-for-older-patients-with-acute-myeloid-leukemia-a-population-bas",
+    "title": "Survival for older patients with acute myeloid leukemia: a population-based study",
+    "authors": "Betül Oran, Daniel J. Weisdorf",
+    "year": 2012,
+    "citations": 420,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.3324/haematol.2012.066100",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2170075800",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-the-actual-5-year-survivors-of-pancreatic-ductal-adenocarcinoma-based-on",
+    "title": "The actual 5-year survivors of pancreatic ductal adenocarcinoma based on real-world data",
+    "authors": "Axel Bengtsson, Roland Andersson, Daniel Ansari",
+    "year": 2020,
+    "citations": 413,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.1038/s41598-020-73525-y",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W3091397028",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-breast-cancer-risk-from-modifiable-and-nonmodifiable-risk-factors-among-",
+    "title": "Breast Cancer Risk From Modifiable and Nonmodifiable Risk Factors Among White Women in the United States",
+    "authors": "Paige Maas, Myrto Barrdahl, Amit D. Joshi, Paul L. Auer, Mia M. Gaudet, Roger L. Milne",
+    "year": 2016,
+    "citations": 409,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.1001/jamaoncol.2016.1025",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models",
+      "complex survey design"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models, complex survey design.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2400613861",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "complex survey design",
+          "score": 2,
+          "evidence": [
+            "survey",
+            "design"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-seer-an-r-package-for-an-integrated-evaluation-of-statistical-approaches-to-c",
+    "title": "An R package for an integrated evaluation of statistical approaches to cancer incidence projection",
+    "authors": "Maximilian Knoll, Jennifer Furkel, Jürgen Debus, Amir Abdollahi, André Karch, Christian Stock",
+    "year": 2020,
+    "citations": 398,
+    "dataset": "SEER",
+    "datasetUrl": "https://seer.cancer.gov/data/",
+    "paperUrl": "https://doi.org/10.1186/s12874-020-01133-5",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "risk prediction",
+      "survival models"
+    ],
+    "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W3093213621",
+      "labelEvidence": [
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "risk prediction",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "SEER"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "oa-mimic-iv-multitask-learning-and-benchmarking-with-clinical-time-series-data",
+    "title": "Multitask learning and benchmarking with clinical time series data",
+    "authors": "Hrayr Harutyunyan, Hrant Khachatrian, David C. Kale, Greg Ver Steeg, Aram Galstyan",
+    "year": 2019,
+    "citations": 619,
+    "dataset": "MIMIC-IV",
+    "datasetUrl": "https://physionet.org/content/mimiciv/",
+    "paperUrl": "https://doi.org/10.1038/s41597-019-0103-9",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "longitudinal data analysis",
+      "survival models",
+      "time series forecasting"
+    ],
+    "bestFor": "Finding a MIMIC-IV example for risk prediction, longitudinal data analysis, survival models, time series forecasting.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"MIMIC-IV\". Review the abstract and dataset use before treating this as fully curated.",
+    "discovery": {
+      "source": "openalex",
+      "openalexUrl": "https://openalex.org/W2597505554",
+      "labelEvidence": [
+        {
+          "label": "risk prediction",
+          "score": 4,
+          "evidence": [
+            "prediction",
+            "risk",
+            "mortality",
+            "clinical prediction"
+          ]
+        },
+        {
+          "label": "longitudinal data analysis",
+          "score": 3,
+          "evidence": [
+            "MIMIC-IV"
+          ]
+        },
+        {
+          "label": "survival models",
+          "score": 3,
+          "evidence": [
+            "MIMIC-IV"
+          ]
+        },
+        {
+          "label": "time series forecasting",
+          "score": 3,
+          "evidence": [
+            "forecast",
+            "forecasting",
+            "time series"
+          ]
+        }
+      ]
+    }
   }
 ]
