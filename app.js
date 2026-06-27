@@ -1,4 +1,4 @@
-import { LABEL_REGISTRY } from "./labels.mjs";
+import { LABEL_REGISTRY } from "./labels.mjs?v=20260627-intersection";
 
 let papers = [];
 
