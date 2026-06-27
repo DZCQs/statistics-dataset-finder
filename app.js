@@ -269,7 +269,7 @@ function render() {
   renderFilters();
   renderStats();
   const matches = filteredPapers();
-  renderTopicAnalytics();
+  renderTopicAnalytics(matches);
   renderResults(matches);
   renderDetail(matches);
 }
@@ -288,7 +288,7 @@ function renderStats() {
   els.savedCount.textContent = state.saved.size;
 }
 
-function renderTopicAnalytics() {
+function renderTopicAnalytics(matches) {
   const selectedTopics = [...state.topics];
   els.topicAnalytics.innerHTML = "";
 
@@ -299,13 +299,12 @@ function renderTopicAnalytics() {
   }
 
   els.topicAnalytics.classList.remove("hidden");
-  selectedTopics.forEach((topic) => {
-    els.topicAnalytics.append(topicAnalyticsCard(topic));
-  });
+  els.topicAnalytics.append(topicAnalyticsCard(selectedTopics, matches));
 }
 
-function topicAnalyticsCard(topic) {
-  const topicPapers = papers.filter((paper) => paper.topics.includes(topic));
+function topicAnalyticsCard(selectedTopics, topicPapers) {
+  const isIntersection = selectedTopics.length > 1;
+  const title = isIntersection ? selectedTopics.join(" + ") : selectedTopics[0];
   const datasetRows = countBy(topicPapers, (paper) => paper.dataset)
     .map(([dataset, count]) => {
       const datasetPapers = topicPapers.filter((paper) => paper.dataset === dataset);
@@ -328,9 +327,9 @@ function topicAnalyticsCard(topic) {
   card.innerHTML = `
     <div class="analytics-head">
       <div>
-        <p class="eyebrow">Topic analytics</p>
-        <h2>${escapeHtml(topic)}</h2>
-        ${topicRelationshipMarkup(topic)}
+        <p class="eyebrow">${isIntersection ? "Intersection analytics" : "Topic analytics"}</p>
+        <h2>${escapeHtml(title)}</h2>
+        ${isIntersection ? topicIntersectionMarkup(selectedTopics) : topicRelationshipMarkup(selectedTopics[0])}
       </div>
       <div class="analytics-metrics">
         ${metricMarkup(topicPapers.length, "papers")}
@@ -341,7 +340,7 @@ function topicAnalyticsCard(topic) {
     </div>
     <div class="analytics-layout">
       <div class="analytics-section">
-        <h3>Datasets in this topic</h3>
+        <h3>${isIntersection ? "Datasets in this intersection" : "Datasets in this topic"}</h3>
         <div class="dataset-list">
           ${datasetRows.slice(0, 12).map((row) => datasetRowMarkup(row, activeDataset)).join("")}
         </div>
@@ -359,7 +358,7 @@ function topicAnalyticsCard(topic) {
         ${barListMarkup(countBy(topicPapers, (paper) => paper.formats[0] || "Unspecified").slice(0, 8), topicPapers.length)}
       </div>
     </div>
-    ${activeDataset ? datasetAnalyticsMarkup(activeDataset, topicPapers) : ""}
+    ${activeDataset ? datasetAnalyticsMarkup(activeDataset, topicPapers, isIntersection) : ""}
   `;
 
   card.querySelectorAll("[data-analytics-dataset]").forEach((button) => {
@@ -370,6 +369,15 @@ function topicAnalyticsCard(topic) {
   });
 
   return card;
+}
+
+function topicIntersectionMarkup(selectedTopics) {
+  return `
+    <div class="topic-relationship">
+      <span class="level-pill intersection">Selected intersection</span>
+      <p>Requires every selected label: ${selectedTopics.map(escapeHtml).join(", ")}</p>
+    </div>
+  `;
 }
 
 function topicRelationshipMarkup(topic) {
@@ -390,14 +398,14 @@ function topicRelationshipMarkup(topic) {
   `;
 }
 
-function datasetAnalyticsMarkup(dataset, scopedPapers) {
+function datasetAnalyticsMarkup(dataset, scopedPapers, isIntersection = false) {
   const datasetPapers = scopedPapers.filter((paper) => paper.dataset === dataset);
   const labels = countBy(datasetPapers, (paper) => paper.topics).slice(0, 10);
   return `
     <div class="dataset-profile">
       <div>
         <h3>${escapeHtml(dataset)}</h3>
-        <p>${datasetPapers.length} paper${datasetPapers.length === 1 ? "" : "s"} in the selected topic · ${minYear(datasetPapers)}-${maxYear(datasetPapers)}</p>
+        <p>${datasetPapers.length} paper${datasetPapers.length === 1 ? "" : "s"} in the selected ${isIntersection ? "intersection" : "topic"} · ${minYear(datasetPapers)}-${maxYear(datasetPapers)}</p>
       </div>
       <div class="dataset-profile-grid">
         <div>
