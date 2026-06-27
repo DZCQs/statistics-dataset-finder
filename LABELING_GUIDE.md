@@ -63,10 +63,14 @@ Good label level:
 - `longitudinal data analysis`
 - `panel data methods`
 - `multilevel modeling`
+- `survival analysis`
 - `survival models`
 - `risk prediction`
+- `statistical learning`
+- `time series analysis`
 - `time series forecasting`
 - `hierarchical forecasting`
+- `forecasting competitions`
 - `probabilistic forecasting`
 - `mcmc diagnostics`
 
@@ -123,6 +127,17 @@ When adding a paper, use this workflow in order.
    allowed only when both search levels are useful and evidence-supported.
 
 5. Add a new label only after the admission test.
+
+6. Re-run the catalog relabeler after adding papers.
+   Incremental additions must be checked against the whole label system, not
+   only against the newly added papers. The relabeler adds supported parent
+   labels, applies strict evidence rules for selected labels, and keeps the
+   controlled vocabulary from drifting into one-paper or redundant tags.
+
+```bash
+node scripts/relabel-catalog.mjs
+node scripts/assess-labels.mjs
+```
 
 ## New Label Admission Test
 

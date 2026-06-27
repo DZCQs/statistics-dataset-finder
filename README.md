@@ -33,16 +33,19 @@ http://localhost:4173/
 
 ## Label Assessment
 
-Run the automatic label assessor before and after adding papers:
+Run the catalog relabeler and automatic label assessor before and after adding
+papers:
 
 ```bash
+node scripts/relabel-catalog.mjs
 node scripts/assess-labels.mjs
 ```
 
-The assessor checks whether papers use known labels from `labels.mjs`, whether
-assigned labels are supported by the paper metadata, whether labels are reused,
-and whether any paper has too few or too many labels. It is intended to prevent
-label drift when the catalog grows.
+The relabeler applies the controlled hierarchy across the whole catalog, not
+only the newest papers. The assessor then checks whether papers use known labels
+from `labels.mjs`, whether assigned labels are supported by the paper metadata,
+whether labels are reused, and whether any paper has too few or too many labels.
+Together they are intended to prevent label drift when the catalog grows.
 
 ## Automated Expansion
 
@@ -76,15 +79,14 @@ backend can move the same fields into a hosted database table:
 - `best_for`
 - `catalog_note`
 
-The prototype uses a controlled vocabulary of mid-level statistics labels.
+The prototype uses a controlled, layered vocabulary of statistics labels.
 Labels are not free-form tags. When adding a paper, first check whether existing
-labels can summarize its key statistical use. Add a new label only if it passes
-the admission rules in [LABELING_GUIDE.md](LABELING_GUIDE.md).
-
-The intended label level is specific enough for graduate research search
-(`propensity score methods`, `multiple imputation`, `small area estimation`) but
-not so narrow that each label only returns one paper, and not so broad that it
-becomes a whole field such as `causal inference` or `bayesian inference`.
+labels can summarize its key statistical use. Broad labels such as `causal
+inference`, `survey methodology`, or `bayesian inference` are allowed only when
+they support useful topic-level analytics and coexist with more specific labels
+such as `propensity score methods`, `multiple imputation`, or `small area
+estimation`. Add a new label only if it passes the admission rules in
+[LABELING_GUIDE.md](LABELING_GUIDE.md).
 
 That structure can support an admin review flow where contributors submit papers,
 maintainers verify dataset access, and approved records become searchable.

@@ -34,6 +34,18 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["nonignorable", "mnar", "nmar", "missing not at random", "value-dependent", "not at random"]
   },
   {
+    name: "causal inference",
+    definition: "Datasets useful for causal-effect questions, potential-outcome reasoning, experiments, observational causal designs, or policy evaluation.",
+    includeWhen: [
+      "the paper or dataset is directly useful for causal effect estimation, randomized or quasi-experimental designs, confounding adjustment, or heterogeneous effects",
+      "a more specific causal label is also assigned and the broader causal-inference view would help users compare datasets across designs"
+    ],
+    avoidWhen: [
+      "causality is mentioned only rhetorically and the dataset is mainly descriptive or predictive"
+    ],
+    evidenceTerms: ["causal inference", "causal", "potential outcomes", "counterfactual", "treatment effect", "program evaluation", "policy evaluation", "intervention"]
+  },
+  {
     name: "treatment effect estimation",
     definition: "Datasets useful for estimating causal treatment effects, including average, conditional, or individual effects.",
     includeWhen: [
@@ -122,6 +134,18 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["nonresponse", "non-response", "item nonresponse", "unit nonresponse", "attrition", "response bias"]
   },
   {
+    name: "survey methodology",
+    definition: "Datasets useful for survey sampling, survey weighting, nonresponse adjustment, small-area estimation, and design-based or model-assisted survey research.",
+    includeWhen: [
+      "the dataset has survey design, weighting, nonresponse, public-use microdata, or domain-estimation structure central to the statistical use",
+      "a more specific survey label is also assigned and the broader survey-methodology view would help users compare related survey datasets"
+    ],
+    avoidWhen: [
+      "the data were merely collected with a questionnaire but have no sampling-design or survey-methodology role"
+    ],
+    evidenceTerms: ["survey methodology", "survey", "sampling", "weights", "nonresponse", "small area", "design-based", "public-use microdata"]
+  },
+  {
     name: "small area estimation",
     definition: "Datasets useful for domain, subgroup, geographic, or under-sampled population estimation.",
     includeWhen: [
@@ -177,6 +201,30 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["survival", "time-to-event", "censoring", "cox", "hazard", "event histories"]
   },
   {
+    name: "survival analysis",
+    definition: "Datasets useful for statistical analysis of time-to-event outcomes, censoring, hazards, event histories, or survival prediction.",
+    includeWhen: [
+      "time-to-event outcomes, censoring, hazards, or event histories are central to the dataset",
+      "a more specific survival label is assigned and the broader survival-analysis view would help users compare datasets"
+    ],
+    avoidWhen: [
+      "the data have dates or follow-up time but no event-time analysis use"
+    ],
+    evidenceTerms: ["survival analysis", "survival", "time-to-event", "censoring", "cox", "hazard", "event history"]
+  },
+  {
+    name: "statistical learning",
+    definition: "Datasets useful for supervised learning, machine-learning prediction, classification, regularized modeling, or benchmark prediction workflows in statistical research.",
+    includeWhen: [
+      "machine learning, supervised learning, classification, regularized prediction, or statistical-learning benchmarks are central to the paper or dataset",
+      "the dataset supports methodological comparison across predictive learners rather than only one applied prediction model"
+    ],
+    avoidWhen: [
+      "the paper only reports an ordinary prediction model without statistical-learning or machine-learning methodology"
+    ],
+    evidenceTerms: ["statistical learning", "machine learning", "supervised learning", "classification", "random forest", "support vector", "neural network", "deep learning", "lasso", "elastic net", "gradient boosting", "xgboost"]
+  },
+  {
     name: "risk prediction",
     definition: "Datasets useful for prognostic modeling, risk scores, clinical prediction, or prediction of future events.",
     includeWhen: [
@@ -199,6 +247,29 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["forecast", "forecasting", "time series", "competition", "future values"]
   },
   {
+    name: "time series analysis",
+    definition: "Datasets useful for statistical analysis of ordered observations over time, including forecasting, temporal dependence, and benchmark time-series examples.",
+    includeWhen: [
+      "ordered temporal series, forecasting, temporal dependence, or time-series benchmark structure is central",
+      "a more specific time-series label is assigned and the broader time-series view would help users compare datasets"
+    ],
+    avoidWhen: [
+      "the data are longitudinal individual records rather than time-series methodology examples"
+    ],
+    evidenceTerms: ["time series analysis", "time series", "forecast", "forecasting", "temporal dependence", "autocorrelation"]
+  },
+  {
+    name: "forecasting competitions",
+    definition: "Datasets from organized forecasting competitions or benchmark collections used for comparing forecasting methods.",
+    includeWhen: [
+      "the dataset is explicitly from a forecasting competition, benchmark challenge, or established forecasting benchmark collection"
+    ],
+    avoidWhen: [
+      "the paper merely forecasts an outcome but is not using a competition or benchmark-collection dataset"
+    ],
+    evidenceTerms: ["forecasting competition", "forecast competition", "competition", "challenge", "benchmark"]
+  },
+  {
     name: "hierarchical forecasting",
     definition: "Datasets useful for coherent forecasts across grouped, aggregated, or hierarchical time series.",
     includeWhen: [
@@ -208,6 +279,18 @@ export const LABEL_REGISTRY = [
       "the data are ordinary independent time series without hierarchy"
     ],
     evidenceTerms: ["hierarchical forecasting", "forecast reconciliation", "hierarchical time series", "grouped time series"]
+  },
+  {
+    name: "bayesian inference",
+    definition: "Datasets useful for posterior modeling, Bayesian hierarchical analysis, Bayesian computation, or Bayesian methodological examples with accessible data.",
+    includeWhen: [
+      "the paper or dataset is directly useful for Bayesian posterior inference, Bayesian hierarchical modeling, posterior simulation, or Bayesian computation",
+      "a more specific Bayesian label is also assigned and the broader Bayesian-inference view would help users compare datasets across Bayesian methods"
+    ],
+    avoidWhen: [
+      "Bayesian terminology is incidental and the dataset is not useful for Bayesian methodology"
+    ],
+    evidenceTerms: ["bayesian inference", "bayesian", "posterior", "prior", "mcmc", "stan", "markov chain monte carlo", "bayesian hierarchical"]
   },
   {
     name: "mcmc diagnostics",

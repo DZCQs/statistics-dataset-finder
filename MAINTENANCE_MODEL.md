@@ -9,7 +9,9 @@ The intended long-term workflow is:
 5. Existing labels are tried first.
 6. New labels are proposed only when several papers support the same statistical
    research concept.
-7. Approved database changes trigger an automatic website update.
+7. The whole catalog is relabeled and assessed after accepted additions, so new
+   records do not slowly damage the controlled vocabulary.
+8. Approved database changes trigger an automatic website update.
 
 The project owner should not need to edit code or manually collect paper lists.
 The owner can ask for updates in ordinary language, such as:
@@ -86,3 +88,15 @@ labels such as `propensity score methods`, `regression discontinuity designs`,
 New labels should be added through evidence: a candidate label should have
 multiple supporting papers or a clear discovery path that will produce them.
 Avoid one-paper labels, application-domain labels, and generic evaluation terms.
+
+Daily updates should run:
+
+```bash
+node scripts/relabel-catalog.mjs
+node scripts/assess-labels.mjs
+```
+
+This makes each update a whole-system label-health check, not just an
+incremental append. If a newly discovered paper would require a vague,
+redundant, or one-paper label, reject the paper or use the closest existing
+statistics label until enough evidence supports a new one.
