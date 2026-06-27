@@ -1,3 +1,5 @@
+import { LABEL_REGISTRY } from "./labels.mjs";
+
 let papers = [];
 
 const state = {
@@ -40,6 +42,14 @@ const accessLabels = {
   request: "Request access"
 };
 
+const levelLabels = {
+  high: "High-level",
+  mid: "Mid-level",
+  low: "Specific"
+};
+
+const labelMeta = new Map(LABEL_REGISTRY.map((label) => [label.name, label]));
+
 function uniqueValues(key) {
   return [...new Set(papers.flatMap((paper) => paper[key]))].sort((a, b) => a.localeCompare(b));
 }
@@ -50,16 +60,29 @@ function initFilters() {
     els.formatFilter.remove(1);
   }
 
-  uniqueValues("topics").forEach((topic) => {
+  renderTopicHierarchy().forEach((node) => {
     const button = document.createElement("button");
-    button.className = "topic-chip";
+    button.className = `topic-chip level-${node.level}`;
     button.type = "button";
-    button.textContent = topic;
+    button.dataset.topic = node.topic;
+    button.style.setProperty("--topic-depth", node.depth);
     button.setAttribute("aria-pressed", "false");
+    button.innerHTML = `
+      <span>${escapeHtml(node.topic)}</span>
+      <small>${levelLabels[node.level] || "Label"} · ${node.count}</small>
+    `;
     button.addEventListener("click", () => {
-      toggleSetValue(state.topics, topic);
+      toggleSetValue(state.topics, node.topic);
       render();
     });
+
+    if (node.isSectionStart) {
+      const heading = document.createElement("div");
+      heading.className = "topic-section-heading";
+      heading.textContent = node.sectionLabel;
+      els.topicFilters.append(heading);
+    }
+
     els.topicFilters.append(button);
   });
 
@@ -69,6 +92,70 @@ function initFilters() {
     option.textContent = titleCase(format);
     els.formatFilter.append(option);
   });
+}
+
+function renderTopicHierarchy() {
+  const activeTopics = new Set(uniqueValues("topics"));
+  const counts = new Map(activeTopics.values().map((topic) => [topic, papers.filter((paper) => paper.topics.includes(topic)).length]));
+  const children = new Map();
+  const roots = [];
+
+  for (const topic of activeTopics) {
+    const meta = labelMeta.get(topic) || { level: "mid", parents: [] };
+    const activeParents = (meta.parents || []).filter((parent) => activeTopics.has(parent));
+    if (!activeParents.length) {
+      roots.push(topic);
+    }
+    activeParents.forEach((parent) => {
+      if (!children.has(parent)) children.set(parent, []);
+      children.get(parent).push(topic);
+    });
+  }
+
+  const byLevelThenCount = (a, b) => {
+    const levelRank = { high: 0, mid: 1, low: 2 };
+    const aMeta = labelMeta.get(a) || { level: "mid" };
+    const bMeta = labelMeta.get(b) || { level: "mid" };
+    return levelRank[aMeta.level] - levelRank[bMeta.level] || (counts.get(b) || 0) - (counts.get(a) || 0) || a.localeCompare(b);
+  };
+
+  const nodes = [];
+  const rootGroups = [
+    { label: "High-level topic families", topics: roots.filter((topic) => labelLevel(topic) === "high") },
+    { label: "Mid-level topic families", topics: roots.filter((topic) => labelLevel(topic) === "mid") },
+    { label: "Specific labels", topics: roots.filter((topic) => labelLevel(topic) === "low") }
+  ];
+
+  function visit(topic, depth, sectionLabel = "", path = []) {
+    if (path.includes(topic)) return;
+    const meta = labelMeta.get(topic) || { level: "mid" };
+    nodes.push({
+      topic,
+      depth,
+      level: meta.level,
+      count: counts.get(topic) || 0,
+      isSectionStart: false,
+      sectionLabel
+    });
+    (children.get(topic) || []).sort(byLevelThenCount).forEach((child) => visit(child, depth + 1, sectionLabel, [...path, topic]));
+  }
+
+  rootGroups.forEach((group) => {
+    const sortedRoots = group.topics.sort(byLevelThenCount);
+    sortedRoots.forEach((topic, index) => {
+      const beforeLength = nodes.length;
+      visit(topic, 0, group.label);
+      if (nodes.length > beforeLength && index === 0) {
+        nodes[beforeLength].isSectionStart = true;
+      }
+    });
+  });
+
+  return nodes;
+}
+
+function labelLevel(topic) {
+  return labelMeta.get(topic)?.level || "mid";
 }
 
 async function loadCatalog() {
@@ -189,7 +276,7 @@ function render() {
 
 function renderFilters() {
   document.querySelectorAll(".topic-chip").forEach((button) => {
-    button.setAttribute("aria-pressed", String(state.topics.has(button.textContent)));
+    button.setAttribute("aria-pressed", String(state.topics.has(button.dataset.topic)));
   });
   els.showSaved.setAttribute("aria-pressed", String(state.savedOnly));
 }
@@ -243,6 +330,7 @@ function topicAnalyticsCard(topic) {
       <div>
         <p class="eyebrow">Topic analytics</p>
         <h2>${escapeHtml(topic)}</h2>
+        ${topicRelationshipMarkup(topic)}
       </div>
       <div class="analytics-metrics">
         ${metricMarkup(topicPapers.length, "papers")}
@@ -282,6 +370,24 @@ function topicAnalyticsCard(topic) {
   });
 
   return card;
+}
+
+function topicRelationshipMarkup(topic) {
+  const meta = labelMeta.get(topic);
+  if (!meta) return "";
+  const activeTopics = new Set(uniqueValues("topics"));
+  const parents = (meta.parents || []).filter((parent) => activeTopics.has(parent));
+  const children = LABEL_REGISTRY
+    .filter((label) => (label.parents || []).includes(topic) && activeTopics.has(label.name))
+    .map((label) => label.name);
+
+  return `
+    <div class="topic-relationship">
+      <span class="level-pill ${meta.level}">${escapeHtml(levelLabels[meta.level] || meta.level)}</span>
+      ${parents.length ? `<p>Contained by: ${parents.map(escapeHtml).join(", ")}</p>` : ""}
+      ${children.length ? `<p>Contains: ${children.map(escapeHtml).join(", ")}</p>` : ""}
+    </div>
+  `;
 }
 
 function datasetAnalyticsMarkup(dataset, scopedPapers) {

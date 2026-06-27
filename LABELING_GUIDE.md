@@ -74,6 +74,49 @@ Good label level:
 - `probabilistic forecasting`
 - `mcmc diagnostics`
 
+## Current Label Hierarchy
+
+Hierarchy means containment for search and analytics, not importance or
+popularity. A mid-level label may have more papers than a high-level label if
+the catalog currently has more data resources for that method.
+
+High-level topic families:
+
+- `causal inference`
+  - `treatment effect estimation`
+    - `propensity score methods`
+    - `heterogeneous treatment effects`
+  - `quasi-experimental designs`
+  - `randomized experiments`
+- `survey methodology`
+  - `complex survey design`
+    - `survey weighting`
+  - `nonresponse adjustment`
+  - `small area estimation`
+- `survival analysis`
+  - `survival models`
+  - `risk prediction`
+- `statistical learning`
+  - `risk prediction`
+- `time series analysis`
+  - `time series forecasting`
+    - `hierarchical forecasting`
+    - `forecasting competitions`
+- `bayesian inference`
+  - `bayesian hierarchical models`
+  - `mcmc diagnostics`
+
+Mid-level topic families without a current high-level parent:
+
+- `missing data`
+  - `multiple imputation`
+  - `nonignorable missing data`
+  - `nonresponse adjustment`
+- `longitudinal data analysis`
+  - `panel data methods`
+- `multilevel modeling`
+  - `bayesian hierarchical models`
+
 Specific labels are also allowed when they are recognized statistical research
 topics and are not one-paper tags. Examples that may be admitted after evidence
 checks include:

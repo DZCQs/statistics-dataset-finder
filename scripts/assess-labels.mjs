@@ -83,6 +83,19 @@ function auditPaper(paper) {
 const papers = await loadPapers();
 const audits = papers.map(auditPaper);
 const usage = labelUsage(papers);
+const registryNames = new Set(LABEL_REGISTRY.map((label) => label.name));
+const hierarchyIssues = LABEL_REGISTRY.flatMap((label) => {
+  const issues = [];
+  if (!["high", "mid", "low"].includes(label.level)) {
+    issues.push({ label: label.name, issue: `invalid level: ${label.level}` });
+  }
+  for (const parent of label.parents || []) {
+    if (!registryNames.has(parent)) {
+      issues.push({ label: label.name, issue: `unknown parent: ${parent}` });
+    }
+  }
+  return issues;
+});
 const underused = [...usage.entries()]
   .filter(([, count]) => count > 0 && count < LABEL_RULES.minimumReuseForNewLabel)
   .sort((a, b) => a[0].localeCompare(b[0]));
@@ -101,6 +114,7 @@ console.log(
       },
       labelUsage: Object.fromEntries([...usage.entries()].sort((a, b) => a[0].localeCompare(b[0]))),
       underused,
+      hierarchyIssues,
       unknownLabels,
       wrongLabelCounts: wrongLabelCounts.map(({ id, assigned }) => ({ id, assigned })),
       weakAssignments: weakAssignments.map(({ id, status }) => ({

@@ -1,6 +1,8 @@
 export const LABEL_REGISTRY = [
   {
     name: "missing data",
+    level: "mid",
+    parents: [],
     definition: "Datasets useful for studying incomplete observations, missingness mechanisms, nonresponse, or imputation workflows.",
     includeWhen: [
       "the paper or dataset foregrounds missing data, imputation, nonresponse, attrition, incomplete records, or censoring-related missingness",
@@ -13,6 +15,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "multiple imputation",
+    level: "low",
+    parents: ["missing data"],
     definition: "Datasets useful for evaluating or teaching multiple-imputation procedures for incomplete data.",
     includeWhen: [
       "the paper or dataset directly discusses imputation, missingness masks, missing-data mechanisms, or incomplete-data analysis"
@@ -24,6 +28,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "nonignorable missing data",
+    level: "low",
+    parents: ["missing data"],
     definition: "Datasets useful for MNAR, NMAR, nonignorable nonresponse, or value-dependent missingness research.",
     includeWhen: [
       "the paper explicitly discusses MNAR, nonignorable missingness, value-dependent missingness, or missing not at random"
@@ -35,6 +41,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "causal inference",
+    level: "high",
+    parents: [],
     definition: "Datasets useful for causal-effect questions, potential-outcome reasoning, experiments, observational causal designs, or policy evaluation.",
     includeWhen: [
       "the paper or dataset is directly useful for causal effect estimation, randomized or quasi-experimental designs, confounding adjustment, or heterogeneous effects",
@@ -47,6 +55,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "treatment effect estimation",
+    level: "mid",
+    parents: ["causal inference"],
     definition: "Datasets useful for estimating causal treatment effects, including average, conditional, or individual effects.",
     includeWhen: [
       "the paper studies interventions, treatments, policy changes, experiments, or potential outcomes"
@@ -58,6 +68,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "propensity score methods",
+    level: "low",
+    parents: ["treatment effect estimation"],
     definition: "Datasets useful for matching, weighting, or adjustment using propensity scores.",
     includeWhen: [
       "the dataset is a standard benchmark for matching, weighting, confounding adjustment, or observational treatment comparisons"
@@ -69,6 +81,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "quasi-experimental designs",
+    level: "mid",
+    parents: ["causal inference"],
     definition: "Datasets useful for nonrandom causal designs such as natural experiments, regression discontinuity, difference-in-differences, or instrumental variables.",
     includeWhen: [
       "the dataset has a cutoff, instrument, policy change, natural experiment, or before-after comparison"
@@ -80,6 +94,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "heterogeneous treatment effects",
+    level: "low",
+    parents: ["treatment effect estimation"],
     definition: "Datasets useful for conditional, subgroup, individualized, or heterogeneous treatment-effect research.",
     includeWhen: [
       "the paper or benchmark is designed for CATE, ITE, subgroup effects, or effect heterogeneity"
@@ -91,6 +107,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "randomized experiments",
+    level: "mid",
+    parents: ["causal inference"],
     definition: "Datasets from randomized experiments, trials, lotteries, or randomized interventions.",
     includeWhen: [
       "random assignment, lottery assignment, randomized treatment, or clinical/field trial design is central"
@@ -102,6 +120,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "complex survey design",
+    level: "mid",
+    parents: ["survey methodology"],
     definition: "Datasets useful for stratification, clustering, sampling weights, design effects, or public-use survey microdata.",
     includeWhen: [
       "the dataset includes survey design variables, weights, strata, clusters, or public-use survey sampling documentation"
@@ -113,6 +133,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "survey weighting",
+    level: "low",
+    parents: ["complex survey design"],
     definition: "Datasets useful for design weights, calibration, post-stratification, replicate weights, or weighted survey estimation.",
     includeWhen: [
       "weights, replicate weights, calibration, post-stratification, or weighted estimation are central to the dataset use"
@@ -124,6 +146,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "nonresponse adjustment",
+    level: "mid",
+    parents: ["survey methodology","missing data"],
     definition: "Datasets useful for unit nonresponse, item nonresponse, attrition adjustment, or response-bias correction.",
     includeWhen: [
       "nonresponse, attrition, response bias, or incomplete survey participation is a meaningful statistical issue"
@@ -135,6 +159,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "survey methodology",
+    level: "high",
+    parents: [],
     definition: "Datasets useful for survey sampling, survey weighting, nonresponse adjustment, small-area estimation, and design-based or model-assisted survey research.",
     includeWhen: [
       "the dataset has survey design, weighting, nonresponse, public-use microdata, or domain-estimation structure central to the statistical use",
@@ -147,6 +173,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "small area estimation",
+    level: "mid",
+    parents: ["survey methodology"],
     definition: "Datasets useful for domain, subgroup, geographic, or under-sampled population estimation.",
     includeWhen: [
       "the dataset supports subgroup/domain/geographic estimates with survey data or public microdata"
@@ -158,6 +186,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "longitudinal data analysis",
+    level: "mid",
+    parents: [],
     definition: "Datasets with repeated measurements over time on individuals, households, units, or cohorts.",
     includeWhen: [
       "the same units are followed over time, or repeated measures are central to the dataset"
@@ -169,6 +199,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "panel data methods",
+    level: "low",
+    parents: ["longitudinal data analysis"],
     definition: "Datasets useful for fixed effects, repeated unit-level observations, policy panels, or household/economic panels.",
     includeWhen: [
       "panel structure or fixed-effects style repeated unit analysis is a primary use"
@@ -180,6 +212,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "multilevel modeling",
+    level: "mid",
+    parents: [],
     definition: "Datasets useful for clustered, nested, hierarchical, random-effects, or mixed-effects models.",
     includeWhen: [
       "the dataset has nested units, clusters, schools, counties, classrooms, sites, families, or repeated measures"
@@ -191,6 +225,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "survival models",
+    level: "mid",
+    parents: ["survival analysis"],
     definition: "Datasets useful for time-to-event modeling, censoring, Cox models, or clinical survival examples.",
     includeWhen: [
       "time-to-event outcomes, censoring, survival time, hazards, or event histories are central"
@@ -202,6 +238,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "survival analysis",
+    level: "high",
+    parents: [],
     definition: "Datasets useful for statistical analysis of time-to-event outcomes, censoring, hazards, event histories, or survival prediction.",
     includeWhen: [
       "time-to-event outcomes, censoring, hazards, or event histories are central to the dataset",
@@ -214,6 +252,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "statistical learning",
+    level: "high",
+    parents: [],
     definition: "Datasets useful for supervised learning, machine-learning prediction, classification, regularized modeling, or benchmark prediction workflows in statistical research.",
     includeWhen: [
       "machine learning, supervised learning, classification, regularized prediction, or statistical-learning benchmarks are central to the paper or dataset",
@@ -226,6 +266,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "risk prediction",
+    level: "mid",
+    parents: ["statistical learning","survival analysis"],
     definition: "Datasets useful for prognostic modeling, risk scores, clinical prediction, or prediction of future events.",
     includeWhen: [
       "the dataset is used for predicting disease, mortality, failure, or future event risk"
@@ -237,6 +279,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "time series forecasting",
+    level: "mid",
+    parents: ["time series analysis"],
     definition: "Datasets useful for forecasting future values from ordered time series.",
     includeWhen: [
       "forecasting future values is the primary use, especially competition or benchmark time-series data"
@@ -248,6 +292,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "time series analysis",
+    level: "high",
+    parents: [],
     definition: "Datasets useful for statistical analysis of ordered observations over time, including forecasting, temporal dependence, and benchmark time-series examples.",
     includeWhen: [
       "ordered temporal series, forecasting, temporal dependence, or time-series benchmark structure is central",
@@ -260,6 +306,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "forecasting competitions",
+    level: "low",
+    parents: ["time series forecasting"],
     definition: "Datasets from organized forecasting competitions or benchmark collections used for comparing forecasting methods.",
     includeWhen: [
       "the dataset is explicitly from a forecasting competition, benchmark challenge, or established forecasting benchmark collection"
@@ -271,6 +319,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "hierarchical forecasting",
+    level: "low",
+    parents: ["time series forecasting"],
     definition: "Datasets useful for coherent forecasts across grouped, aggregated, or hierarchical time series.",
     includeWhen: [
       "the dataset includes hierarchical/grouped time series or forecast reconciliation use cases"
@@ -282,6 +332,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "bayesian inference",
+    level: "high",
+    parents: [],
     definition: "Datasets useful for posterior modeling, Bayesian hierarchical analysis, Bayesian computation, or Bayesian methodological examples with accessible data.",
     includeWhen: [
       "the paper or dataset is directly useful for Bayesian posterior inference, Bayesian hierarchical modeling, posterior simulation, or Bayesian computation",
@@ -294,6 +346,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "mcmc diagnostics",
+    level: "low",
+    parents: ["bayesian inference"],
     definition: "Datasets useful for diagnosing Markov chain Monte Carlo behavior, posterior simulation quality, divergences, or sampling pathologies.",
     includeWhen: [
       "the dataset is used as a Bayesian computation example where posterior simulation, MCMC behavior, or diagnostics are central"
@@ -305,6 +359,8 @@ export const LABEL_REGISTRY = [
   },
   {
     name: "bayesian hierarchical models",
+    level: "mid",
+    parents: ["bayesian inference","multilevel modeling"],
     definition: "Datasets useful for Bayesian multilevel, partial-pooling, hierarchical, or exchangeable-parameter models.",
     includeWhen: [
       "the dataset is a standard example for Bayesian hierarchical modeling or partial pooling"

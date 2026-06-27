@@ -24,6 +24,9 @@ http://localhost:4173/
 - Search across paper titles, datasets, authors, notes, formats, and topic labels.
 - Search combinations of labels with comma syntax, such as
   `treatment effect estimation, propensity score methods`.
+- Browse labels as a hierarchy of high-level, mid-level, and specific research
+  topics. The hierarchy means containment for search and analytics, not topic
+  importance.
 - Filter by topic, access type, dataset property, and data format.
 - Sort by relevance, year, or citation count.
 - Open a detail panel with dataset links, paper links, access notes, and use-case fit.
