@@ -9,6 +9,7 @@ const state = {
   savedOnly: false,
   sort: "relevance",
   selectedId: null,
+  selectedDataset: null,
   saved: new Set(JSON.parse(localStorage.getItem("savedPapers") || "[]"))
 };
 
@@ -27,6 +28,7 @@ const els = {
   datasetCount: document.querySelector("#datasetCount"),
   topicCount: document.querySelector("#topicCount"),
   savedCount: document.querySelector("#savedCount"),
+  topicAnalytics: document.querySelector("#topicAnalytics"),
   suggestionForm: document.querySelector("#suggestionForm"),
   formStatus: document.querySelector("#formStatus")
 };
@@ -180,6 +182,7 @@ function render() {
   renderFilters();
   renderStats();
   const matches = filteredPapers();
+  renderTopicAnalytics();
   renderResults(matches);
   renderDetail(matches);
 }
@@ -196,6 +199,186 @@ function renderStats() {
   els.datasetCount.textContent = new Set(papers.map((paper) => paper.datasetUrl)).size;
   els.topicCount.textContent = uniqueValues("topics").length;
   els.savedCount.textContent = state.saved.size;
+}
+
+function renderTopicAnalytics() {
+  const selectedTopics = [...state.topics];
+  els.topicAnalytics.innerHTML = "";
+
+  if (!selectedTopics.length) {
+    els.topicAnalytics.classList.add("hidden");
+    state.selectedDataset = null;
+    return;
+  }
+
+  els.topicAnalytics.classList.remove("hidden");
+  selectedTopics.forEach((topic) => {
+    els.topicAnalytics.append(topicAnalyticsCard(topic));
+  });
+}
+
+function topicAnalyticsCard(topic) {
+  const topicPapers = papers.filter((paper) => paper.topics.includes(topic));
+  const datasetRows = countBy(topicPapers, (paper) => paper.dataset)
+    .map(([dataset, count]) => {
+      const datasetPapers = topicPapers.filter((paper) => paper.dataset === dataset);
+      return {
+        dataset,
+        count,
+        firstYear: minYear(datasetPapers),
+        latestYear: maxYear(datasetPapers),
+        access: topEntries(countBy(datasetPapers, (paper) => accessLabels[paper.access] || paper.access), 2)
+      };
+    })
+    .sort((a, b) => b.count - a.count || a.dataset.localeCompare(b.dataset));
+
+  const activeDataset = state.selectedDataset && topicPapers.some((paper) => paper.dataset === state.selectedDataset)
+    ? state.selectedDataset
+    : datasetRows[0]?.dataset || null;
+
+  const card = document.createElement("article");
+  card.className = "analytics-card";
+  card.innerHTML = `
+    <div class="analytics-head">
+      <div>
+        <p class="eyebrow">Topic analytics</p>
+        <h2>${escapeHtml(topic)}</h2>
+      </div>
+      <div class="analytics-metrics">
+        ${metricMarkup(topicPapers.length, "papers")}
+        ${metricMarkup(new Set(topicPapers.map((paper) => paper.dataset)).size, "datasets")}
+        ${metricMarkup(minYear(topicPapers), "first paper year")}
+        ${metricMarkup(maxYear(topicPapers), "latest paper year")}
+      </div>
+    </div>
+    <div class="analytics-layout">
+      <div class="analytics-section">
+        <h3>Datasets in this topic</h3>
+        <div class="dataset-list">
+          ${datasetRows.slice(0, 12).map((row) => datasetRowMarkup(row, activeDataset)).join("")}
+        </div>
+      </div>
+      <div class="analytics-section">
+        <h3>Paper years</h3>
+        ${barListMarkup(yearBuckets(topicPapers), topicPapers.length)}
+      </div>
+      <div class="analytics-section">
+        <h3>Access types</h3>
+        ${barListMarkup(countBy(topicPapers, (paper) => accessLabels[paper.access] || paper.access), topicPapers.length)}
+      </div>
+      <div class="analytics-section">
+        <h3>Formats</h3>
+        ${barListMarkup(countBy(topicPapers, (paper) => paper.formats[0] || "Unspecified").slice(0, 8), topicPapers.length)}
+      </div>
+    </div>
+    ${activeDataset ? datasetAnalyticsMarkup(activeDataset, topicPapers) : ""}
+  `;
+
+  card.querySelectorAll("[data-analytics-dataset]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.selectedDataset = button.dataset.analyticsDataset;
+      render();
+    });
+  });
+
+  return card;
+}
+
+function datasetAnalyticsMarkup(dataset, scopedPapers) {
+  const datasetPapers = scopedPapers.filter((paper) => paper.dataset === dataset);
+  const labels = countBy(datasetPapers, (paper) => paper.topics).slice(0, 10);
+  return `
+    <div class="dataset-profile">
+      <div>
+        <h3>${escapeHtml(dataset)}</h3>
+        <p>${datasetPapers.length} paper${datasetPapers.length === 1 ? "" : "s"} in the selected topic · ${minYear(datasetPapers)}-${maxYear(datasetPapers)}</p>
+      </div>
+      <div class="dataset-profile-grid">
+        <div>
+          <h4>Labels appearing with this dataset</h4>
+          ${barListMarkup(labels, datasetPapers.length)}
+        </div>
+        <div>
+          <h4>Dataset access in this topic</h4>
+          ${barListMarkup(countBy(datasetPapers, (paper) => accessLabels[paper.access] || paper.access), datasetPapers.length)}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function metricMarkup(value, label) {
+  return `<div><span>${escapeHtml(value)}</span><small>${escapeHtml(label)}</small></div>`;
+}
+
+function datasetRowMarkup(row, activeDataset) {
+  const isActive = row.dataset === activeDataset;
+  const yearText = row.firstYear && row.latestYear ? `${row.firstYear}-${row.latestYear}` : "Year unavailable";
+  const accessText = row.access ? ` · ${row.access}` : "";
+  return `
+    <button class="dataset-row${isActive ? " active" : ""}" type="button" data-analytics-dataset="${escapeHtml(row.dataset)}">
+      <span>${escapeHtml(row.dataset)}</span>
+      <small>${row.count} paper${row.count === 1 ? "" : "s"} · ${yearText}${escapeHtml(accessText)}</small>
+    </button>
+  `;
+}
+
+function barListMarkup(entries, total) {
+  if (!entries.length || !total) return `<p class="empty-analytics">No data available.</p>`;
+  return `
+    <div class="bar-list">
+      ${entries.map(([label, count]) => {
+        const pct = Math.round((count / total) * 100);
+        return `
+          <div class="bar-row">
+            <div>
+              <span>${escapeHtml(label)}</span>
+              <small>${count}</small>
+            </div>
+            <div class="bar-track" aria-hidden="true"><span style="width: ${pct}%"></span></div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
+function countBy(items, selector) {
+  const counts = new Map();
+  items.forEach((item) => {
+    const raw = selector(item);
+    const values = Array.isArray(raw) ? raw : [raw];
+    values.filter(Boolean).forEach((value) => {
+      counts.set(value, (counts.get(value) || 0) + 1);
+    });
+  });
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || String(a[0]).localeCompare(String(b[0])));
+}
+
+function topEntries(entries, limit) {
+  return entries.slice(0, limit).map(([label, count]) => `${label}: ${count}`).join(", ");
+}
+
+function minYear(items) {
+  const years = items.map((item) => Number(item.year)).filter(Boolean);
+  return years.length ? Math.min(...years) : "n/a";
+}
+
+function maxYear(items) {
+  const years = items.map((item) => Number(item.year)).filter(Boolean);
+  return years.length ? Math.max(...years) : "n/a";
+}
+
+function yearBuckets(items) {
+  const buckets = new Map();
+  items.forEach((item) => {
+    const year = Number(item.year);
+    if (!year) return;
+    const start = Math.floor(year / 5) * 5;
+    const label = `${start}-${start + 4}`;
+    buckets.set(label, (buckets.get(label) || 0) + 1);
+  });
+  return [...buckets.entries()].sort((a, b) => Number(b[0].slice(0, 4)) - Number(a[0].slice(0, 4)));
 }
 
 function renderResults(matches) {
