@@ -33168,5 +33168,67 @@
         }
       ]
     }
+  },
+  {
+    "id": "arxiv-2603.05483",
+    "title": "SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis",
+    "authors": "Shahriar Noroozizadeh, Xiaobin Shen, Jeremy C. Weiss, George H. Chen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "SurvHTE-Bench",
+    "datasetUrl": "https://github.com/shahriarnz14/survhte-bench",
+    "paperUrl": "https://arxiv.org/abs/2603.05483",
+    "access": "open",
+    "formats": [
+      "tabular",
+      "benchmark data",
+      "code"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "heterogeneous treatment effects",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Benchmarking heterogeneous treatment-effect estimators with right-censored survival outcomes and accessible benchmark code/data.",
+    "note": "Auto-discovered from arXiv stat categories with explicit GitHub dataset link; retained because the statistical use is survival HTE benchmarking."
+  },
+  {
+    "id": "arxiv-2605.04124",
+    "title": "Design-Based Variance Estimation for Modern Heterogeneity-Robust Difference-in-Differences Estimators",
+    "authors": "Isaac Gerber",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "diff-diff replication data and code",
+    "datasetUrl": "https://github.com/igerber/diff-diff",
+    "paperUrl": "https://arxiv.org/abs/2605.04124",
+    "access": "open",
+    "formats": [
+      "r code",
+      "replication data",
+      "simulation scripts"
+    ],
+    "properties": [
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "survey methodology",
+      "complex survey design"
+    ],
+    "bestFor": "Studying design-based variance estimation for heterogeneity-robust difference-in-differences estimators under complex survey sampling.",
+    "note": "Auto-discovered from arXiv stat categories with explicit GitHub resource link; no new difference-in-differences label was created because the current evidence threshold is not yet met."
   }
 ]
