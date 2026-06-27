@@ -52,3 +52,37 @@ dataset link is known before the paper is considered. Auto-discovered records
 are marked with `auto-discovered` and `needs-review`; this makes it possible to
 publish a large searchable catalog while still separating machine-discovered
 records from fully curated records.
+
+## Discovery Scope
+
+Daily updates should cover the broader statistics ecosystem, not only public
+health, biomedical, or survey datasets. The discovery process should actively
+rotate across source families:
+
+- statistics preprints: arXiv `stat.ME`, `stat.AP`, `stat.CO`, `stat.ML`,
+  plus data/code evidence;
+- broad scholarly indexes: OpenAlex and Semantic Scholar;
+- reproducibility and data repositories: Dataverse, Zenodo, Figshare, OSF, ICPSR,
+  OpenICPSR, journal supplementary-data pages;
+- benchmark sources: OpenML, UCI Machine Learning Repository, forecasting
+  competitions, simulation benchmark papers, causal benchmark datasets;
+- statistical software ecosystems: CRAN task views, R/Python package papers,
+  package vignettes linked to real datasets or benchmark data;
+- journal families in statistics, biostatistics, econometrics, survey
+  methodology, machine learning, forecasting, spatial statistics, and Bayesian
+  computation.
+
+Older papers may be added when their datasets remain accessible and useful.
+Recency alone is not a quality criterion.
+
+## Label Expansion Direction
+
+The label system should become hierarchical over time. Broad labels such as
+`causal inference` or `bayesian inference` are allowed when they support
+topic-level analytics over many papers. They should coexist with more specific
+labels such as `propensity score methods`, `regression discontinuity designs`,
+`bayesian hierarchical models`, or `mcmc diagnostics`.
+
+New labels should be added through evidence: a candidate label should have
+multiple supporting papers or a clear discovery path that will produce them.
+Avoid one-paper labels, application-domain labels, and generic evaluation terms.

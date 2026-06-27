@@ -6,17 +6,23 @@ papers whose datasets are genuinely useful for that statistical research topic.
 
 ## Target Level
 
-Use mid-level statistics concepts.
+Use a layered statistics vocabulary. The catalog may contain broad, mid-level,
+and specific labels when each label is useful for a real search task and has
+enough papers to support meaningful browsing.
 
-Too broad for this search engine:
+Broad labels are allowed when the catalog is large enough that users may want
+topic-level dataset analytics. Examples include:
 
 - `bayesian inference`
 - `causal inference`
 - `survey methodology`
 - `statistical learning`
 
-These are real statistical fields, but they are too large to work as useful
-search labels.
+Broad labels should not replace more specific labels. A paper may carry a broad
+parent label plus mid-level or specific child labels when both levels help
+different users search the catalog. For example, a paper may reasonably carry
+`causal inference`, `propensity score methods`, and `treatment effect
+estimation` if all are supported by the paper and dataset.
 
 Too generic for this search engine:
 
@@ -40,6 +46,9 @@ These describe domains or data shapes, not the statistical research concept.
 
 Good label level:
 
+- `bayesian inference`
+- `bayesian hierarchical models`
+- `causal inference`
 - `propensity score methods`
 - `quasi-experimental designs`
 - `treatment effect estimation`
@@ -60,7 +69,35 @@ Good label level:
 - `hierarchical forecasting`
 - `probabilistic forecasting`
 - `mcmc diagnostics`
-- `bayesian hierarchical models`
+
+Specific labels are also allowed when they are recognized statistical research
+topics and are not one-paper tags. Examples that may be admitted after evidence
+checks include:
+
+- `difference-in-differences`
+- `regression discontinuity designs`
+- `instrumental variables`
+- `synthetic control`
+- `competing risks`
+- `joint models`
+- `recurrent event analysis`
+- `measurement error models`
+- `functional data analysis`
+- `spatial statistics`
+- `spatio-temporal models`
+- `high-dimensional statistics`
+- `variable selection`
+- `regularization methods`
+- `quantile regression`
+- `robust statistics`
+- `graphical models`
+- `latent variable models`
+- `item response theory`
+- `mixture models`
+- `clustering`
+- `dimension reduction`
+- `conformal prediction`
+- `uncertainty quantification`
 
 ## New Paper Workflow
 
@@ -75,13 +112,15 @@ When adding a paper, use this workflow in order.
    statistical purpose. Different wording in the paper is not enough reason to
    create a new label.
 
-3. Assign 3-4 labels when possible.
+3. Assign 3-6 labels when possible.
    Labels should explain why the dataset is useful for statistics research.
-   Do not list every method that could theoretically be applied.
+   Prefer a useful hierarchy: broad parent, mid-level method/design, and
+   specific research topic when all are supported. Do not list every method that
+   could theoretically be applied.
 
 4. Avoid redundant labels on the same paper.
-   Do not combine a broad parent and narrow child. For example, prefer
-   `propensity score methods` over `causal inference` for a matching dataset.
+   Do not combine synonyms or minor wording variants. Parent-child labels are
+   allowed only when both search levels are useful and evidence-supported.
 
 5. Add a new label only after the admission test.
 
@@ -98,6 +137,8 @@ A new label is allowed only if it passes all five checks:
   existing label.
 - Dataset-relevant: it explains why the paper's dataset is useful, not merely
   the application domain.
+- Hierarchy-aware: if it is broad, it supports topic-level analytics; if it is
+  specific, it is still reusable across several papers.
 
 If any check fails, do not create the label. Use the closest existing label or
 wait until more papers justify the new label.

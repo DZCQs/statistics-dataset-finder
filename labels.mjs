@@ -235,7 +235,7 @@ export const LABEL_REGISTRY = [
 
 export const LABEL_RULES = {
   minLabelsPerPaper: 3,
-  maxLabelsPerPaper: 4,
+  maxLabelsPerPaper: 6,
   minimumReuseForNewLabel: 3,
   scoreThreshold: 2,
   newLabelCooldown: "Create no new label unless at least three candidate papers support it."
