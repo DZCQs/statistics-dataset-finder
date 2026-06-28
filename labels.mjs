@@ -395,6 +395,29 @@ export const LABEL_CANDIDATES = [
       "the label improves search beyond the existing quasi-experimental designs parent label"
     ],
     evidenceTerms: ["difference-in-differences", "difference in differences", "diff-in-diff", "event study", "staggered adoption"]
+  },
+  {
+    name: "time series classification",
+    proposedLevel: "low",
+    proposedParents: ["time series analysis", "statistical learning"],
+    status: "watch",
+    definition: "Datasets useful for classifying ordered time series, including univariate or multivariate time-series classification benchmarks.",
+    currentEvidence: [
+      {
+        paperId: "ucr-time-series-archive",
+        reason: "Large public archive for univariate time-series classification datasets."
+      },
+      {
+        paperId: "uea-multivariate-time-series-archive",
+        reason: "Public archive for multivariate time-series classification datasets."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records support time-series classification as the statistical use",
+      "the datasets are accessible archives or benchmark datasets rather than one-off applied time series",
+      "the label improves search beyond the broader time series analysis and statistical learning labels"
+    ],
+    evidenceTerms: ["time series classification", "multivariate time series classification", "univariate time series classification", "classification archive"]
   }
 ];
 

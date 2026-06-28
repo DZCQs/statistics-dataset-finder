@@ -33230,5 +33230,178 @@
     ],
     "bestFor": "Studying design-based variance estimation for heterogeneity-robust difference-in-differences estimators under complex survey sampling.",
     "note": "Auto-discovered from arXiv stat categories with explicit GitHub resource link; no new difference-in-differences label was created because the current evidence threshold is not yet met."
+  },
+  {
+    "id": "monash-forecasting-archive",
+    "title": "Monash Time Series Forecasting Archive",
+    "authors": "Godahewa et al.",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Monash Time Series Forecasting Repository",
+    "datasetUrl": "https://forecastingdata.org/",
+    "paperUrl": "https://arxiv.org/abs/2105.06643",
+    "access": "open",
+    "formats": [
+      "time series",
+      "benchmark archive",
+      "csv"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Finding a broad public archive of time-series forecasting datasets for benchmark comparison and forecasting-method research.",
+    "note": "Added because the paper provides a clear public dataset archive; label coverage is intentionally conservative pending future forecasting-specific labels."
+  },
+  {
+    "id": "uea-multivariate-time-series-archive",
+    "title": "The UEA multivariate time series classification archive, 2018",
+    "authors": "Bagnall et al.",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "UEA multivariate time series classification archive",
+    "datasetUrl": "https://www.timeseriesclassification.com/",
+    "paperUrl": "https://arxiv.org/abs/1811.00075",
+    "access": "open",
+    "formats": [
+      "time series",
+      "classification datasets",
+      "archive"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "statistical learning"
+    ],
+    "bestFor": "Using public multivariate time-series classification datasets for statistical learning and time-series classification research.",
+    "note": "Supports the internal candidate label time series classification; not given a public low-level label until the candidate reaches admission rules."
+  },
+  {
+    "id": "ucr-time-series-archive",
+    "title": "The UCR Time Series Archive",
+    "authors": "Dau et al.",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "UCR Time Series Classification Archive",
+    "datasetUrl": "https://www.cs.ucr.edu/~eamonn/time_series_data_2018/",
+    "paperUrl": "https://arxiv.org/abs/1810.07758",
+    "access": "open",
+    "formats": [
+      "time series",
+      "classification datasets",
+      "archive"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "statistical learning"
+    ],
+    "bestFor": "Using public univariate time-series classification datasets for statistical learning and time-series classification benchmarks.",
+    "note": "Supports the internal candidate label time series classification; not given a public low-level label until the candidate reaches admission rules."
+  },
+  {
+    "id": "openml-networked-science",
+    "title": "OpenML: networked science in machine learning",
+    "authors": "Vanschoren et al.",
+    "year": 2014,
+    "citations": 0,
+    "dataset": "OpenML datasets and tasks",
+    "datasetUrl": "https://www.openml.org/search?type=data",
+    "paperUrl": "https://doi.org/10.1145/2641190.2641198",
+    "access": "open",
+    "formats": [
+      "tabular",
+      "benchmark tasks",
+      "metadata"
+    ],
+    "properties": [
+      "benchmark",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical learning"
+    ],
+    "bestFor": "Finding reusable machine-learning datasets and tasks with public metadata for statistical learning experiments.",
+    "note": "Added because the paper documents a clear public dataset platform; detailed method labels require later review."
+  },
+  {
+    "id": "pmlb-benchmark-suite",
+    "title": "PMLB: A Large Benchmark Suite for Machine Learning Evaluation and Comparison",
+    "authors": "Olson et al.",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Penn Machine Learning Benchmarks",
+    "datasetUrl": "https://github.com/EpistasisLab/pmlb",
+    "paperUrl": "https://doi.org/10.1186/s13040-017-0154-4",
+    "access": "open",
+    "formats": [
+      "tabular",
+      "classification datasets",
+      "regression datasets"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical learning"
+    ],
+    "bestFor": "Using a curated public benchmark suite for supervised learning evaluation across many tabular datasets.",
+    "note": "Added because the paper provides a clear open benchmark repository; no extra public label was added merely to describe generic benchmarking."
+  },
+  {
+    "id": "hpob-openml-benchmark",
+    "title": "HPO-B: A Large-Scale Reproducible Benchmark for Black-Box HPO based on OpenML",
+    "authors": "Pineda-Arango et al.",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "HPO-B benchmark",
+    "datasetUrl": "https://github.com/releaunifreiburg/HPO-B",
+    "paperUrl": "https://arxiv.org/abs/2106.06257",
+    "access": "open",
+    "formats": [
+      "benchmark data",
+      "surrogate benchmark",
+      "metadata"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical learning"
+    ],
+    "bestFor": "Using a public benchmark for black-box hyperparameter optimization and statistical learning experiments.",
+    "note": "Added because the paper provides a clear dataset repository; hyperparameter optimization is not yet an official label and should be considered through future candidate-label evidence."
   }
 ]

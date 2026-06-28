@@ -80,6 +80,7 @@ function candidateLabelStatus(papers) {
 function auditPaper(paper) {
   const suggestions = suggestLabels(paper);
   const assigned = paper.topics || [];
+  const needsLabelReview = (paper.properties || []).includes("needs-label-review");
   const unknown = assigned.filter((topic) => !LABEL_REGISTRY.some((label) => label.name === topic));
   const missingSuggested = suggestions
     .map((item) => item.label)
@@ -95,8 +96,9 @@ function auditPaper(paper) {
     suggested: suggestions,
     status: {
       labelCountOk:
-        assigned.length >= LABEL_RULES.minLabelsPerPaper &&
+        (needsLabelReview || assigned.length >= LABEL_RULES.minLabelsPerPaper) &&
         assigned.length <= LABEL_RULES.maxLabelsPerPaper,
+      needsLabelReview,
       unknown,
       missingSuggested,
       weakAssigned

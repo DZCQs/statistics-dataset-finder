@@ -54,7 +54,7 @@ const evidenceRules = [
     reason: "forecasting competition or benchmark evidence in record text",
     test: (paper) =>
       hasTopic(paper, "time series forecasting") &&
-      /\b(forecasting competition|forecast competition|competition|challenge|benchmark)\b/i.test(paperText(paper))
+      /\b(forecasting competition|forecast competition|competition|challenge)\b/i.test(paperText(paper))
   }
 ];
 
