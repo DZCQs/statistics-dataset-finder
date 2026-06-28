@@ -89,6 +89,12 @@ New labels should be added through evidence: a candidate label should have
 multiple supporting papers or a clear discovery path that will produce them.
 Avoid one-paper labels, application-domain labels, and generic evaluation terms.
 
+Candidate labels are persistent system state, not conversational notes. Track
+them in `LABEL_CANDIDATES` in `labels.mjs` with proposed level, proposed
+parents, supporting paper IDs, and admission conditions. Daily updates should
+check whether any candidate label has gained enough high-confidence records to
+be promoted into `LABEL_REGISTRY`.
+
 Daily updates should run:
 
 ```bash
@@ -100,3 +106,7 @@ This makes each update a whole-system label-health check, not just an
 incremental append. If a newly discovered paper would require a vague,
 redundant, or one-paper label, reject the paper or use the closest existing
 statistics label until enough evidence supports a new one.
+
+Daily discovery should rotate sources rather than blindly exhaust every source
+every day. If one source mostly returns duplicates or weak candidates, record
+that in the report and move to a different source family on the next run.

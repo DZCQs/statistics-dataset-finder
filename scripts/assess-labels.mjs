@@ -1,5 +1,5 @@
 import { readFile } from "node:fs/promises";
-import { LABEL_REGISTRY, LABEL_RULES } from "../labels.mjs";
+import { LABEL_CANDIDATES, LABEL_REGISTRY, LABEL_RULES } from "../labels.mjs";
 
 async function loadPapers() {
   const source = await readFile(new URL("../data/papers.json", import.meta.url), "utf8");
@@ -53,6 +53,30 @@ function labelUsage(papers) {
   return usage;
 }
 
+function candidateLabelStatus(papers) {
+  return LABEL_CANDIDATES.map((candidate) => {
+    const evidenceIds = new Set((candidate.currentEvidence || []).map((item) => item.paperId));
+    const textMatches = papers.filter((paper) => {
+      const text = paperText(paper);
+      return (candidate.evidenceTerms || []).some((term) => text.includes(term.toLowerCase()));
+    });
+    const supportedPaperIds = [...new Set([...evidenceIds, ...textMatches.map((paper) => paper.id)])].filter((id) =>
+      papers.some((paper) => paper.id === id)
+    );
+
+    return {
+      name: candidate.name,
+      status: candidate.status,
+      proposedLevel: candidate.proposedLevel,
+      proposedParents: candidate.proposedParents || [],
+      supportCount: supportedPaperIds.length,
+      requiredSupport: LABEL_RULES.minimumReuseForNewLabel,
+      readyForReview: supportedPaperIds.length >= LABEL_RULES.minimumReuseForNewLabel,
+      supportedPaperIds
+    };
+  });
+}
+
 function auditPaper(paper) {
   const suggestions = suggestLabels(paper);
   const assigned = paper.topics || [];
@@ -102,6 +126,7 @@ const underused = [...usage.entries()]
 const unknownLabels = [...new Set(audits.flatMap((audit) => audit.status.unknown))].sort();
 const wrongLabelCounts = audits.filter((audit) => !audit.status.labelCountOk);
 const weakAssignments = audits.filter((audit) => audit.status.weakAssigned.length);
+const candidateLabels = candidateLabelStatus(papers);
 
 console.log(
   JSON.stringify(
@@ -115,6 +140,7 @@ console.log(
       labelUsage: Object.fromEntries([...usage.entries()].sort((a, b) => a[0].localeCompare(b[0]))),
       underused,
       hierarchyIssues,
+      candidateLabels,
       unknownLabels,
       wrongLabelCounts: wrongLabelCounts.map(({ id, assigned }) => ({ id, assigned })),
       weakAssignments: weakAssignments.map(({ id, status }) => ({

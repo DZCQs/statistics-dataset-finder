@@ -372,6 +372,32 @@ export const LABEL_REGISTRY = [
   }
 ];
 
+export const LABEL_CANDIDATES = [
+  {
+    name: "difference-in-differences",
+    proposedLevel: "low",
+    proposedParents: ["quasi-experimental designs", "treatment effect estimation"],
+    status: "watch",
+    definition: "Datasets useful for difference-in-differences designs, including staggered adoption, heterogeneity-robust DiD estimators, event-study variants, or policy panels with treated and comparison units.",
+    currentEvidence: [
+      {
+        paperId: "card-krueger",
+        reason: "Classic minimum-wage policy panel example with before/after treated and comparison units."
+      },
+      {
+        paperId: "arxiv-2605.04124",
+        reason: "Design-based variance estimation for heterogeneity-robust difference-in-differences estimators with explicit replication code/data."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records have explicit DiD, event-study, or staggered-adoption use",
+      "the records have accessible datasets or replication data/code, not only methodological discussion",
+      "the label improves search beyond the existing quasi-experimental designs parent label"
+    ],
+    evidenceTerms: ["difference-in-differences", "difference in differences", "diff-in-diff", "event study", "staggered adoption"]
+  }
+];
+
 export const LABEL_RULES = {
   minLabelsPerPaper: 3,
   maxLabelsPerPaper: 6,

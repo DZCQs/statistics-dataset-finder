@@ -200,3 +200,22 @@ A new label is allowed only if it passes all five checks:
 
 If any check fails, do not create the label. Use the closest existing label or
 wait until more papers justify the new label.
+
+## Candidate Labels
+
+Candidate labels are tracked in `LABEL_CANDIDATES` inside `labels.mjs`. They are
+not shown as public filters yet, but the daily update and label assessor should
+review them.
+
+A candidate label should record:
+
+- proposed `high`, `mid`, or `low` level,
+- proposed parent labels when applicable,
+- supporting paper IDs,
+- evidence terms,
+- the specific conditions required for admission.
+
+When a candidate reaches the reuse threshold and passes the admission test, move
+it into `LABEL_REGISTRY`, assign `level` and `parents`, then rerun the whole
+catalog relabeler and assessor. If it remains below threshold, keep using the
+closest existing parent label in live paper records.
