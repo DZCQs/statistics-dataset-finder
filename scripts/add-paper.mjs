@@ -45,6 +45,11 @@ function assignLabels(paper) {
 }
 
 function normalizePaper(paper, assigned) {
+  const properties = paper.properties || ["documentation"];
+  if (assigned.length < LABEL_RULES.minLabelsPerPaper && !properties.includes("needs-label-review")) {
+    properties.push("needs-label-review");
+  }
+
   return {
     id: paper.id,
     title: paper.title,
@@ -56,7 +61,7 @@ function normalizePaper(paper, assigned) {
     paperUrl: paper.paperUrl,
     access: paper.access || "open",
     formats: paper.formats || [],
-    properties: paper.properties || ["documentation"],
+    properties,
     topics: assigned.map((item) => item.label),
     bestFor: paper.bestFor || paper.summary || "Curator review needed.",
     note: paper.note || "Added through the label-assessment workflow."
@@ -79,13 +84,14 @@ for (const paper of incoming) {
   const missing = validateRequired(paper);
   const assigned = assignLabels(paper);
 
-  if (missing.length || existingIds.has(paper.id) || assigned.length < LABEL_RULES.minLabelsPerPaper) {
+  if (missing.length || existingIds.has(paper.id)) {
     rejected.push({
       id: paper.id || null,
       title: paper.title || null,
       missing,
       duplicate: existingIds.has(paper.id),
-      assigned
+      assigned,
+      note: "Rejected only because required paper/dataset metadata is missing or the paper is a duplicate."
     });
     continue;
   }
@@ -110,8 +116,8 @@ console.log(
       rejected,
       note:
         rejected.length > 0
-          ? "Rejected papers need more metadata, are duplicates, or did not match enough existing labels."
-          : "All candidate papers were added with existing labels."
+          ? "Rejected papers need required metadata or are duplicates. Label coverage is reviewed after inclusion, not used as an inclusion gate."
+          : "All candidate papers with required dataset metadata were added."
     },
     null,
     2

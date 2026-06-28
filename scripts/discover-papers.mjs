@@ -366,7 +366,6 @@ for (const category of enabledCategories) {
 const rawCandidates = dedupe(allCandidates).map(screenCandidate);
 const reviewCandidates = rawCandidates.filter((paper) => {
   return (
-    hasStatisticsSignal(paper) &&
     !hasNoiseSignal(paper) &&
     hasArxivStatisticsCategory(paper) &&
     paper.paperUrl &&
@@ -376,7 +375,7 @@ const reviewCandidates = rawCandidates.filter((paper) => {
 
 const screened = reviewCandidates
   .filter((paper) => {
-    return paper.datasetUrl && paper.discovery.datasetScore > 0;
+    return paper.paperUrl && paper.datasetUrl && paper.discovery.datasetScore > 0;
   })
   .sort((a, b) => {
     return (

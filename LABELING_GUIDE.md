@@ -150,6 +150,10 @@ checks include:
 
 When adding a paper, use this workflow in order.
 
+0. Confirm the inclusion rule.
+   A paper is eligible for the catalog if it provides a clear dataset source in
+   any verifiable form. Label availability is not an inclusion gate.
+
 1. Identify the paper's main statistical use.
    Ask what method, design, missing-data problem, sampling issue, modeling
    framework, or forecasting problem a graduate student would search for.
@@ -164,6 +168,8 @@ When adding a paper, use this workflow in order.
    Prefer a useful hierarchy: broad parent, mid-level method/design, and
    specific research topic when all are supported. Do not list every method that
    could theoretically be applied.
+   If fewer than three official labels fit, keep the paper eligible and mark it
+   for label review instead of rejecting it.
 
 4. Avoid redundant labels on the same paper.
    Do not combine synonyms or minor wording variants. Parent-child labels are

@@ -6,12 +6,27 @@ The intended long-term workflow is:
 2. The paper database lives in `data/papers.json` or a later hosted database.
 3. New papers are discovered automatically from scholarly sources.
 4. Candidate papers are screened for clear dataset access.
-5. Existing labels are tried first.
-6. New labels are proposed only when several papers support the same statistical
+5. Papers with explicit dataset sources are eligible for inclusion; labels are
+   organization metadata, not an inclusion gate.
+6. Existing labels are tried first.
+7. New labels are proposed only when several papers support the same statistical
    research concept.
-7. The whole catalog is relabeled and assessed after accepted additions, so new
+8. The whole catalog is relabeled and assessed after accepted additions, so new
    records do not slowly damage the controlled vocabulary.
-8. Approved database changes trigger an automatic website update.
+9. Approved database changes trigger an automatic website update.
+
+## Inclusion Rule
+
+The inclusion rule for `data/papers.json` has one hard standard:
+
+- include a paper when it provides a clear dataset source in any verifiable
+  form, such as a dataset URL, repository, replication archive, supplement,
+  journal data page, package data source, or documented public dataset link.
+
+Do not reject a paper merely because it does not advertise data access in the
+abstract, does not match enough existing labels, supports a candidate label, or
+requires later label review. Those are labeling and curation issues after the
+dataset-source requirement is met.
 
 The project owner should not need to edit code or manually collect paper lists.
 The owner can ask for updates in ordinary language, such as:
@@ -117,8 +132,8 @@ Discovery and admission are separate stages:
   the abstract to become a review candidate, and it does not need to match three
   existing official labels.
 - Review should be strict. A paper should enter `data/papers.json` only after
-  dataset access is clear, the statistical use is credible, duplicates are
-  checked, and labels or candidate-label evidence are reviewed.
+  dataset access is clear and duplicates are checked. Label or candidate-label
+  evidence should be reviewed, but weak label coverage is not an inclusion gate.
 - Candidate-label overlap matters. If a paper supports a `LABEL_CANDIDATES`
   entry, keep it in the review pool even when it does not yet fit three official
   labels.
