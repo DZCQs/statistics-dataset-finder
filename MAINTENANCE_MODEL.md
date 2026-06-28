@@ -110,3 +110,18 @@ statistics label until enough evidence supports a new one.
 Daily discovery should rotate sources rather than blindly exhaust every source
 every day. If one source mostly returns duplicates or weak candidates, record
 that in the report and move to a different source family on the next run.
+
+Discovery and admission are separate stages:
+
+- Discovery should be broad. A paper does not need to advertise data access in
+  the abstract to become a review candidate, and it does not need to match three
+  existing official labels.
+- Review should be strict. A paper should enter `data/papers.json` only after
+  dataset access is clear, the statistical use is credible, duplicates are
+  checked, and labels or candidate-label evidence are reviewed.
+- Candidate-label overlap matters. If a paper supports a `LABEL_CANDIDATES`
+  entry, keep it in the review pool even when it does not yet fit three official
+  labels.
+
+Daily reports should distinguish raw candidates, review candidates, screened
+high-confidence candidates, and records actually added.

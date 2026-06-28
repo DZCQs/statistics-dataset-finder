@@ -1,5 +1,5 @@
 import { mkdir, writeFile } from "node:fs/promises";
-import { LABEL_REGISTRY, LABEL_RULES } from "../labels.mjs";
+import { LABEL_CANDIDATES, LABEL_REGISTRY, LABEL_RULES } from "../labels.mjs";
 
 const DEFAULT_LIMIT = 25;
 const REQUEST_DELAY_MS = 3500;
@@ -141,6 +141,17 @@ function scoreLabels(paper) {
     .filter((item) => item.score >= LABEL_RULES.scoreThreshold)
     .sort((a, b) => b.score - a.score || a.label.localeCompare(b.label))
     .slice(0, LABEL_RULES.maxLabelsPerPaper);
+}
+
+function scoreCandidateLabels(paper) {
+  const text = textFor(paper);
+  return LABEL_CANDIDATES
+    .map((label) => {
+      const evidence = (label.evidenceTerms || []).filter((term) => text.includes(term.toLowerCase()));
+      return { label: label.name, score: evidence.length, evidence };
+    })
+    .filter((item) => item.score > 0)
+    .sort((a, b) => b.score - a.score || a.label.localeCompare(b.label));
 }
 
 function hasStatisticsSignal(paper) {
@@ -287,6 +298,7 @@ async function searchArxivStatCategory(category, term, limit) {
 function screenCandidate(paper) {
   const datasetUrl = inferDatasetUrl(paper);
   const labels = scoreLabels(paper);
+  const candidateLabels = scoreCandidateLabels(paper);
   const dataset = datasetScore({ ...paper, datasetUrl });
   return {
     ...paper,
@@ -295,7 +307,8 @@ function screenCandidate(paper) {
     discovery: {
       datasetEvidence: dataset.evidence,
       datasetScore: dataset.score,
-      labelEvidence: labels
+      labelEvidence: labels,
+      candidateLabelEvidence: candidateLabels
     }
   };
 }
@@ -350,18 +363,20 @@ for (const category of enabledCategories) {
 }
 }
 
-const screened = dedupe(allCandidates)
-  .map(screenCandidate)
+const rawCandidates = dedupe(allCandidates).map(screenCandidate);
+const reviewCandidates = rawCandidates.filter((paper) => {
+  return (
+    hasStatisticsSignal(paper) &&
+    !hasNoiseSignal(paper) &&
+    hasArxivStatisticsCategory(paper) &&
+    paper.paperUrl &&
+    (paper.datasetUrl || paper.discovery.datasetScore > 0 || paper.discovery.candidateLabelEvidence.length)
+  );
+});
+
+const screened = reviewCandidates
   .filter((paper) => {
-    return (
-      paper.discovery.datasetScore > 0 &&
-      hasStatisticsSignal(paper) &&
-      !hasNoiseSignal(paper) &&
-      hasArxivStatisticsCategory(paper) &&
-      paper.topics.length >= LABEL_RULES.minLabelsPerPaper &&
-      paper.datasetUrl &&
-      paper.paperUrl
-    );
+    return paper.datasetUrl && paper.discovery.datasetScore > 0;
   })
   .sort((a, b) => {
     return (
@@ -374,7 +389,19 @@ const screened = dedupe(allCandidates)
 await mkdir(new URL("../data", import.meta.url), { recursive: true });
 await writeFile(
   new URL("../data/candidate-papers.json", import.meta.url),
-  `${JSON.stringify({ createdAt: new Date().toISOString(), errors, candidates: screened }, null, 2)}\n`
+  `${JSON.stringify(
+    {
+      createdAt: new Date().toISOString(),
+      errors,
+      rawCandidateCount: rawCandidates.length,
+      reviewCandidateCount: reviewCandidates.length,
+      screenedCandidateCount: screened.length,
+      candidates: screened,
+      reviewCandidates: reviewCandidates.slice(0, 200)
+    },
+    null,
+    2
+  )}\n`
 );
 
 console.log(
@@ -383,7 +410,9 @@ console.log(
       enabledSources: [...enabledSources],
       enabledCategories,
       searchedQueries: DISCOVERY_QUERIES.length,
-      candidates: screened.length,
+      rawCandidates: rawCandidates.length,
+      reviewCandidates: reviewCandidates.length,
+      screenedCandidates: screened.length,
       errors
     },
     null,
