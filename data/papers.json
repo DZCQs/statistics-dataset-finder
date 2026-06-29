@@ -33520,5 +33520,178 @@
     ],
     "bestFor": "Finding Bayesian inference and MCMC examples for scalable posterior simulation, SGMCMC diagnostics, logistic regression, neural networks, and matrix factorisation.",
     "note": "Repository verified reachable and README documents simulated data, MNIST, and MovieLens examples. Auto-discovered candidate; review before treating it as curated."
+  },
+  {
+    "id": "openalex-W3014524604",
+    "title": "Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal",
+    "authors": "Wynants et al.",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "OSF materials for the covid-19 prediction model systematic review",
+    "datasetUrl": "https://osf.io/ehc47/",
+    "paperUrl": "https://doi.org/10.1136/bmj.m1328",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "review data",
+      "supplementary materials"
+    ],
+    "properties": [
+      "existing-dataset",
+      "documentation",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "risk prediction"
+    ],
+    "bestFor": "Finding a risk prediction example with public review materials for assessing diagnostic and prognostic prediction models.",
+    "note": "OSF project verified reachable. Auto-discovered from OpenAlex; review exact extracted data files before treating this as curated."
+  },
+  {
+    "id": "openalex-W4293051770",
+    "title": "propeller: testing for differences in cell type proportions in single cell data",
+    "authors": "Phipson et al.",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "speckle/propeller repository and Zenodo analysis materials",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.7009042",
+    "paperUrl": "https://doi.org/10.1093/bioinformatics/btac582",
+    "access": "open",
+    "formats": [
+      "r package",
+      "zenodo archive",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [],
+    "bestFor": "Finding statistical testing examples for proportions and replicated single-cell experimental designs.",
+    "note": "GitHub and Zenodo resources verified reachable. Official label coverage is incomplete for this topic, so this record is marked for label review."
+  },
+  {
+    "id": "openalex-W3003709258",
+    "title": "WeatherBench: A Benchmark Data Set for Data-Driven Weather Forecasting",
+    "authors": "Rasp et al.",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "WeatherBench benchmark dataset",
+    "datasetUrl": "https://github.com/pangeo-data/WeatherBench",
+    "paperUrl": "https://doi.org/10.1029/2020MS002203",
+    "access": "open",
+    "formats": [
+      "benchmark",
+      "weather time series",
+      "code"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Finding benchmark data for data-driven weather forecasting, forecast comparison, and time-series prediction experiments.",
+    "note": "Repository verified reachable and README identifies WeatherBench as a benchmark dataset. Auto-discovered candidate; review dataset version before treating it as curated."
+  },
+  {
+    "id": "openalex-W3199148273",
+    "title": "TS2Vec: Towards Universal Representation of Time Series",
+    "authors": "Yue et al.",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "TS2Vec repository with UCR, UEA, ETT, and other time-series benchmark instructions",
+    "datasetUrl": "https://github.com/zhihanyue/ts2vec",
+    "paperUrl": "https://doi.org/10.1609/aaai.v36i8.20881",
+    "access": "open",
+    "formats": [
+      "code",
+      "time series benchmarks",
+      "representation learning examples"
+    ],
+    "properties": [
+      "benchmark",
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "statistical learning"
+    ],
+    "bestFor": "Finding time-series representation learning examples using standard UCR, UEA, ETT, and related public benchmark datasets.",
+    "note": "Repository verified reachable and README documents benchmark data sources. Time-series classification is still a candidate label, so this record is marked for label review."
+  },
+  {
+    "id": "openalex-W4387561305",
+    "title": "iTransformer: Inverted Transformers Are Effective for Time Series Forecasting",
+    "authors": "Liu et al.",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "iTransformer repository with long-term time-series forecasting benchmark resources",
+    "datasetUrl": "https://github.com/thuml/iTransformer",
+    "paperUrl": "https://arxiv.org/abs/2310.06625",
+    "access": "open",
+    "formats": [
+      "code",
+      "forecasting benchmarks",
+      "time series"
+    ],
+    "properties": [
+      "benchmark",
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Finding long-term time-series forecasting benchmark examples for transformer-based forecasting comparisons.",
+    "note": "Repository verified reachable. Auto-discovered candidate; review exact benchmark files and dataset download instructions before treating it as curated."
+  },
+  {
+    "id": "openalex-W2983758708",
+    "title": "OpenML-Python: an extensible Python API for OpenML",
+    "authors": "Feurer et al.",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "OpenML Python API and OpenML dataset platform",
+    "datasetUrl": "https://github.com/openml/openml-python/",
+    "paperUrl": "https://arxiv.org/abs/1911.02490",
+    "access": "open",
+    "formats": [
+      "python package",
+      "openml datasets",
+      "api"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "documentation",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical learning"
+    ],
+    "bestFor": "Finding programmable access to OpenML datasets, tasks, and experiments for statistical learning examples.",
+    "note": "Repository verified reachable. This complements the OpenML platform record but should be reviewed for redundancy before being treated as curated."
   }
 ]
