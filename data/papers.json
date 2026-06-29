@@ -33403,5 +33403,122 @@
     ],
     "bestFor": "Using a public benchmark for black-box hyperparameter optimization and statistical learning experiments.",
     "note": "Added because the paper provides a clear dataset repository; hyperparameter optimization is not yet an official label and should be considered through future candidate-label evidence."
+  },
+  {
+    "id": "openalex-W2463616135",
+    "title": "MetaCycle: an integrated R package to evaluate periodicity in large scale data",
+    "authors": "Wu et al.",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "MetaCycle R package examples and time-series periodicity resources",
+    "datasetUrl": "https://github.com/gangwug/metacycle",
+    "paperUrl": "https://doi.org/10.1093/bioinformatics/btw405",
+    "access": "open",
+    "formats": [
+      "r package",
+      "time series examples",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Finding time series analysis examples for evaluating periodicity, temporal dependence, and large-scale rhythm detection methods.",
+    "note": "Repository verified reachable. Auto-discovered from OpenAlex/Semantic Scholar style search; use as a time series analysis candidate and review exact included example datasets before treating it as curated."
+  },
+  {
+    "id": "s2-4f36a1dc8f112d146320d3e54f267d5b68d68a2d",
+    "title": "NApy: efficient statistics in Python for large-scale heterogeneous data with enhanced support for missing data",
+    "authors": "NApy authors",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "NApy repository and examples for heterogeneous data with missingness",
+    "datasetUrl": "https://github.com/dyhealthnet/napy",
+    "paperUrl": "https://www.semanticscholar.org/paper/4f36a1dc8f112d146320d3e54f267d5b68d68a2d",
+    "access": "open-link",
+    "formats": [
+      "python package",
+      "examples",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data"
+    ],
+    "bestFor": "Finding missing data and incomplete heterogeneous data examples for statistical tests, effect sizes, and scalable exploratory analysis.",
+    "note": "Repository verified reachable. Auto-discovered candidate; review paper metadata and example data contents before treating it as curated."
+  },
+  {
+    "id": "openalex-W4382239356",
+    "title": "NHITS: Neural Hierarchical Interpolation for Time Series Forecasting",
+    "authors": "Challu et al.",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "NeuralForecast repository and forecasting benchmark resources",
+    "datasetUrl": "https://github.com/nixtla/neuralforecast",
+    "paperUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/25854",
+    "access": "open",
+    "formats": [
+      "python package",
+      "forecasting benchmarks",
+      "code"
+    ],
+    "properties": [
+      "benchmark",
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Finding time series forecasting examples for long-horizon forecasting, neural forecasting benchmarks, and hierarchical interpolation methods.",
+    "note": "Repository and paper page verified reachable. Auto-discovered candidate; review exact benchmark datasets used before treating it as curated."
+  },
+  {
+    "id": "openalex-W3100688298",
+    "title": "Stochastic Gradient Markov Chain Monte Carlo",
+    "authors": "Nemeth and Fearnhead",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "SGMCMC review paper repository with simulated, MNIST, and MovieLens examples",
+    "datasetUrl": "https://github.com/chris-nemeth/sgmcmc-review-paper",
+    "paperUrl": "https://doi.org/10.1080/01621459.2020.1847120",
+    "access": "open-link",
+    "formats": [
+      "r code",
+      "simulated data",
+      "mnist",
+      "movielens"
+    ],
+    "properties": [
+      "benchmark",
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Finding Bayesian inference and MCMC examples for scalable posterior simulation, SGMCMC diagnostics, logistic regression, neural networks, and matrix factorisation.",
+    "note": "Repository verified reachable and README documents simulated data, MNIST, and MovieLens examples. Auto-discovered candidate; review before treating it as curated."
   }
 ]
