@@ -70,6 +70,14 @@ are marked with `auto-discovered` and `needs-review`; this makes it possible to
 publish a large searchable catalog while still separating machine-discovered
 records from fully curated records.
 
+The daily discovery script should start from a substantial raw candidate pool,
+not a tiny pre-filtered list. A normal daily run should use multiple source
+families and should usually produce at least 100 raw candidates when the public
+APIs are reachable. If the raw candidate count is much smaller, treat that as a
+discovery failure: broaden the query/source mix before concluding that too few
+papers exist. The final accepted count may be small because dataset-source
+verification is strict, but the initial pool should not be small.
+
 ## Discovery Scope
 
 Daily updates should cover the broader statistics ecosystem, not only public

@@ -2,8 +2,9 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { LABEL_CANDIDATES, LABEL_REGISTRY, LABEL_RULES } from "../labels.mjs";
 
 const DEFAULT_LIMIT = 25;
-const REQUEST_DELAY_MS = 3500;
+const DEFAULT_DELAY_MS = 1200;
 const RETRY_DELAY_MS = 20000;
+const OUTPUT_URL = new URL("../data/candidate-papers.json", import.meta.url);
 const DATASET_SIGNALS = [
   "dataset",
   "data set",
@@ -32,13 +33,48 @@ const DISCOVERY_QUERIES = [
   "propensity score methods dataset causal inference",
   "regression discontinuity dataset statistics",
   "difference-in-differences dataset statistics",
+  "synthetic control dataset statistics",
+  "instrumental variables replication data econometrics",
   "heterogeneous treatment effects benchmark dataset",
   "survival models dataset biostatistics",
+  "competing risks dataset statistics",
+  "joint models longitudinal survival dataset statistics",
   "risk prediction survival dataset statistics",
   "time series forecasting benchmark dataset statistics",
   "hierarchical forecasting dataset statistics",
+  "functional data analysis dataset statistics",
+  "spatial statistics dataset repository",
+  "spatio-temporal statistics public dataset",
+  "high-dimensional statistics benchmark dataset",
+  "variable selection benchmark dataset statistics",
+  "quantile regression dataset statistics",
+  "robust statistics benchmark dataset",
+  "graphical models benchmark dataset statistics",
+  "latent variable models dataset statistics",
+  "item response theory dataset statistics",
+  "mixture models dataset statistics",
+  "conformal prediction benchmark dataset",
+  "uncertainty quantification benchmark dataset",
+  "OpenML statistical learning benchmark",
+  "UCI repository statistical learning paper",
+  "CRAN package data statistical methods paper",
+  "Dataverse replication data statistics",
+  "Zenodo dataset statistical methods paper",
+  "Figshare dataset statistical methods paper",
+  "OSF data statistical methods paper",
+  "ICPSR replication data statistical methods",
   "bayesian hierarchical model dataset statistics",
   "mcmc diagnostics bayesian benchmark dataset"
+];
+
+const OPENALEX_QUERIES = [
+  ...DISCOVERY_QUERIES,
+  "replication data statistics",
+  "supplementary data statistics",
+  "benchmark dataset statistics",
+  "public dataset statistical methods",
+  "data repository statistical analysis paper",
+  "open data statistical methodology"
 ];
 
 const ARXIV_STAT_CATEGORIES = ["stat.AP", "stat.ME", "stat.CO", "stat.TH"];
@@ -87,7 +123,7 @@ function sleep(ms) {
 }
 
 async function fetchWithRetry(url, label) {
-  await sleep(REQUEST_DELAY_MS);
+  await sleep(requestDelayMs);
   let response = await fetch(url);
   if (response.status === 429) {
     await sleep(RETRY_DELAY_MS);
@@ -110,9 +146,9 @@ function textFor(paper) {
     paper.title,
     paper.abstract,
     paper.dataset,
+    paper.datasetUrl,
     paper.summary,
     paper.bestFor,
-    paper.note,
     ...(paper.formats || []),
     ...(paper.properties || [])
   ]
@@ -215,7 +251,7 @@ function normalizeSemanticScholarPaper(raw, query) {
     year: raw.year || null,
     citations: raw.citationCount || 0,
     dataset: "",
-    datasetUrl: openPdfUrl || raw.url || "",
+    datasetUrl: "",
     paperUrl: raw.url || openPdfUrl || "",
     access: openPdfUrl ? "open" : "request",
     formats: [],
@@ -224,6 +260,44 @@ function normalizeSemanticScholarPaper(raw, query) {
     abstract: clean(raw.abstract),
     bestFor: clean(raw.tldr?.text || raw.abstract || "Candidate paper from automated discovery."),
     note: `Discovered from Semantic Scholar query: ${query}`
+  };
+}
+
+function abstractFromInvertedIndex(index) {
+  if (!index) return "";
+  const words = [];
+  for (const [word, positions] of Object.entries(index)) {
+    for (const position of positions || []) {
+      words[position] = word;
+    }
+  }
+  return clean(words.filter(Boolean).join(" "));
+}
+
+function normalizeOpenAlexWork(raw, query) {
+  const authors = (raw.authorships || [])
+    .map((item) => item.author?.display_name)
+    .filter(Boolean);
+  const landingPage = raw.primary_location?.landing_page_url || "";
+  const oaUrl = raw.open_access?.oa_url || "";
+  const doiUrl = raw.doi || "";
+  const paperUrl = oaUrl || landingPage || doiUrl || raw.id || "";
+  return {
+    id: `openalex-${raw.id?.split("/").pop() || slug(raw.display_name)}`,
+    title: clean(raw.display_name),
+    authors: authors.length ? authors.join(", ") : "Unknown authors",
+    year: raw.publication_year || null,
+    citations: raw.cited_by_count || 0,
+    dataset: "",
+    datasetUrl: "",
+    paperUrl,
+    access: raw.open_access?.is_oa ? "open" : "open-link",
+    formats: [],
+    properties: ["candidate"],
+    topics: [],
+    abstract: abstractFromInvertedIndex(raw.abstract_inverted_index),
+    bestFor: clean(abstractFromInvertedIndex(raw.abstract_inverted_index) || "Candidate paper from automated discovery."),
+    note: `Discovered from OpenAlex query: ${query}`
   };
 }
 
@@ -269,6 +343,18 @@ async function searchSemanticScholar(query, limit) {
   const response = await fetchWithRetry(url, "Semantic Scholar");
   const data = await response.json();
   return (data.data || []).map((paper) => normalizeSemanticScholarPaper(paper, query));
+}
+
+async function searchOpenAlex(query, limit) {
+  const url = new URL("https://api.openalex.org/works");
+  url.searchParams.set("search", query);
+  url.searchParams.set("per-page", String(limit));
+  url.searchParams.set("filter", "from_publication_date:2010-01-01");
+  url.searchParams.set("mailto", "dataset-finder@example.com");
+
+  const response = await fetchWithRetry(url, "OpenAlex");
+  const data = await response.json();
+  return (data.results || []).map((paper) => normalizeOpenAlexWork(paper, query));
 }
 
 async function searchArxiv(query, limit) {
@@ -323,85 +409,125 @@ function dedupe(papers) {
   });
 }
 
+function buildReviewCandidates(rawCandidates) {
+  return rawCandidates.filter((paper) => {
+    return (
+      !hasNoiseSignal(paper) &&
+      hasArxivStatisticsCategory(paper) &&
+      paper.paperUrl &&
+      (paper.datasetUrl || paper.discovery.datasetScore > 0 || paper.discovery.candidateLabelEvidence.length)
+    );
+  });
+}
+
+function buildScreenedCandidates(reviewCandidates) {
+  return reviewCandidates
+    .filter((paper) => {
+      return paper.paperUrl && paper.datasetUrl && paper.discovery.datasetScore > 0;
+    })
+    .sort((a, b) => {
+      return (
+        b.discovery.datasetScore - a.discovery.datasetScore ||
+        b.topics.length - a.topics.length ||
+        (b.citations || 0) - (a.citations || 0)
+      );
+    });
+}
+
 const limitArg = Number(process.argv.find((arg) => arg.startsWith("--limit="))?.split("=")[1]);
 const limit = Number.isFinite(limitArg) && limitArg > 0 ? limitArg : DEFAULT_LIMIT;
+const delayArg = Number(process.argv.find((arg) => arg.startsWith("--delay="))?.split("=")[1]);
+const requestDelayMs = Number.isFinite(delayArg) && delayArg >= 0 ? delayArg : DEFAULT_DELAY_MS;
 const sourceArg = process.argv.find((arg) => arg.startsWith("--sources="))?.split("=")[1];
-const enabledSources = new Set((sourceArg || "arxiv-stat").split(",").map((source) => source.trim()).filter(Boolean));
+const enabledSources = new Set(
+  (sourceArg || "openalex,semantic-scholar,arxiv-stat")
+    .split(",")
+    .map((source) => source.trim())
+    .filter(Boolean)
+);
 const categoryArg = process.argv.find((arg) => arg.startsWith("--categories="))?.split("=")[1];
 const enabledCategories = categoryArg
   ? categoryArg.split(",").map((category) => category.trim()).filter(Boolean)
   : ARXIV_STAT_CATEGORIES;
 const allCandidates = [];
 const errors = [];
+let requestsCompleted = 0;
 
-if (enabledSources.has("semantic-scholar") || enabledSources.has("arxiv")) {
-for (const query of DISCOVERY_QUERIES) {
-  for (const [source, search] of [
-    ["semantic-scholar", searchSemanticScholar],
-    ["arxiv", searchArxiv]
-  ].filter(([source]) => enabledSources.has(source))) {
-    try {
-      const results = await search(query, limit);
-      allCandidates.push(...results.map((paper) => ({ ...paper, source })));
-    } catch (error) {
-      errors.push({ query, source, error: error.message });
-    }
+async function saveCandidatesSnapshot(stage) {
+  const rawCandidates = dedupe(allCandidates).map(screenCandidate);
+  const reviewCandidates = buildReviewCandidates(rawCandidates);
+  const screened = buildScreenedCandidates(reviewCandidates);
+  await mkdir(new URL("../data", import.meta.url), { recursive: true });
+  await writeFile(
+    OUTPUT_URL,
+    `${JSON.stringify(
+      {
+        createdAt: new Date().toISOString(),
+        stage,
+        enabledSources: [...enabledSources],
+        enabledCategories,
+        errors,
+        rawCandidateCount: rawCandidates.length,
+        reviewCandidateCount: reviewCandidates.length,
+        screenedCandidateCount: screened.length,
+        candidates: screened,
+        reviewCandidates: reviewCandidates.slice(0, 300)
+      },
+      null,
+      2
+    )}\n`
+  );
+  return { rawCandidates, reviewCandidates, screened };
+}
+
+async function recordResults(source, query, search, searchLimit = limit) {
+  try {
+    const results = await search(query, searchLimit);
+    allCandidates.push(...results.map((paper) => ({ ...paper, source })));
+  } catch (error) {
+    errors.push({ query, source, error: error.message });
+  }
+  requestsCompleted += 1;
+  if (requestsCompleted % 5 === 0) {
+    const { rawCandidates, reviewCandidates, screened } = await saveCandidatesSnapshot("partial");
+    console.log(
+      JSON.stringify({
+        stage: "partial",
+        requestsCompleted,
+        rawCandidates: rawCandidates.length,
+        reviewCandidates: reviewCandidates.length,
+        screenedCandidates: screened.length
+      })
+    );
   }
 }
+
+if (enabledSources.has("openalex")) {
+  for (const query of OPENALEX_QUERIES) {
+    await recordResults("openalex", query, searchOpenAlex);
+  }
+}
+
+if (enabledSources.has("semantic-scholar") || enabledSources.has("arxiv")) {
+  for (const query of DISCOVERY_QUERIES) {
+    for (const [source, search] of [
+      ["semantic-scholar", searchSemanticScholar],
+      ["arxiv", searchArxiv]
+    ].filter(([source]) => enabledSources.has(source))) {
+      await recordResults(source, query, search);
+    }
+  }
 }
 
 if (enabledSources.has("arxiv-stat")) {
-for (const category of enabledCategories) {
-  for (const term of ARXIV_DATA_TERMS) {
-    try {
-      const results = await searchArxivStatCategory(category, term, limit);
-      allCandidates.push(...results.map((paper) => ({ ...paper, source: "arxiv-stat" })));
-    } catch (error) {
-      errors.push({ query: `${category} ${term}`, source: "arxiv-stat", error: error.message });
+  for (const category of enabledCategories) {
+    for (const term of ARXIV_DATA_TERMS) {
+      await recordResults("arxiv-stat", `${category} ${term}`, () => searchArxivStatCategory(category, term, limit));
     }
   }
 }
-}
 
-const rawCandidates = dedupe(allCandidates).map(screenCandidate);
-const reviewCandidates = rawCandidates.filter((paper) => {
-  return (
-    !hasNoiseSignal(paper) &&
-    hasArxivStatisticsCategory(paper) &&
-    paper.paperUrl &&
-    (paper.datasetUrl || paper.discovery.datasetScore > 0 || paper.discovery.candidateLabelEvidence.length)
-  );
-});
-
-const screened = reviewCandidates
-  .filter((paper) => {
-    return paper.paperUrl && paper.datasetUrl && paper.discovery.datasetScore > 0;
-  })
-  .sort((a, b) => {
-    return (
-      b.discovery.datasetScore - a.discovery.datasetScore ||
-      b.topics.length - a.topics.length ||
-      (b.citations || 0) - (a.citations || 0)
-    );
-  });
-
-await mkdir(new URL("../data", import.meta.url), { recursive: true });
-await writeFile(
-  new URL("../data/candidate-papers.json", import.meta.url),
-  `${JSON.stringify(
-    {
-      createdAt: new Date().toISOString(),
-      errors,
-      rawCandidateCount: rawCandidates.length,
-      reviewCandidateCount: reviewCandidates.length,
-      screenedCandidateCount: screened.length,
-      candidates: screened,
-      reviewCandidates: reviewCandidates.slice(0, 200)
-    },
-    null,
-    2
-  )}\n`
-);
+const { rawCandidates, reviewCandidates, screened } = await saveCandidatesSnapshot("complete");
 
 console.log(
   JSON.stringify(
@@ -409,6 +535,8 @@ console.log(
       enabledSources: [...enabledSources],
       enabledCategories,
       searchedQueries: DISCOVERY_QUERIES.length,
+      openAlexQueries: enabledSources.has("openalex") ? OPENALEX_QUERIES.length : 0,
+      requestsCompleted,
       rawCandidates: rawCandidates.length,
       reviewCandidates: reviewCandidates.length,
       screenedCandidates: screened.length,
