@@ -41,11 +41,11 @@ const parentRules = [
 
 const evidenceRules = [
   {
-    label: "statistical learning",
-    reason: "direct statistical-learning evidence in record text",
+    label: "high-dimensional statistics",
+    reason: "high-dimensional, sparse, regularized, or genomic-feature evidence in record text",
     test: (paper) =>
-      hasTopic(paper, "risk prediction") &&
-      /\b(machine learning|supervised learning|classification|random forest|support vector|neural network|deep learning|lasso|elastic net|gradient boosting|xgboost)\b/i.test(
+      !/\bsparse demand\b/i.test(paperText(paper)) &&
+      /\b(high-dimensional|high dimensional|p\s*>>\s*n|p\s*>\s*n|sparse|sparsity|lasso|elastic net|regulari[sz]ed|regulari[sz]ation|penali[sz]ed|variable selection|genomics|transcriptomic|gene expression|microarray)\b/i.test(
         paperText(paper)
       )
   },

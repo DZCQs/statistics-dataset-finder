@@ -8438,7 +8438,8 @@
       "risk prediction",
       "survival models",
       "missing data",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a UK Biobank example for longitudinal data analysis, risk prediction, survival models, missing data.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"UK Biobank\". Review the abstract and dataset use before treating this as fully curated.",
@@ -9126,7 +9127,8 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a UK Biobank example for longitudinal data analysis, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"UK Biobank\". Review the abstract and dataset use before treating this as fully curated.",
@@ -9464,7 +9466,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a UK Biobank example for longitudinal data analysis, risk prediction, survival models.",
@@ -10945,7 +10946,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a MIMIC-CXR example for longitudinal data analysis, risk prediction, survival models.",
@@ -11067,7 +11067,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a MIMIC-CXR example for longitudinal data analysis, risk prediction, survival models.",
@@ -11178,7 +11177,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a MIMIC-CXR example for longitudinal data analysis, risk prediction, survival models.",
@@ -14685,7 +14683,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a Alzheimer's Disease Neuroimaging Initiative example for longitudinal data analysis, risk prediction, survival models.",
@@ -14863,7 +14860,7 @@
       "survival models",
       "mcmc diagnostics",
       "bayesian inference",
-      "statistical learning"
+      "survival analysis"
     ],
     "bestFor": "Finding a Alzheimer's Disease Neuroimaging Initiative example for longitudinal data analysis, risk prediction, survival models, mcmc diagnostics.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Alzheimer's Disease Neuroimaging Initiative\". Review the abstract and dataset use before treating this as fully curated.",
@@ -15400,7 +15397,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a Alzheimer's Disease Neuroimaging Initiative example for longitudinal data analysis, risk prediction, survival models.",
@@ -15741,7 +15737,7 @@
       "survival models",
       "randomized experiments",
       "causal inference",
-      "statistical learning"
+      "survival analysis"
     ],
     "bestFor": "Finding a Alzheimer's Disease Neuroimaging Initiative example for longitudinal data analysis, risk prediction, survival models, randomized experiments.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Alzheimer's Disease Neuroimaging Initiative\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16215,7 +16211,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16270,7 +16267,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16325,7 +16323,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16388,7 +16387,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16443,7 +16443,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16498,7 +16499,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16663,7 +16665,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16718,7 +16721,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16773,7 +16777,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16828,7 +16833,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -16938,7 +16944,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -17001,7 +17008,6 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
@@ -17112,7 +17118,8 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "high-dimensional statistics"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"The Cancer Genome Atlas\". Review the abstract and dataset use before treating this as fully curated.",
@@ -17175,7 +17182,6 @@
       "multilevel modeling",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a The Cancer Genome Atlas example for multilevel modeling, risk prediction, survival models.",
@@ -17240,7 +17246,6 @@
       "risk prediction",
       "longitudinal data analysis",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for risk prediction, longitudinal data analysis, survival models.",
@@ -17299,7 +17304,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -17536,7 +17540,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -17592,7 +17595,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -17648,7 +17650,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -17704,7 +17705,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -17827,7 +17827,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -17938,7 +17937,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -17994,7 +17992,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -18178,7 +18175,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -18407,7 +18403,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -18527,7 +18522,6 @@
       "risk prediction",
       "longitudinal data analysis",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for risk prediction, longitudinal data analysis, survival models.",
@@ -18586,7 +18580,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -18642,7 +18635,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -18698,7 +18690,6 @@
       "risk prediction",
       "longitudinal data analysis",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for risk prediction, longitudinal data analysis, survival models.",
@@ -18757,7 +18748,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -18878,7 +18868,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -18934,7 +18923,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -18990,7 +18978,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -19164,7 +19151,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -19393,7 +19379,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -19460,7 +19445,7 @@
       "survival models",
       "randomized experiments",
       "causal inference",
-      "statistical learning"
+      "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models, randomized experiments.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"eICU Collaborative Research Database\". Review the abstract and dataset use before treating this as fully curated.",
@@ -19746,7 +19731,6 @@
       "risk prediction",
       "longitudinal data analysis",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for risk prediction, longitudinal data analysis, survival models.",
@@ -19925,7 +19909,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -20036,7 +20019,6 @@
       "risk prediction",
       "longitudinal data analysis",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for risk prediction, longitudinal data analysis, survival models.",
@@ -20391,7 +20373,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -20502,7 +20483,6 @@
       "risk prediction",
       "longitudinal data analysis",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for risk prediction, longitudinal data analysis, survival models.",
@@ -20790,7 +20770,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -21031,7 +21010,7 @@
       "survival models",
       "randomized experiments",
       "causal inference",
-      "statistical learning"
+      "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models, randomized experiments.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"eICU Collaborative Research Database\". Review the abstract and dataset use before treating this as fully curated.",
@@ -21095,8 +21074,8 @@
       "risk prediction",
       "survival models",
       "time series forecasting",
-      "statistical learning",
-      "survival analysis"
+      "survival analysis",
+      "time series analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models, time series forecasting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"eICU Collaborative Research Database\". Review the abstract and dataset use before treating this as fully curated.",
@@ -21500,7 +21479,6 @@
       "multiple imputation",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, multiple imputation, risk prediction, survival models.",
@@ -21861,7 +21839,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -22038,7 +22015,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -22094,7 +22070,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -22281,7 +22256,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -22703,7 +22677,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
@@ -22759,7 +22732,6 @@
       "risk prediction",
       "longitudinal data analysis",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for risk prediction, longitudinal data analysis, survival models.",
@@ -27818,8 +27790,7 @@
       "complex survey design",
       "risk prediction",
       "survey weighting",
-      "survey methodology",
-      "statistical learning"
+      "survey methodology"
     ],
     "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
@@ -30581,8 +30552,7 @@
       "complex survey design",
       "risk prediction",
       "survey weighting",
-      "survey methodology",
-      "statistical learning"
+      "survey methodology"
     ],
     "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
@@ -33081,7 +33051,6 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "statistical learning",
       "survival analysis"
     ],
     "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
@@ -33283,10 +33252,9 @@
       "needs-label-review"
     ],
     "topics": [
-      "time series analysis",
-      "statistical learning"
+      "time series analysis"
     ],
-    "bestFor": "Using public multivariate time-series classification datasets for statistical learning and time-series classification research.",
+    "bestFor": "Using public multivariate time-series classification datasets for time-series classification research.",
     "note": "Supports the internal candidate label time series classification; not given a public low-level label until the candidate reaches admission rules."
   },
   {
@@ -33312,10 +33280,9 @@
       "needs-label-review"
     ],
     "topics": [
-      "time series analysis",
-      "statistical learning"
+      "time series analysis"
     ],
-    "bestFor": "Using public univariate time-series classification datasets for statistical learning and time-series classification benchmarks.",
+    "bestFor": "Using public univariate time-series classification datasets for time-series classification benchmarks.",
     "note": "Supports the internal candidate label time series classification; not given a public low-level label until the candidate reaches admission rules."
   },
   {
@@ -33340,10 +33307,8 @@
       "needs-review",
       "needs-label-review"
     ],
-    "topics": [
-      "statistical learning"
-    ],
-    "bestFor": "Finding reusable machine-learning datasets and tasks with public metadata for statistical learning experiments.",
+    "topics": [],
+    "bestFor": "Finding reusable machine-learning datasets and tasks with public metadata for prediction benchmark experiments.",
     "note": "Added because the paper documents a clear public dataset platform; detailed method labels require later review."
   },
   {
@@ -33369,9 +33334,7 @@
       "needs-review",
       "needs-label-review"
     ],
-    "topics": [
-      "statistical learning"
-    ],
+    "topics": [],
     "bestFor": "Using a curated public benchmark suite for supervised learning evaluation across many tabular datasets.",
     "note": "Added because the paper provides a clear open benchmark repository; no extra public label was added merely to describe generic benchmarking."
   },
@@ -33398,10 +33361,8 @@
       "needs-review",
       "needs-label-review"
     ],
-    "topics": [
-      "statistical learning"
-    ],
-    "bestFor": "Using a public benchmark for black-box hyperparameter optimization and statistical learning experiments.",
+    "topics": [],
+    "bestFor": "Using a public benchmark for black-box hyperparameter optimization and prediction benchmark experiments.",
     "note": "Added because the paper provides a clear dataset repository; hyperparameter optimization is not yet an official label and should be considered through future candidate-label evidence."
   },
   {
@@ -33629,8 +33590,7 @@
       "needs-label-review"
     ],
     "topics": [
-      "time series analysis",
-      "statistical learning"
+      "time series analysis"
     ],
     "bestFor": "Finding time-series representation learning examples using standard UCR, UEA, ETT, and related public benchmark datasets.",
     "note": "Repository verified reachable and README documents benchmark data sources. Time-series classification is still a candidate label, so this record is marked for label review."
@@ -33688,10 +33648,8 @@
       "needs-review",
       "needs-label-review"
     ],
-    "topics": [
-      "statistical learning"
-    ],
-    "bestFor": "Finding programmable access to OpenML datasets, tasks, and experiments for statistical learning examples.",
+    "topics": [],
+    "bestFor": "Finding programmable access to OpenML datasets, tasks, and experiments for machine-learning benchmark examples.",
     "note": "Repository verified reachable. This complements the OpenML platform record but should be reviewed for redundancy before being treated as curated."
   }
 ]

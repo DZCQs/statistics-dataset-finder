@@ -16,7 +16,7 @@ topic-level dataset analytics. Examples include:
 - `bayesian inference`
 - `causal inference`
 - `survey methodology`
-- `statistical learning`
+- `high-dimensional statistics`
 
 Broad labels should not replace more specific labels. A paper may carry a broad
 parent label plus mid-level or specific child labels when both levels help
@@ -26,6 +26,7 @@ estimation` if all are supported by the paper and dataset.
 
 Too generic for this search engine:
 
+- `statistical learning`
 - `model validation`
 - `model comparison`
 - `benchmarking`
@@ -66,7 +67,7 @@ Good label level:
 - `survival analysis`
 - `survival models`
 - `risk prediction`
-- `statistical learning`
+- `high-dimensional statistics`
 - `time series analysis`
 - `time series forecasting`
 - `hierarchical forecasting`
@@ -96,8 +97,7 @@ High-level topic families:
 - `survival analysis`
   - `survival models`
   - `risk prediction`
-- `statistical learning`
-  - `risk prediction`
+- `high-dimensional statistics`
 - `time series analysis`
   - `time series forecasting`
     - `hierarchical forecasting`
@@ -193,8 +193,8 @@ node scripts/assess-labels.mjs
 A new label is allowed only if it passes all five checks:
 
 - Recognized: it appears as a standard concept in graduate statistics,
-  biostatistics, econometrics, survey methodology, statistical learning, or
-  forecasting.
+  biostatistics, econometrics, survey methodology, high-dimensional statistics,
+  machine learning methodology, or forecasting.
 - Searchable: a graduate student might reasonably type it as a research topic.
 - Reusable: it can label at least three papers or datasets now or soon.
 - Distinct: it is not a synonym, parent, child, or minor wording variant of an

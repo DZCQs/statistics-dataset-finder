@@ -251,23 +251,24 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["survival analysis", "survival", "time-to-event", "censoring", "cox", "hazard", "event history"]
   },
   {
-    name: "statistical learning",
+    name: "high-dimensional statistics",
     level: "high",
     parents: [],
-    definition: "Datasets useful for supervised learning, machine-learning prediction, classification, regularized modeling, or benchmark prediction workflows in statistical research.",
+    definition: "Datasets useful for statistical methods with many covariates or features, including high-throughput genomics, sparse modeling, regularization, variable selection, or p-greater-than-n examples.",
     includeWhen: [
-      "machine learning, supervised learning, classification, regularized prediction, or statistical-learning benchmarks are central to the paper or dataset",
-      "the dataset supports methodological comparison across predictive learners rather than only one applied prediction model"
+      "the dataset has many predictors, genes, molecular features, image/pathology features, or other high-dimensional covariates central to the statistical question",
+      "the paper or dataset is useful for sparse modeling, regularized regression, variable selection, penalized likelihood, or p-greater-than-n methodology"
     ],
     avoidWhen: [
-      "the paper only reports an ordinary prediction model without statistical-learning or machine-learning methodology"
+      "the paper merely uses ordinary machine learning, classification, or prediction language without a high-dimensional-data or regularization focus",
+      "the dataset is only a generic benchmark platform without evidence that high-dimensional structure is the reason a student would search for it"
     ],
-    evidenceTerms: ["statistical learning", "machine learning", "supervised learning", "classification", "random forest", "support vector", "neural network", "deep learning", "lasso", "elastic net", "gradient boosting", "xgboost"]
+    evidenceTerms: ["high-dimensional", "high dimensional", "p >> n", "p>n", "sparse", "sparsity", "lasso", "elastic net", "regularization", "regularized", "penalized", "variable selection", "genomics", "transcriptomic", "gene expression", "microarray"]
   },
   {
     name: "risk prediction",
     level: "mid",
-    parents: ["statistical learning","survival analysis"],
+    parents: ["survival analysis"],
     definition: "Datasets useful for prognostic modeling, risk scores, clinical prediction, or prediction of future events.",
     includeWhen: [
       "the dataset is used for predicting disease, mortality, failure, or future event risk"
@@ -399,7 +400,7 @@ export const LABEL_CANDIDATES = [
   {
     name: "time series classification",
     proposedLevel: "low",
-    proposedParents: ["time series analysis", "statistical learning"],
+    proposedParents: ["time series analysis"],
     status: "watch",
     definition: "Datasets useful for classifying ordered time series, including univariate or multivariate time-series classification benchmarks.",
     currentEvidence: [
@@ -415,7 +416,7 @@ export const LABEL_CANDIDATES = [
     admitWhen: [
       "at least three high-confidence catalog records support time-series classification as the statistical use",
       "the datasets are accessible archives or benchmark datasets rather than one-off applied time series",
-      "the label improves search beyond the broader time series analysis and statistical learning labels"
+      "the label improves search beyond the broader time series analysis label"
     ],
     evidenceTerms: ["time series classification", "multivariate time series classification", "univariate time series classification", "classification archive"]
   }
