@@ -33651,5 +33651,174 @@
     "topics": [],
     "bestFor": "Finding programmable access to OpenML datasets, tasks, and experiments for machine-learning benchmark examples.",
     "note": "Repository verified reachable. This complements the OpenML platform record but should be reviewed for redundancy before being treated as curated."
+  },
+  {
+    "id": "openalex-W3099862724",
+    "title": "Fast gene set enrichment analysis",
+    "authors": "Korotkevich et al.",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "fgsea Bioconductor/GitHub package with gene set enrichment examples",
+    "datasetUrl": "https://github.com/alserglab/fgsea",
+    "paperUrl": "https://doi.org/10.1101/060012",
+    "access": "open",
+    "formats": [
+      "r package",
+      "bioconductor vignette",
+      "gene expression examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding high-dimensional statistics examples for gene expression, genomics, pathway enrichment, and permutation or Monte Carlo p-value estimation.",
+    "note": "Repository and package documentation verified reachable. Auto-discovered candidate; review exact vignette data before treating it as curated."
+  },
+  {
+    "id": "openalex-W2950372712",
+    "title": "PAGA: graph abstraction reconciles clustering with trajectory inference through a topology preserving map of single cells",
+    "authors": "Wolf et al.",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "PAGA notebooks and single-cell gene expression examples",
+    "datasetUrl": "https://github.com/theislab/paga",
+    "paperUrl": "https://doi.org/10.1186/s13059-019-1663-x",
+    "access": "open",
+    "formats": [
+      "notebooks",
+      "single-cell examples",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding high-dimensional statistics examples for single-cell gene expression, graph abstraction, clustering, and trajectory inference.",
+    "note": "Repository verified reachable and README links reproducible example notebooks. Auto-discovered candidate; review individual notebook datasets before treating it as curated."
+  },
+  {
+    "id": "openalex-W2952463830",
+    "title": "Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data",
+    "authors": "Davis et al.",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "decontam package, vignette, and contamination benchmark examples",
+    "datasetUrl": "https://github.com/benjjneb/decontam",
+    "paperUrl": "https://doi.org/10.1186/s40168-018-0605-2",
+    "access": "open",
+    "formats": [
+      "r package",
+      "vignette",
+      "benchmark examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding high-dimensional statistics examples for marker-gene and metagenomics count data, contaminant classification, and batch-effect diagnostics.",
+    "note": "Repository and documentation verified reachable. Auto-discovered candidate; review vignette and manuscript example data before treating it as curated."
+  },
+  {
+    "id": "openalex-W2950753995",
+    "title": "Fast hierarchical Bayesian analysis of population structure",
+    "authors": "Tonkin-Hill et al.",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "fastbaps package and bacterial population-structure examples",
+    "datasetUrl": "https://github.com/gtonkinhill/fastbaps",
+    "paperUrl": "https://doi.org/10.1093/nar/gkz361",
+    "access": "open",
+    "formats": [
+      "r package",
+      "vignettes",
+      "genomics examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding Bayesian inference and high-dimensional genomics examples for hierarchical clustering and population-structure modeling.",
+    "note": "Repository verified reachable. Auto-discovered candidate; review vignettes and included datasets before treating it as curated."
+  },
+  {
+    "id": "openalex-W2951421477",
+    "title": "Bayesian inference of ancestral dates on bacterial phylogenetic trees",
+    "authors": "Didelot et al.",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "BactDating package and bacterial phylogenetic dating examples",
+    "datasetUrl": "https://github.com/xavierdidelot/bactdating",
+    "paperUrl": "https://doi.org/10.1093/nar/gky783",
+    "access": "open",
+    "formats": [
+      "r package",
+      "phylogenetic examples",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Finding Bayesian inference examples for posterior dating of phylogenetic trees, molecular-clock models, and coalescent-rate estimation.",
+    "note": "Repository verified reachable. Auto-discovered candidate; review example data and package documentation before treating it as curated."
+  },
+  {
+    "id": "openalex-W3012094285",
+    "title": "GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes",
+    "authors": "Ranallo-Benavidez, Jaron, Schatz",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "GenomeScope 2.0 repository with k-mer count and genome profiling examples",
+    "datasetUrl": "https://github.com/tbenavi1/genomescope2.0",
+    "paperUrl": "https://doi.org/10.1038/s41467-020-14998-3",
+    "access": "open",
+    "formats": [
+      "code",
+      "genomics examples",
+      "mixture-model outputs"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding high-dimensional statistics examples for genomics, k-mer frequency distributions, mixture modeling, and genome profiling.",
+    "note": "Repository verified reachable. Auto-discovered candidate; review included examples and input data instructions before treating it as curated."
   }
 ]
