@@ -33820,5 +33820,122 @@
     ],
     "bestFor": "Finding high-dimensional statistics examples for genomics, k-mer frequency distributions, mixture modeling, and genome profiling.",
     "note": "Repository verified reachable. Auto-discovered candidate; review included examples and input data instructions before treating it as curated."
+  },
+  {
+    "id": "arxiv-1803.07715",
+    "title": "SurvBoost: An R Package for High-Dimensional Variable Selection in the Stratified Proportional Hazards Model via Gradient Boosting",
+    "authors": "Morris, He, Li, Li, Kang",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "SurvBoost CRAN package and TCGA gene-expression survival tutorial",
+    "datasetUrl": "https://cran.r-project.org/package=SurvBoost",
+    "paperUrl": "https://arxiv.org/abs/1803.07715",
+    "access": "open",
+    "formats": [
+      "r package",
+      "tutorial",
+      "gene expression survival examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "survival analysis",
+      "survival models",
+      "variable selection"
+    ],
+    "bestFor": "Finding high-dimensional variable selection examples for stratified proportional hazards models, boosting, and gene-expression survival data.",
+    "note": "CRAN package and arXiv page verified reachable. Auto-discovered fallback record after OpenAlex service errors; review package tutorial data before treating it as curated."
+  },
+  {
+    "id": "arxiv-2007.10768",
+    "title": "A variable selection approach for highly correlated predictors in high-dimensional genomic data",
+    "authors": "Zhu, Levy-Leduc, Ternes",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "WLasso CRAN package and public breast-cancer gene-expression example",
+    "datasetUrl": "https://cran.r-project.org/package=WLasso",
+    "paperUrl": "https://arxiv.org/abs/2007.10768",
+    "access": "open",
+    "formats": [
+      "r package",
+      "gene expression example",
+      "simulation tools"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Finding high-dimensional variable selection examples for correlated genomic predictors, sparse regression, and generalized lasso workflows.",
+    "note": "CRAN package and arXiv page verified reachable. Auto-discovered fallback record; review package datasets and the public breast-cancer example before treating it as curated."
+  },
+  {
+    "id": "arxiv-2104.14008",
+    "title": "BayesSUR: An R package for high-dimensional multivariate Bayesian variable and covariance selection in linear regression",
+    "authors": "Zhao, Banterle, Bottolo, Richardson, Lewin, Zucknick",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "BayesSUR CRAN package with eQTL, mQTL, and drug-screening examples",
+    "datasetUrl": "https://cran.r-project.org/package=BayesSUR",
+    "paperUrl": "https://arxiv.org/abs/2104.14008",
+    "access": "open",
+    "formats": [
+      "r package",
+      "omics examples",
+      "simulation tools"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Finding Bayesian variable selection and high-dimensional multivariate regression examples with omics predictors and correlated responses.",
+    "note": "CRAN package and arXiv page verified reachable. Auto-discovered fallback record; review package example datasets before treating it as curated."
+  },
+  {
+    "id": "arxiv-0906.3204",
+    "title": "Variable selection in high-dimensional linear models: partially faithful distributions and the PC-simple algorithm",
+    "authors": "Buhlmann, Kalisch, Maathuis",
+    "year": 2009,
+    "citations": 0,
+    "dataset": "pcalg CRAN package and PC-simple high-dimensional variable-selection examples",
+    "datasetUrl": "https://cran.r-project.org/package=pcalg",
+    "paperUrl": "https://arxiv.org/abs/0906.3204",
+    "access": "open",
+    "formats": [
+      "r package",
+      "algorithm examples",
+      "simulation tools"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Finding high-dimensional variable selection examples for PC-simple, partial faithfulness, and p-greater-than-n linear-model screening.",
+    "note": "CRAN package and arXiv page verified reachable. Auto-discovered fallback record; review package examples before treating it as curated."
   }
 ]

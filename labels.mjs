@@ -266,6 +266,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["high-dimensional", "high dimensional", "p >> n", "p>n", "sparse", "sparsity", "lasso", "elastic net", "regularization", "regularized", "penalized", "variable selection", "genomics", "transcriptomic", "gene expression", "microarray"]
   },
   {
+    name: "variable selection",
+    level: "mid",
+    parents: ["high-dimensional statistics"],
+    definition: "Datasets useful for selecting relevant predictors or biomarkers in high-dimensional models, including sparse regression, lasso-type methods, subset selection, or Bayesian variable-selection examples.",
+    includeWhen: [
+      "the paper or dataset foregrounds variable selection, feature selection, biomarker selection, subset selection, lasso, sparse regression, or related high-dimensional predictor-selection methodology",
+      "the dataset has accessible high-dimensional covariates or package examples specifically used to compare variable-selection procedures"
+    ],
+    avoidWhen: [
+      "prediction is the goal but no variable-selection or sparse-modeling question is central",
+      "feature importance is only a post-hoc interpretation of a generic prediction model"
+    ],
+    evidenceTerms: ["variable selection", "high-dimensional variable selection", "feature selection", "predictor selection", "biomarker selection", "subset selection", "variable and covariance selection", "sparse regression", "sparse", "lasso", "adaptive lasso", "elastic net", "penalized", "regularized", "spike-and-slab", "inclusion indicators", "pc-simple", "partial faithfulness", "p >> n", "p>n"]
+  },
+  {
     name: "risk prediction",
     level: "mid",
     parents: ["survival analysis"],

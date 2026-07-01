@@ -36,10 +36,22 @@ const parentRules = [
   {
     label: "time series analysis",
     children: ["time series forecasting", "hierarchical forecasting"]
+  },
+  {
+    label: "high-dimensional statistics",
+    children: ["variable selection"]
   }
 ];
 
 const evidenceRules = [
+  {
+    label: "variable selection",
+    reason: "variable-selection, sparse predictor-selection, or PC-simple evidence in record text",
+    test: (paper) =>
+      /\b(variable selection|high-dimensional variable selection|feature selection|predictor selection|biomarker selection|subset selection|variable and covariance selection|sparse regression|adaptive lasso|elastic net|spike-and-slab|pc-simple|partial faithfulness)\b/i.test(
+        paperText(paper)
+      )
+  },
   {
     label: "high-dimensional statistics",
     reason: "high-dimensional, sparse, regularized, or genomic-feature evidence in record text",

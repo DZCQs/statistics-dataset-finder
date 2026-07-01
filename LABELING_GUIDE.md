@@ -68,6 +68,7 @@ Good label level:
 - `survival models`
 - `risk prediction`
 - `high-dimensional statistics`
+- `variable selection`
 - `time series analysis`
 - `time series forecasting`
 - `hierarchical forecasting`
@@ -98,6 +99,7 @@ High-level topic families:
   - `survival models`
   - `risk prediction`
 - `high-dimensional statistics`
+  - `variable selection`
 - `time series analysis`
   - `time series forecasting`
     - `hierarchical forecasting`
