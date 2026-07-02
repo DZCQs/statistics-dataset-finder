@@ -33937,5 +33937,202 @@
     ],
     "bestFor": "Finding high-dimensional variable selection examples for PC-simple, partial faithfulness, and p-greater-than-n linear-model screening.",
     "note": "CRAN package and arXiv page verified reachable. Auto-discovered fallback record; review package examples before treating it as curated."
+  },
+  {
+    "id": "openalex-W4389440197",
+    "title": "An introduction to the bootstrap: a versatile method to make inferences by using data-driven simulations.",
+    "authors": "Guillaume A. Rousselet, Cyril Pernet, Rand R. Wilcox",
+    "year": 2023,
+    "citations": 52,
+    "dataset": "OSF project with data and code for the bootstrap tutorial",
+    "datasetUrl": "https://osf.io/8b4t5/",
+    "paperUrl": "https://open.lnu.se/index.php/metapsychology/article/download/2058/3427",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "code",
+      "reproducible tutorial data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [],
+    "bestFor": "Finding reproducible examples for bootstrap confidence intervals, robust estimators, correlation comparisons, and simulation-based statistical inference.",
+    "note": "OpenAlex candidate; OSF resource verified reachable. Added with label review because bootstrap/resampling is not yet an official public label."
+  },
+  {
+    "id": "openalex-W4324144701",
+    "title": "TSMixer: An All-MLP Architecture for Time Series Forecasting",
+    "authors": "Sian Chen, Chunliang Li, Nate Yoder, Sercan O. Arik, Tomas Pfister",
+    "year": 2023,
+    "citations": 122,
+    "dataset": "TSMixer GitHub repository with time-series forecasting benchmark workflows",
+    "datasetUrl": "https://github.com/google-research/google-research/tree/master/tsmixer",
+    "paperUrl": "https://arxiv.org/pdf/2303.06053",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "code",
+      "forecasting benchmarks"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Finding multivariate time series forecasting examples using academic benchmark datasets and the M5 retail forecasting data.",
+    "note": "OpenAlex candidate; repository verified reachable. Included under time series forecasting rather than any generic machine-learning label."
+  },
+  {
+    "id": "openalex-W2979681334",
+    "title": "CircaCompare: a method to estimate and statistically support differences in mesor, amplitude and phase, between circadian rhythms",
+    "authors": "Rex Parsons, Richard Parsons, Nicholas Garner, Henrik Oster, Oliver Rawashdeh",
+    "year": 2019,
+    "citations": 255,
+    "dataset": "CircaCompare GitHub repository with rhythmic-data examples",
+    "datasetUrl": "https://github.com/rwparsons/circacompare/",
+    "paperUrl": "https://academic.oup.com/bioinformatics/article-pdf/36/4/1208/32527537/btz730.pdf",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "r package",
+      "public rhythmic datasets"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [],
+    "bestFor": "Finding examples for longitudinal or time-indexed rhythmic data, cosinor-style curve comparison, and inference on phase, amplitude, and mesor.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Added with label review because circadian/rhythmic-data modeling is not yet a separate official label."
+  },
+  {
+    "id": "openalex-W3217151720",
+    "title": "scCODA is a Bayesian model for compositional single-cell data analysis",
+    "authors": "Maren Buettner, Johannes Ostner, Christian L. Mueller, Fabian J. Theis, Benjamin Schubert",
+    "year": 2021,
+    "citations": 369,
+    "dataset": "scCODA GitHub repository with Bayesian compositional analysis examples",
+    "datasetUrl": "https://github.com/theislab/sccoda",
+    "paperUrl": "https://www.nature.com/articles/s41467-021-27150-6.pdf",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "python package",
+      "single-cell compositional examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding Bayesian inference examples for compositional single-cell count data, sparse effects, and controlled false-discovery analysis.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Included as Bayesian inference plus high-dimensional data example, not as a biology-domain label."
+  },
+  {
+    "id": "openalex-W4313424250",
+    "title": "Nonnegative spatial factorization applied to spatial genomics",
+    "authors": "F. William Townes, Barbara E. Engelhardt",
+    "year": 2022,
+    "citations": 114,
+    "dataset": "NSF paper GitHub repository with spatial transcriptomics datasets and code",
+    "datasetUrl": "https://github.com/willtownes/nsf-paper",
+    "paperUrl": "https://www.nature.com/articles/s41592-022-01687-w.pdf",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "code",
+      "spatial transcriptomics datasets"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding high-dimensional spatial count-data examples for nonnegative matrix factorization, sparse latent factors, and spatially structured probabilistic modeling.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Spatial statistics is still not an official label, so current public labels emphasize high-dimensional statistics."
+  },
+  {
+    "id": "openalex-W2804079537",
+    "title": "Machine learning algorithms for outcome prediction in (chemo)radiotherapy: An empirical comparison of classifiers",
+    "authors": "Timo M. Deist, Frank J. W. M. Dankers, Gilmer Valdes, Robin Wijsman, I-Chow Hsu, Cary Oberije, Tim Lustberg, Johan van Soest, Frank Hoebers, Arthur Jochems, Issam El Naqa, Leonard Wee, Olivier Morin, David R. Raleigh, Wouter Bots, Johannes H. A. M. Kaanders, J. Belderbos, Margriet Kwint, Timothy D. Solberg, Rene Monshouwer, Johan Bussink, Andre Dekker, Philippe Lambin",
+    "year": 2018,
+    "citations": 302,
+    "dataset": "Classifier-selection GitHub repository with outcome-prediction datasets and analysis code",
+    "datasetUrl": "https://github.com/timodeist/classifier_selection_code",
+    "paperUrl": "https://aapm.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mp.12967",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "code",
+      "clinical outcome-prediction datasets"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding risk prediction and variable selection examples with multiple outcome-prediction datasets, feature-selection procedures, and classifier comparison workflows.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Included for risk prediction and variable-selection dataset use, not as a generic machine-learning benchmark."
+  },
+  {
+    "id": "openalex-W3156939347",
+    "title": "Causal Intervention for Leveraging Popularity Bias in Recommendation",
+    "authors": "Ziwei Zhu, Yun He, Xing Zhao, Yin Zhang, Jianling Wang, James Caverlee",
+    "year": 2021,
+    "citations": 188,
+    "dataset": "PDA GitHub repository with recommendation datasets and causal deconfounding experiments",
+    "datasetUrl": "https://github.com/zyang1580/pda",
+    "paperUrl": "https://dl.acm.org/doi/pdf/10.1145/3459637.3482234",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "code",
+      "recommendation datasets"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "propensity score methods",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Finding causal inference examples involving propensity, confounding, intervention, and recommendation-system exposure bias datasets.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Included because the method and dataset use are explicitly causal, despite the recommendation-system application domain."
   }
 ]

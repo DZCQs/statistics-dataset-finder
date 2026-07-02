@@ -434,6 +434,63 @@ export const LABEL_CANDIDATES = [
       "the label improves search beyond the broader time series analysis label"
     ],
     evidenceTerms: ["time series classification", "multivariate time series classification", "univariate time series classification", "classification archive"]
+  },
+  {
+    name: "resampling methods",
+    proposedLevel: "mid",
+    proposedParents: [],
+    status: "watch",
+    definition: "Datasets useful for bootstrap, permutation, jackknife, or other resampling-based statistical inference examples.",
+    currentEvidence: [
+      {
+        paperId: "openalex-W4389440197",
+        reason: "Bootstrap tutorial with OSF data/code for confidence intervals, robust estimators, and simulation-based inference."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records use accessible data/code for bootstrap, permutation, jackknife, or closely related resampling methods",
+      "the label improves search beyond generic simulation or inference language",
+      "the records support a statistics-method topic rather than only using resampling as a minor computational detail"
+    ],
+    evidenceTerms: ["bootstrap", "resampling", "permutation test", "jackknife", "bootstrap confidence interval"]
+  },
+  {
+    name: "spatial statistics",
+    proposedLevel: "high",
+    proposedParents: [],
+    status: "watch",
+    definition: "Datasets useful for spatially structured statistical models, spatial random effects, geostatistics, point processes, or spatial dimension-reduction methods.",
+    currentEvidence: [
+      {
+        paperId: "openalex-W4313424250",
+        reason: "Nonnegative spatial factorization paper with accessible spatial transcriptomics datasets and code."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records use accessible spatial datasets for recognized spatial-statistics methodology",
+      "the topic can organize multiple child labels or recurring dataset uses, not just a single application domain",
+      "the label remains distinct from high-dimensional statistics when spatial structure is central"
+    ],
+    evidenceTerms: ["spatial statistics", "spatial", "geostatistics", "point process", "spatial random effects", "spatial factorization"]
+  },
+  {
+    name: "compositional data analysis",
+    proposedLevel: "mid",
+    proposedParents: ["bayesian inference"],
+    status: "watch",
+    definition: "Datasets useful for statistical analysis of compositional vectors or constrained proportions, including Bayesian compositional models.",
+    currentEvidence: [
+      {
+        paperId: "openalex-W3217151720",
+        reason: "Bayesian compositional single-cell data analysis with accessible scCODA code and example resources."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records use accessible datasets for compositional-data methodology",
+      "the label improves search beyond broader Bayesian inference or high-dimensional statistics labels",
+      "the records involve compositional constraints or proportion vectors as a central statistical issue"
+    ],
+    evidenceTerms: ["compositional data", "compositional", "simplex", "log-ratio", "aitchison"]
   }
 ];
 
