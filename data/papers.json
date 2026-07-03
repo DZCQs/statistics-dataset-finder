@@ -34071,7 +34071,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "spatial statistics"
     ],
     "bestFor": "Finding high-dimensional spatial count-data examples for nonnegative matrix factorization, sparse latent factors, and spatially structured probabilistic modeling.",
     "note": "OpenAlex candidate; GitHub resource verified reachable. Spatial statistics is still not an official label, so current public labels emphasize high-dimensional statistics."
@@ -34134,5 +34135,232 @@
     ],
     "bestFor": "Finding causal inference examples involving propensity, confounding, intervention, and recommendation-system exposure bias datasets.",
     "note": "OpenAlex candidate; GitHub resource verified reachable. Included because the method and dataset use are explicitly causal, despite the recommendation-system application domain."
+  },
+  {
+    "id": "openalex-W2470360319",
+    "title": "ACE: adaptive cluster expansion for maximum entropy graphical model inference",
+    "authors": "John P. Barton, Eleonora De Leonardis, Alice Coucke, Simona Cocco",
+    "year": 2016,
+    "citations": 103,
+    "dataset": "ACE GitHub repository with graphical-model tutorials, example data, and filtered correlations",
+    "datasetUrl": "https://github.com/johnbarton/ace",
+    "paperUrl": "https://academic.oup.com/bioinformatics/article-pdf/32/20/3089/25040549/btw328.pdf",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "source code",
+      "example data",
+      "supplementary data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding graphical-model inference examples for maximum entropy, Markov random fields, sparse interaction networks, and correlation-based model fitting.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Added with label review because graphical models is not yet an official public label."
+  },
+  {
+    "id": "openalex-W2280781077",
+    "title": "RVTESTS: an efficient and comprehensive tool for rare variant association analysis using sequence data",
+    "authors": "Xiaowei Zhan, Youna Hu, Bingshan Li, Goncalo R. Abecasis, Dajiang J. Liu",
+    "year": 2016,
+    "citations": 459,
+    "dataset": "RVTESTS GitHub repository with rare-variant association examples and 1000 Genomes workflows",
+    "datasetUrl": "https://github.com/zhanxw/rvtests",
+    "paperUrl": "https://academic.oup.com/bioinformatics/article-pdf/32/9/1423/49019551/bioinformatics_32_9_1423.pdf",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "software",
+      "sequence-data examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding high-dimensional genetic-association examples involving rare variants, gene-level tests, genotype-phenotype data, and large sequencing datasets.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Added under high-dimensional statistics while rare-variant association remains too narrow for a public label at this stage."
+  },
+  {
+    "id": "openalex-W2996092187",
+    "title": "Pathomic Fusion: An Integrated Framework for Fusing Histopathology and Genomic Features for Cancer Diagnosis and Prognosis",
+    "authors": "Richard J. Chen, Ming Y. Lu, Jingwen Wang, Drew F. K. Williamson, Scott F. K. Rodig, Neal I. Lindeman, Faisal Mahmood",
+    "year": 2020,
+    "citations": 579,
+    "dataset": "PathomicFusion GitHub repository with TCGA multimodal prognosis data workflows",
+    "datasetUrl": "https://github.com/mahmoodlab/pathomicfusion",
+    "paperUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10339462/pdf/nihms-1794952.pdf",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "code",
+      "TCGA workflows",
+      "multimodal features"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding risk prediction examples combining high-dimensional genomic features, histology-derived covariates, survival outcomes, and prognosis modeling.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Included for risk prediction and high-dimensional statistics, not as a generic deep-learning benchmark."
+  },
+  {
+    "id": "openalex-W2808314965",
+    "title": "Bayesian inference of ancestral dates on bacterial phylogenetic trees",
+    "authors": "Xavier Didelot, Nicholas J. Croucher, Stephen D. Bentley, Simon R. Harris, Daniel J. Wilson",
+    "year": 2018,
+    "citations": 14,
+    "dataset": "BactDating GitHub repository with Bayesian dated-phylogeny examples",
+    "datasetUrl": "https://github.com/xavierdidelot/bactdating",
+    "paperUrl": "https://www.biorxiv.org/content/biorxiv/early/2018/06/14/347385.full.pdf",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "r package",
+      "phylogenetic examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Finding Bayesian inference examples for dated phylogenies, posterior uncertainty over ancestral dates, and scalable genomic-evolution datasets.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Included as Bayesian inference rather than as an application-domain label."
+  },
+  {
+    "id": "openalex-W2951187834",
+    "title": "Structure-preserving visualisation of high dimensional single-cell datasets",
+    "authors": "Benjamin Szubert, Jennifer E. Cole, Claudia Monaco, Ignat Drozdov",
+    "year": 2019,
+    "citations": 103,
+    "dataset": "ivis GitHub repository with high-dimensional single-cell datasets and dimension-reduction examples",
+    "datasetUrl": "https://github.com/beringresearch/ivis",
+    "paperUrl": "https://www.nature.com/articles/s41598-019-45301-0.pdf",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "python package",
+      "r interface",
+      "single-cell examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding high-dimensional statistics examples for dimension reduction, structure-preserving embeddings, and large single-cell expression datasets.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Added under high-dimensional statistics while dimension reduction is tracked for possible future label review."
+  },
+  {
+    "id": "openalex-W4382316621",
+    "title": "Spatio-temporal Diffusion Point Processes",
+    "authors": "Yuan Yuan, Jingtao Ding, Chenyang Shao, Depeng Jin, Yong Li",
+    "year": 2023,
+    "citations": 44,
+    "dataset": "Spatio-temporal diffusion point-process GitHub repository with event datasets and code",
+    "datasetUrl": "https://github.com/tsinghua-fib-lab/spatio-temporal-diffusion-point-processes",
+    "paperUrl": "https://dl.acm.org/doi/pdf/10.1145/3580305.3599511",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "code",
+      "spatio-temporal event datasets"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Finding spatial statistics examples for spatio-temporal point processes, event-time/location modeling, and spatial-temporal dependence.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Included after spatial statistics was promoted to an official high-level label."
+  },
+  {
+    "id": "openalex-W3015757123",
+    "title": "GazeR: A Package for Processing Gaze Position and Pupil Size Data",
+    "authors": "Jason Geller, Matthew B. Winn, Tristian Mahr, Daniel Mirman",
+    "year": 2020,
+    "citations": 126,
+    "dataset": "gazeR GitHub repository with gaze-position and pupil-size preprocessing examples",
+    "datasetUrl": "https://github.com/dmirman/gazer",
+    "paperUrl": "https://link.springer.com/content/pdf/10.3758/s13428-020-01374-8.pdf",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "r package",
+      "eye-tracking examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data"
+    ],
+    "bestFor": "Finding missing-data examples involving eye-tracking preprocessing, blink artifacts, pupil-size records, and reproducible data-cleaning workflows.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Included for missing-data handling rather than a psychology application-domain label."
+  },
+  {
+    "id": "openalex-W2998292064",
+    "title": "A Systematic Spatial and Temporal Sentiment Analysis on Geo-Tweets",
+    "authors": "Tao Hu, Bing She, Lian Duan, Han Yue, Julaine Clunis",
+    "year": 2019,
+    "citations": 56,
+    "dataset": "Harvard Dataverse workflow and processed geo-tweet data for spatial-temporal sentiment analysis",
+    "datasetUrl": "https://dataverse.harvard.edu/dataset.xhtml?persistentid=doi:10.7910/dvn/6n9vuf",
+    "paperUrl": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08937540.pdf",
+    "access": "open",
+    "formats": [
+      "harvard dataverse",
+      "processed data",
+      "workflow"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Finding spatial statistics examples with geo-tagged social data, Local Indicators of Spatial Association, spatial clusters, and temporal aggregation.",
+    "note": "OpenAlex candidate; Harvard Dataverse page returned a reachable 202 response. Included under spatial statistics after label promotion."
   }
 ]

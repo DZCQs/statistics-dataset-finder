@@ -281,6 +281,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["variable selection", "high-dimensional variable selection", "feature selection", "predictor selection", "biomarker selection", "subset selection", "variable and covariance selection", "sparse regression", "sparse", "lasso", "adaptive lasso", "elastic net", "penalized", "regularized", "spike-and-slab", "inclusion indicators", "pc-simple", "partial faithfulness", "p >> n", "p>n"]
   },
   {
+    name: "spatial statistics",
+    level: "high",
+    parents: [],
+    definition: "Datasets useful for spatially structured statistical models, geostatistics, point processes, spatial random effects, or spatial dimension-reduction methods.",
+    includeWhen: [
+      "spatial location, spatial dependence, geostatistical structure, point-process events, or spatially structured latent factors are central to the statistical method",
+      "the dataset supports spatial or spatio-temporal statistical modeling rather than merely containing place names or coordinates"
+    ],
+    avoidWhen: [
+      "the paper only uses a geographic application domain without spatial statistical methodology",
+      "spatial language is incidental and the dataset is mainly a generic prediction or computer-vision benchmark"
+    ],
+    evidenceTerms: ["spatial statistics", "spatial", "spatio-temporal", "geostatistics", "point process", "spatial random effects", "spatial factorization", "spatial dependence", "local indicators of spatial association"]
+  },
+  {
     name: "risk prediction",
     level: "mid",
     parents: ["survival analysis"],
@@ -455,25 +470,6 @@ export const LABEL_CANDIDATES = [
     evidenceTerms: ["bootstrap", "resampling", "permutation test", "jackknife", "bootstrap confidence interval"]
   },
   {
-    name: "spatial statistics",
-    proposedLevel: "high",
-    proposedParents: [],
-    status: "watch",
-    definition: "Datasets useful for spatially structured statistical models, spatial random effects, geostatistics, point processes, or spatial dimension-reduction methods.",
-    currentEvidence: [
-      {
-        paperId: "openalex-W4313424250",
-        reason: "Nonnegative spatial factorization paper with accessible spatial transcriptomics datasets and code."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records use accessible spatial datasets for recognized spatial-statistics methodology",
-      "the topic can organize multiple child labels or recurring dataset uses, not just a single application domain",
-      "the label remains distinct from high-dimensional statistics when spatial structure is central"
-    ],
-    evidenceTerms: ["spatial statistics", "spatial", "geostatistics", "point process", "spatial random effects", "spatial factorization"]
-  },
-  {
     name: "compositional data analysis",
     proposedLevel: "mid",
     proposedParents: ["bayesian inference"],
@@ -491,6 +487,44 @@ export const LABEL_CANDIDATES = [
       "the records involve compositional constraints or proportion vectors as a central statistical issue"
     ],
     evidenceTerms: ["compositional data", "compositional", "simplex", "log-ratio", "aitchison"]
+  },
+  {
+    name: "graphical models",
+    proposedLevel: "mid",
+    proposedParents: [],
+    status: "watch",
+    definition: "Datasets useful for probabilistic graphical models, Markov random fields, Gaussian graphical models, network-structured dependence, or maximum-entropy graph inference.",
+    currentEvidence: [
+      {
+        paperId: "openalex-W2470360319",
+        reason: "ACE maximum-entropy graphical-model inference paper with accessible code, tutorials, example data, and filtered correlations."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records use accessible datasets for graphical-model methodology",
+      "the label improves search beyond high-dimensional statistics or Bayesian inference",
+      "records centrally involve graph-structured conditional dependence, Markov random fields, Gaussian graphical models, or related statistical graph models"
+    ],
+    evidenceTerms: ["graphical model", "graphical models", "markov random field", "gaussian graphical model", "maximum entropy", "conditional dependence"]
+  },
+  {
+    name: "dimension reduction",
+    proposedLevel: "mid",
+    proposedParents: ["high-dimensional statistics"],
+    status: "watch",
+    definition: "Datasets useful for statistical dimension reduction, manifold learning, embeddings, latent low-dimensional structure, or visualization of high-dimensional data.",
+    currentEvidence: [
+      {
+        paperId: "openalex-W2951187834",
+        reason: "ivis high-dimensional single-cell dataset paper with accessible code and dimension-reduction examples."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records use accessible data for dimension-reduction methodology",
+      "the label is used for statistical low-dimensional structure rather than generic visualization alone",
+      "the topic remains distinct from broad high-dimensional statistics"
+    ],
+    evidenceTerms: ["dimension reduction", "dimensionality reduction", "embedding", "manifold learning", "latent space", "visualisation", "visualization"]
   }
 ];
 

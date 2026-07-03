@@ -45,6 +45,14 @@ const parentRules = [
 
 const evidenceRules = [
   {
+    label: "spatial statistics",
+    reason: "spatial, geostatistical, point-process, or spatial-factor evidence in record text",
+    test: (paper) =>
+      /\b(spatial statistics|spatio-temporal|spatiotemporal|geostatistics|point process|spatial random effects|spatial factorization|spatial dependence|local indicators of spatial association)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
     label: "variable selection",
     reason: "variable-selection, sparse predictor-selection, or PC-simple evidence in record text",
     test: (paper) =>
@@ -79,8 +87,7 @@ function paperText(paper) {
     paper.note,
     paper.access,
     ...(paper.formats || []),
-    ...(paper.properties || []),
-    ...(paper.topics || [])
+    ...(paper.properties || [])
   ].join(" ");
 }
 

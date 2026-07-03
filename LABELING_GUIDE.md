@@ -69,6 +69,7 @@ Good label level:
 - `risk prediction`
 - `high-dimensional statistics`
 - `variable selection`
+- `spatial statistics`
 - `time series analysis`
 - `time series forecasting`
 - `hierarchical forecasting`
@@ -100,6 +101,7 @@ High-level topic families:
   - `risk prediction`
 - `high-dimensional statistics`
   - `variable selection`
+- `spatial statistics`
 - `time series analysis`
   - `time series forecasting`
     - `hierarchical forecasting`
