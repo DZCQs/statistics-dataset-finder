@@ -34362,5 +34362,146 @@
     ],
     "bestFor": "Finding spatial statistics examples with geo-tagged social data, Local Indicators of Spatial Association, spatial clusters, and temporal aggregation.",
     "note": "OpenAlex candidate; Harvard Dataverse page returned a reachable 202 response. Included under spatial statistics after label promotion."
+  },
+  {
+    "id": "openalex-W1924404512",
+    "title": "Weighted Statistical Binning: Enabling Statistically Consistent Genome-Scale Phylogenetic Analyses",
+    "authors": "Md. Shamsuzzoha Bayzid, Siavash Mirarab, Bastien Boussau, Tandy Warnow",
+    "year": 2015,
+    "citations": 120,
+    "dataset": "Figshare multi-locus phylogenomic datasets and statistical-binning software",
+    "datasetUrl": "http://dx.doi.org/10.6084/m9.figshare.1411146",
+    "paperUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0129183&type=printable",
+    "access": "open",
+    "formats": [
+      "figshare dataset",
+      "github repository",
+      "phylogenomic examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding high-dimensional genomics examples with many loci, gene-tree uncertainty, summary-method comparisons, and statistically consistent binning workflows.",
+    "note": "OpenAlex candidate; Figshare resource verified reachable. Added under high-dimensional statistics while phylogenetic statistical methods remain outside the official label set."
+  },
+  {
+    "id": "openalex-W2338223499",
+    "title": "Network-Based Interpretation of Diverse High-Throughput Datasets through the Omics Integrator Software Package",
+    "authors": "Nurcan Tuncbag, Sara J. C. Gosline, Amanda J. Kedaigle, Anthony R. Soltis, Anthony Gitter, Ernest Fraenkel",
+    "year": 2016,
+    "citations": 190,
+    "dataset": "OmicsIntegrator GitHub repository for high-throughput multi-omics network examples",
+    "datasetUrl": "https://github.com/fraenkel-lab/omicsintegrator",
+    "paperUrl": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004879&type=printable",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "software",
+      "high-throughput omics examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding high-dimensional statistics examples involving multi-omics integration, network optimization, pathway subnetworks, and noisy high-throughput measurements.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Added as a high-dimensional multi-omics statistical-method resource, not as an application-domain label."
+  },
+  {
+    "id": "openalex-W2949237386",
+    "title": "Current best practices in single-cell RNA-seq analysis: a tutorial",
+    "authors": "Malte D. Luecken, Fabian J. Theis",
+    "year": 2019,
+    "citations": 2371,
+    "dataset": "Single-cell tutorial GitHub repository with public dataset workflow",
+    "datasetUrl": "https://github.com/theislab/single-cell-tutorial",
+    "paperUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.15252/msb.20188746",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "workflow",
+      "single-cell dataset tutorial"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding high-dimensional statistics examples for preprocessing, feature selection, dimensionality reduction, normalization, and public single-cell RNA-seq workflows.",
+    "note": "OpenAlex candidate; GitHub resource verified reachable. Also strengthens the internal dimension-reduction candidate label."
+  },
+  {
+    "id": "openalex-W2914401989",
+    "title": "GRACE-REC: a reconstruction of climate-driven water storage changes over the last century",
+    "authors": "Vincent Humphrey, Lukas Gudmundsson",
+    "year": 2019,
+    "citations": 294,
+    "dataset": "GRACE-REC Figshare reconstruction of spatially explicit terrestrial water-storage time series",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.7670849",
+    "paperUrl": "https://essd.copernicus.org/articles/11/1153/2019/essd-11-1153-2019.pdf",
+    "access": "open",
+    "formats": [
+      "figshare dataset",
+      "gridded data",
+      "ensemble time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Finding spatial statistics and time series analysis examples with gridded climate data, uncertainty ensembles, predictive reconstruction, and spatially explicit temporal records.",
+    "note": "OpenAlex candidate; Figshare resource verified reachable. Included because the paper provides a statistical-model reconstruction dataset rather than only a domain data release."
+  },
+  {
+    "id": "openalex-W3004408348",
+    "title": "ChinaCropPhen1km: a high-resolution crop phenological dataset for three staple crops in China during 2000-2015 based on leaf area index (LAI) products",
+    "authors": "Yuchuan Luo, Zhao Zhang, Yi Chen, Ziyue Li, Fulu Tao",
+    "year": 2020,
+    "citations": 291,
+    "dataset": "ChinaCropPhen1km Figshare spatially explicit crop-phenology dataset",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.8313530",
+    "paperUrl": "https://essd.copernicus.org/articles/12/197/2020/essd-12-197-2020.pdf",
+    "access": "open",
+    "formats": [
+      "figshare dataset",
+      "gridded data",
+      "remote-sensing time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Finding spatial statistics and time series analysis examples with smoothing, phenology detection, spatially explicit gridded data, and remotely sensed temporal observations.",
+    "note": "OpenAlex candidate; Figshare resource verified reachable. Added cautiously as a dataset paper with statistical smoothing and detection workflow."
   }
 ]

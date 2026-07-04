@@ -293,7 +293,7 @@ export const LABEL_REGISTRY = [
       "the paper only uses a geographic application domain without spatial statistical methodology",
       "spatial language is incidental and the dataset is mainly a generic prediction or computer-vision benchmark"
     ],
-    evidenceTerms: ["spatial statistics", "spatial", "spatio-temporal", "geostatistics", "point process", "spatial random effects", "spatial factorization", "spatial dependence", "local indicators of spatial association"]
+    evidenceTerms: ["spatial statistics", "geostatistics", "point process", "spatial random effects", "spatial factorization", "spatial dependence", "local indicators of spatial association", "spatio-temporal point process", "spatially explicit"]
   },
   {
     name: "risk prediction",
@@ -517,6 +517,10 @@ export const LABEL_CANDIDATES = [
       {
         paperId: "openalex-W2951187834",
         reason: "ivis high-dimensional single-cell dataset paper with accessible code and dimension-reduction examples."
+      },
+      {
+        paperId: "openalex-W2949237386",
+        reason: "Single-cell RNA-seq best-practices tutorial with public workflow data and dimensionality-reduction steps."
       }
     ],
     admitWhen: [
