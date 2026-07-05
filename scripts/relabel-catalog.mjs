@@ -39,11 +39,19 @@ const parentRules = [
   },
   {
     label: "high-dimensional statistics",
-    children: ["variable selection"]
+    children: ["variable selection", "dimension reduction"]
   }
 ];
 
 const evidenceRules = [
+  {
+    label: "dimension reduction",
+    reason: "dimension-reduction, manifold-learning, embedding, or factor-model evidence in record text",
+    test: (paper) =>
+      /\b(dimension reduction|dimensionality reduction|intrinsic dimension|manifold learning|low-dimensional|factor model|principal component|pca|t-sne|umap)\b/i.test(
+        paperText(paper)
+      )
+  },
   {
     label: "spatial statistics",
     reason: "spatial, geostatistical, point-process, or spatial-factor evidence in record text",

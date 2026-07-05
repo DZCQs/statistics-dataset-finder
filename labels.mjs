@@ -266,6 +266,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["high-dimensional", "high dimensional", "p >> n", "p>n", "sparse", "sparsity", "lasso", "elastic net", "regularization", "regularized", "penalized", "variable selection", "genomics", "transcriptomic", "gene expression", "microarray"]
   },
   {
+    name: "dimension reduction",
+    level: "mid",
+    parents: ["high-dimensional statistics"],
+    definition: "Datasets useful for statistical dimension reduction, intrinsic dimension estimation, manifold learning, low-dimensional embeddings, or factor-structure examples in high-dimensional data.",
+    includeWhen: [
+      "dimension reduction, dimensionality reduction, intrinsic dimension estimation, manifold learning, low-dimensional embedding, PCA/factor models, or sufficient dimension-reduction methodology is central",
+      "the paper or package provides accessible datasets, examples, or workflows for evaluating dimension-reduction methods"
+    ],
+    avoidWhen: [
+      "visualization is incidental and no dimension-reduction methodology is central",
+      "the paper merely uses an embedding inside a generic deep-learning system without a statistical dimension-reduction question"
+    ],
+    evidenceTerms: ["dimension reduction", "dimensionality reduction", "intrinsic dimension", "manifold learning", "embedding", "low-dimensional", "factor model", "principal component", "pca", "t-sne", "umap"]
+  },
+  {
     name: "variable selection",
     level: "mid",
     parents: ["high-dimensional statistics"],
@@ -507,29 +522,6 @@ export const LABEL_CANDIDATES = [
     ],
     evidenceTerms: ["graphical model", "graphical models", "markov random field", "gaussian graphical model", "maximum entropy", "conditional dependence"]
   },
-  {
-    name: "dimension reduction",
-    proposedLevel: "mid",
-    proposedParents: ["high-dimensional statistics"],
-    status: "watch",
-    definition: "Datasets useful for statistical dimension reduction, manifold learning, embeddings, latent low-dimensional structure, or visualization of high-dimensional data.",
-    currentEvidence: [
-      {
-        paperId: "openalex-W2951187834",
-        reason: "ivis high-dimensional single-cell dataset paper with accessible code and dimension-reduction examples."
-      },
-      {
-        paperId: "openalex-W2949237386",
-        reason: "Single-cell RNA-seq best-practices tutorial with public workflow data and dimensionality-reduction steps."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records use accessible data for dimension-reduction methodology",
-      "the label is used for statistical low-dimensional structure rather than generic visualization alone",
-      "the topic remains distinct from broad high-dimensional statistics"
-    ],
-    evidenceTerms: ["dimension reduction", "dimensionality reduction", "embedding", "manifold learning", "latent space", "visualisation", "visualization"]
-  }
 ];
 
 export const LABEL_RULES = {
