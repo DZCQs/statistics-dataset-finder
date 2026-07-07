@@ -35,15 +35,23 @@ const parentRules = [
   },
   {
     label: "time series analysis",
-    children: ["time series forecasting", "hierarchical forecasting"]
+    children: ["time series forecasting", "hierarchical forecasting", "time series classification"]
   },
   {
     label: "high-dimensional statistics",
-    children: ["variable selection", "dimension reduction"]
+    children: ["variable selection", "dimension reduction", "functional data analysis"]
   }
 ];
 
 const evidenceRules = [
+  {
+    label: "functional data analysis",
+    reason: "functional-data, functional-regression, or functional-PCA evidence in record text",
+    test: (paper) =>
+      /\b(functional data analysis|functional regression|function-on-function|scalar-on-function|functional principal components|functional data|functional outlier|functional covariate|functional observations)\b/i.test(
+        paperText(paper)
+      )
+  },
   {
     label: "dimension reduction",
     reason: "dimension-reduction, manifold-learning, embedding, or factor-model evidence in record text",
@@ -57,6 +65,14 @@ const evidenceRules = [
     reason: "spatial, geostatistical, point-process, or spatial-factor evidence in record text",
     test: (paper) =>
       /\b(spatial statistics|geostatistics|point process|spatial random effects|spatial factorization|spatial dependence|local indicators of spatial association|spatio-temporal point process|spatiotemporal point process|spatially explicit)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "time series classification",
+    reason: "time-series classification archive or benchmark evidence in record text",
+    test: (paper) =>
+      /\b(time series classification|time-series classification|multivariate time series classification|univariate time series classification|classification archive)\b/i.test(
         paperText(paper)
       )
   },

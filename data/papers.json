@@ -33252,7 +33252,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "time series analysis"
+      "time series analysis",
+      "time series classification"
     ],
     "bestFor": "Using public multivariate time-series classification datasets for time-series classification research.",
     "note": "Supports the internal candidate label time series classification; not given a public low-level label until the candidate reaches admission rules."
@@ -33280,7 +33281,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "time series analysis"
+      "time series analysis",
+      "time series classification"
     ],
     "bestFor": "Using public univariate time-series classification datasets for time-series classification benchmarks.",
     "note": "Supports the internal candidate label time series classification; not given a public low-level label until the candidate reaches admission rules."
@@ -33590,7 +33592,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "time series analysis"
+      "time series analysis",
+      "time series classification"
     ],
     "bestFor": "Finding time-series representation learning examples using standard UCR, UEA, ETT, and related public benchmark datasets.",
     "note": "Repository verified reachable and README documents benchmark data sources. Time-series classification is still a candidate label, so this record is marked for label review."
@@ -34652,7 +34655,8 @@
     ],
     "topics": [
       "high-dimensional statistics",
-      "variable selection"
+      "variable selection",
+      "functional data analysis"
     ],
     "bestFor": "Finding high-dimensional functional regression examples involving feature selection, sparse estimation, functional principal components, and fMRI data applications.",
     "note": "Semantic Scholar candidate; GitHub resource verified reachable. Added under high-dimensional statistics and variable selection while functional data analysis remains an internal candidate label."
@@ -34686,5 +34690,122 @@
     ],
     "bestFor": "Finding time series forecasting examples with probabilistic forecasts, predictive uncertainty, benchmark electricity and traffic datasets, and comparison to ARIMA or DeepAR-style baselines.",
     "note": "Semantic Scholar candidate; GitHub resource verified reachable. Included under time series forecasting rather than any generic machine-learning label."
+  },
+  {
+    "id": "arxiv-2603.20352",
+    "title": "The Multiverse of Time Series Machine Learning: an Archive for Multivariate Time Series Classification",
+    "authors": "Matthew Middlehurst, Aiden Rushbrooke, Ali Ismail-Fawaz, Maxime Devanne, Germain Forestier, Angus Dempster, Geoffrey I. Webb, Christopher Holder, Anthony Bagnall",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Multiverse archive on TimeSeriesClassification.com with multivariate time-series classification datasets",
+    "datasetUrl": "https://www.timeseriesclassification.com/",
+    "paperUrl": "https://arxiv.org/abs/2603.20352",
+    "access": "open",
+    "formats": [
+      "dataset archive",
+      "benchmark datasets",
+      "time series classification",
+      "documentation"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series classification",
+      "time series analysis"
+    ],
+    "bestFor": "Finding multivariate time series classification datasets, benchmark archives, preprocessed unequal-length or missing-value series, and reproducible classifier evaluations.",
+    "note": "Targeted discovery for the time series classification candidate label; arXiv and archive website verified reachable."
+  },
+  {
+    "id": "arxiv-1707.02129",
+    "title": "Object-Oriented Software for Functional Data",
+    "authors": "Clara Happ",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "funData CRAN/GitHub package with functional data examples and simulation tools",
+    "datasetUrl": "https://cran.r-project.org/package=funData",
+    "paperUrl": "https://arxiv.org/abs/1707.02129",
+    "access": "open",
+    "formats": [
+      "cran package",
+      "github repository",
+      "functional data examples",
+      "simulation tools"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding functional data analysis examples for dense, irregular, multivariate, and multidimensional functional observations, including simulation workflows and MFPCA use cases.",
+    "note": "Targeted discovery for functional data analysis; arXiv, CRAN, and GitHub resources verified reachable."
+  },
+  {
+    "id": "arxiv-2105.05213",
+    "title": "Outlier Detection for Functional Data with R Package fdaoutlier",
+    "authors": "Oluwasegun Ojo, Rosa E. Lillo, Antonio Fernandez Anta",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "fdaoutlier CRAN package with functional outlier-detection examples",
+    "datasetUrl": "https://cran.r-project.org/package=fdaoutlier",
+    "paperUrl": "https://arxiv.org/abs/2105.05213",
+    "access": "open",
+    "formats": [
+      "cran package",
+      "functional data examples",
+      "outlier-detection workflows"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding functional data analysis examples for magnitude, shape, and amplitude outlier detection in univariate or multivariate functional observations.",
+    "note": "Targeted discovery for functional data analysis; arXiv and CRAN resources verified reachable."
+  },
+  {
+    "id": "arxiv-2102.00249",
+    "title": "Gaussian Process for Functional Data Analysis: The GPFDA Package for R",
+    "authors": "Evandro Konzen, Yafeng Cheng, Jian Qing Shi",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "GPFDA CRAN package with Gaussian-process functional data examples",
+    "datasetUrl": "https://cran.r-project.org/package=GPFDA",
+    "paperUrl": "https://arxiv.org/abs/2102.00249",
+    "access": "open",
+    "formats": [
+      "cran package",
+      "functional regression examples",
+      "gaussian process examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding functional data analysis examples for Gaussian-process functional regression, multidimensional inputs, nonstationary covariance structures, and prediction workflows.",
+    "note": "Targeted discovery for functional data analysis; arXiv and CRAN resources verified reachable."
   }
 ]

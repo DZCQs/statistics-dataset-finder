@@ -281,6 +281,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["dimension reduction", "dimensionality reduction", "intrinsic dimension", "manifold learning", "embedding", "low-dimensional", "factor model", "principal component", "pca", "t-sne", "umap"]
   },
   {
+    name: "functional data analysis",
+    level: "mid",
+    parents: ["high-dimensional statistics"],
+    definition: "Datasets useful for statistical methods where curves, functions, images, or other high-/infinite-dimensional functional observations are modeled directly.",
+    includeWhen: [
+      "functional observations, function-on-function regression, scalar-on-function regression, functional principal components, Gaussian-process functional data models, or functional outlier detection are central",
+      "the paper or package provides accessible examples, datasets, or workflows for functional data methods"
+    ],
+    avoidWhen: [
+      "functional language is used informally and the data are ordinary vector predictors",
+      "the paper only applies a generic model to time series without treating observations as functional data"
+    ],
+    evidenceTerms: ["functional data analysis", "functional regression", "function-on-function", "scalar-on-function", "functional principal components", "functional data", "functional outlier", "functional covariate", "functional observations"]
+  },
+  {
     name: "variable selection",
     level: "mid",
     parents: ["high-dimensional statistics"],
@@ -377,6 +392,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["hierarchical forecasting", "forecast reconciliation", "hierarchical time series", "grouped time series"]
   },
   {
+    name: "time series classification",
+    level: "low",
+    parents: ["time series analysis"],
+    definition: "Datasets useful for classifying ordered time series, including univariate or multivariate time-series classification archives and benchmark collections.",
+    includeWhen: [
+      "the resource provides labeled time-series classification datasets or an archive/benchmark for comparing time-series classifiers",
+      "classification of ordered series, rather than forecasting future values, is central"
+    ],
+    avoidWhen: [
+      "the dataset is mainly for forecasting, anomaly detection, or generic sequence prediction rather than classifying complete time series",
+      "the paper only uses time series as application data without a time-series classification benchmark or method"
+    ],
+    evidenceTerms: ["time series classification", "multivariate time series classification", "univariate time series classification", "classification archive", "time-series classification", "tsc"]
+  },
+  {
     name: "bayesian inference",
     level: "high",
     parents: [],
@@ -443,29 +473,6 @@ export const LABEL_CANDIDATES = [
     evidenceTerms: ["difference-in-differences", "difference in differences", "diff-in-diff", "event study", "staggered adoption"]
   },
   {
-    name: "time series classification",
-    proposedLevel: "low",
-    proposedParents: ["time series analysis"],
-    status: "watch",
-    definition: "Datasets useful for classifying ordered time series, including univariate or multivariate time-series classification benchmarks.",
-    currentEvidence: [
-      {
-        paperId: "ucr-time-series-archive",
-        reason: "Large public archive for univariate time-series classification datasets."
-      },
-      {
-        paperId: "uea-multivariate-time-series-archive",
-        reason: "Public archive for multivariate time-series classification datasets."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records support time-series classification as the statistical use",
-      "the datasets are accessible archives or benchmark datasets rather than one-off applied time series",
-      "the label improves search beyond the broader time series analysis label"
-    ],
-    evidenceTerms: ["time series classification", "multivariate time series classification", "univariate time series classification", "classification archive"]
-  },
-  {
     name: "resampling methods",
     proposedLevel: "mid",
     proposedParents: [],
@@ -521,25 +528,6 @@ export const LABEL_CANDIDATES = [
       "records centrally involve graph-structured conditional dependence, Markov random fields, Gaussian graphical models, or related statistical graph models"
     ],
     evidenceTerms: ["graphical model", "graphical models", "markov random field", "gaussian graphical model", "maximum entropy", "conditional dependence"]
-  },
-  {
-    name: "functional data analysis",
-    proposedLevel: "mid",
-    proposedParents: ["high-dimensional statistics"],
-    status: "watch",
-    definition: "Datasets useful for statistical methods where curves, functions, images, or other infinite-/high-dimensional functional observations are modeled directly.",
-    currentEvidence: [
-      {
-        paperId: "s2-c81761b6dcae612114e4e45760df9419f375db58",
-        reason: "FAStEN provides code and application resources for sparse high-dimensional function-on-function and scalar-on-function regression."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records use accessible datasets for functional data analysis methods",
-      "the records centrally model functional observations rather than only using ordinary vector covariates",
-      "the label improves search beyond broad high-dimensional statistics"
-    ],
-    evidenceTerms: ["functional data analysis", "functional regression", "function-on-function", "scalar-on-function", "functional principal components", "functional data"]
   },
 ];
 
