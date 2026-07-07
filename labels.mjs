@@ -522,6 +522,25 @@ export const LABEL_CANDIDATES = [
     ],
     evidenceTerms: ["graphical model", "graphical models", "markov random field", "gaussian graphical model", "maximum entropy", "conditional dependence"]
   },
+  {
+    name: "functional data analysis",
+    proposedLevel: "mid",
+    proposedParents: ["high-dimensional statistics"],
+    status: "watch",
+    definition: "Datasets useful for statistical methods where curves, functions, images, or other infinite-/high-dimensional functional observations are modeled directly.",
+    currentEvidence: [
+      {
+        paperId: "s2-c81761b6dcae612114e4e45760df9419f375db58",
+        reason: "FAStEN provides code and application resources for sparse high-dimensional function-on-function and scalar-on-function regression."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records use accessible datasets for functional data analysis methods",
+      "the records centrally model functional observations rather than only using ordinary vector covariates",
+      "the label improves search beyond broad high-dimensional statistics"
+    ],
+    evidenceTerms: ["functional data analysis", "functional regression", "function-on-function", "scalar-on-function", "functional principal components", "functional data"]
+  },
 ];
 
 export const LABEL_RULES = {

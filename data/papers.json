@@ -34596,5 +34596,95 @@
     ],
     "bestFor": "Finding generated benchmark-style high-dimensional data structures for nonlinear dimension reduction, clustering structure, association, anomalies, and visual diagnostics.",
     "note": "Targeted discovery for dimension reduction; arXiv and CRAN resources verified reachable. Added cautiously as a package-paper source of generated example datasets."
+  },
+  {
+    "id": "s2-0394b593d19e9143d41a48a4976261cc9632fdec",
+    "title": "SurvHTE-Bench: A Benchmark for Heterogeneous Treatment Effect Estimation in Survival Analysis",
+    "authors": "Shahriar Noroozizadeh, Xiaobin Shen, Jeremy C. Weiss, George H. Chen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "SurvHTE-Bench GitHub repository with synthetic, semi-synthetic, and real-world survival HTE datasets",
+    "datasetUrl": "https://github.com/shahriarnz14/survhte-bench",
+    "paperUrl": "https://www.semanticscholar.org/paper/0394b593d19e9143d41a48a4976261cc9632fdec",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "benchmark datasets",
+      "code",
+      "survival data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "survival analysis",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Finding causal inference examples for heterogeneous treatment effect estimation with censored survival outcomes, synthetic ground truth, semi-synthetic designs, and real clinical datasets.",
+    "note": "Semantic Scholar candidate; GitHub resource verified reachable. Included because the benchmark provides explicit data/code for causal survival methods."
+  },
+  {
+    "id": "s2-c81761b6dcae612114e4e45760df9419f375db58",
+    "title": "FAStEN: An Efficient Adaptive Method for Feature Selection and Estimation in High-Dimensional Functional Regressions",
+    "authors": "Tobia Boschi, Lorenzo Testa, Francesca Chiaromonte, M. Reimherr",
+    "year": 2023,
+    "citations": 8,
+    "dataset": "funGCN GitHub repository with FAStEN code, simulation workflows, and fMRI application resources",
+    "datasetUrl": "https://github.com/ibm/fungcn",
+    "paperUrl": "https://www.semanticscholar.org/paper/c81761b6dcae612114e4e45760df9419f375db58",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "code",
+      "simulation tools",
+      "fMRI application"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Finding high-dimensional functional regression examples involving feature selection, sparse estimation, functional principal components, and fMRI data applications.",
+    "note": "Semantic Scholar candidate; GitHub resource verified reachable. Added under high-dimensional statistics and variable selection while functional data analysis remains an internal candidate label."
+  },
+  {
+    "id": "s2-f5c31b43bf4db507f6461f70a3c22437c0252025",
+    "title": "Mamba time series forecasting with uncertainty quantification",
+    "authors": "Pedro Pessoa, P. Campitelli, Douglas P. Shepherd, Banu Ozkan, S. Presse",
+    "year": 2025,
+    "citations": 10,
+    "dataset": "Mamba-ProbTSF GitHub repository with probabilistic time-series forecasting benchmarks",
+    "datasetUrl": "https://github.com/pessoap/mamba-probtsf",
+    "paperUrl": "https://www.semanticscholar.org/paper/f5c31b43bf4db507f6461f70a3c22437c0252025",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "code",
+      "time-series benchmarks",
+      "uncertainty workflows"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Finding time series forecasting examples with probabilistic forecasts, predictive uncertainty, benchmark electricity and traffic datasets, and comparison to ARIMA or DeepAR-style baselines.",
+    "note": "Semantic Scholar candidate; GitHub resource verified reachable. Included under time series forecasting rather than any generic machine-learning label."
   }
 ]
