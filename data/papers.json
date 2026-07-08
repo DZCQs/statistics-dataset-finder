@@ -34807,5 +34807,131 @@
     ],
     "bestFor": "Finding functional data analysis examples for Gaussian-process functional regression, multidimensional inputs, nonstationary covariance structures, and prediction workflows.",
     "note": "Targeted discovery for functional data analysis; arXiv and CRAN resources verified reachable."
+  },
+  {
+    "id": "arxiv-2101.11003",
+    "title": "FDApy: a Python package for functional data",
+    "authors": "Steven Golovkine",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "FDApy GitHub repository and documentation with simulated and real functional data examples",
+    "datasetUrl": "https://github.com/StevenGolovkine/FDApy",
+    "paperUrl": "https://arxiv.org/abs/2101.11003",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "python package",
+      "functional data examples",
+      "simulation tools",
+      "documentation"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics",
+      "dimension reduction"
+    ],
+    "bestFor": "Finding functional data analysis examples for multivariate or irregular functional observations, dimension reduction, simulation workflows, and reproducible Python tutorials.",
+    "note": "Targeted discovery; arXiv reports code and documentation with simulated and real datasets, and the GitHub repository was verified reachable."
+  },
+  {
+    "id": "arxiv-2110.09697",
+    "title": "abess: A Fast Best Subset Selection Library in Python and R",
+    "authors": "Jin Zhu, Xueqin Wang, Liyuan Hu, Junhao Huang, Kangkang Jiang, Yanhang Zhang, Shiyun Lin, Junxian Zhu",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "abess GitHub/CRAN resources with best-subset-selection examples, simulated high-dimensional data, and package tutorials",
+    "datasetUrl": "https://cran.r-project.org/package=abess",
+    "paperUrl": "https://arxiv.org/abs/2110.09697",
+    "access": "open",
+    "formats": [
+      "cran package",
+      "github repository",
+      "python package",
+      "simulation tools",
+      "tutorial data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "variable selection",
+      "high-dimensional statistics",
+      "dimension reduction"
+    ],
+    "bestFor": "Finding high-dimensional variable-selection examples for best subset selection, group subset selection, sparse regression, PCA, generalized linear models, and Cox models.",
+    "note": "Targeted discovery; arXiv/CRAN/GitHub resources verified. Best subset selection kept as an internal candidate label until more supporting records accumulate."
+  },
+  {
+    "id": "arxiv-1709.06254",
+    "title": "BeSS: An R Package for Best Subset Selection in Linear, Logistic and CoxPH Models",
+    "authors": "Canhong Wen, Aijun Zhang, Shijie Quan, Xueqin Wang",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "BeSS CRAN package with simulations and real datasets for best subset selection in linear, logistic, and Cox proportional hazards models",
+    "datasetUrl": "https://cran.r-project.org/package=BeSS",
+    "paperUrl": "https://arxiv.org/abs/1709.06254",
+    "access": "open",
+    "formats": [
+      "cran package",
+      "simulation tools",
+      "real data examples",
+      "cox model examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding variable-selection examples for best subset selection in regression, classification, and Cox proportional hazards settings.",
+    "note": "Targeted discovery; arXiv and CRAN resources verified. Supports the internal best subset selection candidate label but does not create a public label yet."
+  },
+  {
+    "id": "openalex-W2128873464",
+    "title": "Molecular pathway identification using biological network-regularized logistic models",
+    "authors": "Wen Zhang, Ying-wooi Wan, Genevera I. Allen, Kaifang Pang, Matthew L. Anderson, Zhandong Liu",
+    "year": 2013,
+    "citations": 69,
+    "dataset": "Logit-Lapnet GitHub code plus TCGA breast cancer RNA-seq and BioGRID protein-interaction data sources described in the open-access paper",
+    "datasetUrl": "http://www.github.com/zhandong/Logit-Lapnet",
+    "paperUrl": "https://doi.org/10.1186/1471-2164-14-S8-S7",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "tcga data source",
+      "biogrid data source",
+      "simulation study"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Finding high-dimensional variable-selection examples for network-regularized logistic regression, sparse biomarkers, and p-greater-than-n gene-expression classification.",
+    "note": "OpenAlex screened candidate; paper and source-code link verified from the open-access article. Included because the paper clearly documents TCGA/BioGRID data sources and code."
   }
 ]

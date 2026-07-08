@@ -139,15 +139,15 @@ const papers = JSON.parse(await readFile(PAPERS_URL, "utf8"));
 const changeLog = [];
 
 for (const paper of papers) {
-  for (const rule of parentRules) {
-    if (rule.children.some((child) => hasTopic(paper, child))) {
-      addTopic(paper, rule.label, `parent label for ${rule.children.join(", ")}`, changeLog);
-    }
-  }
-
   for (const rule of evidenceRules) {
     if (rule.test(paper)) {
       addTopic(paper, rule.label, rule.reason, changeLog);
+    }
+  }
+
+  for (const rule of parentRules) {
+    if (rule.children.some((child) => hasTopic(paper, child))) {
+      addTopic(paper, rule.label, `parent label for ${rule.children.join(", ")}`, changeLog);
     }
   }
 

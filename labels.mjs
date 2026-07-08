@@ -529,6 +529,29 @@ export const LABEL_CANDIDATES = [
     ],
     evidenceTerms: ["graphical model", "graphical models", "markov random field", "gaussian graphical model", "maximum entropy", "conditional dependence"]
   },
+  {
+    name: "best subset selection",
+    proposedLevel: "low",
+    proposedParents: ["variable selection", "high-dimensional statistics"],
+    status: "watch",
+    definition: "Datasets useful for exact or approximate best subset selection in regression, generalized linear models, Cox models, or related sparse model-selection problems.",
+    currentEvidence: [
+      {
+        paperId: "arxiv-2110.09697",
+        reason: "abess provides accessible R/Python software, simulations, tutorials, and examples for best subset selection in high-dimensional models."
+      },
+      {
+        paperId: "arxiv-1709.06254",
+        reason: "BeSS provides accessible CRAN software, simulations, and real-data examples for best subset selection in linear, logistic, and CoxPH models."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records have explicit data/code resources for best subset selection",
+      "the label improves search beyond the existing variable selection and high-dimensional statistics labels",
+      "the records centrally involve subset-size constrained sparse model selection rather than generic regularization"
+    ],
+    evidenceTerms: ["best subset selection", "best-subset selection", "subset-size constrained", "l0 constrained", "l0-regularized"]
+  },
 ];
 
 export const LABEL_RULES = {
