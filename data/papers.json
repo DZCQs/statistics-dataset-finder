@@ -1060,7 +1060,8 @@
       "treatment effect estimation",
       "quasi-experimental designs",
       "panel data methods",
-      "causal inference"
+      "causal inference",
+      "difference-in-differences"
     ],
     "bestFor": "Teaching difference-in-differences, policy evaluation, and panel comparisons with before-after treatment timing.",
     "note": "A classic applied econometrics dataset for policy evaluation and causal inference."
@@ -33195,7 +33196,8 @@
       "quasi-experimental designs",
       "treatment effect estimation",
       "survey methodology",
-      "complex survey design"
+      "complex survey design",
+      "difference-in-differences"
     ],
     "bestFor": "Studying design-based variance estimation for heterogeneity-robust difference-in-differences estimators under complex survey sampling.",
     "note": "Auto-discovered from arXiv stat categories with explicit GitHub resource link; no new difference-in-differences label was created because the current evidence threshold is not yet met."
@@ -34933,5 +34935,68 @@
     ],
     "bestFor": "Finding high-dimensional variable-selection examples for network-regularized logistic regression, sparse biomarkers, and p-greater-than-n gene-expression classification.",
     "note": "OpenAlex screened candidate; paper and source-code link verified from the open-access article. Included because the paper clearly documents TCGA/BioGRID data sources and code."
+  },
+  {
+    "id": "arxiv-1803.09015",
+    "title": "Difference-in-Differences with Multiple Time Periods",
+    "authors": "Brantly Callaway, Pedro H. C. Sant'Anna",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "did CRAN/GitHub package with examples and vignettes for group-time average treatment effects, staggered adoption, and minimum-wage DiD applications",
+    "datasetUrl": "https://cran.r-project.org/package=did",
+    "paperUrl": "https://arxiv.org/abs/1803.09015",
+    "access": "open",
+    "formats": [
+      "cran package",
+      "github repository",
+      "vignettes",
+      "R code",
+      "example data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "difference-in-differences",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding reproducible difference-in-differences examples with multiple periods, staggered treatment timing, group-time average treatment effects, pretrend checks, and aggregation of dynamic effects.",
+    "note": "Targeted discovery for the difference-in-differences candidate label; arXiv, CRAN, and GitHub resources verified. CRAN lists package vignettes and R code for did applications."
+  },
+  {
+    "id": "arxiv-1812.01723",
+    "title": "Doubly Robust Difference-in-Differences Estimators",
+    "authors": "Pedro H. C. Sant'Anna, Jun B. Zhao",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "DRDID CRAN/GitHub package with examples for doubly robust difference-in-differences estimators using panel or repeated cross-section data",
+    "datasetUrl": "https://cran.r-project.org/package=DRDID",
+    "paperUrl": "https://arxiv.org/abs/1812.01723",
+    "access": "open",
+    "formats": [
+      "cran package",
+      "github repository",
+      "R code",
+      "example workflows"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "difference-in-differences",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding doubly robust DiD examples combining inverse probability weighting and outcome regression, including panel and repeated cross-section settings.",
+    "note": "Targeted discovery for difference-in-differences; arXiv, CRAN, and GitHub resources verified. CRAN describes the package implementation of the Sant'Anna-Zhao estimators."
   }
 ]

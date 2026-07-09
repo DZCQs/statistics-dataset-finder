@@ -93,6 +93,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["quasi-experimental", "regression discontinuity", "difference-in-differences", "instrumental variables", "natural experiment", "policy change", "cutoff", "lottery"]
   },
   {
+    name: "difference-in-differences",
+    level: "low",
+    parents: ["quasi-experimental designs", "treatment effect estimation"],
+    definition: "Datasets useful for difference-in-differences designs, including staggered adoption, group-time treatment effects, doubly robust DiD, event-study variants, or policy panels with treated and comparison units.",
+    includeWhen: [
+      "DiD identification, staggered treatment timing, parallel trends, event-study contrasts, or group-time treatment effects are central to the paper or resource",
+      "the paper/package provides accessible examples, replication data, or code for DiD estimation"
+    ],
+    avoidWhen: [
+      "the paper only uses a before-after comparison without a DiD design",
+      "difference language is descriptive rather than referring to the DiD research design"
+    ],
+    evidenceTerms: ["difference-in-differences", "difference in differences", "diff-in-diff", "staggered adoption", "event study", "group-time average treatment effects", "parallel trends"]
+  },
+  {
     name: "heterogeneous treatment effects",
     level: "low",
     parents: ["treatment effect estimation"],
@@ -449,29 +464,6 @@ export const LABEL_REGISTRY = [
 ];
 
 export const LABEL_CANDIDATES = [
-  {
-    name: "difference-in-differences",
-    proposedLevel: "low",
-    proposedParents: ["quasi-experimental designs", "treatment effect estimation"],
-    status: "watch",
-    definition: "Datasets useful for difference-in-differences designs, including staggered adoption, heterogeneity-robust DiD estimators, event-study variants, or policy panels with treated and comparison units.",
-    currentEvidence: [
-      {
-        paperId: "card-krueger",
-        reason: "Classic minimum-wage policy panel example with before/after treated and comparison units."
-      },
-      {
-        paperId: "arxiv-2605.04124",
-        reason: "Design-based variance estimation for heterogeneity-robust difference-in-differences estimators with explicit replication code/data."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records have explicit DiD, event-study, or staggered-adoption use",
-      "the records have accessible datasets or replication data/code, not only methodological discussion",
-      "the label improves search beyond the existing quasi-experimental designs parent label"
-    ],
-    evidenceTerms: ["difference-in-differences", "difference in differences", "diff-in-diff", "event study", "staggered adoption"]
-  },
   {
     name: "resampling methods",
     proposedLevel: "mid",

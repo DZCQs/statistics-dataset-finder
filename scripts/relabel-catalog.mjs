@@ -12,9 +12,18 @@ const parentRules = [
       "treatment effect estimation",
       "propensity score methods",
       "quasi-experimental designs",
+      "difference-in-differences",
       "heterogeneous treatment effects",
       "randomized experiments"
     ]
+  },
+  {
+    label: "treatment effect estimation",
+    children: ["difference-in-differences"]
+  },
+  {
+    label: "quasi-experimental designs",
+    children: ["difference-in-differences"]
   },
   {
     label: "survey methodology",
@@ -44,6 +53,14 @@ const parentRules = [
 ];
 
 const evidenceRules = [
+  {
+    label: "difference-in-differences",
+    reason: "DiD, staggered-adoption, group-time ATT, or event-study evidence in record text",
+    test: (paper) =>
+      /\b(difference-in-differences|difference in differences|diff-in-diff|staggered adoption|event study|group-time average treatment effects|parallel trends)\b/i.test(
+        paperText(paper)
+      )
+  },
   {
     label: "functional data analysis",
     reason: "functional-data, functional-regression, or functional-PCA evidence in record text",
@@ -145,9 +162,15 @@ for (const paper of papers) {
     }
   }
 
-  for (const rule of parentRules) {
-    if (rule.children.some((child) => hasTopic(paper, child))) {
-      addTopic(paper, rule.label, `parent label for ${rule.children.join(", ")}`, changeLog);
+  let changed = true;
+  while (changed) {
+    changed = false;
+    for (const rule of parentRules) {
+      if (rule.children.some((child) => hasTopic(paper, child))) {
+        changed =
+          addTopic(paper, rule.label, `parent label for ${rule.children.join(", ")}`, changeLog) ||
+          changed;
+      }
     }
   }
 
