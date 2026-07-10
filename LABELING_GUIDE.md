@@ -71,6 +71,7 @@ Good label level:
 - `dimension reduction`
 - `functional data analysis`
 - `variable selection`
+- `best subset selection`
 - `spatial statistics`
 - `time series analysis`
 - `time series forecasting`
@@ -106,6 +107,7 @@ High-level topic families:
   - `dimension reduction`
   - `functional data analysis`
   - `variable selection`
+    - `best subset selection`
 - `spatial statistics`
 - `time series analysis`
   - `time series classification`

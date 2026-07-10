@@ -48,7 +48,11 @@ const parentRules = [
   },
   {
     label: "high-dimensional statistics",
-    children: ["variable selection", "dimension reduction", "functional data analysis"]
+    children: ["variable selection", "dimension reduction", "functional data analysis", "best subset selection"]
+  },
+  {
+    label: "variable selection",
+    children: ["best subset selection"]
   }
 ];
 
@@ -98,6 +102,14 @@ const evidenceRules = [
     reason: "variable-selection, sparse predictor-selection, or PC-simple evidence in record text",
     test: (paper) =>
       /\b(variable selection|high-dimensional variable selection|feature selection|predictor selection|biomarker selection|subset selection|variable and covariance selection|sparse regression|adaptive lasso|elastic net|spike-and-slab|pc-simple|partial faithfulness)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "best subset selection",
+    reason: "best-subset-selection or L0-regularized sparse-model evidence in record text",
+    test: (paper) =>
+      /\b(best subset selection|best-subset selection|best subsets|l0 regularization|l0-regularized|subset-size constrained|l0 constrained|l0learn|bess|abess)\b/i.test(
         paperText(paper)
       )
   },

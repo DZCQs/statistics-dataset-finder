@@ -326,6 +326,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["variable selection", "high-dimensional variable selection", "feature selection", "predictor selection", "biomarker selection", "subset selection", "variable and covariance selection", "sparse regression", "sparse", "lasso", "adaptive lasso", "elastic net", "penalized", "regularized", "spike-and-slab", "inclusion indicators", "pc-simple", "partial faithfulness", "p >> n", "p>n"]
   },
   {
+    name: "best subset selection",
+    level: "low",
+    parents: ["variable selection", "high-dimensional statistics"],
+    definition: "Datasets useful for exact or approximate best subset selection in regression, generalized linear models, Cox models, or related sparse model-selection problems.",
+    includeWhen: [
+      "best subset selection, L0-regularized sparse modeling, subset-size constrained regression, or related sparse model selection is central",
+      "the paper or package provides accessible examples, simulations, tutorials, or datasets for best subset selection methods"
+    ],
+    avoidWhen: [
+      "the paper only mentions selecting predictors generically without a subset-selection method",
+      "the method is ordinary lasso or elastic net without a best-subset or L0-selection focus"
+    ],
+    evidenceTerms: ["best subset selection", "best-subset selection", "best subsets", "l0 regularization", "l0-regularized", "subset-size constrained", "l0 constrained", "L0Learn", "BeSS", "abess"]
+  },
+  {
     name: "spatial statistics",
     level: "high",
     parents: [],
@@ -520,29 +535,6 @@ export const LABEL_CANDIDATES = [
       "records centrally involve graph-structured conditional dependence, Markov random fields, Gaussian graphical models, or related statistical graph models"
     ],
     evidenceTerms: ["graphical model", "graphical models", "markov random field", "gaussian graphical model", "maximum entropy", "conditional dependence"]
-  },
-  {
-    name: "best subset selection",
-    proposedLevel: "low",
-    proposedParents: ["variable selection", "high-dimensional statistics"],
-    status: "watch",
-    definition: "Datasets useful for exact or approximate best subset selection in regression, generalized linear models, Cox models, or related sparse model-selection problems.",
-    currentEvidence: [
-      {
-        paperId: "arxiv-2110.09697",
-        reason: "abess provides accessible R/Python software, simulations, tutorials, and examples for best subset selection in high-dimensional models."
-      },
-      {
-        paperId: "arxiv-1709.06254",
-        reason: "BeSS provides accessible CRAN software, simulations, and real-data examples for best subset selection in linear, logistic, and CoxPH models."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records have explicit data/code resources for best subset selection",
-      "the label improves search beyond the existing variable selection and high-dimensional statistics labels",
-      "the records centrally involve subset-size constrained sparse model selection rather than generic regularization"
-    ],
-    evidenceTerms: ["best subset selection", "best-subset selection", "subset-size constrained", "l0 constrained", "l0-regularized"]
   },
 ];
 

@@ -34869,7 +34869,8 @@
     "topics": [
       "variable selection",
       "high-dimensional statistics",
-      "dimension reduction"
+      "dimension reduction",
+      "best subset selection"
     ],
     "bestFor": "Finding high-dimensional variable-selection examples for best subset selection, group subset selection, sparse regression, PCA, generalized linear models, and Cox models.",
     "note": "Targeted discovery; arXiv/CRAN/GitHub resources verified. Best subset selection kept as an internal candidate label until more supporting records accumulate."
@@ -34901,7 +34902,8 @@
       "survival analysis",
       "survival models",
       "variable selection",
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "best subset selection"
     ],
     "bestFor": "Finding variable-selection examples for best subset selection in regression, classification, and Cox proportional hazards settings.",
     "note": "Targeted discovery; arXiv and CRAN resources verified. Supports the internal best subset selection candidate label but does not create a public label yet."
@@ -34998,5 +35000,37 @@
     ],
     "bestFor": "Finding doubly robust DiD examples combining inverse probability weighting and outcome regression, including panel and repeated cross-section settings.",
     "note": "Targeted discovery for difference-in-differences; arXiv, CRAN, and GitHub resources verified. CRAN describes the package implementation of the Sant'Anna-Zhao estimators."
+  },
+  {
+    "id": "arxiv-2202.04820",
+    "title": "L0Learn: A Scalable Package for Sparse Learning using L0 Regularization",
+    "authors": "Hussein Hazimeh, Rahul Mazumder, Tim Nonet",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "L0Learn CRAN/GitHub package with R and Python interfaces, tutorials, simulations, and examples for L0-regularized sparse regression and classification",
+    "datasetUrl": "https://cran.r-project.org/package=L0Learn",
+    "paperUrl": "https://arxiv.org/abs/2202.04820",
+    "access": "open",
+    "formats": [
+      "cran package",
+      "github repository",
+      "python package",
+      "R package",
+      "simulation tools",
+      "tutorial examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "best subset selection",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Finding high-dimensional variable-selection examples for best subset selection, L0-regularized sparse regression, sparse classification, and scalable p-greater-than-n model selection workflows.",
+    "note": "Targeted discovery for the best subset selection candidate label; arXiv identifies CRAN and GitHub resources for L0Learn, with examples and package workflows for sparse model selection."
   }
 ]
