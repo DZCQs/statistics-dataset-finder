@@ -72,6 +72,7 @@ Good label level:
 - `functional data analysis`
 - `variable selection`
 - `best subset selection`
+- `graphical models`
 - `spatial statistics`
 - `time series analysis`
 - `time series forecasting`
@@ -108,6 +109,7 @@ High-level topic families:
   - `functional data analysis`
   - `variable selection`
     - `best subset selection`
+  - `graphical models`
 - `spatial statistics`
 - `time series analysis`
   - `time series classification`
@@ -149,7 +151,6 @@ checks include:
 - `regularization methods`
 - `quantile regression`
 - `robust statistics`
-- `graphical models`
 - `latent variable models`
 - `item response theory`
 - `mixture models`

@@ -34165,7 +34165,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "graphical models"
     ],
     "bestFor": "Finding graphical-model inference examples for maximum entropy, Markov random fields, sparse interaction networks, and correlation-based model fitting.",
     "note": "OpenAlex candidate; GitHub resource verified reachable. Added with label review because graphical models is not yet an official public label."
@@ -35032,5 +35033,70 @@
     ],
     "bestFor": "Finding high-dimensional variable-selection examples for best subset selection, L0-regularized sparse regression, sparse classification, and scalable p-greater-than-n model selection workflows.",
     "note": "Targeted discovery for the best subset selection candidate label; arXiv identifies CRAN and GitHub resources for L0Learn, with examples and package workflows for sparse model selection."
+  },
+  {
+    "id": "arxiv-2006.14781",
+    "title": "The huge Package for High-dimensional Undirected Graph Estimation in R",
+    "authors": "Tuo Zhao, Han Liu, Kathryn Roeder, John Lafferty, Larry Wasserman",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "huge CRAN/GitHub package with high-dimensional undirected graph estimation workflows, documentation, vignette, simulations, data generation, and graph model-selection examples",
+    "datasetUrl": "https://cran.r-project.org/package=huge",
+    "paperUrl": "https://arxiv.org/abs/2006.14781",
+    "access": "open",
+    "formats": [
+      "cran package",
+      "github repository",
+      "vignette",
+      "R code",
+      "simulation tools",
+      "graphical-model examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Finding high-dimensional graphical-model examples for Gaussian graphical models, nonparanormal transformations, graphical lasso, neighborhood screening, stability selection, and sparse undirected graph estimation.",
+    "note": "Targeted discovery for graphical models; arXiv and CRAN resources verified. The CRAN page provides package documentation, vignette, GitHub link, and graph-estimation workflows."
+  },
+  {
+    "id": "arxiv-1501.05108",
+    "title": "BDgraph: An R Package for Bayesian Structure Learning in Graphical Models",
+    "authors": "Reza Mohammadi, Ernst C. Wit",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "BDgraph CRAN package with Bayesian graphical-model examples, vignettes, R code, simulations, visualization tools, and multivariate datasets from the literature",
+    "datasetUrl": "https://cran.r-project.org/package=BDgraph",
+    "paperUrl": "https://arxiv.org/abs/1501.05108",
+    "access": "open",
+    "formats": [
+      "cran package",
+      "vignettes",
+      "R code",
+      "simulation tools",
+      "example datasets",
+      "graphical-model workflows"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "graphical models",
+      "bayesian inference",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding Bayesian graphical-model examples for undirected graph structure learning, birth-death MCMC, Gaussian graphical models, discrete or mixed variables, and literature-based multivariate datasets.",
+    "note": "Targeted discovery for graphical models; arXiv and CRAN resources verified. The paper states that the package includes real and artificial examples and several multivariate datasets from the literature."
   }
 ]

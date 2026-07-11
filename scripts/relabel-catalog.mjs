@@ -48,7 +48,7 @@ const parentRules = [
   },
   {
     label: "high-dimensional statistics",
-    children: ["variable selection", "dimension reduction", "functional data analysis", "best subset selection"]
+    children: ["variable selection", "dimension reduction", "functional data analysis", "best subset selection", "graphical models"]
   },
   {
     label: "variable selection",
@@ -57,6 +57,14 @@ const parentRules = [
 ];
 
 const evidenceRules = [
+  {
+    label: "graphical models",
+    reason: "graphical-model, conditional-dependence, precision-matrix, or structure-learning evidence in record text",
+    test: (paper) =>
+      /\b(graphical model|graphical models|gaussian graphical model|markov random field|conditional independence|conditional dependence|precision matrix|structure learning|birth-death mcmc|g-wishart|undirected graph estimation)\b/i.test(
+        paperText(paper)
+      )
+  },
   {
     label: "difference-in-differences",
     reason: "DiD, staggered-adoption, group-time ATT, or event-study evidence in record text",

@@ -341,6 +341,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["best subset selection", "best-subset selection", "best subsets", "l0 regularization", "l0-regularized", "subset-size constrained", "l0 constrained", "L0Learn", "BeSS", "abess"]
   },
   {
+    name: "graphical models",
+    level: "mid",
+    parents: ["high-dimensional statistics"],
+    definition: "Datasets useful for probabilistic graphical models, Gaussian graphical models, Markov random fields, network-structured conditional dependence, or Bayesian graph-structure learning.",
+    includeWhen: [
+      "the paper or dataset centrally involves graphical models, conditional independence graphs, precision-matrix structure, Markov random fields, or Bayesian graph-structure learning",
+      "the resource provides accessible examples, data, simulations, or software workflows for graph-structured statistical models"
+    ],
+    avoidWhen: [
+      "graph language refers only to generic graph neural networks, graph databases, or visualization without a statistical graphical-model framework",
+      "the paper is about application-domain networks without conditional-dependence or graphical-model methodology"
+    ],
+    evidenceTerms: ["graphical model", "graphical models", "gaussian graphical model", "markov random field", "conditional independence", "conditional dependence", "precision matrix", "structure learning", "birth-death mcmc", "g-wishart", "undirected graph estimation"]
+  },
+  {
     name: "spatial statistics",
     level: "high",
     parents: [],
@@ -516,25 +531,6 @@ export const LABEL_CANDIDATES = [
       "the records involve compositional constraints or proportion vectors as a central statistical issue"
     ],
     evidenceTerms: ["compositional data", "compositional", "simplex", "log-ratio", "aitchison"]
-  },
-  {
-    name: "graphical models",
-    proposedLevel: "mid",
-    proposedParents: [],
-    status: "watch",
-    definition: "Datasets useful for probabilistic graphical models, Markov random fields, Gaussian graphical models, network-structured dependence, or maximum-entropy graph inference.",
-    currentEvidence: [
-      {
-        paperId: "openalex-W2470360319",
-        reason: "ACE maximum-entropy graphical-model inference paper with accessible code, tutorials, example data, and filtered correlations."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records use accessible datasets for graphical-model methodology",
-      "the label improves search beyond high-dimensional statistics or Bayesian inference",
-      "records centrally involve graph-structured conditional dependence, Markov random fields, Gaussian graphical models, or related statistical graph models"
-    ],
-    evidenceTerms: ["graphical model", "graphical models", "markov random field", "gaussian graphical model", "maximum entropy", "conditional dependence"]
   },
 ];
 
