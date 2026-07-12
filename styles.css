@@ -403,11 +403,13 @@ h1 {
   gap: 8px;
 }
 
-.label-match {
+.label-match-card {
   display: grid;
+  grid-template-columns: minmax(0, 1fr) 30px;
+  align-items: center;
   min-height: 44px;
   min-width: 180px;
-  gap: 2px;
+  gap: 4px;
   padding: 8px 10px;
   border: 1px solid #c8d9ef;
   border-radius: 8px;
@@ -416,18 +418,51 @@ h1 {
   text-align: left;
 }
 
-.label-match.selected {
+.label-match-card.selected {
   border-color: var(--accent);
   background: var(--accent-soft);
   color: var(--accent-dark);
 }
 
-.label-match span {
+.label-match-card.watched {
+  border-color: rgba(183, 121, 31, 0.55);
+}
+
+.label-match-main {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+}
+
+.label-match-main span {
   font-weight: 800;
 }
 
-.label-match small {
+.label-match-main small {
   color: var(--muted);
+}
+
+.label-match-watch {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--gold);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.label-match-watch:hover {
+  background: #f6ead8;
 }
 
 .watchlist-panel {

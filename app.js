@@ -1,4 +1,4 @@
-import { LABEL_REGISTRY } from "./labels.mjs?v=20260712-label-suggestions";
+import { LABEL_REGISTRY } from "./labels.mjs?v=20260712-label-watchlist";
 
 let papers = [];
 
@@ -417,11 +417,15 @@ function renderLabelMatches() {
     <div class="label-match-list">
       ${matches.map((match) => {
         const selected = state.topics.has(match.label.name);
+        const watched = state.watchedTopics.has(match.label.name);
         return `
-        <button class="label-match${selected ? " selected" : ""}" type="button" data-label-match="${escapeHtml(match.label.name)}" aria-pressed="${selected}">
-          <span>${escapeHtml(match.label.name)}</span>
-          <small>${selected ? "Selected" : escapeHtml(levelLabels[match.label.level] || "Label")} · ${match.count} papers</small>
-        </button>
+        <div class="label-match-card${selected ? " selected" : ""}${watched ? " watched" : ""}">
+          <button class="label-match-main" type="button" data-label-match="${escapeHtml(match.label.name)}" aria-pressed="${selected}">
+            <span>${escapeHtml(match.label.name)}</span>
+            <small>${selected ? "Selected" : escapeHtml(levelLabels[match.label.level] || "Label")} · ${match.count} papers</small>
+          </button>
+          <button class="label-match-watch" type="button" data-watch-topic="${escapeHtml(match.label.name)}" aria-label="${watched ? "Unwatch" : "Watch"} ${escapeHtml(match.label.name)}" title="${watched ? "Unwatch topic" : "Watch topic"}">${watched ? "★" : "☆"}</button>
+        </div>
       `;
       }).join("")}
     </div>
