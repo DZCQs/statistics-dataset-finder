@@ -1,4 +1,4 @@
-import { LABEL_REGISTRY } from "./labels.mjs?v=20260712-label-watchlist";
+import { LABEL_REGISTRY } from "./labels.mjs?v=20260712-search-first";
 
 let papers = [];
 
@@ -24,6 +24,8 @@ const els = {
   formatFilter: document.querySelector("#formatFilter"),
   searchInput: document.querySelector("#searchInput"),
   results: document.querySelector("#results"),
+  resultTools: document.querySelector("#resultTools"),
+  resultArea: document.querySelector("#resultArea"),
   resultSummary: document.querySelector("#resultSummary"),
   sortSelect: document.querySelector("#sortSelect"),
   showSaved: document.querySelector("#showSaved"),
@@ -317,6 +319,18 @@ function searchTerms() {
       .filter(Boolean);
   }
   return query.split(/\s+/).filter(Boolean);
+}
+
+function hasActiveDiscovery() {
+  return Boolean(
+    state.query.trim() ||
+    state.topics.size ||
+    state.access.size ||
+    state.properties.size ||
+    state.format !== "all" ||
+    state.savedOnly ||
+    state.watchedOnly
+  );
 }
 
 function scorePaper(paper) {
@@ -666,9 +680,18 @@ function yearBuckets(items) {
 }
 
 function renderResults(matches) {
+  const active = hasActiveDiscovery();
+  els.resultTools.classList.toggle("hidden", !active);
+  els.resultArea.classList.toggle("hidden", !active);
+  els.results.innerHTML = "";
+
+  if (!active) {
+    els.resultSummary.textContent = "Start with a search term or select a label.";
+    return;
+  }
+
   const activeFilters = state.topics.size + state.access.size + state.properties.size + (state.format === "all" ? 0 : 1);
   els.resultSummary.textContent = `${matches.length} paper${matches.length === 1 ? "" : "s"} found${activeFilters ? ` with ${activeFilters} active filter${activeFilters === 1 ? "" : "s"}` : ""}`;
-  els.results.innerHTML = "";
 
   if (!matches.length) {
     const empty = document.createElement("div");
@@ -706,6 +729,12 @@ function renderResults(matches) {
 }
 
 function renderDetail(matches) {
+  if (!hasActiveDiscovery()) {
+    els.paperDetail.classList.add("hidden");
+    els.emptyDetail.classList.remove("hidden");
+    return;
+  }
+
   const selected = papers.find((paper) => paper.id === state.selectedId && matches.includes(paper)) || matches[0];
   if (!selected) {
     els.paperDetail.classList.add("hidden");

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dataset Paper Finder</title>
-    <link rel="stylesheet" href="styles.css?v=20260712-label-watchlist" />
+    <link rel="stylesheet" href="styles.css?v=20260712-search-first" />
   </head>
   <body>
     <div class="app-shell">
@@ -85,71 +85,13 @@
           </div>
         </section>
 
-        <section class="label-match-panel hidden" id="labelMatchPanel" aria-label="Matching research labels"></section>
-
-        <section class="insights-grid" aria-label="Catalog summary">
-          <div>
-            <span id="paperCount">0</span>
-            <small>Papers indexed</small>
-          </div>
-          <div>
-            <span id="datasetCount">0</span>
-            <small>Dataset links</small>
-          </div>
-          <div>
-            <span id="topicCount">0</span>
-            <small>Research labels</small>
-          </div>
-          <div>
-            <span id="savedCount">0</span>
-            <small>Saved papers</small>
-          </div>
-        </section>
-
-        <section class="topic-analytics hidden" id="topicAnalytics" aria-label="Selected topic analytics"></section>
-
-        <section class="watchlist-panel hidden" id="watchlistPanel" aria-label="Watched research topics"></section>
-
-        <section class="toolbar" aria-label="Result tools">
-          <p id="resultSummary">Showing all papers</p>
-          <div class="toolbar-actions">
-            <select id="sortSelect" aria-label="Sort papers">
-              <option value="relevance">Sort by relevance</option>
-              <option value="year-desc">Newest first</option>
-              <option value="year-asc">Oldest first</option>
-              <option value="citations">Most cited</option>
-            </select>
-            <button id="showSaved" class="secondary-button" type="button" aria-pressed="false">
-              Saved only
-            </button>
-          </div>
-        </section>
-
-        <section class="content-grid">
-          <div class="results" id="results" aria-live="polite"></div>
-
-          <aside class="detail-panel" aria-label="Selected paper details">
-            <div class="empty-detail" id="emptyDetail">
-              <svg viewBox="0 0 160 120" aria-hidden="true">
-                <rect x="18" y="18" width="116" height="78" rx="8" />
-                <path d="M35 38h72M35 54h47M35 70h62" />
-                <circle cx="125" cy="84" r="22" />
-                <path d="M115 84h20M125 74v20" />
-              </svg>
-              <h2>Choose a paper</h2>
-              <p>Open details to inspect labels, dataset access, likely use cases, and collection notes.</p>
-            </div>
-            <article class="paper-detail hidden" id="paperDetail"></article>
-          </aside>
-        </section>
-
         <section class="submission-panel" aria-labelledby="submitTitle">
           <div>
             <p class="eyebrow">Curator review</p>
             <h2 id="submitTitle">Suggest a paper for review</h2>
             <p>
-              Public suggestions are private candidates only. They do not change
-              the catalog until a curator verifies the paper, dataset access, and labels.
+              Send a paper and dataset link as a private review candidate. Suggestions never
+              change the public catalog until the paper, dataset access, and labels are checked.
             </p>
           </div>
           <form id="suggestionForm" name="paper-suggestion" method="POST" data-netlify="true">
@@ -179,16 +121,74 @@
               ></textarea>
             </label>
             <p class="review-note">
-              Suggestions are reviewed before publication. User text is never added directly
-              to the public catalog.
+              Suggestions are held for curator review before publication.
             </p>
             <button type="submit">Submit for review</button>
             <p class="form-status" id="formStatus" role="status"></p>
           </form>
         </section>
+
+        <section class="label-match-panel hidden" id="labelMatchPanel" aria-label="Matching research labels"></section>
+
+        <section class="insights-grid" aria-label="Catalog summary">
+          <div>
+            <span id="paperCount">0</span>
+            <small>Papers indexed</small>
+          </div>
+          <div>
+            <span id="datasetCount">0</span>
+            <small>Dataset links</small>
+          </div>
+          <div>
+            <span id="topicCount">0</span>
+            <small>Research labels</small>
+          </div>
+          <div>
+            <span id="savedCount">0</span>
+            <small>Saved papers</small>
+          </div>
+        </section>
+
+        <section class="topic-analytics hidden" id="topicAnalytics" aria-label="Selected topic analytics"></section>
+
+        <section class="watchlist-panel hidden" id="watchlistPanel" aria-label="Watched research topics"></section>
+
+        <section class="toolbar hidden" id="resultTools" aria-label="Result tools">
+          <p id="resultSummary">Showing all papers</p>
+          <div class="toolbar-actions">
+            <select id="sortSelect" aria-label="Sort papers">
+              <option value="relevance">Sort by relevance</option>
+              <option value="year-desc">Newest first</option>
+              <option value="year-asc">Oldest first</option>
+              <option value="citations">Most cited</option>
+            </select>
+            <button id="showSaved" class="secondary-button" type="button" aria-pressed="false">
+              Saved only
+            </button>
+          </div>
+        </section>
+
+        <section class="content-grid hidden" id="resultArea">
+          <div class="results" id="results" aria-live="polite"></div>
+
+          <aside class="detail-panel" aria-label="Selected paper details">
+            <div class="empty-detail" id="emptyDetail">
+              <svg viewBox="0 0 160 120" aria-hidden="true">
+                <rect x="18" y="18" width="116" height="78" rx="8" />
+                <path d="M35 38h72M35 54h47M35 70h62" />
+                <circle cx="125" cy="84" r="22" />
+                <path d="M115 84h20M125 74v20" />
+              </svg>
+              <h2>Choose a paper</h2>
+              <p>Open details to inspect labels, dataset access, likely use cases, and collection notes.</p>
+            </div>
+            <article class="paper-detail hidden" id="paperDetail"></article>
+          </aside>
+        </section>
+
       </main>
     </div>
 
-    <script type="module" src="app.js?v=20260712-label-watchlist"></script>
+    <script type="module" src="app.js?v=20260712-search-first"></script>
   </body>
 </html>
