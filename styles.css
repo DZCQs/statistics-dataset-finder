@@ -382,6 +382,60 @@ h1 {
   margin: 18px 0;
 }
 
+.label-match-panel {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0;
+  padding: 16px;
+  border: 1px solid rgba(36, 107, 186, 0.24);
+  border-radius: 8px;
+  background: #f5f9fe;
+}
+
+.label-match-panel h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.label-match-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.label-match {
+  display: grid;
+  min-height: 44px;
+  min-width: 180px;
+  gap: 2px;
+  padding: 8px 10px;
+  border: 1px solid #c8d9ef;
+  border-radius: 8px;
+  background: white;
+  color: #24435e;
+  text-align: left;
+}
+
+.label-match.primary {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+}
+
+.label-match span {
+  font-weight: 800;
+}
+
+.label-match small,
+.analytics-source {
+  color: var(--muted);
+}
+
+.analytics-source {
+  margin: 8px 0 0;
+  font-size: 0.86rem;
+}
+
 .watchlist-panel {
   display: grid;
   gap: 12px;
