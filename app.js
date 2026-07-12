@@ -1,4 +1,4 @@
-import { LABEL_REGISTRY } from "./labels.mjs?v=20260712-search-first";
+import { LABEL_REGISTRY } from "./labels.mjs?v=20260712-contact-link";
 
 let papers = [];
 
@@ -37,9 +37,7 @@ const els = {
   savedCount: document.querySelector("#savedCount"),
   labelMatchPanel: document.querySelector("#labelMatchPanel"),
   topicAnalytics: document.querySelector("#topicAnalytics"),
-  watchlistPanel: document.querySelector("#watchlistPanel"),
-  suggestionForm: document.querySelector("#suggestionForm"),
-  formStatus: document.querySelector("#formStatus")
+  watchlistPanel: document.querySelector("#watchlistPanel")
 };
 
 const accessLabels = {
@@ -878,54 +876,5 @@ els.showWatchedTopics.addEventListener("click", () => {
   state.watchedOnly = !state.watchedOnly;
   render();
 });
-
-els.suggestionForm.addEventListener("submit", async (event) => {
-  event.preventDefault();
-  const formData = new FormData(event.target);
-  const paperUrl = String(formData.get("paperUrl") || "");
-  const datasetUrl = String(formData.get("datasetUrl") || "");
-
-  if (!isSafeHttpUrl(paperUrl) || !isSafeHttpUrl(datasetUrl)) {
-    els.formStatus.textContent = "Please use valid http or https links for both URLs.";
-    return;
-  }
-
-  const body = new URLSearchParams(formData);
-
-  try {
-    const response = await fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body
-    });
-
-    if (!response.ok) throw new Error("Submission service is unavailable.");
-
-    event.target.reset();
-    els.formStatus.textContent = "Suggestion submitted for curator review.";
-  } catch {
-    const suggestions = JSON.parse(localStorage.getItem("paperSuggestions") || "[]");
-    suggestions.push({
-      title: formData.get("title"),
-      paperUrl,
-      datasetUrl,
-      researchArea: formData.get("researchArea"),
-      note: formData.get("note"),
-      createdAt: new Date().toISOString()
-    });
-    localStorage.setItem("paperSuggestions", JSON.stringify(suggestions));
-    event.target.reset();
-    els.formStatus.textContent = `Suggestion saved locally. ${suggestions.length} pending suggestion${suggestions.length === 1 ? "" : "s"}.`;
-  }
-});
-
-function isSafeHttpUrl(value) {
-  try {
-    const url = new URL(value);
-    return url.protocol === "http:" || url.protocol === "https:";
-  } catch {
-    return false;
-  }
-}
 
 loadCatalog();

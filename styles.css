@@ -717,8 +717,7 @@ h1 {
 .secondary-button,
 .ghost-button,
 .save-button,
-.detail-link,
-.submission-panel button {
+.detail-link {
   min-height: 40px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -903,58 +902,28 @@ h1 {
   font-weight: 700;
 }
 
-.submission-panel {
-  display: grid;
-  grid-template-columns: minmax(260px, 0.7fr) minmax(300px, 1fr);
-  gap: 24px;
-  margin-top: 26px;
-  padding: 24px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: #fff;
-}
-
-.submission-panel h2 {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-.submission-panel p {
-  color: var(--muted);
-  line-height: 1.55;
-}
-
-form {
-  display: grid;
+.contact-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 12px;
-}
-
-label {
-  color: #33434b;
-  font-weight: 650;
-}
-
-label input {
-  display: block;
-  margin-top: 6px;
-}
-
-.submission-panel button {
-  justify-self: start;
-  border-color: var(--accent);
-  background: var(--accent);
-  color: white;
-}
-
-.form-status {
-  min-height: 1.3em;
-  margin: 0;
-}
-
-.review-note {
-  margin: 0;
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border: 1px solid rgba(36, 107, 186, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.contact-strip a {
+  color: var(--blue);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact-strip a:hover {
+  text-decoration: underline;
 }
 
 .hidden {
@@ -981,7 +950,6 @@ label input {
 
   .content-grid,
   .search-panel,
-  .submission-panel,
   .analytics-head,
   .analytics-layout {
     grid-template-columns: 1fr;
@@ -999,9 +967,13 @@ label input {
 @media (max-width: 720px) {
   .main,
   .sidebar,
-  .search-panel,
-  .submission-panel {
+  .search-panel {
     padding: 18px;
+  }
+
+  .contact-strip {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .insights-grid {

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dataset Paper Finder</title>
-    <link rel="stylesheet" href="styles.css?v=20260712-search-first" />
+    <link rel="stylesheet" href="styles.css?v=20260712-contact-link" />
   </head>
   <body>
     <div class="app-shell">
@@ -85,47 +85,9 @@
           </div>
         </section>
 
-        <section class="submission-panel" aria-labelledby="submitTitle">
-          <div>
-            <p class="eyebrow">Curator review</p>
-            <h2 id="submitTitle">Suggest a paper for review</h2>
-            <p>
-              Send a paper and dataset link as a private review candidate. Suggestions never
-              change the public catalog until the paper, dataset access, and labels are checked.
-            </p>
-          </div>
-          <form id="suggestionForm" name="paper-suggestion" method="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="paper-suggestion" />
-            <label>
-              Paper title
-              <input name="title" required maxlength="220" placeholder="Paper title" />
-            </label>
-            <label>
-              Paper link
-              <input name="paperUrl" required type="url" placeholder="https://..." />
-            </label>
-            <label>
-              Dataset link
-              <input name="datasetUrl" required type="url" placeholder="https://..." />
-            </label>
-            <label>
-              Suggested research area
-              <input name="researchArea" maxlength="160" placeholder="e.g. missing data, survey weighting, survival models" />
-            </label>
-            <label>
-              Why this dataset is useful
-              <textarea
-                name="note"
-                maxlength="600"
-                placeholder="Briefly mention the dataset access page or why it fits the catalog."
-              ></textarea>
-            </label>
-            <p class="review-note">
-              Suggestions are held for curator review before publication.
-            </p>
-            <button type="submit">Submit for review</button>
-            <p class="form-status" id="formStatus" role="status"></p>
-          </form>
+        <section class="contact-strip" aria-label="Catalog contact">
+          <span>Have a dataset paper to suggest?</span>
+          <a href="https://github.com/DZCQs" target="_blank" rel="noreferrer">Contact the curator on GitHub</a>
         </section>
 
         <section class="label-match-panel hidden" id="labelMatchPanel" aria-label="Matching research labels"></section>
@@ -189,6 +151,6 @@
       </main>
     </div>
 
-    <script type="module" src="app.js?v=20260712-search-first"></script>
+    <script type="module" src="app.js?v=20260712-contact-link"></script>
   </body>
 </html>
