@@ -417,6 +417,12 @@ h1 {
 }
 
 .label-match.primary {
+  border-color: rgba(36, 107, 186, 0.48);
+  background: #eef5ff;
+  color: #1f5d9b;
+}
+
+.label-match.selected {
   border-color: var(--accent);
   background: var(--accent-soft);
   color: var(--accent-dark);
@@ -426,14 +432,8 @@ h1 {
   font-weight: 800;
 }
 
-.label-match small,
-.analytics-source {
+.label-match small {
   color: var(--muted);
-}
-
-.analytics-source {
-  margin: 8px 0 0;
-  font-size: 0.86rem;
 }
 
 .watchlist-panel {

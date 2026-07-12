@@ -1,4 +1,4 @@
-import { LABEL_REGISTRY } from "./labels.mjs?v=20260712-label-search";
+import { LABEL_REGISTRY } from "./labels.mjs?v=20260712-label-suggestions";
 
 let papers = [];
 
@@ -256,24 +256,6 @@ function queryLabelMatches() {
   return matches.slice(0, 8);
 }
 
-function inferredTopicsFromQuery() {
-  if (state.topics.size || !state.query.trim()) return [];
-  if (state.query.includes(",")) {
-    const seen = new Set();
-    return state.query
-      .split(",")
-      .map((part) => labelMatchesForPart(part, 1)[0])
-      .filter(Boolean)
-      .filter((match) => {
-        if (seen.has(match.label.name)) return false;
-        seen.add(match.label.name);
-        return true;
-      })
-      .map((match) => match.label.name);
-  }
-  return queryLabelMatches().slice(0, 1).map((match) => match.label.name);
-}
-
 async function loadCatalog() {
   try {
     const response = await fetch("data/papers.json", { cache: "no-store" });
@@ -421,7 +403,7 @@ function renderLabelMatches() {
   const matches = queryLabelMatches();
   els.labelMatchPanel.innerHTML = "";
 
-  if (!matches.length || state.topics.size) {
+  if (!matches.length) {
     els.labelMatchPanel.classList.add("hidden");
     return;
   }
@@ -429,16 +411,19 @@ function renderLabelMatches() {
   els.labelMatchPanel.classList.remove("hidden");
   els.labelMatchPanel.innerHTML = `
     <div>
-      <p class="eyebrow">Matching research labels</p>
-      <h2>Use a label to open full topic analytics</h2>
+      <p class="eyebrow">Related labels</p>
+      <h2>Research labels matching this search</h2>
     </div>
     <div class="label-match-list">
-      ${matches.map((match, index) => `
-        <button class="label-match${index === 0 ? " primary" : ""}" type="button" data-label-match="${escapeHtml(match.label.name)}">
+      ${matches.map((match, index) => {
+        const selected = state.topics.has(match.label.name);
+        return `
+        <button class="label-match${index === 0 ? " primary" : ""}${selected ? " selected" : ""}" type="button" data-label-match="${escapeHtml(match.label.name)}" aria-pressed="${selected}">
           <span>${escapeHtml(match.label.name)}</span>
-          <small>${escapeHtml(levelLabels[match.label.level] || "Label")} · ${match.count} papers</small>
+          <small>${selected ? "Selected" : escapeHtml(levelLabels[match.label.level] || "Label")} · ${match.count} papers</small>
         </button>
-      `).join("")}
+      `;
+      }).join("")}
     </div>
   `;
 }
@@ -471,34 +456,19 @@ function renderWatchlist() {
 
 function renderTopicAnalytics(matches) {
   const selectedTopics = [...state.topics];
-  const inferredTopics = selectedTopics.length ? [] : inferredTopicsFromQuery();
-  const analyticsTopics = selectedTopics.length ? selectedTopics : inferredTopics;
   els.topicAnalytics.innerHTML = "";
 
-  if (!analyticsTopics.length) {
+  if (!selectedTopics.length) {
     els.topicAnalytics.classList.add("hidden");
     state.selectedDataset = null;
     return;
   }
 
-  const analyticsPapers = selectedTopics.length ? matches : papersForTopics(analyticsTopics);
   els.topicAnalytics.classList.remove("hidden");
-  els.topicAnalytics.append(topicAnalyticsCard(analyticsTopics, analyticsPapers, !selectedTopics.length));
+  els.topicAnalytics.append(topicAnalyticsCard(selectedTopics, matches));
 }
 
-function papersForTopics(topics) {
-  return papers.filter((paper) => {
-    const matchesTopics = topics.every((topic) => paper.topics.includes(topic));
-    const matchesAccess = state.access.size === 0 || state.access.has(paper.access);
-    const matchesProperties = [...state.properties].every((property) => paper.properties.includes(property));
-    const matchesFormat = state.format === "all" || paper.formats.includes(state.format);
-    const matchesSaved = !state.savedOnly || state.saved.has(paper.id);
-    const matchesWatched = !state.watchedOnly || [...state.watchedTopics].some((topic) => paper.topics.includes(topic));
-    return matchesTopics && matchesAccess && matchesProperties && matchesFormat && matchesSaved && matchesWatched;
-  });
-}
-
-function topicAnalyticsCard(selectedTopics, topicPapers, inferred = false) {
+function topicAnalyticsCard(selectedTopics, topicPapers) {
   const isIntersection = selectedTopics.length > 1;
   const title = isIntersection ? selectedTopics.join(" + ") : selectedTopics[0];
   const datasetRows = countBy(topicPapers, (paper) => paper.dataset)
@@ -523,9 +493,8 @@ function topicAnalyticsCard(selectedTopics, topicPapers, inferred = false) {
   card.innerHTML = `
     <div class="analytics-head">
       <div>
-        <p class="eyebrow">${inferred ? "Search-matched label analytics" : isIntersection ? "Intersection analytics" : "Topic analytics"}</p>
+        <p class="eyebrow">${isIntersection ? "Intersection analytics" : "Topic analytics"}</p>
         <h2>${escapeHtml(title)}</h2>
-        ${inferred ? `<p class="analytics-source">Matched from the search box. Select the label to keep it as an active filter.</p>` : ""}
         ${isIntersection ? topicIntersectionMarkup(selectedTopics) : topicRelationshipMarkup(selectedTopics[0])}
       </div>
       <div class="analytics-metrics">
@@ -816,7 +785,7 @@ document.addEventListener("input", (event) => {
 document.addEventListener("click", (event) => {
   const labelMatch = event.target.closest("[data-label-match]")?.dataset.labelMatch;
   if (labelMatch) {
-    state.topics.add(labelMatch);
+    toggleSetValue(state.topics, labelMatch);
     render();
     return;
   }
