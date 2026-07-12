@@ -416,12 +416,6 @@ h1 {
   text-align: left;
 }
 
-.label-match.primary {
-  border-color: rgba(36, 107, 186, 0.48);
-  background: #eef5ff;
-  color: #1f5d9b;
-}
-
 .label-match.selected {
   border-color: var(--accent);
   background: var(--accent-soft);

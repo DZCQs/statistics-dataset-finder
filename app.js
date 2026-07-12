@@ -415,10 +415,10 @@ function renderLabelMatches() {
       <h2>Research labels matching this search</h2>
     </div>
     <div class="label-match-list">
-      ${matches.map((match, index) => {
+      ${matches.map((match) => {
         const selected = state.topics.has(match.label.name);
         return `
-        <button class="label-match${index === 0 ? " primary" : ""}${selected ? " selected" : ""}" type="button" data-label-match="${escapeHtml(match.label.name)}" aria-pressed="${selected}">
+        <button class="label-match${selected ? " selected" : ""}" type="button" data-label-match="${escapeHtml(match.label.name)}" aria-pressed="${selected}">
           <span>${escapeHtml(match.label.name)}</span>
           <small>${selected ? "Selected" : escapeHtml(levelLabels[match.label.level] || "Label")} · ${match.count} papers</small>
         </button>
