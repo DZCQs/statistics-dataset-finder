@@ -108,6 +108,11 @@ button {
   gap: 12px;
 }
 
+.filter-actions {
+  display: flex;
+  gap: 6px;
+}
+
 .filter-block h2 {
   margin: 0 0 12px;
   font-size: 0.82rem;
@@ -131,6 +136,8 @@ button {
 
 .topic-chip {
   display: grid;
+  grid-template-columns: minmax(0, 1fr) 28px;
+  align-items: center;
   gap: 3px;
   width: 100%;
   padding: 8px 10px;
@@ -139,19 +146,54 @@ button {
   text-align: left;
 }
 
-.topic-chip[aria-pressed="true"] {
+.topic-chip.selected {
   border-color: var(--accent);
   background: var(--accent-soft);
   color: var(--accent-dark);
 }
 
-.topic-chip span {
+.topic-chip.watched {
+  border-color: rgba(183, 121, 31, 0.55);
+}
+
+.topic-chip-main {
+  display: grid;
+  width: 100%;
+  min-height: 34px;
+  min-width: 0;
+  gap: 3px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+}
+
+.topic-chip-main span {
   font-weight: 700;
 }
 
-.topic-chip small {
+.topic-chip-main small {
   color: var(--muted);
   font-size: 0.72rem;
+}
+
+.watch-topic {
+  display: grid;
+  width: 26px;
+  height: 26px;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--gold);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.watch-topic:hover {
+  background: #f6ead8;
 }
 
 .topic-chip.level-high {
@@ -338,6 +380,61 @@ h1 {
   display: grid;
   gap: 14px;
   margin: 18px 0;
+}
+
+.watchlist-panel {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0;
+  padding: 16px;
+  border: 1px solid rgba(183, 121, 31, 0.28);
+  border-radius: 8px;
+  background: #fffaf2;
+}
+
+.watchlist-panel h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.watchlist-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.watchlist-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid rgba(183, 121, 31, 0.38);
+  border-radius: 999px;
+  background: white;
+  color: #5d4218;
+}
+
+.watchlist-tag.active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+}
+
+.watchlist-tag span {
+  font-weight: 750;
+}
+
+.watchlist-tag small {
+  display: inline-grid;
+  min-width: 22px;
+  height: 22px;
+  place-items: center;
+  border-radius: 999px;
+  background: #f6ead8;
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 800;
 }
 
 .analytics-card {
@@ -554,6 +651,7 @@ h1 {
 }
 
 .secondary-button[aria-pressed="true"],
+.ghost-button[aria-pressed="true"],
 .save-button.active {
   border-color: var(--accent);
   background: var(--accent);

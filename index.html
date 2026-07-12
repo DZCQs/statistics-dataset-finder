@@ -26,7 +26,10 @@
         <section class="filter-block">
           <div class="filter-heading">
             <h2>Topics</h2>
-            <button class="ghost-button" id="clearTopics" type="button">Clear</button>
+            <div class="filter-actions">
+              <button class="ghost-button" id="showWatchedTopics" type="button" aria-pressed="false">Watched</button>
+              <button class="ghost-button" id="clearTopics" type="button">Clear</button>
+            </div>
           </div>
           <div class="chip-list" id="topicFilters"></div>
         </section>
@@ -102,6 +105,8 @@
         </section>
 
         <section class="topic-analytics hidden" id="topicAnalytics" aria-label="Selected topic analytics"></section>
+
+        <section class="watchlist-panel hidden" id="watchlistPanel" aria-label="Watched research topics"></section>
 
         <section class="toolbar" aria-label="Result tools">
           <p id="resultSummary">Showing all papers</p>

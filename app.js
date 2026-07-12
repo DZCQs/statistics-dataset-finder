@@ -12,12 +12,15 @@ const state = {
   sort: "relevance",
   selectedId: null,
   selectedDataset: null,
-  saved: new Set(JSON.parse(localStorage.getItem("savedPapers") || "[]"))
+  saved: readLocalSet("savedPapers"),
+  watchedTopics: readLocalSet("watchedTopics"),
+  watchedOnly: false
 };
 
 const els = {
   topicFilters: document.querySelector("#topicFilters"),
   clearTopics: document.querySelector("#clearTopics"),
+  showWatchedTopics: document.querySelector("#showWatchedTopics"),
   formatFilter: document.querySelector("#formatFilter"),
   searchInput: document.querySelector("#searchInput"),
   results: document.querySelector("#results"),
@@ -31,6 +34,7 @@ const els = {
   topicCount: document.querySelector("#topicCount"),
   savedCount: document.querySelector("#savedCount"),
   topicAnalytics: document.querySelector("#topicAnalytics"),
+  watchlistPanel: document.querySelector("#watchlistPanel"),
   suggestionForm: document.querySelector("#suggestionForm"),
   formStatus: document.querySelector("#formStatus")
 };
@@ -50,6 +54,15 @@ const levelLabels = {
 
 const labelMeta = new Map(LABEL_REGISTRY.map((label) => [label.name, label]));
 
+function readLocalSet(key) {
+  try {
+    const value = JSON.parse(localStorage.getItem(key) || "[]");
+    return new Set(Array.isArray(value) ? value : []);
+  } catch {
+    return new Set();
+  }
+}
+
 function uniqueValues(key) {
   return [...new Set(papers.flatMap((paper) => paper[key]))].sort((a, b) => a.localeCompare(b));
 }
@@ -61,17 +74,18 @@ function initFilters() {
   }
 
   renderTopicHierarchy().forEach((node) => {
-    const button = document.createElement("button");
+    const button = document.createElement("div");
     button.className = `topic-chip level-${node.level}`;
-    button.type = "button";
     button.dataset.topic = node.topic;
     button.style.setProperty("--topic-depth", node.depth);
-    button.setAttribute("aria-pressed", "false");
     button.innerHTML = `
-      <span>${escapeHtml(node.topic)}</span>
-      <small>${levelLabels[node.level] || "Label"} · ${node.count}</small>
+      <button class="topic-chip-main" type="button" aria-pressed="false">
+        <span>${escapeHtml(node.topic)}</span>
+        <small>${levelLabels[node.level] || "Label"} · ${node.count}</small>
+      </button>
+      <button class="watch-topic" type="button" data-watch-topic="${escapeHtml(node.topic)}" aria-label="Watch ${escapeHtml(node.topic)}" title="Watch topic">☆</button>
     `;
-    button.addEventListener("click", () => {
+    button.querySelector(".topic-chip-main").addEventListener("click", () => {
       toggleSetValue(state.topics, node.topic);
       render();
     });
@@ -252,7 +266,8 @@ function filteredPapers() {
       const matchesProperties = [...state.properties].every((property) => paper.properties.includes(property));
       const matchesFormat = state.format === "all" || paper.formats.includes(state.format);
       const matchesSaved = !state.savedOnly || state.saved.has(paper.id);
-      return matchesQuery && matchesTopics && matchesAccess && matchesProperties && matchesFormat && matchesSaved;
+      const matchesWatched = !state.watchedOnly || [...state.watchedTopics].some((topic) => paper.topics.includes(topic));
+      return matchesQuery && matchesTopics && matchesAccess && matchesProperties && matchesFormat && matchesSaved && matchesWatched;
     });
 
   const sorted = filtered.sort((a, b) => {
@@ -270,15 +285,26 @@ function render() {
   renderStats();
   const matches = filteredPapers();
   renderTopicAnalytics(matches);
+  renderWatchlist();
   renderResults(matches);
   renderDetail(matches);
 }
 
 function renderFilters() {
   document.querySelectorAll(".topic-chip").forEach((button) => {
-    button.setAttribute("aria-pressed", String(state.topics.has(button.dataset.topic)));
+    const topic = button.dataset.topic;
+    button.classList.toggle("selected", state.topics.has(topic));
+    button.querySelector(".topic-chip-main")?.setAttribute("aria-pressed", String(state.topics.has(topic)));
+    button.classList.toggle("watched", state.watchedTopics.has(topic));
+    const watch = button.querySelector("[data-watch-topic]");
+    if (watch) {
+      watch.textContent = state.watchedTopics.has(topic) ? "★" : "☆";
+      watch.setAttribute("aria-label", `${state.watchedTopics.has(topic) ? "Unwatch" : "Watch"} ${topic}`);
+      watch.setAttribute("title", state.watchedTopics.has(topic) ? "Unwatch topic" : "Watch topic");
+    }
   });
   els.showSaved.setAttribute("aria-pressed", String(state.savedOnly));
+  els.showWatchedTopics.setAttribute("aria-pressed", String(state.watchedOnly));
 }
 
 function renderStats() {
@@ -286,6 +312,32 @@ function renderStats() {
   els.datasetCount.textContent = new Set(papers.map((paper) => paper.datasetUrl)).size;
   els.topicCount.textContent = uniqueValues("topics").length;
   els.savedCount.textContent = state.saved.size;
+}
+
+function renderWatchlist() {
+  const watched = [...state.watchedTopics].filter((topic) => uniqueValues("topics").includes(topic)).sort((a, b) => a.localeCompare(b));
+  els.watchlistPanel.innerHTML = "";
+
+  if (!watched.length) {
+    els.watchlistPanel.classList.add("hidden");
+    return;
+  }
+
+  els.watchlistPanel.classList.remove("hidden");
+  els.watchlistPanel.innerHTML = `
+    <div>
+      <p class="eyebrow">Watched topics</p>
+      <h2>Your local watchlist</h2>
+    </div>
+    <div class="watchlist-tags">
+      ${watched.map((topic) => `
+        <button class="watchlist-tag${state.topics.has(topic) ? " active" : ""}" type="button" data-watchlist-topic="${escapeHtml(topic)}">
+          <span>${escapeHtml(topic)}</span>
+          <small>${papers.filter((paper) => paper.topics.includes(topic)).length}</small>
+        </button>
+      `).join("")}
+    </div>
+  `;
 }
 
 function renderTopicAnalytics(matches) {
@@ -582,6 +634,10 @@ function persistSaved() {
   localStorage.setItem("savedPapers", JSON.stringify([...state.saved]));
 }
 
+function persistWatchedTopics() {
+  localStorage.setItem("watchedTopics", JSON.stringify([...state.watchedTopics]));
+}
+
 function titleCase(value) {
   return value.replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
@@ -613,6 +669,23 @@ document.addEventListener("input", (event) => {
 });
 
 document.addEventListener("click", (event) => {
+  const watchedTopic = event.target.closest("[data-watch-topic]")?.dataset.watchTopic;
+  if (watchedTopic) {
+    event.preventDefault();
+    event.stopPropagation();
+    toggleSetValue(state.watchedTopics, watchedTopic);
+    persistWatchedTopics();
+    render();
+    return;
+  }
+
+  const watchlistTopic = event.target.closest("[data-watchlist-topic]")?.dataset.watchlistTopic;
+  if (watchlistTopic) {
+    toggleSetValue(state.topics, watchlistTopic);
+    render();
+    return;
+  }
+
   const saveId = event.target.closest("[data-save]")?.dataset.save;
   if (saveId) {
     toggleSetValue(state.saved, saveId);
@@ -644,6 +717,11 @@ els.sortSelect.addEventListener("change", (event) => {
 
 els.showSaved.addEventListener("click", () => {
   state.savedOnly = !state.savedOnly;
+  render();
+});
+
+els.showWatchedTopics.addEventListener("click", () => {
+  state.watchedOnly = !state.watchedOnly;
   render();
 });
 
