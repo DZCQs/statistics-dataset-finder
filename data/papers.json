@@ -35098,5 +35098,31 @@
     ],
     "bestFor": "Finding Bayesian graphical-model examples for undirected graph structure learning, birth-death MCMC, Gaussian graphical models, discrete or mixed variables, and literature-based multivariate datasets.",
     "note": "Targeted discovery for graphical models; arXiv and CRAN resources verified. The paper states that the package includes real and artificial examples and several multivariate datasets from the literature."
+  },
+  {
+    "id": "oa-clinical-practice-research-datalink-rising-burden-of-gout-in-the-uk-but-continuing-suboptimal-management-a-n",
+    "title": "Rising burden of gout in the UK but continuing suboptimal management: a nationwide population study",
+    "authors": "Chang-Fu Kuo, Matthew J. Grainge, Christian Mallen, Weiya Zhang, Michael Doherty",
+    "year": 2014,
+    "citations": 626,
+    "dataset": "Clinical Practice Research Datalink",
+    "datasetUrl": "https://cprd.com/data",
+    "paperUrl": "https://doi.org/10.1136/annrheumdis-2013-204463",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "article metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "risk prediction"
+    ],
+    "bestFor": "Finding a Clinical Practice Research Datalink example for longitudinal data analysis, risk prediction, survival models.",
+    "note": "Auto-discovered with OpenAlex from dataset seed \"Clinical Practice Research Datalink\". Review the abstract and dataset use before treating this as curated."
   }
 ]
