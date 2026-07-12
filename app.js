@@ -120,6 +120,7 @@ function renderTopicHierarchy() {
   };
 
   const nodes = [];
+  const renderedTopics = new Set();
   const rootGroups = [
     { label: "High-level topic families", topics: roots.filter((topic) => labelLevel(topic) === "high") },
     { label: "Mid-level topic families", topics: roots.filter((topic) => labelLevel(topic) === "mid") },
@@ -128,6 +129,8 @@ function renderTopicHierarchy() {
 
   function visit(topic, depth, sectionLabel = "", path = []) {
     if (path.includes(topic)) return;
+    if (renderedTopics.has(topic)) return;
+    renderedTopics.add(topic);
     const meta = labelMeta.get(topic) || { level: "mid" };
     nodes.push({
       topic,
