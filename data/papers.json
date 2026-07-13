@@ -35124,5 +35124,35 @@
     ],
     "bestFor": "Finding a Clinical Practice Research Datalink example for longitudinal data analysis, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Clinical Practice Research Datalink\". Review the abstract and dataset use before treating this as curated."
+  },
+  {
+    "id": "arxiv-2103-00629-hierarchical-spike-slab-pan-cancer-survival",
+    "title": "A Hierarchical Spike-and-Slab Model for Pan-Cancer Survival Using Pan-Omic Data",
+    "authors": "Sarah Samorodnitsky, Katherine A. Hoadley, Eric F. Lock",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "The Cancer Genome Atlas pan-cancer pan-omics survival data",
+    "datasetUrl": "https://www.cancer.gov/ccg/research/genome-sequencing/tcga",
+    "paperUrl": "https://arxiv.org/abs/2103.00629",
+    "access": "open-link",
+    "formats": [
+      "public dataset",
+      "github repository",
+      "omics data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "high-dimensional statistics",
+      "multilevel modeling",
+      "variable selection"
+    ],
+    "bestFor": "Finding a high-dimensional Bayesian hierarchical variable-selection example using TCGA pan-cancer pan-omics data for survival prediction.",
+    "note": "Auto-discovered through web search for high-dimensional Bayesian variable-selection dataset papers. Dataset source is TCGA; code/resource link is provided in the arXiv abstract. Review exact TCGA preprocessing before treating this as fully curated."
   }
 ]
