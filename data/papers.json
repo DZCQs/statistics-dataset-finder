@@ -35154,5 +35154,62 @@
     ],
     "bestFor": "Finding a high-dimensional Bayesian hierarchical variable-selection example using TCGA pan-cancer pan-omics data for survival prediction.",
     "note": "Auto-discovered through web search for high-dimensional Bayesian variable-selection dataset papers. Dataset source is TCGA; code/resource link is provided in the arXiv abstract. Review exact TCGA preprocessing before treating this as fully curated."
+  },
+  {
+    "id": "dataverse-dvn-nvlusr-causal-survey-weights",
+    "title": "Causal Inference with Complex Survey Designs: Generating Population Estimates Using Survey Weights",
+    "authors": "Ines Levin, Betsy Sinclair",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Replication package for causal inference with complex survey designs",
+    "datasetUrl": "https://doi.org/10.7910/DVN/NVLUSR",
+    "paperUrl": "https://doi.org/10.7910/DVN/NVLUSR",
+    "access": "open",
+    "formats": [
+      "dataverse replication package",
+      "r code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey methodology",
+      "causal inference"
+    ],
+    "bestFor": "Finding a replication package for causal inference with complex survey designs, survey weights, and population estimands.",
+    "note": "Auto-discovered through Harvard Dataverse API search. Dataset archive verified by persistent DOI. Review chapter citation and replication files before treating this as fully curated."
+  },
+  {
+    "id": "dataverse-dvn-1ybdv6-causal-interference-interfering-units",
+    "title": "Causal Inference for Interfering Units With Cluster and Population Level Treatment Allocation Programs",
+    "authors": "Georgia Papadogeorgou, Fabrizia Mealli, Corwin Zigler",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Replication data for causal inference with interfering units and cluster-level treatment allocation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/1YBDV6",
+    "paperUrl": "https://arxiv.org/abs/1711.01280",
+    "access": "open",
+    "formats": [
+      "dataverse replication package",
+      "analysis data",
+      "r code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference"
+    ],
+    "bestFor": "Finding replication data for causal inference with interference, cluster-level treatment allocation, population-level programs, and environmental exposure outcomes.",
+    "note": "Auto-discovered through Harvard Dataverse API search. Dataset archive and arXiv paper link verified from Dataverse metadata. Interference is not yet an official public label, so official labels are intentionally conservative."
   }
 ]
