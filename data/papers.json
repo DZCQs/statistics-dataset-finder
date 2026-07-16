@@ -35211,5 +35211,85 @@
     ],
     "bestFor": "Finding replication data for causal inference with interference, cluster-level treatment allocation, population-level programs, and environmental exposure outcomes.",
     "note": "Auto-discovered through Harvard Dataverse API search. Dataset archive and arXiv paper link verified from Dataverse metadata. Interference is not yet an official public label, so official labels are intentionally conservative."
+  },
+  {
+    "id": "zenodo-12037888-dynamic-regression-discontinuity-heterogeneity",
+    "title": "Dynamic Regression Discontinuity under Treatment Effect Heterogeneity",
+    "authors": "Yu-Chin Hsu, Shu Shen",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Replication package for dynamic regression discontinuity under treatment effect heterogeneity",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.12037888",
+    "paperUrl": "https://doi.org/10.5281/zenodo.12037888",
+    "access": "open",
+    "formats": [
+      "zenodo replication package",
+      "code",
+      "data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [],
+    "bestFor": "Finding replication data and code for regression discontinuity designs with dynamic treatment timing and treatment-effect heterogeneity.",
+    "note": "Auto-discovered through Zenodo API search for regression discontinuity replication data. Dataset archive verified by Zenodo DOI. Review replication files before treating this as fully curated."
+  },
+  {
+    "id": "zenodo-10724847-bias-aware-fuzzy-regression-discontinuity",
+    "title": "Bias-Aware Inference in Fuzzy Regression Discontinuity Designs",
+    "authors": "Claudia Noack, Christoph Rothe",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Replication package for bias-aware inference in fuzzy regression discontinuity designs",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.10724847",
+    "paperUrl": "https://doi.org/10.5281/zenodo.10724847",
+    "access": "open",
+    "formats": [
+      "zenodo replication package",
+      "code",
+      "data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [],
+    "bestFor": "Finding replication data and code for fuzzy regression discontinuity designs and bias-aware inference.",
+    "note": "Auto-discovered through Zenodo API search for regression discontinuity replication data. Dataset archive verified by Zenodo DOI. Review replication files before treating this as fully curated."
+  },
+  {
+    "id": "zenodo-17552893-local-causal-inference-network-interference",
+    "title": "The Local Approach to Causal Inference under Network Interference",
+    "authors": "Eric Auerbach, Hongchang Guo, Max Tabord-Meehan",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Replication package for causal inference under network interference",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.17552893",
+    "paperUrl": "https://doi.org/10.5281/zenodo.17552893",
+    "access": "open",
+    "formats": [
+      "zenodo replication package",
+      "code",
+      "data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference"
+    ],
+    "bestFor": "Finding replication data and code for causal inference with network interference and local exposure mappings.",
+    "note": "Auto-discovered through Zenodo API search for causal inference under interference. Dataset archive verified by Zenodo DOI. Interference is not yet an official public label."
   }
 ]

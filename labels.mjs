@@ -532,6 +532,29 @@ export const LABEL_CANDIDATES = [
     ],
     evidenceTerms: ["compositional data", "compositional", "simplex", "log-ratio", "aitchison"]
   },
+  {
+    name: "regression discontinuity designs",
+    proposedLevel: "low",
+    proposedParents: ["quasi-experimental designs", "treatment effect estimation"],
+    status: "watch",
+    definition: "Datasets useful for sharp, fuzzy, dynamic, or bias-aware regression discontinuity designs.",
+    currentEvidence: [
+      {
+        paperId: "zenodo-12037888-dynamic-regression-discontinuity-heterogeneity",
+        reason: "Zenodo replication package for dynamic regression discontinuity under treatment-effect heterogeneity."
+      },
+      {
+        paperId: "zenodo-10724847-bias-aware-fuzzy-regression-discontinuity",
+        reason: "Zenodo replication package for bias-aware inference in fuzzy regression discontinuity designs."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records use accessible datasets or replication packages for regression discontinuity methodology",
+      "the records support regression discontinuity as a central causal design rather than mentioning cutoffs incidentally",
+      "the label improves search beyond the broader quasi-experimental designs parent label"
+    ],
+    evidenceTerms: ["regression discontinuity", "fuzzy regression discontinuity", "sharp regression discontinuity", "rd design", "cutoff"]
+  },
 ];
 
 export const LABEL_RULES = {
