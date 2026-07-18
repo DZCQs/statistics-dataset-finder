@@ -93,6 +93,20 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["quasi-experimental", "regression discontinuity", "difference-in-differences", "instrumental variables", "natural experiment", "policy change", "cutoff", "lottery"]
   },
   {
+    name: "regression discontinuity designs",
+    level: "low",
+    parents: ["quasi-experimental designs", "treatment effect estimation"],
+    definition: "Datasets useful for sharp, fuzzy, dynamic, or bias-aware regression discontinuity designs.",
+    includeWhen: [
+      "regression discontinuity design, electoral threshold, cutoff-based assignment, fuzzy RD, sharp RD, or dynamic RD is central to the paper or replication resource",
+      "the dataset or replication package is useful for estimating or teaching causal effects at an assignment cutoff"
+    ],
+    avoidWhen: [
+      "a cutoff is mentioned only descriptively and not used as a regression discontinuity design"
+    ],
+    evidenceTerms: ["regression discontinuity", "fuzzy regression discontinuity", "sharp regression discontinuity", "rd design", "cutoff", "electoral threshold"]
+  },
+  {
     name: "difference-in-differences",
     level: "low",
     parents: ["quasi-experimental designs", "treatment effect estimation"],
@@ -105,7 +119,7 @@ export const LABEL_REGISTRY = [
       "the paper only uses a before-after comparison without a DiD design",
       "difference language is descriptive rather than referring to the DiD research design"
     ],
-    evidenceTerms: ["difference-in-differences", "difference in differences", "diff-in-diff", "staggered adoption", "event study", "group-time average treatment effects", "parallel trends"]
+    evidenceTerms: ["difference-in-differences", "difference in differences", "difference-in-difference", "difference in difference", "generalized difference-in-difference", "diff-in-diff", "staggered adoption", "event study", "group-time average treatment effects", "parallel trends"]
   },
   {
     name: "heterogeneous treatment effects",
@@ -531,29 +545,6 @@ export const LABEL_CANDIDATES = [
       "the records involve compositional constraints or proportion vectors as a central statistical issue"
     ],
     evidenceTerms: ["compositional data", "compositional", "simplex", "log-ratio", "aitchison"]
-  },
-  {
-    name: "regression discontinuity designs",
-    proposedLevel: "low",
-    proposedParents: ["quasi-experimental designs", "treatment effect estimation"],
-    status: "watch",
-    definition: "Datasets useful for sharp, fuzzy, dynamic, or bias-aware regression discontinuity designs.",
-    currentEvidence: [
-      {
-        paperId: "zenodo-12037888-dynamic-regression-discontinuity-heterogeneity",
-        reason: "Zenodo replication package for dynamic regression discontinuity under treatment-effect heterogeneity."
-      },
-      {
-        paperId: "zenodo-10724847-bias-aware-fuzzy-regression-discontinuity",
-        reason: "Zenodo replication package for bias-aware inference in fuzzy regression discontinuity designs."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records use accessible datasets or replication packages for regression discontinuity methodology",
-      "the records support regression discontinuity as a central causal design rather than mentioning cutoffs incidentally",
-      "the label improves search beyond the broader quasi-experimental designs parent label"
-    ],
-    evidenceTerms: ["regression discontinuity", "fuzzy regression discontinuity", "sharp regression discontinuity", "rd design", "cutoff"]
   },
 ];
 

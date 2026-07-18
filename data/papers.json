@@ -35234,7 +35234,12 @@
       "needs-review",
       "needs-label-review"
     ],
-    "topics": [],
+    "topics": [
+      "regression discontinuity designs",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
     "bestFor": "Finding replication data and code for regression discontinuity designs with dynamic treatment timing and treatment-effect heterogeneity.",
     "note": "Auto-discovered through Zenodo API search for regression discontinuity replication data. Dataset archive verified by Zenodo DOI. Review replication files before treating this as fully curated."
   },
@@ -35260,7 +35265,12 @@
       "needs-review",
       "needs-label-review"
     ],
-    "topics": [],
+    "topics": [
+      "regression discontinuity designs",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
     "bestFor": "Finding replication data and code for fuzzy regression discontinuity designs and bias-aware inference.",
     "note": "Auto-discovered through Zenodo API search for regression discontinuity replication data. Dataset archive verified by Zenodo DOI. Review replication files before treating this as fully curated."
   },
@@ -35291,5 +35301,129 @@
     ],
     "bestFor": "Finding replication data and code for causal inference with network interference and local exposure mappings.",
     "note": "Auto-discovered through Zenodo API search for causal inference under interference. Dataset archive verified by Zenodo DOI. Interference is not yet an official public label."
+  },
+  {
+    "id": "dataverse-dvn-23624-partisan-imbalance-regression-discontinuity",
+    "title": "Partisan Imbalance in Regression Discontinuity Studies Based on Electoral Thresholds",
+    "authors": "James M. Snyder Jr., Olle Folke, Shigeo Hirano",
+    "year": 2014,
+    "citations": 0,
+    "dataset": "Replication data for partisan imbalance in regression discontinuity studies based on electoral thresholds",
+    "datasetUrl": "https://doi.org/10.7910/DVN/23624",
+    "paperUrl": "https://doi.org/10.7910/DVN/23624",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "regression discontinuity designs",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding replication data for regression discontinuity designs based on electoral thresholds and partisan imbalance.",
+    "note": "Auto-discovered through Harvard Dataverse search for regression discontinuity replication data. Dataverse metadata states that the data replicate the empirical analysis in the associated paper."
+  },
+  {
+    "id": "dataverse-dvn-eng0iy-zika-generalized-difference-in-differences",
+    "title": "Causal Measures Using Generalized Difference-in-Difference Approach With Nonlinear Models: Zika Epidemic and Birth Rates Application",
+    "authors": "M. M. Taddeo, L. D. Amorim, R. Aquino",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Replication data for the Zika Epidemic and Birth Rates application",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ENG0IY",
+    "paperUrl": "https://doi.org/10.7910/DVN/ENG0IY",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "difference-in-differences",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding replication data for generalized difference-in-differences with nonlinear models, using the Zika epidemic and birth-rates application.",
+    "note": "Auto-discovered through Harvard Dataverse search for difference-in-differences replication data. Dataverse metadata links the archive to the Statistics and Its Interface manuscript on generalized difference-in-difference causal measures."
+  },
+  {
+    "id": "dataverse-dvn-ju2arj-more-doctors-generalized-difference-in-differences",
+    "title": "Causal Measures Using Generalized Difference-in-Difference Approach With Nonlinear Models: More Doctors Program Application",
+    "authors": "M. M. Taddeo, L. D. Amorim, R. Aquino",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Replication data for the Evaluation of More Doctors Program in Brazil application",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JU2ARJ",
+    "paperUrl": "https://doi.org/10.7910/DVN/JU2ARJ",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "difference-in-differences",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding replication data for generalized difference-in-differences with nonlinear models, using the More Doctors Program evaluation application.",
+    "note": "Auto-discovered through Harvard Dataverse search for difference-in-differences replication data. Dataverse metadata links the archive to the Statistics and Its Interface manuscript on generalized difference-in-difference causal measures."
+  },
+  {
+    "id": "dataverse-dvn-2mdch1-family-health-generalized-difference-in-differences",
+    "title": "Causal Measures Using Generalized Difference-in-Difference Approach With Nonlinear Models: Family Health Program Application",
+    "authors": "M. M. Taddeo, L. D. Amorim, R. Aquino",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Replication data for the Evaluation of Family Health Program in Brazil application",
+    "datasetUrl": "https://doi.org/10.7910/DVN/2MDCH1",
+    "paperUrl": "https://doi.org/10.7910/DVN/2MDCH1",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "difference-in-differences",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding replication data for generalized difference-in-differences with nonlinear models, using the Family Health Program evaluation application.",
+    "note": "Auto-discovered through Harvard Dataverse search for difference-in-differences replication data. Dataverse metadata links the archive to the Statistics and Its Interface manuscript on generalized difference-in-difference causal measures."
   }
 ]

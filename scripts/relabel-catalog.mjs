@@ -13,17 +13,18 @@ const parentRules = [
       "propensity score methods",
       "quasi-experimental designs",
       "difference-in-differences",
+      "regression discontinuity designs",
       "heterogeneous treatment effects",
       "randomized experiments"
     ]
   },
   {
     label: "treatment effect estimation",
-    children: ["difference-in-differences"]
+    children: ["difference-in-differences", "regression discontinuity designs"]
   },
   {
     label: "quasi-experimental designs",
-    children: ["difference-in-differences"]
+    children: ["difference-in-differences", "regression discontinuity designs"]
   },
   {
     label: "survey methodology",
@@ -66,10 +67,18 @@ const evidenceRules = [
       )
   },
   {
+    label: "regression discontinuity designs",
+    reason: "regression-discontinuity, RD-design, or cutoff-assignment evidence in record text",
+    test: (paper) =>
+      /\b(regression discontinuity|fuzzy regression discontinuity|sharp regression discontinuity|rd design|cutoff|electoral threshold)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
     label: "difference-in-differences",
     reason: "DiD, staggered-adoption, group-time ATT, or event-study evidence in record text",
     test: (paper) =>
-      /\b(difference-in-differences|difference in differences|diff-in-diff|staggered adoption|event study|group-time average treatment effects|parallel trends)\b/i.test(
+      /\b(difference-in-differences|difference in differences|difference-in-difference|difference in difference|generalized difference-in-difference|diff-in-diff|staggered adoption|event study|group-time average treatment effects|parallel trends)\b/i.test(
         paperText(paper)
       )
   },
