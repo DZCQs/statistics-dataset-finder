@@ -102,7 +102,7 @@ const evidenceRules = [
     label: "spatial statistics",
     reason: "spatial, geostatistical, point-process, or spatial-factor evidence in record text",
     test: (paper) =>
-      /\b(spatial statistics|geostatistics|point process|spatial random effects|spatial factorization|spatial dependence|local indicators of spatial association|spatio-temporal point process|spatiotemporal point process|spatially explicit)\b/i.test(
+      /\b(spatial statistics|geostatistics|point process|spatial random effects|spatial factorization|spatial dependence|spatialized|gridded|kriging|local indicators of spatial association|spatio-temporal point process|spatiotemporal point process|spatially explicit)\b/i.test(
         paperText(paper)
       )
   },

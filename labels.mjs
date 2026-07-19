@@ -382,7 +382,7 @@ export const LABEL_REGISTRY = [
       "the paper only uses a geographic application domain without spatial statistical methodology",
       "spatial language is incidental and the dataset is mainly a generic prediction or computer-vision benchmark"
     ],
-    evidenceTerms: ["spatial statistics", "geostatistics", "point process", "spatial random effects", "spatial factorization", "spatial dependence", "local indicators of spatial association", "spatio-temporal point process", "spatially explicit"]
+    evidenceTerms: ["spatial statistics", "geostatistics", "point process", "spatial random effects", "spatial factorization", "spatial dependence", "spatialized", "gridded", "kriging", "local indicators of spatial association", "spatio-temporal point process", "spatially explicit"]
   },
   {
     name: "risk prediction",

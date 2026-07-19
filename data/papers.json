@@ -35425,5 +35425,89 @@
     ],
     "bestFor": "Finding replication data for generalized difference-in-differences with nonlinear models, using the Family Health Program evaluation application.",
     "note": "Auto-discovered through Harvard Dataverse search for difference-in-differences replication data. Dataverse metadata links the archive to the Statistics and Its Interface manuscript on generalized difference-in-difference causal measures."
+  },
+  {
+    "id": "dataverse-dvn-fzyznn-retail-options-boom-difference-in-differences",
+    "title": "Regulating the Retail Options Boom: Evidence from India's 2024-25 Equity Index Derivatives Reforms",
+    "authors": "Anklesh Rawat, Shreshtha Rawat",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication package for a difference-in-differences evaluation of India's equity index derivatives reforms",
+    "datasetUrl": "https://doi.org/10.7910/DVN/FZYZNN",
+    "paperUrl": "https://doi.org/10.7910/DVN/FZYZNN",
+    "access": "open",
+    "formats": [
+      "dataverse replication package",
+      "panel data",
+      "python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "difference-in-differences",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding replication data and code for difference-in-differences analysis using a 48-month panel of equity index derivatives turnover and regulatory reform timing.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata describes a difference-in-differences evaluation with panel data, public SEBI inputs, Python code, estimates, robustness checks, and figures."
+  },
+  {
+    "id": "dataverse-dvn-8wihjf-realized-volatility-prediction",
+    "title": "Realized Volatility Prediction",
+    "authors": "Leya Feng",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Replication data for realized volatility prediction using high-frequency Chinese stock market data",
+    "datasetUrl": "https://doi.org/10.7910/DVN/8WIHJF",
+    "paperUrl": "https://doi.org/10.7910/DVN/8WIHJF",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "high-frequency financial data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Finding high-frequency financial time series data for realized volatility prediction and volatility forecasting examples.",
+    "note": "Auto-discovered through Harvard Dataverse time-series forecasting search. Metadata identifies high-frequency data for five stocks in the Chinese stock market."
+  },
+  {
+    "id": "dataverse-dvn-bxxrhl-spatialized-particle-filter-meteorological-inputs",
+    "title": "Large-Scale Snow Data Assimilation Using a Spatialized Particle Filter: Recovering the Spatial Structure of the Particles",
+    "authors": "Marie-Amelie Boucher",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Meteorological inputs for large-scale snow data assimilation using a spatialized particle filter",
+    "datasetUrl": "https://doi.org/10.7910/DVN/BXXRHL",
+    "paperUrl": "https://doi.org/10.7910/DVN/BXXRHL",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "gridded meteorological data",
+      "matlab data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Finding gridded spatial meteorological inputs for spatial statistics, spatial data assimilation, and particle-filter examples.",
+    "note": "Auto-discovered through Harvard Dataverse spatial-statistics search. Metadata links the dataset to a manuscript on large-scale snow data assimilation using a spatialized particle filter and provides daily precipitation and temperature grids with kriging variances."
   }
 ]
