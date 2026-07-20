@@ -107,6 +107,20 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["regression discontinuity", "fuzzy regression discontinuity", "sharp regression discontinuity", "rd design", "cutoff", "electoral threshold"]
   },
   {
+    name: "instrumental variables",
+    level: "low",
+    parents: ["quasi-experimental designs", "treatment effect estimation"],
+    definition: "Datasets and replication packages useful for instrumental-variable identification, weak-instrument analysis, local average treatment effects, or IV-based semiparametric causal estimation.",
+    includeWhen: [
+      "instrumental variables, weak instruments, LATE, two-stage least squares, Abadie kappa, or partial-linear IV methods are central to the paper or replication package",
+      "the dataset or code supports empirical or simulation work for IV identification or inference"
+    ],
+    avoidWhen: [
+      "instrumental language refers to measurement instruments rather than causal/econometric instrumental variables"
+    ],
+    evidenceTerms: ["instrumental variables", "instrumental variable", "weak instruments", "two-stage least squares", "2sls", "local average treatment", "abadie's kappa", "partial linear instrumental"]
+  },
+  {
     name: "difference-in-differences",
     level: "low",
     parents: ["quasi-experimental designs", "treatment effect estimation"],
@@ -146,6 +160,20 @@ export const LABEL_REGISTRY = [
       "the paper uses observational or quasi-experimental identification"
     ],
     evidenceTerms: ["randomized", "random assignment", "trial", "lottery", "experiment", "clinical trial"]
+  },
+  {
+    name: "resampling methods",
+    level: "mid",
+    parents: [],
+    definition: "Datasets and replication packages useful for bootstrap, permutation, jackknife, or other resampling-based statistical inference examples.",
+    includeWhen: [
+      "bootstrap, permutation, jackknife, resampling-based confidence intervals, or resampling-based uncertainty quantification are central to the paper or resource",
+      "the accessible data/code lets users reproduce resampling experiments, confidence regions, or related inference procedures"
+    ],
+    avoidWhen: [
+      "bootstrap or permutation is only a minor robustness detail rather than a meaningful reason to use the dataset"
+    ],
+    evidenceTerms: ["bootstrap", "resampling", "permutation test", "permutation", "jackknife", "bootstrap confidence interval", "bootstrap confidence region"]
   },
   {
     name: "complex survey design",
@@ -367,7 +395,7 @@ export const LABEL_REGISTRY = [
       "graph language refers only to generic graph neural networks, graph databases, or visualization without a statistical graphical-model framework",
       "the paper is about application-domain networks without conditional-dependence or graphical-model methodology"
     ],
-    evidenceTerms: ["graphical model", "graphical models", "gaussian graphical model", "markov random field", "conditional independence", "conditional dependence", "precision matrix", "structure learning", "birth-death mcmc", "g-wishart", "undirected graph estimation"]
+    evidenceTerms: ["graphical model", "graphical-model", "graphical models", "gaussian graphical model", "markov random field", "conditional independence", "conditional dependence", "precision matrix", "structure learning", "decomposable models", "chordal graph", "birth-death mcmc", "g-wishart", "undirected graph estimation"]
   },
   {
     name: "spatial statistics",
@@ -509,34 +537,19 @@ export const LABEL_REGISTRY = [
 
 export const LABEL_CANDIDATES = [
   {
-    name: "resampling methods",
-    proposedLevel: "mid",
-    proposedParents: [],
-    status: "watch",
-    definition: "Datasets useful for bootstrap, permutation, jackknife, or other resampling-based statistical inference examples.",
-    currentEvidence: [
-      {
-        paperId: "openalex-W4389440197",
-        reason: "Bootstrap tutorial with OSF data/code for confidence intervals, robust estimators, and simulation-based inference."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records use accessible data/code for bootstrap, permutation, jackknife, or closely related resampling methods",
-      "the label improves search beyond generic simulation or inference language",
-      "the records support a statistics-method topic rather than only using resampling as a minor computational detail"
-    ],
-    evidenceTerms: ["bootstrap", "resampling", "permutation test", "jackknife", "bootstrap confidence interval"]
-  },
-  {
     name: "compositional data analysis",
     proposedLevel: "mid",
-    proposedParents: ["bayesian inference"],
+    proposedParents: [],
     status: "watch",
     definition: "Datasets useful for statistical analysis of compositional vectors or constrained proportions, including Bayesian compositional models.",
     currentEvidence: [
       {
         paperId: "openalex-W3217151720",
         reason: "Bayesian compositional single-cell data analysis with accessible scCODA code and example resources."
+      },
+      {
+        paperId: "zenodo-15228007-oib-compositional-multivariate-statistics",
+        reason: "Zenodo project code for compositional data analysis of ocean island basalt compositions using log-ratio transformations."
       }
     ],
     admitWhen: [
@@ -545,6 +558,29 @@ export const LABEL_CANDIDATES = [
       "the records involve compositional constraints or proportion vectors as a central statistical issue"
     ],
     evidenceTerms: ["compositional data", "compositional", "simplex", "log-ratio", "aitchison"]
+  },
+  {
+    name: "synthetic control methods",
+    proposedLevel: "low",
+    proposedParents: ["quasi-experimental designs", "treatment effect estimation"],
+    status: "watch",
+    definition: "Datasets and replication packages useful for synthetic-control causal designs, including spillovers or multiple-outcome extensions.",
+    currentEvidence: [
+      {
+        paperId: "zenodo-19066186-synthetic-control-spillover-effects",
+        reason: "Replication package for identification and Bayesian inference for synthetic control methods with spillover effects."
+      },
+      {
+        paperId: "zenodo-18931234-synthetic-controls-multiple-outcomes",
+        reason: "Replication package for synthetic controls with multiple outcomes."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence records provide accessible data/code for synthetic-control methodology",
+      "synthetic control is central to the paper rather than a passing robustness comparison",
+      "the label improves search beyond broader quasi-experimental designs"
+    ],
+    evidenceTerms: ["synthetic control", "synthetic controls", "synthetic-control"]
   },
 ];
 

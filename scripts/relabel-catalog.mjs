@@ -14,17 +14,18 @@ const parentRules = [
       "quasi-experimental designs",
       "difference-in-differences",
       "regression discontinuity designs",
+      "instrumental variables",
       "heterogeneous treatment effects",
       "randomized experiments"
     ]
   },
   {
     label: "treatment effect estimation",
-    children: ["difference-in-differences", "regression discontinuity designs"]
+    children: ["difference-in-differences", "regression discontinuity designs", "instrumental variables"]
   },
   {
     label: "quasi-experimental designs",
-    children: ["difference-in-differences", "regression discontinuity designs"]
+    children: ["difference-in-differences", "regression discontinuity designs", "instrumental variables"]
   },
   {
     label: "survey methodology",
@@ -62,7 +63,7 @@ const evidenceRules = [
     label: "graphical models",
     reason: "graphical-model, conditional-dependence, precision-matrix, or structure-learning evidence in record text",
     test: (paper) =>
-      /\b(graphical model|graphical models|gaussian graphical model|markov random field|conditional independence|conditional dependence|precision matrix|structure learning|birth-death mcmc|g-wishart|undirected graph estimation)\b/i.test(
+      /\b(graphical model|graphical-model|graphical models|gaussian graphical model|markov random field|conditional independence|conditional dependence|precision matrix|structure learning|decomposable models|chordal graph|birth-death mcmc|g-wishart|undirected graph estimation)\b/i.test(
         paperText(paper)
       )
   },
@@ -75,10 +76,34 @@ const evidenceRules = [
       )
   },
   {
+    label: "instrumental variables",
+    reason: "instrumental-variable, weak-instrument, or two-stage-least-squares evidence in record text",
+    test: (paper) =>
+      /\b(instrumental variables|instrumental variable|weak instruments|two-stage least squares|2sls|local average treatment|abadie's kappa|partial linear instrumental)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
     label: "difference-in-differences",
     reason: "DiD, staggered-adoption, group-time ATT, or event-study evidence in record text",
     test: (paper) =>
       /\b(difference-in-differences|difference in differences|difference-in-difference|difference in difference|generalized difference-in-difference|diff-in-diff|staggered adoption|event study|group-time average treatment effects|parallel trends)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "quasi-experimental designs",
+    reason: "synthetic-control evidence supports the broader quasi-experimental-design label while the specific synthetic-control label remains internal-candidate only",
+    test: (paper) =>
+      /\b(synthetic control|synthetic controls|synthetic-control)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "resampling methods",
+    reason: "bootstrap, permutation, jackknife, or resampling-inference evidence in record text",
+    test: (paper) =>
+      /\b(bootstrap|resampling|permutation test|permutation|jackknife|bootstrap confidence interval|bootstrap confidence region)\b/i.test(
         paperText(paper)
       )
   },

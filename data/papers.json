@@ -33680,7 +33680,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "resampling methods"
     ],
     "bestFor": "Finding high-dimensional statistics examples for gene expression, genomics, pathway enrichment, and permutation or Monte Carlo p-value estimation.",
     "note": "Repository and package documentation verified reachable. Auto-discovered candidate; review exact vignette data before treating it as curated."
@@ -33965,7 +33966,9 @@
       "needs-review",
       "needs-label-review"
     ],
-    "topics": [],
+    "topics": [
+      "resampling methods"
+    ],
     "bestFor": "Finding reproducible examples for bootstrap confidence intervals, robust estimators, correlation comparisons, and simulation-based statistical inference.",
     "note": "OpenAlex candidate; OSF resource verified reachable. Added with label review because bootstrap/resampling is not yet an official public label."
   },
@@ -35509,5 +35512,338 @@
     ],
     "bestFor": "Finding gridded spatial meteorological inputs for spatial statistics, spatial data assimilation, and particle-filter examples.",
     "note": "Auto-discovered through Harvard Dataverse spatial-statistics search. Metadata links the dataset to a manuscript on large-scale snow data assimilation using a spatialized particle filter and provides daily precipitation and temperature grids with kriging variances."
+  },
+  {
+    "id": "zenodo-17575918-bootstrap-confidence-regions-feature-embeddings",
+    "title": "Bootstrap Confidence Regions for Learned Feature Embeddings",
+    "authors": "Kris Sankaran",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Data accompanying Bootstrap Confidence Regions for Learned Feature Embeddings",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.17575918",
+    "paperUrl": "https://doi.org/10.1080/10618600.2023.2197478",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "tar.gz data archives",
+      "simulation outputs"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods"
+    ],
+    "bestFor": "Finding data and simulation outputs for bootstrap confidence regions and resampling-based uncertainty quantification in learned feature embeddings.",
+    "note": "Auto-discovered through Zenodo. Metadata states the data reproduce experiments and figures for a Journal of Computational and Graphical Statistics paper."
+  },
+  {
+    "id": "zenodo-18500760-structure-learning-homogeneous-decomposable-models",
+    "title": "Structure Learning of Homogeneous Decomposable Models",
+    "authors": "Joao Marcelino",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Code and synthetic-data generation routines for structure learning of homogeneous decomposable models",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.18500760",
+    "paperUrl": "https://doi.org/10.5281/zenodo.18500760",
+    "access": "open",
+    "formats": [
+      "zenodo software archive",
+      "code",
+      "synthetic data generation"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Finding reproducible code and synthetic-data generation routines for graphical-model structure learning and homogeneous decomposable models.",
+    "note": "Auto-discovered through Zenodo. Metadata says the archive implements algorithms from the paper and includes procedures for synthetic data generation and numerical experiments."
+  },
+  {
+    "id": "zenodo-17027771-partial-linear-instrumental-variable-dml",
+    "title": "Assumption Errors and Forecast Accuracy: A Partial Linear Instrumental Variable and Double Machine Learning Approach",
+    "authors": "Katja Heinisch, Christoph Schult, Fabio Scaramella",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Replication materials for partial linear instrumental variables and double machine learning analysis of forecast accuracy",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.17027771",
+    "paperUrl": "https://doi.org/10.5281/zenodo.17027771",
+    "access": "open",
+    "formats": [
+      "zenodo computational notebook",
+      "replication files",
+      "data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "instrumental variables",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding replication files for partial linear instrumental-variable methods, double machine learning, and forecast-accuracy applications.",
+    "note": "Auto-discovered through Zenodo. Metadata states that the replication package includes data and code for the paper's PLIV and DML analysis."
+  },
+  {
+    "id": "zenodo-19442141-abadies-kappa-instrumental-variables",
+    "title": "Identification in Instrumental Variables Models: The Central Role of Abadie's Kappa",
+    "authors": "Manvendu Navjeevan, Rodrigo Pinto, Andres Santos",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication package for identification in instrumental variables models and Abadie's Kappa",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.19442141",
+    "paperUrl": "https://doi.org/10.5281/zenodo.19442141",
+    "access": "open",
+    "formats": [
+      "zenodo software archive",
+      "replication package",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "instrumental variables",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding software and empirical replication materials for instrumental variables identification and Abadie's Kappa.",
+    "note": "Auto-discovered through Zenodo. Metadata identifies the archive as software used in the empirical analysis for the instrumental-variables paper."
+  },
+  {
+    "id": "zenodo-7970995-weak-instruments-instrumental-variables",
+    "title": "Weak Instruments in Instrumental Variables Regression: Theory and Practice",
+    "authors": "Isaiah Andrews, James H. Stock, Liyang Sun",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Replication package for weak instruments in instrumental variables regression",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.7970995",
+    "paperUrl": "https://doi.org/10.1146/annurev-economics-080218-025643",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "replication files",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "instrumental variables",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding replication files for weak-instrument diagnostics, instrumental-variable inference, and empirical IV examples.",
+    "note": "Auto-discovered through Zenodo. Metadata says the package contains code and data needed to reproduce figures and tables in the Annual Review of Economics paper."
+  },
+  {
+    "id": "zenodo-21251445-pesticide-ban-continuous-treatment-did",
+    "title": "Pesticide Ban and Suicide Mortality in South Korea: Comparison-Group Evidence from a Continuous-Treatment Difference-in-Differences Design",
+    "authors": "Junhee Lee",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication package for a continuous-treatment difference-in-differences design",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21251445",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21251445",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "stata code",
+      "r code",
+      "python code",
+      "district-year panel"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "difference-in-differences",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding replication data and code for continuous-treatment difference-in-differences with a district-year panel.",
+    "note": "Auto-discovered through Zenodo. Metadata describes Stata, R, and Python code, a derived analytic panel, codebook, README, and reproducible analysis pipeline."
+  },
+  {
+    "id": "zenodo-15847187-tax-audits-regression-discontinuity",
+    "title": "Firm Responses to Tax Audits: Regression Discontinuity Evidence from a Threshold-Based Audit Program",
+    "authors": "Xuan Wang, Haonan Li",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Replication package for firm responses to tax audits using regression discontinuity",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.15847187",
+    "paperUrl": "https://doi.org/10.5281/zenodo.15847187",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "replication package"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "regression discontinuity designs",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding replication materials for regression discontinuity designs using threshold-based audit assignment.",
+    "note": "Auto-discovered through Zenodo. Metadata identifies the record as a replication package for a regression-discontinuity paper."
+  },
+  {
+    "id": "zenodo-5943125-bid-rotation-incumbency-regression-discontinuity",
+    "title": "Using Bid Rotation and Incumbency to Detect Collusion: A Regression Discontinuity Approach",
+    "authors": "Unknown authors",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Replication file for regression discontinuity analysis of bid rotation and incumbency",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.5943125",
+    "paperUrl": "https://doi.org/10.5281/zenodo.5943125",
+    "access": "open",
+    "formats": [
+      "zenodo replication file",
+      "code",
+      "data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "regression discontinuity designs",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Finding replication files for regression discontinuity designs in auction, incumbency, and collusion applications.",
+    "note": "Auto-discovered through Zenodo. Metadata says the files create figures and tables reported in the paper."
+  },
+  {
+    "id": "zenodo-19066186-synthetic-control-spillover-effects",
+    "title": "Identification and Bayesian Inference for Synthetic Control Methods with Spillover Effects",
+    "authors": "Shosei Sakaguchi, Hayato Tagawa",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication package for synthetic control methods with spillover effects",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.19066186",
+    "paperUrl": "https://doi.org/10.5281/zenodo.19066186",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "replication package",
+      "data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "quasi-experimental designs",
+      "causal inference"
+    ],
+    "bestFor": "Finding data and code for synthetic control methods with spillover effects, Bayesian inference, and causal treatment-effect analysis.",
+    "note": "Auto-discovered through Zenodo. Metadata says the package contains instructions, data, and code to replicate all tables and figures. Synthetic control methods are tracked as an internal candidate label."
+  },
+  {
+    "id": "zenodo-18931234-synthetic-controls-multiple-outcomes",
+    "title": "Synthetic Controls with Multiple Outcomes",
+    "authors": "Wei Tian, Seojeong Lee, Valentyn Panchenko",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication package for synthetic controls with multiple outcomes",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.18931234",
+    "paperUrl": "https://doi.org/10.5281/zenodo.18931234",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "replication package",
+      "datasets",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "quasi-experimental designs",
+      "causal inference"
+    ],
+    "bestFor": "Finding datasets and code for synthetic control methods with multiple outcomes and causal treatment-effect analysis.",
+    "note": "Auto-discovered through Zenodo. Metadata says the package contains instructions, datasets, and code to replicate all results. Synthetic control methods are tracked as an internal candidate label."
+  },
+  {
+    "id": "zenodo-20421790-pattern-mixture-nonignorable-missingness",
+    "title": "Multiple Imputation Using Pattern-Mixture Models for Clustered Incomplete Data with Nonignorable Missingness Mechanism",
+    "authors": "Haoyu Zhou, Recai Yucel, Resa M. Jones",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Simulation data for multiple imputation with pattern-mixture models and nonignorable missingness",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.20421790",
+    "paperUrl": "https://doi.org/10.5281/zenodo.20421790",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "simulation data",
+      "performance metrics"
+    ],
+    "properties": [
+      "new-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Finding simulation datasets for multiple imputation, pattern-mixture models, clustered incomplete data, and nonignorable missingness mechanisms.",
+    "note": "Auto-discovered through Zenodo. Metadata says the deposit contains simulated input datasets and aggregated performance metrics for the published simulation study, with R scripts available as supplementary material."
   }
 ]
