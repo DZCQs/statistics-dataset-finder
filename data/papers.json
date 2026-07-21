@@ -441,7 +441,8 @@
       "longitudinal data analysis",
       "multilevel modeling",
       "nonresponse adjustment",
-      "survey methodology"
+      "survey methodology",
+      "panel data methods"
     ],
     "bestFor": "Panel data, clustered samples, attrition, adolescent health trajectories, and multilevel survey models.",
     "note": "Includes public-use and restricted-use options; access terms differ by file type."
@@ -522,7 +523,8 @@
       "complex survey design",
       "survey weighting",
       "small area estimation",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Survey-weighted income, poverty, labor, demographic, and policy analysis with repeated annual files.",
     "note": "Useful for public statistics workflows, variance estimation, and longitudinal-style repeated cross-section research."
@@ -684,7 +686,9 @@
     "topics": [
       "complex survey design",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis",
+      "multilevel modeling"
     ],
     "bestFor": "Cross-national survey analysis, repeated cross-sectional models, and measurement comparability research.",
     "note": "The World Values Survey provides multiple waves and integrated files for comparative survey methodology."
@@ -1033,7 +1037,9 @@
     "topics": [
       "treatment effect estimation",
       "quasi-experimental designs",
-      "causal inference"
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
     ],
     "bestFor": "Studying regression-discontinuity designs, local treatment effects, and close-election identification.",
     "note": "Close-election examples are commonly distributed through regression-discontinuity teaching and software resources."
@@ -1061,7 +1067,8 @@
       "quasi-experimental designs",
       "panel data methods",
       "causal inference",
-      "difference-in-differences"
+      "difference-in-differences",
+      "longitudinal data analysis"
     ],
     "bestFor": "Teaching difference-in-differences, policy evaluation, and panel comparisons with before-after treatment timing.",
     "note": "A classic applied econometrics dataset for policy evaluation and causal inference."
@@ -2429,7 +2436,8 @@
       "complex survey design",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
@@ -4582,7 +4590,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -4645,7 +4654,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -4708,7 +4718,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -4771,7 +4782,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -4834,7 +4846,8 @@
       "panel data methods",
       "small area estimation",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a IPUMS USA example for complex survey design, panel data methods, small area estimation, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"IPUMS USA\". Review the abstract and dataset use before treating this as fully curated.",
@@ -4897,7 +4910,8 @@
       "panel data methods",
       "small area estimation",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a IPUMS USA example for complex survey design, panel data methods, small area estimation, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"IPUMS USA\". Review the abstract and dataset use before treating this as fully curated.",
@@ -27123,7 +27137,8 @@
       "complex survey design",
       "survey weighting",
       "panel data methods",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Health-care utilization and expenditure research with panel survey design, weights, and repeated household interviews.",
     "note": "MEPS is a publicly documented health survey resource designed for policy analysis with complex survey design features, survey weighting, and short panel structure."
@@ -29130,7 +29145,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -29193,7 +29209,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -29256,7 +29273,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -29319,7 +29337,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -31058,7 +31077,8 @@
       "complex survey design",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a NHANES example for complex survey design, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"NHANES\". Review the abstract and dataset use before treating this as fully curated.",
@@ -32211,7 +32231,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -32274,7 +32295,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -32337,7 +32359,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -32400,7 +32423,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -32463,7 +32487,8 @@
       "panel data methods",
       "risk prediction",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Medical Expenditure Panel Survey example for complex survey design, panel data methods, risk prediction, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Medical Expenditure Panel Survey\". Review the abstract and dataset use before treating this as fully curated.",
@@ -32526,7 +32551,8 @@
       "panel data methods",
       "small area estimation",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a IPUMS USA example for complex survey design, panel data methods, small area estimation, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"IPUMS USA\". Review the abstract and dataset use before treating this as fully curated.",
@@ -32589,7 +32615,8 @@
       "panel data methods",
       "small area estimation",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a IPUMS USA example for complex survey design, panel data methods, small area estimation, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"IPUMS USA\". Review the abstract and dataset use before treating this as fully curated.",
@@ -32652,7 +32679,8 @@
       "panel data methods",
       "small area estimation",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a IPUMS USA example for complex survey design, panel data methods, small area estimation, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"IPUMS USA\". Review the abstract and dataset use before treating this as fully curated.",
@@ -32887,7 +32915,8 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "multilevel modeling"
     ],
     "bestFor": "Finding a SEER example for longitudinal data analysis, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"SEER\". Review the abstract and dataset use before treating this as fully curated.",
@@ -34023,7 +34052,9 @@
       "needs-review",
       "needs-label-review"
     ],
-    "topics": [],
+    "topics": [
+      "longitudinal data analysis"
+    ],
     "bestFor": "Finding examples for longitudinal or time-indexed rhythmic data, cosinor-style curve comparison, and inference on phase, amplitude, and mesor.",
     "note": "OpenAlex candidate; GitHub resource verified reachable. Added with label review because circadian/rhythmic-data modeling is not yet a separate official label."
   },
@@ -35123,7 +35154,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "risk prediction"
+      "risk prediction",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding a Clinical Practice Research Datalink example for longitudinal data analysis, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Clinical Practice Research Datalink\". Review the abstract and dataset use before treating this as curated."
@@ -35454,7 +35486,9 @@
       "difference-in-differences",
       "causal inference",
       "treatment effect estimation",
-      "quasi-experimental designs"
+      "quasi-experimental designs",
+      "panel data methods",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding replication data and code for difference-in-differences analysis using a 48-month panel of equity index derivatives turnover and regulatory reform timing.",
     "note": "Auto-discovered through Harvard Dataverse. Metadata describes a difference-in-differences evaluation with panel data, public SEBI inputs, Python code, estimates, robustness checks, and figures."
@@ -35691,7 +35725,9 @@
       "difference-in-differences",
       "causal inference",
       "treatment effect estimation",
-      "quasi-experimental designs"
+      "quasi-experimental designs",
+      "panel data methods",
+      "longitudinal data analysis"
     ],
     "bestFor": "Finding replication data and code for continuous-treatment difference-in-differences with a district-year panel.",
     "note": "Auto-discovered through Zenodo. Metadata describes Stata, R, and Python code, a derived analytic panel, codebook, README, and reproducible analysis pipeline."
@@ -35845,5 +35881,235 @@
     ],
     "bestFor": "Finding simulation datasets for multiple imputation, pattern-mixture models, clustered incomplete data, and nonignorable missingness mechanisms.",
     "note": "Auto-discovered through Zenodo. Metadata says the deposit contains simulated input datasets and aggregated performance metrics for the published simulation study, with R scripts available as supplementary material."
+  },
+  {
+    "id": "dataverse-2ivkxd-qualitative-imputation-missing-potential-outcomes",
+    "title": "Qualitative Imputation of Missing Potential Outcomes",
+    "authors": "Alexander Coppock, Dipin Kaur",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Replication data for qualitative imputation of missing potential outcomes",
+    "datasetUrl": "https://doi.org/10.7910/DVN/2IVKXD",
+    "paperUrl": "https://doi.org/10.7910/DVN/2IVKXD",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "replication package"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "missing data"
+    ],
+    "bestFor": "Finding replication data for missing potential outcomes, causal inference, treatment effect bounds, and imputation-based causal analysis.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata describes a replication package for qualitative causal inference using imputation of missing potential outcomes and extreme-value bounds."
+  },
+  {
+    "id": "dataverse-upl4tt-midas-missing-data-imputation",
+    "title": "The MIDAS Touch: Accurate and Scalable Missing-Data Imputation with Deep Learning",
+    "authors": "Ranjit Lall, Thomas Robinson",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Replication and simulation reproduction materials for MIDAS missing-data imputation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UPL4TT",
+    "paperUrl": "https://doi.org/10.7910/DVN/UPL4TT",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "simulation materials",
+      "replication guide",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multiple imputation",
+      "missing data"
+    ],
+    "bestFor": "Finding real and simulated examples for multiple imputation, missing data, scalable imputation methods, and survey-data imputation workflows.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata states that the package contains replication and simulation reproduction materials, a README, and a replication guide."
+  },
+  {
+    "id": "dataverse-cjm3js-value-statistical-life-panel-data",
+    "title": "The Value of a Statistical Life: Evidence from Panel Data",
+    "authors": "Thomas J. Kniesner, W. Kip Viscusi, Christopher Woock, James P. Ziliak",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "Replication data for value of a statistical life panel-data analysis",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CJM3JS",
+    "paperUrl": "https://doi.org/10.7910/DVN/CJM3JS",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication data for panel data methods, econometric panel analysis, longitudinal data analysis, and policy-related statistical estimation.",
+    "note": "Auto-discovered through Harvard Dataverse. Dataset title and metadata identify it as replication data for a panel-data paper."
+  },
+  {
+    "id": "dataverse-s0k6tv-hybrid-forecasting-competition",
+    "title": "Hybrid Forecasting Competition Files",
+    "authors": "Phil Hilliard",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Hybrid Forecasting Competition question and forecast data",
+    "datasetUrl": "https://doi.org/10.7910/DVN/S0K6TV",
+    "paperUrl": "https://doi.org/10.7910/DVN/S0K6TV",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "forecast data",
+      "readme"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "forecasting competitions",
+      "time series analysis"
+    ],
+    "bestFor": "Finding data for forecasting competitions, time series forecasting, forecast aggregation, and benchmark-style forecasting analysis.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata states that the dataset contains forecasting questions and forecast data for the Hybrid Forecasting Competition."
+  },
+  {
+    "id": "dataverse-vwgf5q-sdr-master-box-multilevel-surveys",
+    "title": "SDR 1.0 Master Box",
+    "authors": "Kazimierz M. Slomczynski, J. Craig Jenkins, Irina Tomescu-Dubrow, Marta Kolczynska, Ilona Wysmulek, Olena Oleksiyenko, Przemek Powalko, Marcin W. Zielinski",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Survey Data Recycling master data and metadata files",
+    "datasetUrl": "https://doi.org/10.7910/DVN/VWGF5Q",
+    "paperUrl": "https://doi.org/10.7910/DVN/VWGF5Q",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "cross-national survey data",
+      "country-level data",
+      "survey metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "panel data methods",
+      "longitudinal data analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Finding cross-national survey data for survey methodology, multilevel modeling, harmonized survey data, and longitudinal or country-year analysis.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata describes master, country, country-year, survey, and wave files for harmonized cross-national surveys."
+  },
+  {
+    "id": "dataverse-5tawla-parental-labor-supply-minimum-wage-did",
+    "title": "Parental Labor Supply: Evidence from Minimum Wage Changes",
+    "authors": "Jesse Wursten",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Replication package for distribution difference-in-differences estimates",
+    "datasetUrl": "https://doi.org/10.7910/DVN/5TAWLA",
+    "paperUrl": "https://doi.org/10.7910/DVN/5TAWLA",
+    "access": "open",
+    "formats": [
+      "dataverse replication package",
+      "code",
+      "data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "difference-in-differences",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication data and code for distribution difference-in-differences, policy evaluation, treatment effect estimation, and panel-data econometrics.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata states that the package includes code and data for each step of the distribution difference-in-differences estimates."
+  },
+  {
+    "id": "dataverse-iqaklc-bootstrap-quantile-treatment-effects",
+    "title": "Bootstrap Inference for Quantile Treatment Effects in Randomized Experiments with Matched Pairs",
+    "authors": "Liang Jiang, Xiaobin Liu, Peter C. B. Phillips, Yichong Zhang",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Replication data for bootstrap inference for quantile treatment effects in matched-pair randomized experiments",
+    "datasetUrl": "https://doi.org/10.7910/DVN/IQAKLC",
+    "paperUrl": "https://doi.org/10.7910/DVN/IQAKLC",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "replication package"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "treatment effect estimation",
+      "resampling methods"
+    ],
+    "bestFor": "Finding replication data for bootstrap inference, quantile treatment effects, randomized experiments, matched pairs, and causal treatment effect estimation.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata identifies the package as replication data for a Review of Economics and Statistics article."
+  },
+  {
+    "id": "dataverse-igyxef-wild-bootstrap-large-clusters",
+    "title": "The Wild Bootstrap with a Small Number of Large Clusters",
+    "authors": "Ivan Canay, Andres Santos, Azeem Shaikh",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Replication data for wild bootstrap inference with a small number of large clusters",
+    "datasetUrl": "https://doi.org/10.7910/DVN/IGYXEF",
+    "paperUrl": "https://doi.org/10.7910/DVN/IGYXEF",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "replication package"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods"
+    ],
+    "bestFor": "Finding replication data for wild bootstrap inference, cluster-robust inference, resampling methods, and econometric simulation examples.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata identifies the package as replication data for a Review of Economics and Statistics article."
   }
 ]

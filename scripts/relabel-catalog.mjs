@@ -55,6 +55,10 @@ const parentRules = [
   {
     label: "variable selection",
     children: ["best subset selection"]
+  },
+  {
+    label: "longitudinal data analysis",
+    children: ["panel data methods"]
   }
 ];
 
@@ -152,6 +156,30 @@ const evidenceRules = [
     reason: "best-subset-selection or L0-regularized sparse-model evidence in record text",
     test: (paper) =>
       /\b(best subset selection|best-subset selection|best subsets|l0 regularization|l0-regularized|subset-size constrained|l0 constrained|l0learn|bess|abess)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "panel data methods",
+    reason: "panel-data, fixed-effects, or repeated unit-level policy-panel evidence in record text",
+    test: (paper) =>
+      /\b(panel data|panel-data|fixed effects|fixed-effects|unit fixed effects|two-way fixed effects|policy panel|country-year|state-year|district-year|household panel)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "longitudinal data analysis",
+    reason: "longitudinal, repeated-measures, wave, or panel-data evidence in record text",
+    test: (paper) =>
+      /\b(longitudinal|repeated measures|repeated-measures|cohort|followed over time|waves|panel data|panel-data|country-year|state-year|district-year)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "multilevel modeling",
+    reason: "multilevel, nested, hierarchical, random-effects, or mixed-effects evidence in record text",
+    test: (paper) =>
+      /\b(multilevel|multi-level|nested units|nested data|nested structure|random effects|random-effects|mixed effects|mixed-effects|hierarchical model|hierarchical models|cross-national survey)\b/i.test(
         paperText(paper)
       )
   },
