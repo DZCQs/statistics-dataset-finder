@@ -144,6 +144,14 @@ const evidenceRules = [
       )
   },
   {
+    label: "time series analysis",
+    reason: "time-series, interrupted-time-series, temporal-dependence, or autocorrelation evidence in record text",
+    test: (paper) =>
+      /\b(time series analysis|time series|interrupted time series|controlled interrupted time series|temporal dependence|autocorrelation)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
     label: "variable selection",
     reason: "variable-selection, sparse predictor-selection, or PC-simple evidence in record text",
     test: (paper) =>

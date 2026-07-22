@@ -450,7 +450,7 @@ export const LABEL_REGISTRY = [
     avoidWhen: [
       "the data are longitudinal individual records rather than time-series methodology examples"
     ],
-    evidenceTerms: ["time series analysis", "time series", "forecast", "forecasting", "temporal dependence", "autocorrelation"]
+    evidenceTerms: ["time series analysis", "time series", "interrupted time series", "controlled interrupted time series", "forecast", "forecasting", "temporal dependence", "autocorrelation"]
   },
   {
     name: "forecasting competitions",
@@ -581,6 +581,25 @@ export const LABEL_CANDIDATES = [
       "the label improves search beyond broader quasi-experimental designs"
     ],
     evidenceTerms: ["synthetic control", "synthetic controls", "synthetic-control"]
+  },
+  {
+    name: "interrupted time series",
+    proposedLevel: "low",
+    proposedParents: ["time series analysis", "causal inference"],
+    status: "watch",
+    definition: "Datasets and replication packages useful for interrupted time-series or controlled interrupted time-series designs.",
+    currentEvidence: [
+      {
+        paperId: "dataverse-arrltm-controlled-interrupted-time-series-simulation",
+        reason: "Replication data and code for simulation-based comparison of controlled interrupted time series and multivariable regression."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence records provide accessible data/code for interrupted time-series methodology",
+      "intervention timing and temporal dependence are central rather than incidental",
+      "the label improves search beyond broader time series analysis or causal inference"
+    ],
+    evidenceTerms: ["interrupted time series", "controlled interrupted time series", "cits"]
   },
 ];
 

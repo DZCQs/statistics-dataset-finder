@@ -388,7 +388,8 @@
       "longitudinal data analysis",
       "risk prediction",
       "missing data",
-      "survival analysis"
+      "survival analysis",
+      "time series analysis"
     ],
     "bestFor": "Clinical event-history modeling, longitudinal health trajectories, missingness, and time-to-event prediction.",
     "note": "Requires PhysioNet credentialing and data-use training because it contains deidentified clinical records."
@@ -633,7 +634,8 @@
     "topics": [
       "complex survey design",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "time series analysis"
     ],
     "bestFor": "Analyzing survey trends, mode changes, subgroup estimation, and repeated cross-sectional political survey data.",
     "note": "The cumulative file harmonizes repeated ANES surveys and includes weights for recent mixed-mode samples."
@@ -20675,7 +20677,8 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "time series analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"eICU Collaborative Research Database\". Review the abstract and dataset use before treating this as fully curated.",
@@ -22692,7 +22695,8 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "time series analysis"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"eICU Collaborative Research Database\". Review the abstract and dataset use before treating this as fully curated.",
@@ -34344,7 +34348,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "spatial statistics"
+      "spatial statistics",
+      "time series analysis"
     ],
     "bestFor": "Finding spatial statistics examples for spatio-temporal point processes, event-time/location modeling, and spatial-temporal dependence.",
     "note": "OpenAlex candidate; GitHub resource verified reachable. Included after spatial statistics was promoted to an official high-level label."
@@ -36111,5 +36116,273 @@
     ],
     "bestFor": "Finding replication data for wild bootstrap inference, cluster-robust inference, resampling methods, and econometric simulation examples.",
     "note": "Auto-discovered through Harvard Dataverse. Metadata identifies the package as replication data for a Review of Economics and Statistics article."
+  },
+  {
+    "id": "dataverse-kyjqpc-vat-cut-online-prices-policy-panel",
+    "title": "Pass-through of a Temporary VAT Cut on Food Products to Consumer Prices",
+    "authors": "Tiago Bernardino, Ricardo Duque Gabriel, Joao Quelhas, Marcia Silva-Pereira",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Replication package using daily online prices for VAT pass-through analysis",
+    "datasetUrl": "https://doi.org/10.7910/DVN/KYJQPC",
+    "paperUrl": "https://doi.org/10.7910/DVN/KYJQPC",
+    "access": "open",
+    "formats": [
+      "dataverse replication package",
+      "daily online prices",
+      "code",
+      "data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication data for policy evaluation, panel data methods, causal inference, and price pass-through analysis using daily online prices.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata describes a replication package for a temporary VAT cut, daily online prices, policy duration, and return to pre-implementation trend."
+  },
+  {
+    "id": "dataverse-899din-cluster-randomized-child-marriage-intervention",
+    "title": "A Big Push Community Intervention Reduced Rates of Child Marriage by 80%",
+    "authors": "Isabelle Cohen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication data for paired cluster-randomized community intervention",
+    "datasetUrl": "https://doi.org/10.7910/DVN/899DIN",
+    "paperUrl": "https://doi.org/10.7910/DVN/899DIN",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "cluster-randomized trial data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Finding replication data for randomized experiments, clustered interventions, causal treatment effects, and community-level policy evaluation.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata describes a paired cluster-randomized trial in 18 communities with treatment and control groups."
+  },
+  {
+    "id": "dataverse-mysrxt-voter-turnout-democracies-panel",
+    "title": "Does Democratic Consolidation Lead to a Decline in Voter Turnout? Global Evidence Since 1939",
+    "authors": "Filip Kostelka",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Replication materials for voter turnout in new and established democracies, 1939-2015",
+    "datasetUrl": "https://doi.org/10.7910/DVN/MYSRXT",
+    "paperUrl": "https://doi.org/10.1017/S0003055417000259",
+    "access": "open",
+    "formats": [
+      "dataverse replication materials",
+      "election panel data",
+      "cross-national data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Finding replication data for panel data methods, longitudinal political data, multilevel cross-national analysis, and turnout time trends.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata says the datasets cover 947 elections in new and established democracies from 1939 to 2015."
+  },
+  {
+    "id": "dataverse-arrltm-controlled-interrupted-time-series-simulation",
+    "title": "Simulation-Based Comparison of Controlled Interrupted Time Series and Multivariable Regression",
+    "authors": "Fredrick Orwa",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication data and code for controlled interrupted time series simulation study",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ARRLTM",
+    "paperUrl": "https://doi.org/10.7910/DVN/ARRLTM",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "r scripts",
+      "simulation data",
+      "processed data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Finding simulation data and code for controlled interrupted time series, autocorrelation, causal intervention evaluation, and time-series analysis.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata states that the package includes R scripts, simulation data, processed data, and performance metrics."
+  },
+  {
+    "id": "dataverse-eodjae-yrbs-adverse-childhood-experiences",
+    "title": "Adverse Childhood Experiences Among LGBTQ+ High School Students: National Evidence from the 2023 Youth Risk Behavior Survey",
+    "authors": "Joel Mittleman",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Replication data and code using the 2023 Youth Risk Behavior Survey",
+    "datasetUrl": "https://doi.org/10.7910/DVN/EODJAE",
+    "paperUrl": "https://doi.org/10.2105/AJPH.2025.30809",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "survey data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "risk prediction",
+      "survey methodology"
+    ],
+    "bestFor": "Finding replication data for complex survey design, survey weighting, public-use survey analysis, and risk prediction examples.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata states that the repository contains data and code to replicate an AJPH article using the 2023 Youth Risk Behavior Survey."
+  },
+  {
+    "id": "dataverse-3h0lgr-taxes-state-income-growth-replication",
+    "title": "A Replication of The Robust Relationship Between Taxes and US State Income Growth",
+    "authors": "Ben Brewer",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Replication data for taxes and US state income growth",
+    "datasetUrl": "https://doi.org/10.7910/DVN/3H0LGR",
+    "paperUrl": "https://doi.org/10.7910/DVN/3H0LGR",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "state-level data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication data for panel data methods, state-level policy analysis, and longitudinal econometric examples.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata states that the dataset contains data needed to replicate all tables and figures."
+  },
+  {
+    "id": "dataverse-ubpbib-coal-plant-retirements-ownership",
+    "title": "The Effects of Ownership Structure on Coal Plant Retirements in the U.S.",
+    "authors": "Samuel Trachtman",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Replication data and code for coal plant retirements and ownership structure",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UBPBIB",
+    "paperUrl": "https://doi.org/10.7910/DVN/UBPBIB",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code",
+      "policy data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication data for treatment effect estimation, panel data methods, policy evaluation, and longitudinal energy-policy analysis.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata states that the package contains code and data to replicate the paper."
+  },
+  {
+    "id": "dataverse-zfagjp-precommitment-healthy-food-choice",
+    "title": "When Choice Matters: The Asymmetric Effects of Precommitment Implementation on Healthy Food Choice",
+    "authors": "Marta Favara, Joanna Mihaylova, Alan Sanchez",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication data and Stata code for precommitment implementation and healthy food choice",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZFAGJP",
+    "paperUrl": "https://doi.org/10.7910/DVN/ZFAGJP",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "stata code",
+      "dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Finding replication data for treatment effect estimation, randomized or quasi-experimental intervention analysis, and behavioral policy experiments.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata states that the folder contains dataset and Stata code to replicate the paper."
+  },
+  {
+    "id": "dataverse-joxdms-ui-generosity-job-acceptance-cps",
+    "title": "UI Generosity and Job Acceptance: Effects of the 2020 CARES Act",
+    "authors": "Nicolas Petrosky-Nadeau, Robert G. Valletta",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Replication files for CPS monthly and ASEC regressions in UI generosity and job acceptance analysis",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JOXDMS",
+    "paperUrl": "https://doi.org/10.7910/DVN/JOXDMS",
+    "access": "open",
+    "formats": [
+      "dataverse replication files",
+      "cps monthly data",
+      "asec data",
+      "regression files"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "survey methodology",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication files for panel data methods, survey methodology, policy evaluation, and labor-market treatment effect analysis.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata identifies the files as replication materials for Section 2, using CPS monthly and ASEC regressions."
   }
 ]
