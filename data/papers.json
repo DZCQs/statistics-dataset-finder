@@ -36384,5 +36384,267 @@
     ],
     "bestFor": "Finding replication files for panel data methods, survey methodology, policy evaluation, and labor-market treatment effect analysis.",
     "note": "Auto-discovered through Harvard Dataverse. Metadata identifies the files as replication materials for Section 2, using CPS monthly and ASEC regressions."
+  },
+  {
+    "id": "dataverse-je0evi-household-electrification-global-panel",
+    "title": "A Global Analysis of Progress in Household Electrification",
+    "authors": "Michael Aklin, S. P. Harish, Johannes Urpelainen",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Replication package for global household electrification analysis",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JE0EVI",
+    "paperUrl": "https://doi.org/10.7910/DVN/JE0EVI",
+    "access": "open",
+    "formats": [
+      "dataverse replication package",
+      "policy data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication data for panel data methods, longitudinal policy analysis, and global development-policy examples.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata identifies the resource as a replication package for an Energy Policy paper on household electrification."
+  },
+  {
+    "id": "dataverse-m6xkda-african-elections-survey-experiment",
+    "title": "Identity, Information, and Voting: Lessons on African Elections from a Survey Experiment",
+    "authors": "Karen E. Ferree, Ellen Lust, Cecilia Ahsan Jansson, Erica Ann Metheney",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Replication data and supplemental information for an African elections survey experiment",
+    "datasetUrl": "https://doi.org/10.7910/DVN/M6XKDA",
+    "paperUrl": "https://doi.org/10.7910/DVN/M6XKDA",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "survey experiment data",
+      "supplemental information"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey experiments",
+      "causal inference",
+      "randomized experiments",
+      "survey methodology"
+    ],
+    "bestFor": "Finding replication data for survey experiments, randomized information treatments, voting behavior, and causal inference in survey settings.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata identifies the resource as replication data and supplemental information for a survey experiment article."
+  },
+  {
+    "id": "dataverse-jvh535-feminization-wages-panel",
+    "title": "Devaluation for Whom? Feminization and Wages in an Economically Polarized Labor Market, 2003-2019",
+    "authors": "Meiying Li",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Replication package for feminization and wages in a polarized labor market",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JVH535",
+    "paperUrl": "https://doi.org/10.7910/DVN/JVH535",
+    "access": "open",
+    "formats": [
+      "dataverse replication package",
+      "code",
+      "data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication data for panel data methods, longitudinal labor-market analysis, and wage inequality examples.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata states that the package contains data and code to replicate all paper and supplementary results."
+  },
+  {
+    "id": "dataverse-aym9gp-parenthood-relative-earnings-panel",
+    "title": "State-level Gender Inequality and Couples' Relative Earnings Following Parenthood over Four Decades",
+    "authors": "Wonjeong Jeong, Kelly Musick",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication code and data for state-level gender inequality and relative earnings after parenthood",
+    "datasetUrl": "https://doi.org/10.7910/DVN/AYM9GP",
+    "paperUrl": "https://doi.org/10.7910/DVN/AYM9GP",
+    "access": "open",
+    "formats": [
+      "dataverse replication package",
+      "stata code",
+      "r code",
+      "data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication data for longitudinal data analysis, panel data methods, and state-level labor or family-demography models.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata states that the package replicates results and requires Stata and R."
+  },
+  {
+    "id": "dataverse-xbn1pc-selective-migration-regional-decline",
+    "title": "Selective Migration and Regional Decline: Evidence from Coal Country",
+    "authors": "Eleanor Krause",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Code and replication data for selective migration and regional decline",
+    "datasetUrl": "https://doi.org/10.7910/DVN/XBN1PC",
+    "paperUrl": "https://doi.org/10.7910/DVN/XBN1PC",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "zip repository",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication data for panel data methods, spatial or regional policy analysis, and longitudinal migration examples.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata describes a zip repository containing code and replication data."
+  },
+  {
+    "id": "dataverse-l5imgg-intermediation-exchange-rates",
+    "title": "An Intermediation-Based Model of Exchange Rates",
+    "authors": "Semyon Malamud, Andreas Schrimpf, Yuan Zhang",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Replication data and code for an intermediation-based model of exchange rates",
+    "datasetUrl": "https://doi.org/10.7910/DVN/L5IMGG",
+    "paperUrl": "https://doi.org/10.7910/DVN/L5IMGG",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code",
+      "financial time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Finding replication data for time series analysis, panel data methods, and financial econometrics examples.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata identifies the resource as replication data and code for a Review of Financial Studies paper."
+  },
+  {
+    "id": "dataverse-hbditc-bayesian-poll-model",
+    "title": "A Bayesian Poll-Based Model",
+    "authors": "Brittany Alexander",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Python code for a Bayesian poll-based prediction model",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HBDITC",
+    "paperUrl": "https://doi.org/10.7910/DVN/HBDITC",
+    "access": "open",
+    "formats": [
+      "dataverse code",
+      "python code",
+      "polling data workflow"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Finding code and data workflow examples for Bayesian inference, polling models, and state-level election prediction.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata says the files contain Python code to predict state election results."
+  },
+  {
+    "id": "dataverse-bveair-nondeceptive-identity-threat-survey-experiment",
+    "title": "Triggering without Deceiving: A Non-Deceptive Male Identity Threat Treatment",
+    "authors": "Selina Hofstetter, Anna Wilke, Tinghua Yu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication data for a non-deceptive identity-threat survey experiment",
+    "datasetUrl": "https://doi.org/10.7910/DVN/BVEAIR",
+    "paperUrl": "https://doi.org/10.7910/DVN/BVEAIR",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "survey experiment data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "randomized experiments",
+      "survey experiments",
+      "causal inference",
+      "survey methodology"
+    ],
+    "bestFor": "Finding replication data for survey experiments, randomized treatments, manipulation checks, and statistical power in experimental design.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata describes a survey experiment with an adult male sample, treatment manipulation, manipulation checks, and power considerations."
+  },
+  {
+    "id": "dataverse-29709-workers-consumers-survey-experiment",
+    "title": "Workers or Consumers? A Survey Experiment on the Duality of Citizens' Interests in the Politics of Trade",
+    "authors": "Megumi Naoi, Ikuo Kume",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Replication data for a survey experiment on trade politics",
+    "datasetUrl": "https://doi.org/10.7910/DVN/29709",
+    "paperUrl": "https://doi.org/10.7910/DVN/29709",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "survey experiment data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "survey experiments",
+      "treatment effect estimation",
+      "survey methodology",
+      "randomized experiments"
+    ],
+    "bestFor": "Finding replication data for survey experiments, treatment effect estimation, and survey-based causal inference.",
+    "note": "Auto-discovered through Harvard Dataverse. Metadata identifies this as replication data for a Comparative Political Studies survey experiment."
   }
 ]

@@ -16,7 +16,8 @@ const parentRules = [
       "regression discontinuity designs",
       "instrumental variables",
       "heterogeneous treatment effects",
-      "randomized experiments"
+      "randomized experiments",
+      "survey experiments"
     ]
   },
   {
@@ -33,12 +34,17 @@ const parentRules = [
       "complex survey design",
       "survey weighting",
       "nonresponse adjustment",
-      "small area estimation"
+      "small area estimation",
+      "survey experiments"
     ]
   },
   {
     label: "bayesian inference",
     children: ["bayesian hierarchical models", "mcmc diagnostics"]
+  },
+  {
+    label: "randomized experiments",
+    children: ["survey experiments"]
   },
   {
     label: "survival analysis",
@@ -108,6 +114,14 @@ const evidenceRules = [
     reason: "bootstrap, permutation, jackknife, or resampling-inference evidence in record text",
     test: (paper) =>
       /\b(bootstrap|resampling|permutation test|permutation|jackknife|bootstrap confidence interval|bootstrap confidence region)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "survey experiments",
+    reason: "survey-experiment, vignette-experiment, randomized-survey, or information-treatment evidence in record text",
+    test: (paper) =>
+      /\b(survey experiment|survey experiments|vignette experiment|information treatment|survey-embedded experiment|randomized survey|experimental survey)\b/i.test(
         paperText(paper)
       )
   },

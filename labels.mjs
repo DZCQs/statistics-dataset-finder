@@ -162,6 +162,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["randomized", "random assignment", "trial", "lottery", "experiment", "clinical trial"]
   },
   {
+    name: "survey experiments",
+    level: "low",
+    parents: ["randomized experiments", "survey methodology"],
+    definition: "Datasets and replication packages useful for survey-experimental designs, vignette experiments, information treatments, or randomized treatments embedded in surveys.",
+    includeWhen: [
+      "the paper or dataset centers on a survey experiment, randomized information treatment, vignette experiment, or survey-embedded experimental manipulation",
+      "the accessible data/code supports design, estimation, or teaching examples for survey-experimental causal analysis"
+    ],
+    avoidWhen: [
+      "the data are merely observational survey data without randomized treatments or experimental manipulation",
+      "experiment language refers only to a laboratory or clinical experiment without a survey design"
+    ],
+    evidenceTerms: ["survey experiment", "survey experiments", "vignette experiment", "information treatment", "survey-embedded experiment", "randomized survey", "experimental survey"]
+  },
+  {
     name: "resampling methods",
     level: "mid",
     parents: [],
