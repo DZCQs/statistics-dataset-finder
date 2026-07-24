@@ -136,6 +136,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["difference-in-differences", "difference in differences", "difference-in-difference", "difference in difference", "generalized difference-in-difference", "diff-in-diff", "staggered adoption", "event study", "group-time average treatment effects", "parallel trends"]
   },
   {
+    name: "synthetic control methods",
+    level: "low",
+    parents: ["quasi-experimental designs", "treatment effect estimation"],
+    definition: "Datasets and replication packages useful for synthetic-control causal designs, including donor-pool construction, treated-unit counterfactuals, spillovers, or multiple-outcome extensions.",
+    includeWhen: [
+      "synthetic control is central to the empirical design, method paper, or replication package",
+      "the accessible data/code supports causal analysis using synthetic-control methods"
+    ],
+    avoidWhen: [
+      "synthetic control is mentioned only as a minor robustness comparison",
+      "the paper is a general policy panel without synthetic-control estimation"
+    ],
+    evidenceTerms: ["synthetic control", "synthetic controls", "synthetic-control", "synthetic control method", "scm"]
+  },
+  {
     name: "heterogeneous treatment effects",
     level: "low",
     parents: ["treatment effect estimation"],
@@ -573,29 +588,6 @@ export const LABEL_CANDIDATES = [
       "the records involve compositional constraints or proportion vectors as a central statistical issue"
     ],
     evidenceTerms: ["compositional data", "compositional", "simplex", "log-ratio", "aitchison"]
-  },
-  {
-    name: "synthetic control methods",
-    proposedLevel: "low",
-    proposedParents: ["quasi-experimental designs", "treatment effect estimation"],
-    status: "watch",
-    definition: "Datasets and replication packages useful for synthetic-control causal designs, including spillovers or multiple-outcome extensions.",
-    currentEvidence: [
-      {
-        paperId: "zenodo-19066186-synthetic-control-spillover-effects",
-        reason: "Replication package for identification and Bayesian inference for synthetic control methods with spillover effects."
-      },
-      {
-        paperId: "zenodo-18931234-synthetic-controls-multiple-outcomes",
-        reason: "Replication package for synthetic controls with multiple outcomes."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence records provide accessible data/code for synthetic-control methodology",
-      "synthetic control is central to the paper rather than a passing robustness comparison",
-      "the label improves search beyond broader quasi-experimental designs"
-    ],
-    evidenceTerms: ["synthetic control", "synthetic controls", "synthetic-control"]
   },
   {
     name: "interrupted time series",

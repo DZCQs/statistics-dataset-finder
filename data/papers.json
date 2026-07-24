@@ -35824,7 +35824,9 @@
     "topics": [
       "bayesian inference",
       "quasi-experimental designs",
-      "causal inference"
+      "causal inference",
+      "synthetic control methods",
+      "treatment effect estimation"
     ],
     "bestFor": "Finding data and code for synthetic control methods with spillover effects, Bayesian inference, and causal treatment-effect analysis.",
     "note": "Auto-discovered through Zenodo. Metadata says the package contains instructions, data, and code to replicate all tables and figures. Synthetic control methods are tracked as an internal candidate label."
@@ -35854,7 +35856,9 @@
     ],
     "topics": [
       "quasi-experimental designs",
-      "causal inference"
+      "causal inference",
+      "synthetic control methods",
+      "treatment effect estimation"
     ],
     "bestFor": "Finding datasets and code for synthetic control methods with multiple outcomes and causal treatment-effect analysis.",
     "note": "Auto-discovered through Zenodo. Metadata says the package contains instructions, datasets, and code to replicate all results. Synthetic control methods are tracked as an internal candidate label."
@@ -36646,5 +36650,421 @@
     ],
     "bestFor": "Finding replication data for survey experiments, treatment effect estimation, and survey-based causal inference.",
     "note": "Auto-discovered through Harvard Dataverse. Metadata identifies this as replication data for a Comparative Political Studies survey experiment."
+  },
+  {
+    "id": "dataverse-neg3xy-media-electoral-accountability",
+    "title": "Media, Electoral Accountability, and Partisan Polarization",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data and code for a causal analysis of media-market exposure, electoral accountability, and partisan polarization",
+    "datasetUrl": "https://doi.org/10.7910/DVN/NEG3XY",
+    "paperUrl": "https://doi.org/10.7910/DVN/NEG3XY",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference"
+    ],
+    "bestFor": "Examples of causal inference and quasi-experimental designs using geographic media-market boundaries and electoral outcomes.",
+    "note": "Auto-discovered from Harvard Dataverse method search. Dataset page identifies this as replication data for a paper on media exposure and electoral accountability."
+  },
+  {
+    "id": "dataverse-itlldp-polling-exclusion-voter-demobilization",
+    "title": "Exclusion in Political Polling and Voter Demobilization: The Case of Asian Americans",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data for a polling exclusion study with survey and political-behavior data",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ITLLDP",
+    "paperUrl": "https://doi.org/10.7910/DVN/ITLLDP",
+    "access": "open",
+    "formats": [
+      "dataverse replication data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "Survey methodology examples involving polling exclusion, representation, and voter demobilization.",
+    "note": "Auto-discovered from Harvard Dataverse method search. Label specificity should be reviewed after full paper inspection."
+  },
+  {
+    "id": "dataverse-bny5ws-refugee-admission-panel",
+    "title": "Scarcity, Strategy, and the Racialized Politics of Refugee Admission in the Global North",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for a country-year panel analysis of asylum-policy admission and entry rules",
+    "datasetUrl": "https://doi.org/10.7910/DVN/BNY5WS",
+    "paperUrl": "https://doi.org/10.7910/DVN/BNY5WS",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods and longitudinal data analysis examples using country-year policy panels.",
+    "note": "Auto-discovered from Harvard Dataverse. Description explicitly reports a country-year panel of asylum-policy rules."
+  },
+  {
+    "id": "dataverse-2yncvy-police-violence-survey-experiment",
+    "title": "Police Violence during Protests: Ideology and Public Beliefs about Misconduct",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data for a large survey experiment with sequential information updating",
+    "datasetUrl": "https://doi.org/10.7910/DVN/2YNCVY",
+    "paperUrl": "https://doi.org/10.7910/DVN/2YNCVY",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "survey experiment data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "survey experiments",
+      "survey methodology"
+    ],
+    "bestFor": "Survey experiments, randomized experiments, and causal inference examples with belief updating and treatment heterogeneity.",
+    "note": "Auto-discovered from Harvard Dataverse. Description identifies a large survey experiment in Germany with manipulated protest setting and information updates."
+  },
+  {
+    "id": "dataverse-qlem9q-shared-discrimination-experiments",
+    "title": "Shared Discrimination's Effect on Solidarity Between People of Color Is Uniform Across Major Racial, Political, and Social Differences",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data for a pre-registered meta-analysis of eight published experiments",
+    "datasetUrl": "https://doi.org/10.7910/DVN/QLEM9Q",
+    "paperUrl": "https://doi.org/10.7910/DVN/QLEM9Q",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "experimental data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "heterogeneous treatment effects",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "Randomized experiments and heterogeneous treatment effects examples involving common-design experiments and subgroup moderation.",
+    "note": "Auto-discovered from Harvard Dataverse. Description reports eight published experiments and moderation across race, ideology, education, gender, and age."
+  },
+  {
+    "id": "dataverse-kyzxzg-naturalization-heterogeneous-effects",
+    "title": "Who Benefits from Citizenship? Heterogeneous Effects of Naturalization Decisions in the Early Twentieth-Century United States",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for heterogeneous effects of naturalization decisions",
+    "datasetUrl": "https://doi.org/10.7910/DVN/KYZXZG",
+    "paperUrl": "https://doi.org/10.7910/DVN/KYZXZG",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "heterogeneous treatment effects",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Causal inference, treatment effect estimation, and heterogeneous treatment effects examples with historical administrative data.",
+    "note": "Auto-discovered from Harvard Dataverse. Dataset page describes replication of data collection, database construction, and analysis for heterogeneous naturalization effects."
+  },
+  {
+    "id": "dataverse-1gljx8-bioeconomic-green-growth-panel",
+    "title": "Bioeconomic Development and Green Growth in Latin America: A Panel-Data Analysis, 2000-2024",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication dataset and Stata code for panel-data analysis across Latin American countries from 2000 to 2024",
+    "datasetUrl": "https://doi.org/10.7910/DVN/1GLJX8",
+    "paperUrl": "https://doi.org/10.7910/DVN/1GLJX8",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "Stata code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods and longitudinal data analysis examples with country-year macroeconomic data.",
+    "note": "Auto-discovered from Harvard Dataverse. Description explicitly says replication dataset and Stata code for panel-data analysis."
+  },
+  {
+    "id": "dataverse-pryyz5-deliberation-ethical-voting-experiment",
+    "title": "Deliberation and Ethical Voting Behavior: Evidence from a Campaign Experiment in Benin",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data and code for a campaign experiment",
+    "datasetUrl": "https://doi.org/10.7910/DVN/PRYYZ5",
+    "paperUrl": "https://doi.org/10.7910/DVN/PRYYZ5",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "experimental design documentation"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Randomized experiments, treatment effect estimation, and causal inference examples using campaign-experiment data.",
+    "note": "Auto-discovered from Harvard Dataverse. Description states that the package contains data, code, supplemental materials, and experimental-design information."
+  },
+  {
+    "id": "dataverse-xtfisn-randomized-reminders-reporting",
+    "title": "Drop a Line, Submit on Time? Randomized Tailored Reminders Improve Pollution Reporting Timeliness",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for randomized tailored reminders and reporting outcomes",
+    "datasetUrl": "https://doi.org/10.7910/DVN/XTFISN",
+    "paperUrl": "https://doi.org/10.7910/DVN/XTFISN",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments"
+    ],
+    "bestFor": "Randomized experiments, causal inference, and treatment effect estimation examples with reminder interventions.",
+    "note": "Auto-discovered from Harvard Dataverse. Title and description identify a randomized intervention with replication data and scripts."
+  },
+  {
+    "id": "dataverse-3aa6cz-racial-attitudes-survey-experiments",
+    "title": "Measuring Racial Attitudes Pre-Treatment in Survey Experiments",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data for survey experiments with pre-treatment attitude measurement",
+    "datasetUrl": "https://doi.org/10.7910/DVN/3AA6CZ",
+    "paperUrl": "https://doi.org/10.7910/DVN/3AA6CZ",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "survey experiment data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "survey experiments",
+      "survey methodology"
+    ],
+    "bestFor": "Survey experiments, randomized experiments, and causal inference examples involving pre-treatment measurement and moderation.",
+    "note": "Auto-discovered from Harvard Dataverse. The title and description explicitly center survey experiments and treatment-effect moderation."
+  },
+  {
+    "id": "dataverse-47im5s-climate-migration-causal-analysis",
+    "title": "Climate Migration or Climate Immobility? Evidence from Micro-Level Causal Analysis of Migration Intentions in Nigeria",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data and code for micro-level causal analysis of migration intentions",
+    "datasetUrl": "https://doi.org/10.7910/DVN/47IM5S",
+    "paperUrl": "https://doi.org/10.7910/DVN/47IM5S",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Causal inference and treatment effect estimation examples with micro-level survey or behavioral data.",
+    "note": "Auto-discovered from Harvard Dataverse. Dataset page describes replication data and code for micro-level causal analysis."
+  },
+  {
+    "id": "dataverse-u9i4z2-transparency-governance-school-experiment",
+    "title": "Transparency, Governance, and Water and Sanitation: Experimental Evidence from Schools in Rural Bangladesh",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data for experimental evidence from schools in rural Bangladesh",
+    "datasetUrl": "https://doi.org/10.7910/DVN/U9I4Z2",
+    "paperUrl": "https://doi.org/10.7910/DVN/U9I4Z2",
+    "access": "open",
+    "formats": [
+      "dataverse replication data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments"
+    ],
+    "bestFor": "Randomized experiments, treatment effect estimation, and causal inference examples with school-level intervention data.",
+    "note": "Auto-discovered from Harvard Dataverse. Title identifies experimental evidence and the dataset page provides replication data."
+  },
+  {
+    "id": "dataverse-unfgrs-linkedout-field-experiment",
+    "title": "LinkedOut? A Field Experiment on Discrimination in Job Network Formation",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data and programs for a field experiment on job network formation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UNFGRS",
+    "paperUrl": "https://doi.org/10.7910/DVN/UNFGRS",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Randomized experiments, treatment effect estimation, and causal inference examples with field-experiment data.",
+    "note": "Auto-discovered from Harvard Dataverse. Description states that the data and programs replicate tables and figures from a field experiment."
+  },
+  {
+    "id": "dataverse-sqblux-vietnam-trade-war-synthetic-control",
+    "title": "From Trade Diversion to Productive Capacity: A Synthetic Control Assessment of Vietnam's Trade War Dividend, 2005-2024",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse data and code for a synthetic control method assessment of Vietnam's trade-war dividend",
+    "datasetUrl": "https://doi.org/10.7910/DVN/SQBLUX",
+    "paperUrl": "https://doi.org/10.7910/DVN/SQBLUX",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "synthetic control methods",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Synthetic control methods, quasi-experimental designs, causal inference, and treatment effect estimation examples using macroeconomic panel outcomes.",
+    "note": "Auto-discovered from Harvard Dataverse. Description states that the study applies the Synthetic Control Method to estimate a causal effect."
+  },
+  {
+    "id": "zenodo-21533706-high-dimensional-reaction-norm-winter-wheat",
+    "title": "Reaction Norm Modeling of High-Dimensional Genomic and Environmental Data Improves Prediction Accuracy in Winter Wheat",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo analytical code and input files for high-dimensional genomic and environmental reaction-norm modeling",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21533706",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21533706",
+    "access": "open",
+    "formats": [
+      "zenodo repository",
+      "R code",
+      "input files"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "High-dimensional statistics and risk prediction examples using genomic and environmental predictors with cross-validated prediction accuracy.",
+    "note": "Auto-discovered from Zenodo. Repository description says it contains the analytical R pipeline, input files, cross-validation, and variance-component analyses for the manuscript."
   }
 ]

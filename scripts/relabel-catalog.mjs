@@ -15,6 +15,7 @@ const parentRules = [
       "difference-in-differences",
       "regression discontinuity designs",
       "instrumental variables",
+      "synthetic control methods",
       "heterogeneous treatment effects",
       "randomized experiments",
       "survey experiments"
@@ -22,11 +23,11 @@ const parentRules = [
   },
   {
     label: "treatment effect estimation",
-    children: ["difference-in-differences", "regression discontinuity designs", "instrumental variables"]
+    children: ["difference-in-differences", "regression discontinuity designs", "instrumental variables", "synthetic control methods"]
   },
   {
     label: "quasi-experimental designs",
-    children: ["difference-in-differences", "regression discontinuity designs", "instrumental variables"]
+    children: ["difference-in-differences", "regression discontinuity designs", "instrumental variables", "synthetic control methods"]
   },
   {
     label: "survey methodology",
@@ -102,8 +103,8 @@ const evidenceRules = [
       )
   },
   {
-    label: "quasi-experimental designs",
-    reason: "synthetic-control evidence supports the broader quasi-experimental-design label while the specific synthetic-control label remains internal-candidate only",
+    label: "synthetic control methods",
+    reason: "synthetic-control evidence in record text",
     test: (paper) =>
       /\b(synthetic control|synthetic controls|synthetic-control)\b/i.test(
         paperText(paper)

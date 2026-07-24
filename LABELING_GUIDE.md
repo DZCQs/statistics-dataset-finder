@@ -95,6 +95,7 @@ High-level topic families:
     - `propensity score methods`
     - `heterogeneous treatment effects`
   - `quasi-experimental designs`
+    - `synthetic control methods`
   - `randomized experiments`
 - `survey methodology`
   - `complex survey design`
@@ -138,7 +139,7 @@ checks include:
 - `difference-in-differences`
 - `regression discontinuity designs`
 - `instrumental variables`
-- `synthetic control`
+- `synthetic control methods`
 - `competing risks`
 - `joint models`
 - `recurrent event analysis`
