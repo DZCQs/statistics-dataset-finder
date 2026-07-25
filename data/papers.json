@@ -37066,5 +37066,399 @@
     ],
     "bestFor": "High-dimensional statistics and risk prediction examples using genomic and environmental predictors with cross-validated prediction accuracy.",
     "note": "Auto-discovered from Zenodo. Repository description says it contains the analytical R pipeline, input files, cross-validation, and variance-component analyses for the manuscript."
+  },
+  {
+    "id": "dataverse-xerjif-nonignorable-nonresponse-bias",
+    "title": "Correcting for Nonignorable Nonresponse Bias in Ordinal Observational Survey Data",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data and code for nonignorable nonresponse bias correction in ordinal observational survey data",
+    "datasetUrl": "https://doi.org/10.7910/DVN/XERJIF",
+    "paperUrl": "https://doi.org/10.7910/DVN/XERJIF",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "missing data",
+      "nonignorable missing data",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "Nonignorable missing data, missing not at random nonresponse, nonresponse adjustment, missing data, and survey methodology examples where nonrespondents may differ on the outcome itself.",
+    "note": "Auto-discovered from Harvard Dataverse. The dataset page describes nonignorable nonresponse, a missing not at random survey-data setting, and replication code."
+  },
+  {
+    "id": "dataverse-doo1ch-shadow-bank-monetary-policy",
+    "title": "Lending by Servicing: Monetary Policy Transmission Through Shadow Banks",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication code and data for an econometric study of monetary-policy transmission through shadow banks",
+    "datasetUrl": "https://doi.org/10.7910/DVN/DOO1CH",
+    "paperUrl": "https://doi.org/10.7910/DVN/DOO1CH",
+    "access": "open",
+    "formats": [
+      "dataverse replication package",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, causal inference, and time series analysis examples in empirical finance and monetary-policy transmission.",
+    "note": "Auto-discovered from Harvard Dataverse. The record states that it contains replication code and data for the paper."
+  },
+  {
+    "id": "dataverse-kjt1v8-castles-state-violence-panel",
+    "title": "The State and the Monopolization of Violence: Castles in Europe, 1000-1700",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data and scripts for historical panel-style analysis of castles and state violence in Europe",
+    "datasetUrl": "https://doi.org/10.7910/DVN/KJT1V8",
+    "paperUrl": "https://doi.org/10.7910/DVN/KJT1V8",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "scripts"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Longitudinal data analysis and panel data methods examples using historical regional data and reproducible scripts.",
+    "note": "Auto-discovered from Harvard Dataverse. Description says all data and scripts needed to reproduce tables and figures are included."
+  },
+  {
+    "id": "dataverse-apdokp-sanctions-democratization",
+    "title": "Who Pays, Who Concedes? Economic Sanctions and the Onset of Democratization in Autocracies",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication repository for economic sanctions and democratization in autocracies",
+    "datasetUrl": "https://doi.org/10.7910/DVN/APDOKP",
+    "paperUrl": "https://doi.org/10.7910/DVN/APDOKP",
+    "access": "open",
+    "formats": [
+      "dataverse replication data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Causal inference, panel data methods, and longitudinal data analysis examples in policy evaluation and comparative political economy.",
+    "note": "Auto-discovered from Harvard Dataverse. The record is a replication repository for an empirical sanctions and democratization paper."
+  },
+  {
+    "id": "dataverse-u4fopj-temporal-spillovers-taiwan",
+    "title": "Temporal Spillovers in Mixed-Member Systems: Legislative Incumbency and Party-List Voting in Taiwan",
+    "authors": "Po-Chun Wu, Ya-Han Chen, Yung-Ming Hsu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication dataset and model commands for temporal spillovers in Taiwan elections",
+    "datasetUrl": "https://doi.org/10.7910/DVN/U4FOPJ",
+    "paperUrl": "https://doi.org/10.7910/DVN/U4FOPJ",
+    "access": "open",
+    "formats": [
+      "dataverse replication dataset",
+      "model commands"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, and causal inference examples involving temporal spillovers and repeated election outcomes.",
+    "note": "Auto-discovered from Harvard Dataverse. Description states the package includes the replication dataset and model commands for tables and figures."
+  },
+  {
+    "id": "dataverse-vkogm1-financial-consumer-protection-surveys",
+    "title": "Financial Consumer Protection Surveys",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse survey dataset series on financial consumer protection across Africa and Asia",
+    "datasetUrl": "https://doi.org/10.7910/DVN/VKOGM1",
+    "paperUrl": "https://doi.org/10.7910/DVN/VKOGM1",
+    "access": "open",
+    "formats": [
+      "dataverse survey data",
+      "multi-country survey"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey methodology"
+    ],
+    "bestFor": "Survey methodology and complex survey design examples using repeated in-person surveys across multiple countries.",
+    "note": "Auto-discovered from Harvard Dataverse. Description says the dataset is a series of in-person surveys in 10 countries with repeated rounds."
+  },
+  {
+    "id": "dataverse-zeqxtw-covid-management-germany-panel",
+    "title": "PPCM - Dataset: Public Perceptions of Covid-19 Management in Germany",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse four-wave online panel survey on public perceptions of Covid-19 management in Germany",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZEQXTW",
+    "paperUrl": "https://doi.org/10.7910/DVN/ZEQXTW",
+    "access": "open",
+    "formats": [
+      "dataverse panel survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Longitudinal data analysis, panel data methods, and survey methodology examples using a four-wave online panel survey.",
+    "note": "Auto-discovered from Harvard Dataverse. Description reports a four-wave YouGov online panel survey conducted from March 2020 to March 2021."
+  },
+  {
+    "id": "dataverse-b2zuv8-legislative-violence-panel",
+    "title": "When Conflict Leaves the Rules: Party Institutionalisation, System Closure and Legislative Violence in Europe",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication materials with country-year panel data and Python code on legislative violence in Europe",
+    "datasetUrl": "https://doi.org/10.7910/DVN/B2ZUV8",
+    "paperUrl": "https://doi.org/10.7910/DVN/B2ZUV8",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "Python code",
+      "country-year panel"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods and longitudinal data analysis examples with country-year political data and reproducible code.",
+    "note": "Auto-discovered from Harvard Dataverse. Description explicitly mentions an archived analytic country-year panel and Python code."
+  },
+  {
+    "id": "dataverse-r6gb0b-product-decisions-experiments",
+    "title": "It Takes One to Buy but Two to Say Goodbye: Asymmetrical Preference for Others' Involvement in Product Decisions Across the Customer Journey",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse data, code, and stimuli for replicated product-decision experiments",
+    "datasetUrl": "https://doi.org/10.7910/DVN/R6GB0B",
+    "paperUrl": "https://doi.org/10.7910/DVN/R6GB0B",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code",
+      "stimuli"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Randomized experiments, treatment effect estimation, and causal inference examples with experimental stimuli and reproducible code.",
+    "note": "Auto-discovered from Harvard Dataverse. Description states that data, code, and stimuli replicate the results."
+  },
+  {
+    "id": "dataverse-pkuwba-waste-segregation-experiment",
+    "title": "Low-Cost Interventions to Promote Household Waste Segregation in Developing Countries: Experimental Evidence from Bangladesh",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse data for experimental evidence on household waste segregation interventions in Bangladesh",
+    "datasetUrl": "https://doi.org/10.7910/DVN/PKUWBA",
+    "paperUrl": "https://doi.org/10.7910/DVN/PKUWBA",
+    "access": "open",
+    "formats": [
+      "dataverse data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments"
+    ],
+    "bestFor": "Randomized experiments, causal inference, and treatment effect estimation examples using low-cost intervention data.",
+    "note": "Auto-discovered from Harvard Dataverse. Title identifies experimental evidence, and the record provides data for the working paper."
+  },
+  {
+    "id": "dataverse-so13ox-kazakhstan-cohort-tracking",
+    "title": "Tracking the 2020 Cohort from High-School Graduation Through University to Teacher Career Entry in Kazakhstan",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse linked administrative dataset following a Kazakhstan student cohort from graduation through higher education and career entry",
+    "datasetUrl": "https://doi.org/10.7910/DVN/SO13OX",
+    "paperUrl": "https://doi.org/10.7910/DVN/SO13OX",
+    "access": "open",
+    "formats": [
+      "dataverse administrative data",
+      "linked cohort data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Longitudinal data analysis and panel data methods examples using linked administrative cohort data.",
+    "note": "Auto-discovered from Harvard Dataverse. Description says the dataset tracks 69,754 graduates through multiple administrative sources."
+  },
+  {
+    "id": "dataverse-lw8gpp-chile-polarization-survey",
+    "title": "Citizens' Views and Polarization Around Historical Divisions: The Case of Chile 50 Years After the Coup",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data for an online survey on historical divisions and affective polarization in Chile",
+    "datasetUrl": "https://doi.org/10.7910/DVN/LW8GPP",
+    "paperUrl": "https://doi.org/10.7910/DVN/LW8GPP",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "online survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "Survey methodology examples involving online survey data, polarization measures, and historical political attitudes.",
+    "note": "Auto-discovered from Harvard Dataverse. Description identifies an online survey and replication data for Political Science Quarterly."
+  },
+  {
+    "id": "dataverse-cnlxzj-india-election-forecasting",
+    "title": "AFOS India 2024 Lok Sabha Electoral Cross-Reference Dataset",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset cross-referencing prediction markets, polls, exit polls, and official election results for India 2024",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CNLXZJ",
+    "paperUrl": "https://doi.org/10.7910/DVN/CNLXZJ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "time series",
+      "polling data",
+      "reproduction script"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "survey methodology"
+    ],
+    "bestFor": "Time series analysis, time series forecasting, and survey methodology examples involving prediction markets, polls, exit polls, and official outcomes.",
+    "note": "Auto-discovered from Harvard Dataverse. Description reports daily market-odds time series, polls, exit polls, official results, and a reproduction script."
+  },
+  {
+    "id": "zenodo-21574400-regimemamba-probabilistic-forecasting",
+    "title": "RegimeMamba: Regime-Sensitive Conditional Diffusion for Multi-Asset Probabilistic Forecasting",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo reproducibility artifact for probabilistic multi-asset return forecasting with regime-sensitive conditional diffusion",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21574400",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21574400",
+    "access": "open",
+    "formats": [
+      "zenodo reproducibility artifact",
+      "code",
+      "evaluation data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Time series forecasting and time series analysis examples involving probabilistic forecasting for multi-asset returns.",
+    "note": "Auto-discovered from Zenodo. Description says the archive includes a paper-compatible implementation and reproducibility artifact for probabilistic multi-asset return forecasting."
   }
 ]
