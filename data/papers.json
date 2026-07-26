@@ -37460,5 +37460,413 @@
     ],
     "bestFor": "Time series forecasting and time series analysis examples involving probabilistic forecasting for multi-asset returns.",
     "note": "Auto-discovered from Zenodo. Description says the archive includes a paper-compatible implementation and reproducibility artifact for probabilistic multi-asset return forecasting."
+  },
+  {
+    "id": "dataverse-yjrei4-chinese-peacekeeping-panel",
+    "title": "Responsibility and Resources: The Political Economy of Chinese Deployment to UN Peacekeeping Operations",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication dataset for statistical analysis of Chinese deployment to UN peacekeeping operations",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YJREI4",
+    "paperUrl": "https://doi.org/10.7910/DVN/YJREI4",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods and longitudinal data analysis examples involving international security deployment data over repeated missions or time periods.",
+    "note": "Auto-discovered from Harvard Dataverse. The record provides a replication dataset for a statistical study of Chinese deployments to UN peacekeeping operations."
+  },
+  {
+    "id": "dataverse-dzh8sl-kazakhstan-twins-linked-records",
+    "title": "Linked Dataset of Graduation Records, Exam Scores and University Enrollment for Kazakhstan Twins, 2021-2024",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse linked administrative dataset of Kazakhstan twin pairs with graduation records, exam scores, and university enrollment",
+    "datasetUrl": "https://doi.org/10.7910/DVN/DZH8SL",
+    "paperUrl": "https://doi.org/10.7910/DVN/DZH8SL",
+    "access": "open",
+    "formats": [
+      "dataverse linked administrative data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Longitudinal data analysis and panel data methods examples using linked administrative cohort records.",
+    "note": "Auto-discovered from Harvard Dataverse. Description says the dataset links national administrative systems for 3,108 twin pairs from 2021 to 2024."
+  },
+  {
+    "id": "dataverse-fjsyme-work-family-parenthood-penalties",
+    "title": "Incentivizing Equality? How Work-Family Policies Affect Parenthood Penalties in 27 Countries",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package with public data and code for work-family policies and parenthood penalties across 27 countries",
+    "datasetUrl": "https://doi.org/10.7910/DVN/FJSYME",
+    "paperUrl": "https://doi.org/10.7910/DVN/FJSYME",
+    "access": "open",
+    "formats": [
+      "dataverse replication data",
+      "code",
+      "public data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, and causal inference examples for cross-country policy evaluation.",
+    "note": "Auto-discovered from Harvard Dataverse. Description says the package contains code and publicly available data needed to replicate all analyses."
+  },
+  {
+    "id": "dataverse-z0a9ko-ceo-compensation-acquisitions",
+    "title": "CEO Compensation Changes Following Acquisitions",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for CEO compensation changes following acquisitions",
+    "datasetUrl": "https://doi.org/10.7910/DVN/Z0A9KO",
+    "paperUrl": "https://doi.org/10.7910/DVN/Z0A9KO",
+    "access": "open",
+    "formats": [
+      "dataverse replication data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, and causal inference examples around corporate events and compensation outcomes.",
+    "note": "Auto-discovered from Harvard Dataverse. The record is a replication package for a JFQA paper accepted in 2026."
+  },
+  {
+    "id": "dataverse-ljm9e4-judicial-conduct-archive",
+    "title": "Digital Archive of Judicial Conduct: Disciplinary Decisions, UK 2022-2026",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse structured dataset of UK judicial conduct disciplinary decisions from 2022 to 2026 with extracted text and annual overviews",
+    "datasetUrl": "https://doi.org/10.7910/DVN/LJM9E4",
+    "paperUrl": "https://doi.org/10.7910/DVN/LJM9E4",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "text data",
+      "code",
+      "supplemental PDFs"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Longitudinal data analysis examples using structured repeated institutional records and extracted text over time.",
+    "note": "Auto-discovered from Harvard Dataverse. Description identifies 280 disciplinary statements, annual overviews, extracted structured text, and supplementary materials."
+  },
+  {
+    "id": "dataverse-cukdrj-afos-uk-electoral-divergence",
+    "title": "AFOS United Kingdom 2024 Electoral Divergence Dataset",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse electoral divergence dataset cross-referencing prediction markets, polls, and official UK 2024 election results",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CUKDRJ",
+    "paperUrl": "https://doi.org/10.7910/DVN/CUKDRJ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "polling data",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "survey methodology"
+    ],
+    "bestFor": "Time series forecasting, time series analysis, and survey methodology examples using prediction markets, polling, and election outcomes.",
+    "note": "Auto-discovered from Harvard Dataverse. Description says the dataset cross-references prediction markets, polls, and official election results."
+  },
+  {
+    "id": "dataverse-wrbdvi-afos-south-korea-electoral-divergence",
+    "title": "AFOS South Korea 2025 Electoral Divergence Dataset",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse electoral divergence dataset for the South Korea 2025 snap presidential election",
+    "datasetUrl": "https://doi.org/10.7910/DVN/WRBDVI",
+    "paperUrl": "https://doi.org/10.7910/DVN/WRBDVI",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "polling data",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "survey methodology"
+    ],
+    "bestFor": "Time series forecasting, time series analysis, and survey methodology examples using polling divergence and election outcomes.",
+    "note": "Auto-discovered from Harvard Dataverse. Description identifies a validated electoral divergence dataset for South Korea's 2025 snap presidential election."
+  },
+  {
+    "id": "dataverse-njtbem-localview-public-meetings",
+    "title": "LocalView Public Meetings Database",
+    "authors": "Soubhik Barari, Tyler Simko, Mason Reece",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse database of local government public meetings in the United States with code and structured meeting metadata",
+    "datasetUrl": "https://doi.org/10.7910/DVN/NJTBEM",
+    "paperUrl": "https://doi.org/10.7910/DVN/NJTBEM",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "text/video-derived metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Longitudinal data analysis and panel data methods examples using repeated institutional meeting records across local governments.",
+    "note": "Auto-discovered from Harvard Dataverse. Description says LocalView is the largest dataset of local government public meetings and includes code."
+  },
+  {
+    "id": "zenodo-21603179-harmonized-monthly-macroeconomic-panel",
+    "title": "Harmonized Monthly Macroeconomic Panel with Business-Cycle Labels",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo reproducibility artifact for a harmonized monthly macroeconomic panel with business-cycle labels and reconstruction scripts",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21603179",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21603179",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "reconstruction script",
+      "monthly panel"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Time series analysis, time series forecasting, panel data methods, and longitudinal data analysis examples with monthly macroeconomic indicators.",
+    "note": "Auto-discovered from Zenodo. Description identifies a harmonized monthly panel of macroeconomic, fiscal, and monetary indicators with business-cycle labels and reconstruction scripts."
+  },
+  {
+    "id": "zenodo-21611680-measuring-foreign-exposure",
+    "title": "Measuring Foreign Exposure",
+    "authors": "Jean Imbs, Laurent Pauwels",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication archive with raw input data and code for Measuring Foreign Exposure in the Journal of International Economics",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21611680",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21611680",
+    "access": "open",
+    "formats": [
+      "zenodo replication data",
+      "code",
+      "raw input data",
+      "GitHub-linked structure"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, and causal inference examples using international exposure and economic data.",
+    "note": "Auto-discovered from Zenodo. Description states that the archive contains raw input data required to replicate all results in Imbs and Pauwels (2025)."
+  },
+  {
+    "id": "zenodo-21612184-tropical-cyclone-wind-decay",
+    "title": "How Much Do Mountains Matter? Revisiting the Kaplan-DeMaria Model for Terrain-Dependent Tropical Cyclone Wind Decay in the Philippines",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo code and derived datasets for tropical cyclone wind-decay modeling and forecasting in the Philippines",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21612184",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21612184",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "derived data",
+      "per-fold predictions"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "risk prediction",
+      "time series forecasting",
+      "spatial statistics"
+    ],
+    "bestFor": "Time series forecasting, time series analysis, spatial statistics, and risk prediction examples with tropical cyclone trajectories and per-fold predictions.",
+    "note": "Auto-discovered from Zenodo. Description identifies analysis scripts, derived datasets, per-fold predictions, and result tables for a forecasting manuscript."
+  },
+  {
+    "id": "zenodo-21611751-calendar-graph-fused-sparse-pca",
+    "title": "Calendar Graph-Fused Sparse PCA",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo research software and example resources for sparse locally coherent principal components from multi-periodic calendar data",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21611751",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21611751",
+    "access": "open",
+    "formats": [
+      "zenodo software",
+      "example data/code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "high-dimensional statistics",
+      "time series analysis",
+      "variable selection"
+    ],
+    "bestFor": "Dimension reduction, variable selection, high-dimensional statistics, and time series analysis examples using sparse PCA on calendar-structured data.",
+    "note": "Auto-discovered from Zenodo. Description identifies research software for sparse locally coherent principal components from multi-periodic calendar data."
+  },
+  {
+    "id": "zenodo-21610828-level-breaks-gls-detrending",
+    "title": "Level Breaks and Finite-Sample GLS Detrending",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication package with public data and code for level breaks, finite-sample GLS detrending, and point-optimal unit root testing",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21610828",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21610828",
+    "access": "open",
+    "formats": [
+      "zenodo replication package",
+      "public data",
+      "code",
+      "supplement"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Time series analysis and resampling methods examples involving unit root tests, finite-sample inference, and reproducible simulation or empirical code.",
+    "note": "Auto-discovered from Zenodo. Description says the package contains replication code and public data for level breaks and finite-sample GLS detrending."
+  },
+  {
+    "id": "zenodo-21604806-commodity-futures-multiscale-analysis",
+    "title": "Nonlinear Complexity Decomposition of Commodity Futures: Evidence from Multiscale Analysis, 2019-2026",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo Python and R code with derived result matrices for multiscale time-series analysis of commodity futures",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21604806",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21604806",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "Python code",
+      "R code",
+      "derived matrices"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Time series analysis and time series forecasting examples using multiscale decomposition of commodity futures.",
+    "note": "Auto-discovered from Zenodo. Description states that Python/R code and derived result matrices support the manuscript."
   }
 ]
