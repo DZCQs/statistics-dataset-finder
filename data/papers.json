@@ -37868,5 +37868,406 @@
     ],
     "bestFor": "Time series analysis and time series forecasting examples using multiscale decomposition of commodity futures.",
     "note": "Auto-discovered from Zenodo. Description states that Python/R code and derived result matrices support the manuscript."
+  },
+  {
+    "id": "dataverse-7qoq0h",
+    "title": "Replication Data for: Comparing Unit-Nonresponse Patterns Among Immigrant-Origin and Native Voters in a Register-Based Local Survey",
+    "authors": "Elis, Jonas",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Comparing Unit-Nonresponse Patterns Among Immigrant-Origin and Native Voters in a Register-Based Local Survey",
+    "datasetUrl": "https://doi.org/10.7910/DVN/7QOQ0H",
+    "paperUrl": "https://doi.org/10.7910/DVN/7QOQ0H",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code",
+      "Python code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "missing data",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-0bzpbm",
+    "title": "Operational feasibility of appropriate radical cure of Plasmodium vivax after semi-quantitative G6PD testing in Ethiopia: A mixed methods study",
+    "authors": "Gerth-Guyette, Emily, Gerth-Guyette, Emily, Gadisa, Endalamaw",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Operational feasibility of appropriate radical cure of Plasmodium vivax after semi-quantitative G6PD testing in Ethiopia: A mixed methods study",
+    "datasetUrl": "https://doi.org/10.7910/DVN/0BZPBM",
+    "paperUrl": "https://doi.org/10.7910/DVN/0BZPBM",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [],
+    "bestFor": "causal inference examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-ym3gfx",
+    "title": "Replication Data for: Cadre Control and Coercion: How Centralized Appointments of Subnational Officials Intensify Judicial Repression",
+    "authors": "Torikai, Masatomo, Torikai, Masatomo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Cadre Control and Coercion: How Centralized Appointments of Subnational Officials Intensify Judicial Repression",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YM3GFX",
+    "paperUrl": "https://doi.org/10.7910/DVN/YM3GFX",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-3ozruh",
+    "title": "Replication Data for: How Far Will Citizens Go for Transborder Ethnic Kin? Public Support for Kin-State Policies in Serbia",
+    "authors": "Dzebo, Semir",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: How Far Will Citizens Go for Transborder Ethnic Kin? Public Support for Kin-State Policies in Serbia",
+    "datasetUrl": "https://doi.org/10.7910/DVN/3OZRUH",
+    "paperUrl": "https://doi.org/10.7910/DVN/3OZRUH",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-ylxuys",
+    "title": "Replication Files for Not All Defense Spending Converges Equally: Uneven Convergence in NATO Defense Spending Composition after the Wales Pledge",
+    "authors": "Becker, Jordan, Becker, Jordan, Francis X. Murphy",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Files for Not All Defense Spending Converges Equally: Uneven Convergence in NATO Defense Spending Composition after the Wales Pledge",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YLXUYS",
+    "paperUrl": "https://doi.org/10.7910/DVN/YLXUYS",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21631793-nbi-component-rating-transfer-and-portfolio-worklist-benchmark",
+    "title": "NBI Component-Rating Transfer and Portfolio Worklist Benchmark",
+    "authors": "Saqif, Musawer Ahmad",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: NBI Component-Rating Transfer and Portfolio Worklist Benchmark",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21631793",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21631793",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "risk prediction"
+    ],
+    "bestFor": "panel data methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-cdteer",
+    "title": "Composition of Mexican Local Congresses, 2000–2026",
+    "authors": "Villalobos, Carlos",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Composition of Mexican Local Congresses, 2000–2026",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CDTEER",
+    "paperUrl": "https://doi.org/10.7910/DVN/CDTEER",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-agfttk",
+    "title": "Valuing Unpaid Household Labor and Its Impact on GDP: A Nine-Country Panel for Latin America (2010–2024)",
+    "authors": "Aranda Medrano, Laura Pamela",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Valuing Unpaid Household Labor and Its Impact on GDP: A Nine-Country Panel for Latin America (2010–2024)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/AGFTTK",
+    "paperUrl": "https://doi.org/10.7910/DVN/AGFTTK",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "survey methodology"
+    ],
+    "bestFor": "panel data methods, survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21631577-the-long-run-determinants-of-dried-fig-exports-evidence-from-panel-cointegration",
+    "title": "The Long-Run Determinants of Dried Fig Exports: Evidence from Panel Cointegration and Error-Correction Models",
+    "authors": "Bulut, Mutlu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: The Long-Run Determinants of Dried Fig Exports: Evidence from Panel Cointegration and Error-Correction Models",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21631577",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21631577",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "panel data methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21631339-polinequal-dataset-and-questionnaire-gb-fr-se-2024-2025-contact-with-poorer-rich",
+    "title": "Polinequal dataset and questionnaire GB/FR/SE 2024-2025; contact with poorer/richer people, emotions, and redistributive preferences",
+    "authors": "Zmerli, Sonja",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Polinequal dataset and questionnaire GB/FR/SE 2024-2025; contact with poorer/richer people, emotions, and redistributive preferences",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21631339",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21631339",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-tuwnk1",
+    "title": "Replication Data for: \"Estimating the Term Premium: Sample Periods Matter\"",
+    "authors": "Li, Zehao",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: \"Estimating the Term Premium: Sample Periods Matter\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/TUWNK1",
+    "paperUrl": "https://doi.org/10.7910/DVN/TUWNK1",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-wda5hu",
+    "title": "Replication Data for: The Punitiveness of the Mass Public: Lessons From Exploratory Studies",
+    "authors": "Mullinix, Kevin, Mullinix, Kevin, Brophy, Nathaniel, Brophy, Nathaniel, Robert J Norris, Kyra Cornell",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: The Punitiveness of the Mass Public: Lessons From Exploratory Studies",
+    "datasetUrl": "https://doi.org/10.7910/DVN/WDA5HU",
+    "paperUrl": "https://doi.org/10.7910/DVN/WDA5HU",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-nd5va5",
+    "title": "Experimental Survey and Expert Evaluation Dataset for Privacy-Preserving Affective Interaction in Dark Heritage (PAI-Heritage)",
+    "authors": "Liwen Fan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Experimental Survey and Expert Evaluation Dataset for Privacy-Preserving Affective Interaction in Dark Heritage (PAI-Heritage)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ND5VA5",
+    "paperUrl": "https://doi.org/10.7910/DVN/ND5VA5",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-snh7ry",
+    "title": "Replication Data for: User–AI–Physician Collaboration",
+    "authors": "Tang, Guyue",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: User–AI–Physician Collaboration",
+    "datasetUrl": "https://doi.org/10.7910/DVN/SNH7RY",
+    "paperUrl": "https://doi.org/10.7910/DVN/SNH7RY",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-18884943-reproducibility-package-for-behavioral-constraint-legibility-under-concealment",
+    "title": "Reproducibility Package for \"Behavioral Constraint Legibility Under Concealment\"",
+    "authors": "Benchetrit, Assaf",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Reproducibility Package for \"Behavioral Constraint Legibility Under Concealment\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.18884943",
+    "paperUrl": "https://doi.org/10.5281/zenodo.18884943",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   }
 ]
