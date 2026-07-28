@@ -34139,8 +34139,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "risk prediction",
@@ -34484,8 +34483,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "variable selection",
@@ -34601,8 +34599,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "dimension reduction",
@@ -34692,8 +34689,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "high-dimensional statistics",
@@ -34871,8 +34867,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "functional data analysis",
@@ -34903,8 +34898,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "variable selection",
@@ -34935,8 +34929,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "survival analysis",
@@ -35127,8 +35120,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "graphical models",
@@ -35271,8 +35263,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "regression discontinuity designs",
@@ -35302,8 +35293,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "regression discontinuity designs",
@@ -35361,8 +35351,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "regression discontinuity designs",
@@ -35392,8 +35381,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "difference-in-differences",
@@ -35423,8 +35411,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -35454,8 +35441,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -35628,8 +35614,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "instrumental variables",
@@ -35659,8 +35644,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "instrumental variables",
@@ -35690,8 +35674,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "instrumental variables",
@@ -35723,8 +35706,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "difference-in-differences",
@@ -35755,8 +35737,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "regression discontinuity designs",
@@ -35786,8 +35767,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "regression discontinuity designs",
@@ -35818,8 +35798,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "bayesian inference",
@@ -35851,8 +35830,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "quasi-experimental designs",
@@ -36022,8 +36000,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "survey methodology",
@@ -36053,8 +36030,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -36141,8 +36117,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -36199,8 +36174,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "panel data methods",
@@ -36259,8 +36233,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "complex survey design",
@@ -36318,8 +36291,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -36377,8 +36349,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -36554,8 +36525,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "time series analysis",
@@ -36776,8 +36746,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "heterogeneous treatment effects",
@@ -37115,8 +37084,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -37171,8 +37139,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -37200,8 +37167,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -37254,8 +37220,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "survey methodology",
@@ -37535,8 +37500,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -37562,8 +37526,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -37706,8 +37669,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "time series analysis",
@@ -37738,8 +37700,7 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "causal inference",
@@ -38017,8 +37978,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "panel data methods",
@@ -38100,8 +38060,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "panel data methods",
@@ -38205,8 +38164,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "survey methodology",
@@ -38269,5 +38227,546 @@
     ],
     "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-rkywec",
+    "title": "Replication Data for: High-Speed Rail Expansion and Electric Vehicle Adoption in Spain",
+    "authors": "Yu, Zeqian, Yu, Zeqian, Gardeazabal, Javier, Gardeazabal, Javier",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: High-Speed Rail Expansion and Electric Vehicle Adoption in Spain",
+    "datasetUrl": "https://doi.org/10.7910/DVN/RKYWEC",
+    "paperUrl": "https://doi.org/10.7910/DVN/RKYWEC",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "difference-in-differences",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Difference-in-differences, causal inference, panel data methods, and spatial statistics examples using replication data/code for high-speed rail expansion and electric-vehicle adoption.",
+    "note": "Auto-discovered from Dataverse. The replication record states that final datasets plus Stata csdid/drdid, R spatial analysis, and Python scripts reproduce all paper tables and figures."
+  },
+  {
+    "id": "dataverse-uodlxx",
+    "title": "Replication Data for: 'Undeserving winners' or 'undeserved losers'? Two types of societal discontent and their relation to vote choice",
+    "authors": "Breyer, Magdalena, Breyer, Magdalena, Zollinger, Delia, Zollinger, Delia, Palmtag, Tabea, Palmtag, Tabea",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: 'Undeserving winners' or 'undeserved losers'? Two types of societal discontent and their relation to vote choice",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UODLXX",
+    "paperUrl": "https://doi.org/10.7910/DVN/UODLXX",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "Survey methodology and political-behavior examples using open-ended survey responses and replication data.",
+    "note": "Auto-discovered from Dataverse. The record provides replication data for a survey-based electoral-behavior article using open-ended responses from Germany."
+  },
+  {
+    "id": "dataverse-wi9dtx",
+    "title": "Replication Data for: Accumulated, Not Bought: Learning Curves and the US–China EV Unit-Cost Gap",
+    "authors": "Altayligil, Yasin Baris, altayligil, yasin baris",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Accumulated, Not Bought: Learning Curves and the US–China EV Unit-Cost Gap",
+    "datasetUrl": "https://doi.org/10.7910/DVN/WI9DTX",
+    "paperUrl": "https://doi.org/10.7910/DVN/WI9DTX",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "R code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, policy event-study, and resampling-inference examples using quarterly firm-level EV cost data.",
+    "note": "Auto-discovered from Dataverse. The record describes a quarterly firm panel from 2019Q1 to 2026Q1 with R code, event-time policy tests, and wild cluster bootstrap inference."
+  },
+  {
+    "id": "dataverse-ohb2t1",
+    "title": "Replication Data for: \"Does Listening to Trustworthy News Affect Political Attitudes and Trust?\"",
+    "authors": "Guess, Andy, Barbera, Pablo, Barbera, Pablo, Munzert, Simon, Munzert, Simon, Yang, JungHwan, Yang, JungHwan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: \"Does Listening to Trustworthy News Affect Political Attitudes and Trust?\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/OHB2T1",
+    "paperUrl": "https://doi.org/10.7910/DVN/OHB2T1",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey experiments",
+      "randomized experiments",
+      "survey methodology",
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Survey experiments, randomized experiments, causal inference, and survey methodology examples using a two-wave mobile field experiment.",
+    "note": "Auto-discovered from Dataverse. The record describes a randomized mobile field experiment embedded in survey waves and provides replication data."
+  },
+  {
+    "id": "dataverse-j59ilf",
+    "title": "Replication Data for: Incubating revolution: how social networks and the built environment sustain mobilization",
+    "authors": "Abuzaid, Motasem, Abuzaid, Motasem , Mazur, Kevin, Mazur, Kevin",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Incubating revolution: how social networks and the built environment sustain mobilization",
+    "datasetUrl": "https://doi.org/10.7910/DVN/J59ILF",
+    "paperUrl": "https://doi.org/10.7910/DVN/J59ILF",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods, spatial statistics, and social-network analysis examples with replication data for mobilization research.",
+    "note": "Auto-discovered from Dataverse. The record provides replication data for a Comparative Political Studies article on social networks and the built environment."
+  },
+  {
+    "id": "zenodo-21631935-replogle-et-al-2022-reanalysis-perturbmatch-differential-expression-matrices-and",
+    "title": "Replogle et al. (2022) reanalysis: perturbmatch differential expression matrices and processed objects",
+    "authors": "Yeung, Jake, Tan, Jenille, Wang, Liang, Wu, Diana, Melo Carlos, Sandra, Kageyama, Jorge, Kamm, Jack, Chu, Benjamin B, Mayba, Oleg, Forrest, William F, Xie, Shiqi",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replogle et al. (2022) reanalysis: perturbmatch differential expression matrices and processed objects",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21631935",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21631935",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "dimension reduction"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, dimension reduction, and risk prediction examples using Perturb-seq differential-expression matrices.",
+    "note": "Auto-discovered from Zenodo. The record provides differential-expression matrices, z-scores, standard errors, similarity matrices, and processed SingleCellExperiment objects for a Perturb-seq reanalysis."
+  },
+  {
+    "id": "zenodo-21432933-sigrecon-drugmatrix-perturbational-signatures",
+    "title": "sigrecon: DrugMatrix perturbational signatures",
+    "authors": "Chen, Andrew, Monti, Stefano",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: sigrecon: DrugMatrix perturbational signatures",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21432933",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21432933",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "dimension reduction"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, and risk prediction examples using DrugMatrix perturbational signatures for method benchmarking.",
+    "note": "Auto-discovered from Zenodo. The record provides DEG signature matrices for the sigrecon R package benchmarking pipeline."
+  },
+  {
+    "id": "zenodo-21432935-sigrecon-sciplex-perturbational-signatures",
+    "title": "sigrecon: SciPlex perturbational signatures",
+    "authors": "Chen, Andrew, Monti, Stefano",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: sigrecon: SciPlex perturbational signatures",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21432935",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21432935",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "dimension reduction"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, and risk prediction examples using SciPlex perturbational signatures for method benchmarking.",
+    "note": "Auto-discovered from Zenodo. The record provides differential-expression signatures across cell lines and drugs as companion data for sigrecon benchmarking."
+  },
+  {
+    "id": "zenodo-21432937-sigrecon-perturb-seq-perturbational-signatures",
+    "title": "sigrecon: Perturb-seq perturbational signatures",
+    "authors": "Chen, Andrew, Monti, Stefano",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: sigrecon: Perturb-seq perturbational signatures",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21432937",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21432937",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "dimension reduction"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, and risk prediction examples using Perturb-seq perturbational signatures.",
+    "note": "Auto-discovered from Zenodo. The record provides top-ranked and full DEG signatures for CRISPRi knockdowns versus controls as companion data for sigrecon benchmarking."
+  },
+  {
+    "id": "zenodo-21433011-sigrecon-sciplex-raw-pseudobulk-expression",
+    "title": "sigrecon: SciPlex raw pseudobulk expression",
+    "authors": "Chen, Andrew, Monti, Stefano",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: sigrecon: SciPlex raw pseudobulk expression",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21433011",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21433011",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "dimension reduction"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, dimension reduction, and risk prediction examples using pseudobulk expression counts.",
+    "note": "Auto-discovered from Zenodo. The record provides raw pseudobulk expression objects used as inputs to the sigrecon benchmarking pipeline."
+  },
+  {
+    "id": "zenodo-21433138-sigrecon-perturb-seq-raw-pseudobulk-expression",
+    "title": "sigrecon: Perturb-seq raw pseudobulk expression",
+    "authors": "Chen, Andrew, Monti, Stefano",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: sigrecon: Perturb-seq raw pseudobulk expression",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21433138",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21433138",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "dimension reduction"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, dimension reduction, and risk prediction examples using Perturb-seq pseudobulk expression counts and metadata.",
+    "note": "Auto-discovered from Zenodo. The record provides raw pseudobulk expression counts and metadata for Perturb-seq K562 and RPE1 cells, with analysis code linked through sigrecon."
+  },
+  {
+    "id": "zenodo-21433031-sigrecon-drugmatrix-raw-pseudobulk-expression",
+    "title": "sigrecon: DrugMatrix raw pseudobulk expression",
+    "authors": "Chen, Andrew, Monti, Stefano",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: sigrecon: DrugMatrix raw pseudobulk expression",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21433031",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21433031",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "dimension reduction"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, dimension reduction, and risk prediction examples using DrugMatrix pseudobulk expression data.",
+    "note": "Auto-discovered from Zenodo. The record provides raw pseudobulk expression for DrugMatrix liver and kidney tissue used in a benchmarking pipeline."
+  },
+  {
+    "id": "dataverse-ow7hum",
+    "title": "Replication Data for \"Social Ties and Fiscal Transfers in a Regional Economy: A Quantitative Spatial Analysis\"",
+    "authors": "Duan, Yuwan, Yatang Lin, Yi LU",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for \"Social Ties and Fiscal Transfers in a Regional Economy: A Quantitative Spatial Analysis\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/OW7HUM",
+    "paperUrl": "https://doi.org/10.7910/DVN/OW7HUM",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Spatial statistics, panel data methods, and econometric replication examples using regional fiscal-transfer data and code.",
+    "note": "Auto-discovered from Dataverse. The record provides Stata and MATLAB replication code for a Review of Economics and Statistics article described as a quantitative spatial analysis."
+  },
+  {
+    "id": "zenodo-21647159-replication-package-for-what-can-a-consumer-price-index-register-vat-pass-throug",
+    "title": "Replication package for \"What can a consumer price index register? VAT pass-through in a partly invoiced economy, with evidence from Vietnam\"",
+    "authors": "Hà, Thị Đoan Trang, Vũ, Ngọc Dũng, Nguyễn, Thu Hương",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication package for \"What can a consumer price index register? VAT pass-through in a partly invoiced economy, with evidence from Vietnam\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21647159",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21647159",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Stata code",
+      "Python code",
+      "survey data",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "survey methodology",
+      "resampling methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Time series analysis, panel data methods, survey methodology, and resampling methods examples using CPI components and randomisation-test diagnostics.",
+    "note": "Auto-discovered from Zenodo. The record provides data and code reproducing a VAT pass-through paper, including CPI component panels, household expenditure cross-tabulations, diagnostics, and randomisation tests."
+  },
+  {
+    "id": "zenodo-21647724-replication-package-reconstructing-grid-emission-intensity-for-poland-and-testin",
+    "title": "Replication package: Reconstructing Grid Emission Intensity for Poland and Testing Its Response to EU ETS Carbon Prices (MethodsX)",
+    "authors": "Dominiak, Adam, Rusowicz, Artur",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication package: Reconstructing Grid Emission Intensity for Poland and Testing Its Response to EU ETS Carbon Prices (MethodsX)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21647724",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21647724",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Time series analysis, causal inference, and panel data methods examples using energy-emissions series and replication code.",
+    "note": "Auto-discovered from Zenodo. The record provides raw official emissions and price data, processed series, VAR inputs, and R/Python replication scripts."
+  },
+  {
+    "id": "zenodo-21538147-mpis-study-data",
+    "title": "MPIS Study Data",
+    "authors": "Tisch, Valeria, Konigorski, Stefan, Neumayer, Hannah",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: MPIS Study Data",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21538147",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21538147",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "randomized experiments",
+      "missing data",
+      "multiple imputation",
+      "causal inference"
+    ],
+    "bestFor": "Longitudinal data analysis, randomized experiments, missing data, and multiple imputation examples using N-of-1 trial data.",
+    "note": "Auto-discovered from Zenodo. The record describes 36 cycle-adaptive N-of-1 trials with daily self-reported outcomes and imputation of missing trial data."
+  },
+  {
+    "id": "zenodo-21643443-data-and-scripts-for-hgpr-a-hierarchical-gaussian-process-framework-for-active-l",
+    "title": "Data and scripts for \"Δ-HGPR: A Hierarchical Gaussian Process Framework for Active-Learning Δ-Potentials\"",
+    "authors": "Nakajima, Takahito",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data and scripts for \"Δ-HGPR: A Hierarchical Gaussian Process Framework for Active-Learning Δ-Potentials\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21643443",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21643443",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian hierarchical models",
+      "bayesian inference",
+      "multilevel modeling"
+    ],
+    "bestFor": "Bayesian hierarchical models, Gaussian process modeling, active learning, and uncertainty quantification examples using open data and scripts.",
+    "note": "Auto-discovered from Zenodo. The record provides data, model states, uncertainty data, and scripts for a hierarchical Gaussian process framework."
+  },
+  {
+    "id": "zenodo-21649531-online-particle-filter-osse-diagnostics-and-experiment-code-for-amoc-reconstruct",
+    "title": "Online particle-filter OSSE diagnostics and experiment code for AMOC reconstruction (pypfda v1.0)",
+    "authors": "Fallah, Bijan, Huiskamp, Willem, Goosse, Hugues, Tiwari, Shivangi, Rahmstorf, Stefan, Rostami, Masoud",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Online particle-filter OSSE diagnostics and experiment code for AMOC reconstruction (pypfda v1.0)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21649531",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21649531",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "resampling methods",
+      "high-dimensional statistics",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Sequential Monte Carlo, time series analysis, high-dimensional statistics, and resampling methods examples using particle-filter diagnostics.",
+    "note": "Auto-discovered from Zenodo. The record provides particle-filter OSSE diagnostics, ensemble time series, effective sample sizes, importance weights, genealogy histories, and experiment scripts."
+  },
+  {
+    "id": "zenodo-21651566-master-analytical-dataset-esp-content-collaborative-teaching-and-longitudinal-st",
+    "title": "Master Analytical Dataset: ESP-Content Collaborative Teaching and Longitudinal Student Motivation Frameworks (Vols. 1–7)",
+    "authors": "Lavado, Isabele",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Master Analytical Dataset: ESP-Content Collaborative Teaching and Longitudinal Student Motivation Frameworks (Vols. 1–7)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21651566",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21651566",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "survey methodology",
+      "multilevel modeling"
+    ],
+    "bestFor": "Longitudinal data analysis, survey methodology, and multilevel modeling examples using multi-cohort student motivation data.",
+    "note": "Auto-discovered from Zenodo. The record describes a longitudinal analytical dataset tracking student motivation, self-efficacy, and intervention-related measures across cohorts."
   }
 ]
