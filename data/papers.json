@@ -38768,5 +38768,509 @@
     ],
     "bestFor": "Longitudinal data analysis, survey methodology, and multilevel modeling examples using multi-cohort student motivation data.",
     "note": "Auto-discovered from Zenodo. The record describes a longitudinal analytical dataset tracking student motivation, self-efficacy, and intervention-related measures across cohorts."
+  },
+  {
+    "id": "dataverse-s0mqcp",
+    "title": "Lives and Livelihoods of Floating Laborers in Dhaka City: Survey Dataset, 2025-2026",
+    "authors": "Habib, Ahsan, Siddiq, Abu B., Siddiq, Abu B.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Lives and Livelihoods of Floating Laborers in Dhaka City: Survey Dataset, 2025-2026",
+    "datasetUrl": "https://doi.org/10.7910/DVN/S0MQCP",
+    "paperUrl": "https://doi.org/10.7910/DVN/S0MQCP",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "nonresponse adjustment",
+      "missing data"
+    ],
+    "bestFor": "Survey methodology, complex survey design, nonresponse adjustment, and missing-data examples using venue-based labor-market survey microdata.",
+    "note": "Auto-discovered from Dataverse. The record provides anonymized face-to-face survey microdata for 750 floating day laborers with venue-based time-location sampling and detailed respondent variables."
+  },
+  {
+    "id": "dataverse-e28xjx",
+    "title": "IsoGSM LETKF Ensemble Mean Analysis Outputs for Water Vapor Isotope Assimilation Experiments (February and August 2017)",
+    "authors": "Toride, Kinya, Toride, Kinya",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: IsoGSM LETKF Ensemble Mean Analysis Outputs for Water Vapor Isotope Assimilation Experiments (February and August 2017)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/E28XJX",
+    "paperUrl": "https://doi.org/10.7910/DVN/E28XJX",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "spatial statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Time series analysis, spatial statistics, resampling methods, and forecasting examples using LETKF ensemble data-assimilation outputs.",
+    "note": "Auto-discovered from Dataverse. The record provides 6-hourly gridded ensemble-mean atmospheric analysis outputs from IsoGSM-LETKF water-vapor isotope assimilation experiments."
+  },
+  {
+    "id": "dataverse-zr8u7n",
+    "title": "Panel Dataset and Statistical Appendix: Fiscal Capacity as a Precondition for Carbon Taxation: Evidence from 83 Developing Countries",
+    "authors": "Ismatullah, Ismet, Ismatullah, Ismet, Himawan, Irfan Sophan, Himawan, Irfan Sophan, Amal, Muhammad Khairul, Amal, Muhammad Khairul",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Panel Dataset and Statistical Appendix: Fiscal Capacity as a Precondition for Carbon Taxation: Evidence from 83 Developing Countries",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZR8U7N",
+    "paperUrl": "https://doi.org/10.7910/DVN/ZR8U7N",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "causal inference"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, and causal inference examples using a two-way fixed-effects country panel.",
+    "note": "Auto-discovered from Dataverse. The record provides an unbalanced panel of 83 developing countries from 2006 to 2024 with diagnostics and robustness checks for a carbon-taxation study."
+  },
+  {
+    "id": "dataverse-idchsj",
+    "title": "Replication Data for: First-passage safety margins for low-altitude urban missions",
+    "authors": "Xu, Zirui",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: First-passage safety margins for low-altitude urban missions",
+    "datasetUrl": "https://doi.org/10.7910/DVN/IDCHSJ",
+    "paperUrl": "https://doi.org/10.7910/DVN/IDCHSJ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "risk prediction",
+      "resampling methods"
+    ],
+    "bestFor": "Time series analysis, time series forecasting, risk prediction, and resampling methods examples using first-passage safety-margin replication materials.",
+    "note": "Auto-discovered from Dataverse. The record provides processed analysis data, forecast-horizon construction, uncertainty audits, resampling materials, and reproducibility files for time-to-failure safety margins."
+  },
+  {
+    "id": "dataverse-m5ka5s",
+    "title": "Datasets and R script to reproduce the analyses of the manuscript \"The role of past human activity in shaping modern hyperdominant palm distributions of northwestern Amazonia\" (Vleminckx J. et al.)",
+    "authors": "VLEMINCKX, Jason",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Datasets and R script to reproduce the analyses of the manuscript \"The role of past human activity in shaping modern hyperdominant palm distributions of northwestern Amazonia\" (Vleminckx J. et al.)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/M5KA5S",
+    "paperUrl": "https://doi.org/10.7910/DVN/M5KA5S",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference",
+      "multilevel modeling"
+    ],
+    "bestFor": "Spatial statistics, Bayesian inference, and multilevel modeling examples using replicated spatial ecological plot data with R scripts.",
+    "note": "Auto-discovered from Dataverse. The record provides datasets and R scripts for spatially replicated Amazonian palm-community analyses across watersheds and plots."
+  },
+  {
+    "id": "dataverse-tgsaxf",
+    "title": "Replication Data for: China's ATA dataset",
+    "authors": "Yu,Hu, Chen, Runing, Chen, Runing",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: China's ATA dataset",
+    "datasetUrl": "https://doi.org/10.7910/DVN/TGSAXF",
+    "paperUrl": "https://doi.org/10.7910/DVN/TGSAXF",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Spatial statistics, longitudinal data analysis, and panel data methods examples using attraction metadata matched across space and time.",
+    "note": "Auto-discovered from Dataverse. The record describes a spatial-temporal database of tourism attractions with approval years, coordinates, and administrative divisions."
+  },
+  {
+    "id": "dataverse-odpdxu",
+    "title": "Replication Data for: Sign Language: The Politics of Memoranda of Understanding in Nigeria",
+    "authors": "Iluobe, Osaremen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Sign Language: The Politics of Memoranda of Understanding in Nigeria",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ODPDXU",
+    "paperUrl": "https://doi.org/10.7910/DVN/ODPDXU",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods and longitudinal data analysis examples using Nigerian state-level memoranda records over 2022-2025.",
+    "note": "Auto-discovered from Dataverse. The record provides 394 coded memoranda of understanding signed by Nigerian state governments across all 36 states from 2022 to 2025."
+  },
+  {
+    "id": "zenodo-21264234-data-for-transcriptomic-timeseries-links-hepatic-gene-expression-to-an-early-and",
+    "title": "Data for \"Transcriptomic timeseries links hepatic gene expression to an early and self-limited systemic response to enteric infection\"",
+    "authors": "Hasegawa, Yuko",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data for \"Transcriptomic timeseries links hepatic gene expression to an early and self-limited systemic response to enteric infection\"",
+    "datasetUrl": "https://doi.org/10.64898/2026.04.07.717127",
+    "paperUrl": "https://doi.org/10.64898/2026.04.07.717127",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "time series analysis",
+      "functional data analysis",
+      "variable selection"
+    ],
+    "bestFor": "High-dimensional statistics, time series analysis, functional data analysis, and variable selection examples using transcriptomic time-course data.",
+    "note": "Auto-discovered from Zenodo. The record provides data for a transcriptomic time-series study linking hepatic gene expression to systemic response after infection."
+  },
+  {
+    "id": "zenodo-20705230-anonymized-survey-dataset-and-codes-for-carbon-finance-and-smallholder-climate-a",
+    "title": "Anonymized Survey Dataset and Codes for Carbon Finance and Smallholder Climate Adaptation in Uganda",
+    "authors": "Shin, Seongmin, Waldman, Kurt, Ojok, Okello, Jonathan, Otim, Lehmann, Johannes, Fiorella, Kathryn, Liao, Chuan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Anonymized Survey Dataset and Codes for Carbon Finance and Smallholder Climate Adaptation in Uganda",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.20705230",
+    "paperUrl": "https://doi.org/10.5281/zenodo.20705230",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Stata code",
+      "R code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Survey methodology, causal inference, and treatment effect estimation examples using anonymized survey data and code for smallholder climate-adaptation decisions.",
+    "note": "Auto-discovered from Zenodo. The record provides anonymized survey data and analytical code for regression analyses of farmers willingness to participate in climate-finance activities."
+  },
+  {
+    "id": "zenodo-21655113-data-package-associated-with-shuai-et-al-2019-dam-operations-and-subsurface-hydr",
+    "title": "Data package associated with Shuai et al. (2019) Dam Operations and Subsurface Hydrogeology Control Dynamics of Hydrologic Exchange Flows in a Regulated River Reach, Water Resources Research",
+    "authors": "Shuai, Pin",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data package associated with Shuai et al. (2019) Dam Operations and Subsurface Hydrogeology Control Dynamics of Hydrologic Exchange Flows in a Regulated River Reach, Water Resources Research",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21655113",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21655113",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Time series analysis and spatial statistics examples using model input data and smoothed boundary-head time series for hydrologic exchange simulations.",
+    "note": "Auto-discovered from Zenodo. The record provides model inputs and 6-hour smoothed time-series boundary data to reproduce hydrologic exchange-flow simulations."
+  },
+  {
+    "id": "zenodo-21693485-60-year-1964-to-2024-retrogressive-thaw-slump-inventory-in-the-beiluhe-region-of",
+    "title": "60-year (1964 to 2024) retrogressive thaw slump inventory in the Beiluhe region of the central Qinghai–Tibet Plateau",
+    "authors": "Zhuoxuan, XIA, Zhao, Zhuoyi, Liu, Lin, Huang, Lingcao, Gascoin, Simon, Lara, Mark",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: 60-year (1964 to 2024) retrogressive thaw slump inventory in the Beiluhe region of the central Qinghai–Tibet Plateau",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21693485",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21693485",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Spatial statistics, longitudinal data analysis, and time series analysis examples using annual spatial inventories over 1964-2024.",
+    "note": "Auto-discovered from Zenodo. The record provides annual retrogressive thaw-slump inventories with boundaries and identifiers over a 60-year period."
+  },
+  {
+    "id": "zenodo-21683157-air-quality-mortality-workflow-input-datasets",
+    "title": "Air Quality Mortality Workflow: Input Datasets",
+    "authors": "Wells, Alice Florence, Anderson, Georgiana Brooke, Hurrell, James Wilson, Gilleland, Eric",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Air Quality Mortality Workflow: Input Datasets",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21683157",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21683157",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Risk prediction, spatial statistics, and time series analysis examples using climate-model and epidemiological workflow input datasets.",
+    "note": "Auto-discovered from Zenodo. The record provides input datasets for a workflow combining climate model projections with epidemiological frameworks to assess air-quality mortality."
+  },
+  {
+    "id": "zenodo-21688277-consolidated-s2id-hydro-meteorological-disaster-records-for-brazil-2013-2025-and",
+    "title": "Consolidated S2ID hydro-meteorological disaster records for Brazil (2013–2025) and replication package",
+    "authors": "Silva Ducatti, Ana Paula, de Brito Junior, Irineu, Antunes de Souza Lima, Isabela",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Consolidated S2ID hydro-meteorological disaster records for Brazil (2013–2025) and replication package",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21688277",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21688277",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Spatial statistics, longitudinal data analysis, and panel data methods examples using municipality-event disaster records over 2013-2025.",
+    "note": "Auto-discovered from Zenodo. The record provides consolidated S2ID hydro-meteorological disaster records for Brazil and a complete replication package for the accompanying analyses."
+  },
+  {
+    "id": "zenodo-21685477-replication-files-for-global-energy-price-windfalls-fiscal-adjustment-and-growth",
+    "title": "Replication Files for \"Global Energy Price Windfalls, Fiscal Adjustment, and Growth in Developing Economies\"",
+    "authors": "Safavi, Mohammad",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication Files for \"Global Energy Price Windfalls, Fiscal Adjustment, and Growth in Developing Economies\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21685477",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21685477",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "causal inference",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods, causal inference, and time series analysis examples using energy-price windfalls and fiscal-growth replication data.",
+    "note": "Auto-discovered from Zenodo. The record provides processed data, Python/R code, sample registries, model outputs, and acquisition instructions for external energy-price windfall analysis."
+  },
+  {
+    "id": "dataverse-urfrch",
+    "title": "Replication Data for: For Everything There is a Season: Seasonality and Retrospective Voting in African Elections",
+    "authors": "Engelsma, Brian, Engelsma, Brian",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: For Everything There is a Season: Seasonality and Retrospective Voting in African Elections",
+    "datasetUrl": "https://doi.org/10.7910/DVN/URFRCH",
+    "paperUrl": "https://doi.org/10.7910/DVN/URFRCH",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "causal inference",
+      "time series analysis"
+    ],
+    "bestFor": "Survey methodology, causal inference, and time series analysis examples using election-seasonality replication files.",
+    "note": "Auto-discovered from Dataverse. The record provides replication files for a study of seasonality and retrospective voting in African elections."
+  },
+  {
+    "id": "zenodo-21511487-br-pvgen-the-brazilian-photovoltaic-generation-dataset",
+    "title": "BR-PVGen - The Brazilian Photovoltaic Generation Dataset",
+    "authors": "Dutra de Jesus, Caian, Nascimento Ferreira, Rhuan, Pestana de Aguiar, Eduardo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: BR-PVGen - The Brazilian Photovoltaic Generation Dataset",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21511487",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21511487",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "panel data",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "risk prediction",
+      "missing data",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Time series analysis, time series forecasting, risk prediction, and missing-data examples using high-resolution photovoltaic generation data.",
+    "note": "Auto-discovered from Zenodo. The record provides synchronized 15-minute inverter and meteorological measurements from 51 Brazilian photovoltaic plants with preprocessing and interpolation documentation."
+  },
+  {
+    "id": "zenodo-21681938-data-and-code-for-does-domestic-agricultural-productivity-reduce-food-import-dep",
+    "title": "Data and code for Does Domestic agricultural productivity reduce food Import dependence in Ghana? Evidence from major import-competing commodities",
+    "authors": "Mba, Awudu Azumbilla",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data and code for Does Domestic agricultural productivity reduce food Import dependence in Ghana? Evidence from major import-competing commodities",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21681938",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21681938",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, time series analysis, and risk prediction examples using commodity-year economic panels.",
+    "note": "Auto-discovered from Zenodo. The record provides harmonized commodity-year panel data, replication code, diagnostics, econometric and machine-learning result tables for Ghana food-import dependence."
+  },
+  {
+    "id": "dataverse-hwuljy",
+    "title": "Assessing Poland’s Post-Communist Miracle: Shock Therapy, EU Accession, and Counterfactual Growth",
+    "authors": "Paniagua, Pablo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Assessing Poland’s Post-Communist Miracle: Shock Therapy, EU Accession, and Counterfactual Growth",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HWULJY",
+    "paperUrl": "https://doi.org/10.7910/DVN/HWULJY",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "synthetic control methods",
+      "causal inference",
+      "panel data methods",
+      "time series analysis",
+      "treatment effect estimation",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Synthetic control methods, causal inference, panel data methods, and time series analysis examples using counterfactual-growth replication data.",
+    "note": "Auto-discovered from Dataverse. The record provides a replication package for assessing Poland post-communist growth using counterfactual analysis."
   }
 ]
