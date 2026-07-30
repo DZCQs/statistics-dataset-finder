@@ -39272,5 +39272,593 @@
     ],
     "bestFor": "Synthetic control methods, causal inference, panel data methods, and time series analysis examples using counterfactual-growth replication data.",
     "note": "Auto-discovered from Dataverse. The record provides a replication package for assessing Poland post-communist growth using counterfactual analysis."
+  },
+  {
+    "id": "dataverse-jvjq5n",
+    "title": "Code to create the Master Address File - Migration Flows (MAF-MIF) dataset.",
+    "authors": "McConnell, Kathryn, McConnell, Kathryn, Sandler, Austin, Sandler, Austin, Ozdogan, Selen, Ozdogan, Selen, Fussell, Elizabeth, Fussell, Elizabeth",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Code to create the Master Address File - Migration Flows (MAF-MIF) dataset.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JVJQ5N",
+    "paperUrl": "https://doi.org/10.7910/DVN/JVJQ5N",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "spatial statistics",
+      "survey methodology"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, spatial statistics, and survey methodology examples using Census administrative migration-flow construction code.",
+    "note": "Auto-discovered from Dataverse. The record provides code to create a Census Master Address File migration-flow dataset for county-level flow and mover-characteristic analysis."
+  },
+  {
+    "id": "dataverse-5kldv6",
+    "title": "FRESH End-to-End Approach Evaluation in Tanzania: Baseline Survey",
+    "authors": "International Food Policy Research Institute (IFPRI)",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: FRESH End-to-End Approach Evaluation in Tanzania: Baseline Survey",
+    "datasetUrl": "https://doi.org/10.7910/DVN/5KLDV6",
+    "paperUrl": "https://doi.org/10.7910/DVN/5KLDV6",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "complex survey design",
+      "longitudinal data analysis",
+      "treatment effect estimation",
+      "survey methodology",
+      "causal inference"
+    ],
+    "bestFor": "Randomized experiments, complex survey design, longitudinal data analysis, and treatment effect estimation examples using a cluster-randomized baseline survey.",
+    "note": "Auto-discovered from Dataverse. The record describes a longitudinal cluster-randomized controlled trial baseline survey across Tanzanian villages."
+  },
+  {
+    "id": "dataverse-8egmot",
+    "title": "Experiential Learning for Groundwater Governance in India: Groundwater Game Surveys",
+    "authors": "International Food Policy Research Institute (IFPRI), Foundation for Ecological Security (FES), International Crops Research Institute for the Semi-arid Tropics (ICRISAT)",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Experiential Learning for Groundwater Governance in India: Groundwater Game Surveys",
+    "datasetUrl": "https://doi.org/10.7910/DVN/8EGMOT",
+    "paperUrl": "https://doi.org/10.7910/DVN/8EGMOT",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Survey methodology, complex survey design, and treatment effect estimation examples using groundwater governance game surveys.",
+    "note": "Auto-discovered from Dataverse. The record provides survey data for experiential learning tools around sustainable groundwater governance."
+  },
+  {
+    "id": "dataverse-uialhz",
+    "title": "Replication packet for: Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day",
+    "authors": "Meyerhoefer, Chad, Hung-Hao Chang, LIOU, YU-YOU, LIOU, YU-YOU",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication packet for: Air Pollution during Religious Holidays: Evidence from Tomb-Sweeping Day",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UIALHZ",
+    "paperUrl": "https://doi.org/10.7910/DVN/UIALHZ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "time series analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Causal inference, quasi-experimental designs, time series analysis, and spatial statistics examples using air-pollution replication materials.",
+    "note": "Auto-discovered from Dataverse. The record provides replication materials for a social-science article studying air pollution during religious holidays."
+  },
+  {
+    "id": "dataverse-kp7pu4",
+    "title": "Replication Data for: From simple to complex: A revealed preference test of discrete choice experiment designs",
+    "authors": "Vossler, Christian",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: From simple to complex: A revealed preference test of discrete choice experiment designs",
+    "datasetUrl": "https://doi.org/10.7910/DVN/KP7PU4",
+    "paperUrl": "https://doi.org/10.7910/DVN/KP7PU4",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey experiments",
+      "randomized experiments",
+      "causal inference",
+      "survey methodology"
+    ],
+    "bestFor": "Survey experiments, randomized experiments, and causal inference examples using discrete-choice experiment design replication data.",
+    "note": "Auto-discovered from Dataverse. The record provides all data and code to reproduce a revealed-preference test of discrete-choice experiment designs."
+  },
+  {
+    "id": "dataverse-jhjegt",
+    "title": "Replication Data for: Euclidean Ideal Point Estimation From Roll-Call Data via Distance-Based Bipartite Network Models",
+    "authors": "Lee, Seungju, Lee, Seungju, Kim, In Kyun, Park, Jong Hee, Park, Jong Hee, Jin, Ick Hoon, Jin, Ick Hoon",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Euclidean Ideal Point Estimation From Roll-Call Data via Distance-Based Bipartite Network Models",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JHJEGT",
+    "paperUrl": "https://doi.org/10.7910/DVN/JHJEGT",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "multilevel modeling",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Bayesian inference, multilevel modeling, dimension reduction, and ideal-point modeling examples using roll-call network replication data.",
+    "note": "Auto-discovered from Dataverse. The record provides replication data for Euclidean ideal point estimation using distance-based bipartite network models."
+  },
+  {
+    "id": "dataverse-lejuqz",
+    "title": "United Nations General Assembly Ideal Points",
+    "authors": "Voeten, Erik",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: United Nations General Assembly Ideal Points",
+    "datasetUrl": "https://doi.org/10.7910/DVN/LEJUQZ",
+    "paperUrl": "https://doi.org/10.7910/DVN/LEJUQZ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Time series analysis, Bayesian inference, and dimension reduction examples using annual UN General Assembly ideal-point estimates.",
+    "note": "Auto-discovered from Dataverse. The record provides year-based ideal point estimates from United Nations General Assembly voting behavior."
+  },
+  {
+    "id": "dataverse-nl0m4z",
+    "title": "Replication Data for: Sex-Disaggregated Citizenship Statistics: Data Gaps and Why These Matter",
+    "authors": "Mantha-Hollands, Ashley, Mantha-Hollands, Ashley, Vink, Maarten, Vink, Maarten",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Sex-Disaggregated Citizenship Statistics: Data Gaps and Why These Matter",
+    "datasetUrl": "https://doi.org/10.7910/DVN/NL0M4Z",
+    "paperUrl": "https://doi.org/10.7910/DVN/NL0M4Z",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "nonresponse adjustment",
+      "survey methodology"
+    ],
+    "bestFor": "Missing data, nonresponse adjustment, and survey methodology examples using sex-disaggregated citizenship-statistics data gaps.",
+    "note": "Auto-discovered from Dataverse. The record provides replication data for a study of data gaps in sex-disaggregated citizenship statistics."
+  },
+  {
+    "id": "zenodo-21710389-preprocessing-is-not-neutral-workflow-dependent-differential-abundance-in-label-",
+    "title": "Preprocessing Is Not Neutral: Workflow-Dependent Differential Abundance in Label-Free Proteomics Data",
+    "authors": "Yuliantoro, Herbi",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Preprocessing Is Not Neutral: Workflow-Dependent Differential Abundance in Label-Free Proteomics Data",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21710389",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21710389",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "high-dimensional statistics",
+      "variable selection",
+      "resampling methods"
+    ],
+    "bestFor": "Missing data, high-dimensional statistics, variable selection, and resampling methods examples using proteomics workflow-sensitivity data and code.",
+    "note": "Auto-discovered from Zenodo. The record provides a reproducible package for a workflow-sensitivity study of label-free proteomics differential abundance."
+  },
+  {
+    "id": "zenodo-20825752-a-processed-dataset-of-goes-16-satellite-observations-and-ground-based-precipita",
+    "title": "A Processed Dataset of GOES-16 Satellite Observations and Ground-Based Precipitation Measurements for Rainfall Detection and Estimation in Culiacán, Mexico",
+    "authors": "Alfaro Valencia, Luisa, Lobato-Sánchez, René, Monjardin-Armenta, Sergio Alberto, Rentería-Guevara, Sergio Arturo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: A Processed Dataset of GOES-16 Satellite Observations and Ground-Based Precipitation Measurements for Rainfall Detection and Estimation in Culiacán, Mexico",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.20825752",
+    "paperUrl": "https://doi.org/10.5281/zenodo.20825752",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction",
+      "time series forecasting"
+    ],
+    "bestFor": "Spatial statistics, time series analysis, risk prediction, and forecasting examples using satellite precipitation and ground measurements.",
+    "note": "Auto-discovered from Zenodo. The record provides processed GOES-16 satellite observations and ground precipitation measurements for rainfall detection and estimation."
+  },
+  {
+    "id": "zenodo-21630042-understanding-online-failure-prediction-in-linux-through-complementary-multi-vie",
+    "title": "Understanding Online Failure Prediction in Linux Through Complementary Multi-View Explainability",
+    "authors": "Dória, Diogo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Understanding Online Failure Prediction in Linux Through Complementary Multi-View Explainability",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21630042",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21630042",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Risk prediction, time series analysis, and high-dimensional statistics examples using online Linux failure-prediction replication data.",
+    "note": "Auto-discovered from Zenodo. The record provides input data and replication artifacts for online failure prediction and explainability in Linux."
+  },
+  {
+    "id": "zenodo-21710482-sample-points-for-the-forest-damage-assessment-in-southeastern-ukraine-2021-2025",
+    "title": "Sample points for the forest damage assessment in southeastern Ukraine (2021–2025)",
+    "authors": "Mkrtchian, Alexander",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Sample points for the forest damage assessment in southeastern Ukraine (2021–2025)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21710482",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21710482",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Spatial statistics and longitudinal data analysis examples using forest-damage sample points over 2021-2025.",
+    "note": "Auto-discovered from Zenodo. The record provides geospatial sample-based forest damage assessments across southeastern Ukraine over multiple years."
+  },
+  {
+    "id": "dataverse-cniuwf",
+    "title": "Replication Data for: When the King Can't Move the Needle",
+    "authors": "Francis, Benjamin, Francis, Benjamin",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: When the King Can't Move the Needle",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CNIUWF",
+    "paperUrl": "https://doi.org/10.7910/DVN/CNIUWF",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "causal inference",
+      "survey experiments",
+      "randomized experiments"
+    ],
+    "bestFor": "Survey methodology, causal inference, and survey-experiment examples using elite-cue climate-opinion replication data.",
+    "note": "Auto-discovered from Dataverse. The record provides replication data for a survey-based study of elite cues, partisan entrenchment, and climate opinion in Britain."
+  },
+  {
+    "id": "zenodo-21284943-merged-e3smv3-ppe-surrogate-predictions-coarsened-reference-data-and-e3sm-diagno",
+    "title": "Merged E3SMv3 PPE, surrogate predictions, coarsened reference data, and E3SM diagnostics",
+    "authors": "Wagman, Benjamin",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Merged E3SMv3 PPE, surrogate predictions, coarsened reference data, and E3SM diagnostics",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21284943",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21284943",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "risk prediction",
+      "bayesian inference"
+    ],
+    "bestFor": "High-dimensional statistics, risk prediction, and Bayesian calibration examples using climate-model ensemble and surrogate-prediction outputs.",
+    "note": "Auto-discovered from Zenodo. The record provides E3SM perturbed-parameter ensemble, surrogate predictions, coarsened reference data, and diagnostics for model calibration."
+  },
+  {
+    "id": "zenodo-21709682-replication-data-and-code-for-after-the-flood-cheap-production-costly-selection-",
+    "title": "Replication data and code for: After the Flood: Cheap Production, Costly Selection, and the Future of the Commons",
+    "authors": "Heath, Davidson, Seegert, Nathan, Wuebker, Robert",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication data and code for: After the Flood: Cheap Production, Costly Selection, and the Future of the Commons",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21709682",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21709682",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "time series analysis",
+      "causal inference",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods, time series analysis, and causal inference examples using a 78-country panel and replication code.",
+    "note": "Auto-discovered from Zenodo. The record provides derived data and code for panel-based analysis of production, selection, and commons outcomes."
+  },
+  {
+    "id": "zenodo-21708806-replication-data-and-code-for-dependencia-espacial-y-persistencia-de-conglomerad",
+    "title": "Replication data and code for: Dependencia espacial y persistencia de conglomerados en el riesgo de la calidad del agua potable: evidencia municipal para el departamento [EG1.1]de Santander, Colombia, 2007–2020",
+    "authors": "González Sánchez, Eduardo José",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication data and code for: Dependencia espacial y persistencia de conglomerados en el riesgo de la calidad del agua potable: evidencia municipal para el departamento [EG1.1]de Santander, Colombia, 2007–2020",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21708806",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21708806",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "panel data methods",
+      "longitudinal data analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Spatial statistics, panel data methods, and longitudinal data analysis examples using municipal water-quality risk records over 2007-2020.",
+    "note": "Auto-discovered from Zenodo. The record provides replication data and code for spatial dependence and persistent clustering in municipal drinking-water risk."
+  },
+  {
+    "id": "dataverse-o2w2jr",
+    "title": "Replication Data for: When Prediction Markets Disagree: Cross-Platform Dispersion and Equity Volatility in the 2024 U.S. Election",
+    "authors": "Aktug, Emrehan, Aktug, Emrehan, Torul, Orhan, Torul, Orhan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: When Prediction Markets Disagree: Cross-Platform Dispersion and Equity Volatility in the 2024 U.S. Election",
+    "datasetUrl": "https://doi.org/10.7910/DVN/O2W2JR",
+    "paperUrl": "https://doi.org/10.7910/DVN/O2W2JR",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "risk prediction",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Time series analysis, time series forecasting, risk prediction, and panel data methods examples using prediction-market dispersion and equity-volatility replication data.",
+    "note": "Auto-discovered from Dataverse. The record provides a replication package for cross-platform prediction-market dispersion and equity volatility in the 2024 U.S. election."
+  },
+  {
+    "id": "dataverse-kwbnc6",
+    "title": "Tax Credits and Shared Parenthood: Improving Child Tax Benefits for Children when Parents Live Apart",
+    "authors": "Cancian, Maria, Costanzo, Molly, Costanzo, Molly",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Tax Credits and Shared Parenthood: Improving Child Tax Benefits for Children when Parents Live Apart",
+    "datasetUrl": "https://doi.org/10.7910/DVN/KWBNC6",
+    "paperUrl": "https://doi.org/10.7910/DVN/KWBNC6",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "causal inference",
+      "survey methodology",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods, causal inference, and survey methodology examples using tax-credit and shared-parenthood policy analysis files.",
+    "note": "Auto-discovered from Dataverse. The record provides files to replicate and follow results in a study of child tax benefits when parents live apart."
+  },
+  {
+    "id": "dataverse-ttscaf",
+    "title": "Replication Package for: \"The Geography of Immigrants in Same-Sex Couples in the United States\"",
+    "authors": "Hoffmann, Nathan, Hoffmann, Nathan, Velasco, Kristopher, Velasco, Kristopher",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Package for: \"The Geography of Immigrants in Same-Sex Couples in the United States\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/TTSCAF",
+    "paperUrl": "https://doi.org/10.7910/DVN/TTSCAF",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey methodology",
+      "spatial statistics",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Complex survey design, survey methodology, spatial statistics, and panel data methods examples using U.S. ACS/IPUMS-style replication data.",
+    "note": "Auto-discovered from Dataverse. The record provides data and code for a Demography article on immigrants in same-sex couples in the United States."
+  },
+  {
+    "id": "zenodo-21479980-oads-url-accessibility-panel-eleven-monthly-crawls-of-182-600-data-and-software-",
+    "title": "OADS URL Accessibility Panel: eleven monthly crawls of 182,600 data and software links from PLOS papers (2025–2026)",
+    "authors": "Ingram, William, Peloquin, Spencer, Dommanige, Chameli, Salsabil, Lamia, Obadage, Rochana R., Banerjee, Bipasha, Alam, Sawood, Wu, Jian, Fox, Edward A.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: OADS URL Accessibility Panel: eleven monthly crawls of 182,600 data and software links from PLOS papers (2025–2026)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21479980",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21479980",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "missing data",
+      "nonresponse adjustment",
+      "panel data methods",
+      "survey methodology"
+    ],
+    "bestFor": "Longitudinal data analysis, missing data, nonresponse adjustment, and survival-analysis-adjacent examples using repeated URL accessibility crawls.",
+    "note": "Auto-discovered from Zenodo. The record provides eleven monthly crawls of 182,600 open-access data and software URLs from PLOS papers."
+  },
+  {
+    "id": "zenodo-21709327-weecology-portaldata-6-91-0",
+    "title": "weecology/PortalData: 6.91.0",
+    "authors": "S. K. Morgan Ernest, Glenda M. Yenni, Ginger Allington, Ellen K. Bledsoe, Erica M. Christensen, Renata Diaz, Keith Geluso, Jacob R. Goheen, Qinfeng Guo, Edward Heske, Douglas Kelt, Joan M. Meiners, Jim Munger, Carla Restrepo, Douglas A. Samson, Michele R. Schutzenhofer, Marian Skupski, Sarah R. Supp, Katherine M. Thibault, Shawn D. Taylor, Ethan P. White, Diane W. Davidson, James H. Brown, Thomas J. Valone",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: weecology/PortalData: 6.91.0",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21709327",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21709327",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "longitudinal data analysis",
+      "spatial statistics",
+      "missing data"
+    ],
+    "bestFor": "Time series analysis, longitudinal data analysis, spatial statistics, and missing-data examples using long-term ecological monitoring data.",
+    "note": "Auto-discovered from Zenodo. The PortalData record provides long-term ecological time-series data used for continuous analysis."
   }
 ]
