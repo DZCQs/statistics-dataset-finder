@@ -40411,5 +40411,452 @@
     ],
     "bestFor": "spatial statistics examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-cspuhh",
+    "title": "Replication Data for \"Rebel Presence and Border Disputes: How Domestic Conflict Shapes International Boundary Policy\"",
+    "authors": "Atarashi, Taihei",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for \"Rebel Presence and Border Disputes: How Domestic Conflict Shapes International Boundary Policy\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CSPUHH",
+    "paperUrl": "https://doi.org/10.7910/DVN/CSPUHH",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-2d0uk7",
+    "title": "AFOS - Brazil 2026 Electoral Divergence Dataset",
+    "authors": "Felipe, Andre",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: AFOS - Brazil 2026 Electoral Divergence Dataset",
+    "datasetUrl": "https://doi.org/10.7910/DVN/2D0UK7",
+    "paperUrl": "https://doi.org/10.7910/DVN/2D0UK7",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "risk prediction",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "time series analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-3djcw5",
+    "title": "AFOS - USA 2024 Electoral Divergence Dataset",
+    "authors": "Felipe, Andre",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: AFOS - USA 2024 Electoral Divergence Dataset",
+    "datasetUrl": "https://doi.org/10.7910/DVN/3DJCW5",
+    "paperUrl": "https://doi.org/10.7910/DVN/3DJCW5",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "risk prediction",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-ieidxs",
+    "title": "Validity evaluation of a mock examination including multimedia-assisted items for the Korean Nursing Licensing Examination: a mixed-methods study with a counterbalanced design",
+    "authors": "Inyoung Lee",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Validity evaluation of a mock examination including multimedia-assisted items for the Korean Nursing Licensing Examination: a mixed-methods study with a counterbalanced design",
+    "datasetUrl": "https://doi.org/10.7910/DVN/IEIDXS",
+    "paperUrl": "https://doi.org/10.7910/DVN/IEIDXS",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21652835-the-scope-of-statistical-discrimination-an-experimental-study-on-gender-barriers",
+    "title": "The Scope of Statistical Discrimination: An Experimental Study on Gender Barriers in Tech",
+    "authors": "Feld, Jan, Ip, Edwin, Leibbrandt, Andreas, Vecci, Joseph",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: The Scope of Statistical Discrimination: An Experimental Study on Gender Barriers in Tech",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21652835",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21652835",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation",
+      "heterogeneous treatment effects"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21756652-data-and-code-for-environmental-determinants-of-pest-occurrence-decouple-from-se",
+    "title": "Data and code for: Environmental determinants of pest occurrence decouple from severity drivers across Tibetan Plateau alpine grasslands",
+    "authors": "ECOG, 09131",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data and code for: Environmental determinants of pest occurrence decouple from severity drivers across Tibetan Plateau alpine grasslands",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21756652",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21756652",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "risk prediction",
+      "survey methodology",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "survey methodology, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21756372-commercial-bank-lending-to-small-business-entities-an-econometric-analysis-of-de",
+    "title": "COMMERCIAL BANK LENDING TO SMALL BUSINESS ENTITIES: AN ECONOMETRIC ANALYSIS OF DETERMINANTS AND POLICY IMPLICATIONS",
+    "authors": "Mukhammedova Sevara Abdullayevna, Worldly Knowledge Publishing Centre",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: COMMERCIAL BANK LENDING TO SMALL BUSINESS ENTITIES: AN ECONOMETRIC ANALYSIS OF DETERMINANTS AND POLICY IMPLICATIONS",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21756372",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21756372",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "panel data methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21753202-do-governance-thresholds-survive-measurement-uncertainty-a-bayesian-errors-in-va",
+    "title": "Do Governance Thresholds Survive Measurement Uncertainty? A Bayesian Errors-in-Variables Dynamic Panel Analysis",
+    "authors": "Songsrirote, Nitiphong",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Do Governance Thresholds Survive Measurement Uncertainty? A Bayesian Errors-in-Variables Dynamic Panel Analysis",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21753202",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21753202",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "panel data methods",
+      "longitudinal data analysis",
+      "missing data"
+    ],
+    "bestFor": "bayesian inference examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21728102-dataset-for-koopmans-kay-youk-2026-predictability-can-be-dynamically-constructed",
+    "title": "Dataset for Koopmans, Kay, Youk (2026): Predictability can be dynamically constructed in deterministic systems",
+    "authors": "Koopmans, Lars, Kay, Elinor, Youk, Hyun",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Dataset for Koopmans, Kay, Youk (2026): Predictability can be dynamically constructed in deterministic systems",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21728102",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21728102",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "R code",
+      "panel data",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "risk prediction",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "time series analysis, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21755604-ipseity-daily-data",
+    "title": "Ipseity Daily Data",
+    "authors": "Jones, Jason",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Ipseity Daily Data",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21755604",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21755604",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21745159-downscaled-grace-terrestrial-water-storage-anomalies-for-the-ganga-ganges-river-",
+    "title": "Downscaled GRACE terrestrial water storage anomalies for the Ganga (Ganges) River Basin at 0.1°: Monthly and daily fields with per-pixel uncertainty, 2000–2025",
+    "authors": "Kaushik, Pankaj R., Majumdar, Sayantan, Lenczuk, Artur, Sharma, Yaggesh Kumar, Banerjee, Santanu, Thakur, Praveen Kumar",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Downscaled GRACE terrestrial water storage anomalies for the Ganga (Ganges) River Basin at 0.1°: Monthly and daily fields with per-pixel uncertainty, 2000–2025",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21745159",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21745159",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "missing data",
+      "risk prediction"
+    ],
+    "bestFor": "time series analysis, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21752962-replication-package-for-overtaken-but-overloaded-a-moving-reporting-boundary-con",
+    "title": "Replication package for: Overtaken but overloaded: a moving reporting boundary conceals a capacity crisis in Taiwan's municipal waste account",
+    "authors": "Chiu, Shih-Yung, Wang, Tzu-Chia",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication package for: Overtaken but overloaded: a moving reporting boundary conceals a capacity crisis in Taiwan's municipal waste account",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21752962",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21752962",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21755749-ryerson-project-public-data",
+    "title": "Ryerson Project Public Data",
+    "authors": "Jones, Jason",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Ryerson Project Public Data",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21755749",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21755749",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21756709-china-coastal-gnss-network-cgn-tropospheric-products-from-2009-to-2019",
+    "title": "China Coastal GNSS Network (CGN) Tropospheric Products From 2009 to 2019",
+    "authors": "Zhou, Yi",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: China Coastal GNSS Network (CGN) Tropospheric Products From 2009 to 2019",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21756709",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21756709",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21757501-datasets-for-great-earthquake-behaviour-unlikely-to-be-controlled-by-subduction-",
+    "title": "Datasets for \"Great earthquake behaviour unlikely to be controlled by subduction interface roughness\"",
+    "authors": "Yang, Xiaodong, Bell, Rebecca, Whittaker, Alexander, Xu, Haobo, Han, Xinze, Knowlson, Angela, Locher, Valerie",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Datasets for \"Great earthquake behaviour unlikely to be controlled by subduction interface roughness\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21757501",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21757501",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21757066-reducing-uncertainty-in-sea-salt-aerosol-emissions-by-constraining-their-wind-sp",
+    "title": "Reducing uncertainty in sea-salt aerosol emissions by constraining their wind-speed dependence",
+    "authors": "Wang, Liyuan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Reducing uncertainty in sea-salt aerosol emissions by constraining their wind-speed dependence",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21757066",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21757066",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
   }
 ]
