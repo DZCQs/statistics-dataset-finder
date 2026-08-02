@@ -39860,5 +39860,556 @@
     ],
     "bestFor": "Time series analysis, longitudinal data analysis, spatial statistics, and missing-data examples using long-term ecological monitoring data.",
     "note": "Auto-discovered from Zenodo. The PortalData record provides long-term ecological time-series data used for continuous analysis."
+  },
+  {
+    "id": "dataverse-wu8rfk",
+    "title": "Replication Data for: Getting Teachers Back to Study: Input-Based Teacher Incentives and Student Achievement",
+    "authors": "Rodriguez, Jorge",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Getting Teachers Back to Study: Input-Based Teacher Incentives and Student Achievement",
+    "datasetUrl": "https://doi.org/10.7910/DVN/WU8RFK",
+    "paperUrl": "https://doi.org/10.7910/DVN/WU8RFK",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-bvgcc2",
+    "title": "Replication Package for: Depositing Corporate Payout",
+    "authors": "Lin, Leming",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Package for: Depositing Corporate Payout",
+    "datasetUrl": "https://doi.org/10.7910/DVN/BVGCC2",
+    "paperUrl": "https://doi.org/10.7910/DVN/BVGCC2",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-o4r1mz",
+    "title": "Replication Data for: The Entrepreneurial Finance of Fintech Firms and the Effect of Investments in Fintech Startups on the Performance of Corporate Investors",
+    "authors": "Rajaiya, Harshit, Chemmanur, Thomas, Chemmanur, Thomas , Qianqian Yu, Michael Imerman",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: The Entrepreneurial Finance of Fintech Firms and the Effect of Investments in Fintech Startups on the Performance of Corporate Investors",
+    "datasetUrl": "https://doi.org/10.7910/DVN/O4R1MZ",
+    "paperUrl": "https://doi.org/10.7910/DVN/O4R1MZ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-wpzf3t",
+    "title": "Temperature and Maltreatment of Young Children",
+    "authors": "Evans, Mary, Gazze, Ludo, Schaller, Jessamyn",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Temperature and Maltreatment of Young Children",
+    "datasetUrl": "https://doi.org/10.7910/DVN/WPZF3T",
+    "paperUrl": "https://doi.org/10.7910/DVN/WPZF3T",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "spatial statistics",
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-vbkg8v",
+    "title": "Replication Data for: Empirical Bayes For the Reluctant Frequentist",
+    "authors": "Koenker, Roger, Gu, Jiaying",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Empirical Bayes For the Reluctant Frequentist",
+    "datasetUrl": "https://doi.org/10.7910/DVN/VBKG8V",
+    "paperUrl": "https://doi.org/10.7910/DVN/VBKG8V",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "multilevel modeling"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-qdk0z0",
+    "title": "Replication Data for: \"A grandparenthood gap in political attitudes? Family ties and attitudes on intertemporal redistribution\"",
+    "authors": "Seestedt, Marie, Seestedt, Marie Heldgaard",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: \"A grandparenthood gap in political attitudes? Family ties and attitudes on intertemporal redistribution\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/QDK0Z0",
+    "paperUrl": "https://doi.org/10.7910/DVN/QDK0Z0",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-vln8ia",
+    "title": "Replication Data for: Swimming Against the Current: Contrarian Retail Trading",
+    "authors": "Cannon, Brad, Mohrschladt, Hannes, Mohrschladt, Hannes",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Swimming Against the Current: Contrarian Retail Trading",
+    "datasetUrl": "https://doi.org/10.7910/DVN/VLN8IA",
+    "paperUrl": "https://doi.org/10.7910/DVN/VLN8IA",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "risk prediction",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-jcged2",
+    "title": "Replication Data for: \"Inflation and Corporate Credit Risk: Global Evidence\"",
+    "authors": "Qiu, Buhui, Qiu, Buhui, To, Thomas, zhang, gaiyan, zhang, gaiyan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: \"Inflation and Corporate Credit Risk: Global Evidence\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JCGED2",
+    "paperUrl": "https://doi.org/10.7910/DVN/JCGED2",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "panel data methods",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-tlkxva",
+    "title": "Replication Package for \"Decoding Momentum Spillover Effects\"",
+    "authors": "Wang, Huaixin",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Package for \"Decoding Momentum Spillover Effects\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/TLKXVA",
+    "paperUrl": "https://doi.org/10.7910/DVN/TLKXVA",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "risk prediction",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-mvr55e",
+    "title": "Replication Data for: Intra-Household Risk Sharing in Collective Portfolio Choice Models",
+    "authors": "Michaelides, Alex, Michaelides, Alexander",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Intra-Household Risk Sharing in Collective Portfolio Choice Models",
+    "datasetUrl": "https://doi.org/10.7910/DVN/MVR55E",
+    "paperUrl": "https://doi.org/10.7910/DVN/MVR55E",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-rbxgpv",
+    "title": "Replication instructions for: Consistent Backtesting Systemic Risk Measures",
+    "authors": "Leong, Soon",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication instructions for: Consistent Backtesting Systemic Risk Measures",
+    "datasetUrl": "https://doi.org/10.7910/DVN/RBXGPV",
+    "paperUrl": "https://doi.org/10.7910/DVN/RBXGPV",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "time series analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-vqtahu",
+    "title": "Replication Data for: Why Do Bank Boards Have Risk Committees?",
+    "authors": "Shen, Kris",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Why Do Bank Boards Have Risk Committees?",
+    "datasetUrl": "https://doi.org/10.7910/DVN/VQTAHU",
+    "paperUrl": "https://doi.org/10.7910/DVN/VQTAHU",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21749139-dataset-for-regionalized-statistical-estimation-of-probable-maximum-precipitatio",
+    "title": "Dataset for 'Regionalized statistical estimation of probable maximum precipitation with uncertainty quantification across continental Chile'",
+    "authors": "Ignacio Villavicencio, Ossandón, Álvaro, Meza, Joaquín, Suazo, Gonzalo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Dataset for 'Regionalized statistical estimation of probable maximum precipitation with uncertainty quantification across continental Chile'",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21749139",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21749139",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "bayesian inference examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21751153-data-and-code-for-hidden-markov-model-identifies-four-phytoplankton-regimes-asso",
+    "title": "Data and code for: Hidden Markov model identifies four phytoplankton regimes associated with seasonal forcing and monsoon disturbance at a coastal station in Jinhae Bay, Korea",
+    "authors": "Kim, Kwang Young, Min, Juhee, Yoon, Jimin, Jeon, Boo Seong, Park, Myung Gil",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data and code for: Hidden Markov model identifies four phytoplankton regimes associated with seasonal forcing and monsoon disturbance at a coastal station in Jinhae Bay, Korea",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21751153",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21751153",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "survival analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21740286-consumer-acceptance-of-bioplastic-food-packaging-anonymized-data-and-research-ma",
+    "title": "Consumer Acceptance of Bioplastic Food Packaging: Anonymized Data and Research Materials from a Discrete Choice Experiment in Germany",
+    "authors": "Findrik, Edina, Meixner, Oliver",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Consumer Acceptance of Bioplastic Food Packaging: Anonymized Data and Research Materials from a Discrete Choice Experiment in Germany",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21740286",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21740286",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey experiments",
+      "randomized experiments",
+      "survey methodology",
+      "causal inference"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21742691-puerto-rico-custody-litigation-caseload-dataset-and-extraction-pipeline-fy2010-f",
+    "title": "Puerto Rico Custody Litigation Caseload Dataset and Extraction Pipeline (FY2010–FY2025)",
+    "authors": "Anon",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Puerto Rico Custody Litigation Caseload Dataset and Extraction Pipeline (FY2010–FY2025)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21742691",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21742691",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "time series analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21743823-structural-ambiguity-changes-temporal-transfer-of-stage-discharge-relations-in-a",
+    "title": "Structural ambiguity changes temporal transfer of stage–discharge relations in a tropical urban river",
+    "authors": "Formiga, Klebber",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Structural ambiguity changes temporal transfer of stage–discharge relations in a tropical urban river",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21743823",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21743823",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21742961-dataset-from-a-norm-for-comparing-allocations-the-gini-coefficient-as-a-special-",
+    "title": "Dataset from: A Norm for Comparing Allocations: The Gini Coefficient as a Special Case — Global Wheat Production and Consumption, 1999–2025",
+    "authors": "Maciuk, Arkadiusz",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Dataset from: A Norm for Comparing Allocations: The Gini Coefficient as a Special Case — Global Wheat Production and Consumption, 1999–2025",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21742961",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21742961",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21622603-spatial-organization-of-insar-deformation-rate-extremes-across-permafrost-transi",
+    "title": "Spatial organization of InSAR deformation-rate extremes across permafrost-transition and thermokarst contexts on the Tibetan Plateau — deformation data and analysis code",
+    "authors": "Chen, Mei, Hu, Xie, Mirzadeh, Sayyed Mohammad Javad",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Spatial organization of InSAR deformation-rate extremes across permafrost-transition and thermokarst contexts on the Tibetan Plateau — deformation data and analysis code",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21622603",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21622603",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21747812-supplementary-dataset-for-spatial-and-seasonal-variation-of-water-quality-in-the",
+    "title": "Supplementary Dataset for: Spatial and Seasonal Variation of Water Quality in the Euphrates River at Al-Samawah, Iraq",
+    "authors": "Al-Helaly",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Supplementary Dataset for: Spatial and Seasonal Variation of Water Quality in the Euphrates River at Al-Samawah, Iraq",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21747812",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21747812",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
   }
 ]
