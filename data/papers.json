@@ -40858,5 +40858,567 @@
     ],
     "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-bbkjh0",
+    "title": "On-farm validation of RiceAdvice in West Africa",
+    "authors": "Ali, Ibrahim",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: On-farm validation of RiceAdvice in West Africa",
+    "datasetUrl": "https://doi.org/10.7910/DVN/BBKJH0",
+    "paperUrl": "https://doi.org/10.7910/DVN/BBKJH0",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-c2mamt",
+    "title": "Replication Data for: Group Heuristics and Omnibus Policies: How Benefits to the “Average American” Explain Public Support for the Farm Bill",
+    "authors": "Berriochoa, Kattalina, Ansolabehere, Stephen, Ansolabehere, Stephen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Group Heuristics and Omnibus Policies: How Benefits to the “Average American” Explain Public Support for the Farm Bill",
+    "datasetUrl": "https://doi.org/10.7910/DVN/C2MAMT",
+    "paperUrl": "https://doi.org/10.7910/DVN/C2MAMT",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-fg3cck",
+    "title": "Replication Data for: When Climate Policy Resonates: The Interplay of Framing, Party Preference, and Political Trust in Shaping Policy Acceptance",
+    "authors": "Ahonen, Sami",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: When Climate Policy Resonates: The Interplay of Framing, Party Preference, and Political Trust in Shaping Policy Acceptance",
+    "datasetUrl": "https://doi.org/10.7910/DVN/FG3CCK",
+    "paperUrl": "https://doi.org/10.7910/DVN/FG3CCK",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey experiments",
+      "randomized experiments",
+      "survey methodology",
+      "causal inference",
+      "survey weighting"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-glmlic-845-1",
+    "title": "G²LM|LIC - Occupational Segregation and Gender Gaps in Nairobi: Disentangling Supply from Demand and Preferences and Beliefs Using Worker and Employer Surveys",
+    "authors": "Orkin, Kate, Alison, Andrew, Inbar, Amit, Barker, Nathan, Garlick, Robert, Nekesa, Carol",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: G²LM|LIC - Occupational Segregation and Gender Gaps in Nairobi: Disentangling Supply from Demand and Preferences and Beliefs Using Worker and Employer Surveys",
+    "datasetUrl": "https://doi.org/10.15185/GLMLIC.845.1",
+    "paperUrl": "https://doi.org/10.15185/GLMLIC.845.1",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey experiments",
+      "randomized experiments",
+      "survey methodology",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-afykuz",
+    "title": "Replication Data for: Gendered Patterns of Political Knowledge in Japan",
+    "authors": "Matsubayashi, Tetsuya, Nakagoshi, Mizuki, Nakagoshi, Mizuki, Izutsu, Honami",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Gendered Patterns of Political Knowledge in Japan",
+    "datasetUrl": "https://doi.org/10.7910/DVN/AFYKUZ",
+    "paperUrl": "https://doi.org/10.7910/DVN/AFYKUZ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "R code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "dimension reduction",
+      "causal inference",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-glmlic-852-1",
+    "title": "G²LM|LIC - Women in Firms: Experimental Evidence from Indian Firms",
+    "authors": "Alfonsi, Livia, Beaman, Lori, Sharma, Anisha, Sharma, Karmini",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: G²LM|LIC - Women in Firms: Experimental Evidence from Indian Firms",
+    "datasetUrl": "https://doi.org/10.15185/GLMLIC.852.1",
+    "paperUrl": "https://doi.org/10.15185/GLMLIC.852.1",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "survey methodology",
+      "survey experiments"
+    ],
+    "bestFor": "causal inference, survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21708573-replication-package-for-political-polarization-and-counter-attitudinal-informati",
+    "title": "Replication package for Political Polarization and Counter-attitudinal Information Consumption and Internalization",
+    "authors": "Larreguy Arbesu, Horacio",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication package for Political Polarization and Counter-attitudinal Information Consumption and Internalization",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21708573",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21708573",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Stata code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21700869-pkp-intercity-delays",
+    "title": "PKP Intercity delays",
+    "authors": "Kostrz, Marek",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: PKP Intercity delays",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21700869",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21700869",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "missing data",
+      "risk prediction"
+    ],
+    "bestFor": "missing data, survival analysis, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21301297-landscape-approaches-for-risk-mitigation-from-wildlife-the-case-of-wild-boar-roa",
+    "title": "Landscape approaches for risk mitigation from wildlife: The case of wild boar road accidents in Avellino Province, Southern Italy",
+    "authors": "Cervelli, Elena, Pindozzi, Stefania, Scotto di Perta, Ester, Raffaele, Antonio, Della Sala, Roberto, Sepe, Gianpiero, Boscia, Nicola, Esposito, Luigi, Piscopo, Nadia",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Landscape approaches for risk mitigation from wildlife: The case of wild boar road accidents in Avellino Province, Southern Italy",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21301297",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21301297",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "risk prediction",
+      "time series analysis"
+    ],
+    "bestFor": "spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21770846-evaluation-of-a-brief-intervention-based-on-dialectical-behavior-therapy-skills-",
+    "title": "Evaluation of a brief intervention based on Dialectical Behavior Therapy Skills Training for Emotional Problem Solving for Adolescents (DBT STEPS-A) in Italian students: results from a randomized controlled trial",
+    "authors": "Pedrini, Laura",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Evaluation of a brief intervention based on Dialectical Behavior Therapy Skills Training for Emotional Problem Solving for Adolescents (DBT STEPS-A) in Italian students: results from a randomized controlled trial",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21770846",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21770846",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21697256-dataset-on-21-years-of-the-dairy-production-sector-in-the-brazilian-state-of-min",
+    "title": "Dataset on 21 years of the dairy production sector in the Brazilian state of Minas Gerais",
+    "authors": "Mariano, Túlio Souza, Oliveira, Carlos Eduardo Alves, Tinôco, Ilda de Fátima Ferreira, Sousa, Fernanda Campos, Barbari, Matteo, BARRETO-MENDES, Luciano",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Dataset on 21 years of the dairy production sector in the Brazilian state of Minas Gerais",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21697256",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21697256",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "R code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis",
+      "time series forecasting",
+      "spatial statistics"
+    ],
+    "bestFor": "longitudinal data analysis, time series forecasting, survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21768716-differential-weighting-of-lion-vocalizations-and-oxpecker-alarm-calls-in-giraffe",
+    "title": "Differential weighting of lion vocalizations and oxpecker alarm calls in giraffes",
+    "authors": "Baotic, Anton",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Differential weighting of lion vocalizations and oxpecker alarm calls in giraffes",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21768716",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21768716",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21596720-hydroclimatic-trends-across-73-greek-lake-catchments-derived-data-and-computed-r",
+    "title": "Hydroclimatic trends across 73 Greek lake catchments — derived data and computed results",
+    "authors": "Gourgouletis, Nikolaos, Baltas, Evangelos",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Hydroclimatic trends across 73 Greek lake catchments — derived data and computed results",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21596720",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21596720",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "missing data"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21769224-cbam-transitional-period-evaluation-policy-ledgers-event-study-estimates-and-ana",
+    "title": "CBAM transitional-period evaluation: policy ledgers, event-study estimates and analysis code (China-EU, 2018-2025)",
+    "authors": "Xiang, Kun",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: CBAM transitional-period evaluation: policy ledgers, event-study estimates and analysis code (China-EU, 2018-2025)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21769224",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21769224",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "difference-in-differences",
+      "quasi-experimental designs",
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-17618053-reproducibility-materials-for-cautrigger-deciphering-biological-system-state-tra",
+    "title": "Reproducibility materials for \"CauTrigger: deciphering biological system state transitions by hierarchical causal decomposition\"",
+    "authors": "Zhang, Chengming, Cai, Deyu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Reproducibility materials for \"CauTrigger: deciphering biological system state transitions by hierarchical causal decomposition\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.17618053",
+    "paperUrl": "https://doi.org/10.5281/zenodo.17618053",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "high-dimensional statistics",
+      "dimension reduction"
+    ],
+    "bestFor": "causal inference examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21769584-nhanes-complete-blood-count-dataset-for-anemia-prediction",
+    "title": "NHANES Complete Blood Count Dataset for Anemia Prediction",
+    "authors": "G, Saravanarajan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: NHANES Complete Blood Count Dataset for Anemia Prediction",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21769584",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21769584",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "risk prediction",
+      "missing data"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21771188-nmma-fits-for-sn-2021ugl-nmma-astro-colibri-paper",
+    "title": "NMMA fits for SN 2021ugl (NMMA–Astro-COLIBRI paper)",
+    "authors": "Kiendrébéogo, Ramodgwendé Weizmann, Cornejo Avila, Bernardo, Bisero, Sofia, Cellier, Maxime, Ciric, Antoine, Jaroschewski, Ilja, Saint-Paul, Alexandre, Schüssler, Fabian",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: NMMA fits for SN 2021ugl (NMMA–Astro-COLIBRI paper)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21771188",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21771188",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "time series analysis"
+    ],
+    "bestFor": "survey methodology, bayesian inference examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21722422-data-for-the-2016-2026-seismic-activity-in-the-aomori-sanriku-region-in-japan-ea",
+    "title": "Data for the 2016-2026 Seismic Activity in the Aomori-Sanriku Region in Japan: Earthquakes, Forerunner and Afterrunner Relationships, and Possible Scenarios",
+    "authors": "Senatorski, Piotr",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data for the 2016-2026 Seismic Activity in the Aomori-Sanriku Region in Japan: Earthquakes, Forerunner and Afterrunner Relationships, and Possible Scenarios",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21722422",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21722422",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21769053-siccit-ly",
+    "title": "SiccITàLY",
+    "authors": "L'Erario, Vito",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: SiccITàLY",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21769053",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21769053",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21671987-nh-sdn-a-deep-learning-derived-daily-0-25-snow-density-dataset-for-the-northern-",
+    "title": "NH-SDN: A Deep Learning-Derived Daily 0.25° Snow Density Dataset for the Northern Hemisphere (1982–2025)",
+    "authors": "Zhang, Xueliang, Zhong, Li, Xiao, Pengfeng",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: NH-SDN: A Deep Learning-Derived Daily 0.25° Snow Density Dataset for the Northern Hemisphere (1982–2025)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21671987",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21671987",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
   }
 ]
