@@ -41420,5 +41420,297 @@
     ],
     "bestFor": "spatial statistics examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-l8cz3s",
+    "title": "Replication Data for: Enemies Abroad, Animosity at Home: Media Influence on U.S.-China Policy and Anti-Asian Sentiment",
+    "authors": "LIANG, SIYU",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Enemies Abroad, Animosity at Home: Media Influence on U.S.-China Policy and Anti-Asian Sentiment",
+    "datasetUrl": "https://doi.org/10.7910/DVN/L8CZ3S",
+    "paperUrl": "https://doi.org/10.7910/DVN/L8CZ3S",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "survey methodology, survey experiments examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-hw1qmt",
+    "title": "Replication Data for: Can Issue Publics Overcome Inequalities in State Policy Knowledge?",
+    "authors": "Nelson, Michael, Witko, Chris",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Can Issue Publics Overcome Inequalities in State Policy Knowledge?",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HW1QMT",
+    "paperUrl": "https://doi.org/10.7910/DVN/HW1QMT",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "multilevel modeling"
+    ],
+    "bestFor": "survey methodology, complex survey design examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-ikivid",
+    "title": "Asymmetric Labor Market Responses to External Demand Fluctuations: Evidence from Latin America",
+    "authors": "Abril, Andrés, Padilla, León",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Asymmetric Labor Market Responses to External Demand Fluctuations: Evidence from Latin America",
+    "datasetUrl": "https://doi.org/10.7910/DVN/IKIVID",
+    "paperUrl": "https://doi.org/10.7910/DVN/IKIVID",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "panel data methods, longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-wrgzvq",
+    "title": "Replication Data for: Rivalry, Peace, and the Public’s Willingness to Fight",
+    "authors": "레, 이하트만, Hartman, Ray",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Rivalry, Peace, and the Public’s Willingness to Fight",
+    "datasetUrl": "https://doi.org/10.7910/DVN/WRGZVQ",
+    "paperUrl": "https://doi.org/10.7910/DVN/WRGZVQ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "survey methodology, survey experiments examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-ecli7x",
+    "title": "The Urban Inequality Dataset: A remote-sensing approach to economic disparities within cities",
+    "authors": "Ibarra Luces, Ana Gabriela, Morales-Arilla, Jose, Morales-Arilla, Jose",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: The Urban Inequality Dataset: A remote-sensing approach to economic disparities within cities",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ECLI7X",
+    "paperUrl": "https://doi.org/10.7910/DVN/ECLI7X",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "spatial statistics, longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21805288-borrowed-blueprints-broken-systems-the-moderating-effect-of-state-capacities-on-",
+    "title": "Borrowed Blueprints, Broken Systems: The Moderating Effect of State Capacities on the Diffusion of \"Digital Authoritarianism\" in Eurasia (Datasets and Supplementary Materials)",
+    "authors": "Daminov, Ildar",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Borrowed Blueprints, Broken Systems: The Moderating Effect of State Capacities on the Diffusion of \"Digital Authoritarianism\" in Eurasia (Datasets and Supplementary Materials)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21805288",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21805288",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "causal inference",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "panel data methods, longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21676368-evaluating-multi-season-occupancy-models-with-autocorrelation-fitted-to-heteroge",
+    "title": "Evaluating multi-season occupancy models with autocorrelation fitted to heterogeneous datasets",
+    "authors": "Luza, André, Alard, Didier, Barraquand, Frédéric",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Evaluating multi-season occupancy models with autocorrelation fitted to heterogeneous datasets",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21676368",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21676368",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "multilevel modeling",
+      "missing data"
+    ],
+    "bestFor": "time series analysis, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-kuacad",
+    "title": "Replication Data for An l0-constrained and l1-regularized estimator for graphical models",
+    "authors": "Fulci, Alessandro",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for An l0-constrained and l1-regularized estimator for graphical models",
+    "datasetUrl": "https://doi.org/10.7910/DVN/KUACAD",
+    "paperUrl": "https://doi.org/10.7910/DVN/KUACAD",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "graphical models",
+      "variable selection",
+      "best subset selection"
+    ],
+    "bestFor": "high-dimensional statistics, graphical models examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-oippl4",
+    "title": "Data and code for “A Temporally Validated Multi-Source Machine Learning Framework for District-Level Wheat Yield Forecasting Using MODIS and ERA5-Land Data”",
+    "authors": "Pyagay, Alexandr, Pyagay, Alexandr, Kali, Dulat, Kali, Dulat",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Data and code for “A Temporally Validated Multi-Source Machine Learning Framework for District-Level Wheat Yield Forecasting Using MODIS and ERA5-Land Data”",
+    "datasetUrl": "https://doi.org/10.7910/DVN/OIPPL4",
+    "paperUrl": "https://doi.org/10.7910/DVN/OIPPL4",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Python code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "spatial statistics",
+      "panel data methods",
+      "risk prediction",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "time series analysis, time series forecasting examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-e4iqsc",
+    "title": "Replication Data for: Getting to Know Her: Information and Gender Bias in Preferential Voting Systems",
+    "authors": "Smith, Daniel, Smith, Daniel, Reeves, Justin F",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Getting to Know Her: Information and Gender Bias in Preferential Voting Systems",
+    "datasetUrl": "https://doi.org/10.7910/DVN/E4IQSC",
+    "paperUrl": "https://doi.org/10.7910/DVN/E4IQSC",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "survey methodology, survey experiments examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   }
 ]
