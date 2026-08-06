@@ -41712,5 +41712,434 @@
     ],
     "bestFor": "survey methodology, survey experiments examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-vhah07",
+    "title": "Replication Data for: From Borders to Networks: The Changing Channels of Education Policy Diffusion in the American States",
+    "authors": "Ben Brik, Anis",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: From Borders to Networks: The Changing Channels of Education Policy Diffusion in the American States",
+    "datasetUrl": "https://doi.org/10.7910/DVN/VHAH07",
+    "paperUrl": "https://doi.org/10.7910/DVN/VHAH07",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "longitudinal data analysis",
+      "panel data methods",
+      "spatial statistics"
+    ],
+    "bestFor": "survival analysis, survival models examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-ftgxhs",
+    "title": "Replication Data for: Subsidies or Stability? Return and Risk Channels of Industrial Policy in Capital Markets",
+    "authors": "Wang, Michael D.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Subsidies or Stability? Return and Risk Channels of Industrial Policy in Capital Markets",
+    "datasetUrl": "https://doi.org/10.7910/DVN/FTGXHS",
+    "paperUrl": "https://doi.org/10.7910/DVN/FTGXHS",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis",
+      "causal inference"
+    ],
+    "bestFor": "risk prediction, time series analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-01ztpa",
+    "title": "Central Luzon Loop Survey (2015-2016)",
+    "authors": "Social Sciences Division",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Central Luzon Loop Survey (2015-2016)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/01ZTPA",
+    "paperUrl": "https://doi.org/10.7910/DVN/01ZTPA",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "longitudinal data analysis",
+      "panel data methods",
+      "spatial statistics"
+    ],
+    "bestFor": "survey methodology, longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-onbha9",
+    "title": "Replication Data for: ¡Órale!: How Country-Specific Accents Limit The Effectiveness of Spanish-Language Campaign Appeals in the United States",
+    "authors": "Frydman, Alejandro, Alejandro Flores",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: ¡Órale!: How Country-Specific Accents Limit The Effectiveness of Spanish-Language Campaign Appeals in the United States",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ONBHA9",
+    "paperUrl": "https://doi.org/10.7910/DVN/ONBHA9",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation",
+      "heterogeneous treatment effects"
+    ],
+    "bestFor": "survey methodology, survey experiments examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-f15yqx",
+    "title": "Replication Data for: Policy Packaging and Public Acceptance: How Size, Combinations, and Context Shape Support",
+    "authors": "Christiansen, Petter",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Policy Packaging and Public Acceptance: How Size, Combinations, and Context Shape Support",
+    "datasetUrl": "https://doi.org/10.7910/DVN/F15YQX",
+    "paperUrl": "https://doi.org/10.7910/DVN/F15YQX",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "survey methodology, survey experiments examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-bq9qpb",
+    "title": "Replication Data for: AI-driven interventions correct misinformation, but their effectiveness fades from text to images to video",
+    "authors": "Pandey, Mihir, Pandey, Mihir, Shankar, Shail, Shankar, Shail",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: AI-driven interventions correct misinformation, but their effectiveness fades from text to images to video",
+    "datasetUrl": "https://doi.org/10.7910/DVN/BQ9QPB",
+    "paperUrl": "https://doi.org/10.7910/DVN/BQ9QPB",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation",
+      "survey experiments",
+      "survey methodology"
+    ],
+    "bestFor": "randomized experiments, causal inference examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21819992-qrt-pcr-data-from-mir-27b-5p-is-associated-with-better-overall-survival-and-a-le",
+    "title": "qRT-PCR data from: miR-27b-5p is associated with better overall survival and a less aggressive character of HNSCC",
+    "authors": "Kozłowska-Masłoń, Joanna",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: qRT-PCR data from: miR-27b-5p is associated with better overall survival and a less aggressive character of HNSCC",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21819992",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21819992",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "risk prediction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "survival analysis, survival models examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21819632-shgr-sugarcane-tsh",
+    "title": "SHGR-Sugarcane-TSH",
+    "authors": "Avinash Kumar, Roy, Dr. Lal Bahadur",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: SHGR-Sugarcane-TSH",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21819632",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21819632",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "spatial statistics, time series analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21820491-effectiveness-of-massage-vibratory-emesis-mve-as-a-non-pharmacological-nursing-i",
+    "title": "EFFECTIVENESS OF MASSAGE VIBRATORY EMESIS (MVE) AS A NON-PHARMACOLOGICAL NURSING INTERVENTION FOR NAUSEA AND VOMITING DURING PREGNANCY: A QUASI-EXPERIMENTAL STUDY",
+    "authors": "Harahap, Ikhsanuddin Ahmad, nasution, siti saidah, Siregar, Farida Linda Sari, erniyati, erniyati, Afdila, Ryandika",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: EFFECTIVENESS OF MASSAGE VIBRATORY EMESIS (MVE) AS A NON-PHARMACOLOGICAL NURSING INTERVENTION FOR NAUSEA AND VOMITING DURING PREGNANCY: A QUASI-EXPERIMENTAL STUDY",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21820491",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21820491",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "causal inference, quasi-experimental designs examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-5wdoxh",
+    "title": "Replication Data for: The Aftermath of Credit Booms: Evidence from Credit Ceiling Removals",
+    "authors": "Green, Isaac, Baron, Matthew, Baron, Matthew",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: The Aftermath of Credit Booms: Evidence from Credit Ceiling Removals",
+    "datasetUrl": "https://doi.org/10.7910/DVN/5WDOXH",
+    "paperUrl": "https://doi.org/10.7910/DVN/5WDOXH",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "causal inference, quasi-experimental designs examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21820616-dataset-for-investor-sentiment-and-future-cryptocurrency-market-stress-evidence-",
+    "title": "Dataset for: Investor Sentiment and Future Cryptocurrency Market Stress: Evidence from Bitcoin and Ethereum",
+    "authors": "Panigrahi, Ashok",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Dataset for: Investor Sentiment and Future Cryptocurrency Market Stress: Evidence from Bitcoin and Ethereum",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21820616",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21820616",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "risk prediction",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "time series analysis, time series forecasting examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21819460-grippeweb-daten-des-wochenberichts",
+    "title": "GrippeWeb - Daten des Wochenberichts",
+    "authors": "Buchholz, Udo, Lehfeld, Ann-Sophie, Loenenbach, Anna, Prahm, Kerstin, Preuß, Ute, Stepanovich-Falke, Anastassiya, Haas, Walter",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: GrippeWeb - Daten des Wochenberichts",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21819460",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21819460",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "survey methodology, complex survey design examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21819234-ryerson-project-public-data",
+    "title": "Ryerson Project Public Data",
+    "authors": "Jones, Jason",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Ryerson Project Public Data",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21819234",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21819234",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "time series analysis",
+      "survey weighting"
+    ],
+    "bestFor": "survey methodology, complex survey design examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21819004-ipseity-daily-data",
+    "title": "Ipseity Daily Data",
+    "authors": "Jones, Jason",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Ipseity Daily Data",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21819004",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21819004",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "time series analysis",
+      "survey weighting"
+    ],
+    "bestFor": "survey methodology, complex survey design examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21815711-survey-data-on-return-migration-coping-strategies-and-food-security-status-of-ag",
+    "title": "Survey Data on Return Migration, Coping Strategies and Food Security Status of Agricultural Households in Times of Flooding in Rivers State, Nigeria",
+    "authors": "Umechukwu, Jacinta Nmutaka",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Survey Data on Return Migration, Coping Strategies and Food Security Status of Agricultural Households in Times of Flooding in Rivers State, Nigeria",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21815711",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21815711",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "multilevel modeling",
+      "missing data"
+    ],
+    "bestFor": "survey methodology, complex survey design examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   }
 ]
