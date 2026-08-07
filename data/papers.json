@@ -42141,5 +42141,461 @@
     ],
     "bestFor": "survey methodology, complex survey design examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-divbsn",
+    "title": "Polish National Election Study 1997-2023, Harmonized Dataset/Polskie Generalne Studium Wyborcze 1997-2023, Zbiór Zharmonizowany",
+    "authors": "Cześnik, Mikołaj, Cześnik, Mikołaj, Sychowiec, Maciej, Sychowiec, Maciej, Szczupska, Oliwia, Szczupska, Oliwia, Markowski, Radosław, Markowski, Radosław, Beilin, Felix, Beilin, Felix",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Polish National Election Study 1997-2023, Harmonized Dataset/Polskie Generalne Studium Wyborcze 1997-2023, Zbiór Zharmonizowany",
+    "datasetUrl": "https://doi.org/10.7910/DVN/DIVBSN",
+    "paperUrl": "https://doi.org/10.7910/DVN/DIVBSN",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "survey methodology, complex survey design examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-hcm7q1",
+    "title": "Replication Data for: Leader Tenure, Domestic Political Costs, and IMF Program Participation",
+    "authors": "Okajare, Oluwaseun",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Leader Tenure, Domestic Political Costs, and IMF Program Participation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HCM7Q1",
+    "paperUrl": "https://doi.org/10.7910/DVN/HCM7Q1",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "survival analysis",
+      "causal inference"
+    ],
+    "bestFor": "panel data methods, longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-blen57",
+    "title": "Survey Data How Do Early Career Trajectories Unfold Among University Graduates in Chile",
+    "authors": "Espinoza, Oscar, Espinoza, Oscar, Luis Sandoval, Ortiz-Castro, Brigitte, Ortiz-Castro, Brigitte, Miranda Castillo, Catalina F., Miranda Castillo, Catalina F.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Survey Data How Do Early Career Trajectories Unfold Among University Graduates in Chile",
+    "datasetUrl": "https://doi.org/10.7910/DVN/BLEN57",
+    "paperUrl": "https://doi.org/10.7910/DVN/BLEN57",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "survey methodology",
+      "missing data"
+    ],
+    "bestFor": "longitudinal data analysis, panel data methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-9lzcbl",
+    "title": "Replication Data for: Formal retirement and multidimensional health among middle-aged and older adults in China: a five-wave within-person analysis of the China Health and Retirement Longitudinal Study",
+    "authors": "Zhang, Gaofei, Wang, Deqin, Wang, Deqin",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Formal retirement and multidimensional health among middle-aged and older adults in China: a five-wave within-person analysis of the China Health and Retirement Longitudinal Study",
+    "datasetUrl": "https://doi.org/10.7910/DVN/9LZCBL",
+    "paperUrl": "https://doi.org/10.7910/DVN/9LZCBL",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "causal inference",
+      "treatment effect estimation",
+      "survival analysis"
+    ],
+    "bestFor": "longitudinal data analysis, panel data methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-vgmyua",
+    "title": "Replication Data for: Selection of rice (Oryza sativa L.) genebank accessions based on response to multiple drought types and diseases, multilocation testing, and determination of breeding values",
+    "authors": "Yadaw, Ram Baran, Torres, Rolando, Roy, Somnath, Singh, Suresh Prasad, Kumar, Santosh, Badri, Jyothi, Tripathi, Santosh, Prasad, Archana, Akter, Fahamida, Bhattarai, Rudra, Quintana, Marinell, Natividad, Mignon, Sta Cruz, Maria Teresita, de Ocampo, Marjorie, Navea, Ian Paul, Pisano, Daniel Joseph, Venkateshwarlu, Challa, Raman, Anitha, Bhagat, Someshwar, Maiti, Dipankar, Das, Sankar Prasad, Swain, Padmini, Ram, T, Verulkar, SB, Singh, Shravan K, Mandal, Nimai P, Covarrubias-Pazaran, Giovanny, Vera Cruz, Casiana, Kumar, Arvind, Henry, Amelia",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Selection of rice (Oryza sativa L.) genebank accessions based on response to multiple drought types and diseases, multilocation testing, and determination of breeding values",
+    "datasetUrl": "https://doi.org/10.7910/DVN/VGMYUA",
+    "paperUrl": "https://doi.org/10.7910/DVN/VGMYUA",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multilevel modeling",
+      "spatial statistics",
+      "longitudinal data analysis",
+      "risk prediction"
+    ],
+    "bestFor": "multilevel modeling, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-2kjsco",
+    "title": "CLARA: Communication of Local German Party Associations, Recorded Annually (2015-2025)",
+    "authors": "Hilbig, Hanno",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: CLARA: Communication of Local German Party Associations, Recorded Annually (2015-2025)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/2KJSCO",
+    "paperUrl": "https://doi.org/10.7910/DVN/2KJSCO",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "missing data"
+    ],
+    "bestFor": "panel data methods, longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-1lvbgl",
+    "title": "Replication Data for: From Religious Identity to Perceived Dispossession: Political Powerlessness, Group Grievance, and Electoral Distrust in the 2020 ANES",
+    "authors": "Hall, Dean",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: From Religious Identity to Perceived Dispossession: Political Powerlessness, Group Grievance, and Electoral Distrust in the 2020 ANES",
+    "datasetUrl": "https://doi.org/10.7910/DVN/1LVBGL",
+    "paperUrl": "https://doi.org/10.7910/DVN/1LVBGL",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "missing data",
+      "time series analysis"
+    ],
+    "bestFor": "survey methodology, complex survey design examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-pfizps",
+    "title": "Attacks on Science Tracker: Data and Materials",
+    "authors": "Jules Barbati-Dajches, Ellickson, Kristie, Ellickson, Kristie, Velez, Erick, Velez, Erick, Dietrich, Alexa, Dietrich, Alexa",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Attacks on Science Tracker: Data and Materials",
+    "datasetUrl": "https://doi.org/10.7910/DVN/PFIZPS",
+    "paperUrl": "https://doi.org/10.7910/DVN/PFIZPS",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "risk prediction",
+      "missing data"
+    ],
+    "bestFor": "time series analysis, risk prediction examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-qxjisz",
+    "title": "Base de datos para la ponencia \"Sobre la evolución de los regímenes políticos en el mundo\"",
+    "authors": "Peña, Ricardo de la",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Base de datos para la ponencia \"Sobre la evolución de los regímenes políticos en el mundo\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/QXJISZ",
+    "paperUrl": "https://doi.org/10.7910/DVN/QXJISZ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "panel data methods, longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21836827-replication-package-for-social-capital-and-the-environmental-kuznets-curve-in-af",
+    "title": "Replication Package for: Social Capital and the Environmental Kuznets Curve in Africa: Panel Evidence from 25 Countries, 2007–2023",
+    "authors": "Bayraktar, Murat",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication Package for: Social Capital and the Environmental Kuznets Curve in Africa: Panel Evidence from 25 Countries, 2007–2023",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21836827",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21836827",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Stata code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "causal inference"
+    ],
+    "bestFor": "panel data methods, longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21834624-does-social-capital-sustain-trade-unions-institutional-absorption-and-an-informa",
+    "title": "Does Social Capital Sustain Trade Unions? Institutional Absorption and an Informative Null in 34 OECD-Area Countries",
+    "authors": "BAYRAKTAR, Murat",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Does Social Capital Sustain Trade Unions? Institutional Absorption and an Informative Null in 34 OECD-Area Countries",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21834624",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21834624",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Stata code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "causal inference"
+    ],
+    "bestFor": "panel data methods, longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21834482-asean-banking-paneldata-2019-2025",
+    "title": "ASEAN_Banking_PanelData_2019_2025",
+    "authors": "NGO, VAN TUAN",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: ASEAN_Banking_PanelData_2019_2025",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21834482",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21834482",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "panel data methods, longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21835314-daily-reservoir-monitoring-time-series-and-level-area-volume-curve-for-the-bovil",
+    "title": "Daily Reservoir Monitoring Time Series and Level-Area-Volume Curve for the Bovilla Pilot, Albania (2003 to 2025)",
+    "authors": "Koçi, Rrezar",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Daily Reservoir Monitoring Time Series and Level-Area-Volume Curve for the Bovilla Pilot, Albania (2003 to 2025)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21835314",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21835314",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "time series analysis, time series forecasting examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21834162-the-system-for-classification-of-low-pressure-systems-syclops-dataset-based-on-e",
+    "title": "The System for Classification of Low-Pressure Systems (SyCLoPS) Dataset (Based on ERA5)",
+    "authors": "Han, Yushan, Ullrich, Paul",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: The System for Classification of Low-Pressure Systems (SyCLoPS) Dataset (Based on ERA5)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21834162",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21834162",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series classification",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "time series analysis, time series classification examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21834587-plantoact-task-2-1-hourly-profiles-heating-and-cooling-demand",
+    "title": "PLANtoACT Task 2.1: Hourly profiles - Heating and cooling demand",
+    "authors": "Prina, Matteo Giacomo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: PLANtoACT Task 2.1: Hourly profiles - Heating and cooling demand",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21834587",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21834587",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "time series analysis, time series forecasting examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21834204-plantoact-task-2-1-hourly-profiles-hydro-power",
+    "title": "PLANtoACT Task 2.1: Hourly profiles - Hydro power",
+    "authors": "Prina, Matteo Giacomo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: PLANtoACT Task 2.1: Hourly profiles - Hydro power",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21834204",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21834204",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "Python code",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "time series analysis, time series forecasting examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   }
 ]
