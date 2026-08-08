@@ -42597,5 +42597,414 @@
     ],
     "bestFor": "time series analysis, time series forecasting examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-jp9z5u",
+    "title": "Replication Data for: The Heterogeneous Impacts of Natural Disasters on Risk Preferences in Indonesia",
+    "authors": "Purcell, Helene, Purcell, Helene",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: The Heterogeneous Impacts of Natural Disasters on Risk Preferences in Indonesia",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JP9Z5U",
+    "paperUrl": "https://doi.org/10.7910/DVN/JP9Z5U",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code",
+      "survey data",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "heterogeneous treatment effects",
+      "panel data methods",
+      "longitudinal data analysis",
+      "survey methodology"
+    ],
+    "bestFor": "causal inference, panel data methods, survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-lnxnco",
+    "title": "Replication Data for: \"Long-Term Trends in Postoperative Complication Rates Following Surgery for Acute Intestinal Obstruction: A National Study from Kazakhstan in the Context of Global Surgery\"",
+    "authors": "Furs, Alex",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: \"Long-Term Trends in Postoperative Complication Rates Following Surgery for Acute Intestinal Obstruction: A National Study from Kazakhstan in the Context of Global Surgery\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/LNXNCO",
+    "paperUrl": "https://doi.org/10.7910/DVN/LNXNCO",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "survival analysis",
+      "survival models",
+      "risk prediction",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-jtf2it",
+    "title": "Replication Data for: Impact of a Mobile Technology Enabled Hybrid Cardiac Rehabilitation Program on Functional Status and Cardiovascular Health: The mTECH-Rehab Randomized Controlled Trial",
+    "authors": "Ding, Jie",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Impact of a Mobile Technology Enabled Hybrid Cardiac Rehabilitation Program on Functional Status and Cardiovascular Health: The mTECH-Rehab Randomized Controlled Trial",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JTF2IT",
+    "paperUrl": "https://doi.org/10.7910/DVN/JTF2IT",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-hfspc8",
+    "title": "Replication Data for: \"Growing awareness: Growing Awareness: Evaluating the Impact of Environmental Education on Attitudes, Knowledge, and Behavior\"",
+    "authors": "Alix-Garcia, Jennifer, Knittel, Christopher, Knittel, Christopher",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: \"Growing awareness: Growing Awareness: Evaluating the Impact of Environmental Education on Attitudes, Knowledge, and Behavior\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HFSPC8",
+    "paperUrl": "https://doi.org/10.7910/DVN/HFSPC8",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "survey methodology"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-hvraoh",
+    "title": "Does Affective Intelligence Theory Generalize? Evidence from the Russia-Ukraine War",
+    "authors": "Zhandayeva, Raushan, Zhandayeva, Raushan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Does Affective Intelligence Theory Generalize? Evidence from the Russia-Ukraine War",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HVRAOH",
+    "paperUrl": "https://doi.org/10.7910/DVN/HVRAOH",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-wtajki",
+    "title": "Replication Data for: Generalizing Causal Effects with Noncompliance: Application to Deep Canvassing Experiments",
+    "authors": "Zhongren Chen, Melody Huang",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Generalizing Causal Effects with Noncompliance: Application to Deep Canvassing Experiments",
+    "datasetUrl": "https://doi.org/10.7910/DVN/WTAJKI",
+    "paperUrl": "https://doi.org/10.7910/DVN/WTAJKI",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "survey experiments",
+      "heterogeneous treatment effects",
+      "survey methodology"
+    ],
+    "bestFor": "causal inference examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-m8rw9z",
+    "title": "Replication Data for: Debt Sustainability as a Nominal Reconciliation Problem",
+    "authors": "Cid Moreno, Jorge, Cid Moreno, Jorge",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Debt Sustainability as a Nominal Reconciliation Problem",
+    "datasetUrl": "https://doi.org/10.7910/DVN/M8RW9Z",
+    "paperUrl": "https://doi.org/10.7910/DVN/M8RW9Z",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "R code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21851192-district-level-combined-drought-index-and-cereal-production-data-for-somalia-200",
+    "title": "District-Level Combined Drought Index and Cereal Production Data for Somalia, 2001 to 2025",
+    "authors": "Hersi, Abdifitah",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: District-Level Combined Drought Index and Cereal Production Data for Somalia, 2001 to 2025",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21851192",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21851192",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-3v2kdn",
+    "title": "Development and validation of a DNA methylation-related gene expression signature for prognostic stratification and immune characterization in lung adenocarcinoma",
+    "authors": "Li, Renjie",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Development and validation of a DNA methylation-related gene expression signature for prognostic stratification and immune characterization in lung adenocarcinoma",
+    "datasetUrl": "https://doi.org/10.7910/DVN/3V2KDN",
+    "paperUrl": "https://doi.org/10.7910/DVN/3V2KDN",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "risk prediction",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "survival analysis, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-uxyb9g",
+    "title": "Dataset for U.S., Malaysia and Singapore Tech Stocks CAR and TRV during U.S. AI Chip Export Restrictions",
+    "authors": "Tee, Peck Ling",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Dataset for U.S., Malaysia and Singapore Tech Stocks CAR and TRV during U.S. AI Chip Export Restrictions",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UXYB9G",
+    "paperUrl": "https://doi.org/10.7910/DVN/UXYB9G",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "causal inference",
+      "quasi-experimental designs",
+      "risk prediction",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-p8opja",
+    "title": "Dataset for U.S., China and India Tech Stocks CAR and TRV during U.S. AI Chip Export Restrictions",
+    "authors": "Tee, Peck Ling",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Dataset for U.S., China and India Tech Stocks CAR and TRV during U.S. AI Chip Export Restrictions",
+    "datasetUrl": "https://doi.org/10.7910/DVN/P8OPJA",
+    "paperUrl": "https://doi.org/10.7910/DVN/P8OPJA",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "causal inference",
+      "quasi-experimental designs",
+      "risk prediction",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21853143-global-land-gap-filling-of-tropomi-tropospheric-no2-and-averaging-kernels",
+    "title": "Global Land Gap-Filling of TROPOMI Tropospheric NO2 and Averaging Kernels",
+    "authors": "Wang, Chang, Lu, Xingcheng",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Global Land Gap-Filling of TROPOMI Tropospheric NO2 and Averaging Kernels",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21853143",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21853143",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "time series analysis",
+      "spatial statistics",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21853594-code-and-cached-model-inputs-for-denser-monitoring-networks-can-degrade-urban-em",
+    "title": "Code and cached model inputs for: Denser monitoring networks can degrade urban emission inversions when meteorological representativeness error is ignored",
+    "authors": "Liu, Hao",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Code and cached model inputs for: Denser monitoring networks can degrade urban emission inversions when meteorological representativeness error is ignored",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21853594",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21853594",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction",
+      "missing data"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21843797-public-utility-data-liberation-project-pudl-data-release",
+    "title": "Public Utility Data Liberation Project (PUDL) Data Release",
+    "authors": "Selvans, Zane, Gosnell, Christina, Sharpe, Austen, Schira, Zachary, Xia, Dazhong, Belfer, Ella, Mazaitis, Kathryn",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Public Utility Data Liberation Project (PUDL) Data Release",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21843797",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21843797",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "time series analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   }
 ]
