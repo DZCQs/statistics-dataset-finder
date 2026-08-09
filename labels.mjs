@@ -608,6 +608,25 @@ export const LABEL_CANDIDATES = [
     ],
     evidenceTerms: ["interrupted time series", "controlled interrupted time series", "cits"]
   },
+  {
+    name: "multiple testing",
+    proposedLevel: "mid",
+    proposedParents: ["high-dimensional statistics"],
+    status: "watch",
+    definition: "Datasets and replication packages useful for false discovery rate control, multiple-comparison adjustment, selective inference, or high-dimensional testing workflows.",
+    currentEvidence: [
+      {
+        paperId: "dataverse-wjabuk",
+        reason: "Replication data and code for covariate-localized false discovery rates, including Bayesian and frequentist simulations plus a neural synchrony analysis workspace."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence catalog records provide accessible data/code for multiple-testing or FDR methodology",
+      "false discovery, multiplicity, or selective testing is central rather than a minor post-hoc adjustment",
+      "the label improves search beyond broader high-dimensional statistics or variable selection labels"
+    ],
+    evidenceTerms: ["multiple testing", "false discovery", "false discovery rate", "fdr", "multiple comparisons", "multiplicity", "selective inference"]
+  },
 ];
 
 export const LABEL_RULES = {

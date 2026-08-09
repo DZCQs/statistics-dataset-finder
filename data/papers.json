@@ -43006,5 +43006,520 @@
     ],
     "bestFor": "time series analysis examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-ngry3r",
+    "title": "Chilean Political Landscape Dataset (CPLD)",
+    "authors": "Bunker, Kenneth, Bunker, Kenneth",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Chilean Political Landscape Dataset (CPLD)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/NGRY3R",
+    "paperUrl": "https://doi.org/10.7910/DVN/NGRY3R",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "survey methodology"
+    ],
+    "bestFor": "longitudinal data analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-5lezja",
+    "title": "Replication Data for: Where Should NYC Put Its Grocery Stores? A Store Choice Model and Monte Carlo Placement Optimization for NYC Municipal Supermarkets",
+    "authors": "Kim, Noah H.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Where Should NYC Put Its Grocery Stores? A Store Choice Model and Monte Carlo Placement Optimization for NYC Municipal Supermarkets",
+    "datasetUrl": "https://doi.org/10.7910/DVN/5LEZJA",
+    "paperUrl": "https://doi.org/10.7910/DVN/5LEZJA",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "causal inference",
+      "treatment effect estimation",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-jmevbg",
+    "title": "Replication Data for: Evaluating Cordon Pricing in an Auto-Reliant Metropolitan Context: The Washington, D.C. Case Study",
+    "authors": "Liu, Diyi",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Evaluating Cordon Pricing in an Auto-Reliant Metropolitan Context: The Washington, D.C. Case Study",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JMEVBG",
+    "paperUrl": "https://doi.org/10.7910/DVN/JMEVBG",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21864149-bridging-sparse-observations-and-global-wetland-methane-emissions",
+    "title": "Bridging sparse observations and global wetland methane emissions",
+    "authors": "Wu, Qingguan, Liu, Licheng",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Bridging sparse observations and global wetland methane emissions",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21864149",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21864149",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "missing data",
+      "high-dimensional statistics",
+      "risk prediction"
+    ],
+    "bestFor": "high-dimensional statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21631617-random-cross-validation-misleads-the-model-accuracy-in-remote-sensing-derived-to",
+    "title": "Random Cross-Validation Misleads the Model Accuracy in Remote Sensing Derived Total Suspended Solids",
+    "authors": "Prum, Punwath",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Random Cross-Validation Misleads the Model Accuracy in Remote Sensing Derived Total Suspended Solids",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21631617",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21631617",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "resampling methods",
+      "risk prediction",
+      "time series analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21863973-when-rivers-become-bottlenecks-a-transmission-based-view-of-supply-chain-resilie",
+    "title": "When Rivers Become Bottlenecks: A Transmission-Based View of Supply Chain Resilience Under Recurrent Climate-Related Transport Constraints — Replication Package",
+    "authors": "Victoria Dolores Veras Cesar, Jose Luis Tavares dos Santos",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: When Rivers Become Bottlenecks: A Transmission-Based View of Supply Chain Resilience Under Recurrent Climate-Related Transport Constraints — Replication Package",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21863973",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21863973",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "survival analysis",
+      "survival models",
+      "risk prediction",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21863981-ayala-omega-framework-h8-a-covariance-aware-babar-besiii-null-test-of-localized-",
+    "title": "Ayala Omega Framework H8-A: Covariance-Aware BABAR-BESIII Null Test of Localized Shape Disagreement in the Electron-Positron to Pion-Pair Spectrum",
+    "authors": "Ayala Feliciano, Daniel",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Ayala Omega Framework H8-A: Covariance-Aware BABAR-BESIII Null Test of Localized Shape Disagreement in the Electron-Positron to Pion-Pair Spectrum",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21863981",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21863981",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "resampling methods",
+      "time series analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21809323-data-and-r-code-for-modeling-environmental-suitability-for-pathogenic-phytophtho",
+    "title": "Data and R code for Modeling environmental suitability for pathogenic Phytophthora species associated with wild olive dieback to support disease surveillance and management in Mediterranean forests",
+    "authors": "Satta, Gabriele Giuseppe Antonio, Angius, Francesca, Deidda, Antonio, Brandano, Andrea, Mureddu, Davide, Scanu, Bruno",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data and R code for Modeling environmental suitability for pathogenic Phytophthora species associated with wild olive dieback to support disease surveillance and management in Mediterranean forests",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21809323",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21809323",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "variable selection",
+      "risk prediction",
+      "missing data"
+    ],
+    "bestFor": "variable selection, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-wjabuk",
+    "title": "Replication Data for: Covariate-localized False Discovery Rates",
+    "authors": "Lin, Jonathan, Tokdar, Surya, Tokdar, Surya",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Covariate-localized False Discovery Rates",
+    "datasetUrl": "https://doi.org/10.7910/DVN/WJABUK",
+    "paperUrl": "https://doi.org/10.7910/DVN/WJABUK",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "high-dimensional statistics",
+      "variable selection",
+      "resampling methods"
+    ],
+    "bestFor": "bayesian inference examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-kahex5",
+    "title": "Replication Data for: The Sky's the Limit: Asset price spirals when margin traders are all in",
+    "authors": "Waters, Brian, VAN WESEP, EDWARD, VAN WESEP, EDWARD",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: The Sky's the Limit: Asset price spirals when margin traders are all in",
+    "datasetUrl": "https://doi.org/10.7910/DVN/KAHEX5",
+    "paperUrl": "https://doi.org/10.7910/DVN/KAHEX5",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "risk prediction",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21861951-does-social-capital-sustain-trade-unions-evidence-against-the-social-custom-acco",
+    "title": "Does Social Capital Sustain Trade Unions? Evidence Against the Social Custom Account from 34 OECD-Area Countries, 2008–2019",
+    "authors": "BAYRAKTAR, Murat",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Does Social Capital Sustain Trade Unions? Evidence Against the Social Custom Account from 34 OECD-Area Countries, 2008–2019",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21861951",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21861951",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Stata code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "survey methodology",
+      "multilevel modeling"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21863572-supplementary-data-for-the-hardware-and-software-interface-conjoint-analyses",
+    "title": "Supplementary Data for the Hardware and Software Interface Conjoint Analyses",
+    "authors": "Xie, Xiaojie, Zhu, Jiangang, Miao, Yanfeng",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Supplementary Data for the Hardware and Software Interface Conjoint Analyses",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21863572",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21863572",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21862832-agricultural-productivity-innovation-and-market-access-in-ghana-evidence-from-up",
+    "title": "Agricultural productivity, innovation, and market access in Ghana: Evidence from Upper West Region.",
+    "authors": "MBA, AWUDU AZUMBILLA",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Agricultural productivity, innovation, and market access in Ghana: Evidence from Upper West Region.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21862832",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21862832",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "causal inference",
+      "treatment effect estimation",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21859310-a-dataset-of-soil-water-measurements-at-multiple-scales-and-depths-on-china-s-lo",
+    "title": "A dataset of soil water measurements at multiple scales and depths on China's Loess Plateau",
+    "authors": "Zhao, Wen, Jia, Xiaoxu, Hu, Wei, Li, Xuezhang, Zhao, Chunlei, Gao, Lei, Jia, Yuhua, Shao, Ming'an",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: A dataset of soil water measurements at multiple scales and depths on China's Loess Plateau",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21859310",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21859310",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "longitudinal data analysis",
+      "missing data"
+    ],
+    "bestFor": "survey methodology, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21858287-sustainability-reporting-practices-a-cross-country-survey-dataset",
+    "title": "Sustainability Reporting Practices: A Cross-Country Survey Dataset",
+    "authors": "FLEACA, Elena, Doltu, Theodora Mihaela, Kostadinova, Irina, Jalencu Marian, Konečná, Zdeňka, Marcinkowski, Andrzej, Kaya, Tülay, COLOMBA, CARLO, Stomff, Speranta, Rosca, Dorina, Suciu, George, Moldovan, Daniel",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Sustainability Reporting Practices: A Cross-Country Survey Dataset",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21858287",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21858287",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "multilevel modeling",
+      "risk prediction"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21858328-ryerson-project-public-data",
+    "title": "Ryerson Project Public Data",
+    "authors": "Jones, Jason",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Ryerson Project Public Data",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21858328",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21858328",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21858188-ipseity-daily-data",
+    "title": "Ipseity Daily Data",
+    "authors": "Jones, Jason",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Ipseity Daily Data",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21858188",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21858188",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21857564-financing-conditions-and-formal-enterprise-growth-nigeria-in-a-cross-economy-ben",
+    "title": "Financing Conditions and Formal-Enterprise Growth: Nigeria in a Cross-Economy Benchmark: Evidence from Published World Bank Enterprise Survey Indicators",
+    "authors": "Oganija Baba, Kabir",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Financing Conditions and Formal-Enterprise Growth: Nigeria in a Cross-Economy Benchmark: Evidence from Published World Bank Enterprise Survey Indicators",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21857564",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21857564",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "risk prediction",
+      "multilevel modeling"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   }
 ]
