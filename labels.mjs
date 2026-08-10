@@ -627,6 +627,29 @@ export const LABEL_CANDIDATES = [
     ],
     evidenceTerms: ["multiple testing", "false discovery", "false discovery rate", "fdr", "multiple comparisons", "multiplicity", "selective inference"]
   },
+  {
+    name: "meta-analysis",
+    proposedLevel: "mid",
+    proposedParents: [],
+    status: "watch",
+    definition: "Datasets and replication packages useful for statistical meta-analysis, evidence synthesis, correlated effect-size adjustment, or between-study heterogeneity modeling.",
+    currentEvidence: [
+      {
+        paperId: "dataverse-x5qck4",
+        reason: "Replication materials for adjusting correlated sampling error in meta-analyses of behavioral interventions."
+      },
+      {
+        paperId: "dataverse-qlem9q-shared-discrimination-experiments",
+        reason: "Harvard Dataverse replication data for a pre-registered meta-analysis of eight published experiments with common-design moderation analyses."
+      }
+    ],
+    admitWhen: [
+      "at least three high-confidence records provide accessible data/code for meta-analysis methodology",
+      "effect-size synthesis, dependence between estimates, or between-study heterogeneity is central",
+      "the label improves search beyond broader causal inference, multilevel modeling, or resampling-method labels"
+    ],
+    evidenceTerms: ["meta-analysis", "meta analysis", "evidence synthesis", "between-study heterogeneity", "correlated sampling error"]
+  },
 ];
 
 export const LABEL_RULES = {

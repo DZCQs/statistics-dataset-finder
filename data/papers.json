@@ -43521,5 +43521,573 @@
     ],
     "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-bxfevo",
+    "title": "Supplementary Materials for the article \"2D Adaptive Multi-Interval Scale (AMIS): Method for Per-Cell Normalization and Visualization of Spatial Heterogeneous Data\"",
+    "authors": "Kravtsov, Gennady",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Supplementary Materials for the article \"2D Adaptive Multi-Interval Scale (AMIS): Method for Per-Cell Normalization and Visualization of Spatial Heterogeneous Data\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/BXFEVO",
+    "paperUrl": "https://doi.org/10.7910/DVN/BXFEVO",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-ajol9e",
+    "title": "Replication Data for: Framing and news sharing behavior: the use of confirmation and refutation statements in the election of a right-wing populist leader",
+    "authors": "Calvo, Ernesto",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Framing and news sharing behavior: the use of confirmation and refutation statements in the election of a right-wing populist leader",
+    "datasetUrl": "https://doi.org/10.7910/DVN/AJOL9E",
+    "paperUrl": "https://doi.org/10.7910/DVN/AJOL9E",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-ol5ymq",
+    "title": "Replication Data for: Codato, A. (2026). Fechamento social e diversidade ocupacional no Legislativo federal brasileiro: Comparando Câmara e Senado (1998–2022) [Paper presentation]. 15.º Encontro da Associação Brasileira de Ciência Política, Belém, Pará, Brazil.",
+    "authors": "Codato, Adriano, Codato, Adriano",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Codato, A. (2026). Fechamento social e diversidade ocupacional no Legislativo federal brasileiro: Comparando Câmara e Senado (1998–2022) [Paper presentation]. 15.º Encontro da Associação Brasileira de Ciência Política, Belém, Pará, Brazil.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/OL5YMQ",
+    "paperUrl": "https://doi.org/10.7910/DVN/OL5YMQ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-3armqf",
+    "title": "People's Voice Survey Data (QuEST Network)",
+    "authors": "QuEST Network",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: People's Voice Survey Data (QuEST Network)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/3ARMQF",
+    "paperUrl": "https://doi.org/10.7910/DVN/3ARMQF",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-htdtml",
+    "title": "Replication Data for: What Works Against Populist Rhetoric? The Effects of Counter-Arguments on Democratic Attitudes",
+    "authors": "Kollberg, Markus",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: What Works Against Populist Rhetoric? The Effects of Counter-Arguments on Democratic Attitudes",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HTDTML",
+    "paperUrl": "https://doi.org/10.7910/DVN/HTDTML",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-dckklw",
+    "title": "Replication data for: When Transparency Fails: Financial Incentives for Local Banking Agents in Indonesia",
+    "authors": "Leon Ciliotta, Gianmarco, Deserranno, Erika, Witoelar, Firman",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication data for: When Transparency Fails: Financial Incentives for Local Banking Agents in Indonesia",
+    "datasetUrl": "https://doi.org/10.7910/DVN/DCKKLW",
+    "paperUrl": "https://doi.org/10.7910/DVN/DCKKLW",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-c94phx",
+    "title": "Replication Data for \"Electoral Resilience in the Face of Disaster: The Impact of Hurricane Helene on the 2024 Election in North Carolina”",
+    "authors": "Cooper, Christopher",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for \"Electoral Resilience in the Face of Disaster: The Impact of Hurricane Helene on the 2024 Election in North Carolina”",
+    "datasetUrl": "https://doi.org/10.7910/DVN/C94PHX",
+    "paperUrl": "https://doi.org/10.7910/DVN/C94PHX",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-zixtgh",
+    "title": "Replication data for: Gender Discrimination in Access to Capital: A Field Experiment in Ethiopia",
+    "authors": "Manian, Shanthi, Ayalew, Shibiru, Sheth, Ketki",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication data for: Gender Discrimination in Access to Capital: A Field Experiment in Ethiopia",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZIXTGH",
+    "paperUrl": "https://doi.org/10.7910/DVN/ZIXTGH",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "heterogeneous treatment effects"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-kxfwto",
+    "title": "Replication Data for: Scientific Talent Leaks Out of Funding Gaps",
+    "authors": "Tham, Wei Yang, Staudt, Joseph, Staudt, Joseph, Perlman, Elisabeth, Perlman, Elisabeth, Cheng, Stephanie D.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Scientific Talent Leaks Out of Funding Gaps",
+    "datasetUrl": "https://doi.org/10.7910/DVN/KXFWTO",
+    "paperUrl": "https://doi.org/10.7910/DVN/KXFWTO",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21878904-analysis-archive-for-reference-choice-governs-apparent-cortical-organoid-fidelit",
+    "title": "Analysis archive for \"Reference choice governs apparent cortical-organoid fidelity in cross-study genomic contrasts\"",
+    "authors": "Syed, Sabih Ur Rehman",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Analysis archive for \"Reference choice governs apparent cortical-organoid fidelity in cross-study genomic contrasts\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21878904",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21878904",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "risk prediction",
+      "resampling methods"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21878722-urobiome-urinalysis-sample-classification-and-bray-curtis-data-from-211-urine-sa",
+    "title": "Urobiome, urinalysis, sample classification, and Bray–Curtis data from 211 urine samples contributed by 92 asymptomatic adults with spinal cord injury or disease using intermittent catheterization",
+    "authors": "Tractenberg, Rochelle",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Urobiome, urinalysis, sample classification, and Bray–Curtis data from 211 urine samples contributed by 92 asymptomatic adults with spinal cord injury or disease using intermittent catheterization",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21878722",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21878722",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "longitudinal data analysis",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "missing data examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-dvjov9",
+    "title": "Hampton Roads ALPR Cameras With ACS and CDC Data",
+    "authors": "Baird, Andrew, Keener, Steven, Keener, Steven, Finn, John, Finn, John",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Hampton Roads ALPR Cameras With ACS and CDC Data",
+    "datasetUrl": "https://doi.org/10.7910/DVN/DVJOV9",
+    "paperUrl": "https://doi.org/10.7910/DVN/DVJOV9",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "survey methodology",
+      "complex survey design",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-x5qck4",
+    "title": "Replication Data for: Why Fadeout is (Probably) Worse Than We Think: Adjusting for Correlated Sampling Error in Meta-Analyses of Behavioral Interventions",
+    "authors": "Gilbert, Josh",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Why Fadeout is (Probably) Worse Than We Think: Adjusting for Correlated Sampling Error in Meta-Analyses of Behavioral Interventions",
+    "datasetUrl": "https://doi.org/10.7910/DVN/X5QCK4",
+    "paperUrl": "https://doi.org/10.7910/DVN/X5QCK4",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "resampling methods",
+      "multilevel modeling"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21876411-the-concentration-fragility-nexus-data-and-code-repository-record-concentration-",
+    "title": "The Concentration-Fragility Nexus — Data and Code Repository (Record Concentration, Elusive Fragility)",
+    "authors": "Restrepo Morales, Jorge Aníbal, Moreno Rodríguez, Rosa Ysabel, Zea Restrepo, Freddy, Giraldo Betancur, Emerson",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: The Concentration-Fragility Nexus — Data and Code Repository (Record Concentration, Elusive Fragility)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21876411",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21876411",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-19831065-replication-data-for-inverse-bathymetry-reconstruction-in-gravel-bed-channels-a-",
+    "title": "Replication Data for: Inverse Bathymetry Reconstruction in Gravel-Bed Channels: A Physics-Informed Hybrid FNO-UNet Approach",
+    "authors": "Felipe Aguilar, Niño, Yarko",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication Data for: Inverse Bathymetry Reconstruction in Gravel-Bed Channels: A Physics-Informed Hybrid FNO-UNet Approach",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.19831065",
+    "paperUrl": "https://doi.org/10.5281/zenodo.19831065",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "high-dimensional statistics",
+      "risk prediction",
+      "missing data"
+    ],
+    "bestFor": "spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21874815-investigating-the-independent-and-mixture-effects-of-short-term-exposure-to-part",
+    "title": "Investigating the independent and mixture effects of short-term exposure to particulate matter (PM) chemical components on mortality and the potential modifying effect of extreme temperature: A time-series analysis in London",
+    "authors": "Zhang, Xiaolu S.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Investigating the independent and mixture effects of short-term exposure to particulate matter (PM) chemical components on mortality and the potential modifying effect of extreme temperature: A time-series analysis in London",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21874815",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21874815",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "survival analysis",
+      "survival models",
+      "risk prediction",
+      "missing data"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21872089-fy-3e-windrad-arctic-sea-ice-water-classification-products-2021-2024",
+    "title": "FY-3E WindRAD Arctic Sea Ice-Water Classification Products (2021–2024)",
+    "authors": "Zhai, Xiaochun, Sun, Yan, Li, Xiao-Ming, Qiu, Yujia, Shi, Qian, He, Lian, Zhang, Zhilun, Chen, Shiyi, Tian, Shengrong",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: FY-3E WindRAD Arctic Sea Ice-Water Classification Products (2021–2024)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21872089",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21872089",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "time series classification",
+      "risk prediction"
+    ],
+    "bestFor": "spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21873555-vn-index-daily-dataset-for-volatility-forecasting-2000-2024",
+    "title": "VN-Index Daily Dataset for Volatility Forecasting (2000–2024)",
+    "authors": "Quang, Phung Duy",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: VN-Index Daily Dataset for Volatility Forecasting (2000–2024)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21873555",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21873555",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "risk prediction",
+      "resampling methods"
+    ],
+    "bestFor": "time series analysis, time series forecasting examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "dataverse-ahfinm",
+    "title": "Access to Clean Cooking Energy and Electricity: Survey of States in India 2018 (ACCESS 2018)",
+    "authors": "Mani, Sunil, Shahidi, Tauseef, Patnaik, Sasmita, Jain, Abhishek, Tripathi, Saurabh, Ganesan, Karthik, Aklin, Michaël, Urpelainen, Johannes, Chindarkar, Namrata, Council on Energy, Environment and Water, Initiative for Sustainable Energy Policy, National University of Singapore",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Access to Clean Cooking Energy and Electricity: Survey of States in India 2018 (ACCESS 2018)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/AHFINM",
+    "paperUrl": "https://doi.org/10.7910/DVN/AHFINM",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "panel data methods",
+      "longitudinal data analysis",
+      "causal inference"
+    ],
+    "bestFor": "longitudinal data analysis, survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21872884-swinno-database-of-swedish-innovations",
+    "title": "SWINNO - Database of Swedish Innovations",
+    "authors": "Taalbi, Josef, Sjöö, Karolin, Kander, Astrid, Ljungberg, Jonas, Chaminade, Cristina",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: SWINNO - Database of Swedish Innovations",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21872884",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21872884",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   }
 ]
