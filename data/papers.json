@@ -44089,5 +44089,510 @@
     ],
     "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21877276-coalescing-compact-binary-parameter-estimation-with-gravitational-waves-in-the-p",
+    "title": "Coalescing Compact Binary Parameter Estimation with Gravitational Waves in the Presence of non-Gaussian Transient Noise",
+    "authors": "Lecoeuche, Yannick, McIver, Jess, Knee, Alan, Udall, Rhiannon, Rink, Katie, Hourihane, Sophie, Miller, Simona, Chatziioannou, Katerina, Massinger, Thomas, Davis, Derek",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Coalescing Compact Binary Parameter Estimation with Gravitational Waves in the Presence of non-Gaussian Transient Noise",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21877276",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21877276",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "time series analysis",
+      "risk prediction",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21910587-raw-data-from-the-experimental-evaluation-of-different-molt-induction-programs-i",
+    "title": "Raw Data from the Experimental Evaluation of Different Molt Induction Programs in Laying Hens",
+    "authors": "Ordaz Ochoa, Gerardo, Juárez, Aureliano",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Raw Data from the Experimental Evaluation of Different Molt Induction Programs in Laying Hens",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21910587",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21910587",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21910449-fire-front-oriented-actor-model-benchmark-harnesses-domain-rasters-and-measured-",
+    "title": "Fire-front-oriented actor model: benchmark harnesses, domain rasters and measured timings",
+    "authors": "Duarte Rojas, Sergio Santiago, Cely Duarte, Sol Daniela, BARON VELANDIA, JULIO",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Fire-front-oriented actor model: benchmark harnesses, domain rasters and measured timings",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21910449",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21910449",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "survival analysis",
+      "survival models",
+      "risk prediction"
+    ],
+    "bestFor": "survival analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21910312-ddi-hierpred-dataset-curated-drug-drug-interaction-data-for-hierarchical-pk-pd-c",
+    "title": "DDI-HierPred Dataset: Curated Drug–Drug Interaction Data for Hierarchical PK/PD Classification and Interaction Subtype Prediction",
+    "authors": "ouassaf, mebarka, Alhatlani, Bader y",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: DDI-HierPred Dataset: Curated Drug–Drug Interaction Data for Hierarchical PK/PD Classification and Interaction Subtype Prediction",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21910312",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21910312",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "risk prediction",
+      "time series classification",
+      "hierarchical forecasting",
+      "time series analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-18624620-dataset-transpiration-is-older-than-streamflow-at-maimai-the-ecohydrological-cou",
+    "title": "Dataset: Transpiration is older than streamflow at Maimai: The ecohydrological coupling and decoupling between transpiration and streamflow sources",
+    "authors": "Simmons, Cerra J., Nehemy, Magali, Dudley, Bruce D., Mcdonnell, Jeffrey J.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Dataset: Transpiration is older than streamflow at Maimai: The ecohydrological coupling and decoupling between transpiration and streamflow sources",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.18624620",
+    "paperUrl": "https://doi.org/10.5281/zenodo.18624620",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "missing data",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21909862-oeps-opioid-environment-policy-scan-data-ecosystem",
+    "title": "OEPS: Opioid Environment Policy Scan Data Ecosystem",
+    "authors": "Kim, Yong Wook, Cox, Adam, Kabir Adrita, Mahjabin, Lambert, Sara, Wimer, Ashlynn, Halpern, Dylan, Paykin, Susan, Lin, Qinyun, Kolak, Marynia",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: OEPS: Opioid Environment Policy Scan Data Ecosystem",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21909862",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21909862",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "survey methodology",
+      "risk prediction",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "survival analysis, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21909519-email-eu",
+    "title": "email-eu",
+    "authors": "Landry, Nicholas",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: email-eu",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21909519",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21909519",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "high-dimensional statistics",
+      "graphical models",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21908679-anonymised-reproducibility-package-for-relational-embeddedness-and-inter-organis",
+    "title": "Anonymised reproducibility package for \"Relational Embeddedness and Inter-Organisational Network Persistence in Temporary European Research Consortia\"",
+    "authors": "Anonymous manuscript authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Anonymised reproducibility package for \"Relational Embeddedness and Inter-Organisational Network Persistence in Temporary European Research Consortia\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21908679",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21908679",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "longitudinal data analysis",
+      "panel data methods",
+      "risk prediction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21908375-red-pump-2026-v1-a-public-benchmark-of-860-213-pump-fun-token-launches-with-surv",
+    "title": "RED-PUMP-2026-v1: A public benchmark of 860,213 pump.fun token launches with survival outcomes (May–June 2026 regime)",
+    "authors": "Kamat, Arati",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: RED-PUMP-2026-v1: A public benchmark of 860,213 pump.fun token launches with survival outcomes (May–June 2026 regime)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21908375",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21908375",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "survival analysis examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21908199-a-compilation-of-marine-photosynthesis-irradiance-data-from-14c-incubation-exper",
+    "title": "A Compilation of Marine Photosynthesis–Irradiance Data from 14C Incubation Experiments",
+    "authors": "M. Amirian, Mohammad, Devred, emmanuel, Clay, Stephanie, Finkel, Zoe, Irwin, Andrew",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: A Compilation of Marine Photosynthesis–Irradiance Data from 14C Incubation Experiments",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21908199",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21908199",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "missing data",
+      "spatial statistics",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "missing data examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21909507-email-enron",
+    "title": "email-enron",
+    "authors": "Landry, Nicholas",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: email-enron",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21909507",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21909507",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "high-dimensional statistics",
+      "graphical models",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21909345-dawn",
+    "title": "dawn",
+    "authors": "Landry, Nicholas",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: dawn",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21909345",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21909345",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "survey methodology",
+      "complex survey design",
+      "risk prediction"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21909335-contact-primary-school",
+    "title": "contact-primary-school",
+    "authors": "Lucas, Maxime",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: contact-primary-school",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21909335",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21909335",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "graphical models",
+      "survey methodology",
+      "complex survey design",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21909303-contact-high-school",
+    "title": "contact-high-school",
+    "authors": "Landry, Nicholas",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: contact-high-school",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21909303",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21909303",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "graphical models",
+      "survey methodology",
+      "complex survey design",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "survey methodology examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21909280-congress-bills",
+    "title": "congress-bills",
+    "authors": "Landry, Nicholas",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: congress-bills",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21909280",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21909280",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "graphical models",
+      "panel data methods",
+      "longitudinal data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21909251-coauth-mag-history",
+    "title": "coauth-mag-history",
+    "authors": "Lucas, Maxime",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: coauth-mag-history",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21909251",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21909251",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "graphical models",
+      "high-dimensional statistics",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21908489-coordinated-great-lakes-lake-wide-average-monthly-mean-water-levels",
+    "title": "Coordinated Great Lakes lake-wide average monthly mean water levels",
+    "authors": "Coordinating Committee on Great Lakes Basic Hydraulic and Hydrologic Data",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Coordinated Great Lakes lake-wide average monthly mean water levels",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21908489",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21908489",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "time series forecasting examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21908292-coordinated-great-lakes-lake-wide-beginning-of-month-water-levels",
+    "title": "Coordinated Great Lakes lake-wide beginning of month water levels",
+    "authors": "Coordinating Committee on Great Lakes Basic Hydraulic and Hydrologic Data",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Coordinated Great Lakes lake-wide beginning of month water levels",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21908292",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21908292",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "time series forecasting examples with an explicitly accessible dataset or replication archive.",
+    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   }
 ]
