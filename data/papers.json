@@ -44594,5 +44594,285 @@
     ],
     "bestFor": "time series forecasting examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+  },
+  {
+    "id": "zenodo-21926290-analysis-code-and-derived-products-for-no-attributable-nighttime-secondary-brc-a",
+    "title": "Analysis code and derived products for \"No Attributable Nighttime Secondary BrC Absorption Increment across a European Winter Network\"",
+    "authors": "Chen, Yang",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Analysis code and derived products for \"No Attributable Nighttime Secondary BrC Absorption Increment across a European Winter Network\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21926290",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21926290",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "time series analysis",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "Block-bootstrap and meta-analytic pooling examples for source-resolved environmental time-series comparisons across monitoring networks.",
+    "note": "Zenodo archive with analysis code and derived products for day-versus-night source-resolved absorption comparisons, block-bootstrap intervals, regime stratification, and meta-analytic pooling."
+  },
+  {
+    "id": "zenodo-21925933-choice-data-for-valuing-environmental-and-social-outcomes-of-agriculture-in-pola",
+    "title": "Choice Data for \"Valuing Environmental and Social Outcomes of Agriculture in Poland: Evidence from a Large-Scale Partial-Profile Discrete Choice Experiment\"",
+    "authors": "Wąs, Adam, Kobus, Paweł, Sulewski, Piotr, Rawa, Grzegorz",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Choice Data for \"Valuing Environmental and Social Outcomes of Agriculture in Poland: Evidence from a Large-Scale Partial-Profile Discrete Choice Experiment\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21925933",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21925933",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "complex survey design",
+      "causal inference"
+    ],
+    "bestFor": "Survey-experiment and discrete-choice examples with anonymized respondent choices, experimental blocks, payment levels, and attribute coding.",
+    "note": "Zenodo archive provides anonymized nationwide computer-assisted web survey choice data for a partial-profile discrete choice experiment, with variable dictionary and design documentation."
+  },
+  {
+    "id": "zenodo-21925756-source-resolved-brown-carbon-mae-estimates-derived-tables-variable-dictionary-an",
+    "title": "Source-resolved brown carbon MAE estimates: derived tables, variable dictionary, and provenance registries",
+    "authors": "Chen, Yang",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Source-resolved brown carbon MAE estimates: derived tables, variable dictionary, and provenance registries",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21925756",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21925756",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Bootstrap uncertainty, provenance registry, and multi-station environmental monitoring examples with source-resolved derived tables.",
+    "note": "Zenodo archive contains source-resolved MAE estimates for station pairs, block-bootstrap intervals, trustworthiness grades, metadata, sensitivity tables, and provenance registries."
+  },
+  {
+    "id": "zenodo-21925738-reduced-soil-drying-on-hot-days-can-limit-summertime-heat-amplification-code-and",
+    "title": "Reduced Soil Drying on Hot Days Can Limit Summertime Heat Amplification (code and post-processed data)",
+    "authors": "Yang, Fucheng",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Reduced Soil Drying on Hot Days Can Limit Summertime Heat Amplification (code and post-processed data)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21925738",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21925738",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "Spatio-temporal climate reanalysis examples with code and post-processed datasets for heat-amplification analysis.",
+    "note": "Zenodo archive includes code notebooks and post-processed ERA5/GLEAM-derived datasets used to process reanalysis, observations, simulations, and manuscript figures."
+  },
+  {
+    "id": "zenodo-21924411-replication-package-for-degree-concentration-return-skewness-and-the-incidence-o",
+    "title": "Replication package for \"Degree Concentration, Return Skewness, and the Incidence of Extreme Events\"",
+    "authors": "Bertella, Mario Augusto",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication package for \"Degree Concentration, Return Skewness, and the Incidence of Extreme Events\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21924411",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21924411",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "time series analysis",
+      "risk prediction",
+      "resampling methods",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Network-structured simulation and extreme-event incidence examples with replication outputs and null-distribution calibration.",
+    "note": "Zenodo replication package contains agent-based model code, simulation outputs for tables, verification scripts, GSADF/GSCADF implementations, robustness grids, and 2,000 null-distribution replications."
+  },
+  {
+    "id": "zenodo-21923975-motivational-regulation-after-an-eight-session-peer-mentoring-programme-in-colom",
+    "title": "Motivational Regulation After an Eight-Session Peer-Mentoring Programme in Colombian Youth Swimmers: A Pre-Post Pilot Study",
+    "authors": "Camilo Alexander, Botero Gaviria, Cristian Andrés, Ramírez Pineda, William Arley, Salas Suárez, Diego Andrés, Tuberquia Tuberquia, Ramirez González, Andres Felipe, Gaviria Alzate, Samuel Jose",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Motivational Regulation After an Eight-Session Peer-Mentoring Programme in Colombian Youth Swimmers: A Pre-Post Pilot Study",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21923975",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21923975",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "multilevel modeling",
+      "resampling methods"
+    ],
+    "bestFor": "Pre-post repeated-measure examples with reproducibility materials for robust analyses, multiplicity adjustment, reliability diagnostics, and sensitivity checks.",
+    "note": "Zenodo reproducibility package provides aggregate statistical outputs, analysis code, data dictionary, analysis specifications, robust analyses, multiplicity adjustment, and participant-inclusion sensitivities for paired pre-post data."
+  },
+  {
+    "id": "zenodo-21923658-data-for-regime-dependent-controls-on-marine-boundary-layer-cloud-lifetime-revea",
+    "title": "Data for \"Regime-Dependent Controls on Marine Boundary Layer Cloud Lifetime Revealed by Lagrangian Stereo Wind Observations\"",
+    "authors": "Windle, Steve",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data for \"Regime-Dependent Controls on Marine Boundary Layer Cloud Lifetime Revealed by Lagrangian Stereo Wind Observations\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21923658",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21923658",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "Spatio-temporal cloud-track and uncertainty examples combining stereo-wind observations, retrieval error data, and environmental covariates.",
+    "note": "Zenodo archive provides data supporting figures and analyses: stereo-wind atmospheric motion vectors, retrieval uncertainty data, processed cloud tracks, and ERA5-derived environmental variables."
+  },
+  {
+    "id": "zenodo-21923491-reproducibility-package-for-externally-validated-early-warning-of-persistent-exp",
+    "title": "Reproducibility package for externally validated early warning of persistent export-relationship exit",
+    "authors": "Dang, Thanh Chung, Dao, Thi Thu Trang",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Reproducibility package for externally validated early warning of persistent export-relationship exit",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21923491",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21923491",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "survival analysis",
+      "risk prediction",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Early-warning forecasting and event-risk examples for exporter-destination relationship exit with reproducibility code.",
+    "note": "Zenodo reproducibility package contains locked aggregate evidence and clean-room code for a forecasting study of persistent exporter-destination-HS4 relationship exit."
+  },
+  {
+    "id": "zenodo-21920882-dataset-for-missiondpt-simulation-and-forecasting-of-radiation-doses-and-health-",
+    "title": "Dataset for \"MissionDPT: Simulation and forecasting of radiation doses and health risks for space exploration missions\"",
+    "authors": "Hu, Shaowen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Dataset for \"MissionDPT: Simulation and forecasting of radiation doses and health risks for space exploration missions\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21920882",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21920882",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "risk prediction"
+    ],
+    "bestFor": "Simulation and forecasting examples with mission-level radiation dose and health-risk measurements.",
+    "note": "Zenodo dataset provides measurements and simulations for Artemis I and ISS instruments supporting MissionDPT forecasting and health-risk analyses."
+  },
+  {
+    "id": "zenodo-21918510-replication-package-for-cross-border-media-visibility-and-short-run-tourist-mobi",
+    "title": "Replication package for \"Cross-border media visibility and short-run tourist mobility after Spain's 2024 anti-overtourism protests\"",
+    "authors": "Arnau Dominguez, Jose Tomas, Simó-Tomás, Paula",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication package for \"Cross-border media visibility and short-run tourist mobility after Spain's 2024 anti-overtourism protests\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21918510",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21918510",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "panel data methods",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Short-panel policy-shock examples linking media exposure windows to destination-origin tourist-flow outcomes.",
+    "note": "Zenodo replication package provides panel data and code for seven mobilization events, destination-origin dyads, exposure windows, and monthly tourist-count outcomes from official mobile-phone tourism statistics."
   }
 ]
