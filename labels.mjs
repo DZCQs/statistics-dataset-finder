@@ -206,6 +206,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["bootstrap", "resampling", "permutation test", "permutation", "jackknife", "bootstrap confidence interval", "bootstrap confidence region"]
   },
   {
+    name: "meta-analysis",
+    level: "mid",
+    parents: [],
+    definition: "Datasets and replication packages useful for statistical meta-analysis, evidence synthesis, effect-size synthesis, correlated effect-size adjustment, or between-study heterogeneity modeling.",
+    includeWhen: [
+      "the paper or dataset provides effect-size data, study-level coding, evidence-synthesis workflows, or replication materials for meta-analysis",
+      "between-study heterogeneity, dependent effect sizes, multilevel meta-analysis, or evidence synthesis is central to the resource"
+    ],
+    avoidWhen: [
+      "meta-analysis is mentioned only in the literature review and no meta-analytic dataset or workflow is provided",
+      "the paper is a generic systematic review without extractable study-level data or statistical synthesis materials"
+    ],
+    evidenceTerms: ["meta-analysis", "meta analysis", "meta-analytic", "evidence synthesis", "effect-size", "effect size", "between-study heterogeneity", "correlated sampling error", "systematic review"]
+  },
+  {
     name: "complex survey design",
     level: "mid",
     parents: ["survey methodology"],
@@ -626,29 +641,6 @@ export const LABEL_CANDIDATES = [
       "the label improves search beyond broader high-dimensional statistics or variable selection labels"
     ],
     evidenceTerms: ["multiple testing", "false discovery", "false discovery rate", "fdr", "multiple comparisons", "multiplicity", "selective inference"]
-  },
-  {
-    name: "meta-analysis",
-    proposedLevel: "mid",
-    proposedParents: [],
-    status: "watch",
-    definition: "Datasets and replication packages useful for statistical meta-analysis, evidence synthesis, correlated effect-size adjustment, or between-study heterogeneity modeling.",
-    currentEvidence: [
-      {
-        paperId: "dataverse-x5qck4",
-        reason: "Replication materials for adjusting correlated sampling error in meta-analyses of behavioral interventions."
-      },
-      {
-        paperId: "dataverse-qlem9q-shared-discrimination-experiments",
-        reason: "Harvard Dataverse replication data for a pre-registered meta-analysis of eight published experiments with common-design moderation analyses."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence records provide accessible data/code for meta-analysis methodology",
-      "effect-size synthesis, dependence between estimates, or between-study heterogeneity is central",
-      "the label improves search beyond broader causal inference, multilevel modeling, or resampling-method labels"
-    ],
-    evidenceTerms: ["meta-analysis", "meta analysis", "evidence synthesis", "between-study heterogeneity", "correlated sampling error"]
   },
 ];
 

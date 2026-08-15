@@ -36751,7 +36751,8 @@
     "topics": [
       "heterogeneous treatment effects",
       "randomized experiments",
-      "causal inference"
+      "causal inference",
+      "meta-analysis"
     ],
     "bestFor": "Randomized experiments and heterogeneous treatment effects examples involving common-design experiments and subgroup moderation.",
     "note": "Auto-discovered from Harvard Dataverse. Description reports eight published experiments and moderation across race, ideology, education, gender, and age."
@@ -43886,7 +43887,8 @@
       "causal inference",
       "treatment effect estimation",
       "resampling methods",
-      "multilevel modeling"
+      "multilevel modeling",
+      "meta-analysis"
     ],
     "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
@@ -44874,5 +44876,311 @@
     ],
     "bestFor": "Short-panel policy-shock examples linking media exposure windows to destination-origin tourist-flow outcomes.",
     "note": "Zenodo replication package provides panel data and code for seven mobilization events, destination-origin dyads, exposure windows, and monthly tourist-count outcomes from official mobile-phone tourism statistics."
+  },
+  {
+    "id": "zenodo-21958374-ahp-g-social-vulnerability-index-data-availability",
+    "title": "AHP-G social vulnerability index - Data availability",
+    "authors": "Targino da Silva Ferreira, Anderson",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: AHP-G social vulnerability index - Data availability",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21958374",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21958374",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "risk prediction",
+      "multilevel modeling"
+    ],
+    "bestFor": "Spatial vulnerability-index examples with census-tract indicators, shapefiles, probabilistic weighting, and reproducible Python workflow.",
+    "note": "Zenodo archive provides processed census-tract data, demographic and infrastructure indicators, tract shapefile, and Python code for Gaussian probabilistic vulnerability-index construction and ranking."
+  },
+  {
+    "id": "zenodo-21940597-dividing-by-playing-time-removes-part-of-the-association-it-should-scale-measuri",
+    "title": "Dividing by playing time removes part of the association it should scale: measuring the denominator gradient in eight European leagues — replication record",
+    "authors": "Ricou, Gustavo Pedro, Mahony, Nicholas",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Dividing by playing time removes part of the association it should scale: measuring the denominator gradient in eight European leagues — replication record",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21940597",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21940597",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "risk prediction",
+      "survival analysis"
+    ],
+    "bestFor": "Exposure-rate and denominator-bias examples using repeated athlete appearances across multiple leagues.",
+    "note": "Zenodo replication record contains the manuscript, supplement, complete analysis pipeline, tests, and repeated appearance data used to estimate denominator gradients in exposure-rate analysis."
+  },
+  {
+    "id": "zenodo-21958313-us-epa-air-quality-data-1968-1992",
+    "title": "US EPA Air Quality data, 1968-1992",
+    "authors": "Environmental Protection Agency",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: US EPA Air Quality data, 1968-1992",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21958313",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21958313",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "longitudinal data analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Long historical air-pollution monitoring examples with monitor-level spatial coverage, uneven sampling, and multi-pollutant time series.",
+    "note": "Zenodo archive provides raw EPA monitor-level observations from 1968-1992 for multiple pollutants, with broad county/monitor coverage and processing example code."
+  },
+  {
+    "id": "zenodo-21956981-semidiurnal-internal-tide-and-near-inertial-modal-energy-budget-in-the-californi",
+    "title": "Semidiurnal internal tide and near-inertial modal energy budget in the California Current System",
+    "authors": "Oladeji, Siyanbola",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Semidiurnal internal tide and near-inertial modal energy budget in the California Current System",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21956981",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21956981",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Gridded ocean-model examples for spatio-temporal modal energy budgets and functional/field-valued process analysis.",
+    "note": "Zenodo dataset contains NetCDF modal energy-balance terms from a high-resolution CROCO simulation of the California Current System with realistic forcing."
+  },
+  {
+    "id": "zenodo-21951851-dataset-of-the-accuracy-of-barotropic-and-baroclinic-tides-in-global-non-assimil",
+    "title": "Dataset of the accuracy of barotropic and baroclinic tides in global non-assimilative ocean general circulation models",
+    "authors": "Ansong, Joseph Kojo, Arbic, Brian K",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Dataset of the accuracy of barotropic and baroclinic tides in global non-assimilative ocean general circulation models",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21951851",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21951851",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Global model-comparison examples with sea-surface-height amplitude/phase fields, along-track interpolation, and plotting code.",
+    "note": "Zenodo archive contains RMSA outputs, simulation data, baroclinic and barotropic sea-surface-height amplitude/phase files, and plotting scripts for tide-model accuracy assessment."
+  },
+  {
+    "id": "zenodo-21955735-lagrangian-particle-tracking-of-floating-marine-macro-litter-in-the-mediterranea",
+    "title": "Lagrangian Particle Tracking of Floating Marine Macro-Litter in the Mediterranean Sea (August 2023 – December 2024)",
+    "authors": "Bravo, Santiago, Pasanisi, Eugenia, Liubartseva, Svitlana, Coppini, Giovanni, Madonia, Alice, Ruiz Atake, Igor, Azzolin, Marta, Carosso, Lara, Costantino, Matteo, Crosti, Roberto, Di-Meglio, Nathalie, Farina, Marianna, Fraija-Fernández, Natalia, Gregorietti, Martina, Grossi, Francesca, Léa, David, Maffucci, Fulvio, Míguez-Lozano, Raúl, Pecoraro, Marco, Raga, Juan Antonio, Roul, Marine, Santini, Elena, Sarà, Gianluca, Tepsich, Paola, Teti, Roberta, Vighi, Morgana, Arcangeli, Antonella, Euro-Mediterranean Centre on Climate Change",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Lagrangian Particle Tracking of Floating Marine Macro-Litter in the Mediterranean Sea (August 2023 – December 2024)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21955735",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21955735",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "time series forecasting",
+      "risk prediction"
+    ],
+    "bestFor": "Spatio-temporal particle-tracking examples with gridded ensemble trajectories, rolling windows, and occurrence diagnostics.",
+    "note": "Zenodo dataset provides monthly gridded outputs from ensemble Lagrangian particle-tracking simulations forced by reanalysis currents and winds, initialized from systematic shipboard observations."
+  },
+  {
+    "id": "zenodo-21955150-condition-dependent-rgb-d-depth-uncertainty-modeling-for-safety-margin-planning-",
+    "title": "Condition-Dependent RGB-D Depth Uncertainty Modeling for Safety-Margin Planning and Empirical Risk Assessment of Robotic Manipulators: Research Dataset",
+    "authors": "Ku, XiangChen, Ren, Xuan, Lv, Linchao",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Condition-Dependent RGB-D Depth Uncertainty Modeling for Safety-Margin Planning and Empirical Risk Assessment of Robotic Manipulators: Research Dataset",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21955150",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21955150",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "time series analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Measurement-uncertainty and empirical risk examples with raw depth sequences, processed uncertainty data, statistical outputs, and reproducible code.",
+    "note": "Zenodo research dataset contains raw RGB-D depth sequences, processed uncertainty data, empirical risk evaluation outputs, statistical analysis results, source code, and configuration files."
+  },
+  {
+    "id": "zenodo-21953224-data-and-reproducibility-materials-for-adaptive-in-name-only-a-systematic-review",
+    "title": "Data and Reproducibility Materials for \"Adaptive\" in Name Only? A Systematic Review and Multilevel Meta-Analysis of AI-Based English Language Learning Systems for K-12 Learners",
+    "authors": "Leng, CuoJie",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data and Reproducibility Materials for \"Adaptive\" in Name Only? A Systematic Review and Multilevel Meta-Analysis of AI-Based English Language Learning Systems for K-12 Learners",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21953224",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21953224",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "multilevel modeling",
+      "resampling methods"
+    ],
+    "bestFor": "Multilevel meta-analysis examples with study clusters, effect sizes, coding records, risk-of-bias data, R code, model outputs, and diagnostic figures.",
+    "note": "Zenodo reproducibility package provides final effect-size data, study-selection decisions, search strategies, coding records, effect-size construction checks, R analysis code, and three-level random-effects model outputs."
+  },
+  {
+    "id": "zenodo-21950383-code-and-aggregate-derived-data-for-comparative-associations-of-seven-body-shape",
+    "title": "Code and aggregate derived data for comparative associations of seven body shape indicators with prevalent cardiovascular disease in NHANES 2005–2018",
+    "authors": "Kan, Yanzhe, Bi, Weiye, Ding, Qingwei, Meng, Qingyou",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Code and aggregate derived data for comparative associations of seven body shape indicators with prevalent cardiovascular disease in NHANES 2005–2018",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21950383",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21950383",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "R code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "survival analysis",
+      "survival models",
+      "risk prediction"
+    ],
+    "bestFor": "Survey-weighted regression and linked mortality examples using NHANES-derived aggregate outputs and reproducible R code.",
+    "note": "Zenodo archive provides R code, aggregate derived data, coefficient outputs, diagnostics, and metadata for NHANES 2005-2018 analyses with survey-weighted logistic, Cox, and Fine-Gray models."
+  },
+  {
+    "id": "zenodo-21950092-data-for-estimating-the-relationship-between-artisanal-and-small-scale-mining-an",
+    "title": "Data for estimating the relationship between artisanal and small-scale mining and violent conflict in Africa",
+    "authors": "Li, Xunhuan, Silva, Julie A., Poon, Jessie P.H.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data for estimating the relationship between artisanal and small-scale mining and violent conflict in Africa",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21950092",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21950092",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "causal inference",
+      "risk prediction"
+    ],
+    "bestFor": "Spatial regression examples for conflict-risk analysis with grid-cell covariates and reproducible R analysis code.",
+    "note": "Zenodo dataset provides processed geospatial grid-cell attributes and R code for estimating relationships between artisanal and small-scale mining and violent conflict in Africa."
+  },
+  {
+    "id": "zenodo-21844525-delft3d-fm-alaska-tide-and-storm-surge-model-output-cmip6-climate-downscaling-hi",
+    "title": "Delft3D FM Alaska Tide and Storm Surge Model Output - CMIP6 climate downscaling (historical 1979-2014 and future RCP 8.5 2020-2050)",
+    "authors": "Nederhoff, Kees",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Delft3D FM Alaska Tide and Storm Surge Model Output - CMIP6 climate downscaling (historical 1979-2014 and future RCP 8.5 2020-2050)",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21844525",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21844525",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "Python code",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "time series forecasting",
+      "risk prediction"
+    ],
+    "bestFor": "Spatio-temporal coastal hazard examples with historical and future climate-forced tide and storm-surge model output.",
+    "note": "Zenodo archive contains Delft3D-FM Alaska coastline model output for historical and future CMIP6-forced periods, including identical grids/output locations for comparative climate downscaling analysis."
   }
 ]
