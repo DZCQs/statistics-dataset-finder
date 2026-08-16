@@ -45182,5 +45182,337 @@
     ],
     "bestFor": "Spatio-temporal coastal hazard examples with historical and future climate-forced tide and storm-surge model output.",
     "note": "Zenodo archive contains Delft3D-FM Alaska coastline model output for historical and future CMIP6-forced periods, including identical grids/output locations for comparative climate downscaling analysis."
+  },
+  {
+    "id": "zenodo-21970317-supporting-data-for-transcriptomic-analysis-of-the-impact-of-igg1-production-in-",
+    "title": "Supporting Data for Transcriptomic Analysis of the Impact of IgG1 Production in Chinese Hamster Ovary Cells",
+    "authors": "Liu, Gavin",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Supporting Data for Transcriptomic Analysis of the Impact of IgG1 Production in Chinese Hamster Ovary Cells",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21970317",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21970317",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "dimension reduction",
+      "risk prediction"
+    ],
+    "bestFor": "High-dimensional transcriptomic examples with normalized counts, differential-expression outputs, enrichment results, and curated gene-filtering workbooks.",
+    "note": "Zenodo archive provides RNA-seq reanalysis support data including DESeq2 outputs, normalized and variance-stabilized expression counts, volcano-plot data, enrichment terms, and curated candidate-gene filtering documentation."
+  },
+  {
+    "id": "zenodo-21969966-ssafi-subspecialty-surgical-access-fragility-index-construction-files-component-",
+    "title": "sSAFI: subspecialty Surgical Access Fragility Index — construction files, component data, and two-continent implementation surfaces",
+    "authors": "Mendoza, Zachary",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: sSAFI: subspecialty Surgical Access Fragility Index — construction files, component data, and two-continent implementation surfaces",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21969966",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21969966",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "risk prediction",
+      "multilevel modeling"
+    ],
+    "bestFor": "Small-area access-index examples with county/district composites, routed travel-time surfaces, component grids, and reproducible reconstruction code.",
+    "note": "Zenodo archive contains component input grids, US county and European NUTS-3 district composite files, exclusions, and code rebuilding access-fragility index components from raw inputs."
+  },
+  {
+    "id": "zenodo-21969838-two-year-postseismic-gnss-time-series-following-the-maduo-earthquake",
+    "title": "Two-year postseismic GNSS time series following the Maduo earthquake",
+    "authors": "Liu, Zhijun, Liu-Zeng, Jing",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Two-year postseismic GNSS time series following the Maduo earthquake",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21969838",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21969838",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Spatially indexed geophysical time-series examples with detrended GNSS trajectories after a seismic event.",
+    "note": "Zenodo dataset provides detrended GNSS time series spanning the first two years after the Maduo earthquake."
+  },
+  {
+    "id": "zenodo-21966345-exploitation-concentration-among-edge-device-vulnerabilities-cvss-prioritization",
+    "title": "Exploitation Concentration Among Edge-Device Vulnerabilities: CVSS Prioritization and Version-Specific EPSS Behavior — data and analysis code",
+    "authors": "Almukaynizi, Mohammed",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Exploitation Concentration Among Edge-Device Vulnerabilities: CVSS Prioritization and Version-Specific EPSS Behavior — data and analysis code",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21966345",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21966345",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "risk prediction",
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Risk-ranking and longitudinal score-behavior examples using CVSS, EPSS, KEV listing, version eras, and curated vulnerability panels.",
+    "note": "Zenodo archive provides data and code for measuring exploitation concentration, evaluating CVSS/EPSS rankers, and analyzing version-specific EPSS behavior with derived analysis-ready tables."
+  },
+  {
+    "id": "zenodo-21969226-sic-ev-traction-inverter-electrothermal-digital-twin-and-fmanet-diagnostic-datas",
+    "title": "SiC EV Traction-Inverter Electrothermal Digital-Twin and FMANet Diagnostic Dataset",
+    "authors": "Özçelik, Salih Taha Alperen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: SiC EV Traction-Inverter Electrothermal Digital-Twin and FMANet Diagnostic Dataset",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21969226",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21969226",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series classification",
+      "risk prediction"
+    ],
+    "bestFor": "Multirate diagnostic time-series examples with simulated healthy/fault scenarios, blind-test populations, and reproducible training/evaluation workflows.",
+    "note": "Zenodo archive provides scenario-level features, multirate time-series data, trained diagnostic models, validation outputs, checksums, and linked model-building/data-generation workflows."
+  },
+  {
+    "id": "zenodo-21968187-replication-package-doing-mos-and-its-alternatives-well-a-variance-decomposition",
+    "title": "Replication package — Doing MOS and its alternatives well: a variance-decomposition guide for TTS perceptual evaluation",
+    "authors": "Chevelu, Jonathan, Barbot, Nelly",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication package — Doing MOS and its alternatives well: a variance-decomposition guide for TTS perceptual evaluation",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21968187",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21968187",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "multilevel modeling",
+      "meta-analysis",
+      "survey methodology"
+    ],
+    "bestFor": "Variance-decomposition and confidence-interval design examples for perceptual evaluation, listening-test scores, allocation penalties, and corpus-design analysis.",
+    "note": "Zenodo replication package contains code, frozen outputs, figures, variance/CI experiments, allocation-penalty analyses, Blizzard Challenge listening-test scores, and corpus-design census materials."
+  },
+  {
+    "id": "zenodo-21380539-raw-data-for-closed-loop-optimization-of-ni-mo-electrocatalysts-for-her",
+    "title": "Raw data for closed-loop optimization of Ni-Mo electrocatalysts for HER.",
+    "authors": "de Blasio, Paolo Vincenzo Freiesleben, Elsborg, Jonas, Coşkun, Elif, Burger, Andreas, Leuaa, Pradipkumar, Phan, Thu Pham Anh, Chang, Jin Hyun, Chatzichristodoulou, Christodoulos",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Raw data for closed-loop optimization of Ni-Mo electrocatalysts for HER.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21380539",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21380539",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Bayesian optimization and sequential experimental-design examples with UCB, entropy-search hybrid, and random-search strategy folders.",
+    "note": "Zenodo dataset contains raw experimental data from closed-loop Bayesian optimization of Ni-Mo electrocatalysts, organized by optimization strategy and individual experimental run."
+  },
+  {
+    "id": "zenodo-21966292-data-and-analysis-code-for-material-dependent-spectral-transmission-in-a-mechani",
+    "title": "Data and analysis code for: Material-dependent spectral transmission in a mechanically excited, piezo-sensed EEG phantom",
+    "authors": "SELÇUK, Elif Nur, Gulsevincler, Ekrem, Akman, Hatice, ÇAKMAK, Gökçenur, USAL, MUSTAFA RESIT",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data and analysis code for: Material-dependent spectral transmission in a mechanically excited, piezo-sensed EEG phantom",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21966292",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21966292",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series classification",
+      "resampling methods",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Spectral time-series classification examples with raw EEG-like signals, permutation tests, ablation, leave-one-frequency-out, and leave-one-position-out analyses.",
+    "note": "Zenodo archive provides 60 raw OpenBCI time-series exports, full Python analysis pipelines, label-permutation tests, feature ablation, sensitivity analyses, beam-model code, and figure scripts."
+  },
+  {
+    "id": "zenodo-21965616-computational-reproducibility-package-accompanying-item-7-in-silico-validation-o",
+    "title": "Computational reproducibility package accompanying Item 7, \"In silico validation of topological modulation,\" of Chapter 11 of the book Movimento da água no corpo da planta.",
+    "authors": "Carlos Henrique, Britto de Assis Prado",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Computational reproducibility package accompanying Item 7, \"In silico validation of topological modulation,\" of Chapter 11 of the book Movimento da água no corpo da planta.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21965616",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21965616",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "Python code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "spatial statistics",
+      "resampling methods",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Tree/network topology simulation examples with repeated random directed networks and reproducible topological modulation experiments.",
+    "note": "Zenodo reproducibility package contains code generating 40 independent random woody crown hydraulic networks and applying topological modulation while preserving node counts."
+  },
+  {
+    "id": "zenodo-21964579-data-and-code-for-meteorological-adjustment-and-transferability-of-nonlinear-urb",
+    "title": "Data and Code for: Meteorological adjustment and transferability of nonlinear urban land surface temperature models: A 2016–2025 analysis of Nanchang, China",
+    "authors": "Zhang, Jianping, Chen, feiping, Zhang, Lvshui",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data and Code for: Meteorological adjustment and transferability of nonlinear urban land surface temperature models: A 2016–2025 analysis of Nanchang, China",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21964579",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21964579",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Spatio-temporal urban land-surface temperature examples with meteorological adjustment, transferability checks, derived data, validation tables, and scripts.",
+    "note": "Zenodo archive provides analysis-ready and derived data, validation/audit tables, executable scripts, and figures for nonlinear urban land-surface temperature model transferability."
+  },
+  {
+    "id": "zenodo-21968831-data-and-analysis-code-for-genomic-analysis-of-a-diploid-sorghum-bicolor-s-halep",
+    "title": "Data and analysis code for \"Genomic Analysis of a Diploid Sorghum bicolor × S. halepense Prebreeding Population Reveals Partial Separation of Perenniality and Shoot Architecture\"",
+    "authors": "Nabukalu, Pheonah, Kong, Wenqian, Cox, Stan, Reeves, Jaxk, Paterson, Andrew H",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data and analysis code for \"Genomic Analysis of a Diploid Sorghum bicolor × S. halepense Prebreeding Population Reveals Partial Separation of Perenniality and Shoot Architecture\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21968831",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21968831",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "dimension reduction",
+      "multilevel modeling"
+    ],
+    "bestFor": "Genomic association examples with phenotypic/genotypic datasets, BLUP estimation, phenotype correlations, PC+K GWAS, and candidate-interval evaluation.",
+    "note": "Zenodo archive provides audited phenotype and genotype datasets, ancestry-proxy data, metadata, and R code for BLUP estimation, PC+K genome-wide association analysis, candidate-gene annotation, and SNP-dosage summaries."
+  },
+  {
+    "id": "zenodo-21969706-hiamcm-individual-daily-meridional-winds-over-poker-flat-alaska-2018-2019",
+    "title": "HIAMCM Individual Daily Meridional Winds over Poker Flat Alaska 2018-2019",
+    "authors": "Phillips, Sophie",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: HIAMCM Individual Daily Meridional Winds over Poker Flat Alaska 2018-2019",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21969706",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21969706",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Atmospheric field-valued time-series examples with longitude, latitude, height, time, and wind variables in NetCDF files.",
+    "note": "Zenodo dataset provides daily meridional-wind NetCDF files over Poker Flat, Alaska, with spatial coordinates, height, time, and wind-speed variables."
   }
 ]
