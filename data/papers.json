@@ -45514,5 +45514,337 @@
     ],
     "bestFor": "Atmospheric field-valued time-series examples with longitude, latitude, height, time, and wind variables in NetCDF files.",
     "note": "Zenodo dataset provides daily meridional-wind NetCDF files over Poker Flat, Alaska, with spatial coordinates, height, time, and wind-speed variables."
+  },
+  {
+    "id": "dataverse-6vfncp",
+    "title": "Replication Data for: Debt Sustainability as a Recursive Compatibility Problem",
+    "authors": "Cid Moreno, Jorge, Cid Moreno, Jorge",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: harmonized quarterly panel data and R scripts for debt-sustainability recursive compatibility diagnostics.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/6VFNCP",
+    "paperUrl": "https://doi.org/10.7910/DVN/6VFNCP",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "R code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Panel-data and time-series examples for macro-financial monitoring, debt-sustainability diagnostics, and reproducible econometric robustness checks.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-17. The archive explicitly supplies a quarterly panel dataset, cleaned input series, and R scripts for reproducing the paper results; retained with needs-review for later curator cleanup."
+  },
+  {
+    "id": "dataverse-sdu39l",
+    "title": "Replication Data for Section 10 (“Monitoring Structural Fragility Before the Global Financial Crisis: A Pseudo-Real-Time SDMF Assessment”) of Debt Sustainability as a System Property: A Parsimonious Framework for Structural Monitoring and Resilience",
+    "authors": "Cid Moreno, Jorge, Cid Moreno, Jorge",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: pseudo-real-time panel dataset and scripts for structural-debt monitoring before the global financial crisis.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/SDU39L",
+    "paperUrl": "https://doi.org/10.7910/DVN/SDU39L",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Time-series and panel-data examples for pseudo-real-time monitoring, macro-financial diagnostics, and structural fragility analysis.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-17. Metadata documents a model-consistent pseudo-real-time panel dataset, replication script, and generated outputs for Section 10 of the associated paper."
+  },
+  {
+    "id": "dataverse-22l5lj",
+    "title": "Replication Data for: Debt Sustainability as a System Property: A Parsimonious Framework for Structural Monitoring and Resilience",
+    "authors": "Cid Moreno, Jorge",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: cleaned debt-sustainability input series, model-consistent datasets, scripts, and generated diagnostics.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/22L5LJ",
+    "paperUrl": "https://doi.org/10.7910/DVN/22L5LJ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Panel-data and longitudinal macro examples for structural state classification, transition models, and debt-dynamics diagnostics.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-17. The dataset page documents cleaned input series, model-consistent datasets, replication scripts, and outputs for the associated SSRN paper."
+  },
+  {
+    "id": "dataverse-chrt0n",
+    "title": "Replication Data for: Replication Data for: Factors That Help Explain Support for Trump's Extreme Immigration Policies Among Latinos.",
+    "authors": "Sanchez, Gabriel, Sanchez, Gabriel, Bonilla, Ariel, Bonilla, Ariel",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: 2025 Abriendo Puertas survey data, R scripts, run log, README, and codebook.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CHRT0N",
+    "paperUrl": "https://doi.org/10.7910/DVN/CHRT0N",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "R code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "Survey-methodology examples involving public-opinion survey data, documented R modeling scripts, and reproducible regression tables.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-17. The archive explicitly includes the survey dataset, codebook, R script, run log, and README for reproducing reported models."
+  },
+  {
+    "id": "zenodo-21986247-replication-data-and-code-for-when-does-climate-policy-uncertainty-improve-green",
+    "title": "Replication Data and Code for \"When Does Climate Policy Uncertainty Improve Green Equity Volatility Forecasts? Evidence from Machine Learning across Horizons and Assets\"",
+    "authors": "KIRHASANOĞLU, Şifa",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication archive: daily clean-energy ETF, macro-financial, climate-policy uncertainty, volatility, and Python forecasting code.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21986247",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21986247",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Time-series forecasting examples with daily financial data, out-of-sample forecast comparison, horizon analysis, and reproducible Python workflows.",
+    "note": "Auto-discovered from Zenodo on 2026-08-17. The record documents replication data and Python code for volatility forecasting across horizons and assets."
+  },
+  {
+    "id": "zenodo-21901340-data-and-code-for-global-socio-economic-resilience-to-disasters",
+    "title": "Data and code for \"Global Socio-economic Resilience to Disasters\"",
+    "authors": "Middelanis, Robin, Jafino, Bramka Arga, Nguyen, Minh, Hill, Ruth, Hallegatte, Stephane",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication archive: processed socio-economic resilience data, source code, simulation outputs, tables, and figures.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21901340",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21901340",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Panel and longitudinal examples for reproducible socio-economic risk and resilience modeling with transparent code and processed data.",
+    "note": "Auto-discovered from Zenodo on 2026-08-17. The archive includes raw/processed data where license permits, source code, results, and a reproducible environment for the Nature Sustainability study."
+  },
+  {
+    "id": "zenodo-21930113-self-paced-reading-data-and-analysis-repository-for-kaur-et-al-when-gender-neutr",
+    "title": "Self-paced reading data and analysis repository for Kaur et al. When gender-neutral is the norm: the case of processing Punjabi forenames",
+    "authors": "Kaur, Prabhjapan, Muralikrishnan, R., Shalu, S., Gulati, Mahima, Choudhary, Kamal Kumar",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo analysis repository: self-paced reading data, R scripts, and R notebooks for linear mixed-effects models.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21930113",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21930113",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Multilevel and longitudinal examples using repeated reading-time measurements analyzed with linear mixed-effects models in R.",
+    "note": "Auto-discovered from Zenodo on 2026-08-17. The record explicitly documents sorted input data, LMEM R notebooks, R scripts, and full model outputs."
+  },
+  {
+    "id": "zenodo-21981629-replication-data-and-code-for-the-study-the-effects-of-corruption-on-environment",
+    "title": "Replication data and code for the study \"The Effects of Corruption on Environmental Policy Stringency: Evidence from an Instrumental Variable Strategy\"",
+    "authors": "Frollichi, Lisa",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication archive: data and code for an instrumental-variable study of corruption and environmental policy stringency.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21981629",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21981629",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "instrumental variables",
+      "quasi-experimental designs",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Causal-inference and instrumental-variable examples with an explicitly identified IV strategy and reproducible archive.",
+    "note": "Auto-discovered from Zenodo on 2026-08-17. The record title and metadata identify replication data and code for a study built around an instrumental-variable strategy."
+  },
+  {
+    "id": "dataverse-azaof3",
+    "title": "Replication Data for: Short-term photovoltaic power forecasting with multi-scale meteorological decomposition and automated model optimization",
+    "authors": "Li, Shuyu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: Python code and generated files for short-term photovoltaic power forecasting.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/AZAOF3",
+    "paperUrl": "https://doi.org/10.7910/DVN/AZAOF3",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Time-series forecasting examples involving short-term power forecasting, meteorological decomposition, and automated model optimization.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-17. The metadata states that Python code and generated files for the forecasting model are available."
+  },
+  {
+    "id": "zenodo-21939238-bayesian-sequential-experiments-for-tensile-testing-of-multi-material-fused-fila",
+    "title": "Bayesian Sequential Experiments for Tensile Testing of Multi-material Fused Filament Fabricated Dogbones",
+    "authors": "Irving, Janae, Eluri, Harshitha, Zhang, Xinyao, Gnanasambandam, Raghav",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset and code: raw tensile testing data and Python notebooks for Bayesian sequential experimental design with Gaussian-process surrogates.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21939238",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21939238",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Bayesian-inference examples for sequential experimental design, Gaussian-process surrogate modeling, and repeated experimental measurements.",
+    "note": "Auto-discovered from Zenodo on 2026-08-17. The archive provides raw measurements, repeated experimental settings, and Python notebooks for Bayesian exploratory design."
+  },
+  {
+    "id": "zenodo-21815011-geospatial-analysis-of-war-induced-landscape-degradation-in-zaporizhzhia-region-",
+    "title": "Geospatial Analysis of War-Induced Landscape Degradation in Zaporizhzhia Region (2021-2025)",
+    "authors": "Mironov, Igor",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset and code: GeoJSON, GeoTIFF rasters, tabular zonal summaries, and Python/PyQGIS scripts for spatio-temporal landscape analysis.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21815011",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21815011",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "Python code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Spatial-statistics examples with raster/vector geospatial data, zonal statistics, and reproducible Python/PyQGIS processing scripts.",
+    "note": "Auto-discovered from Zenodo on 2026-08-17. The record documents spatial data, tabular data, Sentinel-derived indices, terrain rasters, and analysis scripts."
+  },
+  {
+    "id": "zenodo-21976810-data-supporting-urban-canopy-inequality-and-divergent-adaptation-goals-across-50",
+    "title": "Data supporting urban canopy inequality and divergent adaptation goals across 50 US cities",
+    "authors": "Shao, Zhenfeng, Zhang, Zhenbei, Cui, Kailong, Zhang, Haobin, Zhuang, Qingwei, Wang, Shuo, Cai, Bowen, Jing, Peiqing, Huang, Haiyan, Wu, Sifan, Sumari, Neema Simon, Dewan, Ashraf, Altan, Orhan, Konečný, Milan, Li, Deren",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo reproducibility archive: analysis-ready urban-canopy data, spatial cross-validation outputs, block-bootstrap outputs, model records, and code.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21976810",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21976810",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Spatial-statistics examples involving analysis-ready city data, spatial cross-validation, block bootstrap outputs, and reproducible model records.",
+    "note": "Auto-discovered from Zenodo on 2026-08-17. The archive explicitly includes analysis frames, model records, spatial cross-validation, block-bootstrap outputs, data dictionaries, and checksums."
   }
 ]
