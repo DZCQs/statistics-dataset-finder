@@ -45846,5 +45846,334 @@
     ],
     "bestFor": "Spatial-statistics examples involving analysis-ready city data, spatial cross-validation, block bootstrap outputs, and reproducible model records.",
     "note": "Auto-discovered from Zenodo on 2026-08-17. The archive explicitly includes analysis frames, model records, spatial cross-validation, block-bootstrap outputs, data dictionaries, and checksums."
+  },
+  {
+    "id": "dataverse-ywwtij",
+    "title": "Replication Data for: All or Nothing: Voting on Multiple Provision Ballot Measures",
+    "authors": "Boschelli, Lucas, Boschelli, Lucas, Christenson, Dino, Christenson, Dino",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: survey-experimental data and code for voting on multiple-provision ballot measures.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YWWTIJ",
+    "paperUrl": "https://doi.org/10.7910/DVN/YWWTIJ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey experiments",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "Survey-experiment and randomized-question-wording examples for studying how respondents aggregate multiple provisions into voting choices.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-18. Metadata documents novel survey questions and randomized assignment of question format, with data and code for reproducing the paper."
+  },
+  {
+    "id": "dataverse-go8w1w",
+    "title": "India Policy Insights: Village-, Cluster-, and District-Level Estimates for 35 Sustainable Development Goal Indicators Across India, 2021",
+    "authors": "Ko, Soohyeon, Ko, Soohyeon, Rajpal, Sunil, Rajpal, Sunil, Avleen S. Bijral, Singh, Abhimanyu, Singh, Abhimanyu, Kim, Rockli, Kim, Rockli, Subramanian, S V",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset and code: village-, cluster-, and district-level estimates from NFHS and Census sources using semi-supervised small-area estimation workflows.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/GO8W1W",
+    "paperUrl": "https://doi.org/10.7910/DVN/GO8W1W",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "small area estimation",
+      "spatial statistics"
+    ],
+    "bestFor": "Small-area estimation and complex-survey examples using NFHS-derived indicators, geographic aggregation, and reproducible code.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-18. The record provides analytical datasets and code for village-, cluster-, and district-level SDG indicator estimates across India."
+  },
+  {
+    "id": "dataverse-zmqrih",
+    "title": "Replication Data for: How to measure environmental concern: an IRT evaluation and advancement of established survey scales",
+    "authors": "Gomm, Sarah, Gomm, Sarah, Quoß, Franziska, Quoß, Franziska",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: representative survey data and code for Item Response Theory evaluation of environmental-concern scales.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZMQRIH",
+    "paperUrl": "https://doi.org/10.7910/DVN/ZMQRIH",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design"
+    ],
+    "bestFor": "Survey-methodology examples for scale validation, IRT-style measurement evaluation, and representative public-opinion survey analysis.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-18. The archive documents representative survey data and code for evaluating established scale items with Item Response Theory."
+  },
+  {
+    "id": "dataverse-piobbh",
+    "title": "Replication Package for: Affordable Housing, Unaffordable Credit? Concentration and High-Cost Lending for Manufactured Homes",
+    "authors": "Doerr, Sebastian, Fuster, Andreas, Fuster, Andreas",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: public HMDA loan-level data, public county-level sources, code, and logs for high-cost lending analysis.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/PIOBBH",
+    "paperUrl": "https://doi.org/10.7910/DVN/PIOBBH",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Panel and observational econometrics examples using public loan-level and county-level data with reproducible code and raw-data reconstruction instructions.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-18. The package reproduces tables and figures from public HMDA and county-level sources and documents raw-data reconstruction."
+  },
+  {
+    "id": "zenodo-22000721-topsoil-organic-carbon-stocks-and-uncertainty-in-florida-grazing-lands-derived-f",
+    "title": "Topsoil Organic Carbon Stocks and Uncertainty in Florida Grazing Lands Derived from Quantile Regression Forest (30 m Resolution)",
+    "authors": "Zhao, Chang, Song, Jiayi, Dubeux, José, Grunwald, Sabine, Bretas, Igor, Liao, Hao-Yu, Tziolas, Nikolaos, Harley, Joel, Zare, Alina, Babaeian, Ebrahim, Garcia, Liza, Queiroz, Luana, Mendes, Cristian",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset and code: 30 m spatial predictions and uncertainty products from quantile regression forest digital soil mapping.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22000721",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22000721",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "Spatial-statistics examples with uncertainty-aware prediction surfaces, quantile-regression forests, and reproducible spatial model products.",
+    "note": "Auto-discovered from Zenodo on 2026-08-18. The record provides peer-reviewed spatial prediction and uncertainty products plus code for the associated Geoderma study."
+  },
+  {
+    "id": "zenodo-21999165-data-from-mapping-genetic-interactions-in-human-cancer-cells-with-rnai-and-multi",
+    "title": "Data from \"Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping\"",
+    "authors": "Laufer, Christina, Fischer, Bernd, Billmann, Maximilian, Huber, Wolfgang, Boutros, Michael",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset: high-dimensional RNAi genetic-interaction and multiparametric phenotyping data formerly distributed through the HD2013SGI Bioconductor package.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21999165",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21999165",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "graphical models",
+      "variable selection"
+    ],
+    "bestFor": "High-dimensional statistics and graphical-model examples involving genetic interactions, RNAi screens, and multiparametric phenotyping data.",
+    "note": "Auto-discovered from Zenodo on 2026-08-18. The record explicitly links the dataset to the published Laufer et al. study and the former HD2013SGI Bioconductor package."
+  },
+  {
+    "id": "zenodo-22000146-data-from-bee-phenology-in-the-tropics-a-meta-analysis-of-environmental-and-func",
+    "title": "Data from: Bee phenology in the tropics: A meta-analysis of environmental and functional trait effects on bee dormancy",
+    "authors": "Montoya-Pfeiffer, Paula María, González-Chaves, Adrian, Cerdeira Morellato, Leonoro Patricia",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset and code: compiled study-level bee dormancy database for a continental-scale meta-analysis of phenology and trait effects.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22000146",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22000146",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "longitudinal data analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Meta-analysis examples with study-level coding, repeated monthly binary outcomes, location/year structure, and environmental/trait covariates.",
+    "note": "Auto-discovered from Zenodo on 2026-08-18. The dataset is explicitly described as supporting a quantitative synthesis/meta-analysis of bee dormancy across Brazil."
+  },
+  {
+    "id": "dataverse-6yp6fi",
+    "title": "Replication Data for: Nonlinear relationship between uncertainty and FDI: Dynamic panel threshold analysis",
+    "authors": "VO, THI CHINH",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: data and code for dynamic panel threshold analysis of uncertainty and foreign direct investment.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/6YP6FI",
+    "paperUrl": "https://doi.org/10.7910/DVN/6YP6FI",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Panel-data examples for dynamic interaction models, system GMM, endogenous threshold regimes, and nonlinear macro-econometric analysis.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-18. Metadata documents replication data and code for a dynamic panel threshold analysis with two-step system GMM."
+  },
+  {
+    "id": "dataverse-lm1odz",
+    "title": "SSMEP: A Harmonized Multilevel Panel of Spanish Elections, 1977–2023",
+    "authors": "Ruiz, Alvaro",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset and code: harmonized multilevel municipal electoral panel for Spain, 1977-2023.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/LM1ODZ",
+    "paperUrl": "https://doi.org/10.7910/DVN/LM1ODZ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "multilevel modeling"
+    ],
+    "bestFor": "Longitudinal and multilevel panel examples with repeated elections, territorial crosswalks, validation checks, and harmonized political units.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-18. The record provides a large harmonized municipal election panel with code and documented validation methodology."
+  },
+  {
+    "id": "dataverse-dvytk6",
+    "title": "Generational Divergence, Structural Cleavages, and Contingent Optimism in South Korean Unification Attitudes",
+    "authors": "Han, Seungwoo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset: nationally representative Unification Perception Survey data, 2013-2024, for temporal regression and counterfactual simulation.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/DVYTK6",
+    "paperUrl": "https://doi.org/10.7910/DVN/DVYTK6",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Survey and longitudinal examples using repeated national surveys, event-period analysis, regression models, and counterfactual simulation.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-18. Metadata documents nationally representative survey data over 2013-2024 and temporal/event analysis."
+  },
+  {
+    "id": "zenodo-21999496-data-from-unequal-greening-and-urbanization-trajectories-in-santiago-de-chile-an",
+    "title": "Data from: \"Unequal greening and urbanization trajectories in Santiago de Chile, and their consequences for an urban-adapted woodpecker\"",
+    "authors": "Gerardo E., Soto, Joseba, Iribarren",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset: hexagonal spatial grid, model-ready RDS data, thinned detection/non-detection records, and covariates for spatial GAM analysis.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21999496",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21999496",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Spatial-statistics examples with geospatial aggregation, spatio-temporal thinning, detection/non-detection outcomes, and generalized additive modeling.",
+    "note": "Auto-discovered from Zenodo on 2026-08-18. The record documents geospatial and tabular model-ready data for candidate GAMs at a 40-ha hexagonal grain."
+  },
+  {
+    "id": "dataverse-hhxynt",
+    "title": "Clinical Change and Cognitive Performance in Middle-Aged to Older Adults Using Medical Cannabis for Up to 12 Months",
+    "authors": "Gruber, Staci, Gruber, Staci",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset: baseline, 3-, 6-, and 12-month longitudinal clinical and cognitive measurements for treatment-as-usual and medical-cannabis groups.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HHXYNT",
+    "paperUrl": "https://doi.org/10.7910/DVN/HHXYNT",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Longitudinal-data examples with repeated measures, clinical rating scales, cognitive outcomes, and treatment/control group structure.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-18. The dataset page explicitly describes repeated baseline through 12-month measurements and group information."
   }
 ]
