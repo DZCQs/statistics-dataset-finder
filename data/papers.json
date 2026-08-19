@@ -46175,5 +46175,331 @@
     ],
     "bestFor": "Longitudinal-data examples with repeated measures, clinical rating scales, cognitive outcomes, and treatment/control group structure.",
     "note": "Auto-discovered from Harvard Dataverse on 2026-08-18. The dataset page explicitly describes repeated baseline through 12-month measurements and group information."
+  },
+  {
+    "id": "dataverse-8am4nz",
+    "title": "Replication Package for: Central Bank Economic Transparency and Managerial Learning",
+    "authors": "Binz, Oliver, Ferracuti, Elia, Ferracuti, Elia, Lind, Gary, Lind, Gary",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: international panel data, code, and documentation for central-bank transparency and managerial learning analyses.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/8AM4NZ",
+    "paperUrl": "https://doi.org/10.7910/DVN/8AM4NZ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Difference-in-differences and panel-data examples involving international policy variation, managerial learning, and investment-efficiency analyses.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-19. The archive documents code, data construction, execution order, and DiD analyses around the 2013-2014 Bank of England disclosure amendments."
+  },
+  {
+    "id": "dataverse-hmt67m",
+    "title": "Replication Data for: Labor Market Outcomes under State Paid Family Leave: A Multi-State Analysis",
+    "authors": "Park, Min Sun, Polachek, Solomon",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: Stata code and IPUMS CPS data-acquisition instructions for state paid-family-leave labor-market analyses.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HMT67M",
+    "paperUrl": "https://doi.org/10.7910/DVN/HMT67M",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences",
+      "survey methodology",
+      "panel data methods"
+    ],
+    "bestFor": "Policy-panel and survey-data examples using CPS ASEC microdata, Stata replication code, and multi-state paid-family-leave variation.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-19. Source CPS microdata are not redistributed, but the package gives explicit IPUMS CPS acquisition instructions and Stata code to reproduce the analysis."
+  },
+  {
+    "id": "dataverse-o3accg",
+    "title": "Asymmetric Labor Market Responses to External Demand Fluctuations: Evidence from Africa",
+    "authors": "Abril, Andrés, Padilla, León, D'Espaux, Josue",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication dataset: country-level panel data and Stata code for asymmetric labor-market responses to external-demand shocks.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/O3ACCG",
+    "paperUrl": "https://doi.org/10.7910/DVN/O3ACCG",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Panel-data and time-series examples for external shock construction, asymmetric responses, and macro-labor econometric analysis.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-19. Metadata documents 23-country panel data, Stata code, external-demand shock construction, and labor-market outcomes."
+  },
+  {
+    "id": "dataverse-cftu0m",
+    "title": "Replication Package for \"Exclusion Bias and the Estimation of Peer Effects\"",
+    "authors": "Caeyers, Bet",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package: data and Stata code for a methodological demonstration of exclusion bias in peer-effect estimation.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CFTU0M",
+    "paperUrl": "https://doi.org/10.7910/DVN/CFTU0M",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code",
+      "Stata code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Causal and clustered/social-interaction examples illustrating bias from excluding relevant peers in peer-effect estimation.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-19. The package explicitly provides data and Stata code for a Journal of Human Resources methodological demonstration."
+  },
+  {
+    "id": "zenodo-22018694-repository-associated-with-the-manuscript-on-the-quieting-of-glaciohydraulic-tre",
+    "title": "Repository associated with the manuscript \"On the quieting of glaciohydraulic tremor\" by Chmiel et al.",
+    "authors": "Chmiel, Małgorzata, Caldera, Nicoletta, Gimbert, Florent, Olivier, Gerrit, GUADAGNINI, Alberto, Gräff, Dominik, Köpfli, Manuela, Werder, Mauro, Walter, Fabian",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo repository: data products, MATLAB functions, and Jupyter notebooks for glaciohydraulic tremor source localization and spatial power mapping.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22018694",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22018694",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Spatio-temporal and spatial-statistics examples with sensor-array data, 3D source-location grids, and reproducible notebooks/functions.",
+    "note": "Auto-discovered from Zenodo on 2026-08-19. The record documents data products and code required to reproduce analyses and figures for the associated manuscript."
+  },
+  {
+    "id": "zenodo-22018765-tokyo-and-paris-mou-port-state-control-panel-data-2013-2024-processed-deficiency",
+    "title": "Tokyo and Paris MoU Port State Control Panel Data (2013-2024): Processed deficiency counts, analysis scripts, and supplementary calculations",
+    "authors": "Battal, Turgay",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset and scripts: Tokyo and Paris MoU port-state-control panel data, deficiency counts, quasi-Poisson trend scripts, and supplementary calculations.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22018765",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22018765",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "Python code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Panel count-data and longitudinal examples with inspection-volume offsets, trend estimation, and reproducible Python analysis scripts.",
+    "note": "Auto-discovered from Zenodo on 2026-08-19. The archive provides processed panel data, analysis scripts, workbooks, and model calculations for deficiency statistics."
+  },
+  {
+    "id": "zenodo-22018089-reproducibility-archive-for-leakage-resistant-prediction-of-missing-p-and-s-wave",
+    "title": "Reproducibility Archive for Leakage-Resistant Prediction of Missing P- and S-Wave Velocities: Observed-Only Spatial Validation and Provenance-Aware 3D Characterization of Isfahan Metro Line 2",
+    "authors": "Chatrayi, Hosein, ِDias, Daniel",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo reproducibility archive: processed spatial data, fold manifests, feature-construction rules, model registries, validation products, and source scripts for missing P- and S-wave velocity prediction.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22018089",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22018089",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "missing data",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "Missing-data, spatial-validation, and risk-prediction examples with observed-only validation folds and provenance-aware feature construction.",
+    "note": "Auto-discovered from Zenodo on 2026-08-19. The archive explicitly supports leakage-resistant prediction of missing wave velocities with validation manifests and reproducible source scripts."
+  },
+  {
+    "id": "zenodo-22018063-data-extraction-workbook-for-nurse-job-satisfaction-and-retention-a-systematic-r",
+    "title": "Data Extraction Workbook for Nurse Job Satisfaction and Retention: A Systematic Review and Meta-Analysis",
+    "authors": "Alrasheedi, Mohammed, Hassan, Hafizah Che",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo extraction workbook: study characteristics, effect-size data, variance data, PRISMA logs, and codebook for a systematic review and meta-analysis.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22018063",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22018063",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis"
+    ],
+    "bestFor": "Meta-analysis examples with effect-size extraction, variance coding, study-level metadata, and screening-decision records.",
+    "note": "Auto-discovered from Zenodo on 2026-08-19. The record documents a multi-sheet workbook with effect-size data, variance data, search strategy, PRISMA log, and codebook."
+  },
+  {
+    "id": "zenodo-21855630-legislation-as-a-temporal-formal-system-evidence-from-53-223-versions-of-the-aus",
+    "title": "Legislation as a Temporal Formal System: Evidence from 53,223 Versions of the Austrian Federal Statute Book",
+    "authors": "Ramadani, Dionis",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset and R code: point-in-time Austrian federal-law git corpus, cleaned full text, metadata, and temporal version history.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21855630",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21855630",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Time-series and longitudinal corpus examples with versioned legal text, point-in-time reconstruction, and reproducible R workflows.",
+    "note": "Auto-discovered from Zenodo on 2026-08-19. The record accompanies a paper and provides a versioned corpus, cleaned JSONL full text, metadata, and R code."
+  },
+  {
+    "id": "zenodo-22006871-treenet-tree-water-deficit-forecasting-dataset",
+    "title": "TreeNet Tree Water Deficit Forecasting Dataset",
+    "authors": "Svoboda, Jan, Mirko Lukovic, Aeberhard, William, Etzold, Sophia, Wilhelm, Micah, Mari, Alessandro, Tresch, Simon, Walthert, Lorenz, Buchmann, Nina, Gessler, Arthur, Zweifel, Roman",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo forecasting dataset: TreeNet dendrometer time series, meteorological data, metadata, and linked repository for tree-water-deficit forecasting.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22006871",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22006871",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Time-series forecasting examples with many tree-level sensor series, meteorological covariates, and reproducible forecasting resources.",
+    "note": "Auto-discovered from Zenodo on 2026-08-19. The dataset provides 711 tree series from 80 sites plus resources and a linked repository for forecasting tree water deficit."
+  },
+  {
+    "id": "dataverse-bz2jrs",
+    "title": "U.S. House (2018–2024) and Senate (2002–2024) Candidate Websites",
+    "authors": "Hilbig, Hanno",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset: archived U.S. House and Senate campaign-website text with candidate-election-year panel structure and ICPSR-compatible merge fields.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/BZ2JRS",
+    "paperUrl": "https://doi.org/10.7910/DVN/BZ2JRS",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Longitudinal panel and text-as-data examples with candidate-election-year observations, archived pages, and merge-ready election identifiers.",
+    "note": "Auto-discovered from Harvard Dataverse on 2026-08-19. The record provides 799,058 archived pages, candidate-level datasets, attempted capture roster, and an ICPSR-compatible panel."
+  },
+  {
+    "id": "zenodo-22010818-can-a-composite-indicator-reliably-distinguish-a-priority-dimension-a-two-gate-s",
+    "title": "Can a Composite Indicator Reliably Distinguish a Priority Dimension? A Two-Gate Screen and a Stylized Allocation Rule for Trade Logistics",
+    "authors": "Kehribar, Ömer",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication materials: analysis panels, provenance records, CRITIC weights, uncertainty decompositions, simulations, and Python code for composite-indicator screening.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22010818",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22010818",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "Python code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "resampling methods"
+    ],
+    "bestFor": "Panel-data and resampling/uncertainty examples for composite indicators, robustness analysis, calibration, and reproducible Python simulations.",
+    "note": "Auto-discovered from Zenodo on 2026-08-19. The archive provides analysis panels, provenance records, uncertainty decompositions, robustness analyses, and Python code."
   }
 ]
