@@ -595,6 +595,10 @@ export const LABEL_CANDIDATES = [
       {
         paperId: "zenodo-15228007-oib-compositional-multivariate-statistics",
         reason: "Zenodo project code for compositional data analysis of ocean island basalt compositions using log-ratio transformations."
+      },
+      {
+        paperId: "dataverse-zfnjib",
+        reason: "Jurisdiction-level crypto composition panel with monthly stablecoin-share measures and fiat-pair composition indicators."
       }
     ],
     admitWhen: [

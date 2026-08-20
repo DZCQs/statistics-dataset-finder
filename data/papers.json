@@ -46501,5 +46501,340 @@
     ],
     "bestFor": "Panel-data and resampling/uncertainty examples for composite indicators, robustness analysis, calibration, and reproducible Python simulations.",
     "note": "Auto-discovered from Zenodo on 2026-08-19. The archive provides analysis panels, provenance records, uncertainty decompositions, robustness analyses, and Python code."
+  },
+  {
+    "id": "dataverse-zfnjib",
+    "title": "Asymmetric Cryptoization: A Jurisdiction-Level Crypto Composition Panel (2019-2026)",
+    "authors": "Giupponi, Emiliano",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse jurisdiction-level crypto-asset composition panel with monthly fiat-pair volume and stablecoin-share measures for 27 currencies, 2019-2026.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZFNJIB",
+    "paperUrl": "https://doi.org/10.7910/DVN/ZFNJIB",
+    "access": "open",
+    "formats": [
+      "Dataverse dataset",
+      "panel data",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Panel-data and compositional-share examples involving jurisdiction-level financial technology adoption, exchange-level source provenance, and monthly cryptoization indicators.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the DOI record documents a monthly jurisdiction-level panel, public API provenance, and composition indicators. Kept internal auto-discovered marking for future cleanup."
+  },
+  {
+    "id": "dataverse-iwfezl",
+    "title": "Replication Data for \"Buying Data from Consumers: The Impact of Monitoring in U.S. Auto Insurance\"",
+    "authors": "Jin, Yizhou, Jin, Yizhou, vasserman, shosh",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for the Journal of Political Economy paper on monitoring and data purchasing in U.S. auto insurance.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/IWFEZL",
+    "paperUrl": "https://doi.org/10.7910/DVN/IWFEZL",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "econometrics data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Causal-inference, policy-evaluation, and panel/econometrics examples involving consumer monitoring, information acquisition, and insurance-market outcomes.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record is a named JPE replication package with data and code."
+  },
+  {
+    "id": "dataverse-yiynwl",
+    "title": "Replication Data for: \"Data, Privacy Laws and Firm Production: Evidence from the GDPR\"",
+    "authors": "Demirer, Mert, Demirer, Mert, Jiménez-Hernández, Diego, Li, Dean, Peng, Sida",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for the Journal of Political Economy paper on GDPR, data, privacy laws, and firm production.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YIYNWL",
+    "paperUrl": "https://doi.org/10.7910/DVN/YIYNWL",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "econometrics data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Difference-in-differences, policy-evaluation, and firm-panel examples involving GDPR exposure, privacy regulation, and production outcomes.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record is a named JPE replication package with data and code."
+  },
+  {
+    "id": "dataverse-oaicum",
+    "title": "OSHA Penalty Reductions — Initial versus Current Penalties for 4.18 Million Cited Violations (2000–2020)",
+    "authors": "Goldberg, Leonard",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse OSHA penalty-reductions dataset covering initial and current penalties for 4.18 million cited violations from 2000 to 2020.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/OAICUM",
+    "paperUrl": "https://doi.org/10.7910/DVN/OAICUM",
+    "access": "open",
+    "formats": [
+      "Dataverse dataset",
+      "administrative data",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Longitudinal administrative-data examples for penalty adjustment, regulatory enforcement, repeated violation records, and settlement/appeal outcome modeling.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record documents large-scale OSHA administrative data with clear variables and time coverage."
+  },
+  {
+    "id": "dataverse-8td6a2",
+    "title": "Replication Data for: Connectivity Counts: How Stock Network Centrality Shapes Liquidity and Risk Premia",
+    "authors": "Kita, Arben",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data and code for stock network centrality, liquidity, and risk premia analyses.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/8TD6A2",
+    "paperUrl": "https://doi.org/10.7910/DVN/8TD6A2",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "network data",
+      "financial panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "risk prediction",
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Financial panel, network-dependence, risk-prediction, and graphical/network-method examples involving stock centrality, liquidity, and asset-pricing outcomes.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record explicitly contains replication data and code for all tables and figures."
+  },
+  {
+    "id": "dataverse-tq6qx9",
+    "title": "Replication Data for: Firm Balance Sheet Liquidity, Monetary Policy Shocks, and Investment Dynamics",
+    "authors": "Jeenas, Priit, Jeenas, Priit",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for the Journal of Political Economy paper on firm balance-sheet liquidity, monetary policy shocks, and investment dynamics.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/TQ6QX9",
+    "paperUrl": "https://doi.org/10.7910/DVN/TQ6QX9",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "econometrics data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Panel-data and causal/econometric examples involving monetary-policy shocks, firm liquidity, fixed effects, and investment dynamics.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record is a named JPE replication package with data and code."
+  },
+  {
+    "id": "zenodo-22035531-replication-package-a-regime-identification-framework-for-container-shipping-fre",
+    "title": "Replication package: A Regime Identification Framework for Container Shipping Freight Markets (SCFI weekly composite 2020–2026, HMM pipeline)",
+    "authors": "BATTAL, TURGAY",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication package with weekly SCFI composite freight-rate series, source provenance, and a hidden Markov model regime-identification pipeline.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22035531",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22035531",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "time series",
+      "Python/R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Time-series, forecasting, and regime-switching examples involving weekly shipping freight rates, HMM states, reproducible diagnostics, and source-level provenance.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive documents the time series, source URLs, and full HMM replication pipeline."
+  },
+  {
+    "id": "zenodo-22035421-replication-package-representation-identity-and-measurement-validity-in-patent-c",
+    "title": "Replication package: Representation, identity, and measurement validity in patent co-invention networks — Hypergraph evidence from Chinese lithium-ion batteries",
+    "authors": "Labarbe, Emmanuel",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication package for hypergraph evidence on patent co-invention networks in Chinese lithium-ion batteries.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22035421",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22035421",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "network data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Network-data, graph/hypergraph representation, measurement-validity, and panel-like innovation examples involving patent co-invention structures.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the record explicitly describes a replication package with patent co-invention network data."
+  },
+  {
+    "id": "zenodo-22035332-replication-package-for-priced-as-natives-frozen-capitation-weights-and-implicit",
+    "title": "Replication package for \"Priced as Natives: Frozen Capitation Weights and Implicit Interregional Transfers\"",
+    "authors": "AUTERI, Monica",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication package for frozen capitation weights and implicit interregional transfers, including input data, Stata/Python code, codebook, provenance, and reproducibility scripts.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22035332",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22035332",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "Stata code",
+      "Python code",
+      "codebook"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "survey weighting",
+      "survey methodology"
+    ],
+    "bestFor": "Policy-evaluation, weighting, panel/econometric, and reproducibility examples involving capitation weights, regional transfers, and source-by-source provenance.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive documents input data, Stata/Python code, a codebook, and provenance files."
+  },
+  {
+    "id": "dataverse-gpikda",
+    "title": "Replication Data for: Climate Shocks, Political Conflict, and the Resilience of Democracies",
+    "authors": "Beacham, Austin, Beacham, Austin, Hafner-Burton, Emilie M, Schneider, Christina, Schneider, Christina",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data for climate shocks, political conflict, and democratic resilience.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/GPIKDA",
+    "paperUrl": "https://doi.org/10.7910/DVN/GPIKDA",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "panel data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Causal-inference and panel-data examples involving climate shocks, political conflict, governance outcomes, and resilience of democratic institutions.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record is a named replication package with clear social-science data context."
+  },
+  {
+    "id": "dataverse-r5th0r",
+    "title": "Replication Data for: \"Closing Ranks: Organized Labor and Immigration\"",
+    "authors": "Medici, Carlo, Medici, Carlo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for the Journal of Political Economy paper “Closing Ranks: Organized Labor and Immigration.”",
+    "datasetUrl": "https://doi.org/10.7910/DVN/R5TH0R",
+    "paperUrl": "https://doi.org/10.7910/DVN/R5TH0R",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "econometrics data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Causal/econometric and panel-data examples involving organized labor, immigration exposure, and political-economy outcomes.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record is a named JPE replication package with data and code."
+  },
+  {
+    "id": "figshare-33182864-objet-replication-data-for-institutional-thresholds-and-the-environmental-effect",
+    "title": "Objet Replication Data for: \"Institutional Thresholds and the Environmental Effectiveness of Green Finance: Evidence from Biodiversity Conservation in Africa\"sans titre",
+    "authors": "Unknown authors",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Figshare replication data for institutional thresholds and the environmental effectiveness of green finance in biodiversity conservation in Africa.",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.33182864.v2",
+    "paperUrl": "https://doi.org/10.6084/m9.figshare.33182864.v2",
+    "access": "open",
+    "formats": [
+      "Figshare replication data",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Threshold, panel-data, and policy-effectiveness examples involving green finance, institutions, and biodiversity-conservation outcomes.",
+    "note": "Auto-discovered from Figshare and manually accepted because the record is explicitly marked as replication data for an institutional-thresholds analysis."
   }
 ]
