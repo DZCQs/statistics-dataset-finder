@@ -46836,5 +46836,421 @@
     ],
     "bestFor": "Threshold, panel-data, and policy-effectiveness examples involving green finance, institutions, and biodiversity-conservation outcomes.",
     "note": "Auto-discovered from Figshare and manually accepted because the record is explicitly marked as replication data for an institutional-thresholds analysis."
+  },
+  {
+    "id": "dataverse-fcntsn",
+    "title": "Assessing the perceived relevance of environmental sustainability initiatives in smart campuses using item response theory (Supplemental material)",
+    "authors": "Hochsteiner, Pedro, Hochsteiner, Pedro, Tezza, Rafael, Tezza, Rafael, Borba, Eduardo Henrique de, Borba, Eduardo Henrique de",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse supplemental material for an item-response-theory study of perceived relevance of environmental sustainability initiatives in smart campuses, including survey responses and scale-calibration materials.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/FCNTSN",
+    "paperUrl": "https://doi.org/10.7910/DVN/FCNTSN",
+    "access": "open",
+    "formats": [
+      "Dataverse supplemental data",
+      "survey data",
+      "IRT data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design"
+    ],
+    "bestFor": "Item response theory, latent-scale calibration, factor-analysis, and survey-measurement examples with ordinal item responses and respondent covariates.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record explicitly documents a scale study using factor analysis and item response theory with supplemental data."
+  },
+  {
+    "id": "dataverse-zha98s",
+    "title": "Replication Data for: Topic, Not Gender, Drives Empathy in Conflict News: Evidence from Hezbollah's Newspaper Al-Ahed",
+    "authors": "Quaglia, Sofia",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data and Python/R code for a text-as-data study of empathy, topics, and author gender in Hezbollah newspaper articles.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZHA98S",
+    "paperUrl": "https://doi.org/10.7910/DVN/ZHA98S",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "Python code",
+      "R code",
+      "text corpus"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multilevel modeling"
+    ],
+    "bestFor": "Text-as-data, topic modeling, mixed-effects regression, and document-level measurement examples using LSS empathy scores and NMF topic scores.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the package documents the corpus, derived text measures, Python/R code, and mixed-effects modeling workflow."
+  },
+  {
+    "id": "dataverse-9kqhmd",
+    "title": "Automation, Clarity of Responsibility, and Attenuated Performance–Government Trust Linkage in China",
+    "authors": "Xu, Hao",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication files for three studies on automation, clarity of responsibility, and performance-government trust linkage in China, with Stata do-files and analytic datasets.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/9KQHMD",
+    "paperUrl": "https://doi.org/10.7910/DVN/9KQHMD",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "Stata code",
+      "survey/experimental data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "survey experiments",
+      "survey methodology",
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments"
+    ],
+    "bestFor": "Survey-experiment, causal-inference, and multistudy replication examples involving responsibility attribution and trust outcomes.",
+    "note": "Auto-discovered from Dataverse and manually accepted because each study folder includes Stata do-files, analytic datasets, and reproducible tables/figures."
+  },
+  {
+    "id": "dataverse-4zo2ih",
+    "title": "Replication Data for: What Is Killing the Multifamily Condominium? Testing the Liability-Law Hypothesis in California and New Jersey",
+    "authors": "Marantz, Nicholas J.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse complete replication package for the Journal of Urban Affairs article on multifamily condominium liability-law hypotheses in California and New Jersey.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/4ZO2IH",
+    "paperUrl": "https://doi.org/10.7910/DVN/4ZO2IH",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "R scripts",
+      "knitr manuscript",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Policy-evaluation, panel-data, and reproducible-manuscript examples with R scripts, manuscript source, and verified table/figure reproduction.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record documents manuscript reproduction files, R scripts, and all data read by the analysis."
+  },
+  {
+    "id": "zenodo-22050220-curated-six-class-ecg-dataset-derived-from-physionet",
+    "title": "Curated Six-Class ECG Dataset derived from Physionet",
+    "authors": "Bischoff, Francisco",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo curated six-class ECG time-series dataset derived from PhysioNet, with signal/header pairs, class manifests, provenance, and review manifests.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22050220",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22050220",
+    "access": "open",
+    "formats": [
+      "Zenodo dataset",
+      "time series",
+      "classification benchmark",
+      "provenance manifests"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series classification",
+      "risk prediction"
+    ],
+    "bestFor": "Time-series classification and benchmark curation examples involving ECG signals, class definitions, provenance tracking, and derived public-source data.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive documents curated signal/header pairs, class labels, provenance, and review manifests."
+  },
+  {
+    "id": "dataverse-5llada",
+    "title": "Replication Data for: Brokering Espionage: The Role of Aligned Mayors in Counterinsurgency",
+    "authors": "Koyama, Tatsuya",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication files and online appendix for Brokering Espionage: The Role of Aligned Mayors in Counterinsurgency.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/5LLADA",
+    "paperUrl": "https://doi.org/10.7910/DVN/5LLADA",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "social-science data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Causal-inference and political-economy replication examples involving aligned local officials, conflict settings, and counterinsurgency outcomes.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record explicitly provides replication files and appendix material for the paper."
+  },
+  {
+    "id": "zenodo-22050531-replication-package-convergence-and-diversification-of-electricity-generation-st",
+    "title": "Replication Package Convergence and Diversification of Electricity-Generation Structures in the EU-27, 1990–2024",
+    "authors": "Kolegowicz, Konrad, Kaczmarek, Jarosław, Náñez Alonso, Sergio Luis",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication package for convergence and diversification of EU-27 electricity-generation structures, 1990-2024, with Eurostat-derived processed data and code.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22050531",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22050531",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "panel data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Longitudinal panel-data, convergence, diversification, and energy-transition examples using harmonized EU-27 electricity-generation data.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive documents primary Eurostat source, processed data, and code/license provenance."
+  },
+  {
+    "id": "zenodo-22049787-dynamic-population-presence-linked-to-home-neighbourhoods-in-the-helsinki-metrop",
+    "title": "Dynamic population presence linked to home neighbourhoods in the Helsinki Metropolitan Area: A 24-hour weekday and weekend dataset",
+    "authors": "Müürisepp, Kerli, Järv, Olle, Manninen, Matti, Toivonen, Tuuli",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo/Scientific Data record for 24-hour weekday and weekend population presence linked to home neighbourhoods in the Helsinki Metropolitan Area.",
+    "datasetUrl": "https://doi.org/10.1038/s41597-026-08129-8",
+    "paperUrl": "https://doi.org/10.1038/s41597-026-08129-8",
+    "access": "open",
+    "formats": [
+      "Zenodo dataset",
+      "spatio-temporal data",
+      "mobility data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "small area estimation",
+      "survey methodology"
+    ],
+    "bestFor": "Spatio-temporal and small-area population examples involving hourly presence, home-neighbourhood linkage, anonymized mobile phone data, and area-level aggregation.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the dataset explicitly documents hourly population distributions and neighbourhood linkage."
+  },
+  {
+    "id": "dataverse-0ypfce",
+    "title": "Replication Data for: Professional Pathway and Judicial Decision-Making: Evidence from a Hybrid Appointment System",
+    "authors": "Yadav, Mohit, Yadav, Mohit, Aggarwal, Rohit, Aggarwal, Rohit, Thanacoody, Selvin, Thanacoody, Selvin, Pathak, Gaurav, Pathak, Gaurav, Ganesh, Anush, Ganesh, Anush",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for Professional Pathway and Judicial Decision-Making, covering Delhi High Court bail applications, court metadata, judgments, derived files, and code.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/0YPFCE",
+    "paperUrl": "https://doi.org/10.7910/DVN/0YPFCE",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "court records",
+      "code",
+      "JSON derived data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Causal/econometric and text-as-data examples involving judicial assignments, case metadata, derived court-order features, and decision outcomes.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the package documents source materials, derived machine-readable data, and reproduction code."
+  },
+  {
+    "id": "zenodo-22048757-data-for-teleseismic-p-wave-attenuation-along-the-east-african-rift-system-stron",
+    "title": "Data for \"Teleseismic P wave attenuation along the East African Rift system: Strong attenuation within the Main Ethiopian Rift\"",
+    "authors": "Byrnes, Joseph, Ford, Heather, Haberli, Gillian, Brounce, Maryjo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo code and data for Bayesian spatial t* inversion of teleseismic P-wave attenuation along the East African Rift, including MCMC hyperparameter search and resolution tests.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22048757",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22048757",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "MATLAB code",
+      "Python code",
+      "spatial inversion data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "spatial statistics"
+    ],
+    "bestFor": "Bayesian inference, MCMC diagnostics, spatial statistics, and geophysical inverse-problem examples with synthetic/checkerboard validation outputs.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive documents a Bayesian inversion engine, MCMC hyperparameter search, data-loading scripts, and plotting code."
+  },
+  {
+    "id": "dataverse-wmts5h",
+    "title": "Replication Data for: Beyond the Battlefield: Localized Civilian Clashes and Political Attitudes in Violent Conflict",
+    "authors": "Wayne, Carly, Wayne, Carly",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication materials for Beyond the Battlefield: Localized Civilian Clashes and Political Attitudes in Violent Conflict.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/WMTS5H",
+    "paperUrl": "https://doi.org/10.7910/DVN/WMTS5H",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "social-science data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "spatial statistics"
+    ],
+    "bestFor": "Causal-inference, conflict studies, and spatial/panel political-attitudes examples involving localized exposure and outcome modeling.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record states that it contains the replication materials and readme for reproducing the paper."
+  },
+  {
+    "id": "dataverse-wqvpz6",
+    "title": "Replication Data for: New tech, new threat? Occupational exposure to artificial intelligence increases support for AI regulation",
+    "authors": "Grant, Zack",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse Stata datasets and code for New tech, new threat? Occupational exposure to artificial intelligence increases support for AI regulation.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/WQVPZ6",
+    "paperUrl": "https://doi.org/10.7910/DVN/WQVPZ6",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "Stata code",
+      "survey data",
+      "exposure measures"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "survey methodology"
+    ],
+    "bestFor": "Causal/econometric and survey examples involving occupational exposure measures, regulatory attitudes, and reproducible Stata workflows.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record explicitly provides Stata datasets and code for replicating the main-text analysis."
+  },
+  {
+    "id": "dataverse-mayze1",
+    "title": "Replication Code for: Heritability and social interaction in labor market outcomes: Evidence from the population of twins in the United States",
+    "authors": "Card, David, Card, David, Rothstein, Jesse, Rothstein, Jesse, Yi, Moises, Yi, Moises",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication code and linked-data documentation for heritability and social interaction in labor market outcomes using U.S. twin-pair data.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/MAYZE1",
+    "paperUrl": "https://doi.org/10.7910/DVN/MAYZE1",
+    "access": "open",
+    "formats": [
+      "Dataverse replication code",
+      "linked administrative data documentation",
+      "econometrics code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Econometric identification, family/twin designs, social-interaction models, and labor-market outcome examples with linked longitudinal outcomes.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record documents replication code and data linkage design for a methodological labor-economics analysis."
+  },
+  {
+    "id": "zenodo-22047746-replication-package-for-population-ageing-public-health-expenditure-and-the-prim",
+    "title": "Replication package for \"Population Ageing, Public Health Expenditure and the Primary Fiscal Balance: Evidence from a Heterogeneous Global Panel, 1990-2024\"",
+    "authors": "Ha, Thi Doan Trang, Vu, Ngoc Dung",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication package for population ageing, public health expenditure, and primary fiscal balance in a heterogeneous global panel, 1990-2024.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22047746",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22047746",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "panel data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Panel-data, heterogeneous global-panel, fiscal-health, and demographic-transition examples with annual economy-level observations and reproducible tables/figures.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive states that it reproduces every table and figure and contains the compiled annual panel."
+  },
+  {
+    "id": "zenodo-20779629-data-and-reproducibility-materials-for-auditing-climate-signal-transfer-across-m",
+    "title": "Data and reproducibility materials for auditing climate-signal transfer across mismatched spatial grids",
+    "authors": "Ortiz-Jiménez, Mario Alberto",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo data, code, metadata, audit products, and reproducibility materials for benchmarking climate-signal transfer across mismatched spatial grids.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.20779629",
+    "paperUrl": "https://doi.org/10.5281/zenodo.20779629",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "spatial benchmark",
+      "code",
+      "metadata"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Spatial statistics, interpolation, resampling/audit, and benchmark examples comparing nearest-neighbour, inverse-distance, and bilinear grid-transfer methods.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive explicitly provides a methodological benchmark with data, code, metadata, and audit products."
   }
 ]
