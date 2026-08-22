@@ -47252,5 +47252,434 @@
     ],
     "bestFor": "Spatial statistics, interpolation, resampling/audit, and benchmark examples comparing nearest-neighbour, inverse-distance, and bilinear grid-transfer methods.",
     "note": "Auto-discovered from Zenodo and manually accepted because the archive explicitly provides a methodological benchmark with data, code, metadata, and audit products."
+  },
+  {
+    "id": "dataverse-abt6ln",
+    "title": "SHIELD: Sanctions and Health Indicators Evidence-Linked Dataset",
+    "authors": "Nurmsoo, Sean",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse SHIELD country-year panel linking economic sanctions to population health, health-system capacity, and medical-goods trade, covering 250 countries and territories from 1950 to 2025.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ABT6LN",
+    "paperUrl": "https://doi.org/10.7910/DVN/ABT6LN",
+    "access": "open",
+    "formats": [
+      "Dataverse dataset",
+      "panel data",
+      "codebook"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "causal inference",
+      "treatment effect estimation",
+      "missing data"
+    ],
+    "bestFor": "Longitudinal panel, policy-exposure, causal-inference, and missingness/measurement examples involving sanctions, country-year indicators, and linked multi-source covariates.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record documents a country-year panel, source databases, README/codebook, and accessible DOI."
+  },
+  {
+    "id": "dataverse-rr7ipj",
+    "title": "Replication Data for: Does Local Urban Governance Status Matter? Evidence from India",
+    "authors": "Rawat, Saani, Rawat, Saani",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse analysis-ready settlement data, replication code, documentation, and files for a fuzzy regression-discontinuity study of urban governance status in India.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/RR7IPJ",
+    "paperUrl": "https://doi.org/10.7910/DVN/RR7IPJ",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "RDD data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "regression discontinuity designs"
+    ],
+    "bestFor": "Regression-discontinuity, fuzzy RDD, local-public-goods, and policy-evaluation examples using Census Town threshold criteria.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record explicitly documents analysis-ready data and replication code for a fuzzy RDD design."
+  },
+  {
+    "id": "dataverse-l7f1wn",
+    "title": "Replication Data for: \"Racial Differences in Electoral Persistence\"",
+    "authors": "Wang, Xiaohong, Wang, Xiaohong",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for close-election regression-discontinuity analysis of racial differences in electoral persistence.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/L7F1WN",
+    "paperUrl": "https://doi.org/10.7910/DVN/L7F1WN",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "election data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "regression discontinuity designs"
+    ],
+    "bestFor": "Close-election regression-discontinuity, candidate persistence, and political-economy examples with subsequent-election outcomes.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record describes empirical data and close-election RDD replication materials."
+  },
+  {
+    "id": "dataverse-4sepim",
+    "title": "Replication Data for: Voice After Exit: The Prioritization of Homeland-Facing Foreign Policy among the Hong Kong Diaspora",
+    "authors": "Shum, Maggie, Shum, Maggie, Yeung, Eddy, Yeung, Eddy, Chan, Ka Ming, Chan, Ka Ming, Chung, Sanho, Chung, Sanho, Athena Tong, Yip, Kam-lung Sam, Yip, Kam-lung Sam",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data and code for candidate-choice experiments on Hong Kong diaspora foreign-policy preferences across four host countries.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/4SEPIM",
+    "paperUrl": "https://doi.org/10.7910/DVN/4SEPIM",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "survey experiment data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "survey experiments",
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation",
+      "survey methodology"
+    ],
+    "bestFor": "Survey-experiment, randomized conjoint/candidate-choice, causal-inference, and diaspora political-preference examples.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record documents harmonized candidate-choice experiments and replication code."
+  },
+  {
+    "id": "dataverse-da1ihm",
+    "title": "Replication Data for: Good, Elizabeth, and Alexandra K. McAuliff. “Powerful or Powerless? The Influence of Gender Advocates in Peace Negotiations.”",
+    "authors": "Good, Elizabeth, McAuliff, Alexandra, McAuliff, Alexandra",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication materials for a Journal of Conflict Resolution study on gender advocates in peace negotiations.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/DA1IHM",
+    "paperUrl": "https://doi.org/10.7910/DVN/DA1IHM",
+    "access": "open",
+    "formats": [
+      "Dataverse replication package",
+      "code",
+      "conflict data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Conflict-process, negotiation, and political-economy replication examples with accessible social-science data and code.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record is explicitly a replication package for a journal article."
+  },
+  {
+    "id": "dataverse-h0pyuo",
+    "title": "A Multisource Spatiotemporal Unified Dataset for Equity-Aware Energy Resilience Planning in California",
+    "authors": "Biswas, Arpita, Biswas, Arpita, Ghosh, Sritama, Ghosh, Sritama, Sadhana Vasanthakumar",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse county-month California dataset integrating climate hazards, power outages, solar interconnections, socioeconomic vulnerability, environmental burden, and resilience indicators from 2017 to 2024.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/H0PYUO",
+    "paperUrl": "https://doi.org/10.7910/DVN/H0PYUO",
+    "access": "open",
+    "formats": [
+      "Dataverse dataset",
+      "spatio-temporal panel",
+      "county-month data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "longitudinal data analysis",
+      "panel data methods",
+      "small area estimation",
+      "survey methodology"
+    ],
+    "bestFor": "Spatio-temporal panel, energy-resilience, hazard/outage modeling, sequential resource-allocation, and equity-focused small-area examples.",
+    "note": "Auto-discovered from Dataverse and manually accepted because the record documents geography, time coverage, variables, and intended spatiotemporal estimation uses."
+  },
+  {
+    "id": "zenodo-22061972-replication-package-for-beyond-deepening-bank-ownership-credit-allocation-and-th",
+    "title": "Replication package for: Beyond Deepening: Bank Ownership, Credit Allocation, and the Finance-Growth Nexus in the Western Balkans and CEE Peers",
+    "authors": "Musta, Eugen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication package for bank ownership, credit allocation, and finance-growth relationships in Western Balkans and CEE peers, including panel data, R scripts, FE/GMM routines, diagnostics, tables, and logs.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22061972",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22061972",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "R code",
+      "panel data",
+      "estimation logs"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Panel-data, fixed-effects, system/difference GMM, threshold-panel, and macro-finance examples with complete reproducibility artifacts.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive documents analysis panels, R replication scripts, diagnostics, and estimation logs."
+  },
+  {
+    "id": "zenodo-22005228-unusually-hot-weeks-are-associated-with-higher-perceived-climate-severity-across",
+    "title": "Unusually hot weeks are associated with higher perceived climate severity across countries",
+    "authors": "Yang, Jianxun, Zhao, Zhan, Miaomiao, Liu, Shan, Yuli, Ma, Zongwei, Fang, Wen, Bi, Jun",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo data-processing, statistical-analysis, and figure-production materials linking ISSP Environment IV interviews to ERA5 daily temperatures across countries and regions.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22005228",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22005228",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "survey data",
+      "spatio-temporal exposure data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "survey methodology",
+      "multilevel modeling",
+      "spatial statistics",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Survey-linkage, spatio-temporal exposure, climate-attitude, multilevel/panel, and causal-exposure examples.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive documents linked survey and ERA5 exposure data plus statistical-analysis code."
+  },
+  {
+    "id": "zenodo-22059170-growing-window-horizontal-variogram-analysis-of-the-canterbury-cpt-database-deri",
+    "title": "Growing-window horizontal variogram analysis of the Canterbury CPT database: derived tables, analysis code and reference-run logs",
+    "authors": "Mahler, András",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo derived tables, analysis code, and reference-run logs for growing-window horizontal variogram analysis of Canterbury CPT data, including synthetic-control comparisons.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22059170",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22059170",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "geostatistical data",
+      "code",
+      "reference logs"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Spatial statistics, geostatistics, variogram estimation, window sensitivity, detrending, lag-cutoff, and synthetic-control validation examples.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive explicitly provides derived datasets, full analysis code, and frozen reference-run logs."
+  },
+  {
+    "id": "zenodo-22058772-land-registry-coverage-and-institutional-quality-in-latin-america-evidence-from-",
+    "title": "Land Registry Coverage and Institutional Quality in Latin America: Evidence from Seventeen Countries",
+    "authors": "Anon, Anon",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo complete replication walkthrough for land registry coverage and institutional quality in Latin America, reproducing six statistical tests with Python/R code, surveys, panel inputs, and missing-data handling.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22058772",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22058772",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "Python code",
+      "R code",
+      "survey data",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "causal inference",
+      "treatment effect estimation",
+      "survey methodology",
+      "missing data"
+    ],
+    "bestFor": "Panel-data, causal/econometric, survey-linkage, missing-data, and institutional-quality examples with step-by-step reproducibility guidance.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive states it reproduces all reported statistical tests and documents excluded exploratory analyses."
+  },
+  {
+    "id": "zenodo-22059613-opb-week-ahead-forecasting-of-hourly-electricity-prices-in-the-brazilian-market-",
+    "title": "OPB: Week-ahead forecasting of hourly electricity prices in the Brazilian market (data, code and stored forecasts)",
+    "authors": "Nametala, Ciniro, Rodrigues Pereira Junior, Benvindo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo database, source code, stored forecasts, and reproduction scripts for week-ahead hourly electricity-price forecasting in the Brazilian market.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22059613",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22059613",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "time series",
+      "forecast archive",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Time-series forecasting, probabilistic/stored forecast comparison, regularized autoregression, and electricity-price forecasting examples.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive includes the database, source code, stored forecasts, and scripts that regenerate outputs."
+  },
+  {
+    "id": "zenodo-21920293-collection-of-temporal-social-network-datasets-and-replication-code-for-delta-cl",
+    "title": "Collection of Temporal Social Network Datasets and Replication Code for Delta Clustering Analyses",
+    "authors": "Wang, Cheng, Lizardo, Omar, Hachen, Davis S.",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo collection of five temporal social-network datasets and replication code for delta-clustering analyses across email, smartphone, face-to-face, workplace, and non-human interaction settings.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21920293",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21920293",
+    "access": "open",
+    "formats": [
+      "Zenodo dataset",
+      "R code",
+      "Stata code",
+      "temporal network data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "time series analysis",
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Longitudinal network, temporal clustering, dynamic ego-network, and robustness/generalizability examples across multiple social-interaction datasets.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the archive explicitly combines reusable temporal network datasets with replication code."
+  },
+  {
+    "id": "zenodo-22058566-playing-time-tracks-recent-exposure-in-fifteen-men-s-and-women-s-football-league",
+    "title": "Playing time tracks recent exposure in fifteen men's and women's football leagues: the denominator gradient and what it does to per-minute injury rates — replication record",
+    "authors": "Ricou, Gustavo Pedro, Mahony, Nicholas",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication record for a denominator-gradient analysis of playing time, recent exposure, and per-minute injury rates across fifteen football leagues.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22058566",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22058566",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "panel data",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis"
+    ],
+    "bestFor": "Longitudinal exposure modeling, denominator bias, recurrent-event or rate-model diagnostics, and panel examples with recorded match minutes.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the record documents the analysis code, derived outputs, supplement, and denominator-gradient estimand."
+  },
+  {
+    "id": "zenodo-22059471-replication-and-data-files-for-the-effects-of-induced-emotions-on-leading-by-exa",
+    "title": "Replication and data files for: The Effects of Induced Emotions on Leading-by-Example",
+    "authors": "Drouvelis, Michalis, QIU, ZEYU",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo replication and data files for an induced-emotions experimental study of leading-by-example behavior.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22059471",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22059471",
+    "access": "open",
+    "formats": [
+      "Zenodo replication archive",
+      "experimental data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Randomized-experiment, behavioral-economics, treatment-effect, and lab-study replication examples with accessible data files.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the record is explicitly a replication/data archive for an experimental study."
+  },
+  {
+    "id": "zenodo-22058929-analyzing-risk-transmission-dynamics-in-real-time-flood-control-with-bayesian-ne",
+    "title": "Analyzing Risk Transmission Dynamics in Real-time Flood Control with Bayesian Networks-Supplementary Data",
+    "authors": "Chen, Juan, Song, Meng, Hui, Li, Zhong, Ping-an, Xiao, Mu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo supplementary data for Bayesian-network analysis of risk transmission dynamics in real-time flood-control operations with improved Latin hypercube sampling.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22058929",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22058929",
+    "access": "open",
+    "formats": [
+      "Zenodo supplementary data",
+      "Bayesian network data",
+      "simulation data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "bayesian inference",
+      "graphical models",
+      "resampling methods",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Bayesian network, risk-transmission, uncertainty analysis, and simulation/sampling examples in real-time flood-control operations.",
+    "note": "Auto-discovered from Zenodo and manually accepted because the record explicitly documents Bayesian-network supplementary data and uncertainty/sampling context."
   }
 ]
