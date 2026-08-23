@@ -39433,8 +39433,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "dimension reduction",
@@ -39461,8 +39460,7 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "time series analysis",
@@ -46491,8 +46489,7 @@
     ],
     "properties": [
       "existing-dataset",
-      "auto-discovered",
-      "needs-label-review"
+      "auto-discovered"
     ],
     "topics": [
       "longitudinal data analysis",
@@ -47561,8 +47558,7 @@
     ],
     "properties": [
       "existing-dataset",
-      "auto-discovered",
-      "needs-label-review"
+      "auto-discovered"
     ],
     "topics": [
       "time series analysis",
@@ -47681,5 +47677,406 @@
     ],
     "bestFor": "Bayesian network, risk-transmission, uncertainty analysis, and simulation/sampling examples in real-time flood-control operations.",
     "note": "Auto-discovered from Zenodo and manually accepted because the record explicitly documents Bayesian-network supplementary data and uncertainty/sampling context."
+  },
+  {
+    "id": "dataverse-rxr4xx",
+    "title": "Replication Package for: The Cross-section of Subjective Expectations: Understanding Prices and Anomalies",
+    "authors": "Delao, Ricardo, Delao, Ricardo, Xiao Han, Myers, Sean, Myers, Sean",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Package for: The Cross-section of Subjective Expectations: Understanding Prices and Anomalies",
+    "datasetUrl": "https://doi.org/10.7910/DVN/RXR4XX",
+    "paperUrl": "https://doi.org/10.7910/DVN/RXR4XX",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "risk prediction"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package with code/data for a finance/econometrics paper on cross-sectional subjective expectations, prices, and anomalies.",
+    "note": "Verified Harvard Dataverse replication package with code/data for a finance/econometrics paper on cross-sectional subjective expectations, prices, and anomalies. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-rsallr",
+    "title": "US Dental Deserts: Access & Affordability Atlas 2026 (county-level, 3,144 counties)",
+    "authors": "Real Dental Costs Data & Research Team",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: US Dental Deserts: Access & Affordability Atlas 2026 (county-level, 3,144 counties)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/RSALLR",
+    "paperUrl": "https://doi.org/10.7910/DVN/RSALLR",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "spatial statistics",
+      "small area estimation",
+      "survey methodology"
+    ],
+    "bestFor": "Verified county-level atlas with documented public-source joins for spatial/small-area access and affordability analysis.",
+    "note": "Verified county-level atlas with documented public-source joins for spatial/small-area access and affordability analysis. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-7f2bzi",
+    "title": "Medicaid dental paid per claim line by CDT code and state, 2018-2024 (derived from HHS T-MSIS Medicaid Provider Spending)",
+    "authors": "Real Dental Costs Data & Research Team",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Medicaid dental paid per claim line by CDT code and state, 2018-2024 (derived from HHS T-MSIS Medicaid Provider Spending)",
+    "datasetUrl": "https://doi.org/10.7910/DVN/7F2BZI",
+    "paperUrl": "https://doi.org/10.7910/DVN/7F2BZI",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "survey methodology",
+      "missing data"
+    ],
+    "bestFor": "Verified state-year Medicaid paid-per-claim-line panel derived from public T-MSIS provider-spending data, with suppression and quality flags documented.",
+    "note": "Verified state-year Medicaid paid-per-claim-line panel derived from public T-MSIS provider-spending data, with suppression and quality flags documented. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-jrupuw",
+    "title": "Replication Data for \"Urban Heat: The warming effect of coastal infrastructure on sea turtle nesting beaches\"",
+    "authors": "Carbonell Ellgutter, Jennifer Alejandrina",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for \"Urban Heat: The warming effect of coastal infrastructure on sea turtle nesting beaches\"",
+    "datasetUrl": "https://doi.org/10.18710/JRUPUW",
+    "paperUrl": "https://doi.org/10.18710/JRUPUW",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Verified hourly spatial-temporal sand-temperature replication data for an infrastructure exposure study.",
+    "note": "Verified hourly spatial-temporal sand-temperature replication data for an infrastructure exposure study. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-xwscxo",
+    "title": "Growth and nitrogen dynamics dataset from a three-Cycle Banana (CIRAD 925) experiment comparing cover crops and fertilization strategies on andosol in Guadeloupe (2021–2022)",
+    "authors": "Ruillé, Marie, Dorel, Marc, Ramassamy, Régis, Peraire-Brudey, Laura, Ramdaya, Dimitry, Lakhia, Kelly, Dorey, Elodie",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Growth and nitrogen dynamics dataset from a three-Cycle Banana (CIRAD 925) experiment comparing cover crops and fertilization strategies on andosol in Guadeloupe (2021–2022)",
+    "datasetUrl": "https://doi.org/10.18167/DVN1/XWSCXO",
+    "paperUrl": "https://doi.org/10.18167/DVN1/XWSCXO",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "randomized experiments",
+      "treatment effect estimation",
+      "longitudinal data analysis",
+      "multilevel modeling",
+      "causal inference"
+    ],
+    "bestFor": "Verified randomized-block, multi-cycle agricultural field-experiment dataset with repeated growth and nitrogen-dynamics measurements.",
+    "note": "Verified randomized-block, multi-cycle agricultural field-experiment dataset with repeated growth and nitrogen-dynamics measurements. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-awnsrx",
+    "title": "Field dataset of soil nitrogen dynamics and passive in situ mineral nitrogen leaching measurements in a bare andosol, Guadeloupe (february 2022–february 2023)",
+    "authors": "Ruillé, Marie, Dorel, Marc, Ramassamy, Régis, Ramdaya, Dimitry, Lakhia, Kelly, Dorey, Elodie",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Field dataset of soil nitrogen dynamics and passive in situ mineral nitrogen leaching measurements in a bare andosol, Guadeloupe (february 2022–february 2023)",
+    "datasetUrl": "https://doi.org/10.18167/DVN1/AWNSRX",
+    "paperUrl": "https://doi.org/10.18167/DVN1/AWNSRX",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "time series analysis",
+      "longitudinal data analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Verified one-year field dataset with meteorology, soil properties, mineral nitrogen dynamics, and leaching measurements.",
+    "note": "Verified one-year field dataset with meteorology, soil properties, mineral nitrogen dynamics, and leaching measurements. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22072626-datasets-for-performance-of-an-integrated-solid-waste-management-system-designed",
+    "title": "Datasets for \" Performance of an integrated solid waste management system designed from quasi-experimental approaches in peri-urban areas of Antananarivo, Madagascar \"",
+    "authors": "Bijou Fifaliana, IRINOMENA, Mudhoo, Ackmez, RAVONINJATOVO, Achille Olivier, Surroop, Dinesh",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Datasets for \" Performance of an integrated solid waste management system designed from quasi-experimental approaches in peri-urban areas of Antananarivo, Madagascar \"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22072626",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22072626",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "quasi-experimental designs",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Verified Zenodo raw/processed data for a quasi-experimental household intervention study with statistical outputs.",
+    "note": "Verified Zenodo raw/processed data for a quasi-experimental household intervention study with statistical outputs. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22072574-gestational-pm2-5-and-birth-weight-in-peru-local-seasonality-spatial-dependence-",
+    "title": "Gestational PM2.5 and birth weight in Peru: local seasonality, spatial dependence, and a negative-control exposure",
+    "authors": "Flores Huanca, Beatriz, Gomez Quispe, Hugo Yosef, Carpio Vargas, Edgar Eloy, Huayta Flores, Lenin, Villasante Saravia, Fredy Heric, Perez Quispe, Samuel Donato, Mayta Aroquipa, Wilber Milton, Bustamante Rojas, Rosario",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Gestational PM2.5 and birth weight in Peru: local seasonality, spatial dependence, and a negative-control exposure",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22072574",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22072574",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "panel data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "spatial statistics",
+      "longitudinal data analysis",
+      "panel data methods",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Verified Zenodo reproduction package for spatial fixed-effects and negative-control exposure analysis of registry-linked PM2.5 exposure.",
+    "note": "Verified Zenodo reproduction package for spatial fixed-effects and negative-control exposure analysis of registry-linked PM2.5 exposure. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22072498-flood-risk-index",
+    "title": "Flood Risk Index",
+    "authors": "Zhang, Jiakai",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Flood Risk Index",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22072498",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22072498",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "survey data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "spatial statistics",
+      "risk prediction",
+      "time series analysis",
+      "small area estimation",
+      "survey methodology"
+    ],
+    "bestFor": "Verified Zenodo data and reconstruction files for a multidimensional flood-risk index using NOAA, PRISM/ICPSR, FEMA, Census, and business-dynamics inputs.",
+    "note": "Verified Zenodo data and reconstruction files for a multidimensional flood-risk index using NOAA, PRISM/ICPSR, FEMA, Census, and business-dynamics inputs. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22069438-single-log-wood-stopping-in-a-vertical-slot-fishway-data-r-code-and-statistical-",
+    "title": "Single-log wood stopping in a vertical-slot fishway: data, R code and statistical outputs",
+    "authors": "Błotnicki, Jan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Single-log wood stopping in a vertical-slot fishway: data, R code and statistical outputs",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22069438",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22069438",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "randomized experiments",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Verified Zenodo data, R code, and statistical outputs for a controlled physical experiment with aggregated trial counts.",
+    "note": "Verified Zenodo data, R code, and statistical outputs for a controlled physical experiment with aggregated trial counts. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22072285-sub-saharan-africa-hydro-climatic-data-a",
+    "title": "Sub-Saharan Africa Hydro-Climatic Data.A",
+    "authors": "Mo, Ran, Zarei, Mohanna, Destouni, Georgia",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Sub-Saharan Africa Hydro-Climatic Data.A",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22072285",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22072285",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Verified Zenodo hydro-climatic catchment data assembled for trend/extreme/time-series analysis across Sub-Saharan Africa.",
+    "note": "Verified Zenodo hydro-climatic catchment data assembled for trend/extreme/time-series analysis across Sub-Saharan Africa. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22069637-coastal-wetlands-economic-values-for-flood-protection-blue-carbon-and-recreation",
+    "title": "Coastal wetlands economic values for flood protection, blue carbon and recreation ecosystem services under climate, socio-economic and wetland change scenarios",
+    "authors": "BACCA, SEBASTIANO",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Coastal wetlands economic values for flood protection, blue carbon and recreation ecosystem services under climate, socio-economic and wetland change scenarios",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22069637",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22069637",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series forecasting",
+      "risk prediction",
+      "panel data methods",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Verified Zenodo input data plus linked GitHub analysis code for scenario-based coastal wetland valuation and spatial economic analysis.",
+    "note": "Verified Zenodo input data plus linked GitHub analysis code for scenario-based coastal wetland valuation and spatial economic analysis. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22071592-road-traffic-noise-prediction-in-tingo-mar-a-data-code-and-verified-results",
+    "title": "Road-traffic noise prediction in Tingo María: data, code and verified results",
+    "authors": "Zavala Guerrero, Sandra Lorena, Puerta Tuesta, Ronald Hugo, Cerna-Cueva, Alberto Franco",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Road-traffic noise prediction in Tingo María: data, code and verified results",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22071592",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22071592",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "risk prediction",
+      "spatial statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Verified Zenodo data/code/results for leakage-controlled grouped validation of road-traffic-noise prediction at unmonitored sites.",
+    "note": "Verified Zenodo data/code/results for leakage-controlled grouped validation of road-traffic-noise prediction at unmonitored sites. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22072518-dataset-for-clays-as-additives-in-ruminant-feed-a-quantitative-meta-analysis-of-",
+    "title": "Dataset for: Clays as Additives in Ruminant Feed: A Quantitative Meta-analysis of Their Effects on Enteric Methane, Digestion, Health and Productivity",
+    "authors": "Hosen, Zubaer, Islam, Md. Rashidul, Naidu, Ravi, Biswas, Bhabananda",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Dataset for: Clays as Additives in Ruminant Feed: A Quantitative Meta-analysis of Their Effects on Enteric Methane, Digestion, Health and Productivity",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22072518",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22072518",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Verified Zenodo extracted datasets and statistical code for a quantitative meta-analysis.",
+    "note": "Verified Zenodo extracted datasets and statistical code for a quantitative meta-analysis. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22071542-replication-materials-for-testing-a-sch-n-attribution-der-schmied-zu-mrakotin-an",
+    "title": "Replication Materials for \"Testing a Schön Attribution: 'Der Schmied zu Mrakotin,' Anonymous Tale-Writing, and Regional Knowledge in Hormayr's Archiv\"",
+    "authors": "Bína, Vladislav, Přibil, Jiří",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Replication Materials for \"Testing a Schön Attribution: 'Der Schmied zu Mrakotin,' Anonymous Tale-Writing, and Regional Knowledge in Hormayr's Archiv\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22071542",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22071542",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "dimension reduction",
+      "risk prediction"
+    ],
+    "bestFor": "Verified Zenodo corpus, R script, function-word inventory, and topic-masked stylometric replication materials.",
+    "note": "Verified Zenodo corpus, R script, function-word inventory, and topic-masked stylometric replication materials. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
   }
 ]
