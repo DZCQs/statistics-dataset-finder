@@ -48078,5 +48078,512 @@
     ],
     "bestFor": "Verified Zenodo corpus, R script, function-word inventory, and topic-masked stylometric replication materials.",
     "note": "Verified Zenodo corpus, R script, function-word inventory, and topic-masked stylometric replication materials. Dataset access was verified through repository metadata during the 2026-08-23 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-vwjq2u",
+    "title": "Pools of Rain and Risk Datasets",
+    "authors": "Carroll, Anne",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Pools of Rain and Risk Datasets",
+    "datasetUrl": "https://doi.org/10.7910/DVN/VWJQ2U",
+    "paperUrl": "https://doi.org/10.7910/DVN/VWJQ2U",
+    "access": "open",
+    "formats": [
+      "dataverse dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis",
+      "causal inference",
+      "treatment effect estimation",
+      "survey methodology"
+    ],
+    "bestFor": "Verified Harvard Dataverse data for analysis of how rainfall-forecast skill affects enrollment in rainfall-indexed insurance.",
+    "note": "Verified Harvard Dataverse data for analysis of how rainfall-forecast skill affects enrollment in rainfall-indexed insurance. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-yxcmcn",
+    "title": "diagnoseTS Benchmark Data",
+    "authors": "Mehlhaff, Isaac",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: diagnoseTS Benchmark Data",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YXCMCN",
+    "paperUrl": "https://doi.org/10.7910/DVN/YXCMCN",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "R code",
+      "time series"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Verified Harvard Dataverse benchmark repository used by the diagnoseTS R package, combining CES and simulated time-series model benchmarks.",
+    "note": "Verified Harvard Dataverse benchmark repository used by the diagnoseTS R package, combining CES and simulated time-series model benchmarks. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-uy7emr",
+    "title": "Replication Data for: Religiosity and Local Debt Repayment: Evidence from Italian Mayors",
+    "authors": "Vitale, Luca",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Religiosity and Local Debt Repayment: Evidence from Italian Mayors",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UY7EMR",
+    "paperUrl": "https://doi.org/10.7910/DVN/UY7EMR",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "regression discontinuity designs",
+      "quasi-experimental designs",
+      "causal inference",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package for a regression-discontinuity analysis of Italian mayoral religiosity and local debt repayment.",
+    "note": "Verified Harvard Dataverse replication package for a regression-discontinuity analysis of Italian mayoral religiosity and local debt repayment. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-ghykvy",
+    "title": "Replication Data for: \"Operational Proximity and Cross-border Shareholder Monitoring\"",
+    "authors": "Tak, Jenny (Ji Hyun), Fariborz Moshirian, Peter Pham",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: \"Operational Proximity and Cross-border Shareholder Monitoring\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/GHYKVY",
+    "paperUrl": "https://doi.org/10.7910/DVN/GHYKVY",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "causal inference"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package for a JFQA study of operational proximity and cross-border shareholder monitoring.",
+    "note": "Verified Harvard Dataverse replication package for a JFQA study of operational proximity and cross-border shareholder monitoring. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-w3884m",
+    "title": "Replication package for: Optimal retirement saving and dissaving",
+    "authors": "Munk, Claus",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication package for: Optimal retirement saving and dissaving",
+    "datasetUrl": "https://doi.org/10.7910/DVN/W3884M",
+    "paperUrl": "https://doi.org/10.7910/DVN/W3884M",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package with Matlab code and data file for a JFQA optimal retirement saving and dissaving paper.",
+    "note": "Verified Harvard Dataverse replication package with Matlab code and data file for a JFQA optimal retirement saving and dissaving paper. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-rikosn",
+    "title": "Replication Data for \"The Effect of Intellectual Property Rights Protection on Stock Price Informativeness\"",
+    "authors": "Zhang, Janus Jian, Hou, Fangfang, Ng, Jeffrey, Ranasinghe, Tharindra",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for \"The Effect of Intellectual Property Rights Protection on Stock Price Informativeness\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/RIKOSN",
+    "paperUrl": "https://doi.org/10.7910/DVN/RIKOSN",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication data/code for a JFQA study of intellectual-property protection and stock-price informativeness.",
+    "note": "Verified Harvard Dataverse replication data/code for a JFQA study of intellectual-property protection and stock-price informativeness. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-j3dx7g",
+    "title": "Replication Data for: Agglomeration Effects in Initial Public Offerings",
+    "authors": "Amini, Shahram, Amini, Shahram, MacKinlay, Andrew, MacKinlay, Andrew, Sulaeman, Johan, Sulaeman, Johan, Wei, Chishen, Wei, Chishen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Agglomeration Effects in Initial Public Offerings",
+    "datasetUrl": "https://doi.org/10.7910/DVN/J3DX7G",
+    "paperUrl": "https://doi.org/10.7910/DVN/J3DX7G",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "spatial statistics",
+      "panel data methods",
+      "longitudinal data analysis",
+      "causal inference"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package for a JFQA study of agglomeration effects in initial public offerings.",
+    "note": "Verified Harvard Dataverse replication package for a JFQA study of agglomeration effects in initial public offerings. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-766wfj",
+    "title": "Replication Data for: Post-Pandemic Price Flexibility in the U.S.: Evidence and Implications for Price Setting Models",
+    "authors": "Montag, Hugh, Villar, Daniel",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Post-Pandemic Price Flexibility in the U.S.: Evidence and Implications for Price Setting Models",
+    "datasetUrl": "https://doi.org/10.7910/DVN/766WFJ",
+    "paperUrl": "https://doi.org/10.7910/DVN/766WFJ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper on post-pandemic price flexibility and price-setting models.",
+    "note": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper on post-pandemic price flexibility and price-setting models. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-lsbhqj",
+    "title": "Replication Data for: We Think That They Think: Political Affiliation and Higher-Order Beliefs",
+    "authors": "Kamdar, Rupal, Ray, Walker, Ulate, Mauricio",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: We Think That They Think: Political Affiliation and Higher-Order Beliefs",
+    "datasetUrl": "https://doi.org/10.7910/DVN/LSBHQJ",
+    "paperUrl": "https://doi.org/10.7910/DVN/LSBHQJ",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "survey experiments",
+      "survey methodology",
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper on political affiliation and higher-order beliefs.",
+    "note": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper on political affiliation and higher-order beliefs. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-v8lux0",
+    "title": "Replication Data for: State Dependence of Monetary Policy During Global Supply Chain Disruptions",
+    "authors": "Bai, Xiwen, Fernández-Villaverde, Jesús, Li, Yiliang, Zanetti, Francesco",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: State Dependence of Monetary Policy During Global Supply Chain Disruptions",
+    "datasetUrl": "https://doi.org/10.7910/DVN/V8LUX0",
+    "paperUrl": "https://doi.org/10.7910/DVN/V8LUX0",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper on state-dependent monetary policy during supply-chain disruptions.",
+    "note": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper on state-dependent monetary policy during supply-chain disruptions. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-nnmg71",
+    "title": "Replication Data for: Heaven or Earth? The Evolving Role of Global Shocks for Domestic Monetary Policy",
+    "authors": "Forbes, Kristin, Ha, Jongrim, Kose, Ayhan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Heaven or Earth? The Evolving Role of Global Shocks for Domestic Monetary Policy",
+    "datasetUrl": "https://doi.org/10.7910/DVN/NNMG71",
+    "paperUrl": "https://doi.org/10.7910/DVN/NNMG71",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper on global shocks and domestic monetary policy.",
+    "note": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper on global shocks and domestic monetary policy. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-9fvrs2",
+    "title": "Replication Data for: Inferring Prices from Quantities",
+    "authors": "Argente, David, Argente, David, Hsieh, Chang-Tai, Lee, Munseob, Lee, Munseob",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Inferring Prices from Quantities",
+    "datasetUrl": "https://doi.org/10.7910/DVN/9FVRS2",
+    "paperUrl": "https://doi.org/10.7910/DVN/9FVRS2",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper inferring prices from quantities.",
+    "note": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper inferring prices from quantities. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-dsa0xb",
+    "title": "Replication Data for: Rationalizing Fed Interest Rate Decisions in the 2020s",
+    "authors": "Sargent, Thomas, Sargent, Thomas, Williams, Noah, Williams, Noah",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: Rationalizing Fed Interest Rate Decisions in the 2020s",
+    "datasetUrl": "https://doi.org/10.7910/DVN/DSA0XB",
+    "paperUrl": "https://doi.org/10.7910/DVN/DSA0XB",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "bayesian inference"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper rationalizing Fed interest-rate decisions in the 2020s.",
+    "note": "Verified Harvard Dataverse replication package for a JPE Macroeconomics paper rationalizing Fed interest-rate decisions in the 2020s. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-21719179-reseml-v1-0-residual-stacking-ensemble-for-coastal-sea-level-reconstruction",
+    "title": "ReSEML v1.0: Residual stacking ensemble for coastal sea level reconstruction",
+    "authors": "Su, Jian",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: ReSEML v1.0: Residual stacking ensemble for coastal sea level reconstruction",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21719179",
+    "paperUrl": "https://doi.org/10.5281/zenodo.21719179",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "spatial statistics",
+      "risk prediction"
+    ],
+    "bestFor": "Verified Zenodo software/dataset record for ReSEML and DEN-SURGE, a residual-stacking framework for reconstructed high-frequency coastal sea-level series.",
+    "note": "Verified Zenodo software/dataset record for ReSEML and DEN-SURGE, a residual-stacking framework for reconstructed high-frequency coastal sea-level series. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22087113-data-and-code-for-everyday-adaptation-in-a-gilded-trap-risk-taking-and-resilienc",
+    "title": "Data and code for: Everyday Adaptation in a Gilded Trap: Risk-Taking and Resilience in Maine's Lobster Fishery",
+    "authors": "Kilchenmann, Joelle",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Data and code for: Everyday Adaptation in a Gilded Trap: Risk-Taking and Resilience in Maine's Lobster Fishery",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22087113",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22087113",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "code",
+      "R code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "dimension reduction",
+      "spatial statistics",
+      "time series analysis",
+      "risk prediction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Verified Zenodo weather data, extraction code, and PCA-derived weather-index data for a risk-taking/resilience study in Maine lobster fisheries.",
+    "note": "Verified Zenodo weather data, extraction code, and PCA-derived weather-index data for a risk-taking/resilience study in Maine lobster fisheries. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-17945315-raw-data-files-applying-mixed-data-type-models-to-complex-metabolomics-datasets-",
+    "title": "[Raw data files] Applying Mixed-Data Type Models to Complex Metabolomics Datasets: an Investigation of Aging in Traditional Chinese Tea",
+    "authors": "Samples, Robert",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: [Raw data files] Applying Mixed-Data Type Models to Complex Metabolomics Datasets: an Investigation of Aging in Traditional Chinese Tea",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.17945315",
+    "paperUrl": "https://doi.org/10.5281/zenodo.17945315",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "dimension reduction",
+      "multilevel modeling"
+    ],
+    "bestFor": "Verified Zenodo raw data files for a paper applying mixed-data-type statistical models to complex metabolomics datasets.",
+    "note": "Verified Zenodo raw data files for a paper applying mixed-data-type statistical models to complex metabolomics datasets. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-1igk4a",
+    "title": "Replication Package for: Do Firms Mitigate Climate Impact on Employment? Evidence from US Heat Shocks",
+    "authors": "Acharya, Viral, Acharya, Viral, Abhishek Bhardwaj, Tuomas Tomunen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Package for: Do Firms Mitigate Climate Impact on Employment? Evidence from US Heat Shocks",
+    "datasetUrl": "https://doi.org/10.7910/DVN/1IGK4A",
+    "paperUrl": "https://doi.org/10.7910/DVN/1IGK4A",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package with code, pseudo data, and instructions for estimating employment impacts of US heat shocks.",
+    "note": "Verified Harvard Dataverse replication package with code, pseudo data, and instructions for estimating employment impacts of US heat shocks. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-qifrib",
+    "title": "Replication Data for: \"Carbon prices, forest conservation and reforestation in the Brazilian Amazon\"",
+    "authors": "Assunção, Juliano, Assunção, Juliano, Hansen, Lars, Hansen, Lars, Munson, Todd, Munson, Todd, Scheinkman, Jose, Scheinkman, Jose",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse dataset or replication package: Replication Data for: \"Carbon prices, forest conservation and reforestation in the Brazilian Amazon\"",
+    "datasetUrl": "https://doi.org/10.7910/DVN/QIFRIB",
+    "paperUrl": "https://doi.org/10.7910/DVN/QIFRIB",
+    "access": "open",
+    "formats": [
+      "dataverse dataset",
+      "code"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "spatial statistics",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Verified Harvard Dataverse replication package for a JPE study of carbon prices, forest conservation, and reforestation in the Brazilian Amazon.",
+    "note": "Verified Harvard Dataverse replication package for a JPE study of carbon prices, forest conservation, and reforestation in the Brazilian Amazon. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "zenodo-22084905-statistical-analysis-and-reproducibility-package-for-error-geometry-governs-cali",
+    "title": "Statistical Analysis and Reproducibility Package for \"Error Geometry Governs Calibration Transfer in Finite-Cluster GIAO-DFT of Pharmaceutical Solid-State 13C NMR\"",
+    "authors": "Al-Sou'od, Khaldoun, Ghanem, Raed",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset or replication archive: Statistical Analysis and Reproducibility Package for \"Error Geometry Governs Calibration Transfer in Finite-Cluster GIAO-DFT of Pharmaceutical Solid-State 13C NMR\"",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22084905",
+    "paperUrl": "https://doi.org/10.5281/zenodo.22084905",
+    "access": "open",
+    "formats": [
+      "zenodo dataset"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered"
+    ],
+    "topics": [
+      "risk prediction",
+      "resampling methods",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Verified Zenodo statistical-analysis package with datasets, held-out predictions, model-comparison outputs, and calibration-transfer validation files.",
+    "note": "Verified Zenodo statistical-analysis package with datasets, held-out predictions, model-comparison outputs, and calibration-transfer validation files. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
   }
 ]
