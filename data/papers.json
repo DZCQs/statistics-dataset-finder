@@ -34086,7 +34086,8 @@
     ],
     "topics": [
       "bayesian inference",
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "compositional data analysis"
     ],
     "bestFor": "Finding Bayesian inference examples for compositional single-cell count data, sparse effects, and controlled false-discovery analysis.",
     "note": "OpenAlex candidate; GitHub resource verified reachable. Included as Bayesian inference plus high-dimensional data example, not as a biology-domain label."
@@ -41725,7 +41726,8 @@
     "formats": [
       "dataverse dataset",
       "code",
-      "panel data"
+      "network data",
+      "state-year panel data"
     ],
     "properties": [
       "existing-dataset",
@@ -41733,13 +41735,11 @@
       "needs-review"
     ],
     "topics": [
-      "survival analysis",
-      "survival models",
       "longitudinal data analysis",
       "panel data methods",
       "spatial statistics"
     ],
-    "bestFor": "survival analysis, survival models examples with an explicitly accessible dataset or replication archive.",
+    "bestFor": "State-level policy-diffusion examples with network, geographic-neighbor, and panel-data structure.",
     "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   },
   {
@@ -42846,7 +42846,7 @@
     "formats": [
       "dataverse dataset",
       "code",
-      "panel data"
+      "gene expression data"
     ],
     "properties": [
       "existing-dataset",
@@ -42860,7 +42860,7 @@
       "high-dimensional statistics",
       "variable selection"
     ],
-    "bestFor": "survival analysis, spatial statistics examples with an explicitly accessible dataset or replication archive.",
+    "bestFor": "survival analysis and risk-prediction examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   },
   {
@@ -43230,7 +43230,8 @@
       "spatial statistics",
       "variable selection",
       "risk prediction",
-      "missing data"
+      "missing data",
+      "high-dimensional statistics"
     ],
     "bestFor": "variable selection, spatial statistics examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
@@ -43258,7 +43259,8 @@
       "bayesian inference",
       "high-dimensional statistics",
       "variable selection",
-      "resampling methods"
+      "resampling methods",
+      "multiple testing"
     ],
     "bestFor": "bayesian inference examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from dataverse. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
@@ -44758,7 +44760,8 @@
     "topics": [
       "longitudinal data analysis",
       "multilevel modeling",
-      "resampling methods"
+      "resampling methods",
+      "multiple testing"
     ],
     "bestFor": "Pre-post repeated-measure examples with reproducibility materials for robust analyses, multiplicity adjustment, reliability diagnostics, and sensitivity checks.",
     "note": "Zenodo reproducibility package provides aggregate statistical outputs, analysis code, data dictionary, analysis specifications, robust analyses, multiplicity adjustment, and participant-inclusion sensitivities for paired pre-post data."
@@ -45415,7 +45418,7 @@
     "formats": [
       "zenodo dataset",
       "Python code",
-      "panel data"
+      "network simulation data"
     ],
     "properties": [
       "existing-dataset",
@@ -46521,7 +46524,8 @@
     "topics": [
       "longitudinal data analysis",
       "panel data methods",
-      "time series analysis"
+      "time series analysis",
+      "compositional data analysis"
     ],
     "bestFor": "Panel-data and compositional-share examples involving jurisdiction-level financial technology adoption, exchange-level source provenance, and monthly cryptoization indicators.",
     "note": "Auto-discovered from Dataverse and manually accepted because the DOI record documents a monthly jurisdiction-level panel, public API provenance, and composition indicators. Kept internal auto-discovered marking for future cleanup."
@@ -47486,7 +47490,7 @@
     "authors": "Mahler, András",
     "year": 2026,
     "citations": 0,
-    "dataset": "Zenodo derived tables, analysis code, and reference-run logs for growing-window horizontal variogram analysis of Canterbury CPT data, including synthetic-control comparisons.",
+    "dataset": "Zenodo derived tables, analysis code, and reference-run logs for growing-window horizontal variogram analysis of Canterbury CPT data, including synthetic reference comparisons.",
     "datasetUrl": "https://doi.org/10.5281/zenodo.22059170",
     "paperUrl": "https://doi.org/10.5281/zenodo.22059170",
     "access": "open",
@@ -47505,7 +47509,7 @@
       "spatial statistics",
       "resampling methods"
     ],
-    "bestFor": "Spatial statistics, geostatistics, variogram estimation, window sensitivity, detrending, lag-cutoff, and synthetic-control validation examples.",
+    "bestFor": "Spatial statistics, geostatistics, variogram estimation, window sensitivity, detrending, lag-threshold selection, and synthetic-reference validation examples.",
     "note": "Auto-discovered from Zenodo and manually accepted because the archive explicitly provides derived datasets, full analysis code, and frozen reference-run logs."
   },
   {
@@ -48585,5 +48589,341 @@
     ],
     "bestFor": "Verified Zenodo statistical-analysis package with datasets, held-out predictions, model-comparison outputs, and calibration-transfer validation files.",
     "note": "Verified Zenodo statistical-analysis package with datasets, held-out predictions, model-comparison outputs, and calibration-transfer validation files. Dataset access was verified through repository metadata during the 2026-08-24 daily discovery pass; labels were assigned conservatively from official catalog topics."
+  },
+  {
+    "id": "dataverse-cvrptz-synthetic-control-debiasing",
+    "title": "Debiasing and T-Tests for Synthetic Control Inference on Average Causal Effects",
+    "authors": "Victor Chernozhukov, Kaspar Wuthrich, Yinchu Zhu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication Data for: Debiasing and T-Tests for Synthetic Control Inference on Average Causal Effects",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CVRPTZ",
+    "paperUrl": "https://doi.org/10.1086/742424",
+    "access": "open",
+    "formats": [
+      "r scripts",
+      "replication archive",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "synthetic control methods",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Studying debiased inference, t-tests, calibration designs, and uncertainty quantification for synthetic control methods and average causal effects.",
+    "note": "Verified through Harvard Dataverse metadata: public R scripts include setup, main analysis, calibration DGPs, and synthetic-control application code."
+  },
+  {
+    "id": "dataverse-mpueic-proportions-synthetic-controls",
+    "title": "Estimating Treatment Effects on Proportions with Synthetic Controls",
+    "authors": "Konstantin Bogatyrev, Lukas F. Stoetzer",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Replication Data for: Estimating Treatment Effects on Proportions with Synthetic Controls",
+    "datasetUrl": "https://doi.org/10.7910/DVN/MPUEIC",
+    "paperUrl": "https://doi.org/10.1017/pan.2026.10046",
+    "access": "open",
+    "formats": [
+      "r scripts",
+      "markdown",
+      "html outputs",
+      "replication data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "synthetic control methods",
+      "panel data methods",
+      "compositional data analysis",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Evaluating synthetic control methods for proportional and compositional panel outcomes, including simulation and empirical examples with common weights.",
+    "note": "Harvard Dataverse record provides the master run script, R code, data, and outputs for compositional outcomes, treatment effects, synthetic control methods, panel data, and weighting."
+  },
+  {
+    "id": "dataverse-ztdhve-panelmatch-tscs",
+    "title": "Matching Methods for Causal Inference with Time-Series Cross-Sectional Data",
+    "authors": "Kosuke Imai, In Song Kim, Erik Wang",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Replication Data for: Matching Methods for Causal Inference with Time-Series Cross-Section Data",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZTDHVE",
+    "paperUrl": "https://imai.fas.harvard.edu/research/tscs/",
+    "access": "open",
+    "formats": [
+      "r scripts",
+      "rdata",
+      "tabular data",
+      "replication archive"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "difference-in-differences",
+      "propensity score methods",
+      "treatment effect estimation",
+      "time series analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Testing matching, weighting, balance diagnostics, difference-in-differences, and treatment effect estimation for time-series cross-sectional panel data.",
+    "note": "Verified Harvard Dataverse files include Acemoglu panel data, RData objects, and PanelMatch replication scripts for causal inference with time series cross-sectional data."
+  },
+  {
+    "id": "dataverse-ucw2ry-slim-majority-rdd",
+    "title": "Estimating Slim-Majority Effects in US State Legislatures with a Regression Discontinuity Design under Local Randomization Assumptions",
+    "authors": "Leandro De Magalhaes",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Replication Data for: Estimating slim-majority effects in US state legislatures with a regression discontinuity design under local randomization assumptions",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UCW2RY",
+    "paperUrl": "https://doi.org/10.1017/psrm.2020.5",
+    "access": "open",
+    "formats": [
+      "stata syntax",
+      "tabular data",
+      "stata log",
+      "replication archive"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "regression discontinuity designs",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Studying finite-running-variable regression discontinuity designs, local randomization assumptions, state-year panel data, and causal treatment effects near electoral cutoffs.",
+    "note": "Harvard Dataverse metadata confirms public tabular data and Stata replication syntax for a regression discontinuity design with legislative majority cutoffs."
+  },
+  {
+    "id": "dataverse-zedty2-breakfast-synthetic-control",
+    "title": "Evaluation of Delivering Breakfast After the Bell and Academic Performance among Third-Grade Children: An Application of the Synthetic Control Method",
+    "authors": "Andres Cuadros-Menaca, Michael R. Thomsen, Rodolfo M. Nayga Jr.",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Replication Data for Evaluation of Delivering Breakfast After the Bell and Academic Performance among Third-Grade Children",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZEDTY2",
+    "paperUrl": "https://doi.org/10.1111/josh.13174",
+    "access": "open",
+    "formats": [
+      "stata syntax",
+      "readme",
+      "replication archive"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "synthetic control methods",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Teaching and testing synthetic control methods for policy evaluation, academic-performance outcomes, and treatment effect estimation with public replication scripts.",
+    "note": "Harvard Dataverse record provides Stata syntax and README files for a synthetic control policy-evaluation application."
+  },
+  {
+    "id": "dataverse-gy6p9i-qca-false-positives",
+    "title": "Guarding Against False Positives in Qualitative Comparative Analysis",
+    "authors": "Bear F. Braumoeller",
+    "year": 2015,
+    "citations": 66,
+    "dataset": "Replication Data for: Guarding Against False Positives in Qualitative Comparative Analysis",
+    "datasetUrl": "https://doi.org/10.7910/DVN/GY6P9I",
+    "paperUrl": "https://doi.org/10.1093/pan/mpv017",
+    "access": "open",
+    "formats": [
+      "r script",
+      "tabular data",
+      "replication archive"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "multiple testing"
+    ],
+    "bestFor": "Evaluating permutation tests, false positive control, multiple testing, and resampling-based inference for qualitative comparative analysis.",
+    "note": "Verified Harvard Dataverse files include an R replication script and tabular data; the paper targets multiple hypothesis tests and Type I error in QCA."
+  },
+  {
+    "id": "dataverse-mj1ycl-extreme-counterfactuals",
+    "title": "The Dangers of Extreme Counterfactuals",
+    "authors": "Gary King, Langche Zeng",
+    "year": 2006,
+    "citations": 0,
+    "dataset": "Replication data for: The Dangers of Extreme Counterfactuals",
+    "datasetUrl": "https://doi.org/10.7910/DVN/MJ1YCL",
+    "paperUrl": "https://doi.org/10.1093/pan/mpj004",
+    "access": "open",
+    "formats": [
+      "r scripts",
+      "stata data",
+      "article pdf",
+      "replication archive"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Studying model dependence, extrapolation, counterfactual inference, causal effects, and diagnostics for predictions far from observed data.",
+    "note": "Harvard Dataverse metadata confirms public R scripts, Stata data, article PDF, and README for counterfactual inference diagnostics."
+  },
+  {
+    "id": "dataverse-28122-ssa-forecast-bias",
+    "title": "Systematic Bias and Nontransparency in US Social Security Administration Forecasts",
+    "authors": "Konstantin Kashin, Gary King, Samir Soneji",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Replication data for: Systematic Bias and Nontransparency in US Social Security Administration Forecasts",
+    "datasetUrl": "https://doi.org/10.7910/DVN/28122",
+    "paperUrl": "https://doi.org/10.1257/jep.29.2.239",
+    "access": "open",
+    "formats": [
+      "rnw scripts",
+      "tabular data",
+      "pdf outputs",
+      "replication archive"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Evaluating long-run government forecasts, forecast bias, uncertainty intervals, time series forecasting, and reproducible policy forecasting workflows.",
+    "note": "Verified Harvard Dataverse record includes analysis scripts, tabular forecast-evaluation data, and appendix materials for Social Security Administration forecast assessment."
+  },
+  {
+    "id": "zenodo-5031662-regional-net-load-conditional-extremes",
+    "title": "Probabilistic Forecasting of Regional Net-Load with Conditional Extremes and Gridded NWP",
+    "authors": "Jethro Browell, Matteo Fasiolo",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Supplementary Material for Probabilistic Forecasting of Regional Net-load with Conditional Extremes and Gridded NWP",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.5031662",
+    "paperUrl": "https://arxiv.org/abs/2103.10335",
+    "access": "open",
+    "formats": [
+      "r data",
+      "r scripts",
+      "pdf",
+      "zip archive"
+    ],
+    "properties": [
+      "supplementary-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "spatial statistics"
+    ],
+    "bestFor": "Benchmarking probabilistic forecasting, conditional extremes, forecast evaluation, and gridded weather-driven regional net-load time series models.",
+    "note": "Zenodo metadata verifies R data, R functions, PDF documentation, and supplementary archive files linked to the probabilistic net-load forecasting paper."
+  },
+  {
+    "id": "zenodo-7849665-adaptive-probabilistic-electricity-net-load",
+    "title": "Adaptive Probabilistic Forecasting of Electricity (Net-)Load",
+    "authors": "Joseph de Vilmarest, Jethro Browell, Matteo Fasiolo, Yannig Goude, Olivier Wintenberger",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Supplementary materials for Adaptive Probabilistic Forecasting of Electricity (Net-)Load",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.7849665",
+    "paperUrl": "https://doi.org/10.1109/TPWRS.2023.3310280",
+    "access": "open",
+    "formats": [
+      "zip archive",
+      "supplementary pdf",
+      "underlying data"
+    ],
+    "properties": [
+      "supplementary-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Evaluating adaptive probabilistic forecasting, quantile regression, online learning, uncertainty quantification, and electricity net-load time series models.",
+    "note": "Zenodo record provides underlying data and supplementary documentation for adaptive probabilistic forecasting of regional net-load and city demand."
+  },
+  {
+    "id": "zenodo-7018353-control-react-probabilistic-forecasting",
+    "title": "Outputs from Control REACT Workstream 2",
+    "authors": "Gordon McFadzean, Ciaran Gilbert, Jethro Browell",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Control REACT Workstream 2 probabilistic wind, solar, and electricity demand forecasting code outputs",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.7018353",
+    "paperUrl": "https://doi.org/10.1109/TSG.2021.3107159",
+    "access": "open",
+    "formats": [
+      "r markdown",
+      "html notebooks",
+      "zip archive",
+      "linked dataset"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Reproducing probabilistic wind, solar, net-demand, and electricity demand forecasting workflows with benchmark methods and forecast skill evaluation.",
+    "note": "Zenodo metadata verifies public R markdown/html notebooks and code archives; the record explicitly requires linked processed forecasting data at DOI 10.5281/zenodo.6974533."
   }
 ]

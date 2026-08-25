@@ -175,6 +175,22 @@ const evidenceRules = [
       )
   },
   {
+    label: "multiple testing",
+    reason: "multiple-testing, false-discovery, selective-inference, or type-I-error-control evidence in record text",
+    test: (paper) =>
+      /\b(multiple testing|multiple hypothesis tests|false discovery|false discovery rate|fdr|multiple comparisons|multiplicity|selective inference|type i error|familywise error)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "compositional data analysis",
+    reason: "compositional-data, simplex, log-ratio, or proportional-outcome evidence in record text",
+    test: (paper) =>
+      /\b(compositional data|compositional single-cell|compositional-share|compositional panel|simplex|log-ratio|log ratio|aitchison|proportional outcomes|proportions with synthetic controls)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
     label: "best subset selection",
     reason: "best-subset-selection or L0-regularized sparse-model evidence in record text",
     test: (paper) =>

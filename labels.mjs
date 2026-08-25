@@ -368,6 +368,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["high-dimensional", "high dimensional", "p >> n", "p>n", "sparse", "sparsity", "lasso", "elastic net", "regularization", "regularized", "penalized", "variable selection", "genomics", "transcriptomic", "gene expression", "microarray"]
   },
   {
+    name: "multiple testing",
+    level: "mid",
+    parents: [],
+    definition: "Datasets and replication packages useful for false discovery rate control, multiple-comparison adjustment, selective inference, multiplicity correction, or large-scale testing workflows.",
+    includeWhen: [
+      "false discovery rate control, multiple testing, multiplicity adjustment, selective inference, or familywise/type-I error control is central to the paper or replication resource",
+      "the dataset or code supports empirical or simulation work for large-scale hypothesis testing"
+    ],
+    avoidWhen: [
+      "p-value adjustment is only a minor post-hoc reporting detail",
+      "the record merely cites Benjamini-Hochberg or Bonferroni without a multiple-testing methodology use case"
+    ],
+    evidenceTerms: ["multiple testing", "multiple hypothesis tests", "false discovery", "false discovery rate", "fdr", "multiple comparisons", "multiplicity", "selective inference", "type i error", "familywise error"]
+  },
+  {
     name: "dimension reduction",
     level: "mid",
     parents: ["high-dimensional statistics"],
@@ -441,6 +456,21 @@ export const LABEL_REGISTRY = [
       "the paper is about application-domain networks without conditional-dependence or graphical-model methodology"
     ],
     evidenceTerms: ["graphical model", "graphical-model", "graphical models", "gaussian graphical model", "markov random field", "conditional independence", "conditional dependence", "precision matrix", "structure learning", "decomposable models", "chordal graph", "birth-death mcmc", "g-wishart", "undirected graph estimation"]
+  },
+  {
+    name: "compositional data analysis",
+    level: "mid",
+    parents: [],
+    definition: "Datasets useful for statistical analysis of compositional vectors, constrained proportions, simplex-valued data, or log-ratio transformations.",
+    includeWhen: [
+      "compositional constraints, proportions that sum to a whole, simplex-valued outcomes, or log-ratio transformations are central",
+      "the resource provides accessible data, code, simulations, or package examples for compositional-data methodology"
+    ],
+    avoidWhen: [
+      "composition is used informally to mean a collection or mixture without a constrained-proportion statistical problem",
+      "the paper is only about product categories, class proportions, or descriptive shares without a compositional-data method"
+    ],
+    evidenceTerms: ["compositional data", "compositional", "simplex", "log-ratio", "log ratio", "aitchison", "proportional outcomes", "proportions with synthetic controls"]
   },
   {
     name: "spatial statistics",
@@ -582,33 +612,6 @@ export const LABEL_REGISTRY = [
 
 export const LABEL_CANDIDATES = [
   {
-    name: "compositional data analysis",
-    proposedLevel: "mid",
-    proposedParents: [],
-    status: "watch",
-    definition: "Datasets useful for statistical analysis of compositional vectors or constrained proportions, including Bayesian compositional models.",
-    currentEvidence: [
-      {
-        paperId: "openalex-W3217151720",
-        reason: "Bayesian compositional single-cell data analysis with accessible scCODA code and example resources."
-      },
-      {
-        paperId: "zenodo-15228007-oib-compositional-multivariate-statistics",
-        reason: "Zenodo project code for compositional data analysis of ocean island basalt compositions using log-ratio transformations."
-      },
-      {
-        paperId: "dataverse-zfnjib",
-        reason: "Jurisdiction-level crypto composition panel with monthly stablecoin-share measures and fiat-pair composition indicators."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records use accessible datasets for compositional-data methodology",
-      "the label improves search beyond broader Bayesian inference or high-dimensional statistics labels",
-      "the records involve compositional constraints or proportion vectors as a central statistical issue"
-    ],
-    evidenceTerms: ["compositional data", "compositional", "simplex", "log-ratio", "aitchison"]
-  },
-  {
     name: "interrupted time series",
     proposedLevel: "low",
     proposedParents: ["time series analysis", "causal inference"],
@@ -626,25 +629,6 @@ export const LABEL_CANDIDATES = [
       "the label improves search beyond broader time series analysis or causal inference"
     ],
     evidenceTerms: ["interrupted time series", "controlled interrupted time series", "cits"]
-  },
-  {
-    name: "multiple testing",
-    proposedLevel: "mid",
-    proposedParents: ["high-dimensional statistics"],
-    status: "watch",
-    definition: "Datasets and replication packages useful for false discovery rate control, multiple-comparison adjustment, selective inference, or high-dimensional testing workflows.",
-    currentEvidence: [
-      {
-        paperId: "dataverse-wjabuk",
-        reason: "Replication data and code for covariate-localized false discovery rates, including Bayesian and frequentist simulations plus a neural synchrony analysis workspace."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence catalog records provide accessible data/code for multiple-testing or FDR methodology",
-      "false discovery, multiplicity, or selective testing is central rather than a minor post-hoc adjustment",
-      "the label improves search beyond broader high-dimensional statistics or variable selection labels"
-    ],
-    evidenceTerms: ["multiple testing", "false discovery", "false discovery rate", "fdr", "multiple comparisons", "multiplicity", "selective inference"]
   },
 ];
 
