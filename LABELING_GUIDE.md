@@ -75,6 +75,7 @@ Good label level:
 - `graphical models`
 - `spatial statistics`
 - `time series analysis`
+- `interrupted time series`
 - `time series forecasting`
 - `time series classification`
 - `hierarchical forecasting`
@@ -96,6 +97,7 @@ High-level topic families:
     - `heterogeneous treatment effects`
   - `quasi-experimental designs`
     - `synthetic control methods`
+    - `interrupted time series`
   - `randomized experiments`
 - `survey methodology`
   - `complex survey design`
@@ -113,6 +115,7 @@ High-level topic families:
   - `graphical models`
 - `spatial statistics`
 - `time series analysis`
+  - `interrupted time series`
   - `time series classification`
   - `time series forecasting`
     - `hierarchical forecasting`
@@ -131,6 +134,7 @@ Mid-level topic families without a current high-level parent:
   - `panel data methods`
 - `multilevel modeling`
   - `bayesian hierarchical models`
+- `item response theory`
 
 Specific labels are also allowed when they are recognized statistical research
 topics and are not one-paper tags. Examples that may be admitted after evidence

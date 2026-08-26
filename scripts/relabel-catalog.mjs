@@ -16,6 +16,7 @@ const parentRules = [
       "regression discontinuity designs",
       "instrumental variables",
       "synthetic control methods",
+      "interrupted time series",
       "heterogeneous treatment effects",
       "randomized experiments",
       "survey experiments"
@@ -23,11 +24,23 @@ const parentRules = [
   },
   {
     label: "treatment effect estimation",
-    children: ["difference-in-differences", "regression discontinuity designs", "instrumental variables", "synthetic control methods"]
+    children: [
+      "difference-in-differences",
+      "regression discontinuity designs",
+      "instrumental variables",
+      "synthetic control methods",
+      "interrupted time series"
+    ]
   },
   {
     label: "quasi-experimental designs",
-    children: ["difference-in-differences", "regression discontinuity designs", "instrumental variables", "synthetic control methods"]
+    children: [
+      "difference-in-differences",
+      "regression discontinuity designs",
+      "instrumental variables",
+      "synthetic control methods",
+      "interrupted time series"
+    ]
   },
   {
     label: "survey methodology",
@@ -53,7 +66,7 @@ const parentRules = [
   },
   {
     label: "time series analysis",
-    children: ["time series forecasting", "hierarchical forecasting", "time series classification"]
+    children: ["time series forecasting", "hierarchical forecasting", "time series classification", "interrupted time series"]
   },
   {
     label: "high-dimensional statistics",
@@ -163,6 +176,22 @@ const evidenceRules = [
     reason: "time-series, interrupted-time-series, temporal-dependence, or autocorrelation evidence in record text",
     test: (paper) =>
       /\b(time series analysis|time series|interrupted time series|controlled interrupted time series|temporal dependence|autocorrelation)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "interrupted time series",
+    reason: "interrupted-time-series, controlled-ITS, or segmented-regression intervention evidence in record text",
+    test: (paper) =>
+      /\b(interrupted time series|interrupted time-series|controlled interrupted time series|controlled interrupted time-series|segmented regression|intervention time series|its design|cits)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "item response theory",
+    reason: "item-response-theory, psychometric measurement, latent-trait, or item-level response evidence in record text",
+    test: (paper) =>
+      /\b(item response theory|item response|irt|psychometric|psychometrics|latent trait|measurement model|differential item functioning|item parameter drift|item-level|ordinal response)\b/i.test(
         paperText(paper)
       )
   },

@@ -36210,7 +36210,9 @@
     "topics": [
       "time series analysis",
       "causal inference",
-      "treatment effect estimation"
+      "treatment effect estimation",
+      "interrupted time series",
+      "quasi-experimental designs"
     ],
     "bestFor": "Finding simulation data and code for controlled interrupted time series, autocorrelation, causal intervention evaluation, and time-series analysis.",
     "note": "Auto-discovered through Harvard Dataverse. Metadata states that the package includes R scripts, simulation data, processed data, and performance metrics."
@@ -45929,7 +45931,8 @@
     ],
     "topics": [
       "survey methodology",
-      "complex survey design"
+      "complex survey design",
+      "item response theory"
     ],
     "bestFor": "Survey-methodology examples for scale validation, IRT-style measurement evaluation, and representative public-opinion survey analysis.",
     "note": "Auto-discovered from Harvard Dataverse on 2026-08-18. The archive documents representative survey data and code for evaluating established scale items with Item Response Theory."
@@ -46860,7 +46863,8 @@
     ],
     "topics": [
       "survey methodology",
-      "complex survey design"
+      "complex survey design",
+      "item response theory"
     ],
     "bestFor": "Item response theory, latent-scale calibration, factor-analysis, and survey-measurement examples with ordinal item responses and respondent covariates.",
     "note": "Auto-discovered from Dataverse and manually accepted because the record explicitly documents a scale study using factor analysis and item response theory with supplemental data."
@@ -48925,5 +48929,226 @@
     ],
     "bestFor": "Reproducing probabilistic wind, solar, net-demand, and electricity demand forecasting workflows with benchmark methods and forecast skill evaluation.",
     "note": "Zenodo metadata verifies public R markdown/html notebooks and code archives; the record explicitly requires linked processed forecasting data at DOI 10.5281/zenodo.6974533."
+  },
+  {
+    "id": "dataverse-c4tjca-item-level-hte-irt",
+    "title": "Estimating Heterogeneous Treatment Effects with Item-Level Outcome Data: Insights from Item Response Theory",
+    "authors": "Joshua B. Gilbert, Zachary Himmelsbach, James Soland, Mridul Joshi, Benjamin W. Domingue",
+    "year": 2025,
+    "citations": 14,
+    "dataset": "Replication Data for: Estimating Heterogeneous Treatment Effects with Item-Level Outcome Data: Insights from Item Response Theory",
+    "datasetUrl": "https://doi.org/10.7910/DVN/C4TJCA",
+    "paperUrl": "https://doi.org/10.1002/pam.70025",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "quarto",
+      "html outputs",
+      "replication archive"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "item response theory",
+      "randomized experiments",
+      "heterogeneous treatment effects",
+      "treatment effect estimation",
+      "multilevel modeling"
+    ],
+    "bestFor": "Estimating heterogeneous treatment effects with item-level outcomes, item response theory, randomized experiments, latent-trait measurement, and multilevel causal inference.",
+    "note": "Verified through Harvard Dataverse metadata and Wiley data availability: released archive has 156 files including tabular datasets, Quarto scripts, HTML outputs, results, and supplemental analyses for item-level HTE across randomized controlled trials."
+  },
+  {
+    "id": "dataverse-qarryt-explanatory-irt-hte",
+    "title": "Modeling Item-Level Heterogeneous Treatment Effects With the Explanatory Item Response Model",
+    "authors": "Joshua B. Gilbert",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Replication Data for: Modeling Item-Level Heterogeneous Treatment Effects With the Explanatory Item Response Model",
+    "datasetUrl": "https://doi.org/10.7910/DVN/QARRYT",
+    "paperUrl": "https://doi.org/10.3102/10769986231171710",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "rdata",
+      "quarto",
+      "pdf documentation",
+      "html outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "item response theory",
+      "treatment effect estimation",
+      "heterogeneous treatment effects",
+      "multilevel modeling"
+    ],
+    "bestFor": "Studying explanatory item response theory models, item-level heterogeneous treatment effects, randomized educational interventions, multilevel modeling, and causal effect heterogeneity.",
+    "note": "Verified through Harvard Dataverse metadata: released archive includes item response datasets, RData workspaces, Quarto scripts, HTML reports, power simulations, and README documentation for item-level HTE analysis."
+  },
+  {
+    "id": "dataverse-zf1lkz-item-parameter-drift",
+    "title": "Leveraging Item Parameter Drift to Assess Transfer Effects in Vocabulary Learning",
+    "authors": "Joshua B. Gilbert, James S. Kim, Luke W. Miratrix",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Replication Data for: Leveraging Item Parameter Drift to Assess Transfer Effects in Vocabulary Learning",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZF1LKZ",
+    "paperUrl": "https://doi.org/10.1080/08957347.2024.2386934",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "quarto",
+      "html outputs",
+      "word documentation"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Evaluating item parameter drift, item response theory, transfer effects, longitudinal vocabulary learning data, simulation power, and educational intervention measurement.",
+    "note": "Verified through Harvard Dataverse metadata and publisher data availability: released archive includes tabular item-response datasets, Quarto analysis code, HTML outputs, simulation results, and documentation."
+  },
+  {
+    "id": "dataverse-czjjaf-ordinal-item-response",
+    "title": "An Ordinal Item Response Model for Understanding Attitudes",
+    "authors": "Ingrid Mauerer, Gerhard Tutz",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Replication Data for: An Ordinal Item Response Model for Understanding Attitudes",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CZJJAF",
+    "paperUrl": "https://doi.org/10.1177/00491241251403078",
+    "access": "open",
+    "formats": [
+      "rdata",
+      "r script",
+      "readme"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "survey methodology"
+    ],
+    "bestFor": "Fitting ordinal item response theory models for public-opinion survey items, latent-trait attitude measurement, respondent covariates, and heterogeneous subgroup analysis.",
+    "note": "Verified through Harvard Dataverse metadata and SAGE availability statement: released archive provides Data.RData, README, and Replication.R for ordinal item response modeling of survey attitudes."
+  },
+  {
+    "id": "item-response-warehouse-brm-2025",
+    "title": "An Introduction to the Item Response Warehouse (IRW): A Resource for Enhancing Data Usage in Psychometrics",
+    "authors": "Benjamin W. Domingue, Michael C. Frank, Helena Laatikainen, Lucy C. McGowan, Joshua B. Gilbert, and collaborators",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Item Response Warehouse open collection of harmonized item response datasets",
+    "datasetUrl": "https://itemresponsewarehouse.org/",
+    "paperUrl": "https://doi.org/10.3758/s13428-025-02796-y",
+    "access": "credentialed",
+    "formats": [
+      "web data browser",
+      "r package",
+      "python package",
+      "metadata tables",
+      "code repository"
+    ],
+    "properties": [
+      "data-resource",
+      "code",
+      "documentation",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "item response theory",
+      "longitudinal data analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Finding harmonized item response theory datasets for psychometrics, survey measurement, latent-trait modeling, multilevel item responses, response times, and longitudinal or experimental measurement studies.",
+    "note": "Verified from the IRW website and Behavior Research Methods paper: the resource documents hundreds of accessible item-response tables, a common long-format standard, R/Python access packages, metadata, source citations, and public conversion code."
+  },
+  {
+    "id": "github-lopezbernal-ije-interrupted-time-series",
+    "title": "Interrupted Time Series Regression for the Evaluation of Public Health Interventions: A Tutorial",
+    "authors": "James Lopez Bernal, Steven Cummins, Antonio Gasparrini",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "R and Stata code with Sicily example data for interrupted time-series regression",
+    "datasetUrl": "https://github.com/gasparrini/2017_lopezbernal_IJE_codedata",
+    "paperUrl": "https://doi.org/10.1093/ije/dyw098",
+    "access": "open",
+    "formats": [
+      "csv",
+      "r script",
+      "stata syntax",
+      "github repository"
+    ],
+    "properties": [
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "interrupted time series",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Teaching interrupted time series, segmented regression, quasi-experimental intervention analysis, autocorrelation checks, time series analysis, and reproducible R/Stata workflows.",
+    "note": "Verified through the GitHub repository and LSHTM Data Compass: sicily.csv stores the example dataset, with Rcode.R and Statacode.do reproducing the tutorial interrupted time-series analyses."
+  },
+  {
+    "id": "figshare-turner-its-graph-extraction",
+    "title": "Effect Estimates Can Be Accurately Calculated with Data Digitally Extracted from Interrupted Time Series Graphs",
+    "authors": "Simon Lee Turner, Elizabeth Korevaar, Miranda S. Cumpston, Raju Kanukula, Andrew B. Forbes, Joanne E. McKenzie",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Figshare data and Stata code for interrupted time-series graph extraction and re-analysis",
+    "datasetUrl": "https://figshare.com/s/10633a410a14fabf73d5",
+    "paperUrl": "https://doi.org/10.1002/jrsm.1646",
+    "access": "open-link",
+    "formats": [
+      "figshare repository",
+      "stata syntax",
+      "extracted time series",
+      "analysis data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "interrupted time series",
+      "time series analysis",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Testing interrupted time series, meta-analysis of quasi-experimental designs, segmented regression, graph-data extraction accuracy, and time-series effect-estimate reproducibility.",
+    "note": "Verified from Wiley data availability: the article states that the data and Stata 17 code used to analyse the manuscript are available from the Figshare repository, with 43 interrupted time-series studies used for re-analysis."
   }
 ]

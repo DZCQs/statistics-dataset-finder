@@ -151,6 +151,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["synthetic control", "synthetic controls", "synthetic-control", "synthetic control method", "scm"]
   },
   {
+    name: "interrupted time series",
+    level: "low",
+    parents: ["time series analysis", "quasi-experimental designs"],
+    definition: "Datasets and replication packages useful for interrupted time-series, controlled interrupted time-series, segmented regression, or intervention-effect estimation from ordered population-level series.",
+    includeWhen: [
+      "intervention timing, pre/post temporal structure, and segmented or interrupted time-series estimation are central",
+      "the accessible resource provides data or code for fitting, validating, teaching, extracting, or synthesizing interrupted time-series designs"
+    ],
+    avoidWhen: [
+      "the paper only has before-after data without an interrupted time-series design",
+      "time series are descriptive context rather than the methodological reason to use the dataset"
+    ],
+    evidenceTerms: ["interrupted time series", "interrupted time-series", "controlled interrupted time series", "controlled interrupted time-series", "segmented regression", "intervention time series", "its design", "cits"]
+  },
+  {
     name: "heterogeneous treatment effects",
     level: "low",
     parents: ["treatment effect estimation"],
@@ -324,6 +339,21 @@ export const LABEL_REGISTRY = [
       "there is no meaningful grouping or random-effects structure"
     ],
     evidenceTerms: ["multilevel", "hierarchical", "clustered", "nested", "random effects", "mixed effects", "school", "county", "classroom"]
+  },
+  {
+    name: "item response theory",
+    level: "mid",
+    parents: [],
+    definition: "Datasets and replication packages useful for item response theory, psychometric measurement models, differential item functioning, item-parameter drift, or item-level treatment-effect methods.",
+    includeWhen: [
+      "item response theory, latent-trait measurement, item calibration, differential item functioning, item-parameter drift, or item-level response modeling is central",
+      "the resource provides item-level responses, code, simulations, or harmonized item-response data for psychometric or measurement-methodology research"
+    ],
+    avoidWhen: [
+      "survey or questionnaire data are present but no item-level measurement model is part of the statistical use case",
+      "items are generic variables rather than responses in a psychometric, educational measurement, or latent-trait model"
+    ],
+    evidenceTerms: ["item response theory", "item response", "irt", "psychometric", "psychometrics", "latent trait", "measurement model", "differential item functioning", "item parameter drift", "item-level", "ordinal response"]
   },
   {
     name: "survival models",
@@ -611,25 +641,6 @@ export const LABEL_REGISTRY = [
 ];
 
 export const LABEL_CANDIDATES = [
-  {
-    name: "interrupted time series",
-    proposedLevel: "low",
-    proposedParents: ["time series analysis", "causal inference"],
-    status: "watch",
-    definition: "Datasets and replication packages useful for interrupted time-series or controlled interrupted time-series designs.",
-    currentEvidence: [
-      {
-        paperId: "dataverse-arrltm-controlled-interrupted-time-series-simulation",
-        reason: "Replication data and code for simulation-based comparison of controlled interrupted time series and multivariable regression."
-      }
-    ],
-    admitWhen: [
-      "at least three high-confidence records provide accessible data/code for interrupted time-series methodology",
-      "intervention timing and temporal dependence are central rather than incidental",
-      "the label improves search beyond broader time series analysis or causal inference"
-    ],
-    evidenceTerms: ["interrupted time series", "controlled interrupted time series", "cits"]
-  },
 ];
 
 export const LABEL_RULES = {
