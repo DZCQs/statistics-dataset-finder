@@ -45986,7 +45986,8 @@
     ],
     "topics": [
       "spatial statistics",
-      "risk prediction"
+      "risk prediction",
+      "quantile regression"
     ],
     "bestFor": "Spatial-statistics examples with uncertainty-aware prediction surfaces, quantile-regression forests, and reproducible spatial model products.",
     "note": "Auto-discovered from Zenodo on 2026-08-18. The record provides peer-reviewed spatial prediction and uncertainty products plus code for the associated Geoderma study."
@@ -48895,7 +48896,8 @@
     ],
     "topics": [
       "time series analysis",
-      "time series forecasting"
+      "time series forecasting",
+      "quantile regression"
     ],
     "bestFor": "Evaluating adaptive probabilistic forecasting, quantile regression, online learning, uncertainty quantification, and electricity net-load time series models.",
     "note": "Zenodo record provides underlying data and supplementary documentation for adaptive probabilistic forecasting of regional net-load and city demand."
@@ -49150,5 +49152,228 @@
     ],
     "bestFor": "Testing interrupted time series, meta-analysis of quasi-experimental designs, segmented regression, graph-data extraction accuracy, and time-series effect-estimate reproducibility.",
     "note": "Verified from Wiley data availability: the article states that the data and Stata 17 code used to analyse the manuscript are available from the Figshare repository, with 43 interrupted time-series studies used for re-analysis."
+  },
+  {
+    "id": "cran-quantreg-conditional-quantile-regression",
+    "title": "quantreg: Quantile Regression",
+    "authors": "Roger Koenker, Stephen Portnoy, Pin Tian Ng, Blaise Melly, Achim Zeileis, Philip Grosjean, Cleve Moler, Yousef Saad, Victor Chernozhukov, Ivan Fernandez-Val, Martin Maechler, Brian D. Ripley",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "CRAN quantreg package source, vignettes, demos, and example datasets for conditional quantile, censored quantile regression, dynamic quantile regression, bootstrapping quantile regression, sparse quantile regression, and expected-shortfall examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=quantreg",
+    "paperUrl": "https://doi.org/10.32614/CRAN.package.quantreg",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignettes",
+      "example datasets",
+      "demos",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "high-dimensional statistics",
+      "resampling methods",
+      "survival analysis",
+      "survival models",
+      "time series analysis"
+    ],
+    "bestFor": "Studying conditional quantile functions, censored survival time-to-event examples, dynamic time series quantile regression, bootstrap and resampling inference, sparse high-dimensional quantile regression, and reproducible teaching workflows.",
+    "note": "Verified from CRAN and R documentation: quantreg provides package source, reference manual, rq/crq vignettes, demos, and bundled example datasets for quantile regression, censored quantile regression, dynamic quantile regression, bootstrap methods, sparse fitting, and survival-data examples."
+  },
+  {
+    "id": "jss-qgam-bayesian-quantile-gam",
+    "title": "qgam: Bayesian Nonparametric Quantile Regression Modeling in R",
+    "authors": "Matteo Fasiolo, Simon N. Wood, Margaux Zaffran, Raphael Nedellec, Yannig Goude",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "JSS paper, CRAN qgam package, replication code, vignettes, and Australian/UK electricity-load example data for smooth additive quantile regression.",
+    "datasetUrl": "https://CRAN.R-project.org/package=qgam",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i09",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "vignette",
+      "example datasets"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "time series analysis",
+      "time series forecasting",
+      "bayesian inference"
+    ],
+    "bestFor": "Fitting Bayesian quantile regression and smooth additive quantile GAM models, checking pinball loss calibration, constructing posterior credible intervals, and using electricity load time series forecasting examples.",
+    "note": "Verified through JSS and CRAN: the article links the qgam package and R replication code, while package documentation exposes AUDem and UKload electricity datasets, vignettes, qgam/mqgam fitting functions, pinball loss, and Gibbs posterior learning-rate calibration."
+  },
+  {
+    "id": "jss-bayesqr-bayesian-quantile-regression",
+    "title": "bayesQR: A Bayesian Approach to Quantile Regression",
+    "authors": "Dries F. Benoit, Dirk Van den Poel",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "JSS paper, CRAN bayesQR package, R replication code, and Churn/Prostate example datasets for Bayesian quantile regression.",
+    "datasetUrl": "https://CRAN.R-project.org/package=bayesQR",
+    "paperUrl": "https://doi.org/10.18637/jss.v076.i07",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "example datasets",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "quantile regression",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Running Bayesian quantile regression with MCMC posterior summaries, binary quantile regression, adaptive lasso variable selection, Churn data, Prostate data, traceplots, and quantile plots.",
+    "note": "Verified through JSS and CRAN documentation: the paper page links the package and replication code; CRAN documents the Bayesian quantile regression implementation, MCMC core, adaptive lasso variable selection, and bundled Churn and Prostate example datasets."
+  },
+  {
+    "id": "rjournal-quantreg-nonpar-series",
+    "title": "quantreg.nonpar: An R Package for Performing Nonparametric Series Quantile Regression",
+    "authors": "Michael Lipsitz, Alexandre Belloni, Victor Chernozhukov, Ivan Fernandez-Val",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "R Journal article and CRAN quantreg.nonpar package for nonparametric series quantile regression examples, code, and documentation.",
+    "datasetUrl": "https://CRAN.R-project.org/package=quantreg.nonpar",
+    "paperUrl": "https://doi.org/10.32614/RJ-2016-052",
+    "access": "open",
+    "formats": [
+      "R package",
+      "article code",
+      "reference manual",
+      "examples"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "resampling methods",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Studying nonparametric series quantile regression, conditional quantile functions, partially linear quantile models, high-dimensional controls, many-regressor settings, analytical and resampling confidence intervals, and reproducible R examples.",
+    "note": "Verified from The R Journal and CRAN: the article introduces quantreg.nonpar and links the CRAN package, which implements point estimates and pointwise/uniform confidence intervals for conditional quantile functions and derivatives using analytic and resampling methods."
+  },
+  {
+    "id": "jss-robust-multivariate-framework",
+    "title": "An Object-Oriented Framework for Robust Multivariate Analysis",
+    "authors": "Valentin Todorov, Peter Filzmoser",
+    "year": 2009,
+    "citations": 0,
+    "dataset": "JSS paper with rrcov/robustbase R packages, paper example code, and package example datasets for robust multivariate analysis.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v032i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v032.i03",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "example datasets",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Teaching robust statistics, robust multivariate location and scatter, robust PCA principal component analysis, robust discriminant analysis, robustbase and rrcov workflows, and example-code based robustness studies.",
+    "note": "Verified through JSS and CRAN robustbase documentation: the JSS page links paper, rrcov, robustbase, and R example code; robustbase documentation provides package vignettes, demos, robust methods, and reusable example datasets."
+  },
+  {
+    "id": "jss-robustlmm-robust-linear-mixed-models",
+    "title": "robustlmm: An R Package for Robust Estimation of Linear Mixed-Effects Models",
+    "authors": "Manuel Koller",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "JSS paper, CRAN robustlmm package, replication code, vignettes, and example analyses for robust linear mixed-effects models.",
+    "datasetUrl": "https://CRAN.R-project.org/package=robustlmm",
+    "paperUrl": "https://doi.org/10.18637/jss.v075.i06",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "vignettes",
+      "example analyses"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "multilevel modeling"
+    ],
+    "bestFor": "Fitting robust statistics examples for linear mixed-effects models, random effects contamination, central contamination model diagnostics, hierarchical and crossed grouping structures, mixed effects, and multilevel modeling.",
+    "note": "Verified from JSS and CRAN: the article links the robustlmm R package and replication code; CRAN provides package source, vignettes, R code, simulation replication code, and documentation for robust linear mixed-effects models."
+  },
+  {
+    "id": "springer-wrs2-robust-statistical-methods",
+    "title": "Robust Statistical Methods in R Using the WRS2 Package",
+    "authors": "Patrick Mair, Rand Wilcox",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Behavior Research Methods paper, CRAN WRS2 package, vignette, supplementary R code, and bundled example datasets for robust statistical methods.",
+    "datasetUrl": "https://CRAN.R-project.org/package=WRS2",
+    "paperUrl": "https://doi.org/10.3758/s13428-019-01246-w",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignette",
+      "supplementary R code",
+      "example datasets"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "resampling methods",
+      "multiple testing"
+    ],
+    "bestFor": "Testing robust statistics procedures for robust t-tests, robust ANOVA, robust ANCOVA, quantile ANOVA, trimmed means, M-estimators, robust correlation, bootstrap resampling, multiple comparisons, and familywise error control.",
+    "note": "Verified from Springer, CRAN, and package documentation: the paper identifies WRS2 as a robust-statistics package; CRAN links package source, vignette, R code, and documentation, including bundled datasets such as hangover, electric, essays, Leerkes, goggles, chile, diet, multiple comparisons examples, and familywise error-control material."
   }
 ]

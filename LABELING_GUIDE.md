@@ -82,6 +82,8 @@ Good label level:
 - `forecasting competitions`
 - `probabilistic forecasting`
 - `mcmc diagnostics`
+- `quantile regression`
+- `robust statistics`
 
 ## Current Label Hierarchy
 
@@ -135,6 +137,8 @@ Mid-level topic families without a current high-level parent:
 - `multilevel modeling`
   - `bayesian hierarchical models`
 - `item response theory`
+- `quantile regression`
+- `robust statistics`
 
 Specific labels are also allowed when they are recognized statistical research
 topics and are not one-paper tags. Examples that may be admitted after evidence
@@ -154,10 +158,7 @@ checks include:
 - `high-dimensional statistics`
 - `variable selection`
 - `regularization methods`
-- `quantile regression`
-- `robust statistics`
 - `latent variable models`
-- `item response theory`
 - `mixture models`
 - `clustering`
 - `dimension reduction`

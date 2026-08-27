@@ -356,6 +356,36 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["item response theory", "item response", "irt", "psychometric", "psychometrics", "latent trait", "measurement model", "differential item functioning", "item parameter drift", "item-level", "ordinal response"]
   },
   {
+    name: "quantile regression",
+    level: "mid",
+    parents: [],
+    definition: "Datasets and replication packages useful for modeling conditional quantiles, quantile treatment or prediction functions, censored quantile regression, Bayesian quantile regression, or package examples built around quantile-regression methods.",
+    includeWhen: [
+      "quantile regression, conditional quantiles, quantile GAMs, censored quantile regression, Bayesian quantile regression, or quantile-regression forests are central to the paper or data resource",
+      "the resource provides data, code, package examples, vignettes, or replication material for estimating or teaching conditional quantile models"
+    ],
+    avoidWhen: [
+      "quantiles are used only as descriptive summaries without a quantile-regression method",
+      "the record mentions prediction intervals or probabilistic forecasting without a quantile-regression workflow or documented quantile-regression examples"
+    ],
+    evidenceTerms: ["quantile regression", "conditional quantile", "conditional quantiles", "quantile gam", "qgam", "pinball loss", "censored quantile regression", "bayesian quantile regression", "nonparametric series quantile regression", "quantile regression forest", "quantile-regression forest", "quantreg", "bayesqr"]
+  },
+  {
+    name: "robust statistics",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, package examples, and replication resources useful for robust statistical estimation, robust regression or ANOVA, robust multivariate analysis, contamination/outlier-resistant modeling, or robust mixed-effects workflows.",
+    includeWhen: [
+      "robust statistics, robust estimation, robust regression, robust ANOVA/ANCOVA, robust multivariate analysis, trimmed means, M-estimators, or contamination-resistant modeling are central",
+      "the resource provides data, code, package examples, vignettes, or replication material for studying robustness to outliers, contamination, or distributional departures"
+    ],
+    avoidWhen: [
+      "robust means only stable, reliable, or well-performing in ordinary prose",
+      "the paper uses robustness checks as secondary sensitivity analyses rather than robust-statistics methodology"
+    ],
+    evidenceTerms: ["robust statistics", "robust statistical", "robust estimation", "robust regression", "robust anova", "robust ancova", "robust correlation", "robust location", "trimmed mean", "trimmed means", "m-estimator", "m-estimators", "robust multivariate", "outlier contamination", "central contamination model", "robust mixed-effects", "robust linear mixed-effects", "robustbase", "robustlmm", "wrs2"]
+  },
+  {
     name: "survival models",
     level: "mid",
     parents: ["survival analysis"],

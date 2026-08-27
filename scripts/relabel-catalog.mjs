@@ -196,6 +196,22 @@ const evidenceRules = [
       )
   },
   {
+    label: "quantile regression",
+    reason: "quantile-regression, conditional-quantile, qgam, or quantreg evidence in record text",
+    test: (paper) =>
+      /\b(quantile regression|conditional quantile|conditional quantiles|quantile gam|qgam|pinball loss|censored quantile regression|bayesian quantile regression|nonparametric series quantile regression|quantile regression forests?|quantile-regression forests?|quantreg|bayesqr)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "robust statistics",
+    reason: "robust-statistics, robust-estimation, trimmed-mean, M-estimator, or robust package evidence in record text",
+    test: (paper) =>
+      /\b(robust statistics|robust statistical|robust estimation|robust regression|robust anova|robust ancova|robust correlation|robust location|trimmed means?|m-estimators?|robust multivariate|outlier contamination|central contamination model|robust mixed-effects|robust linear mixed-effects|robustbase|robustlmm|wrs2)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
     label: "variable selection",
     reason: "variable-selection, sparse predictor-selection, or PC-simple evidence in record text",
     test: (paper) =>
