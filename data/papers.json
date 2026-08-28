@@ -49375,5 +49375,223 @@
     ],
     "bestFor": "Testing robust statistics procedures for robust t-tests, robust ANOVA, robust ANCOVA, quantile ANOVA, trimmed means, M-estimators, robust correlation, bootstrap resampling, multiple comparisons, and familywise error control.",
     "note": "Verified from Springer, CRAN, and package documentation: the paper identifies WRS2 as a robust-statistics package; CRAN links package source, vignette, R code, and documentation, including bundled datasets such as hangover, electric, essays, Leerkes, goggles, chile, diet, multiple comparisons examples, and familywise error-control material."
+  },
+  {
+    "id": "jasa-lei-distribution-free-predictive-inference",
+    "title": "Distribution-Free Predictive Inference for Regression",
+    "authors": "Jing Lei, Max G'Sell, Alessandro Rinaldo, Ryan J. Tibshirani, Larry Wasserman",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "R conformalInference package and lei2018 reproduction code for distribution-free predictive inference, split conformal inference, full conformal inference, jackknife prediction intervals, LOCO variable-importance examples, and empirical regression examples.",
+    "datasetUrl": "https://github.com/ryantibs/conformal/tree/master/lei2018",
+    "paperUrl": "https://doi.org/10.1080/01621459.2017.1307116",
+    "access": "open-link",
+    "formats": [
+      "R code",
+      "R package",
+      "reproduction scripts",
+      "documentation"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "resampling methods"
+    ],
+    "bestFor": "Conformal prediction, conformal inference, distribution-free predictive inference, split conformal procedures, full conformal procedures, jackknife prediction intervals, regression coverage diagnostics, and LOCO variable-importance examples.",
+    "note": "Verified from the JASA article page and the ryantibs/conformal repository; the repository states that its lei2018 folder reproduces the examples from this paper."
+  },
+  {
+    "id": "neurips-tibshirani-conformal-covariate-shift",
+    "title": "Conformal Prediction Under Covariate Shift",
+    "authors": "Ryan J. Tibshirani, Rina Foygel Barber, Emmanuel Candes, Aaditya Ramdas",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "NeurIPS paper and tibshirani2019 R reproduction code for weighted conformal prediction under covariate shift, including empirical examples and simulation material.",
+    "datasetUrl": "https://github.com/ryantibs/conformal/tree/master/tibshirani2019",
+    "paperUrl": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/8fb21ee7a2207526da55a679f0332de2-Abstract.html",
+    "access": "open",
+    "formats": [
+      "R code",
+      "reproduction scripts",
+      "R package",
+      "supplemental material"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction"
+    ],
+    "bestFor": "Weighted conformal prediction, conformal inference under covariate shift, split conformal calibration, distribution-free prediction intervals, exchangeability stress tests, and empirical regression examples.",
+    "note": "Verified from the NeurIPS proceedings page and the ryantibs/conformal repository; the repository states that its tibshirani2019 folder reproduces the examples from this paper."
+  },
+  {
+    "id": "github-yromano-cqr-conformalized-quantile-regression",
+    "title": "Conformalized Quantile Regression",
+    "authors": "Yaniv Romano, Evan Patterson, Emmanuel J. Candes",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "GitHub CQR repository with datasets, MEPS download code, notebooks, and reproducible experiments for conformalized quantile regression.",
+    "datasetUrl": "https://github.com/yromano/cqr",
+    "paperUrl": "https://arxiv.org/abs/1905.03222",
+    "access": "open",
+    "formats": [
+      "Python code",
+      "Jupyter notebooks",
+      "public datasets",
+      "MEPS download scripts",
+      "reproducible experiments"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "quantile regression"
+    ],
+    "bestFor": "Conformalized quantile regression, conformal prediction, conformal inference, prediction intervals, conditional quantile modeling, quantile regression baselines, marginal coverage diagnostics, and heteroscedastic regression examples.",
+    "note": "Verified from the yromano/cqr repository; the README lists public datasets, MEPS download code, real-data notebooks, and reproducible experiments for the paper."
+  },
+  {
+    "id": "pmlr-mapie-conformal-prediction-library",
+    "title": "Flexible and Systematic Uncertainty Estimation with Conformal Prediction via the MAPIE Library",
+    "authors": "Thibault Cordier, Vincent Blot, Louis Lacombe, Thomas Morzadec, Arnaud Capitaine, Nicolas Brunel",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "PMLR paper, MAPIE Python package, examples, notebooks, and documentation for conformal prediction intervals, prediction sets, conformal risk control, and regression, classification, and time-series examples.",
+    "datasetUrl": "https://github.com/scikit-learn-contrib/MAPIE",
+    "paperUrl": "https://proceedings.mlr.press/v204/cordier23a.html",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "examples",
+      "notebooks",
+      "documentation",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "time series analysis"
+    ],
+    "bestFor": "Split conformal prediction, cross-conformal prediction, conformal risk control, prediction intervals, prediction sets, calibration datasets, coverage diagnostics, regression examples, classification examples, and time series analysis examples.",
+    "note": "Verified from the PMLR paper page and MAPIE repository; the paper describes the library's regression, classification, and time-series conformal workflows, and the repository provides documentation and examples."
+  },
+  {
+    "id": "pmlr-crepes-conformal-prediction-python",
+    "title": "Conformal Prediction in Python with crepes",
+    "authors": "Henrik Bostrom",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "PMLR paper, crepes Python package, documentation, notebooks, and OpenML example workflows for conformal classifiers, regressors, and predictive systems.",
+    "datasetUrl": "https://github.com/henrikbostrom/crepes",
+    "paperUrl": "https://proceedings.mlr.press/v230/bostrom24a.html",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "Jupyter notebooks",
+      "documentation",
+      "OpenML examples",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction"
+    ],
+    "bestFor": "Conformal prediction in Python, conformal classifiers, conformal regressors, conformal predictive systems, Mondrian conformal methods, exchangeability tests, prediction sets, prediction intervals, OpenML QSAR-biodeg examples, and OpenML house-sales regression examples.",
+    "note": "Verified from the PMLR paper page and crepes repository; the README documents package usage with OpenML classification and regression examples."
+  },
+  {
+    "id": "github-angelopoulos-conformal-gentle-intro",
+    "title": "Conformal Prediction: A Gentle Introduction",
+    "authors": "Anastasios N. Angelopoulos, Stephen Bates",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Companion GitHub repository with real-data notebooks, automatically downloaded raw model outputs, sample datasets, generation scripts, and Colab workflows for conformal prediction examples.",
+    "datasetUrl": "https://github.com/aangelopoulos/conformal-prediction",
+    "paperUrl": "https://doi.org/10.1561/2200000101",
+    "access": "open-link",
+    "formats": [
+      "Jupyter notebooks",
+      "Python code",
+      "sample data",
+      "precomputed model outputs",
+      "generation scripts"
+    ],
+    "properties": [
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "time series analysis"
+    ],
+    "bestFor": "Conformal prediction, conformal inference, distribution-free uncertainty quantification, prediction sets, prediction intervals, real-data calibration, conditional coverage diagnostics, and time series analysis examples.",
+    "note": "Verified from the companion GitHub repository and DBLP/DOI metadata; the repository documents real-data notebooks, auto-downloaded model outputs, sample data, and generation scripts."
+  },
+  {
+    "id": "aaai-martinez-approximate-full-conformal-prediction",
+    "title": "Approximating Full Conformal Prediction at Scale via Influence Functions",
+    "authors": "Javier Abad Martinez, Umang Bhatt, Adrian Weller, Giovanni Cherubin",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "ACP GitHub repository with Python package, tutorial notebook, experiment scripts, saved models, and dataset options including synthetic data, MNIST, CIFAR-10, and US Census ACSIncome.",
+    "datasetUrl": "https://github.com/cambridge-mlg/acp",
+    "paperUrl": "https://arxiv.org/abs/2202.01315",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "Jupyter notebook",
+      "experiment scripts",
+      "saved models",
+      "public dataset loaders"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "resampling methods"
+    ],
+    "bestFor": "Full conformal prediction, split conformal prediction, CV+ conformal intervals, jackknife+ conformal intervals, conformal prediction sets, influence-function approximations, scalable conformal inference, and ACS Census, MNIST, CIFAR-10, and synthetic-data experiments.",
+    "note": "Verified from the ACP repository and arXiv metadata; the repository documents package installation, a tutorial notebook, saved models, experiment scripts, and dataset choices."
   }
 ]

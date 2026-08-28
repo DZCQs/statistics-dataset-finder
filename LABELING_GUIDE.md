@@ -84,6 +84,7 @@ Good label level:
 - `mcmc diagnostics`
 - `quantile regression`
 - `robust statistics`
+- `conformal prediction`
 
 ## Current Label Hierarchy
 
@@ -139,6 +140,7 @@ Mid-level topic families without a current high-level parent:
 - `item response theory`
 - `quantile regression`
 - `robust statistics`
+- `conformal prediction`
 
 Specific labels are also allowed when they are recognized statistical research
 topics and are not one-paper tags. Examples that may be admitted after evidence
@@ -162,7 +164,6 @@ checks include:
 - `mixture models`
 - `clustering`
 - `dimension reduction`
-- `conformal prediction`
 - `uncertainty quantification`
 
 ## New Paper Workflow

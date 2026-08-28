@@ -386,6 +386,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["robust statistics", "robust statistical", "robust estimation", "robust regression", "robust anova", "robust ancova", "robust correlation", "robust location", "trimmed mean", "trimmed means", "m-estimator", "m-estimators", "robust multivariate", "outlier contamination", "central contamination model", "robust mixed-effects", "robust linear mixed-effects", "robustbase", "robustlmm", "wrs2"]
   },
   {
+    name: "conformal prediction",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, repositories, package examples, and replication resources useful for conformal prediction, conformal inference, distribution-free predictive inference, conformalized quantile regression, split/full conformal procedures, jackknife+/CV+ intervals, or conformal risk-control workflows.",
+    includeWhen: [
+      "conformal prediction, conformal inference, distribution-free predictive inference, conformalized quantile regression, conformal prediction sets, or conformal prediction intervals are central to the paper or resource",
+      "the resource provides data, code, package examples, notebooks, or replication material for calibration, coverage diagnostics, prediction sets, prediction intervals, conformal p-values, or risk control"
+    ],
+    avoidWhen: [
+      "prediction intervals or uncertainty estimates are discussed without conformal methodology",
+      "coverage appears only as a generic model-evaluation metric rather than a conformal calibration guarantee"
+    ],
+    evidenceTerms: ["conformal prediction", "conformal inference", "distribution-free predictive inference", "distribution-free prediction", "conformalized quantile regression", "split conformal", "full conformal", "jackknife+", "cv+", "cross-conformal", "mondrian conformal", "conformal risk control", "conformal p-values", "conformal predictive", "nonconformity score", "non-conformity score"]
+  },
+  {
     name: "survival models",
     level: "mid",
     parents: ["survival analysis"],

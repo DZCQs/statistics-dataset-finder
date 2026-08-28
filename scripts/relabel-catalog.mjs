@@ -212,6 +212,14 @@ const evidenceRules = [
       )
   },
   {
+    label: "conformal prediction",
+    reason: "conformal-prediction, conformal-inference, split/full conformal, jackknife+, CV+, or conformal risk-control evidence in record text",
+    test: (paper) =>
+      /\b(conformal prediction|conformal inference|distribution-free predictive inference|distribution-free prediction|conformalized quantile regression|split conformal|full conformal|jackknife\+|cv\+|cross-conformal|mondrian conformal|conformal risk control|conformal p-values|conformal predictive|nonconformity score|non-conformity score)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
     label: "variable selection",
     reason: "variable-selection, sparse predictor-selection, or PC-simple evidence in record text",
     test: (paper) =>
