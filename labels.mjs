@@ -401,6 +401,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["conformal prediction", "conformal inference", "distribution-free predictive inference", "distribution-free prediction", "conformalized quantile regression", "split conformal", "full conformal", "jackknife+", "cv+", "cross-conformal", "mondrian conformal", "conformal risk control", "conformal p-values", "conformal predictive", "nonconformity score", "non-conformity score"]
   },
   {
+    name: "mixture models",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, software examples, and replication resources useful for finite mixture models, Gaussian or t mixture models, model-based clustering/classification, mixture-of-regression workflows, latent class regression, or EM-based mixture estimation.",
+    includeWhen: [
+      "finite mixture models, Gaussian mixture models, multivariate t mixtures, mixture-of-regression models, latent class regression, or model-based clustering/classification are central to the paper or resource",
+      "the resource provides data, code, package examples, vignettes, or replication material for fitting, selecting, diagnosing, or comparing mixture models"
+    ],
+    avoidWhen: [
+      "mixture appears only as an application-domain phrase or generic ensemble wording",
+      "pattern-mixture models are used only as a missing-data sensitivity framework rather than as mixture-model methodology"
+    ],
+    evidenceTerms: ["mixture models", "mixture model", "finite mixture", "finite mixtures", "gaussian mixture", "normal mixture", "multivariate t mixture", "model-based clustering", "model based clustering", "latent class regression", "latent class", "mixture-of-regression", "mixture-of-regressions", "mixtures of regressions", "mixture of generalized linear regressions", "mixture modeling", "mixture modelling", "expectation-maximization", "em algorithm", "mclust", "flexmix", "mixtools", "rmixmod", "teigen", "bgmm"]
+  },
+  {
     name: "survival models",
     level: "mid",
     parents: ["survival analysis"],

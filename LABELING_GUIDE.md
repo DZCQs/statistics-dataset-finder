@@ -85,6 +85,7 @@ Good label level:
 - `quantile regression`
 - `robust statistics`
 - `conformal prediction`
+- `mixture models`
 
 ## Current Label Hierarchy
 
@@ -141,6 +142,7 @@ Mid-level topic families without a current high-level parent:
 - `quantile regression`
 - `robust statistics`
 - `conformal prediction`
+- `mixture models`
 
 Specific labels are also allowed when they are recognized statistical research
 topics and are not one-paper tags. Examples that may be admitted after evidence
@@ -161,7 +163,6 @@ checks include:
 - `variable selection`
 - `regularization methods`
 - `latent variable models`
-- `mixture models`
 - `clustering`
 - `dimension reduction`
 - `uncertainty quantification`

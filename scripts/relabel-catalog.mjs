@@ -220,6 +220,17 @@ const evidenceRules = [
       )
   },
   {
+    label: "mixture models",
+    reason: "finite-mixture, Gaussian/t-mixture, latent-class, model-based-clustering, mixture-regression, or EM mixture evidence in record text",
+    test: (paper) => {
+      const text = paperText(paper);
+      return (
+        !/\bpattern-mixture\b/i.test(text) &&
+        /\b(mixture models?|finite mixtures?|gaussian mixtures?|normal mixtures?|multivariate t mixtures?|model-based clustering|model based clustering|latent class regression|latent class|mixture-of-regressions?|mixtures of regressions|mixture of generalized linear regressions|mixture modeling|mixture modelling|expectation-maximization|em algorithm|mclust|flexmix|mixtools|rmixmod|teigen|bgmm)\b/i.test(text)
+      );
+    }
+  },
+  {
     label: "variable selection",
     reason: "variable-selection, sparse predictor-selection, or PC-simple evidence in record text",
     test: (paper) =>

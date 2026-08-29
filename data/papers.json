@@ -18129,7 +18129,8 @@
       "longitudinal data analysis",
       "risk prediction",
       "survival models",
-      "survival analysis"
+      "survival analysis",
+      "mixture models"
     ],
     "bestFor": "Finding a eICU Collaborative Research Database example for longitudinal data analysis, risk prediction, survival models.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"eICU Collaborative Research Database\". Review the abstract and dataset use before treating this as fully curated.",
@@ -23149,7 +23150,8 @@
       "longitudinal data analysis",
       "multilevel modeling",
       "survey weighting",
-      "survey methodology"
+      "survey methodology",
+      "mixture models"
     ],
     "bestFor": "Finding a Early Childhood Longitudinal Study example for complex survey design, longitudinal data analysis, multilevel modeling, survey weighting.",
     "note": "Auto-discovered with OpenAlex from dataset seed \"Early Childhood Longitudinal Study\". Review the abstract and dataset use before treating this as fully curated.",
@@ -33855,7 +33857,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "mixture models"
     ],
     "bestFor": "Finding high-dimensional statistics examples for genomics, k-mer frequency distributions, mixture modeling, and genome profiling.",
     "note": "Repository verified reachable. Auto-discovered candidate; review included examples and input data instructions before treating it as curated."
@@ -49593,5 +49596,196 @@
     ],
     "bestFor": "Full conformal prediction, split conformal prediction, CV+ conformal intervals, jackknife+ conformal intervals, conformal prediction sets, influence-function approximations, scalable conformal inference, and ACS Census, MNIST, CIFAR-10, and synthetic-data experiments.",
     "note": "Verified from the ACP repository and arXiv metadata; the repository documents package installation, a tutorial notebook, saved models, experiment scripts, and dataset choices."
+  },
+  {
+    "id": "rjournal-mclust5-gaussian-finite-mixture-models",
+    "title": "mclust 5: Clustering, Classification and Density Estimation Using Gaussian Finite Mixture Models",
+    "authors": "Luca Scrucca, Michael Fop, T. Brendan Murphy, Adrian E. Raftery",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "mclust CRAN package, R Journal article, vignettes, documentation, source code, and included/example datasets for Gaussian finite mixture models, model-based clustering, classification, density estimation, dimension reduction, model selection, and bootstrap inference.",
+    "datasetUrl": "https://CRAN.R-project.org/package=mclust",
+    "paperUrl": "https://doi.org/10.32614/RJ-2016-021",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignettes",
+      "example datasets",
+      "source code",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models",
+      "resampling methods",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Mixture models, Gaussian finite mixture models, model-based clustering, classification, density estimation, EM algorithm fitting, BIC model selection, dimension reduction, bootstrap inference, and acidity, banknote, faithful, and iris examples.",
+    "note": "Verified from the R Journal article, CRAN package page, package reference, and R documentation; the package exposes vignettes, documentation, source code, and included/example datasets."
+  },
+  {
+    "id": "jss-mixtools-finite-mixture-models",
+    "title": "mixtools: An R Package for Analyzing Mixture Models",
+    "authors": "Tatiana Benaglia, Didier Chauveau, David R. Hunter, Derek S. Young",
+    "year": 2009,
+    "citations": 0,
+    "dataset": "JSS paper, CRAN mixtools package, GitHub repository, vignette, source package, and R example code for finite mixture models, mixture-of-regression models, EM algorithms, nonparametric and semiparametric mixtures, reliability mixture models, and package example data.",
+    "datasetUrl": "https://CRAN.R-project.org/package=mixtools",
+    "paperUrl": "https://doi.org/10.18637/jss.v032.i06",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignette",
+      "R example code",
+      "source code",
+      "example datasets"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models",
+      "resampling methods"
+    ],
+    "bestFor": "Mixture models, finite mixture models, mixture-of-regression models, mixtures of regressions, EM algorithm workflows, component-number selection, bootstrap likelihood-ratio tests, Bayesian mixture regression, and semiparametric mixture examples.",
+    "note": "Verified from the JSS article page, CRAN package page, R documentation, and package repository metadata; the JSS page links the paper, package, and R example code."
+  },
+  {
+    "id": "jss-rmixmod-model-based-mixture-classification",
+    "title": "Rmixmod: The R Package of the Model-Based Unsupervised, Supervised, and Semi-Supervised Classification Mixmod Library",
+    "authors": "Remi Lebret, Serge Iovleff, Florent Langrognet, Christophe Biernacki, Gilles Celeux, Gerard Govaert",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "JSS paper, CRAN Rmixmod package, R replication code, documentation, and examples for Gaussian and multinomial mixture models, model-based clustering, discriminant analysis, supervised/semi-supervised classification, and density estimation workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=Rmixmod",
+    "paperUrl": "https://doi.org/10.18637/jss.v067.i06",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "documentation",
+      "example datasets",
+      "source code"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models"
+    ],
+    "bestFor": "Mixture models, Gaussian mixture models, multinomial mixture models, model-based clustering, discriminant analysis, supervised classification, semi-supervised classification, EM algorithm variants, SEM/CEM algorithms, BIC, ICL, NEC, cross-validation, and geyser, birds, finance, and iris examples.",
+    "note": "Verified from the JSS article page and CRAN/R documentation; the JSS page links the paper, package, and R replication code, and the package documentation lists example datasets and workflows."
+  },
+  {
+    "id": "jss-flexmix-version2-finite-mixtures",
+    "title": "FlexMix Version 2: Finite Mixtures with Concomitant Variables and Varying and Constant Parameters",
+    "authors": "Bettina Gruen, Friedrich Leisch",
+    "year": 2008,
+    "citations": 0,
+    "dataset": "JSS paper, CRAN flexmix package, R example code, driver code, vignettes, documentation, and bundled/artificial datasets for finite mixtures of regression models, latent class regression, concomitant variable models, zero-inflated mixtures, and EM-based mixture fitting.",
+    "datasetUrl": "https://CRAN.R-project.org/package=flexmix",
+    "paperUrl": "https://doi.org/10.18637/jss.v028.i04",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "driver code",
+      "vignettes",
+      "example datasets",
+      "documentation"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models"
+    ],
+    "bestFor": "Mixture models, finite mixture models, FlexMix, latent class regression, mixture-of-regression models, mixture of generalized linear regressions, EM algorithm workflows, concomitant variables, zero-inflated mixtures, NPreg, BregFix, candy, patent, and fabric-fault examples.",
+    "note": "Verified from the JSS article pages and CRAN/R documentation; the Version 2 article links paper, package, R example code, and driver code, and the package reference lists included example datasets."
+  },
+  {
+    "id": "jss-teigen-t-mixture-clustering",
+    "title": "teigen: An R Package for Model-Based Clustering and Classification via the Multivariate t Distribution",
+    "authors": "Jeffrey L. Andrews, Jaymeson R. Wickins, Nicholas M. Boers, Paul D. McNicholas",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "JSS paper, CRAN teigen package, R replication code, documentation, and examples for multivariate t mixture models, model-based clustering, classification, Gaussian special cases, BIC selection, fuzzy clustering, and faithful/iris workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=teigen",
+    "paperUrl": "https://doi.org/10.18637/jss.v083.i07",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "documentation",
+      "example workflows",
+      "source code"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models"
+    ],
+    "bestFor": "Mixture models, multivariate t mixture models, Gaussian mixture special cases, model-based clustering, classification, covariance constraints, EM algorithm fitting, BIC model selection, fuzzy clustering, faithful examples, and iris examples.",
+    "note": "Verified from the JSS article page, CRAN package page, and R documentation; the JSS page links the paper, package, and R replication code."
+  },
+  {
+    "id": "jss-bgmm-mixture-modeling-uncertain-knowledge",
+    "title": "The R Package bgmm: Mixture Modeling with Uncertain Knowledge",
+    "authors": "Przemyslaw Biecek, Ewa Szczurek, Martin Vingron, Jerzy Tiuryn",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "JSS paper, CRAN bgmm package, R example code, documentation, genotypes data examples, and simulation functions for Gaussian mixture modeling with soft labels, belief-based modeling, and supervised/semi-supervised/unsupervised mixture workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=bgmm",
+    "paperUrl": "https://doi.org/10.18637/jss.v047.i03",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "documentation",
+      "example data",
+      "simulation functions"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models"
+    ],
+    "bestFor": "Mixture models, Gaussian mixture models, soft-label modeling, belief-based mixture modeling, uncertain labels, semi-supervised mixture modeling, supervised mixture modeling, unsupervised mixture modeling, EM algorithm workflows, genotypes data, and simulated mixture datasets.",
+    "note": "Verified from the JSS article page, CRAN package page, and R documentation; the JSS page links the paper, package, and R example code, and the package documentation includes genotypes examples and simulation functions."
   }
 ]
