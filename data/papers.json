@@ -49787,5 +49787,207 @@
     ],
     "bestFor": "Mixture models, Gaussian mixture models, soft-label modeling, belief-based mixture modeling, uncertain labels, semi-supervised mixture modeling, supervised mixture modeling, unsupervised mixture modeling, EM algorithm workflows, genotypes data, and simulated mixture datasets.",
     "note": "Verified from the JSS article page, CRAN package page, and R documentation; the JSS page links the paper, package, and R example code, and the package documentation includes genotypes examples and simulation functions."
+  },
+  {
+    "id": "jss-stan-probabilistic-programming-language",
+    "title": "Stan: A Probabilistic Programming Language",
+    "authors": "Bob Carpenter, Andrew Gelman, Matthew D. Hoffman, Daniel Lee, Ben Goodrich, Michael Betancourt, Marcus Brubaker, Jiqiang Guo, Peter Li, Allen Riddell",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "JSS paper, Stan source package, Python source package, rstan package, replication code for examples, and the Stan example-models repository with open-source Stan programs, data simulators, simulated data files, real datasets, model citations, diagnostics summaries, and documentation.",
+    "datasetUrl": "https://github.com/stan-dev/example-models",
+    "paperUrl": "https://doi.org/10.18637/jss.v076.i01",
+    "access": "open",
+    "formats": [
+      "Stan code",
+      "R code",
+      "Python code",
+      "replication code",
+      "simulated data",
+      "real datasets",
+      "documentation"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "probabilistic programming",
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Probabilistic programming, Bayesian inference, Stan programs, Hamiltonian Monte Carlo, No-U-Turn sampler workflows, MCMC sampling diagnostics, variational Bayes examples, generated quantities, model code reuse, simulated data files, and real-data Stan examples.",
+    "note": "Verified from the JSS article page, which links source packages and replication code, and from the Stan example-models repository, which documents model code, simulated data, real datasets, diagnostics summaries, and source citations."
+  },
+  {
+    "id": "jss-brms-bayesian-multilevel-models-stan",
+    "title": "brms: An R Package for Bayesian Multilevel Models Using Stan",
+    "authors": "Paul-Christian Buerkner",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "JSS paper, CRAN brms package, R replication code, package vignettes, Stan code chunks, and bundled datasets including epilepsy, inhaler, kidney, and loss examples for Bayesian multilevel regression using Stan.",
+    "datasetUrl": "https://CRAN.R-project.org/package=brms",
+    "paperUrl": "https://doi.org/10.18637/jss.v080.i01",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "Stan code",
+      "vignettes",
+      "example datasets",
+      "documentation"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "probabilistic programming",
+      "multilevel modeling"
+    ],
+    "bestFor": "Bayesian inference, probabilistic programming with Stan, Bayesian multilevel models, hierarchical regression, MCMC sampling, prior specification, leave-one-out cross-validation, model fit checks, brms vignettes, and bundled example datasets.",
+    "note": "Verified from the JSS article page, CRAN package page, and rdrr source listing; the sources expose the paper, package, R replication code, Stan chunks, vignettes, and bundled example datasets."
+  },
+  {
+    "id": "peerj-pymc-probabilistic-programming-python",
+    "title": "PyMC: A Modern and Comprehensive Probabilistic Programming Framework in Python",
+    "authors": "Oriol Abril-Pla, Virgile Andreani, Colin Carroll, Larry Dong, Christopher J. Fonnesbeck, Maxim Kochurov, Ravin Kumar, Junpeng Lao, Christian C. Luhmann, Osvaldo A. Martin, Michael Osthege, Ricardo Vieira, Thomas Wiecki, Robert Zinkov",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "PyMC examples GitHub repository, PyMC documentation, notebook gallery, Binder-ready tutorials, model code, and example workflows accompanying the PeerJ Computer Science PyMC paper and Bayesian statistical modeling framework.",
+    "datasetUrl": "https://github.com/pymc-devs/pymc-examples",
+    "paperUrl": "https://doi.org/10.7717/peerj-cs.1516",
+    "access": "open",
+    "formats": [
+      "Jupyter notebooks",
+      "Python code",
+      "documentation",
+      "tutorials",
+      "example workflows"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Probabilistic programming, Bayesian inference, PyMC models, Hamiltonian Monte Carlo, No-U-Turn sampler workflows, MCMC sampling diagnostics, prior and predictive checks, notebook-based model examples, and Python Bayesian workflow tutorials.",
+    "note": "Verified from the PyMC examples repository and PyMC documentation; the repository provides a maintained notebook library and the docs cite the 2023 PeerJ Computer Science paper."
+  },
+  {
+    "id": "pmlr-turing-flexible-probabilistic-inference",
+    "title": "Turing: A Language for Flexible Probabilistic Inference",
+    "authors": "Hong Ge, Kai Xu, Zoubin Ghahramani",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Turing.jl GitHub repository, package documentation, tutorials, downloadable notebooks, and example workflows using Julia code, RDatasets examples, simulated data, MCMC, HMC/NUTS, sequential Monte Carlo, and composable inference engines.",
+    "datasetUrl": "https://github.com/TuringLang/Turing.jl",
+    "paperUrl": "https://proceedings.mlr.press/v84/ge18b.html",
+    "access": "open",
+    "formats": [
+      "Julia package",
+      "tutorial notebooks",
+      "documentation",
+      "example code",
+      "simulated data",
+      "public dataset examples"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "probabilistic programming"
+    ],
+    "bestFor": "Probabilistic programming, Bayesian inference, Turing.jl models, MCMC sampling, Hamiltonian Monte Carlo, No-U-Turn sampler workflows, Gibbs sampling, sequential Monte Carlo, particle MCMC, variational inference, and composable inference examples.",
+    "note": "Verified from the PMLR article page, Turing.jl repository, and Turing documentation; the repository cites the paper and links tutorials with example models and downloadable notebooks."
+  },
+  {
+    "id": "jss-nimblesmc-sequential-monte-carlo",
+    "title": "Sequential Monte Carlo Methods in the nimble and nimbleSMC R Packages",
+    "authors": "Nicholas Michaud, Perry de Valpine, Daniel Turek, Christopher J. Paciorek, Dao Nguyen",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "JSS paper, nimbleSMC package, nimble package, replication materials, package examples, and model code for state-space model analysis using sequential Monte Carlo, bootstrap filters, auxiliary particle filters, ensemble Kalman filters, iterated filtering, and particle MCMC.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v100i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i03",
+    "access": "open",
+    "formats": [
+      "R package",
+      "replication materials",
+      "R code",
+      "model code",
+      "documentation",
+      "example workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "probabilistic programming",
+      "time series analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Bayesian inference, BUGS-language model specification, model code reuse, sequential Monte Carlo, particle filtering, bootstrap filtering, auxiliary particle filters, ensemble Kalman filters, particle MCMC, state-space models, stochastic volatility examples, MCMC sampling, and time series analysis.",
+    "note": "Verified from the JSS article page, which links the paper, nimbleSMC package, nimble package, and replication materials; the abstract documents state-space examples and SMC algorithms."
+  },
+  {
+    "id": "joss-greta-statistical-modelling-r",
+    "title": "greta: simple and scalable statistical modelling in R",
+    "authors": "Nick Golding",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "JOSS paper, greta software repository, software archive, CRAN package, package website, vignettes, R code, and example models using iris, attitude, warpbreaks, eight-schools, simulated data, and Bayesian model code.",
+    "datasetUrl": "https://CRAN.R-project.org/package=greta",
+    "paperUrl": "https://doi.org/10.21105/joss.01601",
+    "access": "open",
+    "formats": [
+      "R package",
+      "software repository",
+      "software archive",
+      "vignettes",
+      "R code",
+      "example datasets",
+      "documentation"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Probabilistic programming-style Bayesian inference in R, greta model code, MCMC sampling, Hamiltonian Monte Carlo, prior specification, TensorFlow-backed Bayesian modeling, iris examples, attitude examples, warpbreaks examples, eight-schools analysis, and simulated-data tutorials.",
+    "note": "Verified from the JOSS article page, CRAN page, greta package website, and example-model vignettes; the sources link the software repository/archive and document executable examples with built-in and simulated datasets."
   }
 ]

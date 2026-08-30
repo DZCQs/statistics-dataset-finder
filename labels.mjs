@@ -673,6 +673,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["bayesian inference", "bayesian", "posterior", "prior", "mcmc", "stan", "markov chain monte carlo", "bayesian hierarchical"]
   },
   {
+    name: "probabilistic programming",
+    level: "mid",
+    parents: ["bayesian inference"],
+    definition: "Datasets, notebooks, software examples, and replication resources useful for probabilistic programming languages or frameworks used to specify Bayesian models and run automated inference.",
+    includeWhen: [
+      "probabilistic programming, Stan, PyMC, Turing.jl, greta, brms, BUGS-language modeling, or a closely related Bayesian model-programming framework is central to the paper or resource",
+      "the resource provides package examples, notebooks, model code, replication material, or accessible datasets for Bayesian model specification and automated inference"
+    ],
+    avoidWhen: [
+      "a paper merely uses Bayesian software as an implementation detail without reusable model code, examples, or data resources",
+      "programming or software appears only as generic tooling rather than probabilistic model specification"
+    ],
+    evidenceTerms: ["probabilistic programming", "probabilistic programming language", "probabilistic programming framework", "stan source package", "stan program", "stan code", "stan example", "stan examples", "pymc", "turing.jl", "turinglang", "greta", "brms", "nimblesmc", "nimble package", "bugs-language", "bugs language", "automated inference"]
+  },
+  {
     name: "mcmc diagnostics",
     level: "low",
     parents: ["bayesian inference"],

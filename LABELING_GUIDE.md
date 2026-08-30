@@ -81,6 +81,7 @@ Good label level:
 - `hierarchical forecasting`
 - `forecasting competitions`
 - `probabilistic forecasting`
+- `probabilistic programming`
 - `mcmc diagnostics`
 - `quantile regression`
 - `robust statistics`
@@ -126,6 +127,7 @@ High-level topic families:
     - `forecasting competitions`
 - `bayesian inference`
   - `bayesian hierarchical models`
+  - `probabilistic programming`
   - `mcmc diagnostics`
 
 Mid-level topic families without a current high-level parent:

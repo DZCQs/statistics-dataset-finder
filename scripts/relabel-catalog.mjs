@@ -54,7 +54,7 @@ const parentRules = [
   },
   {
     label: "bayesian inference",
-    children: ["bayesian hierarchical models", "mcmc diagnostics"]
+    children: ["bayesian hierarchical models", "probabilistic programming", "mcmc diagnostics"]
   },
   {
     label: "randomized experiments",
@@ -216,6 +216,14 @@ const evidenceRules = [
     reason: "conformal-prediction, conformal-inference, split/full conformal, jackknife+, CV+, or conformal risk-control evidence in record text",
     test: (paper) =>
       /\b(conformal prediction|conformal inference|distribution-free predictive inference|distribution-free prediction|conformalized quantile regression|split conformal|full conformal|jackknife\+|cv\+|cross-conformal|mondrian conformal|conformal risk control|conformal p-values|conformal predictive|nonconformity score|non-conformity score)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "probabilistic programming",
+    reason: "probabilistic-programming, Stan/PyMC/Turing/greta/brms/nimbleSMC, BUGS-language, or automated-inference evidence in record text",
+    test: (paper) =>
+      /\b(probabilistic programming|probabilistic programming language|probabilistic programming framework|pymc|turing\.jl|turinglang|greta|brms|nimblesmc|nimble package|bugs-language|bugs language|stan source package|stan programs?|stan code|stan examples?|automated inference)\b/i.test(
         paperText(paper)
       )
   },
