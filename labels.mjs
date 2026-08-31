@@ -688,6 +688,36 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["probabilistic programming", "probabilistic programming language", "probabilistic programming framework", "stan source package", "stan program", "stan code", "stan example", "stan examples", "pymc", "turing.jl", "turinglang", "greta", "brms", "nimblesmc", "nimble package", "bugs-language", "bugs language", "automated inference"]
   },
   {
+    name: "simulation-based inference",
+    level: "mid",
+    parents: ["bayesian inference"],
+    definition: "Datasets, simulator tasks, software examples, and replication resources useful for likelihood-free or simulator-based Bayesian inference, including approximate Bayesian computation and neural simulation-based inference.",
+    includeWhen: [
+      "simulation-based inference, likelihood-free inference, simulator-based inference, approximate Bayesian computation, neural posterior/likelihood/ratio estimation, or amortized Bayesian inference is central to the paper or resource",
+      "the resource provides simulator tasks, benchmark observations, reference posterior samples, package examples, notebooks, replication material, or accessible datasets for evaluating inference from simulator-generated data"
+    ],
+    avoidWhen: [
+      "simulation is only used for a generic Monte Carlo study without likelihood-free or simulator-based inference",
+      "ABC appears only as an acronym for an unrelated method, organization, or dataset"
+    ],
+    evidenceTerms: ["simulation-based inference", "simulation based inference", "simulator-based inference", "simulator based inference", "likelihood-free inference", "likelihood free inference", "approximate bayesian computation", "abc-smc", "smc-abc", "sequential monte carlo abc", "neural posterior estimation", "neural likelihood estimation", "neural ratio estimation", "sequential neural posterior estimation", "sbi toolkit", "sbibm", "bayesflow", "pyabc", "abcpy", "elfi", "bolfi", "bayesian optimization for likelihood-free inference", "bayesian synthetic likelihood"]
+  },
+  {
+    name: "approximate Bayesian computation",
+    level: "low",
+    parents: ["simulation-based inference", "bayesian inference"],
+    definition: "Datasets, simulator examples, software workflows, and replication resources useful for approximate Bayesian computation methods, including rejection ABC, ABC-SMC, population Monte Carlo ABC, adaptive thresholds, distances, and summary-statistic selection.",
+    includeWhen: [
+      "approximate Bayesian computation, ABC-SMC, SMC-ABC, rejection ABC, population Monte Carlo ABC, Bayesian synthetic likelihood, or BOLFI-style ABC methodology is central to the paper or resource",
+      "the resource provides simulator models, observed or simulated data, examples, notebooks, package workflows, or replication material for ABC inference"
+    ],
+    avoidWhen: [
+      "ABC is an unrelated acronym or appears without approximate Bayesian computation context",
+      "the paper only uses generic simulation without an ABC or likelihood-free inference workflow"
+    ],
+    evidenceTerms: ["approximate bayesian computation", "abc-smc", "smc-abc", "sequential monte carlo abc", "rejection abc", "population monte carlo abc", "pmc-abc", "adaptive population monte carlo abc", "abc rejection", "bayesian synthetic likelihood", "bolfi", "pyabc", "abcpy", "elfi"]
+  },
+  {
     name: "mcmc diagnostics",
     level: "low",
     parents: ["bayesian inference"],

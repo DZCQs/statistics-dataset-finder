@@ -54,7 +54,17 @@ const parentRules = [
   },
   {
     label: "bayesian inference",
-    children: ["bayesian hierarchical models", "probabilistic programming", "mcmc diagnostics"]
+    children: [
+      "bayesian hierarchical models",
+      "probabilistic programming",
+      "simulation-based inference",
+      "approximate Bayesian computation",
+      "mcmc diagnostics"
+    ]
+  },
+  {
+    label: "simulation-based inference",
+    children: ["approximate Bayesian computation"]
   },
   {
     label: "randomized experiments",
@@ -224,6 +234,22 @@ const evidenceRules = [
     reason: "probabilistic-programming, Stan/PyMC/Turing/greta/brms/nimbleSMC, BUGS-language, or automated-inference evidence in record text",
     test: (paper) =>
       /\b(probabilistic programming|probabilistic programming language|probabilistic programming framework|pymc|turing\.jl|turinglang|greta|brms|nimblesmc|nimble package|bugs-language|bugs language|stan source package|stan programs?|stan code|stan examples?|automated inference)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "simulation-based inference",
+    reason: "simulation-based-inference, likelihood-free, approximate-Bayesian-computation, neural posterior/likelihood/ratio estimation, or SBI benchmark evidence in record text",
+    test: (paper) =>
+      /\b(simulation-based inference|simulation based inference|simulator-based inference|simulator based inference|likelihood-free inference|likelihood free inference|approximate bayesian computation|abc-smc|smc-abc|sequential monte carlo abc|neural posterior estimation|neural likelihood estimation|neural ratio estimation|sequential neural posterior estimation|sbi toolkit|sbibm|bayesflow|pyabc|abcpy|elfi|bolfi|bayesian optimization for likelihood-free inference|bayesian synthetic likelihood)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "approximate Bayesian computation",
+    reason: "approximate-Bayesian-computation, ABC-SMC, BOLFI, Bayesian synthetic likelihood, or ABC package evidence in record text",
+    test: (paper) =>
+      /\b(approximate bayesian computation|abc-smc|smc-abc|sequential monte carlo abc|rejection abc|population monte carlo abc|pmc-abc|adaptive population monte carlo abc|abc rejection|bayesian synthetic likelihood|bolfi|pyabc|abcpy|elfi)\b/i.test(
         paperText(paper)
       )
   },

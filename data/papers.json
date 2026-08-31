@@ -49989,5 +49989,204 @@
     ],
     "bestFor": "Probabilistic programming-style Bayesian inference in R, greta model code, MCMC sampling, Hamiltonian Monte Carlo, prior specification, TensorFlow-backed Bayesian modeling, iris examples, attitude examples, warpbreaks examples, eight-schools analysis, and simulated-data tutorials.",
     "note": "Verified from the JOSS article page, CRAN page, greta package website, and example-model vignettes; the sources link the software repository/archive and document executable examples with built-in and simulated datasets."
+  },
+  {
+    "id": "pmlr-sbibm-benchmarking-simulation-based-inference",
+    "title": "Benchmarking Simulation-Based Inference",
+    "authors": "Jan-Matthis Lueckmann, Jan Boelts, David Greenberg, Pedro Goncalves, Jakob Macke",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "sbibm GitHub repository, companion results repository, PMLR paper, interactive benchmark site, simulator tasks, benchmark observations, reference posterior samples, metrics, wrappers for SBI toolboxes, and result data frames for simulation-based inference benchmarking.",
+    "datasetUrl": "https://github.com/sbi-benchmark/sbibm",
+    "paperUrl": "https://proceedings.mlr.press/v130/lueckmann21a.html",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "benchmark tasks",
+      "reference posterior samples",
+      "result data frames",
+      "reproducibility code",
+      "documentation"
+    ],
+    "properties": [
+      "benchmark",
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "simulation-based inference",
+      "bayesian inference",
+      "approximate Bayesian computation"
+    ],
+    "bestFor": "Simulation-based inference, likelihood-free inference, Bayesian inference, neural posterior estimation, neural likelihood estimation, neural ratio estimation, approximate Bayesian computation, simulator tasks, reference posterior samples, benchmark observations, two-moons, SLCP, Lotka-Volterra, SIR, and C2ST metric evaluation.",
+    "note": "Verified from the PMLR article page, sbibm repository, and companion results repository; the sources document benchmark tasks, observations, reference posterior samples, metrics, wrappers, and reproducibility results."
+  },
+  {
+    "id": "joss-sbi-toolkit-simulation-based-inference",
+    "title": "sbi: A Toolkit for Simulation-Based Inference",
+    "authors": "Alvaro Tejero-Cantero, Jan Boelts, Michael Deistler, Jan-Matthis Lueckmann, Conor Durkan, Pedro J. Goncalves, David S. Greenberg, Jakob H. Macke",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "sbi GitHub repository, JOSS paper, Zenodo software archive, Read the Docs documentation, tutorials, simulator interfaces, neural posterior/likelihood/ratio estimation workflows, validation tools, plotting utilities, and example notebooks for simulation-based Bayesian inference.",
+    "datasetUrl": "https://github.com/sbi-dev/sbi",
+    "paperUrl": "https://doi.org/10.21105/joss.02505",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "Jupyter notebooks",
+      "software archive",
+      "tutorials",
+      "documentation",
+      "example workflows"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "simulation-based inference",
+      "bayesian inference"
+    ],
+    "bestFor": "Simulation-based inference, likelihood-free inference, Bayesian inference, neural posterior estimation, neural likelihood estimation, neural ratio estimation, amortized and sequential SBI, simulator-based parameter inference, posterior validation, and Python notebook workflows.",
+    "note": "Verified from the JOSS article page, Zenodo software archive, sbi repository, and package documentation; the sources link the code, archived source, tutorials, and example simulation-based inference workflows."
+  },
+  {
+    "id": "jmlr-elfi-engine-likelihood-free-inference",
+    "title": "ELFI: Engine for Likelihood-Free Inference",
+    "authors": "Jarno Lintusaari, Henri Vuollekoski, Antti Kangasraasio, Kusti Skyten, Marko Jarvenpaa, Pekka Marttinen, Michael U. Gutmann, Aki Vehtari, Jukka Corander, Samuel Kaski",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "JMLR paper, ELFI GitHub repository, Read the Docs site, notebook tutorials, quickstart examples, simulator-based examples, ABC rejection, SMC-ABC, adaptive ABC-SMC, BOLFI, BOLFIRE, Bayesian synthetic likelihood, output-data storage, visualization, diagnostics, and post-processing workflows.",
+    "datasetUrl": "https://github.com/elfi-dev/elfi",
+    "paperUrl": "https://jmlr.csail.mit.edu/papers/v19/17-374.html",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "notebook tutorials",
+      "example workflows",
+      "documentation",
+      "source code",
+      "stored outputs"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "simulation-based inference",
+      "approximate Bayesian computation",
+      "bayesian inference"
+    ],
+    "bestFor": "Simulation-based inference, likelihood-free inference, approximate Bayesian computation, ABC-SMC, BOLFI, Bayesian synthetic likelihood, simulator graphs, summary statistics, distance functions, output data storage, and parallel likelihood-free inference examples.",
+    "note": "Verified from the JMLR article page, ELFI documentation, and ELFI repository; the sources document LFI methods, example notebooks, simulator graphs, output storage, and source code."
+  },
+  {
+    "id": "joss-pyabc-efficient-robust-approximate-bayesian-computation",
+    "title": "pyABC: Efficient and Robust Easy-to-Use Approximate Bayesian Computation",
+    "authors": "Yannik Schaelte, Emmanuel Klinger, Emad Alamoudi, Jan Hasenauer",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "pyABC GitHub repository, Read the Docs site, JOSS paper, Zenodo software archive, example notebooks, data-store tools, parameter-inference examples, model-selection examples, adaptive-distance examples, application examples, and distributed ABC-SMC workflows for likelihood-free inference.",
+    "datasetUrl": "https://github.com/ICB-DCM/pyABC",
+    "paperUrl": "https://doi.org/10.21105/joss.04304",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "example notebooks",
+      "software archive",
+      "documentation",
+      "data store",
+      "visualization tools"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "simulation-based inference",
+      "approximate Bayesian computation",
+      "bayesian inference"
+    ],
+    "bestFor": "Simulation-based inference, likelihood-free inference, approximate Bayesian computation, ABC-SMC, sequential Monte Carlo ABC, parameter inference, model selection, adaptive distances, distributed computing, data-store export, and simulator-based examples.",
+    "note": "Verified from the JOSS article page, pyABC documentation, Zenodo software archive, Bioinformatics article page, and pyABC repository; the sources link source code, documentation, example notebooks, and archived package snapshots."
+  },
+  {
+    "id": "jss-abcpy-high-performance-approximate-bayesian-computation",
+    "title": "ABCpy: A High-Performance Computing Perspective to Approximate Bayesian Computation",
+    "authors": "Ritabrata Dutta, Marcel Schoengens, Lorenzo Pacchiardi, Avinash Ummadisingu, Nicole Widmer, Pierre Kunzli, Jukka-Pekka Onnela, Antonietta Mira",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "JSS paper, ABCpy Python package, replication materials, GitHub repository, examples directory, documentation, ABC algorithms, likelihood-free inference schemes, distance functions, Bayesian synthetic likelihood, neural summary selection, random forest model selection, and high-performance parallel backends.",
+    "datasetUrl": "https://github.com/eth-cscs/abcpy",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i07",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "replication materials",
+      "examples",
+      "documentation",
+      "source code",
+      "parallel workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "simulation-based inference",
+      "approximate Bayesian computation",
+      "bayesian inference"
+    ],
+    "bestFor": "Simulation-based inference, likelihood-free inference, approximate Bayesian computation, ABC-SMC, population Monte Carlo ABC, Bayesian synthetic likelihood, neural summary statistics, random forest model selection, distributed parallel inference, and HPC benchmark workflows.",
+    "note": "Verified from the JSS article page and ABCpy repository; the sources link the paper, package, replication materials, examples, documentation, and parallel likelihood-free inference algorithms."
+  },
+  {
+    "id": "joss-bayesflow-amortized-bayesian-workflows",
+    "title": "BayesFlow: Amortized Bayesian Workflows With Neural Networks",
+    "authors": "Stefan T. Radev, Marvin Schmitt, Lukas Schumacher, Lasse Elsemueller, Valentin Pratz, Yannik Schalte, Ullrich Koethe, Paul-Christian Buerkner",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "BayesFlow GitHub repository, JOSS paper, software archive, documentation, tutorial notebooks, examples, generative-model simulators, adapters, neural approximators, simulation-based diagnostics, and amortized Bayesian inference workflows with Python backends.",
+    "datasetUrl": "https://github.com/bayesflow-org/bayesflow",
+    "paperUrl": "https://doi.org/10.21105/joss.05702",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "software archive",
+      "tutorial notebooks",
+      "examples",
+      "documentation",
+      "simulators"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "simulation-based inference",
+      "bayesian inference"
+    ],
+    "bestFor": "Simulation-based inference, likelihood-free inference, Bayesian inference, amortized Bayesian inference, neural posterior estimation, neural likelihood estimation, simulator pipelines, data adapters, simulation-based diagnostics, BayesFlow workflows, and reusable Bayesian model examples.",
+    "note": "Verified from the JOSS article page, BayesFlow repository, and BayesFlow documentation; the sources document the code, archive, examples, simulators, neural approximators, and workflow components."
   }
 ]
