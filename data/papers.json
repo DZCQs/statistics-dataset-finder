@@ -50188,5 +50188,311 @@
     ],
     "bestFor": "Simulation-based inference, likelihood-free inference, Bayesian inference, amortized Bayesian inference, neural posterior estimation, neural likelihood estimation, simulator pipelines, data adapters, simulation-based diagnostics, BayesFlow workflows, and reusable Bayesian model examples.",
     "note": "Verified from the JOSS article page, BayesFlow repository, and BayesFlow documentation; the sources document the code, archive, examples, simulators, neural approximators, and workflow components."
+  },
+  {
+    "id": "cageo-compositions-unified-r-package",
+    "title": "compositions: A unified R package to analyze compositional data",
+    "authors": "K. Gerald van den Boogaart, Raimon Tolosana-Delgado, Matevz Bren",
+    "year": 2008,
+    "citations": 0,
+    "dataset": "CRAN compositions package source, reference manual, vignettes, R code, demos, and bundled compositional datasets including Aar glacial sediments, Aitchison-style examples, simplex classes, log-ratio transformations, principal component analysis, clustering, variograms, and compositional kriging examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=compositions",
+    "paperUrl": "https://doi.org/10.1016/j.cageo.2006.11.017",
+    "access": "open",
+    "formats": [
+      "R package",
+      "reference manual",
+      "vignettes",
+      "R code",
+      "demos",
+      "example datasets"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "dimension reduction",
+      "spatial statistics",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Compositional data analysis, Aitchison geometry, simplex-valued data, log-ratio coordinates, additive log-ratio and centered log-ratio transforms, principal component analysis, dimension reduction, cluster analysis, spatial statistics, variograms, compositional kriging, and geochemical composition examples.",
+    "note": "Verified from the Computers and Geosciences article page, CRAN package page, CRAN task view, and R documentation; the package provides source code, vignettes, demos, and bundled compositional datasets such as Aar glacial sediments."
+  },
+  {
+    "id": "wiley-robcompositions-robust-coda-r-package",
+    "title": "robCompositions: An R-package for Robust Statistical Analysis of Compositional Data",
+    "authors": "Matthias Templ, Karel Hron, Peter Filzmoser",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "CRAN robCompositions package source, reference manual, vignettes, user guides, R documentation, and bundled datasets for robust compositional data analysis, outlier detection, robust principal component analysis, robust discriminant analysis, compositional tables, density data, and robust imputation of missing values.",
+    "datasetUrl": "https://CRAN.R-project.org/package=robCompositions",
+    "paperUrl": "https://doi.org/10.1002/9781119976462.ch25",
+    "access": "open",
+    "formats": [
+      "R package",
+      "reference manual",
+      "vignettes",
+      "user guides",
+      "R documentation",
+      "example datasets"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "dimension reduction",
+      "compositional data analysis",
+      "missing data",
+      "multiple imputation",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Compositional data analysis, robust statistics, robust estimation, robust principal component analysis, PCA, dimension reduction, outlier contamination, robust discriminant analysis, missing data, imputation, robust imputation, compositional tables, and density-data examples.",
+    "note": "Verified from the Wiley chapter page, CRAN citation page, CRAN task view, and R documentation; the sources document robCompositions as a robust compositional data package with included datasets, vignettes, and missing-data workflows."
+  },
+  {
+    "id": "chemolab-zcompositions-left-censored-coda",
+    "title": "zCompositions: R package for multivariate imputation of left-censored data under a compositional approach",
+    "authors": "Javier Palarea-Albaladejo, Josep Antoni Martin-Fernandez",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "CRAN zCompositions package source, reference manual, README, GitHub repository, and bundled datasets including La Paloma, Water, and Pigs for zeros, left-censored values, detection limits, missing values, log-ratio EM, log-ratio SVD, and compositional imputation workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=zCompositions",
+    "paperUrl": "https://doi.org/10.1016/j.chemolab.2015.02.019",
+    "access": "open",
+    "formats": [
+      "R package",
+      "reference manual",
+      "README",
+      "source code",
+      "example datasets",
+      "GitHub repository"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple imputation",
+      "compositional data analysis",
+      "missing data"
+    ],
+    "bestFor": "Compositional data analysis, missing data, multiple imputation, imputation of zeros, left-censored data, nondetects, detection-limit data, log-ratio EM, log-ratio SVD, count zeros, La Paloma geochemical data, Water data, and Pigs compositional examples.",
+    "note": "Verified from the Chemometrics and Intelligent Laboratory Systems article page, CRAN package and citation pages, CRAN task view, GitHub repository link, and R documentation for LPdata and related bundled datasets."
+  },
+  {
+    "id": "wu-dirichletreg-compositional-data-r",
+    "title": "DirichletReg: Dirichlet Regression for Compositional Data in R",
+    "authors": "Marco J. Maier",
+    "year": 2014,
+    "citations": 0,
+    "dataset": "CRAN DirichletReg package source, reference manual, article-source vignette, R code, GitHub repository, and bundled Aitchison Rocks data for fitting Dirichlet regression models to compositional responses on the simplex.",
+    "datasetUrl": "https://CRAN.R-project.org/package=DirichletReg",
+    "paperUrl": "https://epub.wu.ac.at/4077/",
+    "access": "open",
+    "formats": [
+      "R package",
+      "reference manual",
+      "vignette source",
+      "R code",
+      "example dataset",
+      "GitHub repository"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "compositional data analysis"
+    ],
+    "bestFor": "Compositional data analysis, Dirichlet regression, simplex-valued response data, proportions that sum to one, mean and dispersion modeling, GLM-style regression for compositions, Aitchison Rocks data, and reproducible R examples.",
+    "note": "Verified from the WU technical-report page, CRAN package and citation pages, CRAN task view, GitHub repository link, and R documentation for the Rocks example dataset."
+  },
+  {
+    "id": "bmc-coda4microbiome-cross-sectional-longitudinal",
+    "title": "coda4microbiome: compositional data analysis for microbiome cross-sectional and longitudinal studies",
+    "authors": "M. Luz Calle, Meritxell Pujolassos, Antoni Susin",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "CRAN coda4microbiome package source, package website, GitHub repository, tutorials, reference manual, and bundled Crohn, HIV, sCD14, ECAM, and simulated shannon datasets for all-pairs log-ratio modeling, penalized regression, variable selection, cross-sectional signatures, and longitudinal microbial trajectories.",
+    "datasetUrl": "https://CRAN.R-project.org/package=coda4microbiome",
+    "paperUrl": "https://doi.org/10.1186/s12859-023-05205-3",
+    "access": "open",
+    "formats": [
+      "R package",
+      "reference manual",
+      "tutorials",
+      "package website",
+      "source code",
+      "bundled datasets"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "compositional data analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Compositional data analysis, high-dimensional statistics, variable selection, lasso, elastic net penalized regression, log-ratio models, cross-sectional microbiome signatures, longitudinal data analysis, log-ratio trajectories, prediction, Crohn data, HIV data, sCD14 data, and ECAM examples.",
+    "note": "Verified from the BMC Bioinformatics article, CRAN package page, package website, GitHub repository, and R documentation; the article states that illustrative datasets are available as data objects in the package."
+  },
+  {
+    "id": "nargab-coda4microbiome-survival-studies",
+    "title": "Microbiome compositional data analysis for survival studies",
+    "authors": "Meritxell Pujolassos, Antoni Susin, M. Luz Calle",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Zenodo data and code archive, CRAN coda4microbiome package, package tutorials, and R documentation for compositional Cox models, all-pairs log-ratio survival signatures, time-to-event outcomes, right-censored event data, risk-score plots, and reproducible survival-analysis examples.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.10552383",
+    "paperUrl": "https://doi.org/10.1093/nargab/lqae038",
+    "access": "open",
+    "formats": [
+      "Zenodo archive",
+      "R package",
+      "R code",
+      "tutorials",
+      "reference manual",
+      "example dataset"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "survival analysis",
+      "survival models",
+      "variable selection",
+      "compositional data analysis",
+      "risk prediction"
+    ],
+    "bestFor": "Compositional data analysis, survival analysis, survival models, risk prediction, time-to-event data, Cox proportional hazards models, right-censored outcomes, high-dimensional statistics, variable selection, elastic net penalized Cox regression, log-ratio survival signatures, and microbial risk-score examples.",
+    "note": "Verified from the NAR Genomics and Bioinformatics article, PMC full text, Zenodo DOI statement, CRAN package page, and coda_coxnet documentation; the article states that data and code for reproducing the analysis are available at Zenodo."
+  },
+  {
+    "id": "elife-philr-compositional-microbiota-transform",
+    "title": "A phylogenetic transform enhances analysis of compositional microbiota data",
+    "authors": "Justin D. Silverman, Alex D. Washburne, Sayan Mukherjee, Lawrence A. David",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Bioconductor philr package, GitHub repository, package vignette, R scripts, reference manual, and documented access to HMP, Global Patterns, and phyloseq-based microbiome composition examples for phylogenetic isometric log-ratio transforms.",
+    "datasetUrl": "https://bioconductor.org/packages/philr/",
+    "paperUrl": "https://doi.org/10.7554/eLife.21887",
+    "access": "open",
+    "formats": [
+      "Bioconductor package",
+      "GitHub repository",
+      "vignette",
+      "R script",
+      "reference manual",
+      "public dataset links"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Compositional data analysis, high-dimensional statistics, dimension reduction, isometric log-ratio transforms, phylogenetic balances, microbiome proportion data, PCA-style ordination, tree-guided transformations, HMP examples, Global Patterns examples, and phyloseq workflows.",
+    "note": "Verified from the eLife article, Bioconductor package page, and GitHub repository; the sources document package installation, vignette access, public microbiome data acquisition, and phylogenetic ILR transform workflows."
+  },
+  {
+    "id": "msystems-selbal-balances-microbiome-analysis",
+    "title": "Balances: A New Perspective for Microbiome Analysis",
+    "authors": "Julia Rivera-Pinto, Juan Jose Egozcue, Vera Pawlowsky-Glahn, Raul Paredes, Roger Noguera-Julian, M. Luz Calle",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "selbal GitHub repository, package vignette, scripts, included HIV and sCD14 datasets, balance-selection examples, BioProject PRJNA307231, SRA SRP068240, and reproducible workflows for identifying sparse balances associated with outcomes in compositional data.",
+    "datasetUrl": "https://github.com/malucalle/selbal",
+    "paperUrl": "https://doi.org/10.1128/mSystems.00053-18",
+    "access": "open",
+    "formats": [
+      "R package",
+      "GitHub repository",
+      "vignette",
+      "scripts",
+      "included datasets",
+      "public sequence archive links"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Compositional data analysis, variable selection, high-dimensional statistics, feature selection, sparse balance models, log-ratio balances, microbiome signatures, cross-validation, logistic regression, HIV examples, sCD14 examples, BioProject PRJNA307231, and SRA SRP068240.",
+    "note": "Verified from the mSystems article, PMC data-availability snippet, GitHub repository, and vignette documentation; the paper states that data sets and scripts for reproducing the work are available in GitHub and sequence data are available through BioProject and SRA."
+  },
+  {
+    "id": "plos-aldex-mixed-population-rnaseq",
+    "title": "ANOVA-Like Differential Expression Analysis for Mixed Population RNA-Seq",
+    "authors": "Andrew D. Fernandes, Jean M. Macklaim, Thomas G. Linn, Gregor Reid, Gregory B. Gloor",
+    "year": 2013,
+    "citations": 0,
+    "dataset": "Bioconductor ALDEx2 package, GitHub repository, vignettes, R scripts, reference manual, high-throughput sequencing count examples, differential relative-abundance workflows, Dirichlet-multinomial Monte Carlo instances, posterior Benjamini-Hochberg false-discovery calculations, and PLOS paper datasets.",
+    "datasetUrl": "https://bioconductor.org/packages/ALDEx2/",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0067019",
+    "access": "open",
+    "formats": [
+      "Bioconductor package",
+      "GitHub repository",
+      "vignettes",
+      "R scripts",
+      "reference manual",
+      "article datasets"
+    ],
+    "properties": [
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "multiple testing",
+      "compositional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Compositional data analysis, high-dimensional statistics, multiple testing, false discovery rate control, Benjamini-Hochberg correction, Bayesian inference, Dirichlet-multinomial modeling, posterior p-values, differential abundance analysis, RNA-seq count compositions, and reproducible Bioconductor workflows.",
+    "note": "Verified from the PLOS ONE article, PubMed metadata, Bioconductor ALDEx2 package page, Bioconductor vignettes, and GitHub repository; the sources document count-compositional examples, package code, R scripts, and false-discovery workflows."
   }
 ]
