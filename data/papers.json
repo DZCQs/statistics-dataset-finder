@@ -50494,5 +50494,303 @@
     ],
     "bestFor": "Compositional data analysis, high-dimensional statistics, multiple testing, false discovery rate control, Benjamini-Hochberg correction, Bayesian inference, Dirichlet-multinomial modeling, posterior p-values, differential abundance analysis, RNA-seq count compositions, and reproducible Bioconductor workflows.",
     "note": "Verified from the PLOS ONE article, PubMed metadata, Bioconductor ALDEx2 package page, Bioconductor vignettes, and GitHub repository; the sources document count-compositional examples, package code, R scripts, and false-discovery workflows."
+  },
+  {
+    "id": "jss-synth-synthetic-control-methods",
+    "title": "Synth: An R Package for Synthetic Control Methods in Comparative Case Studies",
+    "authors": "Jens Hainmueller, Alexis Diamond, Alberto Abadie",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "CRAN Synth package source, JSS article materials, R documentation, and bundled Basque Country and synthetic-control panel datasets for comparative case studies with treated units, donor pools, pre-intervention predictors, counterfactual outcome trajectories, and gap plots.",
+    "datasetUrl": "https://CRAN.R-project.org/package=Synth",
+    "paperUrl": "https://doi.org/10.18637/jss.v042.i13",
+    "access": "open",
+    "formats": [
+      "R package",
+      "article",
+      "R documentation",
+      "example panel datasets",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "synthetic control methods",
+      "treatment effect estimation",
+      "longitudinal data analysis",
+      "panel data methods",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Synthetic control methods, synthetic controls, causal inference, treatment effect estimation, quasi-experimental designs, panel data methods, longitudinal data analysis, donor-pool construction, comparative case studies, Basque Country data, and counterfactual trajectory examples.",
+    "note": "Verified from the JSS article page, CRAN package page, CRAN citation page, and R documentation index; the sources document the Synth package, its JSS article, and bundled Basque and synth.data panel examples."
+  },
+  {
+    "id": "politicalanalysis-gsynth-generalized-synthetic-control",
+    "title": "Generalized Synthetic Control Method: Causal Inference with Interactive Fixed Effects Models",
+    "authors": "Yiqing Xu",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "CRAN gsynth package source, R documentation, simulation data, and generalized synthetic-control examples for interactive fixed-effect models, multiple treated units, variable treatment periods, counterfactual imputation, cumulative effects, and panel causal inference.",
+    "datasetUrl": "https://CRAN.R-project.org/package=gsynth",
+    "paperUrl": "https://doi.org/10.1017/pan.2016.2",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R documentation",
+      "simulation data",
+      "source code",
+      "examples"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "synthetic control methods",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Generalized synthetic control methods, synthetic controls, causal inference, treatment effect estimation, quasi-experimental designs, panel data methods, longitudinal data analysis, interactive fixed effects, counterfactual imputation, and variable treatment timing examples.",
+    "note": "Verified from the CRAN gsynth package page and R documentation index; CRAN cites Xu 2017 and documents package data and code for generalized synthetic control with interactive fixed-effect panel models."
+  },
+  {
+    "id": "aoas-causalimpact-bayesian-structural-time-series",
+    "title": "Inferring Causal Impact Using Bayesian Structural Time-Series Models",
+    "authors": "Kay H. Brodersen, Fabian Gallusser, Jim Koehler, Nicolas Remy, Steven L. Scott",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "CRAN CausalImpact package source, Google package documentation, examples that create intervention time series and control time series, vignettes, plotting and summary code, and Bayesian structural time-series workflows for estimating post-intervention causal effects.",
+    "datasetUrl": "https://CRAN.R-project.org/package=CausalImpact",
+    "paperUrl": "https://doi.org/10.1214/14-AOAS788",
+    "access": "open",
+    "formats": [
+      "R package",
+      "documentation",
+      "vignette",
+      "example time series",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "time series analysis",
+      "treatment effect estimation",
+      "time series forecasting",
+      "bayesian inference",
+      "interrupted time series"
+    ],
+    "bestFor": "Interrupted time series, intervention time series, causal inference, treatment effect estimation, quasi-experimental designs, Bayesian inference, time series analysis, Bayesian structural time-series models, counterfactual forecasting, and post-intervention impact examples.",
+    "note": "Verified from the CRAN package and citation pages, Google CausalImpact documentation, and R documentation index; the package implements the Annals of Applied Statistics method and provides documented example datasets and workflows."
+  },
+  {
+    "id": "obsstudies-ivmodel-instrumental-variables-sensitivity",
+    "title": "ivmodel: An R Package for Inference and Sensitivity Analysis of Instrumental Variables Models with One Endogenous Variable",
+    "authors": "Hyunseung Kang, Yang Jiang, Qingyuan Zhao, Dylan S. Small",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "CRAN ivmodel package source, R documentation, Card education-returns data, Anderson-Rubin power and sample-size routines, conditional likelihood ratio tests, sensitivity analysis, balance diagnostics, and instrumental-variable causal-effect examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=ivmodel",
+    "paperUrl": "https://doi.org/10.1353/obs.2021.0029",
+    "access": "open",
+    "formats": [
+      "R package",
+      "reference manual",
+      "example dataset",
+      "diagnostic plots",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "instrumental variables",
+      "quasi-experimental designs",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Instrumental variables, instrumental variable models, causal inference, treatment effect estimation, quasi-experimental designs, weak instruments, Anderson-Rubin tests, conditional likelihood ratio inference, sensitivity analysis, power analysis, Card data, and diagnostic plotting examples.",
+    "note": "Verified from the CRAN package page and R documentation index; the sources document the ivmodel package, Card data, IV inference functions, sensitivity analysis, and diagnostics."
+  },
+  {
+    "id": "pnas-storey-tibshirani-genomewide-qvalue",
+    "title": "Statistical Significance for Genomewide Studies",
+    "authors": "John D. Storey, Robert Tibshirani",
+    "year": 2003,
+    "citations": 0,
+    "dataset": "Bioconductor qvalue package, package DOI, vignette source, manual, Hedenfalk p-value and null-statistic example data, q-value estimation functions, local false discovery rate calculations, and reproducible large-scale testing workflows.",
+    "datasetUrl": "https://bioconductor.org/packages/qvalue/",
+    "paperUrl": "https://doi.org/10.1073/pnas.1530509100",
+    "access": "open",
+    "formats": [
+      "Bioconductor package",
+      "vignette",
+      "manual",
+      "example dataset",
+      "R code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Multiple testing, false discovery rate, FDR, q-values, local false discovery rates, empirical p-values, high-dimensional statistics, genomics, gene expression, large-scale hypothesis testing, Hedenfalk data, and reproducible Bioconductor examples.",
+    "note": "Verified from the Bioconductor package page and qvalue vignette source; the sources document FDR and local FDR workflows and load the Hedenfalk example data with p-values and null statistics."
+  },
+  {
+    "id": "natmethods-ihw-independent-hypothesis-weighting",
+    "title": "Data-Driven Hypothesis Weighting Increases Detection Power in Genome-Scale Multiple Testing",
+    "authors": "Nikolaos Ignatiadis, Bernd Klaus, Judith B. Zaugg, Wolfgang Huber",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Bioconductor IHW package, package DOI, introductory vignette, RNA-seq differential-expression example, p-value and covariate tables, diagnostic plots, weighted Benjamini-Hochberg workflows, and incomplete p-value list examples.",
+    "datasetUrl": "https://bioconductor.org/packages/IHW/",
+    "paperUrl": "https://doi.org/10.1038/nmeth.3885",
+    "access": "open",
+    "formats": [
+      "Bioconductor package",
+      "vignette",
+      "manual",
+      "example tables",
+      "R code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Multiple testing, false discovery rate, FDR, independent hypothesis weighting, weighted Benjamini-Hochberg procedures, high-dimensional statistics, genomics, RNA-seq differential expression, p-value covariates, diagnostic plots, and large-scale testing workflows.",
+    "note": "Verified from the Bioconductor IHW package page, package DOI, and introductory vignette; the sources document package code, RNA-seq examples, p-value covariates, FDR control, and diagnostic plots."
+  },
+  {
+    "id": "bioinformatics-fdrtool-local-fdr-higher-criticism",
+    "title": "fdrtool: A Versatile R Package for Estimating Local and Tail Area-Based False Discovery Rates",
+    "authors": "Korbinian Strimmer",
+    "year": 2008,
+    "citations": 0,
+    "dataset": "CRAN fdrtool package source, reference manual, R documentation, bundled pvalues example data, and examples for p-values, z-scores, t-scores, correlation coefficients, tail-area FDR, local FDR, higher criticism, Grenander density estimation, and isotonic or antitonic regression utilities.",
+    "datasetUrl": "https://CRAN.R-project.org/package=fdrtool",
+    "paperUrl": "https://doi.org/10.1093/bioinformatics/btn209",
+    "access": "open",
+    "formats": [
+      "R package",
+      "reference manual",
+      "R documentation",
+      "source code",
+      "examples"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Multiple testing, false discovery rate, FDR, local false discovery rates, tail-area false discovery rates, higher criticism, high-dimensional statistics, p-value workflows, z-score workflows, empirical null estimation, monotone regression, and reproducible R examples.",
+    "note": "Verified from the CRAN package page and R documentation; the fdrtool examples load bundled pvalues data, and the sources document local and tail-area FDR estimation, higher criticism, null estimation, and package source code."
+  },
+  {
+    "id": "jasa-efron-large-scale-simultaneous-hypothesis-testing",
+    "title": "Large-Scale Simultaneous Hypothesis Testing",
+    "authors": "Bradley Efron",
+    "year": 2004,
+    "citations": 0,
+    "dataset": "CRAN locfdr package source, reference manual, vignette, HIV example dataset, simulated locfdr dataset, and R code for estimating empirical-null and theoretical-null local false discovery rates.",
+    "datasetUrl": "https://CRAN.R-project.org/package=locfdr",
+    "paperUrl": "https://doi.org/10.1198/016214504000000089",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignette",
+      "reference manual",
+      "example datasets",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Multiple testing, false discovery rate, FDR, local false discovery rates, empirical null estimation, theoretical null comparisons, high-dimensional statistics, HIV data, simulated null and nonnull mixtures, and reproducible local FDR examples.",
+    "note": "Verified from the CRAN package page and R documentation index; the sources document the locfdr vignette, package source, HIV data, simulated data, and local FDR calculation routines."
+  },
+  {
+    "id": "springer-multtest-multiple-testing-genomics",
+    "title": "Multiple Testing Procedures: the multtest Package and Applications to Genomics",
+    "authors": "K. S. Pollard, S. Dudoit, M. J. van der Laan",
+    "year": 2005,
+    "citations": 0,
+    "dataset": "Bioconductor multtest package, package DOI, manual, source code, Golub leukemia gene-expression dataset documentation, and examples for bootstrap and permutation resampling-based multiple testing, familywise error rate, generalized familywise error rate, false discovery rate, t-statistics, F-statistics, and empirical Bayes procedures.",
+    "datasetUrl": "https://bioconductor.org/packages/multtest/",
+    "paperUrl": "https://doi.org/10.1007/0-387-29362-0_15",
+    "access": "open",
+    "formats": [
+      "Bioconductor package",
+      "manual",
+      "source code",
+      "examples",
+      "resampling workflows"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "resampling methods",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Multiple testing, multiple hypothesis tests, false discovery rate, FDR, familywise error, resampling methods, bootstrap, permutation tests, empirical Bayes, high-dimensional statistics, genomics, microarray testing, and reproducible Bioconductor workflows.",
+    "note": "Verified from the Bioconductor multtest package page and package documentation for the Golub leukemia gene-expression dataset; the sources document resampling-based multiple-testing procedures, FDR and familywise error control, bootstrap and permutation null distributions, and package code."
   }
 ]
