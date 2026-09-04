@@ -916,13 +916,13 @@
     "year": 2011,
     "citations": 1300,
     "dataset": "Tourism forecasting competition data",
-    "datasetUrl": "https://robjhyndman.com/data/tourism/",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/Tcomp/html/tourism.html",
     "paperUrl": "https://doi.org/10.1016/j.ijforecast.2010.04.009",
     "access": "open",
     "formats": [
       "time series",
       "tourism flows",
-      "csv"
+      "R package data"
     ],
     "properties": [
       "benchmark"
@@ -43120,10 +43120,9 @@
       "spatial statistics",
       "time series analysis",
       "missing data",
-      "high-dimensional statistics",
       "risk prediction"
     ],
-    "bestFor": "high-dimensional statistics examples with an explicitly accessible dataset or replication archive.",
+    "bestFor": "Spatial statistics, time series analysis, missing data, and risk-prediction examples with an explicitly accessible dataset or replication archive.",
     "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
   },
   {
@@ -44198,17 +44197,15 @@
     "properties": [
       "existing-dataset",
       "auto-discovered",
-      "needs-review"
+      "needs-review",
+      "needs-label-review"
     ],
     "topics": [
       "high-dimensional statistics",
-      "risk prediction",
-      "time series classification",
-      "hierarchical forecasting",
-      "time series analysis"
+      "risk prediction"
     ],
     "bestFor": "Statistical methods examples with an explicitly accessible dataset or replication archive.",
-    "note": "Auto-discovered from zenodo. Metadata indicates an accessible dataset or replication resource; curator review remains marked until later cleanup."
+    "note": "Auto-discovered from zenodo. Removed a stale hierarchical-forecasting label during catalog health cleanup because this record is a hierarchical drug-interaction classification dataset, not a forecast-reconciliation resource."
   },
   {
     "id": "zenodo-18624620-dataset-transpiration-is-older-than-streamflow-at-maimai-the-ecohydrological-cou",
@@ -50792,5 +50789,338 @@
     ],
     "bestFor": "Multiple testing, multiple hypothesis tests, false discovery rate, FDR, familywise error, resampling methods, bootstrap, permutation tests, empirical Bayes, high-dimensional statistics, genomics, microarray testing, and reproducible Bioconductor workflows.",
     "note": "Verified from the Bioconductor multtest package page and package documentation for the Golub leukemia gene-expression dataset; the sources document resampling-based multiple-testing procedures, FDR and familywise error control, bootstrap and permutation null distributions, and package code."
+  },
+  {
+    "id": "ijforecast-hierarchical-tourism-forecasts",
+    "title": "Hierarchical Forecasts for Australian Domestic Tourism",
+    "authors": "George Athanasopoulos, Roman A. Ahmed, Rob J. Hyndman",
+    "year": 2009,
+    "citations": 0,
+    "dataset": "Australian domestic tourism hierarchical time series CSV for tourism demand by purpose of travel and geographic region.",
+    "datasetUrl": "https://robjhyndman.com/data/hier1_with_names.csv",
+    "paperUrl": "https://doi.org/10.1016/j.ijforecast.2008.07.004",
+    "access": "open",
+    "formats": [
+      "csv",
+      "hierarchical time series",
+      "tourism demand"
+    ],
+    "properties": [
+      "benchmark",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "hierarchical forecasting",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Hierarchical forecasting, top-down and bottom-up forecast reconciliation, grouped time series forecasting, and coherent forecasts for Australian tourism demand.",
+    "note": "Verified from the Rob Hyndman publication page, which links the DOI, paper PDF, and downloadable tourism data CSV."
+  },
+  {
+    "id": "csda-optimal-combination-hierarchical-time-series",
+    "title": "Optimal Combination Forecasts for Hierarchical Time Series",
+    "authors": "Rob J. Hyndman, Roman A. Ahmed, George Athanasopoulos, Han Lin Shang",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "Australian domestic tourism hierarchical time series CSV used for optimal-combination forecast reconciliation examples.",
+    "datasetUrl": "https://robjhyndman.com/data/hier1_with_names.csv",
+    "paperUrl": "https://doi.org/10.1016/j.csda.2011.03.006",
+    "access": "open",
+    "formats": [
+      "csv",
+      "hierarchical time series",
+      "forecast reconciliation"
+    ],
+    "properties": [
+      "benchmark",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "hierarchical forecasting",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Optimal-combination forecast reconciliation, coherent forecasts, hierarchical time series, grouped time series, and time series forecasting with aggregation constraints.",
+    "note": "Verified from the Rob Hyndman publication page, which documents the CSDA paper and links the tourism data resource."
+  },
+  {
+    "id": "csda-fast-reconciled-hierarchical-grouped-time-series",
+    "title": "Fast Computation of Reconciled Forecasts for Hierarchical and Grouped Time Series",
+    "authors": "Rob J. Hyndman, Alan Lee, Earo Wang",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "hts R package documentation, source, examples, and package datasets for hierarchical and grouped time series forecast reconciliation.",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/hts/html/hts-package.html",
+    "paperUrl": "https://doi.org/10.1016/j.csda.2015.11.007",
+    "access": "open",
+    "formats": [
+      "R package",
+      "documentation",
+      "example datasets",
+      "hierarchical time series"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "hierarchical forecasting",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Scalable forecast reconciliation, grouped time series, hierarchical forecasting, aggregation-constrained structures, and software-backed time series forecasting examples.",
+    "note": "Verified from CRAN hts documentation: the package presents tools for hierarchical and grouped time series and cites the CSDA fast-reconciliation paper."
+  },
+  {
+    "id": "ejor-forecasting-with-temporal-hierarchies",
+    "title": "Forecasting with Temporal Hierarchies",
+    "authors": "George Athanasopoulos, Rob J. Hyndman, Nikolaos Kourentzes, Fotios Petropoulos",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "thief R package Accident and Emergency demand dataset and temporal hierarchy forecasting examples.",
+    "datasetUrl": "https://pkg.robjhyndman.com/thief/reference/AEdemand.html",
+    "paperUrl": "https://doi.org/10.1016/j.ejor.2017.02.046",
+    "access": "open",
+    "formats": [
+      "R package",
+      "time series",
+      "example dataset",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "hierarchical forecasting"
+    ],
+    "bestFor": "Temporal hierarchical forecasting, forecast reconciliation across temporal aggregation levels, emergency-demand forecasting examples, and coherent multi-horizon time series forecasts.",
+    "note": "Verified from ScienceDirect snippets and thief documentation: the paper points to the thief R package, and the package documents the AEdemand dataset used in examples."
+  },
+  {
+    "id": "jasa-mint-forecast-reconciliation",
+    "title": "Optimal Forecast Reconciliation for Hierarchical and Grouped Time Series Through Trace Minimization",
+    "authors": "Shanika L. Wickramasuriya, George Athanasopoulos, Rob J. Hyndman",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "FoReco vndata Australian Tourism Demand grouped monthly time series and aggregation matrix for MinT forecast reconciliation.",
+    "datasetUrl": "https://danigiro.github.io/FoReco/reference/vndata.html",
+    "paperUrl": "https://doi.org/10.1080/01621459.2018.1448825",
+    "access": "open",
+    "formats": [
+      "R package",
+      "grouped time series",
+      "aggregation matrix",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "benchmark",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "hierarchical forecasting",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Minimum-trace forecast reconciliation, hierarchical forecasting, grouped time series, covariance estimation for coherent forecasts, and large-scale time series forecasting.",
+    "note": "Verified from the Rob Hyndman MinT page and FoReco vndata documentation, which identifies the Australian Tourism Demand dataset as used by Wickramasuriya et al. 2019."
+  },
+  {
+    "id": "statcomput-nonnegative-forecast-reconciliation",
+    "title": "Optimal Non-Negative Forecast Reconciliation",
+    "authors": "Shanika L. Wickramasuriya, Berwin A. Turlach, Rob J. Hyndman",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Australian tourism hierarchical time series and hts R package examples for non-negative forecast reconciliation.",
+    "datasetUrl": "https://robjhyndman.com/data/hier1_with_names.csv",
+    "paperUrl": "https://doi.org/10.1007/s11222-020-09930-0",
+    "access": "open",
+    "formats": [
+      "csv",
+      "R package",
+      "hierarchical time series",
+      "forecast reconciliation"
+    ],
+    "properties": [
+      "benchmark",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "hierarchical forecasting",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Non-negative coherent forecasts, constrained forecast reconciliation, hierarchical forecasting, grouped time series, and tourism demand forecasting.",
+    "note": "Verified from the Rob Hyndman publication page, which links the DOI, associated hts package, and downloadable tourism data."
+  },
+  {
+    "id": "ijforecast-forecast-reconciliation-geometric-view",
+    "title": "Forecast Reconciliation: A Geometric View with New Insights on Bias Correction",
+    "authors": "Anastasios Panagiotelis, Puwasala Gamakumara, George Athanasopoulos, Rob J. Hyndman",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Australian tourism flows used for empirical forecast reconciliation and bias-correction experiments.",
+    "datasetUrl": "https://danigiro.github.io/FoReco/reference/vndata.html",
+    "paperUrl": "https://doi.org/10.1016/j.ijforecast.2020.06.004",
+    "access": "open",
+    "formats": [
+      "R package",
+      "grouped time series",
+      "aggregation matrix",
+      "documentation"
+    ],
+    "properties": [
+      "benchmark",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "hierarchical forecasting",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Forecast reconciliation as projection, bias correction before reconciliation, hierarchical time series, grouped time series, and coherent time series forecasting.",
+    "note": "Verified from the Rob Hyndman publication page, which states that the empirical study uses Australian tourism flows; FoReco vndata provides the corresponding documented grouped tourism dataset."
+  },
+  {
+    "id": "ejor-probabilistic-forecast-reconciliation-score",
+    "title": "Probabilistic Forecast Reconciliation: Properties, Evaluation and Score Optimisation",
+    "authors": "Anastasios Panagiotelis, Puwasala Gamakumara, George Athanasopoulos, Rob J. Hyndman",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "ProbReco R package, online supplements, and OpenNEM/AEMO electricity generation data source for probabilistic forecast reconciliation experiments.",
+    "datasetUrl": "https://p5g.robjhyndman.com/publications/coherentprob/",
+    "paperUrl": "https://doi.org/10.1016/j.ejor.2022.07.040",
+    "access": "open",
+    "formats": [
+      "R package",
+      "online supplement",
+      "energy time series",
+      "probabilistic forecasts"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "hierarchical forecasting",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Probabilistic forecast reconciliation, score optimisation, stochastic-gradient reconciliation weights, hierarchical time series, grouped time series, and coherent probabilistic forecasting.",
+    "note": "Verified from the Rob Hyndman publication page, which links the ProbReco package and online supplements; ScienceDirect metadata documents the OpenNEM/AEMO empirical data source."
+  },
+  {
+    "id": "ijforecast-cross-temporal-reconciliation-optimal-heuristic",
+    "title": "Cross-Temporal Forecast Reconciliation: Optimal Combination Method and Heuristic Alternatives",
+    "authors": "Tommaso Di Fonzo, Daniele Girolimetto",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "FoReco package datasets and vignettes for cross-sectional, temporal, and cross-temporal forecast reconciliation.",
+    "datasetUrl": "https://danigiro.github.io/FoReco/articles/Dataset-vndata-and-itagdp.html",
+    "paperUrl": "https://doi.org/10.1016/j.ijforecast.2021.08.004",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignettes",
+      "grouped time series",
+      "aggregation matrix"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "hierarchical forecasting",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Cross-temporal forecast reconciliation, optimal combination methods, linearly constrained multiple time series, hierarchical forecasting, and grouped time series.",
+    "note": "Verified from FoReco documentation, which cites the IJF paper and provides vndata, itagdp, and FoReco_data examples for cross-temporal reconciliation."
+  },
+  {
+    "id": "ijforecast-cross-temporal-probabilistic-reconciliation",
+    "title": "Cross-Temporal Probabilistic Forecast Reconciliation: Methodological and Practical Issues",
+    "authors": "Daniele Girolimetto, George Athanasopoulos, Tommaso Di Fonzo, Rob J. Hyndman",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "FoReco vndata Australian Tourism Demand and itagdp Italian GDP linearly constrained multiple time series datasets.",
+    "datasetUrl": "https://danigiro.github.io/FoReco/articles/Dataset-vndata-and-itagdp.html",
+    "paperUrl": "https://doi.org/10.1016/j.ijforecast.2023.10.003",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignettes",
+      "probabilistic forecasts",
+      "grouped time series"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "hierarchical forecasting",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Cross-temporal probabilistic forecast reconciliation, coherent forecast distributions, Australian tourism demand, Italian GDP constraints, hierarchical forecasting, and grouped time series.",
+    "note": "Verified from the open IJF article metadata and FoReco dataset documentation for vndata and itagdp."
+  },
+  {
+    "id": "joss-bayesreconpy-forecast-reconciliation",
+    "title": "BayesReconPy: A Python Package for Forecast Reconciliation",
+    "authors": "Anubhab Biswas, Lorenzo Nespoli, Dario Azzimonti, Lorenzo Zambon, Nicolo Rubattu, Giorgio Corani",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "BayesReconPy documentation and example notebooks using M5 hierarchy base forecasts for probabilistic forecast reconciliation.",
+    "datasetUrl": "https://bayesreconpy.readthedocs.io/en/latest/examples.html",
+    "paperUrl": "https://doi.org/10.21105/joss.08336",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "Jupyter notebooks",
+      "M5 hierarchy",
+      "example datasets"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis",
+      "hierarchical forecasting",
+      "forecasting competitions"
+    ],
+    "bestFor": "Bayesian probabilistic forecast reconciliation, mixed-type hierarchical forecasts, M5 competition hierarchy examples, grouped time series, and Python-based coherent forecasting workflows.",
+    "note": "Verified from the JOSS paper page, BayesReconPy repository, and documentation examples that load M5_CA1_basefc data for M5 hierarchical reconciliation."
   }
 ]

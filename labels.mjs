@@ -455,7 +455,7 @@ export const LABEL_REGISTRY = [
       "the paper merely uses ordinary machine learning, classification, or prediction language without a high-dimensional-data or regularization focus",
       "the dataset is only a generic benchmark platform without evidence that high-dimensional structure is the reason a student would search for it"
     ],
-    evidenceTerms: ["high-dimensional", "high dimensional", "p >> n", "p>n", "sparse", "sparsity", "lasso", "elastic net", "regularization", "regularized", "penalized", "variable selection", "genomics", "transcriptomic", "gene expression", "microarray"]
+    evidenceTerms: ["high-dimensional", "high dimensional", "p >> n", "p>n", "sparse regression", "sparse modeling", "sparse model", "sparsity-inducing", "sparse precision", "lasso", "elastic net", "regularization", "regularized", "penalized", "variable selection", "genomics", "transcriptomic", "gene expression", "microarray"]
   },
   {
     name: "multiple testing",

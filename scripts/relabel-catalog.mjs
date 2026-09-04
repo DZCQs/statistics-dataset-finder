@@ -322,12 +322,16 @@ const evidenceRules = [
   },
   {
     label: "high-dimensional statistics",
-    reason: "high-dimensional, sparse, regularized, or genomic-feature evidence in record text",
-    test: (paper) =>
-      !/\bsparse demand\b/i.test(paperText(paper)) &&
-      /\b(high-dimensional|high dimensional|p\s*>>\s*n|p\s*>\s*n|sparse|sparsity|lasso|elastic net|regulari[sz]ed|regulari[sz]ation|penali[sz]ed|variable selection|genomics|transcriptomic|gene expression|microarray)\b/i.test(
-        paperText(paper)
-      )
+    reason: "high-dimensional, sparse-model, regularized, or genomic-feature evidence in record text",
+    test: (paper) => {
+      const text = paperText(paper);
+      return (
+        !/\bsparse (demand|observations?|measurements?|records?|samples?|sampling|coverage|data)\b/i.test(text) &&
+        /\b(high-dimensional|high dimensional|p\s*>>\s*n|p\s*>\s*n|sparse (regression|models?|modeling|modelling|learning|precision|inverse covariance|graphical|variables?|features?|estimation)|sparsity-inducing|lasso|elastic net|regulari[sz]ed|regulari[sz]ation|penali[sz]ed|variable selection|genomics|transcriptomic|gene expression|microarray)\b/i.test(
+          text
+        )
+      );
+    }
   },
   {
     label: "forecasting competitions",
