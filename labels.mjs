@@ -236,6 +236,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["meta-analysis", "meta analysis", "meta-analytic", "evidence synthesis", "effect-size", "effect size", "between-study heterogeneity", "correlated sampling error", "systematic review"]
   },
   {
+    name: "network meta-analysis",
+    level: "low",
+    parents: ["meta-analysis"],
+    definition: "Datasets and replication packages useful for network meta-analysis, indirect treatment comparison, treatment-network consistency, rank probabilities, or multi-treatment evidence synthesis.",
+    includeWhen: [
+      "the paper or dataset provides arm-level, contrast-level, or study-network data for network meta-analysis",
+      "the accessible code or package examples support Bayesian or frequentist network meta-analysis, inconsistency checks, treatment ranking, or indirect comparisons"
+    ],
+    avoidWhen: [
+      "network language refers to graph/network data rather than network meta-analysis",
+      "the paper only mentions network meta-analysis in background text without an accessible treatment-network dataset or workflow"
+    ],
+    evidenceTerms: ["network meta-analysis", "network metaanalysis", "network meta analysis", "nma", "indirect treatment comparison", "mixed treatment comparison", "treatment network", "rank probabilities", "sucra", "netmeta", "pcnetmeta", "bugsnet", "gemtc"]
+  },
+  {
     name: "complex survey design",
     level: "mid",
     parents: ["survey methodology"],

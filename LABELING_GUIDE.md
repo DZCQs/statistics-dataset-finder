@@ -89,6 +89,7 @@ Good label level:
 - `robust statistics`
 - `conformal prediction`
 - `mixture models`
+- `network meta-analysis`
 
 ## Current Label Hierarchy
 
@@ -145,6 +146,8 @@ Mid-level topic families without a current high-level parent:
 - `multilevel modeling`
   - `bayesian hierarchical models`
 - `item response theory`
+- `meta-analysis`
+  - `network meta-analysis`
 - `quantile regression`
 - `robust statistics`
 - `conformal prediction`

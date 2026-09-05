@@ -1,5 +1,6 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { LABEL_CANDIDATES, LABEL_REGISTRY, LABEL_RULES } from "../labels.mjs";
+import { evidenceTermMatches } from "./label-evidence.mjs";
 
 const DEFAULT_LIMIT = 25;
 const DEFAULT_DELAY_MS = 1200;
@@ -175,7 +176,7 @@ function scoreLabels(paper) {
   const text = textFor(paper);
   return LABEL_REGISTRY
     .map((label) => {
-      const evidence = label.evidenceTerms.filter((term) => text.includes(term.toLowerCase()));
+      const evidence = label.evidenceTerms.filter((term) => evidenceTermMatches(text, term));
       return { label: label.name, score: evidence.length, evidence };
     })
     .filter((item) => item.score >= LABEL_RULES.scoreThreshold)
@@ -187,7 +188,7 @@ function scoreCandidateLabels(paper) {
   const text = textFor(paper);
   return LABEL_CANDIDATES
     .map((label) => {
-      const evidence = (label.evidenceTerms || []).filter((term) => text.includes(term.toLowerCase()));
+      const evidence = (label.evidenceTerms || []).filter((term) => evidenceTermMatches(text, term));
       return { label: label.name, score: evidence.length, evidence };
     })
     .filter((item) => item.score > 0)

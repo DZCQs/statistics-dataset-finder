@@ -1,5 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { LABEL_REGISTRY, LABEL_RULES } from "../labels.mjs";
+import { evidenceTermMatches } from "./label-evidence.mjs";
 
 const candidatePath = process.argv[2];
 
@@ -27,7 +28,7 @@ function textFor(paper) {
 
 function scoreLabel(paper, label) {
   const text = textFor(paper);
-  const evidence = label.evidenceTerms.filter((term) => text.includes(term.toLowerCase()));
+  const evidence = label.evidenceTerms.filter((term) => evidenceTermMatches(text, term));
   return {
     label: label.name,
     score: evidence.length,

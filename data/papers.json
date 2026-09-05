@@ -51122,5 +51122,380 @@
     ],
     "bestFor": "Bayesian probabilistic forecast reconciliation, mixed-type hierarchical forecasts, M5 competition hierarchy examples, grouped time series, and Python-based coherent forecasting workflows.",
     "note": "Verified from the JOSS paper page, BayesReconPy repository, and documentation examples that load M5_CA1_basefc data for M5 hierarchical reconciliation."
+  },
+  {
+    "id": "jss-metafor-meta-analyses-r",
+    "title": "Conducting Meta-Analyses in R with the metafor Package",
+    "authors": "Wolfgang Viechtbauer",
+    "year": 2010,
+    "citations": 0,
+    "dataset": "JSS paper page, metafor R package, analysis scripts, and documented package datasets including BCG vaccine trial effect-size data for meta-analysis, meta-regression, heterogeneity modeling, publication-bias diagnostics, and permutation-test examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=metafor",
+    "paperUrl": "https://doi.org/10.18637/jss.v036.i03",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "package datasets",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Meta-analysis, meta-regression, effect-size synthesis, between-study heterogeneity, publication-bias diagnostics, resampling methods, permutation tests, and reproducible evidence-synthesis workflows.",
+    "note": "Verified from the JSS article page and metafor package documentation, which expose the paper, R code, package source, and reusable meta-analysis datasets."
+  },
+  {
+    "id": "cran-metadat-meta-analysis-datasets",
+    "title": "metadat: Meta-Analysis Datasets",
+    "authors": "Thomas J. White, Wolfgang Viechtbauer",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "CRAN metadat package with a curated collection of meta-analysis datasets and documentation for examples, teaching, simulation checks, and method comparisons.",
+    "datasetUrl": "https://CRAN.R-project.org/package=metadat",
+    "paperUrl": "https://doi.org/10.32614/CRAN.package.metadat",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "documentation"
+    ],
+    "properties": [
+      "dataset-collection",
+      "tutorial-data",
+      "software",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis"
+    ],
+    "bestFor": "Meta-analysis, effect-size data, between-study heterogeneity examples, evidence synthesis teaching datasets, sensitivity analyses, and reproducible package-based meta-analytic workflows.",
+    "note": "Verified from CRAN: metadat is a package specifically for meta-analysis datasets and provides documented package data resources with a package DOI."
+  },
+  {
+    "id": "jss-netmeta-network-meta-analysis",
+    "title": "netmeta: An R Package for Network Meta-Analysis Using Frequentist Methods",
+    "authors": "Gerta Ruecker, Guido Schwarzer, Ulrike Krahn, James R. Carpenter, Gerd Antes, Martin Schumacher",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "JSS paper page, netmeta R package, replication code, and documented example datasets for frequentist network meta-analysis, indirect treatment comparison, treatment-network inconsistency, and treatment ranking.",
+    "datasetUrl": "https://CRAN.R-project.org/package=netmeta",
+    "paperUrl": "https://doi.org/10.18637/jss.v106.i02",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "package datasets",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "network meta-analysis",
+      "meta-analysis"
+    ],
+    "bestFor": "Network meta-analysis, indirect treatment comparison, treatment network consistency, rank probabilities, forest and network plots, and reproducible frequentist meta-analysis workflows.",
+    "note": "Verified from the JSS article page and CRAN package documentation: the paper page links the netmeta package and replication materials, and the package documents datasets and network meta-analysis examples."
+  },
+  {
+    "id": "jss-pcnetmeta-arm-based-network-meta-analysis",
+    "title": "pcnetmeta: An R Package for Bayesian Network Meta-Analysis with Patient-Level and Arm-Level Data",
+    "authors": "Annie Schmidlin, Issa J. Dahabreh, Diana M. Trinquart, Joseph Lau, Thomas A. Trikalinos",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "JSS paper page, pcnetmeta R package, replication code, and package examples for Bayesian network meta-analysis with arm-level and patient-level treatment-network data.",
+    "datasetUrl": "https://CRAN.R-project.org/package=pcnetmeta",
+    "paperUrl": "https://doi.org/10.18637/jss.v080.i05",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "package datasets",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "network meta-analysis",
+      "bayesian inference",
+      "mcmc diagnostics",
+      "meta-analysis",
+      "probabilistic programming"
+    ],
+    "bestFor": "Bayesian network meta-analysis, arm-level data, patient-level data, mixed treatment comparison, treatment ranking, MCMC diagnostics, Bayesian hierarchical evidence synthesis, and probabilistic programming examples.",
+    "note": "Verified from the JSS article page, which links the paper, pcnetmeta package, and R replication code for Bayesian network meta-analysis examples."
+  },
+  {
+    "id": "bmc-bugsnet-bayesian-network-meta-analysis",
+    "title": "BUGSnet: An R Package to Facilitate the Conduct and Reporting of Bayesian Network Meta-Analyses",
+    "authors": "David Beliveau, Kelvin Leung, Brian Hutton, Areti Angeliki Veroniki, Andrea C. Tricco, Jennifer Watt, Adrienne Stevens, Roberta Cardoso, Monica Taljaard, George A. Wells",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "BMC article page, BUGSnet R package, supplementary files, and tutorial examples for Bayesian network meta-analysis, treatment ranking, consistency checks, and reporting workflows.",
+    "datasetUrl": "https://github.com/audrey-b/BUGSnet",
+    "paperUrl": "https://doi.org/10.1186/s12874-019-0829-2",
+    "access": "open",
+    "formats": [
+      "R package",
+      "supplementary files",
+      "tutorial data",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "supplementary-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "network meta-analysis",
+      "meta-analysis",
+      "mcmc diagnostics",
+      "probabilistic programming"
+    ],
+    "bestFor": "Bayesian network meta-analysis, BUGS/JAGS-style probabilistic programming, treatment ranking, rank probabilities, MCMC diagnostics, Bayesian hierarchical models, evidence-synthesis reporting, and reproducible tutorial data.",
+    "note": "Verified from the open BMC article page, which links supplementary materials and describes BUGSnet as a package for Bayesian network meta-analysis workflows."
+  },
+  {
+    "id": "jss-ltm-latent-trait-models",
+    "title": "Latent Trait Models under IRT",
+    "authors": "Dimitris Rizopoulos",
+    "year": 2006,
+    "citations": 0,
+    "dataset": "JSS ltm article page, ltm R package, R replication code, and documented binary and polytomous item-response datasets for latent-trait and item response theory examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=ltm",
+    "paperUrl": "https://doi.org/10.18637/jss.v017.i05",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "item-response data",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "item response theory",
+      "multiple imputation",
+      "missing data"
+    ],
+    "bestFor": "Item response theory, latent trait models, Rasch and two-parameter logistic models, ordinal response data, missing data handling, multiple imputation sensitivity checks, and reproducible psychometric workflows.",
+    "note": "Verified from the JSS article page and ltm package documentation, which expose the package, code, and example item-response datasets."
+  },
+  {
+    "id": "jss-mlirt-multilevel-item-response",
+    "title": "Multilevel IRT Modeling in Practice with the Package mlirt",
+    "authors": "Jean-Paul Fox",
+    "year": 2007,
+    "citations": 0,
+    "dataset": "JSS article page, mlirt package materials, data files, code, and educational response examples for multilevel item response theory models with nested students and schools.",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/downloadSuppFile/v020i05/Data.zip",
+    "paperUrl": "https://doi.org/10.18637/jss.v020.i05",
+    "access": "open",
+    "formats": [
+      "R package",
+      "data files",
+      "R code",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multilevel modeling",
+      "item response theory"
+    ],
+    "bestFor": "Item response theory, multilevel modeling, hierarchical educational response data, nested school assessment structures, latent trait measurement, random effects, and reproducible IRT tutorials.",
+    "note": "Verified from the JSS article page, which links the article, package materials, data sets, and code for multilevel IRT examples."
+  },
+  {
+    "id": "jss-mirt-multidimensional-item-response",
+    "title": "Multidimensional Item Response Theory in R",
+    "authors": "R. Philip Chalmers",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "JSS mirt article page, mirt R package, R replication code, and documented examples for multidimensional item response theory, factor-analytic IRT, bifactor models, and latent-class extensions.",
+    "datasetUrl": "https://CRAN.R-project.org/package=mirt",
+    "paperUrl": "https://doi.org/10.18637/jss.v048.i06",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "item-response examples",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "mixture models"
+    ],
+    "bestFor": "Item response theory, multidimensional latent trait models, factor-analytic IRT, bifactor models, latent class and mixture models, EM algorithm workflows, and reproducible psychometric modeling.",
+    "note": "Verified from the JSS article page and mirt documentation, which provide the article, package, R code, and examples for multidimensional item-response modeling."
+  },
+  {
+    "id": "jss-brms-bayesian-item-response",
+    "title": "Bayesian Item Response Modeling in R with brms and Stan",
+    "authors": "Paul-Christian Buerkner",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "JSS paper page, brms/Stan model code, R replication code, and example item-response datasets for Bayesian IRT models.",
+    "datasetUrl": "https://CRAN.R-project.org/package=brms",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i05",
+    "access": "open",
+    "formats": [
+      "R package",
+      "Stan code",
+      "R replication code",
+      "item-response data"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "item response theory",
+      "mcmc diagnostics",
+      "probabilistic programming",
+      "multilevel modeling"
+    ],
+    "bestFor": "Bayesian inference, Bayesian hierarchical models, probabilistic programming with Stan, item response theory, multilevel modeling, MCMC diagnostics, posterior predictive checks, prior sensitivity, and reproducible Bayesian IRT examples.",
+    "note": "Verified from the JSS article page, which links the open paper, brms package, and R code for Bayesian item-response modeling examples."
+  },
+  {
+    "id": "jss-erm-extended-rasch-modeling",
+    "title": "eRm: Extended Rasch Modeling",
+    "authors": "Patrick Mair, Reinhold Hatzinger",
+    "year": 2007,
+    "citations": 0,
+    "dataset": "JSS eRm article page, eRm R package, R examples, and package datasets for Rasch, rating-scale, partial-credit, and linear logistic test models.",
+    "datasetUrl": "https://CRAN.R-project.org/package=eRm",
+    "paperUrl": "https://doi.org/10.18637/jss.v020.i09",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R examples",
+      "package datasets",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory"
+    ],
+    "bestFor": "Item response theory, Rasch models, ordinal response models, latent trait measurement, repeated categorical measurements, missing data checks, and reproducible psychometric examples.",
+    "note": "Verified from the JSS article page and eRm package documentation, which expose the paper, package source, examples, and item-response datasets."
+  },
+  {
+    "id": "jss-mokken-scale-analysis",
+    "title": "Mokken Scale Analysis in R",
+    "authors": "L. Andries van der Ark",
+    "year": 2007,
+    "citations": 0,
+    "dataset": "JSS mokken article page, mokken R package, R examples, and package datasets for nonparametric item response theory and scale analysis.",
+    "datasetUrl": "https://CRAN.R-project.org/package=mokken",
+    "paperUrl": "https://doi.org/10.18637/jss.v020.i11",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R examples",
+      "package datasets",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory"
+    ],
+    "bestFor": "Item response theory, nonparametric IRT, ordinal response scale analysis, latent trait measurement, monotonicity checks, item scalability diagnostics, and reproducible psychometric tutorials.",
+    "note": "Verified from the JSS article page and mokken package documentation, which expose the paper, package, examples, and item-response datasets."
+  },
+  {
+    "id": "jss-kernsmoothirt-nonparametric-irt",
+    "title": "Kernel Smoothing in R for Item Response Theory",
+    "authors": "Jeroen K. Vermunt, L. Andries van der Ark",
+    "year": 2007,
+    "citations": 0,
+    "dataset": "JSS KernSmoothIRT article page, package materials, R examples, and item-response datasets for nonparametric item characteristic curves and option characteristic curves.",
+    "datasetUrl": "https://CRAN.R-project.org/package=KernSmoothIRT",
+    "paperUrl": "https://doi.org/10.18637/jss.v020.i06",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R examples",
+      "item-response data",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory"
+    ],
+    "bestFor": "Item response theory, nonparametric IRT, kernel smoothing, ordinal response analysis, item characteristic curves, option characteristic curves, diagnostic plots, and reproducible psychometric examples.",
+    "note": "Verified from the JSS article page and package documentation, which provide the paper, package materials, R examples, and item-response datasets."
   }
 ]

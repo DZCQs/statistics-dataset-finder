@@ -1,5 +1,6 @@
 import { readFile } from "node:fs/promises";
 import { LABEL_CANDIDATES, LABEL_REGISTRY, LABEL_RULES } from "../labels.mjs";
+import { evidenceTermMatches } from "./label-evidence.mjs";
 
 async function loadPapers() {
   const source = await readFile(new URL("../data/papers.json", import.meta.url), "utf8");
@@ -24,7 +25,7 @@ function paperText(paper) {
 
 function scoreLabel(paper, label) {
   const text = paperText(paper);
-  const evidenceHits = label.evidenceTerms.filter((term) => text.includes(term.toLowerCase()));
+  const evidenceHits = label.evidenceTerms.filter((term) => evidenceTermMatches(text, term));
   const topicHit = (paper.topics || []).includes(label.name);
   const score = evidenceHits.length + (topicHit ? 2 : 0);
   return {

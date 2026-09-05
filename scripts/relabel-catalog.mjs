@@ -71,6 +71,10 @@ const parentRules = [
     children: ["survey experiments"]
   },
   {
+    label: "meta-analysis",
+    children: ["network meta-analysis"]
+  },
+  {
     label: "survival analysis",
     children: ["survival models"]
   },
@@ -138,6 +142,14 @@ const evidenceRules = [
     reason: "bootstrap, permutation, jackknife, or resampling-inference evidence in record text",
     test: (paper) =>
       /\b(bootstrap|resampling|permutation test|permutation|jackknife|bootstrap confidence interval|bootstrap confidence region)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "network meta-analysis",
+    reason: "network-meta-analysis, indirect-treatment-comparison, treatment-network, or NMA software evidence in record text",
+    test: (paper) =>
+      /\b(network meta-analysis|network metaanalysis|network meta analysis|indirect treatment comparison|mixed treatment comparison|treatment network|rank probabilities|sucra|netmeta|pcnetmeta|bugsnet|gemtc)\b/i.test(
         paperText(paper)
       )
   },
