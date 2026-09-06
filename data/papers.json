@@ -51497,5 +51497,303 @@
     ],
     "bestFor": "Item response theory, nonparametric IRT, kernel smoothing, ordinal response analysis, item characteristic curves, option characteristic curves, diagnostic plots, and reproducible psychometric examples.",
     "note": "Verified from the JSS article page and package documentation, which provide the paper, package materials, R examples, and item-response datasets."
+  },
+  {
+    "id": "jss-matching-propensity-balance",
+    "title": "Multivariate and Propensity Score Matching Software with Automated Balance Optimization: The Matching Package for R",
+    "authors": "Jasjeet S. Sekhon",
+    "year": 2011,
+    "citations": 1360,
+    "dataset": "JSS paper page, Matching R package, R example code, LaLonde data, Gerber-Green-Imai data, and package demos for propensity score matching, multivariate matching, genetic matching, balance diagnostics, and causal treatment-effect estimation.",
+    "datasetUrl": "https://CRAN.R-project.org/package=Matching",
+    "paperUrl": "https://doi.org/10.18637/jss.v042.i07",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "package datasets",
+      "JSS supplementary files"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "propensity score methods",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Propensity score methods, matching estimators, causal inference, treatment effect estimation, observational study adjustment, covariate balance diagnostics, genetic matching, simulation checks, and reproducible LaLonde/field-experiment examples.",
+    "note": "Verified from the JSS article page, CRAN package materials, and Jasjeet Sekhon's Matching software page, which list the paper, package, example code, LaLonde data, Gerber-Green-Imai data, and demos."
+  },
+  {
+    "id": "jss-matchit-nonparametric-preprocessing",
+    "title": "MatchIt: Nonparametric Preprocessing for Parametric Causal Inference",
+    "authors": "Daniel E. Ho, Kosuke Imai, Gary King, Elizabeth A. Stuart",
+    "year": 2011,
+    "citations": 3000,
+    "dataset": "JSS paper page, MatchIt R package, R example code, vignettes, and LaLonde National Supported Work data for matching, propensity score methods, covariate balance checks, and treatment effect estimation.",
+    "datasetUrl": "https://CRAN.R-project.org/package=MatchIt",
+    "paperUrl": "https://doi.org/10.18637/jss.v042.i08",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "package datasets",
+      "vignettes",
+      "JSS supplementary files"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "propensity score methods",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Causal inference, treatment effect estimation, propensity score methods, matching workflows, observational study preprocessing, covariate balance diagnostics, sensitivity to modeling assumptions, and reproducible LaLonde examples.",
+    "note": "Verified from the JSS article page and CRAN documentation, which provide the paper, MatchIt package, R example code, vignettes, and the LaLonde dataset."
+  },
+  {
+    "id": "jrssb-cbps-covariate-balancing-propensity-score",
+    "title": "Covariate Balancing Propensity Score",
+    "authors": "Kosuke Imai, Marc Ratkovic",
+    "year": 2014,
+    "citations": 2100,
+    "dataset": "CBPS R package, package documentation, LaLonde data examples, Blackwell data examples, and reproducible code for covariate balancing propensity scores, matching, weighting, and treatment effect estimation.",
+    "datasetUrl": "https://CRAN.R-project.org/package=CBPS",
+    "paperUrl": "https://doi.org/10.1111/rssb.12027",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "R examples",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "propensity score methods",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Propensity score methods, covariate balancing, causal inference, treatment effect estimation, observational study weighting, matching, generalized method of moments, empirical likelihood, and LaLonde benchmark examples.",
+    "note": "Verified from the JRSSB article page, Kosuke Imai's CBPS software page, and CRAN documentation showing package examples and accessible LaLonde data."
+  },
+  {
+    "id": "statajournal-cem-coarsened-exact-matching",
+    "title": "cem: Coarsened Exact Matching in Stata",
+    "authors": "Matthew Blackwell, Stefano M. Iacus, Gary King, Giuseppe Porro",
+    "year": 2009,
+    "citations": 1000,
+    "dataset": "cem R/Stata software resources, CRAN package documentation, LL/LaLonde-style data examples, vignettes, and reproducible examples for coarsened exact matching and imbalance reduction in causal treatment-effect studies.",
+    "datasetUrl": "https://CRAN.R-project.org/package=cem",
+    "paperUrl": "https://doi.org/10.1177/1536867X0900900402",
+    "access": "open",
+    "formats": [
+      "R package",
+      "Stata package",
+      "package datasets",
+      "vignettes",
+      "examples"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "propensity score methods",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Causal inference, treatment effect estimation, matching, propensity score methods broadly construed, quasi-experimental and observational study preprocessing, imbalance diagnostics, and reproducible LaLonde-style examples.",
+    "note": "Verified from the Stata Journal article, CRAN cem documentation, and package examples exposing LL data, vignettes, and executable matching workflows."
+  },
+  {
+    "id": "statajournal-rdlocrand-local-randomization-rd",
+    "title": "Inference in Regression Discontinuity Designs under Local Randomization",
+    "authors": "Matias D. Cattaneo, Rocio Titiunik, Gonzalo Vazquez-Bare",
+    "year": 2016,
+    "citations": 100,
+    "dataset": "rdlocrand GitHub repository, R/Python/Stata implementations, replication scripts, senate data, and examples for local randomization inference in regression discontinuity designs.",
+    "datasetUrl": "https://github.com/rdpackages/rdlocrand",
+    "paperUrl": "https://doi.org/10.1177/1536867X1601600205",
+    "access": "open",
+    "formats": [
+      "R package",
+      "Python package",
+      "Stata package",
+      "replication scripts",
+      "senate data"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "regression discontinuity designs"
+    ],
+    "bestFor": "Regression discontinuity designs, causal inference, treatment effect estimation, quasi-experimental designs, randomization inference, finite-sample RD inference, window selection near cutoffs, sensitivity analysis, and U.S. Senate election examples.",
+    "note": "Verified from the SAGE Stata Journal article page and the rdpackages/rdlocrand repository, which list R/Python/Stata implementations, replication scripts, and senate data."
+  },
+  {
+    "id": "statajournal-rddensity-manipulation-testing",
+    "title": "Manipulation Testing Based on Density Discontinuity",
+    "authors": "Matias D. Cattaneo, Michael Jansson, Xinwei Ma",
+    "year": 2018,
+    "citations": 400,
+    "dataset": "rddensity GitHub repository, R/Python/Stata implementations, replication scripts, rddensity illustration files, rdplotdensity illustration files, and senate data for manipulation testing in regression discontinuity designs.",
+    "datasetUrl": "https://github.com/rdpackages/rddensity",
+    "paperUrl": "https://doi.org/10.1177/1536867X1801800115",
+    "access": "open",
+    "formats": [
+      "R package",
+      "Python package",
+      "Stata package",
+      "replication scripts",
+      "senate data"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "regression discontinuity designs",
+      "robust statistics"
+    ],
+    "bestFor": "Regression discontinuity designs, quasi-experimental designs, causal inference, treatment effect estimation, manipulation testing, density discontinuity checks, local polynomial density estimation, robust estimation, bandwidth selection, and senate-data RD falsification examples.",
+    "note": "Verified from the Stata Journal article page, CRAN documentation, and the rdpackages/rddensity repository, which expose replication scripts, illustration files, and senate data."
+  },
+  {
+    "id": "jss-lpdensity-local-polynomial-density",
+    "title": "lpdensity: Local Polynomial Density Estimation and Inference",
+    "authors": "Matias D. Cattaneo, Michael Jansson, Xinwei Ma",
+    "year": 2022,
+    "citations": 11,
+    "dataset": "JSS article page, lpdensity R/Python/Stata package repositories, package examples, replication materials, and Monte Carlo comparison code for local polynomial density estimation, boundary-adaptive inference, and robust bias-corrected confidence bands.",
+    "datasetUrl": "https://github.com/nppackages/lpdensity",
+    "paperUrl": "https://doi.org/10.18637/jss.v101.i02",
+    "access": "open",
+    "formats": [
+      "R package",
+      "Python package",
+      "Stata package",
+      "replication materials",
+      "Monte Carlo code"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics"
+    ],
+    "bestFor": "Robust estimation, nonparametric density estimation, local polynomial inference, boundary correction, bandwidth selection, Monte Carlo comparison, confidence bands, and reusable package examples for density and distribution-function estimation.",
+    "note": "Verified from the JSS article page, Princeton publication metadata, and the nppackages/lpdensity repository, which provide the paper, package materials, replication resources, and examples. Included with label review because density estimation is not yet an official public label."
+  },
+  {
+    "id": "statajournal-rdpower-rd-power-sample-size",
+    "title": "Power Calculations for Regression-Discontinuity Designs",
+    "authors": "Matias D. Cattaneo, Rocio Titiunik, Gonzalo Vazquez-Bare",
+    "year": 2019,
+    "citations": 80,
+    "dataset": "rdpower GitHub repository, R/Python/Stata implementations, rdpower illustration files, rdpower_senate data, replication do-files, and examples for power, sample size, and minimum detectable effect calculations in regression discontinuity designs.",
+    "datasetUrl": "https://github.com/rdpackages/rdpower",
+    "paperUrl": "https://doi.org/10.1177/1536867X19830919",
+    "access": "open",
+    "formats": [
+      "R package",
+      "Python package",
+      "Stata package",
+      "replication scripts",
+      "senate data"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "regression discontinuity designs",
+      "robust statistics"
+    ],
+    "bestFor": "Regression discontinuity designs, quasi-experimental designs, causal inference, treatment effect estimation, experimental design, power calculations, sample size planning, minimum detectable effects, robust estimation, and senate-data RD examples.",
+    "note": "Verified from the SAGE article page, CRAN documentation, PyPI metadata, and the rdpackages/rdpower repository, which list implementations, illustration files, replication scripts, and senate data."
+  },
+  {
+    "id": "cran-rdhte-heterogeneous-rd-effects",
+    "title": "rdhte: Heterogeneous Treatment Effects in Regression Discontinuity Designs",
+    "authors": "Sebastian Calonico, Matias D. Cattaneo, Max H. Farrell, Filippo Palomba, Rocio Titiunik",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "rdhte GitHub repository, CRAN package, R/Python/Stata implementations, rdhte illustration data, package examples, and replication resources for conditional average treatment effects in regression discontinuity designs.",
+    "datasetUrl": "https://github.com/rdpackages/rdhte",
+    "paperUrl": "https://doi.org/10.48550/arXiv.2503.13696",
+    "access": "open",
+    "formats": [
+      "R package",
+      "Python package",
+      "Stata package",
+      "package data",
+      "vignettes",
+      "examples"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "heterogeneous treatment effects",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "regression discontinuity designs",
+      "robust statistics"
+    ],
+    "bestFor": "Heterogeneous treatment effects, conditional treatment effects, regression discontinuity designs, causal inference, treatment effect estimation, quasi-experimental designs, robust estimation, bandwidth selection, and reproducible RD examples with pretreatment covariates.",
+    "note": "Verified from rdpackages/rdhte, CRAN documentation, and RD Packages metadata, which expose the software, vignettes, illustration data, and arXiv-linked methodology. Included as a package-paper/workflow record rather than a journal article."
   }
 ]
