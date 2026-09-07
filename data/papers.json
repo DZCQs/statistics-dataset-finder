@@ -51795,5 +51795,236 @@
     ],
     "bestFor": "Heterogeneous treatment effects, conditional treatment effects, regression discontinuity designs, causal inference, treatment effect estimation, quasi-experimental designs, robust estimation, bandwidth selection, and reproducible RD examples with pretreatment covariates.",
     "note": "Verified from rdpackages/rdhte, CRAN documentation, and RD Packages metadata, which expose the software, vignettes, illustration data, and arXiv-linked methodology. Included as a package-paper/workflow record rather than a journal article."
+  },
+  {
+    "id": "jss-glmnet-regularization-paths-glm",
+    "title": "Regularization Paths for Generalized Linear Models via Coordinate Descent",
+    "authors": "Jerome H. Friedman, Trevor Hastie, Robert Tibshirani",
+    "year": 2010,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, glmnet R package, R example code, replication ZIP archive, source code, and R binary data sets for lasso and elastic-net regularized generalized linear models.",
+    "datasetUrl": "https://CRAN.R-project.org/package=glmnet",
+    "paperUrl": "https://doi.org/10.18637/jss.v033.i01",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "replication archive",
+      "source code",
+      "R binary data",
+      "vignettes"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, sparse regression, lasso, elastic net, regularized generalized linear models, penalized likelihood, coordinate descent, cross-validation, and reproducible glmnet examples.",
+    "note": "Verified from the JSS article page and CRAN documentation. JSS exposes the paper, glmnet package, R code to replicate figures, timing-simulation source archive, and multiple R binary data sets."
+  },
+  {
+    "id": "jss-glmnet-cox-regularization-paths",
+    "title": "Regularization Paths for Cox's Proportional Hazards Model via Coordinate Descent",
+    "authors": "Noah Simon, Jerome H. Friedman, Trevor Hastie, Robert Tibshirani",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, glmnet R package, paper example code, R replication code, and example data for elastic-net regularized Cox proportional hazards models.",
+    "datasetUrl": "https://CRAN.R-project.org/package=glmnet",
+    "paperUrl": "https://doi.org/10.18637/jss.v039.i05",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "replication code",
+      "example data",
+      "survival-model vignette"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "survival analysis",
+      "variable selection",
+      "survival models"
+    ],
+    "bestFor": "Survival analysis, survival models, high-dimensional statistics, variable selection, time-to-event modeling, Cox proportional hazards models, censoring, elastic-net regularization, lasso paths, and reproducible glmnet Cox examples.",
+    "note": "Verified from the JSS article page and CRAN glmnet documentation. The article page lists the paper, glmnet package, paper example code, replication code, and example data."
+  },
+  {
+    "id": "aoas-ncvreg-nonconvex-penalized-regression",
+    "title": "Coordinate Descent Algorithms for Nonconvex Penalized Regression, with Applications to Biological Feature Selection",
+    "authors": "Patrick Breheny, Jian Huang",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "ncvreg R package and documentation with Heart, Lung, prostate, and Prostate example data for SCAD, MCP, lasso, elastic-net, cross-validation, high-dimensional sparse regression, and biological feature selection.",
+    "datasetUrl": "https://CRAN.R-project.org/package=ncvreg",
+    "paperUrl": "https://doi.org/10.1214/10-AOAS388",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "vignettes",
+      "examples",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, sparse regression, biological feature selection, nonconvex penalized regression, MCP, SCAD, lasso comparisons, regularization paths, and package data examples.",
+    "note": "Verified from the ncvreg citation page and R-universe/CRAN package documentation, which lists the package, DOI, vignettes, source resources, and accessible Heart, Lung, prostate, and Prostate datasets."
+  },
+  {
+    "id": "statcomp-grpreg-grouped-penalized-regression",
+    "title": "Group Descent Algorithms for Nonconvex Penalized Linear and Logistic Regression Models with Grouped Predictors",
+    "authors": "Patrick Breheny, Jian Huang",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "grpreg R package and documentation with Birthwt, birthwt.grpreg, Lung, nonlinear generated examples, vignettes, and source code for grouped penalties, group lasso, group MCP, group SCAD, and grouped variable selection.",
+    "datasetUrl": "https://CRAN.R-project.org/package=grpreg",
+    "paperUrl": "https://doi.org/10.1007/s11222-013-9424-2",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "vignettes",
+      "examples",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, grouped covariates, grouped variable selection, sparse regression, regularized regression paths, group lasso, group MCP, group SCAD, and reproducible grpreg package datasets.",
+    "note": "Verified from the grpreg package site and R-universe/CRAN documentation, which list the citation DOI, package homepage, source code, vignettes, and package datasets."
+  },
+  {
+    "id": "jss-sis-sure-independence-screening",
+    "title": "SIS: An R Package for Sure Independence Screening in Ultrahigh-Dimensional Statistical Models",
+    "authors": "Diego Franco Saldana, Yang Feng",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, SIS R package, and replication materials with real and simulated data sets for sure independence screening, generalized linear models, Cox proportional hazards models, and ultrahigh-dimensional variable selection.",
+    "datasetUrl": "https://CRAN.R-project.org/package=SIS",
+    "paperUrl": "https://doi.org/10.18637/jss.v083.i02",
+    "access": "open",
+    "formats": [
+      "R package",
+      "replication materials",
+      "real data examples",
+      "simulated data",
+      "Cox model examples"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variable selection",
+      "high-dimensional statistics",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, survival analysis, survival models, sure independence screening, ultrahigh-dimensional feature selection, Cox models, penalized likelihood, sparse regression, and reproducible SIS replication materials.",
+    "note": "Verified from the JSS article page, which lists the paper, SIS package, and replication materials, and describes real and simulated datasets for variable-selection experiments."
+  },
+  {
+    "id": "jrssb-modelx-knockoffs-controlled-variable-selection",
+    "title": "Panning for Gold: Model-X Knockoffs for High Dimensional Controlled Variable Selection",
+    "authors": "Emmanuel Candes, Yingying Fan, Lucas Janson, Jinchi Lv",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Stanford knockoffs software page, knockoff-filter GitHub repository, R and MATLAB packages, tutorials, simulation examples, and code used to analyze real data for controlled high-dimensional variable selection and false discovery rate control.",
+    "datasetUrl": "https://github.com/msesia/knockoff-filter",
+    "paperUrl": "https://doi.org/10.1111/rssb.12265",
+    "access": "open",
+    "formats": [
+      "GitHub repository",
+      "R package",
+      "MATLAB package",
+      "tutorials",
+      "simulation code",
+      "analysis code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, multiple testing, false discovery rate control, FDR, knockoff filters, sparse feature selection, controlled variable selection, simulations, and reproducible knockoff software tutorials.",
+    "note": "Verified from the JRSSB article page and Stanford knockoffs software page. The article points to MATLAB and R code used for the analyses, and the Stanford page links the public GitHub repository and tutorials."
+  },
+  {
+    "id": "jasa-selective-inference-sequential-regression",
+    "title": "Exact Post-Selection Inference for Sequential Regression Procedures",
+    "authors": "Ryan J. Tibshirani, Jonathan Taylor, Richard Lockhart, Robert Tibshirani",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "selectiveInference R package and selective-inference software project with package examples for forward stepwise regression, least angle regression, lasso, many means, p-values, selection intervals, selective inference, type I error, and post-selection confidence intervals.",
+    "datasetUrl": "https://CRAN.R-project.org/package=selectiveInference",
+    "paperUrl": "https://doi.org/10.1080/01621459.2015.1108848",
+    "access": "open",
+    "formats": [
+      "R package",
+      "GitHub software project",
+      "package examples",
+      "simulation examples",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "multiple testing",
+      "variable selection"
+    ],
+    "bestFor": "Variable selection, high-dimensional statistics, multiple testing, selective inference, post-selection inference, lasso, least angle regression, forward stepwise procedures, type I error control, and reproducible selectiveInference package examples.",
+    "note": "Verified from the CRAN selectiveInference documentation and the JASA DOI metadata. CRAN documents package functions, examples, references to the sequential-regression paper, and the linked Python/R selective-inference software project."
   }
 ]
