@@ -52026,5 +52026,304 @@
     ],
     "bestFor": "Variable selection, high-dimensional statistics, multiple testing, selective inference, post-selection inference, lasso, least angle regression, forward stepwise procedures, type I error control, and reproducible selectiveInference package examples.",
     "note": "Verified from the CRAN selectiveInference documentation and the JASA DOI metadata. CRAN documents package functions, examples, references to the sequential-regression paper, and the linked Python/R selective-inference software project."
+  },
+  {
+    "id": "rn-coda-mcmc-diagnostics",
+    "title": "CODA: Convergence Diagnosis and Output Analysis for MCMC",
+    "authors": "Martyn Plummer, Nicky Best, Kate Cowles, Karen Vines",
+    "year": 2006,
+    "citations": 0,
+    "dataset": "coda R package, R News article, package documentation, and executable examples for Markov chain Monte Carlo output, convergence diagnostics, effective sample size, trace plots, CODA-format BUGS/JAGS/OpenBUGS output, and posterior simulation summaries.",
+    "datasetUrl": "https://CRAN.R-project.org/package=coda",
+    "paperUrl": "https://journal.r-project.org/articles/RN-2006-002/",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R News article",
+      "package documentation",
+      "examples",
+      "MCMC output format"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Bayesian inference, MCMC diagnostics, posterior simulation output, convergence diagnostics, effective sample size, trace plots, Gelman-Rubin and Geweke diagnostics, and reusable diagnostic examples for BUGS/JAGS/OpenBUGS-style Bayesian workflows.",
+    "note": "Verified from the R Journal/R News article page and CRAN coda documentation. The package exposes diagnostic functions, examples, and CODA-format readers for MCMC output analysis."
+  },
+  {
+    "id": "jss-mcmcpack-mcmc-r",
+    "title": "MCMCpack: Markov Chain Monte Carlo in R",
+    "authors": "Andrew D. Martin, Kevin M. Quinn, Jong Hee Park",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, MCMCpack R package, paper example code, and example data for Bayesian inference with posterior simulation, general-purpose Metropolis sampling, and MCMC visualization.",
+    "datasetUrl": "https://CRAN.R-project.org/package=MCMCpack",
+    "paperUrl": "https://doi.org/10.18637/jss.v042.i09",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "example data",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Bayesian inference, MCMC diagnostics, Markov chain Monte Carlo examples, posterior simulation, Metropolis algorithms, Bayesian regression and choice-model tutorials, visualization of MCMC output, and package-linked teaching datasets.",
+    "note": "Verified from the JSS article page, which lists the paper, MCMCpack package, R example code from the paper, and example data."
+  },
+  {
+    "id": "statcomp-loo-waic-bayesian-model-evaluation",
+    "title": "Practical Bayesian Model Evaluation Using Leave-One-Out Cross-Validation and WAIC",
+    "authors": "Aki Vehtari, Andrew Gelman, Jonah Gabry",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "loo R package, Stan ecosystem documentation, GitHub source, vignettes, package datasets including Kline, milk, voice, example log-likelihood arrays, and code for PSIS-LOO, WAIC, Pareto-k diagnostics, effective sample size, and Monte Carlo standard errors.",
+    "datasetUrl": "https://mc-stan.org/loo/",
+    "paperUrl": "https://doi.org/10.1007/s11222-016-9696-4",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "vignettes",
+      "GitHub repository",
+      "Stan examples",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "probabilistic programming"
+    ],
+    "bestFor": "Bayesian inference, MCMC diagnostics, Stan workflows, posterior simulation draws, PSIS-LOO, WAIC, Pareto-k diagnostics, effective sample size, Monte Carlo standard errors, package datasets, and reproducible Bayesian model-checking vignettes.",
+    "note": "Verified from the Statistics and Computing article, the Stan loo documentation, GitHub source, and CRAN/R documentation showing vignettes and package datasets used in examples."
+  },
+  {
+    "id": "jrssa-visualization-bayesian-workflow",
+    "title": "Visualization in Bayesian Workflow",
+    "authors": "Jonah Gabry, Daniel Simpson, Aki Vehtari, Michael Betancourt, Andrew Gelman",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "bayesplot R package, Stan ecosystem documentation, vignettes, GitHub code for the paper, MCMC diagnostic examples, posterior predictive checking examples, RStan/rstanarm examples, and eight-schools and mtcars workflows.",
+    "datasetUrl": "https://mc-stan.org/bayesplot/",
+    "paperUrl": "https://doi.org/10.1111/rssa.12378",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignettes",
+      "GitHub code",
+      "Stan examples",
+      "posterior predictive checks",
+      "MCMC diagnostic plots"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "probabilistic programming"
+    ],
+    "bestFor": "Bayesian inference, MCMC diagnostics, probabilistic programming with Stan, posterior predictive checking, prior predictive checking, divergent transition diagnostics, Rhat and effective-sample-size plots, and reproducible bayesplot tutorials.",
+    "note": "Verified from the JRSS Series A article page and bayesplot documentation. The package site links the journal paper, code on GitHub, vignettes, CRAN package, and examples using rstanarm, rstan, mtcars, and eight-schools workflows."
+  },
+  {
+    "id": "joss-arviz-bayesian-model-analysis",
+    "title": "ArviZ: A Unified Library for Exploratory Analysis of Bayesian Models in Python",
+    "authors": "Ravin Kumar, Colin Carroll, Ari Hartikainen, Osvaldo Martin",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "ArviZ Python package, JOSS paper, software repository, software archive, documentation, arviz_example_data repository, locally and remotely stored InferenceData examples, notebooks, posterior diagnostics, posterior predictive checking, and backend adapters for PyMC, PyStan, CmdStanPy, Pyro, NumPyro, emcee, and TensorFlow Probability.",
+    "datasetUrl": "https://github.com/arviz-devs/arviz_example_data",
+    "paperUrl": "https://doi.org/10.21105/joss.01143",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "JOSS paper",
+      "GitHub repository",
+      "example data repository",
+      "notebooks",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Bayesian inference, MCMC diagnostics, probabilistic programming, posterior analysis, InferenceData examples, posterior predictive checks, sample diagnostics, PyMC/PyStan/CmdStanPy/Pyro/NumPyro workflows, and reusable Bayesian model-analysis examples.",
+    "note": "Verified from the JOSS paper, ArviZ documentation, and the arviz_example_data GitHub repository, which documents metadata, local/remote example InferenceData objects, and code used to generate example models."
+  },
+  {
+    "id": "joss-posterior-draws-r",
+    "title": "posterior: Tools for Working with Posterior Distributions in R",
+    "authors": "Paul-Christian Burkner, Jonah Gabry, Matthew Kay, Aki Vehtari",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "posterior R package, JOSS paper, software repository, software archive, documentation, vignettes, example posterior draws for the eight-schools model, draws formats, Rhat, bulk-ESS, tail-ESS, and Monte Carlo standard error examples.",
+    "datasetUrl": "https://mc-stan.org/posterior/",
+    "paperUrl": "https://doi.org/10.21105/joss.10526",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JOSS paper",
+      "GitHub repository",
+      "software archive",
+      "vignettes",
+      "example posterior draws"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Bayesian inference, MCMC diagnostics, posterior draws, Rhat, bulk-ESS, tail-ESS, Monte Carlo standard errors, eight-schools examples, and reusable posterior-summary workflows in the Stan R ecosystem.",
+    "note": "Verified from the 2026 JOSS paper, posterior package website, and GitHub repository. The documentation shows example posterior draws from the eight-schools model and built-in diagnostic summaries."
+  },
+  {
+    "id": "jcgst-nimble-programming-with-models",
+    "title": "Programming with Models: Writing Statistical Algorithms for General Model Structures with NIMBLE",
+    "authors": "Perry de Valpine, Daniel Turek, Christopher J. Paciorek, Cliff Anderson-Bergman, Duncan Temple Lang, Ras Bodik",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "NIMBLE R package, CRAN package citation, Zenodo software/manual archive, NIMBLE documentation, examples, ecology examples, BUGS-language model code, Bayesian hierarchical model workflows, MCMC, particle filtering, Laplace approximation, MCEM, state-space model examples, and custom sampler examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=nimble",
+    "paperUrl": "https://doi.org/10.1080/10618600.2016.1172487",
+    "access": "open",
+    "formats": [
+      "R package",
+      "Zenodo software archive",
+      "manual",
+      "examples",
+      "BUGS model code",
+      "vignettes"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "bayesian hierarchical models",
+      "probabilistic programming",
+      "multilevel modeling"
+    ],
+    "bestFor": "Bayesian inference, probabilistic programming, Bayesian hierarchical models, MCMC diagnostics, BUGS-language model code, custom samplers, particle filtering, state-space models, and reusable NIMBLE tutorials.",
+    "note": "Verified from NIMBLE documentation, CRAN citation information, and the Zenodo NIMBLE software/manual archive. The documentation lists the JCGS paper, manual, examples, training repositories, ecological examples, and package extensions."
+  },
+  {
+    "id": "jss-bridgesampling-normalizing-constants",
+    "title": "bridgesampling: An R Package for Estimating Normalizing Constants",
+    "authors": "Quentin F. Gronau, Henrik Singmann, Eric-Jan Wagenmakers",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, bridgesampling R package, R replication code, GitHub repository, package vignettes, hierarchical normal examples in JAGS and Stan, Bayesian t-test examples in Stan, posterior samples, marginal likelihood, Bayes factor, and bridge-sampling workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=bridgesampling",
+    "paperUrl": "https://doi.org/10.18637/jss.v092.i10",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R replication code",
+      "GitHub repository",
+      "vignettes",
+      "Stan and JAGS examples"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "probabilistic programming",
+      "multilevel modeling"
+    ],
+    "bestFor": "Bayesian inference, probabilistic programming with Stan and JAGS, Bayesian hierarchical models, marginal likelihood estimation, bridge sampling, Bayes factors, posterior model probabilities, and reproducible package vignettes with posterior samples.",
+    "note": "Verified from the JSS article page and package repository. The article page lists the paper, bridgesampling package, and R replication code; the repository documents CRAN availability and vignettes for hierarchical normal and Bayesian t-test examples."
+  },
+  {
+    "id": "bayesiananalysis-rhat-ess-diagnostics",
+    "title": "Rank-Normalization, Folding, and Localization: An Improved R-hat for Assessing Convergence of MCMC",
+    "authors": "Aki Vehtari, Andrew Gelman, Daniel Simpson, Bob Carpenter, Paul-Christian Burkner",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "rhat_ess GitHub repository, online appendix notebooks, R Markdown code, Stan code, simulated AR(1) chains, Cauchy and half-Cauchy examples, eight-schools model draws, bimodal posterior examples, effective sample size comparisons, Monte Carlo standard error experiments, rank plots, Rhat, bulk-ESS, and tail-ESS diagnostics.",
+    "datasetUrl": "https://github.com/avehtari/rhat_ess",
+    "paperUrl": "https://doi.org/10.1214/20-BA1221",
+    "access": "open",
+    "formats": [
+      "GitHub repository",
+      "online appendix",
+      "R Markdown",
+      "Stan code",
+      "simulation code",
+      "diagnostic examples"
+    ],
+    "properties": [
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "probabilistic programming"
+    ],
+    "bestFor": "Bayesian inference, MCMC diagnostics, Stan diagnostic workflows, Rhat, effective sample size, tail diagnostics, Monte Carlo standard error, rank plots, simulation experiments, and reproducible convergence-diagnostic examples.",
+    "note": "Verified from the online appendix and GitHub repository. The appendix links the Bayesian Analysis DOI and the code repository, and documents simulations, Stan examples, eight-schools examples, multimodal examples, and diagnostic comparisons."
   }
 ]
