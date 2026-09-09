@@ -122,7 +122,9 @@ High-level topic families:
     - `best subset selection`
   - `graphical models`
 - `spatial statistics`
+  - `spatio-temporal models`
 - `time series analysis`
+  - `spatio-temporal models`
   - `interrupted time series`
   - `time series classification`
   - `time series forecasting`
@@ -167,7 +169,6 @@ checks include:
 - `measurement error models`
 - `functional data analysis`
 - `spatial statistics`
-- `spatio-temporal models`
 - `high-dimensional statistics`
 - `variable selection`
 - `regularization methods`

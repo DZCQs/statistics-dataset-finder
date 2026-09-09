@@ -80,7 +80,11 @@ const parentRules = [
   },
   {
     label: "time series analysis",
-    children: ["time series forecasting", "hierarchical forecasting", "time series classification", "interrupted time series"]
+    children: ["time series forecasting", "hierarchical forecasting", "time series classification", "interrupted time series", "spatio-temporal models"]
+  },
+  {
+    label: "spatial statistics",
+    children: ["spatio-temporal models"]
   },
   {
     label: "high-dimensional statistics",
@@ -179,11 +183,22 @@ const evidenceRules = [
   },
   {
     label: "spatial statistics",
-    reason: "spatial, geostatistical, point-process, or spatial-factor evidence in record text",
+    reason: "spatial, geostatistical, point-process, point-pattern, or spatial-factor evidence in record text",
     test: (paper) =>
-      /\b(spatial statistics|geostatistics|point process|spatial random effects|spatial factorization|spatial dependence|spatialized|gridded|kriging|local indicators of spatial association|spatio-temporal point process|spatiotemporal point process|spatially explicit)\b/i.test(
+      /\b(spatial statistics|geostatistics|point process(?:es)?|point patterns?|spatial point patterns?|spatial random effects|spatial factorization|spatial dependence|spatialized|gridded|kriging|local indicators of spatial association|spatio-temporal point process|spatiotemporal point process|spatially explicit)\b/i.test(
         paperText(paper)
       )
+  },
+  {
+    label: "spatio-temporal models",
+    reason: "specific spatio-temporal model, point-process, point-pattern, geostatistical, covariance, kriging, or dynamic-spatial evidence in record text",
+    test: (paper) => {
+      const text = paperText(paper);
+      return (
+        /\b(spatio-temporal|spatiotemporal|space-time|space time|spatial-temporal)\s+(data\s+)?(models?|point process(?:es)?|poisson point process(?:es)?|point patterns?|covariance|covariance models?|interpolation|kriging|geostatistics?|geostatistical|random effects|variograms?)\b/i.test(text) ||
+        /\b(dynamic spatial random effects|space-time covariance|space-time point patterns?|space-time point processes?|spatio-temporal geostatistics|spatio-temporal geostatistical|spatio-temporal inhomogeneous k-function|space-time inhomogeneous k-function)\b/i.test(text)
+      );
+    }
   },
   {
     label: "time series classification",
@@ -229,7 +244,7 @@ const evidenceRules = [
     label: "robust statistics",
     reason: "robust-statistics, robust-estimation, trimmed-mean, M-estimator, or robust package evidence in record text",
     test: (paper) =>
-      /\b(robust statistics|robust statistical|robust estimation|robust regression|robust anova|robust ancova|robust correlation|robust location|trimmed means?|m-estimators?|robust multivariate|outlier contamination|central contamination model|robust mixed-effects|robust linear mixed-effects|robustbase|robustlmm|wrs2)\b/i.test(
+      /\b(robust statistics|robust statistical|robust estimation|robust regression|robust anova|robust ancova|robust standard errors?|robust inference|covariance matrix estimators?|robust correlation|robust location|trimmed means?|m-estimators?|robust multivariate|outlier contamination|central contamination model|robust mixed-effects|robust linear mixed-effects|robustbase|robustlmm|wrs2)\b/i.test(
         paperText(paper)
       )
   },

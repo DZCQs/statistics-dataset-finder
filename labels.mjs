@@ -389,16 +389,16 @@ export const LABEL_REGISTRY = [
     name: "robust statistics",
     level: "mid",
     parents: [],
-    definition: "Datasets, package examples, and replication resources useful for robust statistical estimation, robust regression or ANOVA, robust multivariate analysis, contamination/outlier-resistant modeling, or robust mixed-effects workflows.",
+    definition: "Datasets, package examples, and replication resources useful for robust statistical estimation, robust regression or ANOVA, robust standard errors, robust multivariate analysis, contamination/outlier-resistant modeling, or robust mixed-effects workflows.",
     includeWhen: [
-      "robust statistics, robust estimation, robust regression, robust ANOVA/ANCOVA, robust multivariate analysis, trimmed means, M-estimators, or contamination-resistant modeling are central",
+      "robust statistics, robust estimation, robust regression, robust ANOVA/ANCOVA, robust standard errors, robust multivariate analysis, trimmed means, M-estimators, or contamination-resistant modeling are central",
       "the resource provides data, code, package examples, vignettes, or replication material for studying robustness to outliers, contamination, or distributional departures"
     ],
     avoidWhen: [
       "robust means only stable, reliable, or well-performing in ordinary prose",
       "the paper uses robustness checks as secondary sensitivity analyses rather than robust-statistics methodology"
     ],
-    evidenceTerms: ["robust statistics", "robust statistical", "robust estimation", "robust regression", "robust anova", "robust ancova", "robust correlation", "robust location", "trimmed mean", "trimmed means", "m-estimator", "m-estimators", "robust multivariate", "outlier contamination", "central contamination model", "robust mixed-effects", "robust linear mixed-effects", "robustbase", "robustlmm", "wrs2"]
+    evidenceTerms: ["robust statistics", "robust statistical", "robust estimation", "robust regression", "robust anova", "robust ancova", "robust standard error", "robust standard errors", "robust inference", "covariance matrix estimator", "covariance matrix estimators", "robust correlation", "robust location", "trimmed mean", "trimmed means", "m-estimator", "m-estimators", "robust multivariate", "outlier contamination", "central contamination model", "robust mixed-effects", "robust linear mixed-effects", "robustbase", "robustlmm", "wrs2"]
   },
   {
     name: "conformal prediction",
@@ -590,7 +590,23 @@ export const LABEL_REGISTRY = [
       "the paper only uses a geographic application domain without spatial statistical methodology",
       "spatial language is incidental and the dataset is mainly a generic prediction or computer-vision benchmark"
     ],
-    evidenceTerms: ["spatial statistics", "geostatistics", "point process", "spatial random effects", "spatial factorization", "spatial dependence", "spatialized", "gridded", "kriging", "local indicators of spatial association", "spatio-temporal point process", "spatially explicit"]
+    evidenceTerms: ["spatial statistics", "geostatistics", "point process", "point processes", "point pattern", "point patterns", "spatial point pattern", "spatial point patterns", "spatial random effects", "spatial factorization", "spatial dependence", "spatialized", "gridded", "kriging", "local indicators of spatial association", "spatio-temporal point process", "spatially explicit"]
+  },
+  {
+    name: "spatio-temporal models",
+    level: "low",
+    parents: ["spatial statistics", "time series analysis"],
+    definition: "Datasets useful for statistical models of observations indexed jointly by location and time, including space-time covariance models, dynamic spatial random effects, spatio-temporal point processes, and spatio-temporal geostatistical interpolation.",
+    includeWhen: [
+      "spatial and temporal structure are both central to the model, dataset, or replication workflow",
+      "the resource supports spatio-temporal point processes, dynamic spatial random effects, space-time covariance modeling, or spatio-temporal kriging/interpolation"
+    ],
+    avoidWhen: [
+      "the paper is spatial only and has no temporal modeling component",
+      "the paper is temporal only and has no spatial structure",
+      "spatio-temporal language only describes an application context without statistical space-time modeling"
+    ],
+    evidenceTerms: ["spatio-temporal model", "spatio-temporal models", "spatiotemporal model", "spatiotemporal models", "spatio-temporal data model", "spatio-temporal data models", "spatio-temporal point process", "spatiotemporal point process", "spatio-temporal point pattern", "spatiotemporal point pattern", "space-time point pattern", "space-time point process", "spatio-temporal covariance", "space-time covariance", "spatio-temporal interpolation", "spatio-temporal kriging", "space-time kriging", "spatio-temporal geostatistics", "spatio-temporal geostatistical", "dynamic spatial random effects", "space-time inhomogeneous k-function"]
   },
   {
     name: "risk prediction",

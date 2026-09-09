@@ -34352,7 +34352,8 @@
     ],
     "topics": [
       "spatial statistics",
-      "time series analysis"
+      "time series analysis",
+      "spatio-temporal models"
     ],
     "bestFor": "Finding spatial statistics examples for spatio-temporal point processes, event-time/location modeling, and spatial-temporal dependence.",
     "note": "OpenAlex candidate; GitHub resource verified reachable. Included after spatial statistics was promoted to an official high-level label."
@@ -36096,7 +36097,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "resampling methods"
+      "resampling methods",
+      "robust statistics"
     ],
     "bestFor": "Finding replication data for wild bootstrap inference, cluster-robust inference, resampling methods, and econometric simulation examples.",
     "note": "Auto-discovered through Harvard Dataverse. Metadata identifies the package as replication data for a Review of Economics and Statistics article."
@@ -52325,5 +52327,397 @@
     ],
     "bestFor": "Bayesian inference, MCMC diagnostics, Stan diagnostic workflows, Rhat, effective sample size, tail diagnostics, Monte Carlo standard error, rank plots, simulation experiments, and reproducible convergence-diagnostic examples.",
     "note": "Verified from the online appendix and GitHub repository. The appendix links the Bayesian Analysis DOI and the code repository, and documents simulations, Stan examples, eight-schools examples, multimodal examples, and diagnostic comparisons."
+  },
+  {
+    "id": "jss-spbayes-hierarchical-spatial-models",
+    "title": "spBayes: An R Package for Univariate and Multivariate Hierarchical Point-referenced Spatial Models",
+    "authors": "Andrew O. Finley, Sudipto Banerjee, Bradley P. Carlin",
+    "year": 2007,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, spBayes R package, forest and synthetic data files, R example code, and package examples for Bayesian hierarchical geostatistics, point-referenced spatial random effects, posterior simulation, and MCMC workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=spBayes",
+    "paperUrl": "https://doi.org/10.18637/jss.v019.i04",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "data files",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "spatial statistics",
+      "bayesian hierarchical models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Bayesian hierarchical models, Bayesian inference, MCMC diagnostics, posterior simulation, spatial statistics, point-referenced geostatistical data, multivariate spatial random effects, forest data, synthetic spatial examples, and reproducible R package workflows.",
+    "note": "Verified from the JSS article page and CRAN package page. JSS lists the paper, spBayes package, data set files, and R example code; CRAN links the package source, manual, repository, and citation metadata."
+  },
+  {
+    "id": "jss-spbayes-spatiotemporal-models",
+    "title": "spBayes for Large Univariate and Multivariate Point-Referenced Spatio-Temporal Data Models",
+    "authors": "Andrew O. Finley, Sudipto Banerjee, Alan E. Gelfand",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, spBayes R package, R example code, and package resources for dynamic spatial random effects, spatio-temporal models, point-referenced space-time data, predictive-process approximations, posterior simulation, and MCMC workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=spBayes",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i13",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "documentation",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "spatio-temporal models",
+      "mcmc diagnostics",
+      "bayesian hierarchical models",
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Spatio-temporal models, spatial statistics, time series analysis, Bayesian hierarchical models, Bayesian inference, MCMC diagnostics, dynamic spatial random effects, point-referenced space-time data, predictive-process examples, and scalable posterior simulation.",
+    "note": "Verified from the JSS article page and CRAN package page. The article page lists the paper, spBayes package, and R example code; CRAN describes univariate and multivariate spatial-temporal modeling with MCMC and links the package source and documentation."
+  },
+  {
+    "id": "rjournal-gstat-spatiotemporal-interpolation",
+    "title": "Spatio-Temporal Interpolation using gstat",
+    "authors": "Benedikt Graeler, Edzer Pebesma, Gerard Heuvelink",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "R Journal article, gstat R package, package demos, vignettes, German rural PM10 monitoring application, meuse tutorial data, variogram fitting code, spatio-temporal interpolation workflows, spatio-temporal covariance models, and spatio-temporal kriging examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=gstat",
+    "paperUrl": "https://doi.org/10.32614/RJ-2016-014",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R Journal article",
+      "package demos",
+      "vignettes",
+      "R code",
+      "example data"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatio-temporal models",
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Spatio-temporal models, spatial statistics, time series analysis, geostatistics, kriging, space-time covariance modeling, variogram fitting, PM10 monitoring examples, meuse tutorials, and reproducible gstat workflows.",
+    "note": "Verified from The R Journal article and CRAN package page. The article documents a rural Germany PM10 application and package demos; CRAN lists gstat as spatial and spatio-temporal geostatistical modeling software with vignettes and source code."
+  },
+  {
+    "id": "jss-stpp-spatiotemporal-point-patterns",
+    "title": "stpp: An R Package for Plotting, Simulating and Analyzing Spatio-Temporal Point Patterns",
+    "authors": "Edith Gabriel, Barry S. Rowlingson, Peter J. Diggle",
+    "year": 2013,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, stpp R package, R example code, package vignette, food-and-mouth epidemic data, North Cumbria boundary data, spatio-temporal point process simulations, inhomogeneous K-function examples, and pair-correlation workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=stpp",
+    "paperUrl": "https://doi.org/10.18637/jss.v053.i02",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "vignette",
+      "package data"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Spatio-temporal models, spatial statistics, time series analysis, spatio-temporal point processes, space-time point patterns, simulation, second-order point-process summaries, inhomogeneous K-functions, and package data examples.",
+    "note": "Verified from the JSS article page, CRAN package page, and package documentation. The sources list the stpp package, R example code, vignette, and package datasets such as fmd and northcumbria."
+  },
+  {
+    "id": "jss-stopp-spatiotemporal-point-pattern-analysis",
+    "title": "stopp: An R Package for Spatio-Temporal Point Pattern Analysis",
+    "authors": "Nicoletta D'Angelo, Giada Adelfio",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, stopp R package, R replication code, CRAN package source, documentation, simulation tools, local first-order and second-order diagnostics, and spatio-temporal Poisson point process examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=stopp",
+    "paperUrl": "https://doi.org/10.18637/jss.v113.i10",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R replication code",
+      "documentation",
+      "simulation code"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "spatio-temporal models"
+    ],
+    "bestFor": "Spatio-temporal models, spatial statistics, time series analysis, spatio-temporal point pattern analysis, spatio-temporal Poisson point processes, model diagnostics, local tests, simulation, and reproducible R replication code.",
+    "note": "Verified from the 2025 JSS article page and CRAN package page. JSS lists the paper, stopp package, and R replication code; CRAN documents the spatio-temporal point pattern methods package."
+  },
+  {
+    "id": "jss-spatstat-spatial-point-patterns",
+    "title": "spatstat: An R Package for Analyzing Spatial Point Patterns",
+    "authors": "Adrian Baddeley, Rolf Turner",
+    "year": 2005,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, spatstat R package ecosystem, spatstat.data package, realistic spatial point pattern datasets, point-process model-fitting examples, spatial sampling-window examples, marked point pattern examples, and simulation workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=spatstat",
+    "paperUrl": "https://doi.org/10.18637/jss.v012.i06",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "package data",
+      "documentation",
+      "simulation code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Spatial statistics, point processes, spatial point pattern analysis, inhomogeneous point patterns, marked point patterns, spatial model fitting, simulation, sampling windows, and reusable spatstat package datasets.",
+    "note": "Verified from the JSS article page and R package ecosystem documentation. The JSS paper documents spatstat for spatial point pattern data; the package ecosystem exposes package data and examples through CRAN documentation."
+  },
+  {
+    "id": "jss-fdausc-functional-data-analysis",
+    "title": "Statistical Computing in Functional Data Analysis: The R Package fda.usc",
+    "authors": "Manuel Febrero-Bande, Manuel Oviedo de la Fuente",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, fda.usc R package, R example code, package datasets, functional data analysis utilities, functional regression examples, functional principal components, basis representation, and functional outlier detection workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=fda.usc",
+    "paperUrl": "https://doi.org/10.18637/jss.v051.i04",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "package data",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Functional data analysis, high-dimensional statistics, dimension reduction, functional regression, scalar-on-function regression, functional principal components, basis representation, functional outlier detection, and package-linked functional datasets.",
+    "note": "Verified from the JSS article page and CRAN package page. JSS lists the paper, fda.usc package, and R example code, while CRAN provides package source and documentation."
+  },
+  {
+    "id": "jss-forecast-automatic-time-series-forecasting",
+    "title": "Automatic Time Series Forecasting: The forecast Package for R",
+    "authors": "Rob J. Hyndman, Yeasmin Khandakar",
+    "year": 2008,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, forecast R source package bundle, R example code, package datasets, four real time series examples, automatic ARIMA workflows, exponential-smoothing state-space workflows, seasonal and non-seasonal forecasting examples, and reproducible forecasting code.",
+    "datasetUrl": "https://CRAN.R-project.org/package=forecast",
+    "paperUrl": "https://doi.org/10.18637/jss.v027.i03",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "package data",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Time series forecasting, time series analysis, seasonal and non-seasonal time series, automatic ARIMA, exponential smoothing, forecast future values, large-scale univariate forecasting workflows, and real time series package examples.",
+    "note": "Verified from the JSS article page. The article page lists the paper, R source package bundle, and R example code; the abstract documents four real time series examples."
+  },
+  {
+    "id": "jss-vars-var-svar-svec",
+    "title": "VAR, SVAR and SVEC Models: Implementation Within R Package vars",
+    "authors": "Bernhard Pfaff",
+    "year": 2008,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, vars R source package bundle, R example code, Canada macroeconomic data example, vector autoregressive workflows, structural VAR workflows, vector error correction workflows, impulse-response analysis, diagnostic testing, causality analysis, and forecasting examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=vars",
+    "paperUrl": "https://doi.org/10.18637/jss.v027.i04",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "package data",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Time series analysis, time series forecasting, multivariate time series, vector autoregression, structural VAR models, vector error correction models, impulse responses, forecast error variance decomposition, diagnostic testing, and Canada macroeconomic package examples.",
+    "note": "Verified from the JSS article page. The page lists the paper, R source package bundle, and R example code, and the abstract documents the Canada macroeconomic data example."
+  },
+  {
+    "id": "jss-svars-data-driven-svar",
+    "title": "svars: An R Package for Data-Driven Identification in Multivariate Time Series Analysis",
+    "authors": "Alexander Lange, Bernhard Dalheimer, Helmut Herwartz, Simone Maxand",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, svars R package, R replication code, macroeconomic application, multivariate time series examples, heteroskedasticity-based and non-Gaussian SVAR identification workflows, smooth transition covariance examples, and structural shock analysis code.",
+    "datasetUrl": "https://CRAN.R-project.org/package=svars",
+    "paperUrl": "https://doi.org/10.18637/jss.v097.i05",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R replication code",
+      "macroeconomic example",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Time series analysis, multivariate time series, structural vector autoregression, data-driven identification, non-Gaussian maximum likelihood, heteroskedasticity, changes in volatility, smooth transition covariance, and reproducible macroeconomic applications.",
+    "note": "Verified from the JSS article page. The page lists the paper, svars package, and R replication code; the article describes a macroeconomic application for identifying and interpreting structural VAR models."
+  },
+  {
+    "id": "jss-plm-panel-data-econometrics",
+    "title": "Panel Data Econometrics in R: The plm Package",
+    "authors": "Yves Croissant, Giovanni Millo",
+    "year": 2008,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, plm R package, R example code, package datasets, panel data econometrics examples, fixed effects, random effects, robust inference, longitudinal repeated unit observations, and panel-model workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=plm",
+    "paperUrl": "https://doi.org/10.18637/jss.v027.i02",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "package data",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "robust statistics",
+      "longitudinal data analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, robust statistics, panel econometrics, fixed effects, random effects, robust inference, repeated unit-level observations, household and economic panels, and package data examples.",
+    "note": "Verified from the JSS article page and CRAN package page. JSS lists the paper, plm package, and R example code; the abstract describes linear panel models and robust inference."
+  },
+  {
+    "id": "jss-robust-se-panel-models",
+    "title": "Robust Standard Error Estimators for Panel Models: A Unifying Approach",
+    "authors": "Giovanni Millo",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, plm R package, replication materials, R replication code, applied panel examples, robust standard error estimators, covariance matrix estimators, fixed-effects panel model examples, and reusable panel-data inference workflows.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v082i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v082.i03",
+    "access": "open",
+    "formats": [
+      "JSS article",
+      "R package",
+      "replication materials",
+      "R replication code",
+      "example data"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "robust statistics",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, robust statistics, robust standard errors, covariance matrix estimators, panel model inference, fixed effects, repeated unit-level observations, and reproducible applied panel examples.",
+    "note": "Verified from the JSS article page. The page lists the paper, plm package, replication materials, and R replication code; the abstract documents applied examples for robust panel-model standard errors."
   }
 ]
