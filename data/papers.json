@@ -40224,8 +40224,8 @@
       "time series analysis",
       "risk prediction"
     ],
-    "bestFor": "bayesian inference examples with an explicitly accessible dataset or replication archive.",
-    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+    "bestFor": "Spatial statistics, Bayesian inference, time series analysis, risk prediction, uncertainty quantification, regionalized extreme precipitation estimation, and Zenodo replication/data workflows with an explicitly accessible archive.",
+    "note": "Verified from Zenodo DOI metadata and public repository metadata as an accessible dataset/replication archive for regionalized probable maximum precipitation estimation with uncertainty quantification; not assigned the new label because the metadata describes precipitation uncertainty rather than the relevant correction methods."
   },
   {
     "id": "zenodo-21751153-data-and-code-for-hidden-markov-model-identifies-four-phytoplankton-regimes-asso",
@@ -40639,10 +40639,11 @@
       "bayesian inference",
       "panel data methods",
       "longitudinal data analysis",
-      "missing data"
+      "missing data",
+      "measurement error models"
     ],
-    "bestFor": "bayesian inference examples with an explicitly accessible dataset or replication archive.",
-    "note": "Auto-discovered from public repository metadata with a clear dataset or replication archive; curator review remains marked until later cleanup."
+    "bestFor": "Bayesian inference, measurement error models, panel data methods, longitudinal data analysis, Bayesian errors-in-variables dynamic panel analysis, measurement-uncertainty robustness checks, and governance-threshold replication workflows.",
+    "note": "Verified from Zenodo DOI metadata and public repository metadata as an accessible dataset/replication archive for a Bayesian errors-in-variables dynamic panel analysis. Measurement-error label is assigned because the title and dataset metadata explicitly use errors-in-variables and measurement uncertainty."
   },
   {
     "id": "zenodo-21728102-dataset-for-koopmans-kay-youk-2026-predictability-can-be-dynamically-constructed",
@@ -52719,5 +52720,195 @@
     ],
     "bestFor": "Panel data methods, longitudinal data analysis, robust statistics, robust standard errors, covariance matrix estimators, panel model inference, fixed effects, repeated unit-level observations, and reproducible applied panel examples.",
     "note": "Verified from the JSS article page. The page lists the paper, plm package, replication materials, and R replication code; the abstract documents applied examples for robust panel-model standard errors."
+  },
+  {
+    "id": "jss-decon-measurement-error-deconvolution",
+    "title": "Deconvolution Estimation in Measurement Error Models: The R Package decon",
+    "authors": "Xiao-Feng Wang, Bin Wang",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, decon R package, R example code from the paper, simulated and real examples for density estimation with measurement error, distribution-function estimation from contaminated data, nonparametric regression with errors-in-variables, deconvolution kernels, and smoothing-parameter selection.",
+    "datasetUrl": "https://CRAN.R-project.org/package=decon",
+    "paperUrl": "https://doi.org/10.18637/jss.v039.i10",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "simulation code",
+      "real examples"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Measurement error models, errors-in-variables, nonparametric deconvolution, contaminated data, density and distribution-function estimation, nonparametric regression with measurement error, simulation examples, and real data examples.",
+    "note": "Verified from the JSS article page, which lists the paper, decon R package, and R example code from the paper. The article abstract describes simulated and real examples for measurement-error deconvolution methods."
+  },
+  {
+    "id": "jss-simexaft-aft-measurement-error",
+    "title": "SIMEX R Package for Accelerated Failure Time Models with Covariate Measurement Error",
+    "authors": "Wenqing He, Juan Xiong, Grace Y. Yi",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software code-snippet page, simexaft R package, R example code from the paper, and two clinical trial datasets for accelerated failure time survival models with covariate measurement error and simulation-extrapolation correction.",
+    "datasetUrl": "https://CRAN.R-project.org/package=simexaft",
+    "paperUrl": "https://doi.org/10.18637/jss.v046.c01",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS code snippet",
+      "R example code",
+      "clinical trial examples",
+      "survival data"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Measurement error models, survival analysis, survival models, accelerated failure time models, covariate measurement error, SIMEX correction, clinical trial examples, and survival-data package workflows.",
+    "note": "Verified from the JSS code-snippet page. The page lists the paper, simexaft package, and R example code; the abstract states that two clinical trial data sets are used to illustrate the package."
+  },
+  {
+    "id": "rnews-simex-mcsimex-measurement-error",
+    "title": "A Short Introduction to the SIMEX and MCSIMEX",
+    "authors": "Wolfgang Lederer, Helmut Kuechenhoff",
+    "year": 2006,
+    "citations": 0,
+    "dataset": "R News article, simex R package, package examples for SIMEX and MCSIMEX, simulated measurement-error examples, heteroscedastic measurement-error examples, misclassification examples, GLM/LM/NLS/GAM/LME/NLME/POLR/Cox model support, and diagnostic extrapolation plots.",
+    "datasetUrl": "https://CRAN.R-project.org/package=simex",
+    "paperUrl": "https://journal.r-project.org/articles/RN-2006-031/",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R News article",
+      "R examples",
+      "simulation code",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Measurement error models, SIMEX, MCSIMEX, misclassification correction, regression calibration workflows, generalized linear models with error-prone covariates, Cox model examples, and simulated measurement-error tutorials.",
+    "note": "Verified from The R Journal/R News article page and CRAN/R documentation. The package documentation cites the R News paper and exposes simex, mcsimex, misclass, and executable simulated measurement-error examples."
+  },
+  {
+    "id": "cmpb-mecor-measurement-error-correction",
+    "title": "Mecor: An R Package for Measurement Error Correction in Linear Regression Models with a Continuous Outcome",
+    "authors": "Linda Nab, Maarten van Smeden, Ruth H. Keogh, Rolf H. H. Groenwold",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Computer Methods and Programs in Biomedicine article, mecor R package, package examples, validation-data workflows, replicate-measurement workflows, calibration-study examples, external-validation examples, sensitivity-analysis examples, bootstrap variance estimation, regression calibration, maximum likelihood, and method-of-moments correction.",
+    "datasetUrl": "https://CRAN.R-project.org/package=mecor",
+    "paperUrl": "https://doi.org/10.1016/j.cmpb.2021.106238",
+    "access": "open",
+    "formats": [
+      "R package",
+      "open-access article",
+      "package examples",
+      "validation data examples",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "resampling methods"
+    ],
+    "bestFor": "Measurement error models, regression calibration, maximum likelihood measurement-error correction, method-of-moments correction, validation data, replicate measurements, calibration studies, bootstrap variance estimation, and sensitivity analysis.",
+    "note": "Verified from the open-access article and CRAN package page. The article documents four validation-data structures, regression calibration, maximum likelihood, method-of-moments correction, sensitivity analysis, and bootstrap variance estimation."
+  },
+  {
+    "id": "jscs-augsimex-mixed-measurement-misclassification",
+    "title": "R Package for Analysis of Data with Mixed Measurement Error and Misclassification in Covariates: augSIMEX",
+    "authors": "Qihuang Zhang, Grace Y. Yi",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Journal of Statistical Computation and Simulation article, augSIMEX R package, package documentation, R examples, validation-data examples, ToyUni/ToyMult/ToyRepeat datasets, GeneUni/GeneRepeat genetic data examples, augmented SIMEX workflows, mixed continuous measurement-error and discrete misclassification examples, and bootstrap variance estimation.",
+    "datasetUrl": "https://CRAN.R-project.org/package=augSIMEX",
+    "paperUrl": "https://doi.org/10.1080/00949655.2019.1615911",
+    "access": "open",
+    "formats": [
+      "R package",
+      "journal article",
+      "package data",
+      "R examples",
+      "validation data examples"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "resampling methods"
+    ],
+    "bestFor": "Measurement error models, misclassification, SIMEX, generalized linear models, validation data, repeated measurements, genetic association examples, bootstrap variance estimation, and mixed continuous/discrete error-prone covariates.",
+    "note": "Verified from the journal article page and CRAN/R documentation. The package documentation lists ToyUni, ToyMult, ToyRepeat, GeneUni, GeneRepeat, validation-data arguments, measurement-error model formulas, and bootstrap-based variance estimation."
+  },
+  {
+    "id": "joss-sleev-errors-in-variables",
+    "title": "sleev: An R Package for Semiparametric Likelihood Estimation with Errors in Variables",
+    "authors": "Jiangmei Xiong, Sarah C. Lotspeich, Joey B. Sherrill, Gustavo Amorim, Bryan E. Shepherd, Ran Tao",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Journal of Open Source Software paper, sleev R package, CRAN/GitHub resources, package vignette, mock.vccc dataset, simulated two-phase sampling data modeled on Vanderbilt Comprehensive Care Clinic records, validated and unvalidated covariates/outcomes, B-spline basis workflows, logistic and linear two-phase regression examples, and package tests.",
+    "datasetUrl": "https://CRAN.R-project.org/package=sleev",
+    "paperUrl": "https://doi.org/10.21105/joss.07320",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JOSS article",
+      "package data",
+      "vignette",
+      "GitHub repository",
+      "tests"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Measurement error models, errors-in-variables, semiparametric likelihood, two-phase sampling, validation data, error-prone outcomes and covariates, B-spline error-density modeling, mock clinical records, and reproducible package examples.",
+    "note": "Verified from the JOSS paper, PMC full text, and package documentation. The paper and documentation describe the mock.vccc dataset, validated/unvalidated variables, CRAN/GitHub access, and examples for linear2ph/logistic2ph errors-in-variables workflows."
   }
 ]

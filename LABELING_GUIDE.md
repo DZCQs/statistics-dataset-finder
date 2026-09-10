@@ -67,6 +67,7 @@ Good label level:
 - `survival analysis`
 - `survival models`
 - `risk prediction`
+- `measurement error models`
 - `high-dimensional statistics`
 - `dimension reduction`
 - `functional data analysis`
@@ -148,6 +149,7 @@ Mid-level topic families without a current high-level parent:
 - `multilevel modeling`
   - `bayesian hierarchical models`
 - `item response theory`
+- `measurement error models`
 - `meta-analysis`
   - `network meta-analysis`
 - `quantile regression`
@@ -166,7 +168,6 @@ checks include:
 - `competing risks`
 - `joint models`
 - `recurrent event analysis`
-- `measurement error models`
 - `functional data analysis`
 - `spatial statistics`
 - `high-dimensional statistics`

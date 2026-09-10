@@ -233,6 +233,14 @@ const evidenceRules = [
       )
   },
   {
+    label: "measurement error models",
+    reason: "measurement-error, errors-in-variables, regression-calibration, SIMEX/MCSIMEX, deconvolution, or misclassified-covariate evidence in record text",
+    test: (paper) =>
+      /\b(measurement errors?\s+(?:models?|correction|methods?|methodology|problems?)|measurement-error\s+(?:models?|correction|methods?|methodology|problems?)|errors-in-variables|errors in variables|error-in-variables|error-prone (?:covariates?|outcomes?)|covariate errors?|misclassified covariates?|misclassification in covariates?|regression calibration|simex|mcsimex|deconvolution|calibration stud(?:y|ies))\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
     label: "quantile regression",
     reason: "quantile-regression, conditional-quantile, qgam, or quantreg evidence in record text",
     test: (paper) =>

@@ -371,6 +371,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["item response theory", "item response", "irt", "psychometric", "psychometrics", "latent trait", "measurement model", "differential item functioning", "item parameter drift", "item-level", "ordinal response"]
   },
   {
+    name: "measurement error models",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, package examples, and replication resources useful for measurement-error correction, errors-in-variables regression, regression calibration, SIMEX/MCSIMEX, deconvolution, or misclassified-covariate methods.",
+    includeWhen: [
+      "measurement error, errors-in-variables, covariate error, misclassification, regression calibration, SIMEX/MCSIMEX, or deconvolution is central to the paper or resource",
+      "the resource provides data, code, package examples, vignettes, or replication material for estimating, correcting, or diagnosing measurement error"
+    ],
+    avoidWhen: [
+      "measurement error is mentioned only as generic data-quality noise without statistical correction methodology",
+      "the record is mainly about psychometric measurement models rather than error-prone covariates or responses"
+    ],
+    evidenceTerms: ["measurement error model", "measurement error models", "measurement error correction", "measurement-error correction", "measurement-error model", "measurement-error models", "errors-in-variables", "errors in variables", "error-in-variables", "error-prone covariate", "error-prone covariates", "error-prone outcome", "error-prone outcomes", "covariate error", "misclassified covariate", "misclassification in covariates", "regression calibration", "simex", "mcsimex", "deconvolution", "calibration study"]
+  },
+  {
     name: "quantile regression",
     level: "mid",
     parents: [],
