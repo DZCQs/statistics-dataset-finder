@@ -52910,5 +52910,270 @@
     ],
     "bestFor": "Measurement error models, errors-in-variables, semiparametric likelihood, two-phase sampling, validation data, error-prone outcomes and covariates, B-spline error-density modeling, mock clinical records, and reproducible package examples.",
     "note": "Verified from the JOSS paper, PMC full text, and package documentation. The paper and documentation describe the mock.vccc dataset, validated/unvalidated variables, CRAN/GitHub access, and examples for linear2ph/logistic2ph errors-in-variables workflows."
+  },
+  {
+    "id": "jss-sharp-stability-selection-consensus-clustering",
+    "title": "Stability Selection and Consensus Clustering in R: The R Package sharp",
+    "authors": "Barbara Bodinier, Sabrina Rodrigues, Maryam Karimi, Sarah Filippi, Julien Chiquet, Marc Chadeau-Hyam",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, sharp R package, R replication code, replication data e-mtab-11349, replication data single_cell_10x_5cl, stability-selection examples, consensus-clustering examples, graphical-modeling examples, and resampling-based diagnostic workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=sharp",
+    "paperUrl": "https://doi.org/10.18637/jss.v112.i05",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R replication code",
+      "replication data",
+      "package examples"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics",
+      "resampling methods",
+      "variable selection"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, graphical models, resampling methods, stability selection, consensus clustering, feature-selection probabilities, graphical-model selection, subsampling diagnostics, and reproducible sharp package workflows.",
+    "note": "Verified from the JSS article page, which lists the paper, sharp R package, R replication code, and two replication-data resources. The abstract describes stability-enhanced variable selection, graphical modeling, consensus clustering, and resampling-based selection probabilities."
+  },
+  {
+    "id": "jss-biomark-meta-statistics-variable-selection",
+    "title": "Meta-Statistics for Variable Selection: The R Package BioMark",
+    "authors": "Ron Wehrens, Pietro Franceschi",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, BioMark R package, R example code from the paper, experimental spike-in metabolomics data examples, simulated data-generation functionality, higher-criticism examples, and stability-selection examples.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v051i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v051.i10",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "real data examples",
+      "simulation code"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "resampling methods",
+      "variable selection",
+      "multiple testing"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, multiple testing, resampling methods, higher criticism, stability selection, metabolomics spike-in data examples, simulation examples, and biomarker-selection tutorials.",
+    "note": "Verified from the JSS article page, which lists the paper, BioMark R package, and R example code. The dataset URL points to the JSS page because the package is archived rather than a current CRAN landing page. The abstract documents experimental spike-in data, simulation functionality, higher-criticism thresholding, multiple-testing motivation, and stability selection."
+  },
+  {
+    "id": "jss-nonpmodelcheck-variable-selection",
+    "title": "NonpModelCheck: An R Package for Nonparametric Lack-of-Fit Testing and Variable Selection",
+    "authors": "Adriano Zanin Zambom, Michael G. Akritas",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, NonpModelCheck R package, R replication code, MATLAB replication code, supplementary data, high-dimensional one-way ANOVA examples, nonparametric regression examples, and false-discovery-rate variable-selection workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=NonpModelCheck",
+    "paperUrl": "https://doi.org/10.18637/jss.v077.i10",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R replication code",
+      "MATLAB replication code",
+      "supplementary data"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, multiple testing, nonparametric regression, false discovery rate correction, high-dimensional one-way ANOVA, local polynomial regression, lack-of-fit testing, and reproducible nonparametric screening examples.",
+    "note": "Verified from the JSS article page, which lists the paper, NonpModelCheck package, R replication code, MATLAB replication code, and supplementary data. The abstract describes high-dimensional ANOVA tests and variable selection via false-discovery-rate corrections."
+  },
+  {
+    "id": "jss-mlgl-correlated-variable-selection",
+    "title": "MLGL: An R Package Implementing Correlated Variable Selection by Hierarchical Clustering and Group-Lasso",
+    "authors": "Quentin Grimonprez, Samuel Blanck, Alain Celisse, Guillemette Marot",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, MLGL R package, replication materials, high-dimensional redundant-covariate examples, hierarchical-clustering group construction, group-lasso selection paths, and multiple hierarchical testing workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=MLGL",
+    "paperUrl": "https://doi.org/10.18637/jss.v106.i03",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "replication materials",
+      "package examples",
+      "simulation code"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "multiple testing"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, multiple testing, correlated predictors, group-lasso, hierarchical clustering of variables, redundant-covariate screening, sparse regression, and reproducible MLGL replication workflows.",
+    "note": "Verified from the JSS article page, which lists the paper, MLGL R package, and replication materials. The abstract documents high-dimensional correlated-variable selection, hierarchical clustering of variables, group-lasso candidate groups, and multiple hierarchical testing."
+  },
+  {
+    "id": "jss-bclust-bayesian-clustering-variable-selection",
+    "title": "High-Dimensional Bayesian Clustering with Variable Selection: The R Package bclust",
+    "authors": "Vahid Partovi Nia, Anthony C. Davison",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, bclust R package, R example code from the paper, simulated Gaussian data in R binary format, high-dimensional continuous-data examples, empirical-Bayes spike-and-slab clustering examples, and variable-importance workflows.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v047i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v047.i05",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R example code",
+      "R binary data",
+      "simulation data"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, Bayesian inference, spike-and-slab modeling, empirical Bayes, high-dimensional clustering, noise-variable downweighting, simulated Gaussian data, and reproducible bclust examples.",
+    "note": "Verified from the JSS article page, which lists the paper, bclust R package, R example code, and simulated Gaussian data in R binary format. The dataset URL points to the JSS page because the package is archived rather than a current CRAN landing page. The abstract describes high-dimensional continuous-data clustering, spike-and-slab variable selection, and empirical-Bayes hyperparameter estimation."
+  },
+  {
+    "id": "jss-gamboostlss-variable-selection",
+    "title": "gamboostLSS: An R Package for Model Building and Variable Selection in the GAMLSS Framework",
+    "authors": "Benjamin Hofner, Andreas Mayr, Matthias Schmid",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, gamboostLSS R package, R replication code, stunted-growth data example from India, boosted GAMLSS examples, regularized variable-selection workflows, tuning-parameter selection, prediction, and visualization examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=gamboostLSS",
+    "paperUrl": "https://doi.org/10.18637/jss.v074.i01",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R replication code",
+      "real data example",
+      "package examples"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, generalized additive models for location scale and shape, regularized regression, boosting, tuning-parameter selection, prediction intervals, and reproducible gamboostLSS examples.",
+    "note": "Verified from the JSS article page, which lists the paper, gamboostLSS package, and R replication code. The abstract states that variable selection and model choice are available in the regularized regression framework and that the article uses stunted-growth data from India."
+  },
+  {
+    "id": "jss-smle-feature-screening",
+    "title": "SMLE: An R Package for Joint Feature Screening in Ultrahigh-Dimensional GLMs",
+    "authors": "Qianxiang Zang, Chen Xu, Kelly Burkett",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, SMLE R package, fast R replication code, full R replication code, ultrahigh-dimensional GLM numerical examples, feature-screening workflows, post-screening selection examples, and AIC/extended-BIC selection criteria examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=SMLE",
+    "paperUrl": "https://doi.org/10.18637/jss.v115.i08",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "R replication code",
+      "simulation examples",
+      "package examples"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "High-dimensional statistics, variable selection, feature screening, ultrahigh-dimensional generalized linear models, sparse regression, post-screening selection, AIC, extended BIC, numerical examples, and reproducible SMLE workflows.",
+    "note": "Verified from the JSS article page, which lists the paper, SMLE R package, fast R replication code, and full R replication code. The abstract documents ultrahigh-dimensional feature screening, post-screening selection, and numerical examples."
+  },
+  {
+    "id": "jss-bnlearn-constraint-structure-learning",
+    "title": "Bayesian Network Constraint-Based Structure Learning Algorithms: Parallel and Optimized Implementations in the bnlearn R Package",
+    "authors": "Marco Scutari",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, bnlearn R package, replication materials, benchmark scripts, Bayesian network repository reference networks, mice and carcinoma real-world data sets, conditional-independence testing workflows, Markov-blanket learning examples, and constraint-based structure-learning simulations.",
+    "datasetUrl": "https://www.bnlearn.com/research/jstatsoft17/",
+    "paperUrl": "https://doi.org/10.18637/jss.v077.i02",
+    "access": "open",
+    "formats": [
+      "R package",
+      "JSS article",
+      "replication materials",
+      "benchmark scripts",
+      "reference networks",
+      "real data examples"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Graphical models, Bayesian networks, conditional independence, structure learning, Markov blankets, constraint-based learning, benchmark reference networks, mice and carcinoma data examples, and reproducible bnlearn replication workflows.",
+    "note": "Verified from the JSS article page and bnlearn research page. JSS lists the paper, bnlearn package, and replication materials; the bnlearn page documents the attached code and data sets, benchmark scripts, Bayesian-network repository reference networks, and mice/carcinoma real data used in the paper."
   }
 ]
