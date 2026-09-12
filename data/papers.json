@@ -53175,5 +53175,276 @@
     ],
     "bestFor": "Graphical models, Bayesian networks, conditional independence, structure learning, Markov blankets, constraint-based learning, benchmark reference networks, mice and carcinoma data examples, and reproducible bnlearn replication workflows.",
     "note": "Verified from the JSS article page and bnlearn research page. JSS lists the paper, bnlearn package, and replication materials; the bnlearn page documents the attached code and data sets, benchmark scripts, Bayesian-network repository reference networks, and mice/carcinoma real data used in the paper."
+  },
+  {
+    "id": "jmlr-doubleml-object-oriented-double-machine-learning",
+    "title": "DoubleML - An Object-Oriented Implementation of Double Machine Learning in Python",
+    "authors": "Philipp Bach, Victor Chernozhukov, Malte S. Kurz, Martin Spindler",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "JMLR paper page, DoubleML Python/R documentation, GitHub source, notebooks, and worked data examples including 401(k), bonus, panel difference-in-differences, repeated-cross-section DiD, instrumental variables, regression discontinuity, GATE/CATE heterogeneous treatment effects, and synthetic DiD data generators.",
+    "datasetUrl": "https://docs.doubleml.org/stable/examples/index.html",
+    "paperUrl": "https://jmlr.org/papers/v23/21-0862.html",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "R package",
+      "notebooks",
+      "GitHub repository",
+      "worked examples",
+      "data generators"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "heterogeneous treatment effects",
+      "treatment effect estimation",
+      "regression discontinuity designs",
+      "instrumental variables"
+    ],
+    "bestFor": "Causal inference, treatment effect estimation, double machine learning, nuisance-adjusted estimation, instrumental variables, difference-in-differences, heterogeneous treatment effects, GATE/CATE workflows, regression discontinuity examples, and reproducible 401(k)/panel DiD notebooks.",
+    "note": "Verified from the JMLR paper page and DoubleML documentation. The documentation links code, package APIs, notebooks, 401(k) and bonus examples, panel/repeated-cross-section DiD examples, IV examples, RDD examples, and synthetic data generators."
+  },
+  {
+    "id": "aos-generalized-random-forests-grf",
+    "title": "Generalized Random Forests",
+    "authors": "Susan Athey, Julie Tibshirani, Stefan Wager",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Annals of Statistics paper, grf R/C++ package, GitHub repository, package examples, tutorials, and reproducible workflows for causal forests, instrumental forests, quantile forests, survival forests, and local moment estimation.",
+    "datasetUrl": "https://github.com/grf-labs/grf",
+    "paperUrl": "https://doi.org/10.1214/18-AOS1709",
+    "access": "open",
+    "formats": [
+      "R package",
+      "C++ package",
+      "GitHub repository",
+      "tutorials",
+      "worked examples"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "heterogeneous treatment effects",
+      "instrumental variables",
+      "quantile regression",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Heterogeneous treatment effects, CATE estimation, causal inference, treatment effect estimation, causal forests, instrumental variables, conditional average treatment effects, quantile regression forests, local moment estimation, and reproducible grf package workflows.",
+    "note": "Verified from the Annals of Statistics/Stanford item page and grf GitHub/website resources. The paper points to the CRAN implementation, and the repository documents tutorials and examples for causal forests, instrumental forests, quantile forests, and local moment estimation."
+  },
+  {
+    "id": "arxiv-fixest-fast-user-friendly-econometrics",
+    "title": "Fast and user-friendly econometrics estimations: The R package fixest",
+    "authors": "Laurent R. Berge, Kyle Butts, Grant McDermott",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "fixest CRAN package, package website, vignettes, and built-in datasets including trade, fulton, base_did, and base_stagg for fixed effects, panel data methods, staggered difference-in-differences, instrumental variables, clustered and robust standard errors, and econometric examples.",
+    "datasetUrl": "https://lrberge.github.io/fixest/reference/index.html",
+    "paperUrl": "https://doi.org/10.48550/arXiv.2601.21749",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "vignettes",
+      "R examples",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences",
+      "instrumental variables",
+      "panel data methods"
+    ],
+    "bestFor": "Panel data methods, longitudinal data analysis, fixed effects, difference-in-differences, staggered adoption, instrumental variables, clustered standard errors, robust standard errors, treatment effect estimation, and reproducible trade/Fulton/base_did/base_stagg examples.",
+    "note": "Verified from fixest authors/citation, CRAN documentation, and the package reference index, which lists the arXiv paper and accessible built-in datasets base_did, base_stagg, trade, fulton, and base_pub."
+  },
+  {
+    "id": "cran-weightit-covariate-balance-weights",
+    "title": "WeightIt: Weighting for Covariate Balance in Observational Studies",
+    "authors": "Noah Greifer",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "WeightIt package website, CRAN/GitHub package, vignettes, R examples, cobalt LaLonde examples, msmdata sequential-study data, and documentation for balancing weights, propensity score weighting, censoring weights, longitudinal treatments, robust variance, and treatment effect estimation.",
+    "datasetUrl": "https://ngreifer.github.io/WeightIt/",
+    "paperUrl": "https://ngreifer.github.io/WeightIt/authors.html",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignettes",
+      "package datasets",
+      "R examples",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "propensity score methods",
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Propensity score methods, causal inference, treatment effect estimation, observational studies, covariate adjustment, confounding, balancing weights, longitudinal treatments, censoring weights, robust variance, and LaLonde/msmdata examples.",
+    "note": "Verified from the WeightIt website, authors/citation page, CRAN reference manual, and package vignettes. The website demonstrates LaLonde examples through cobalt and documents msmdata plus weighting and outcome-model examples."
+  },
+  {
+    "id": "cran-cobalt-covariate-balance-tables-plots",
+    "title": "cobalt: Covariate Balance Tables and Plots",
+    "authors": "Noah Greifer",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "cobalt package website, CRAN/GitHub package, vignettes, LaLonde examples, matching/weighting outputs, clustered-data balance examples, longitudinal treatment examples, and balance diagnostics for propensity score methods and treatment effect estimation.",
+    "datasetUrl": "https://ngreifer.github.io/cobalt/",
+    "paperUrl": "https://ngreifer.github.io/cobalt/reference/cobalt-package.html",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignettes",
+      "R examples",
+      "package datasets",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "propensity score methods",
+      "causal inference",
+      "treatment effect estimation",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Propensity score methods, causal inference, treatment effect estimation, matching, weighting, observational studies, covariate balance diagnostics, confounding assessment, longitudinal treatments, clustered data, and LaLonde examples.",
+    "note": "Verified from cobalt's GitHub page, package website, package reference page, and vignettes. The documentation gives accessible examples for MatchIt, WeightIt, Matching, CBPS, twang, longitudinal treatments, clustered data, and package-integration balance diagnostics."
+  },
+  {
+    "id": "cran-estimatr-design-based-inference",
+    "title": "estimatr: Fast Estimators for Design-Based Inference",
+    "authors": "Graeme Blair, Jasper Cooper, Alexander Coppock, Macartan Humphreys, Luke Sonnet",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "estimatr package website, CRAN package, vignettes, R examples, alo_star_men replication data, and design-based estimators for randomized experiments, difference-in-means, Horvitz-Thompson estimation, instrumental variables, robust standard errors, clustered standard errors, and treatment effect estimation.",
+    "datasetUrl": "https://declaredesign.org/r/estimatr/",
+    "paperUrl": "https://declaredesign.org/r/estimatr/authors.html",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "vignettes",
+      "R examples",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "instrumental variables",
+      "robust statistics",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Randomized experiments, random assignment, causal inference, treatment effect estimation, design-based inference, difference-in-means, Horvitz-Thompson estimation, instrumental variables, robust standard errors, clustered standard errors, and alo_star_men replication data examples.",
+    "note": "Verified from estimatr authors/citation and package documentation. The site and CRAN package provide vignettes, examples, and package data for robust, cluster-robust, IV, and experimental-design estimators."
+  },
+  {
+    "id": "cran-randomizr-random-assignment-sampling",
+    "title": "randomizr: Easy-to-Use Tools for Common Forms of Random Assignment and Sampling",
+    "authors": "Alexander Coppock, Jasper Cooper, Neal Fultz, Graeme Blair, Macartan Humphreys",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "randomizr package website, CRAN package, vignettes, R examples, random assignment probability tools, simple/complete/block/cluster randomization examples, and design workflow links to DeclareDesign and estimatr.",
+    "datasetUrl": "https://declaredesign.org/r/randomizr/",
+    "paperUrl": "https://cran.r-project.org/package=randomizr",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignettes",
+      "R examples",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Randomized experiments, causal inference, treatment effect estimation, random assignment, randomized treatment, treatment-control designs, block randomization, cluster randomization, assignment probabilities, and reproducible experiment-design examples.",
+    "note": "Verified from randomizr CRAN and package website documentation, which describe common experimental random assignment functions, assignment probabilities, examples, and links to the DeclareDesign workflow."
+  },
+  {
+    "id": "apsr-declaredesign-declaring-diagnosing-research-designs",
+    "title": "Declaring and Diagnosing Research Designs",
+    "authors": "Graeme Blair, Jasper Cooper, Alexander Coppock, Macartan Humphreys",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "APSR paper, DeclareDesign CRAN/GitHub package, package website, design simulation examples, MIDA design components, randomized controlled trial examples, sampling/assignment/measurement/estimation code, and diagnosand simulations for bias, power, treatment effects, and research design diagnosis.",
+    "datasetUrl": "https://declaredesign.org/r/declaredesign/",
+    "paperUrl": "https://doi.org/10.1017/S0003055419000194",
+    "access": "open",
+    "formats": [
+      "R package",
+      "GitHub repository",
+      "vignettes",
+      "simulation examples",
+      "documentation",
+      "open article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Randomized experiments, causal inference, treatment effect estimation, research design diagnosis, simulation studies, sampling designs, random assignment, potential outcomes, bias and power diagnosands, and reproducible DeclareDesign examples.",
+    "note": "Verified from the APSR/PubMed article pages and DeclareDesign package website. The package provides code-level design declarations, simulated data draws, diagnosand simulations, RCT examples, and reusable research-design components."
   }
 ]
