@@ -53446,5 +53446,278 @@
     ],
     "bestFor": "Randomized experiments, causal inference, treatment effect estimation, research design diagnosis, simulation studies, sampling designs, random assignment, potential outcomes, bias and power diagnosands, and reproducible DeclareDesign examples.",
     "note": "Verified from the APSR/PubMed article pages and DeclareDesign package website. The package provides code-level design declarations, simulated data draws, diagnosand simulations, RCT examples, and reusable research-design components."
+  },
+  {
+    "id": "jss-carbayes-bayesian-spatial-car-priors",
+    "title": "CARBayes: An R Package for Bayesian Spatial Modeling with Conditional Autoregressive Priors",
+    "authors": "Duncan Lee",
+    "year": 2013,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article, CARBayes R package, CARBayesdata package, vignettes, R examples, Scottish lip cancer data, Greater Glasgow property price data, respiratory hospitalisation data, spatial polygons, adjacency matrices, and Bayesian hierarchical spatial areal-unit workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=CARBayesdata",
+    "paperUrl": "https://doi.org/10.18637/jss.v055.i13",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "spatial polygons",
+      "vignettes",
+      "R examples",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "spatial statistics"
+    ],
+    "bestFor": "Spatial statistics, Bayesian inference, Bayesian hierarchical models, conditional autoregressive priors, spatial random effects, areal-unit modeling, posterior summaries, adjacency-matrix construction, MCMC simulation workflows, and reproducible Scottish lip cancer/property/respiratory examples.",
+    "note": "Verified from the JSS article, Glasgow repository record, CRAN citation page, CARBayes vignette, and CARBayesdata documentation listing the package data used in the examples."
+  },
+  {
+    "id": "jss-carbayesst-spatiotemporal-car-priors",
+    "title": "Spatio-Temporal Areal Unit Modeling in R with Conditional Autoregressive Priors Using the CARBayesST Package",
+    "authors": "Duncan Lee, Alastair Rushworth, Gary Napier",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, CARBayesST R package, CARBayesdata package, R replication code, simulated examples, Greater Glasgow pollution-health data, respiratory hospitalisation data, property price data, and spatio-temporal areal-unit examples with adjacency structures.",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/CARBayesdata/html/00Index.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v084.i09",
+    "access": "open",
+    "formats": [
+      "R package",
+      "replication code",
+      "package datasets",
+      "spatial polygons",
+      "simulated examples",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "time series analysis",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "spatial statistics",
+      "spatio-temporal models"
+    ],
+    "bestFor": "Spatio-temporal models, spatial statistics, time series analysis, Bayesian inference, Bayesian hierarchical models, conditional autoregressive priors, dynamic spatial random effects, temporal dependence, adjacency matrices, and replicated pollution-health/housing examples.",
+    "note": "Verified from the JSS article page, which lists the paper, R package, and replication code, and from CARBayesdata documentation listing the data used in CARBayes and CARBayesST vignettes."
+  },
+  {
+    "id": "jss-sptimer-bayesian-spatiotemporal-modeling",
+    "title": "spTimer: Spatio-Temporal Bayesian Modeling Using R",
+    "authors": "Khandoker Shuvo Bakar, Sujit K. Sahu",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, spTimer R package, R example code from the paper, reference manual, and package examples for Bayesian hierarchical spatio-temporal Gaussian process and autoregressive models for large point-referenced space-time monitoring data.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v063i15",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i15",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "reference manual",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "time series analysis",
+      "bayesian hierarchical models",
+      "spatial statistics",
+      "spatio-temporal models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Spatio-temporal models, spatial statistics, time series analysis, Bayesian inference, Bayesian hierarchical models, space-time covariance, geostatistics, temporal dependence, posterior inference, and reproducible spTimer package examples.",
+    "note": "Verified from the JSS article page and CRAN package documentation, which provide the paper, package, reference manual, and example code for spatio-temporal Bayesian modeling."
+  },
+  {
+    "id": "jss-lgcp-spatiotemporal-log-gaussian-cox",
+    "title": "Bayesian Inference and Data Augmentation Schemes for Spatial, Spatiotemporal and Multivariate Log-Gaussian Cox Processes in R",
+    "authors": "Benjamin M. Taylor, Tilman M. Davies, Barry S. Rowlingson, Peter J. Diggle",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, lgcp R package, R example code from the paper, replication data sets, package vignettes, and examples for spatial, spatio-temporal, multivariate, and aggregated log-Gaussian Cox process models.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v063i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i07",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "replication data",
+      "vignettes",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "spatial statistics",
+      "bayesian hierarchical models",
+      "spatio-temporal models",
+      "multilevel modeling",
+      "time series analysis"
+    ],
+    "bestFor": "Spatial statistics, spatio-temporal models, Bayesian inference, Bayesian hierarchical models, point processes, spatio-temporal point process data, log-Gaussian Cox processes, posterior inference, data augmentation, and reproducible replication data sets.",
+    "note": "Verified from the JSS article page and CRAN package documentation. The JSS page lists the paper, lgcp package, example code, and replication data sets."
+  },
+  {
+    "id": "jss-spate-spatiotemporal-spde-modeling",
+    "title": "spate: An R Package for Spatio-Temporal Modeling with a Stochastic Advection-Diffusion Process",
+    "authors": "Fabio Sigrist, Hans R. Künsch, Werner A. Stahel",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, spate R package, R example code from the paper, simulation tools, and package examples for spatio-temporal Gaussian processes, SPDE-based space-time covariance modeling, adaptive MCMC, and hierarchical Bayesian model building.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v063i14",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i14",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "simulation examples",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "spatio-temporal models",
+      "time series analysis",
+      "spatial statistics",
+      "multilevel modeling"
+    ],
+    "bestFor": "Spatio-temporal models, spatial statistics, time series analysis, Bayesian inference, Bayesian hierarchical models, space-time covariance, spatio-temporal Gaussian processes, SPDE models, adaptive MCMC workflows, and reproducible spate examples.",
+    "note": "Verified from the JSS article page and CRAN citation information, which list the paper, package, and R example code from the manuscript."
+  },
+  {
+    "id": "jss-rinla-bayesian-spatial-modelling",
+    "title": "Bayesian Spatial Modelling with R-INLA",
+    "authors": "Finn Lindgren, Håvard Rue",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, R example code from the manuscript, INLA project examples, tutorials with input data and code, and reproducible workflows for latent Gaussian models, SPDE spatial models, spatial point process models, areal data, geostatistics, and spatio-temporal models.",
+    "datasetUrl": "https://www.r-inla.org/examples/",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i19",
+    "access": "open",
+    "formats": [
+      "R example code",
+      "tutorials",
+      "worked examples",
+      "input data",
+      "article"
+    ],
+    "properties": [
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "spatial statistics",
+      "bayesian hierarchical models",
+      "spatio-temporal models",
+      "multilevel modeling",
+      "time series analysis"
+    ],
+    "bestFor": "Spatial statistics, spatio-temporal models, Bayesian inference, Bayesian hierarchical models, latent Gaussian models, SPDE spatial models, geostatistics, spatial point processes, areal data, posterior inference, and reproducible INLA example code.",
+    "note": "Verified from the JSS article page, INLA publications page, and INLA example gallery. The JSS page lists manuscript code, and the INLA examples page documents reusable workflows with code and input data."
+  },
+  {
+    "id": "mee-inlabru-bayesian-spatial-modelling",
+    "title": "inlabru: An R Package for Bayesian Spatial Modelling from Ecological Survey Data",
+    "authors": "Fabian E. Bachl, Finn Lindgren, David L. Borchers, Janine B. Illian",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Methods in Ecology and Evolution article, inlabru package website, CRAN reference manual, GitHub repository, tutorials, and package data objects including gorilla nesting sites, Gulf of Mexico dolphin survey data, marine renewables data, robins subset data, shrimp data, point-process toy data, and Bayesian spatial model examples.",
+    "datasetUrl": "https://inlabru-org.github.io/inlabru/reference/index.html",
+    "paperUrl": "https://doi.org/10.1111/2041-210X.13168",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "tutorials",
+      "GitHub repository",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "spatial statistics",
+      "bayesian hierarchical models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Spatial statistics, Bayesian inference, Bayesian hierarchical models, latent Gaussian models, spatial point processes, point process data, spatial count data, gridded data, posterior inference, and reproducible inlabru tutorials and package datasets.",
+    "note": "Verified from the Methods in Ecology and Evolution article, package reference index, CRAN documentation, and inlabru package page listing real-world and simulated datasets."
+  },
+  {
+    "id": "jss-spacetime-spatiotemporal-data-classes",
+    "title": "spacetime: Spatio-Temporal Data in R",
+    "authors": "Edzer Pebesma",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, spacetime R package, R example code from the paper, package vignettes, and examples for representing, aggregating, subsetting, and analyzing spatio-temporal data, trajectories, spatial-temporal sensor observations, and time-indexed spatial objects.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v051i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v051.i07",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "vignettes",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatio-temporal models",
+      "spatial statistics"
+    ],
+    "bestFor": "Spatio-temporal models, spatial statistics, time series analysis, spatio-temporal data models, space-time data structures, temporal dependence, trajectories, spatial sensor observations, aggregation, subsetting, and reproducible spacetime examples.",
+    "note": "Verified from the JSS article page, which lists the paper, spacetime R package, and R example code from the paper."
   }
 ]
