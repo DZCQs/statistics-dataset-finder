@@ -53719,5 +53719,270 @@
     ],
     "bestFor": "Spatio-temporal models, spatial statistics, time series analysis, spatio-temporal data models, space-time data structures, temporal dependence, trajectories, spatial sensor observations, aggregation, subsetting, and reproducible spacetime examples.",
     "note": "Verified from the JSS article page, which lists the paper, spacetime R package, and R example code from the paper."
+  },
+  {
+    "id": "jss-mice-chained-equations-r",
+    "title": "mice: Multivariate Imputation by Chained Equations in R",
+    "authors": "Stef van Buuren, Karin Groothuis-Oudshoorn",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, mice R package, R example code from the paper, package vignettes, and package datasets/examples for incomplete multivariate data, chained equations, passive imputation, predictor matrices, pooling, diagnostics, categorical imputation, and multilevel missing data workflows.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v045i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v045.i03",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "package datasets",
+      "vignettes",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple imputation",
+      "missing data",
+      "multilevel modeling"
+    ],
+    "bestFor": "Missing data, multiple imputation, chained equations, incomplete data, MAR/MCAR/MNAR teaching examples, predictor matrices, passive imputation, pooling, diagnostic graphs, multilevel missing data, categorical imputation, and reproducible mice R workflows.",
+    "note": "Verified from the JSS article page, which lists the paper, mice R package, and R example code from the paper, and from package documentation/vignettes documenting incomplete-data examples."
+  },
+  {
+    "id": "jss-mi-multiple-imputation-diagnostics",
+    "title": "Multiple Imputation with Diagnostics (mi) in R: Opening Windows into the Black Box",
+    "authors": "Yu-Sung Su, Andrew Gelman, Jennifer Hill, Masanao Yajima",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, mi R package, R example code from the paper, package documentation, and examples for multiple imputation, missing-data diagnostics, imputation model checking, posterior draws, convergence checks, and incomplete-data analysis.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v045i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v045.i02",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "documentation",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Missing data, multiple imputation, imputation diagnostics, incomplete data, MAR/MCAR/MNAR sensitivity teaching, posterior draws, convergence checks, model checking, and reproducible mi package examples.",
+    "note": "Verified from the JSS issue and article page, which list the paper, mi R package, and R example code from the paper."
+  },
+  {
+    "id": "jss-amelia-ii-missing-data",
+    "title": "Amelia II: A Program for Missing Data",
+    "authors": "James Honaker, Gary King, Matthew Blackwell",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, Amelia R package, R example code, Matthew Blackwell paper page with data, freetrade example data, missingness-map examples, time-series cross-section imputation examples, EM-with-bootstrap workflows, priors, diagnostics, and exported imputed datasets.",
+    "datasetUrl": "https://www.mattblackwell.org/research/amelia-jss/",
+    "paperUrl": "https://doi.org/10.18637/jss.v045.i07",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R example code",
+      "data files",
+      "package datasets",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "resampling methods"
+    ],
+    "bestFor": "Missing data, multiple imputation, incomplete data, EM bootstrap imputation, time-series cross-section data, panel-style missingness, missingness maps, diagnostics, Bayesian priors for cell values, and freetrade example workflows.",
+    "note": "Verified from the JSS article/citation, the JSS volume listing, CRAN citation, and Matthew Blackwell's paper page, which links the PDF, publisher page, and data."
+  },
+  {
+    "id": "jss-mice-stata-chained-equations",
+    "title": "Multiple Imputation by Chained Equations (MICE): Implementation in Stata",
+    "authors": "Patrick Royston, Ian R. White",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, Stata source package, Stata replication code, ovarian cancer example data in Stata format, ovarian cancer example data in Excel format, and worked examples for chained-equations multiple imputation.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v045i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v045.i04",
+    "access": "open",
+    "formats": [
+      "Stata source package",
+      "Stata replication code",
+      "example data",
+      "Excel data",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multiple imputation",
+      "missing data"
+    ],
+    "bestFor": "Missing data, multiple imputation, chained equations, incomplete data, Stata imputation workflows, replication code, ovarian cancer example data, imputation diagnostics, and applied missing-data teaching examples.",
+    "note": "Verified from the JSS special issue page and article page, which list the paper, Stata source package, Stata replication code, and example data in Stata and Excel formats."
+  },
+  {
+    "id": "jss-realcom-impute-multilevel-missing-data",
+    "title": "REALCOM-IMPUTE Software for Multilevel Multiple Imputation with Mixed Response Types",
+    "authors": "James R. Carpenter, Harvey Goldstein, Michael G. Kenward",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, REALCOM-IMPUTE binary, MATLAB source code, replication instructions, example data in plain-text format, example data in MLwiN binary format, and mixed-response multilevel missing-data examples.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v045i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v045.i05",
+    "access": "open",
+    "formats": [
+      "software",
+      "MATLAB source code",
+      "replication instructions",
+      "plain-text data",
+      "MLwiN data",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multilevel modeling",
+      "multiple imputation"
+    ],
+    "bestFor": "Missing data, multiple imputation, multilevel modeling, hierarchical missing data, mixed response types, incomplete clustered data, replication instructions, plain-text example data, MLwiN data, and multilevel imputation workflows.",
+    "note": "Verified from the JSS special issue page and article page, which list the paper, REALCOM-IMPUTE software, MATLAB source, replication instructions, and example data files."
+  },
+  {
+    "id": "jss-vim-imputation-missing-values",
+    "title": "Imputation with the R Package VIM",
+    "authors": "Alexander Kowarik, Matthias Templ",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, VIM R package, VIMGUI R package, R replication code, package vignettes, sleep and other package datasets, hot-deck imputation, k-nearest-neighbor imputation, regression imputation, robust model-based imputation, and missing/imputed-value visualization examples.",
+    "datasetUrl": "https://www.jstatsoft.org/v74/i07/",
+    "paperUrl": "https://doi.org/10.18637/jss.v074.i07",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "package datasets",
+      "vignettes",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple imputation",
+      "missing data",
+      "robust statistics"
+    ],
+    "bestFor": "Missing data, multiple imputation-oriented teaching, imputation workflows, missing-value visualization, hot-deck imputation, k-nearest-neighbor imputation, regression imputation, robust statistics, imputed-value diagnostics, and reproducible VIM examples.",
+    "note": "Verified from the JSS article page and VIM package website, which list the paper, VIM and VIMGUI packages, R replication code, vignettes, and package datasets used in examples."
+  },
+  {
+    "id": "jss-missmda-missing-values-multivariate",
+    "title": "missMDA: A Package for Handling Missing Values in Multivariate Data Analysis",
+    "authors": "Julie Josse, François Husson",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, missMDA R package, R replication code, CRAN package documentation, and examples for PCA, MCA, FAMD, MFA, single imputation, multiple imputation, incomplete continuous/categorical/mixed data, and uncertainty displays around imputed multivariate analyses.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v070i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v070.i01",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "package examples",
+      "documentation",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Missing data, multiple imputation, dimension reduction, PCA with incomplete data, MCA with missing values, FAMD, MFA, mixed data, categorical imputation, continuous imputation, uncertainty visualization, and reproducible missMDA workflows.",
+    "note": "Verified from the JSS article page and CRAN package documentation, which list the paper, package, R replication code, package examples, and multiple-imputation methods."
+  },
+  {
+    "id": "jss-jointai-joint-analysis-imputation",
+    "title": "JointAI: Joint Analysis and Imputation of Incomplete Data in R",
+    "authors": "Nicole S. Erler, Dimitris Rizopoulos, Emmanuel M. E. H. Lesaffre",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software article page, JointAI R package, R replication code, package website, NHANES example data, simulated longitudinal data, survival-package examples, Bayesian joint modeling workflows, MCMC trace/density examples, and incomplete covariate imputation tutorials.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v100i20",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i20",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "package datasets",
+      "vignettes",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "missing data",
+      "multiple imputation",
+      "mcmc diagnostics",
+      "multilevel modeling",
+      "survival models"
+    ],
+    "bestFor": "Missing data, multiple imputation, Bayesian inference, Bayesian hierarchical models, multilevel modeling, survival analysis, survival models, longitudinal missing covariates, MCMC diagnostics, incomplete covariate imputation, and reproducible JointAI examples.",
+    "note": "Verified from the JSS article page, CRAN reference manual, and package website, which document the paper, R package, R replication code, NHANES example data, simulated longitudinal data, survival examples, and MCMC workflows."
   }
 ]
