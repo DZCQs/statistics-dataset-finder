@@ -54179,5 +54179,217 @@
     ],
     "bestFor": "Bayesian inference, simulation-based inference, approximate Bayesian computation, ABC random forests, likelihood-free model choice, likelihood-free parameter estimation, reference-table analysis, population-genetics simulators, toy examples, and reproducible DIYABC RF workflows.",
     "note": "Verified from the DIYABC RF GitHub repository and project site, which document command-line examples, toy examples, notebooks, test data, and the Molecular Ecology Resources paper DOI."
+  },
+  {
+    "id": "rsm-gemtc-automating-network-meta-analysis",
+    "title": "Automating Network Meta-Analysis",
+    "authors": "Gert van Valkenhoef, Guobing Lu, Bert de Brock, Hans L. Hillege, A. E. Ades, Nicky J. Welton",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "CRAN gemtc package, package manual, R and JAGS model-generation code, reproducible vignettes, and bundled arm-level and contrast-level treatment-network datasets including Parkinson disease, smoking cessation, diabetes, and thrombolytic therapy examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=gemtc",
+    "paperUrl": "https://doi.org/10.1002/jrsm.1054",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "R code",
+      "JAGS code",
+      "vignettes",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "network meta-analysis",
+      "bayesian hierarchical models",
+      "probabilistic programming",
+      "multilevel modeling",
+      "meta-analysis"
+    ],
+    "bestFor": "Network meta-analysis, meta-analysis, Bayesian inference, Bayesian hierarchical models, mixed treatment comparison, treatment-network consistency, node splitting, posterior simulation, BUGS-language model generation, automated inference, and reproducible gemtc package datasets.",
+    "note": "Verified from the gemtc CRAN documentation and package manual, which identify the Research Synthesis Methods paper, package code, vignettes, and multiple bundled network meta-analysis datasets."
+  },
+  {
+    "id": "rsm-nmainla-design-by-treatment-network-meta-analysis",
+    "title": "A Design-by-Treatment Interaction Model for Network Meta-Analysis and Meta-Regression with Integrated Nested Laplace Approximations",
+    "authors": "Burak Kuersad Guenhan, Tim Friede, Leonhard Held",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "CRAN nmaINLA package, package vignette, R code, more than ten bundled treatment-network datasets, and the article supporting information with raw data, R code, and JAGS code for three network meta-analysis applications.",
+    "datasetUrl": "https://CRAN.R-project.org/package=nmaINLA",
+    "paperUrl": "https://doi.org/10.1002/jrsm.1285",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "R code",
+      "JAGS code",
+      "vignette",
+      "article supplement"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "network meta-analysis",
+      "meta-analysis"
+    ],
+    "bestFor": "Network meta-analysis, meta-analysis, Bayesian inference, Bayesian hierarchical models, generalized linear mixed models, treatment-network inconsistency, network meta-regression, posterior inference, and reproducible INLA-versus-MCMC comparisons.",
+    "note": "Verified from the nmaINLA CRAN page, project site, and open article page; the package documents more than ten datasets and the paper provides raw data plus R and JAGS replication code in supporting information."
+  },
+  {
+    "id": "jrssa-multilevel-network-meta-regression-population-adjustment",
+    "title": "Multilevel Network Meta-Regression for Population-Adjusted Treatment Comparisons",
+    "authors": "David M. Phillippo, Sofia Dias, A. E. Ades, Mark Belger, Alan Brnabic, Andreas Schacht",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "CRAN multinma package, package website, Stan model code, extensive worked vignettes, and bundled aggregate-data and individual-patient-data examples for smoking cessation, plaque psoriasis, diabetes, Parkinson disease, statins, thrombolytics, and other treatment networks.",
+    "datasetUrl": "https://CRAN.R-project.org/package=multinma",
+    "paperUrl": "https://doi.org/10.1111/rssa.12579",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "Stan code",
+      "vignettes",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "probabilistic programming",
+      "network meta-analysis",
+      "meta-analysis"
+    ],
+    "bestFor": "Network meta-analysis, meta-analysis, Bayesian inference, Bayesian hierarchical models, multilevel network meta-regression, population adjustment, individual patient data, aggregate data, posterior inference, Stan code, Stan examples, and treatment-effect heterogeneity across populations.",
+    "note": "Verified from the open JRSS A article and the multinma CRAN/project documentation, which link the method to the package and provide numerous worked treatment-network datasets and Stan-based examples."
+  },
+  {
+    "id": "rjournal-metapack-bayesian-network-meta-analysis",
+    "title": "metapack: An R Package for Bayesian Meta-Analysis and Network Meta-Analysis with a Unified Formula Interface",
+    "authors": "Daeyoung Lim, Ming-Hui Chen, Joseph G. Ibrahim, Sungduk Kim, Arvind K. Shah, Jianxin Lin",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "CRAN metapack package, The R Journal article, R source code, and two real package datasets for cholesterol multivariate meta-analysis and TNM network meta-analysis, with Bayesian model-fitting, model-assessment, posterior-summary, and diagnostic-plot examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=metapack",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-047",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "R code",
+      "article",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "mcmc diagnostics",
+      "network meta-analysis",
+      "meta-analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Network meta-analysis, meta-analysis, Bayesian inference, Bayesian hierarchical modeling, posterior summaries, MCMC diagnostics, multivariate meta-analysis, treatment-network covariance modeling, model assessment, and reproducible cholesterol and TNM examples.",
+    "note": "Verified from The R Journal article and CRAN citation/package pages; the paper explicitly demonstrates the software with two real datasets contained in metapack."
+  },
+  {
+    "id": "bmc-crossnma-cross-design-cross-format-network-meta-analysis",
+    "title": "crossnma: An R Package to Synthesize Cross-Design Evidence and Cross-Format Data Using Network Meta-Analysis and Network Meta-Regression",
+    "authors": "Tasnim Hamza, Guido Schwarzer, Georgia Salanti",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "CRAN crossnma package, GitHub repository, package vignette, R and JAGS code, supplementary documents, simulated individual-participant and aggregate-data examples, and study-design mixtures for Bayesian network meta-analysis and network meta-regression.",
+    "datasetUrl": "https://CRAN.R-project.org/package=crossnma",
+    "paperUrl": "https://doi.org/10.1186/s12874-023-02130-0",
+    "access": "open",
+    "formats": [
+      "R package",
+      "GitHub repository",
+      "simulated datasets",
+      "R code",
+      "JAGS code",
+      "article supplement"
+    ],
+    "properties": [
+      "software",
+      "replication-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "meta-analysis",
+      "probabilistic programming",
+      "network meta-analysis",
+      "multilevel modeling",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Network meta-analysis, meta-analysis, Bayesian inference, Bayesian hierarchical models, cross-design evidence synthesis, individual participant data, aggregate data, randomized and non-randomized studies, BUGS-language model code, automated inference, and network meta-regression.",
+    "note": "Verified from the open BMC article, CRAN page, and project repository; the paper documents its simulated IPD/aggregate-data working example, supplementary code, vignette, and public package source."
+  },
+  {
+    "id": "rsm-metainsight-interactive-network-meta-analysis",
+    "title": "MetaInsight: An Interactive Web-Based Tool for Analyzing, Interrogating, and Visualizing Network Meta-Analyses Using R-Shiny and netmeta",
+    "authors": "Rhiannon K. Owen, Naomi Bradbury, Yiqiao Xin, Nicola Cooper, Alex Sutton",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "MetaInsight Zenodo software archive, R Shiny application source, technical specification, built-in binary and continuous network meta-analysis example data, and an illustrative obesity-treatment network used for interactive analysis and visualization.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.10352383",
+    "paperUrl": "https://doi.org/10.1002/jrsm.1373",
+    "access": "open",
+    "formats": [
+      "Zenodo archive",
+      "R Shiny application",
+      "example datasets",
+      "source code",
+      "technical specification",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "network meta-analysis",
+      "meta-analysis"
+    ],
+    "bestFor": "Network meta-analysis, meta-analysis, treatment-network visualization, frequentist netmeta workflows, interactive sensitivity analysis, binary and continuous example data, and accessible teaching demonstrations for evidence synthesis.",
+    "note": "Verified from the open Research Synthesis Methods article and Zenodo archive; the article documents built-in example data and the archive provides the MetaInsight application source."
   }
 ]
