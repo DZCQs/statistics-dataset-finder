@@ -53984,5 +53984,200 @@
     ],
     "bestFor": "Missing data, multiple imputation, Bayesian inference, Bayesian hierarchical models, multilevel modeling, survival analysis, survival models, longitudinal missing covariates, MCMC diagnostics, incomplete covariate imputation, and reproducible JointAI examples.",
     "note": "Verified from the JSS article page, CRAN reference manual, and package website, which document the paper, R package, R replication code, NHANES example data, simulated longitudinal data, survival examples, and MCMC workflows."
+  },
+  {
+    "id": "mee-abc-r-package-approximate-bayesian-computation",
+    "title": "abc: An R Package for Approximate Bayesian Computation (ABC)",
+    "authors": "Katalin Csillery, Olivier Francois, Michael G. B. Blum",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "CRAN abc package, abc.data dependency, package vignette, R source code, package manual, executable examples, cross-validation examples, posterior predictive checks, model-choice examples, and simulated summary-statistic datasets for approximate Bayesian computation.",
+    "datasetUrl": "https://CRAN.R-project.org/package=abc",
+    "paperUrl": "https://doi.org/10.1111/j.2041-210X.2011.00179.x",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "vignette",
+      "R code",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "approximate Bayesian computation",
+      "simulation-based inference"
+    ],
+    "bestFor": "Bayesian inference, simulation-based inference, approximate Bayesian computation, rejection ABC, ABC model choice, ABC regression adjustment, posterior predictive checks, cross-validation, simulated summary statistics, and reproducible abc package workflows.",
+    "note": "Verified from the CRAN abc package page, which lists the package source, abc.data dependency, reference manual, vignette, R code, and citation, and from the Methods in Ecology and Evolution paper page."
+  },
+  {
+    "id": "mee-easyabc-efficient-abc-sampling",
+    "title": "EasyABC: Performing Efficient Approximate Bayesian Computation Sampling Schemes Using R",
+    "authors": "Franck Jabot, Thierry Faure, Nicolas Dumoulin",
+    "year": 2013,
+    "citations": 0,
+    "dataset": "CRAN EasyABC package, package website, vignette, R source code, executable toy examples, sequential ABC examples, coupled-to-MCMC ABC examples, binary-code wrappers, parallel simulation workflows, and simulation-output post-processing examples.",
+    "datasetUrl": "https://CRAN.R-project.org/package=EasyABC",
+    "paperUrl": "https://doi.org/10.1111/2041-210X.12050",
+    "access": "open",
+    "formats": [
+      "R package",
+      "vignette",
+      "R code",
+      "simulation examples",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "simulation-based inference",
+      "approximate Bayesian computation"
+    ],
+    "bestFor": "Bayesian inference, simulation-based inference, approximate Bayesian computation, sequential ABC, ABC-SMC, ABC-MCMC, likelihood-free model simulation, parallel simulation workflows, toy posterior examples, and reproducible EasyABC package tutorials.",
+    "note": "Verified from the CRAN EasyABC package page and package website, which list the package source, vignette, R code, efficient ABC sampling schemes, sequential and MCMC-coupled examples, and the Methods in Ecology and Evolution paper."
+  },
+  {
+    "id": "rjournal-abctools-tuning-approximate-bayesian-computation",
+    "title": "abctools: An R Package for Tuning Approximate Bayesian Computation Analyses",
+    "authors": "Matthew A. Nunes, Dennis Prangle",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "The R Journal article, CRAN abctools package, R package examples, coal and coalobs simulated coalescent summary-statistic datasets, g-and-k distribution simulation datasets, summary-statistic selection examples, coverage diagnostics, threshold-tuning examples, and reusable ABC output post-processing workflows.",
+    "datasetUrl": "https://CRAN.R-project.org/package=abctools",
+    "paperUrl": "https://doi.org/10.32614/RJ-2015-030",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package datasets",
+      "R code",
+      "article",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "simulation-based inference",
+      "approximate Bayesian computation"
+    ],
+    "bestFor": "Bayesian inference, simulation-based inference, approximate Bayesian computation, summary-statistic selection, ABC threshold tuning, coverage diagnostics, coalescent simulation summaries, g-and-k simulation examples, and reproducible abctools workflows.",
+    "note": "Verified from The R Journal article and CRAN documentation; the article documents package datasets coal, coalobs, and g-and-k simulation data, and links abctools and abc package resources."
+  },
+  {
+    "id": "bioinformatics-abcsysbio-python-gpu-abc",
+    "title": "ABC-SysBio: Approximate Bayesian Computation in Python with GPU Support",
+    "authors": "Juliane Liepe, Chris P. Barnes, Erika Cule, Kamil Erguler, Paul D. W. Kirk, Tina Toni, Michael P. H. Stumpf",
+    "year": 2010,
+    "citations": 0,
+    "dataset": "ABC-SysBio software examples page, downloadable example projects, SBML model examples, SIR model selection examples, stochastic linear growth examples, dimerisation reaction examples, immigration-death/logistic model-selection examples, repressilator examples, Python model files, CUDA examples, input files, and posterior output examples for ABC-SMC and rejection ABC.",
+    "datasetUrl": "https://abc-sysbio.sourceforge.net/examples.html",
+    "paperUrl": "https://doi.org/10.1093/bioinformatics/btq278",
+    "access": "open",
+    "formats": [
+      "Python software",
+      "example projects",
+      "SBML files",
+      "input files",
+      "documentation",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "approximate Bayesian computation",
+      "bayesian inference",
+      "simulation-based inference"
+    ],
+    "bestFor": "Bayesian inference, simulation-based inference, approximate Bayesian computation, ABC-SMC, rejection ABC, simulator-based model selection, stochastic differential equation examples, SBML model examples, CUDA-accelerated simulations, and reproducible ABC-SysBio tutorials.",
+    "note": "Verified from the ABC-SysBio examples page, which documents multiple runnable example projects and model/input files, and from bibliographic metadata for the Bioinformatics paper."
+  },
+  {
+    "id": "bmc-abctoolbox-versatile-approximate-bayesian-computations",
+    "title": "ABCtoolbox: A Versatile Toolkit for Approximate Bayesian Computations",
+    "authors": "Daniel Wegmann, Christoph Leuenberger, Samuel Neuenschwander, Laurent Excoffier",
+    "year": 2010,
+    "citations": 0,
+    "dataset": "ABCtoolbox software page, downloadable source and binaries, manual, example files, command-line simulation workflows, MCMC-without-likelihood examples, population Monte Carlo ABC examples, posterior estimation outputs, and population-genetics simulation examples.",
+    "datasetUrl": "https://cmpg.unibe.ch/software/ABCtoolbox/",
+    "paperUrl": "https://doi.org/10.1186/1471-2105-11-116",
+    "access": "open",
+    "formats": [
+      "software",
+      "source code",
+      "binaries",
+      "example files",
+      "manual",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "approximate Bayesian computation",
+      "simulation-based inference"
+    ],
+    "bestFor": "Bayesian inference, simulation-based inference, approximate Bayesian computation, ABC-MCMC, population Monte Carlo ABC, likelihood-free command-line simulation workflows, summary-statistic construction, and reproducible ABCtoolbox examples.",
+    "note": "Verified from the ABCtoolbox software page, which links the manual and a zipped package containing source code, binaries, and example files, and from the open BMC Bioinformatics article."
+  },
+  {
+    "id": "mer-diyabc-random-forest-abc",
+    "title": "Extending Approximate Bayesian Computation with Supervised Machine Learning to Infer Demographic History from Genetic Polymorphisms Using DIYABC Random Forest",
+    "authors": "Francois-David Collin, Ghislain Durif, Louis Raynal, Eric Lombaert, Mathieu Gautier, Renaud Vitalis, Jean-Michel Marin, Arnaud Estoup",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "DIYABC Random Forest website, abcranger GitHub repository, executable examples, toy examples, notebooks, test data, population-genetics demo data, reference-table examples, observed-statistics files, model-choice outputs, parameter-estimation outputs, and reproducible command-line workflows for ABC random forests.",
+    "datasetUrl": "https://github.com/diyabc/abcranger",
+    "paperUrl": "https://doi.org/10.1111/1755-0998.13413",
+    "access": "open",
+    "formats": [
+      "GitHub repository",
+      "software",
+      "toy examples",
+      "notebooks",
+      "test data",
+      "article"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "simulation-based inference",
+      "approximate Bayesian computation"
+    ],
+    "bestFor": "Bayesian inference, simulation-based inference, approximate Bayesian computation, ABC random forests, likelihood-free model choice, likelihood-free parameter estimation, reference-table analysis, population-genetics simulators, toy examples, and reproducible DIYABC RF workflows.",
+    "note": "Verified from the DIYABC RF GitHub repository and project site, which document command-line examples, toy examples, notebooks, test data, and the Molecular Ecology Resources paper DOI."
   }
 ]
