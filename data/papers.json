@@ -54391,5 +54391,161 @@
     ],
     "bestFor": "Network meta-analysis, meta-analysis, treatment-network visualization, frequentist netmeta workflows, interactive sensitivity analysis, binary and continuous example data, and accessible teaching demonstrations for evidence synthesis.",
     "note": "Verified from the open Research Synthesis Methods article and Zenodo archive; the article documents built-in example data and the archive provides the MetaInsight application source."
+  },
+  {
+    "id": "jss-lmsubsets-exact-variable-subset-selection",
+    "title": "lmSubsets: Exact Variable-Subset Selection in Linear Regression for R",
+    "authors": "Marc Hofmann, Cristian Gatu, Erricos J. Kontoghiorghes, Ana Colubi, Achim Zeileis",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software replication materials and lmSubsets R package with case-study and benchmark resources for exact and approximate best-subset regression",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v093i03/3944",
+    "paperUrl": "https://doi.org/10.18637/jss.v093.i03",
+    "access": "open",
+    "formats": [
+      "journal replication materials",
+      "R package",
+      "case-study data",
+      "benchmark code"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variable selection",
+      "high-dimensional statistics",
+      "best subset selection"
+    ],
+    "bestFor": "Exact and approximate best subset selection, variable selection, all-subsets regression, sparse model selection, and reproducible algorithm benchmarks.",
+    "note": "Verified on the Journal of Statistical Software article page, which links the paper, lmSubsets R package, and a separate replication-materials archive for the case study and benchmarks."
+  },
+  {
+    "id": "arxiv-1707.08692-best-subset-comparisons",
+    "title": "Extended Comparisons of Best Subset Selection, Forward Stepwise Selection, and the Lasso",
+    "authors": "Trevor Hastie, Robert Tibshirani, Ryan Tibshirani",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Best Subset Selection and Related Tools repository with simulation workflows comparing mixed-integer best subset selection, forward stepwise selection, and the lasso",
+    "datasetUrl": "https://github.com/ryantibs/best-subset",
+    "paperUrl": "https://arxiv.org/abs/1707.08692",
+    "access": "open",
+    "formats": [
+      "GitHub repository",
+      "R package",
+      "simulation code",
+      "benchmark outputs"
+    ],
+    "properties": [
+      "simulation-study",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variable selection",
+      "best subset selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing best subset selection, forward stepwise selection, and lasso procedures across controlled sparse-regression simulations.",
+    "note": "Verified from the authors' repository: it explicitly links the paper, implements mixed-integer best subset selection, and includes the simulation directory used for method comparisons."
+  },
+  {
+    "id": "jss-misssbm-missing-network-data",
+    "title": "missSBM: An R Package for Handling Missing Values in the Stochastic Block Model",
+    "authors": "Pierre Barbillon, Julien Chiquet, Timothee Tabouy",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software replication materials and missSBM package with partially observed network examples, including the 2007 French political blogosphere network under MAR and MNAR sampling",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v101i12/4258",
+    "paperUrl": "https://doi.org/10.18637/jss.v101.i12",
+    "access": "open",
+    "formats": [
+      "journal replication materials",
+      "R package",
+      "network data",
+      "case-study code"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data",
+      "nonignorable missing data"
+    ],
+    "bestFor": "Studying missing data, imputation, and nonignorable missing data in partially observed networks with stochastic block models and variational inference.",
+    "note": "Verified on the Journal of Statistical Software page and official package site. The paper links replication materials and illustrates MAR and MNAR observation processes on the bundled French political-blog network."
+  },
+  {
+    "id": "iclr-2021-not-miwae-mnar",
+    "title": "not-MIWAE: Deep Generative Modelling with Missing Not at Random Data",
+    "authors": "Niels Bruun Ipsen, Pierre-Alexandre Mattei, Jes Frellsen",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official notMIWAE repository with implementation, tutorial notebook, missingness mechanisms, and reproducible experiments on a UCI dataset",
+    "datasetUrl": "https://github.com/nbip/notMIWAE",
+    "paperUrl": "https://openreview.net/forum?id=tu29GQT0JFy",
+    "access": "open",
+    "formats": [
+      "GitHub repository",
+      "Jupyter notebook",
+      "Python code",
+      "UCI tabular data workflow"
+    ],
+    "properties": [
+      "benchmark",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "nonignorable missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Evaluating deep generative imputation when data are missing not at random, including explicit MNAR missingness models and UCI benchmark experiments.",
+    "note": "Verified from the ICLR paper and authors' repository. The repository identifies itself as accompanying code, provides a step-by-step notebook, and runs not-MIWAE and competitors on a UCI dataset."
+  },
+  {
+    "id": "nimwae-nonignorable-imputation",
+    "title": "Unsupervised Imputation of Non-Ignorably Missing Data Using Importance-Weighted Autoencoders",
+    "authors": "David K. Lim, Naim U. Rashid, Junier B. Oliva, Joseph G. Ibrahim",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "NIMIWAE reproducibility repository with simulation data, comparison code, and the PhysioNet 2012 ICU challenge-data workflow for nonignorable missing-data imputation",
+    "datasetUrl": "https://github.com/DavidKLim/NIMIWAE_Paper",
+    "paperUrl": "https://doi.org/10.1080/19466315.2024.2368787",
+    "access": "open",
+    "formats": [
+      "GitHub repository",
+      "R scripts",
+      "Python code",
+      "simulation data",
+      "EHR workflow"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "dimension reduction",
+      "high-dimensional statistics",
+      "nonignorable missing data"
+    ],
+    "bestFor": "Benchmarking multiple imputation and dimension reduction for high-dimensional incomplete data under ignorable and nonignorable missingness mechanisms.",
+    "note": "Verified from the journal supplementary-material statement, arXiv paper, and author repositories. The reproducibility repository contains a data directory and scripts for simulations, comparator methods, and the PhysioNet case study."
   }
 ]
