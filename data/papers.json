@@ -52728,7 +52728,7 @@
     "year": 2011,
     "citations": 0,
     "dataset": "Journal of Statistical Software article page, decon R package, R example code from the paper, simulated and real examples for density estimation with measurement error, distribution-function estimation from contaminated data, nonparametric regression with errors-in-variables, deconvolution kernels, and smoothing-parameter selection.",
-    "datasetUrl": "https://CRAN.R-project.org/package=decon",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v039i10/2177",
     "paperUrl": "https://doi.org/10.18637/jss.v039.i10",
     "access": "open",
     "formats": [
@@ -52739,6 +52739,7 @@
       "real examples"
     ],
     "properties": [
+      "replication-data",
       "software",
       "tutorial-data",
       "code",
@@ -54547,5 +54548,168 @@
     ],
     "bestFor": "Benchmarking multiple imputation and dimension reduction for high-dimensional incomplete data under ignorable and nonignorable missingness mechanisms.",
     "note": "Verified from the journal supplementary-material statement, arXiv paper, and author repositories. The reproducibility repository contains a data directory and scripts for simulations, comparator methods, and the PhysioNet case study."
+  },
+  {
+    "id": "jors-forecasting-interrupted-time-series",
+    "title": "Forecasting Interrupted Time Series",
+    "authors": "Rob J. Hyndman, Bahman Rostami-Tabar",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Author reproducibility repository with Australian overseas-arrivals and related real time series interrupted by COVID-19, complete R code, targets workflow, and a frozen package environment",
+    "datasetUrl": "https://github.com/bahmanrostamitabar/forecasting_interrupted_time_series",
+    "paperUrl": "https://doi.org/10.1080/01605682.2024.2395315",
+    "access": "open",
+    "formats": [
+      "GitHub repository",
+      "R scripts",
+      "real time series",
+      "targets workflow",
+      "renv environment"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Evaluating time series forecasting methods for interrupted time series when a structural intervention disrupts both the level and the future forecasting regime.",
+    "note": "Verified from the journal article and author repository. The repository contains the real arrival-series data, analysis code, targets pipeline, and dependency lockfile used to reproduce the forecasting study."
+  },
+  {
+    "id": "bmc-its2es-effect-size",
+    "title": "Effect Size Quantification for Interrupted Time Series Analysis: Implementation in R and Analysis for COVID-19 Research",
+    "authors": "Yael Travis-Lumer, Yair Goldberg, Stephen Z. Levine",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Official its2es repository and R package with tutorials, simulation code, and Israeli all-cause mortality time series used for interrupted time-series intervention-effect analysis",
+    "datasetUrl": "https://github.com/Yael-Travis-Lumer/its2es",
+    "paperUrl": "https://doi.org/10.1186/s12982-022-00118-7",
+    "access": "open",
+    "formats": [
+      "GitHub repository",
+      "R package",
+      "tutorials",
+      "time series data",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "causal inference",
+      "interrupted time series",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Estimating and comparing causal intervention effect sizes in interrupted time series and quasi-experimental designs with segmented temporal outcomes.",
+    "note": "Verified from the open journal article and official repository. The article states that the data and code are open, while the repository supplies the package, tutorials, simulation workflow, and mortality case-study data."
+  },
+  {
+    "id": "jss-hmi-hierarchical-multiple-imputation",
+    "title": "The R Package hmi: A Convenient Tool for Hierarchical Multiple Imputation and Beyond",
+    "authors": "Matthias Speidel, Jörg Drechsler, Shahab Jolani",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software replication code and hmi package datasets for hierarchical multiple imputation, including Gcsemv, NHANES examples, and survey measurement-error correction",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v095i09/4020",
+    "paperUrl": "https://doi.org/10.18637/jss.v095.i09",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "hierarchical data",
+      "survey data",
+      "worked examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple imputation",
+      "measurement error models",
+      "missing data",
+      "multilevel modeling",
+      "survey methodology"
+    ],
+    "bestFor": "Studying missing data and multiple imputation in multilevel models, including hierarchical records and measurement error models for implicitly rounded survey responses.",
+    "note": "Verified on the Journal of Statistical Software page and its direct replication-code download. The code loads the package datasets used in the paper and reproduces the hierarchical imputation examples."
+  },
+  {
+    "id": "jss-seqhmm-mixture-hidden-markov-sequences",
+    "title": "Mixture Hidden Markov Models for Sequence Data: The seqHMM Package in R",
+    "authors": "Satu Helske, Jouni Helske",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software replication code and seqHMM package examples for multichannel categorical time series and longitudinal sequence data",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v088i03/3765",
+    "paperUrl": "https://doi.org/10.18637/jss.v088.i03",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "categorical sequences",
+      "longitudinal data",
+      "visualization code"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "mixture models",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Analyzing longitudinal data and categorical time series with mixture hidden Markov models across parallel sequences and latent states.",
+    "note": "Verified on the Journal of Statistical Software page and direct replication-code download. The package and code reproduce examples for hidden and mixture Markov models on sequence data."
+  },
+  {
+    "id": "jss-idemo-integrated-degradation-models",
+    "title": "Integrated Degradation Models in R Using iDEMO",
+    "authors": "Ya-Shan Cheng, Chien-Yu Peng",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software replication instructions and iDEMO package laser degradation data for repeated degradation paths with unit heterogeneity, a time-dependent structure, and measurement error",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v049i02/2473",
+    "paperUrl": "https://doi.org/10.18637/jss.v049.i02",
+    "access": "open",
+    "formats": [
+      "journal replication instructions",
+      "R package",
+      "laser degradation data",
+      "repeated measurements"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "measurement error models",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Analyzing longitudinal degradation paths with measurement error models and survival analysis quantities such as mean time to failure and failure-time distributions.",
+    "note": "Verified on the Journal of Statistical Software page and direct replication instructions. The package includes the laser data used in the tutorial and reproduces model selection, estimation, and lifetime calculations."
   }
 ]

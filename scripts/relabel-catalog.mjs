@@ -219,10 +219,17 @@ const evidenceRules = [
   {
     label: "interrupted time series",
     reason: "interrupted-time-series, controlled-ITS, or segmented-regression intervention evidence in record text",
-    test: (paper) =>
-      /\b(interrupted time series|interrupted time-series|controlled interrupted time series|controlled interrupted time-series|segmented regression|intervention time series|its design|cits)\b/i.test(
-        paperText(paper)
-      )
+    test: (paper) => {
+      const text = paperText(paper);
+      const forecastingOnly =
+        /\bforecasting interrupted time series\b/i.test(text) &&
+        !/\b(causal effect|intervention effect|segmented regression|controlled interrupted time series|controlled interrupted time-series|quasi-experimental)\b/i.test(text);
+
+      return (
+        !forecastingOnly &&
+        /\b(interrupted time series|interrupted time-series|controlled interrupted time series|controlled interrupted time-series|segmented regression|intervention time series|its design|cits)\b/i.test(text)
+      );
+    }
   },
   {
     label: "item response theory",
