@@ -792,6 +792,30 @@ export const LABEL_REGISTRY = [
 ];
 
 export const LABEL_CANDIDATES = [
+  {
+    name: "stochastic-gradient MCMC",
+    status: "candidate",
+    proposedLevel: "low",
+    proposedParents: ["bayesian inference"],
+    currentEvidence: [
+      {
+        paperId: "jss-sgmcmc-stochastic-gradient",
+        evidence: "The paper and replication package center on stochastic-gradient Langevin, Hamiltonian, and thermostat MCMC algorithms."
+      },
+      {
+        paperId: "openalex-W3100688298",
+        evidence: "The review's public repository provides simulated, MNIST, and MovieLens examples for stochastic-gradient MCMC methods."
+      }
+    ],
+    evidenceTerms: [
+      "stochastic gradient mcmc",
+      "stochastic-gradient mcmc",
+      "sgmcmc",
+      "stochastic gradient langevin",
+      "stochastic-gradient langevin"
+    ],
+    admissionConditions: "Add at least one more independent high-confidence paper with accessible data or replication resources, then confirm the topic remains distinct and reusable."
+  }
 ];
 
 export const LABEL_RULES = {

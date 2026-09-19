@@ -54711,5 +54711,321 @@
     ],
     "bestFor": "Analyzing longitudinal degradation paths with measurement error models and survival analysis quantities such as mean time to failure and failure-time distributions.",
     "note": "Verified on the Journal of Statistical Software page and direct replication instructions. The package includes the laser data used in the tutorial and reproduces model selection, estimation, and lifetime calculations."
+  },
+  {
+    "id": "jss-survey-complex-samples",
+    "title": "Analysis of Complex Survey Samples",
+    "authors": "Thomas Lumley",
+    "year": 2004,
+    "citations": 0,
+    "dataset": "The survey R package and its worked complex-sample examples for stratification, clustering, unequal probabilities, linearization, and replication-weight variance estimation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v009i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v009.i08",
+    "access": "open",
+    "formats": [
+      "journal data page",
+      "R package",
+      "worked examples"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey methodology",
+      "survey weighting"
+    ],
+    "bestFor": "Learning and evaluating design-based analysis of complex survey samples with strata, clusters, unequal weights, replicate weights, and linearization variance estimators.",
+    "note": "Verified on the official Journal of Statistical Software page, which links the open paper and survey R package used for the complex-sample analyses."
+  },
+  {
+    "id": "jss-emdi-small-area",
+    "title": "The R Package emdi for Estimating and Mapping Regionally Disaggregated Indicators",
+    "authors": "Ann-Kristin Kreutzmann, Sören Pannier, Natalia Rojas-Perilla, Timo Schmid, Matthias Templ, Nikos Tzavidis",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "JSS replication code and emdi package examples using Austrian EU-SILC sample and population data to estimate district-level income, poverty, median, and Gini indicators",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v091i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v091.i07",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "survey sample",
+      "population data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "resampling methods"
+    ],
+    "bestFor": "Small area estimation of geographically disaggregated indicators with direct and model-based estimators, diagnostics, and bootstrap mean-squared-error assessment.",
+    "note": "Verified on the official JSS page and replication code. The examples load the Austrian EU-SILC sample and population datasets and reproduce district-level income and inequality estimates."
+  },
+  {
+    "id": "jss-mcmcglmm-multivariate-glmm",
+    "title": "MCMC Methods for Multi-Response Generalized Linear Mixed Models: The MCMCglmm R Package",
+    "authors": "Jarrod D. Hadfield",
+    "year": 2010,
+    "citations": 0,
+    "dataset": "JSS example code and MCMCglmm package data, including BTdata and BTped, for multivariate generalized linear mixed models with pedigrees and random effects",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v033i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v033.i02",
+    "access": "open",
+    "formats": [
+      "journal example code",
+      "R package",
+      "pedigree data",
+      "multivariate responses"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "mcmc diagnostics",
+      "multilevel modeling"
+    ],
+    "bestFor": "Bayesian inference for multi-response generalized linear mixed models, including hierarchical random effects, pedigree structures, and MCMC posterior simulation.",
+    "note": "Verified on the official JSS page and its example code, which loads the package's BTdata and BTped datasets and reproduces MCMC-based mixed-model analyses."
+  },
+  {
+    "id": "jss-sgmcmc-stochastic-gradient",
+    "title": "sgmcmc: An R Package for Stochastic Gradient Markov Chain Monte Carlo",
+    "authors": "Jack Baker, Paul Fearnhead, Emily B. Fox, Christopher Nemeth",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and sgmcmc package examples for large-data Bayesian inference with stochastic-gradient Langevin, Hamiltonian, and thermostat samplers",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v091i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v091.i03",
+    "access": "open",
+    "formats": [
+      "journal replication materials",
+      "R package",
+      "TensorFlow model code",
+      "worked examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Reproducing and comparing stochastic-gradient MCMC algorithms for scalable Bayesian posterior inference on large datasets.",
+    "note": "Verified on the official JSS page, which provides the sgmcmc package and replication materials. The record remains marked for label review because the catalog lacks a specific stochastic-gradient MCMC label."
+  },
+  {
+    "id": "jss-spsurvey-spatial-sampling",
+    "title": "spsurvey: Spatial Sampling Design and Analysis in R",
+    "authors": "Michael Dumelle, Tom Kincaid, Anthony R. Olsen, Marc Weber",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "NLA12 replication data and the spsurvey manuscript repository for spatially balanced GRTS sampling, unequal inclusion probabilities, design weights, and survey analysis",
+    "datasetUrl": "https://github.com/USEPA/spsurvey.manuscript",
+    "paperUrl": "https://doi.org/10.18637/jss.v105.i03",
+    "access": "open",
+    "formats": [
+      "GitHub repository",
+      "R package",
+      "replication data",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey methodology",
+      "survey weighting",
+      "spatial statistics"
+    ],
+    "bestFor": "Designing and evaluating spatially balanced probability samples with stratification, varying inclusion probabilities, design weights, and design-based spatial survey inference.",
+    "note": "Verified from the JSS data-and-code statement and official article page. The repository contains all manuscript code and data, while JSS separately lists the NLA12 replication dataset."
+  },
+  {
+    "id": "jss-splm-spatial-panel",
+    "title": "splm: Spatial Panel Data Models in R",
+    "authors": "Giovanni Millo, Gianfranco Piras",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "JSS example data and replication code for productivity in 48 US states observed over 17 years, used to fit and test spatial fixed- and random-effects panel models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v047i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v047.i01",
+    "access": "open",
+    "formats": [
+      "journal data page",
+      "plain-text data",
+      "R code",
+      "MATLAB code",
+      "simulation results"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "spatial statistics",
+      "multilevel modeling"
+    ],
+    "bestFor": "Spatial panel data methodology with repeated state-level observations, fixed or random effects, maximum likelihood, and generalized-moments estimation.",
+    "note": "Verified on the official JSS page, which exposes two example data files, paper code, simulation code, and simulation results for the 48-state productivity panel."
+  },
+  {
+    "id": "jss-inlamsm-multivariate-lattice",
+    "title": "Bayesian Multivariate Spatial Models for Lattice Data with INLA",
+    "authors": "Francisco Palmí-Perales, Virgilio Gómez-Rubio, Miguel A. Martinez-Beneito",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "JSS replication code and INLAMSM package examples using North Carolina SIDS data and cause-specific mortality data from Comunidad Valenciana, Spain",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v098i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v098.i02",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "lattice data",
+      "multivariate mortality data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multilevel modeling",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "spatial statistics"
+    ],
+    "bestFor": "Bayesian hierarchical analysis of multivariate lattice outcomes with spatial random effects and integrated nested Laplace approximation.",
+    "note": "Verified on the official JSS page, which links the INLAMSM package and replication code and identifies both real spatial datasets used in the paper."
+  },
+  {
+    "id": "jss-spbayessurv-spatial-survival",
+    "title": "spBayesSurv: Fitting Bayesian Spatial Survival Models Using R",
+    "authors": "Haiming Zhou, Timothy Hanson, Jiajia Zhang",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "JSS replication code and spBayesSurv package examples for Bayesian spatial survival models with georeferenced or areal frailties and multiple censoring mechanisms",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v092i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v092.i09",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "spatial survival data",
+      "worked examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "spatial statistics"
+    ],
+    "bestFor": "Bayesian spatial survival analysis with proportional-hazards, proportional-odds, accelerated-failure-time, frailty, and semiparametric models under complex censoring.",
+    "note": "Verified on the official JSS page, which links the spBayesSurv package and R replication code for the paper's spatial survival examples."
+  },
+  {
+    "id": "jss-spnngp-nearest-neighbor-gp",
+    "title": "spNNGP R Package for Nearest Neighbor Gaussian Process Models",
+    "authors": "Andrew O. Finley, Abhirup Datta, Sudipto Banerjee",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "JSS replication materials and spNNGP examples with simulated and real point-referenced datasets for scalable Gaussian and non-Gaussian spatial regression",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v103i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v103.i05",
+    "access": "open",
+    "formats": [
+      "journal replication materials",
+      "R package",
+      "real spatial data",
+      "simulated spatial data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Scalable nearest-neighbor Gaussian-process spatial regression, including MCMC and MCMC-free inference for large point-referenced datasets.",
+    "note": "Verified on the official JSS page, which states that package features are illustrated with simulated and real datasets and provides both replication code and replication materials."
+  },
+  {
+    "id": "jss-mlr3spatiotempcv-resampling",
+    "title": "mlr3spatiotempcv: Spatiotemporal Resampling Methods for Machine Learning in R",
+    "authors": "Patrick Schratz, Marc Becker, Michel Lang, Alexander Brenning",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Official JSS replication code and mlr3spatiotempcv package examples for spatial and spatiotemporal cross-validation, partitioning, model assessment, and tuning",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v111i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v111.i07",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "spatiotemporal tasks",
+      "resampling examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "time series analysis",
+      "spatial statistics",
+      "spatio-temporal models"
+    ],
+    "bestFor": "Leak-resistant model assessment and hyperparameter tuning with spatial and spatiotemporal resampling methods that respect autocorrelation and geographic structure.",
+    "note": "Verified on the official JSS page, which links the mlr3spatiotempcv package and R replication code. The methods address bias from ordinary random partitioning of spatial data."
   }
 ]
