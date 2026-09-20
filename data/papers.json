@@ -33511,12 +33511,12 @@
       "existing-dataset",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "bayesian inference",
-      "mcmc diagnostics"
+      "mcmc diagnostics",
+      "stochastic-gradient MCMC"
     ],
     "bestFor": "Finding Bayesian inference and MCMC examples for scalable posterior simulation, SGMCMC diagnostics, logistic regression, neural networks, and matrix factorisation.",
     "note": "Repository verified reachable and README documents simulated data, MNIST, and MovieLens examples. Auto-discovered candidate; review before treating it as curated."
@@ -54825,15 +54825,15 @@
       "software",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "bayesian inference",
-      "mcmc diagnostics"
+      "mcmc diagnostics",
+      "stochastic-gradient MCMC"
     ],
     "bestFor": "Reproducing and comparing stochastic-gradient MCMC algorithms for scalable Bayesian posterior inference on large datasets.",
-    "note": "Verified on the official JSS page, which provides the sgmcmc package and replication materials. The record remains marked for label review because the catalog lacks a specific stochastic-gradient MCMC label."
+    "note": "Verified on the official JSS page, which provides the sgmcmc package and replication materials for the paper's stochastic-gradient MCMC examples."
   },
   {
     "id": "jss-spsurvey-spatial-sampling",
@@ -55027,5 +55027,475 @@
     ],
     "bestFor": "Leak-resistant model assessment and hyperparameter tuning with spatial and spatiotemporal resampling methods that respect autocorrelation and geographic structure.",
     "note": "Verified on the official JSS page, which links the mlr3spatiotempcv package and R replication code. The methods address bias from ordinary random partitioning of spatial data."
+  },
+  {
+    "id": "jss-bcdag-causal-structure-learning",
+    "title": "BCDAG: An R Package for Bayesian Structure and Causal Learning of Gaussian DAGs",
+    "authors": "Federico Castelletti, Alessandro Mascaro",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official JSS replication code and BCDAG package examples using real and simulated Gaussian observational data for Bayesian DAG structure learning and causal effect estimation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v116i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v116.i05",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "real data",
+      "simulated DAG data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "graphical models",
+      "causal inference",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Bayesian causal structure learning and causal effect estimation from Gaussian observational data with sparse directed acyclic graphs and posterior diagnostics.",
+    "note": "Verified on the official JSS page, which links the BCDAG package and R replication code and states that the implementation is illustrated with real and simulated data."
+  },
+  {
+    "id": "jss-benchpress-graph-structure-learning",
+    "title": "Benchpress: A Versatile Platform for Structure Learning in Causal and Probabilistic Graphical Models",
+    "authors": "Felix L. Rios, Giusi Moffa, Jack Kuipers",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Benchpress source and replication workflow with standard datasets, literature graphs, generated graphical models, fixed seeds, benchmark configurations, and outputs for structure-learning algorithms",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v114i12",
+    "paperUrl": "https://doi.org/10.18637/jss.v114.i12",
+    "access": "open",
+    "formats": [
+      "source code",
+      "replication workflow",
+      "standard datasets",
+      "simulated graphs",
+      "Snakemake configurations"
+    ],
+    "properties": [
+      "benchmark",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "causal inference",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Reproducible comparison of causal and probabilistic graphical-model structure-learning algorithms across fixed, literature-based, and simulated data scenarios.",
+    "note": "Verified from the official JSS article and reproducibility section. Benchpress exposes all benchmark inputs and outputs as files and fixes random seeds for repeatable comparisons."
+  },
+  {
+    "id": "jss-graphd-high-dimensional-graphs",
+    "title": "High-Dimensional Graphical Model Search with the gRapHD R Package",
+    "authors": "Gabriel C. G. Abreu, Rodrigo Labouriau, David Edwards",
+    "year": 2010,
+    "citations": 0,
+    "dataset": "Official JSS example code and two downloadable R data files for selecting high-dimensional trees, forests, and decomposable undirected graphical models",
+    "datasetUrl": "https://www.jstatsoft.org/v37/i01/",
+    "paperUrl": "https://doi.org/10.18637/jss.v037.i01",
+    "access": "open",
+    "formats": [
+      "journal example code",
+      "R package",
+      "two R data files",
+      "graph examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "High-dimensional undirected graphical-model selection for discrete, continuous, or mixed variables using tree, forest, and decomposable graph searches.",
+    "note": "Verified on the official JSS page, which provides the package, example code, and two separate example datasets in R binary format."
+  },
+  {
+    "id": "jss-spasm-sparse-statistical-modeling",
+    "title": "SpaSM: A MATLAB Toolbox for Sparse Statistical Modeling",
+    "authors": "Karl Sjöstrand, Line Harder Clemmensen, Rasmus Larsen, Gudmundur Einarsson, Bjarne Ersbøll",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and SpaSM source code for lasso, elastic net, sparse principal component analysis, and sparse discriminant analysis examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v084i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v084.i10",
+    "access": "open",
+    "formats": [
+      "journal replication materials",
+      "MATLAB source",
+      "sparse regression examples",
+      "dimension-reduction examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variable selection",
+      "high-dimensional statistics",
+      "dimension reduction"
+    ],
+    "bestFor": "Comparing sparse statistical modeling methods including lasso paths, elastic net, sparse PCA, and sparse discriminant analysis in underdetermined systems.",
+    "note": "Verified on the official JSS page, which provides the complete source code and replication materials for the paper's sparse-modeling examples."
+  },
+  {
+    "id": "jss-mgm-time-varying-graphs",
+    "title": "mgm: Estimating Time-Varying Mixed Graphical Models in High-Dimensional Data",
+    "authors": "Jonas M. B. Haslbeck, Lourens J. Waldorp",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and mgm package examples for mixed graphical models, mixed vector autoregressions, and time-varying high-dimensional networks",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v093i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v093.i08",
+    "access": "open",
+    "formats": [
+      "journal replication materials",
+      "R package",
+      "mixed-variable data",
+      "time-varying network examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Estimating static and time-varying mixed graphical models and vector autoregressive networks in high-dimensional continuous, count, and categorical data.",
+    "note": "Verified on the official JSS page, which provides the mgm package and replication materials for fully reproducible graphical-model examples."
+  },
+  {
+    "id": "jss-cglasso-censored-missing-graphs",
+    "title": "cglasso: An R Package for Conditional Graphical Lasso Inference with Censored and Missing Values",
+    "authors": "Luigi Augugliaro, Gianluca Sottile, Ernst C. Wit, Veronica Vinciotti",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Official JSS replication code and cglasso package examples for sparse conditional Gaussian graphical models with missing and censored high-dimensional observations",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v105i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v105.i01",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "censored data",
+      "missing data",
+      "graph examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics",
+      "missing data",
+      "variable selection"
+    ],
+    "bestFor": "Sparse conditional graphical-model inference and coefficient selection when high-dimensional multivariate data contain missing values or detection-limit censoring.",
+    "note": "Verified on the official JSS page, which links the cglasso package and replication code for the paper's missing- and censored-data examples."
+  },
+  {
+    "id": "jss-r2guess-bayesian-variable-selection",
+    "title": "R2GUESS: A Graphics Processing Unit-Based R Package for Bayesian Variable Selection Regression of Multivariate Responses",
+    "authors": "Benoît Liquet, Leonardo Bottolo, Gianluca Campanella, Sylvia Richardson, Marc Chadeau-Hyam",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Official JSS replication data and code for GPU-accelerated Bayesian variable-selection regression with multivariate responses and genome-scale predictors",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v069i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v069.i02",
+    "access": "open",
+    "formats": [
+      "journal replication data",
+      "R package",
+      "C++ source",
+      "omics examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "high-dimensional statistics",
+      "variable selection",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Bayesian variable selection with hundreds of thousands of predictors, multiple responses, posterior exploration, and GPU-accelerated computation.",
+    "note": "Verified on the official JSS page, which provides the R2GUESS package, R replication code, and a separate replication dataset."
+  },
+  {
+    "id": "jss-seqnet-rnaseq-networks",
+    "title": "SeqNet: An R Package for Generating Gene-Gene Networks and Simulating RNA-Seq Data",
+    "authors": "Tyler Grimes, Somnath Datta",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and SeqNet generators for gold-standard gene-network structures and in silico RNA-seq count datasets",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v098i12",
+    "paperUrl": "https://doi.org/10.18637/jss.v098.i12",
+    "access": "open",
+    "formats": [
+      "journal replication materials",
+      "R package",
+      "simulated RNA-seq data",
+      "known graph structures"
+    ],
+    "properties": [
+      "benchmark",
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating high-dimensional gene-network and graphical-model inference against known network structures using realistic simulated RNA-seq counts.",
+    "note": "Verified on the official JSS page and package links. SeqNet produces known graph structures and corresponding RNA-seq datasets for method comparison."
+  },
+  {
+    "id": "jss-clustvarsel-model-based-clustering",
+    "title": "clustvarsel: A Package Implementing Variable Selection for Gaussian Model-Based Clustering in R",
+    "authors": "Luca Scrucca, Adrian E. Raftery",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official JSS replication code and clustvarsel package datasets for selecting informative variables in Gaussian mixture model-based clustering",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v084i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v084.i01",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "clustering datasets",
+      "subset-selection examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "mixture models",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Variable and feature selection for Gaussian model-based clustering, including greedy and headlong subset searches for informative clustering variables.",
+    "note": "Verified on the official JSS page, which links the clustvarsel package and R replication code and documents several worked data examples."
+  },
+  {
+    "id": "jss-funcy-functional-clustering",
+    "title": "Generalization, Combination and Extension of Functional Clustering Algorithms: The R Package funcy",
+    "authors": "Christina Yassouridis, Dominik Ernst, Friedrich Leisch",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official JSS replication code and funcy package examples for model-based, random-effects, and distance-based clustering of dense and sparsely observed functional data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v085i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v085.i09",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "functional curves",
+      "sparse functional data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics",
+      "mixture models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing functional clustering algorithms based on projected curves, random-effects models, EM fitting, and distance-based approaches for sparse measurements.",
+    "note": "Verified on the official JSS page, which provides the funcy package and replication code for the functional-clustering examples."
+  },
+  {
+    "id": "jss-gmcm-mixture-copulas",
+    "title": "GMCM: Unsupervised Clustering and Meta-Analysis Using Gaussian Mixture Copula Models",
+    "authors": "Anders Ellern Bilgrau, Poul Svante Eriksen, Jakob Gulddahl Rasmussen, Hans Erik Johnsen, Karen Dybkaer, Martin Boegsted",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Official JSS replication code and GMCM package examples for Gaussian mixture copula clustering and high-dimensional meta-analysis",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v070i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v070.i02",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "clustering examples",
+      "meta-analysis examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "mixture models",
+      "meta-analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Gaussian mixture copula modeling for unsupervised clustering, evidence aggregation, p-value combination, and meta-analysis in high-dimensional experiments.",
+    "note": "Verified on the official JSS page, which links the GMCM package and R replication code for the paper's clustering and meta-analysis applications."
+  },
+  {
+    "id": "jss-resi-robust-effect-sizes",
+    "title": "RESI: An R Package for Robust Effect Sizes",
+    "authors": "Megan Jones, Kaidi Kang, Simon Vandekar",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code and RESI package examples analyzing three real datasets with different model classes and model-agnostic robust effect-size intervals",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v112i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v112.i03",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "three empirical datasets",
+      "worked model examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics"
+    ],
+    "bestFor": "Studying a model-agnostic robust effect-size index and confidence interval across regression, ANOVA, and other fitted-model classes.",
+    "note": "Verified on the official JSS page, which links the RESI package and R replication code and states that three datasets are analyzed with different model types."
+  },
+  {
+    "id": "jss-nprobust-bias-corrected-inference",
+    "title": "nprobust: Nonparametric Kernel-Based Estimation and Robust Bias-Corrected Inference",
+    "authors": "Sebastian Calonico, Matias D. Cattaneo, Max H. Farrell",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Official JSS R and Stata replication code plus supplementary CSV data for kernel density, local-polynomial regression, robust bias correction, and bandwidth selection",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v091i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v091.i08",
+    "access": "open",
+    "formats": [
+      "supplementary CSV data",
+      "R replication code",
+      "Stata source",
+      "simulated data",
+      "empirical application"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics"
+    ],
+    "bestFor": "Nonparametric kernel density and local-polynomial estimation with robust bias-corrected inference, coverage-error-optimal bandwidths, and boundary evaluation.",
+    "note": "Verified on the official JSS page, which provides two R replication files, supplementary CSV data, the package, and Stata source code."
+  },
+  {
+    "id": "jss-robmed-robust-mediation",
+    "title": "Robust Mediation Analysis: The R Package robmed",
+    "authors": "Andreas Alfons, Nüfer Y. Ateş, Patrick J. F. Groenen",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Official JSS replication code and the robmed BSG2014 three-wave business-simulation survey dataset with 89 randomized teams for robust mediation analysis",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v103i13",
+    "paperUrl": "https://doi.org/10.18637/jss.v103.i13",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "three-wave survey data",
+      "team-level data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Robust regression and fast robust bootstrap inference for direct and indirect effects in mediation models under outliers and nonnormality.",
+    "note": "Verified from the official JSS paper and package documentation. The BSG2014 data are loaded directly from robmed and contain the paper's three-wave team-level case study."
+  },
+  {
+    "id": "statcomp-control-variates-sgmcmc",
+    "title": "Control Variates for Stochastic Gradient MCMC",
+    "authors": "Jack Baker, Paul Fearnhead, Emily B. Fox, Christopher Nemeth",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Author companion repository implementing every experiment for control-variate stochastic-gradient Langevin dynamics and zero-variance postprocessing comparisons",
+    "datasetUrl": "https://github.com/jackcbaker/control-variates-sgld",
+    "paperUrl": "https://doi.org/10.1007/s11222-018-9826-2",
+    "access": "open",
+    "formats": [
+      "GitHub repository",
+      "R code",
+      "simulation experiments",
+      "posterior diagnostics"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "stochastic-gradient MCMC"
+    ],
+    "bestFor": "Evaluating stochastic-gradient MCMC variance reduction, scalability across dataset sizes, predictive density, and zero-variance control-variate postprocessing.",
+    "note": "Verified from the open Statistics and Computing article and the authors' companion repository, whose README states that it implements each experiment in the publication."
   }
 ]

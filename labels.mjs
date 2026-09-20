@@ -777,6 +777,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["mcmc", "markov chain", "posterior simulation", "diagnostics", "divergences", "stan", "sampling"]
   },
   {
+    name: "stochastic-gradient MCMC",
+    level: "low",
+    parents: ["bayesian inference"],
+    definition: "Datasets, simulations, and replication resources useful for stochastic-gradient Markov chain Monte Carlo methods, including stochastic-gradient Langevin and Hamiltonian algorithms for scalable posterior computation.",
+    includeWhen: [
+      "stochastic-gradient MCMC, stochastic-gradient Langevin dynamics, stochastic-gradient Hamiltonian Monte Carlo, or a closely related minibatch posterior sampler is central",
+      "the resource provides accessible datasets, simulations, code, or replication workflows for evaluating stochastic-gradient posterior computation"
+    ],
+    avoidWhen: [
+      "the paper uses ordinary full-data MCMC without stochastic or minibatch gradients",
+      "stochastic gradient descent is used only for optimization rather than posterior sampling"
+    ],
+    evidenceTerms: ["stochastic gradient mcmc", "stochastic-gradient mcmc", "sgmcmc", "stochastic gradient langevin", "stochastic-gradient langevin", "stochastic gradient hamiltonian", "stochastic-gradient hamiltonian", "sgld", "sghmc"]
+  },
+  {
     name: "bayesian hierarchical models",
     level: "mid",
     parents: ["bayesian inference","multilevel modeling"],
@@ -793,28 +808,28 @@ export const LABEL_REGISTRY = [
 
 export const LABEL_CANDIDATES = [
   {
-    name: "stochastic-gradient MCMC",
+    name: "causal discovery",
     status: "candidate",
     proposedLevel: "low",
-    proposedParents: ["bayesian inference"],
+    proposedParents: ["causal inference", "graphical models"],
     currentEvidence: [
       {
-        paperId: "jss-sgmcmc-stochastic-gradient",
-        evidence: "The paper and replication package center on stochastic-gradient Langevin, Hamiltonian, and thermostat MCMC algorithms."
+        paperId: "jss-bcdag-causal-structure-learning",
+        evidence: "The official JSS replication workflow uses real and simulated Gaussian observational data for Bayesian causal-DAG structure learning."
       },
       {
-        paperId: "openalex-W3100688298",
-        evidence: "The review's public repository provides simulated, MNIST, and MovieLens examples for stochastic-gradient MCMC methods."
+        paperId: "jss-benchpress-graph-structure-learning",
+        evidence: "The reproducible Benchpress workflow compares causal and probabilistic graph-structure learning algorithms on standard, literature, and generated datasets."
       }
     ],
     evidenceTerms: [
-      "stochastic gradient mcmc",
-      "stochastic-gradient mcmc",
-      "sgmcmc",
-      "stochastic gradient langevin",
-      "stochastic-gradient langevin"
+      "causal discovery",
+      "causal structure learning",
+      "causal graph learning",
+      "causal dag learning",
+      "bayesian causal discovery"
     ],
-    admissionConditions: "Add at least one more independent high-confidence paper with accessible data or replication resources, then confirm the topic remains distinct and reusable."
+    admissionConditions: "Add at least one more independent high-confidence paper with accessible data or replication resources, then confirm the topic remains distinct from generic graphical-model structure learning."
   }
 ];
 
