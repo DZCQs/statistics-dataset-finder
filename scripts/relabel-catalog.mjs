@@ -57,6 +57,7 @@ const parentRules = [
     children: [
       "bayesian hierarchical models",
       "probabilistic programming",
+      "variational inference",
       "simulation-based inference",
       "approximate Bayesian computation",
       "mcmc diagnostics"
@@ -325,10 +326,16 @@ const evidenceRules = [
   {
     label: "compositional data analysis",
     reason: "compositional-data, simplex, log-ratio, or proportional-outcome evidence in record text",
-    test: (paper) =>
-      /\b(compositional data|compositional single-cell|compositional-share|compositional panel|simplex|log-ratio|log ratio|aitchison|proportional outcomes|proportions with synthetic controls)\b/i.test(
-        paperText(paper)
-      )
+    test: (paper) => {
+      const text = paperText(paper);
+      const directEvidence =
+        /\b(compositional data|compositional single-cell|compositional-share|compositional panel|simplex|aitchison|proportional outcomes|proportions with synthetic controls)\b/i.test(text);
+      const contextualLogRatio =
+        /\b(log-ratio|log ratio)\b/i.test(text) &&
+        /\b(composition|compositional|simplex|proportion|aitchison)\b/i.test(text);
+
+      return directEvidence || contextualLogRatio;
+    }
   },
   {
     label: "best subset selection",

@@ -56372,5 +56372,477 @@
     ],
     "bestFor": "Constrained optimal partitioning and peak detection in very large genomic sequences, including runtime and segmentation-accuracy studies.",
     "note": "Verified on the official JSS page, which provides PeakSegDisk and replication materials. Together with fastcpd and changepoint, it supports the new reusable change point detection label."
+  },
+  {
+    "id": "zenodo-vi-soil-normalizing-flows",
+    "title": "A Framework for Variational Inference and Data Assimilation of Soil Biogeochemical Models Using Normalizing Flows",
+    "authors": "H. W. Xie, D. Sujono, T. Ryder, E. B. Sudderth, S. D. Allison",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official Zenodo release with model modules, scripts, notebooks, and generated SCON-C and SCON-SS synthetic data for normalizing-flow variational inference and soil-carbon data assimilation",
+    "datasetUrl": "https://zenodo.org/records/6969782",
+    "paperUrl": "https://doi.org/10.1029/2024MS004547",
+    "access": "open",
+    "formats": [
+      "Python code",
+      "Jupyter notebooks",
+      "synthetic time series",
+      "model outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variational inference",
+      "bayesian inference",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating normalizing-flow variational posteriors and sequential data assimilation in nonlinear soil biogeochemical models.",
+    "note": "Verified from the official Zenodo record linked to the journal paper; the archive exposes code, notebooks, and generated SCON-C and SCON-SS data."
+  },
+  {
+    "id": "zenodo-verified-stochastic-vi",
+    "title": "Towards Verified Stochastic Variational Inference for Probabilistic Programs",
+    "authors": "Wonyeol Lee, Hangyeol Yu, Xavier Rival, Hongseok Yang",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Official artifact for static support-match analysis of Pyro probabilistic programs, including analysis code and evaluation examples for stochastic variational inference",
+    "datasetUrl": "https://zenodo.org/records/3545194",
+    "paperUrl": "https://doi.org/10.1145/3371084",
+    "access": "open",
+    "formats": [
+      "source code",
+      "probabilistic programs",
+      "evaluation scripts",
+      "artifact documentation"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variational inference",
+      "probabilistic programming",
+      "bayesian inference"
+    ],
+    "bestFor": "Studying correctness conditions and automated support checking for stochastic variational inference in probabilistic programs.",
+    "note": "Verified on the official Zenodo artifact page for the POPL paper; the archive contains the implementation and evaluation programs."
+  },
+  {
+    "id": "zenodo-preconditioned-flow-vi",
+    "title": "Preconditioned Training of Normalizing Flows for Variational Inference in Inverse Problems",
+    "authors": "Ali Siahkoohi, Gabrio Rizzuti, Mathias Louboutin, Philipp A. Witte, Felix J. Herrmann",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official reproducibility archive for preconditioned normalizing-flow variational inference with a two-dimensional example and seismic inverse-problem experiments",
+    "datasetUrl": "https://zenodo.org/records/4610094",
+    "paperUrl": "https://arxiv.org/abs/2101.03709",
+    "access": "open",
+    "formats": [
+      "source code",
+      "notebooks",
+      "synthetic inverse problems",
+      "seismic examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "variational inference",
+      "bayesian inference"
+    ],
+    "bestFor": "Reproducing and extending preconditioned normalizing-flow posterior approximations for computational inverse problems.",
+    "note": "Verified from the official Zenodo reproducibility record, which documents the two-dimensional and seismic experiments."
+  },
+  {
+    "id": "zenodo-peregrine-sequential-sbi",
+    "title": "Peregrine: Sequential Simulation-Based Inference for Gravitational Wave Signals",
+    "authors": "Uddipta Bhardwaj, James Alvey, Benjamin Kurt Miller, Samaya Nissanke, Christoph Weniger",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Official Zenodo data release with posterior samples from nested and MCMC samplers, Peregrine log-ratio outputs, and Jensen-Shannon divergence evaluation code",
+    "datasetUrl": "https://zenodo.org/records/7788596",
+    "paperUrl": "https://doi.org/10.1103/PhysRevD.108.042004",
+    "access": "open",
+    "formats": [
+      "posterior samples",
+      "log-ratio outputs",
+      "Python scripts",
+      "benchmark results"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "simulation-based inference",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing sequential neural ratio estimation with established posterior samplers on gravitational-wave inference tasks.",
+    "note": "Verified on the official Zenodo record linked to the paper; downloadable posterior samples and comparison scripts are listed explicitly."
+  },
+  {
+    "id": "zenodo-pulsar-simulation-based-inference",
+    "title": "Simulation-Based Inference of Radio Millisecond Pulsars in Globular Clusters",
+    "authors": "Joanna Berteaud, Christopher Eckner, Francesca Calore, Maica Clavel, Daryl Haggard",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Official Zenodo supplement with the pulsar-population simulator, neural ratio-estimation workflow, mock observations, and routines for the real Terzan 5 analysis",
+    "datasetUrl": "https://zenodo.org/records/11403867",
+    "paperUrl": "https://arxiv.org/abs/2405.15691",
+    "access": "open",
+    "formats": [
+      "simulation code",
+      "mock data",
+      "observational-data routines",
+      "neural ratio estimation"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "simulation-based inference",
+      "bayesian inference"
+    ],
+    "bestFor": "Testing neural simulation-based inference on population models with selection effects, mock catalogs, and a documented real-data analysis.",
+    "note": "Verified from the official Zenodo supplement, which exposes the simulator and both mock and Terzan 5 analysis workflows."
+  },
+  {
+    "id": "zenodo-sbiax-density-estimation-sbi",
+    "title": "SBIAX: Density-Estimation Simulation-Based Inference in JAX",
+    "authors": "Jed Homer, Oliver Friedrich",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Archived SBIAX package release with JAX implementations, worked examples, and data-generating tasks for neural posterior, likelihood, and ratio estimation",
+    "datasetUrl": "https://zenodo.org/records/14679498",
+    "paperUrl": "https://doi.org/10.21105/joss.07606",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "source code",
+      "worked examples",
+      "simulator tasks"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "simulation-based inference",
+      "bayesian inference"
+    ],
+    "bestFor": "Benchmarking and extending density-estimation simulation-based inference methods in a JAX-native implementation.",
+    "note": "Verified through the JOSS paper and its archived Zenodo software release, which includes package examples and simulator-based workflows."
+  },
+  {
+    "id": "zenodo-sea-causal-discovery",
+    "title": "Sample, Estimate, Aggregate: A Recipe for Causal Discovery Foundation Models",
+    "authors": "Menghua Wu, Yujia Bao, Regina Barzilay, Tommi Jaakkola",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official 36 GB Zenodo benchmark release with Erdos-Renyi and scale-free simulations, SERGIO data, baseline outputs, SEA results, and generation code",
+    "datasetUrl": "https://zenodo.org/records/10611036",
+    "paperUrl": "https://arxiv.org/abs/2402.01929",
+    "access": "open",
+    "formats": [
+      "synthetic graphs",
+      "single-cell simulations",
+      "benchmark outputs",
+      "generation code"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal discovery",
+      "causal inference",
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating amortized causal-discovery models across graph families, sample sizes, variable counts, and gene-regulatory simulations.",
+    "note": "Verified on the official Zenodo page; the listed files include synthetic tests, SERGIO data, baseline predictions, SEA results, and generation code."
+  },
+  {
+    "id": "zenodo-castle-spacetime-causal-discovery",
+    "title": "Space-Time Causal Discovery in Earth System Science: A Local Stencil Learning Approach",
+    "authors": "J. Jake Nichol, Michael Weylandt, G. Matthew Fricke, Melanie E. Moses, Diana Bull, Laura P. Swiler",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official CaStLe archive and repository with Earth-system data, benchmarking scripts, tutorials, and complete figure-generation workflows for local space-time causal discovery",
+    "datasetUrl": "https://zenodo.org/records/15530557",
+    "paperUrl": "https://doi.org/10.1029/2024JH000546",
+    "access": "open",
+    "formats": [
+      "Earth-system data",
+      "Python code",
+      "tutorials",
+      "benchmark scripts"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal discovery",
+      "causal inference",
+      "spatio-temporal models",
+      "spatial statistics",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Testing local-stencil causal discovery under spatially structured, temporally evolving Earth-system dynamics.",
+    "note": "Verified from the official Zenodo archive and linked CaStLe repository, including data, tutorials, benchmarks, and figure-generation code."
+  },
+  {
+    "id": "zenodo-turing-change-point-dataset",
+    "title": "An Evaluation of Change Point Detection Algorithms",
+    "authors": "Gerrit J. J. van den Burg, Christopher K. I. Williams",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Turing Change Point Dataset with 37 real-world time series, annotations from five human evaluators, benchmark code, and R and Python examples",
+    "datasetUrl": "https://zenodo.org/records/3713242",
+    "paperUrl": "https://arxiv.org/abs/2003.06222",
+    "access": "open",
+    "formats": [
+      "real time series",
+      "JSON annotations",
+      "Python code",
+      "R examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing change-point algorithms against multiple human annotations on heterogeneous real-world time series.",
+    "note": "Verified in the official archive and repository: 37 series, five annotators, annotation files, build scripts, and benchmark examples are openly available."
+  },
+  {
+    "id": "zenodo-bayesian-inference-debugging",
+    "title": "Online and Interactive Bayesian Inference Debugging",
+    "authors": "Nathanael Nussbaumer, Markus Bock, Jurgen Cito",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official ICSE artifact with raw and cleaned user-study data, analysis notebooks, validation checks, source code, and a containerized interactive Bayesian debugging environment",
+    "datasetUrl": "https://zenodo.org/records/18262423",
+    "paperUrl": "https://arxiv.org/abs/2510.26579",
+    "access": "open",
+    "formats": [
+      "raw study data",
+      "cleaned data",
+      "Jupyter notebooks",
+      "source code",
+      "Docker image"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "probabilistic programming",
+      "bayesian inference"
+    ],
+    "bestFor": "Reproducing a user study and evaluating interactive tools for diagnosing Bayesian inference and probabilistic-program behavior.",
+    "note": "Verified on the official Zenodo artifact page; both raw and processed study data, notebooks, checks, and source code are listed."
+  },
+  {
+    "id": "zenodo-dice-exact-probabilistic-programs",
+    "title": "Scaling Exact Inference for Discrete Probabilistic Programs",
+    "authors": "Steven Holtzen, Guy Van den Broeck, Todd Millstein",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Official Dice artifact with compiler source, probabilistic-program examples, benchmark inputs, and reproducibility instructions for scalable exact discrete inference",
+    "datasetUrl": "https://zenodo.org/records/4060132",
+    "paperUrl": "https://doi.org/10.1145/3428208",
+    "access": "open",
+    "formats": [
+      "source code",
+      "probabilistic programs",
+      "benchmark inputs",
+      "artifact documentation"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "probabilistic programming",
+      "bayesian inference"
+    ],
+    "bestFor": "Reproducing exact discrete probabilistic-program inference benchmarks and studying knowledge-compilation approaches.",
+    "note": "Verified on the official Zenodo artifact record for the OOPSLA paper; source, examples, and benchmark instructions are downloadable."
+  },
+  {
+    "id": "zenodo-multippl-probabilistic-programming",
+    "title": "Multi-Language Probabilistic Programming",
+    "authors": "Sam Stites, John M. Li, Steven Holtzen",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official MultiPPL artifact with compiler source, containerized reproduction environment, examples, and evaluation workflows for interoperable exact and approximate inference",
+    "datasetUrl": "https://zenodo.org/records/14593465",
+    "paperUrl": "https://arxiv.org/abs/2502.19538",
+    "access": "open",
+    "formats": [
+      "source code",
+      "Docker environment",
+      "probabilistic programs",
+      "evaluation scripts"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "probabilistic programming",
+      "bayesian inference"
+    ],
+    "bestFor": "Evaluating interoperability between exact and approximate probabilistic programming languages in a reproducible compiler artifact.",
+    "note": "Verified on the official Zenodo artifact record; the archive exposes compiler source, examples, a container, and evaluation instructions."
+  },
+  {
+    "id": "zenodo-agent-based-economic-forecasting",
+    "title": "Economic Forecasting with an Agent-Based Model",
+    "authors": "Sebastian Poledna, Michael Gregor Miess, Cars Hommes, Katrin Rabitsch",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Official replication package with programs, Eurostat inputs, agent-based model outputs, and DSGE comparison models for macroeconomic forecasting",
+    "datasetUrl": "https://zenodo.org/records/7271552",
+    "paperUrl": "https://doi.org/10.1016/j.euroecorev.2022.104306",
+    "access": "open",
+    "formats": [
+      "Eurostat data",
+      "forecast outputs",
+      "model code",
+      "replication programs"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing agent-based macroeconomic forecasts with DSGE and standard statistical forecasting baselines using documented European data.",
+    "note": "Verified from the official Zenodo replication package, which lists the datasets, programs, Eurostat inputs, and comparison models."
+  },
+  {
+    "id": "openicpsr-chetty-friedman-privacy-loss",
+    "title": "A Practical Method to Reduce Privacy Loss When Disclosing Statistics Based on Small Samples",
+    "authors": "Raj Chetty, John N. Friedman",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "OpenICPSR replication archive with Stata implementation code, private_data_by_cells.dta, a user guide, and README files for the small-sample privacy-loss method",
+    "datasetUrl": "https://www.openicpsr.org/openicpsr/project/116494/version/V1/view",
+    "paperUrl": "https://doi.org/10.3386/w25626",
+    "access": "open",
+    "formats": [
+      "Stata code",
+      "DTA data",
+      "implementation guide",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology"
+    ],
+    "bestFor": "Implementing and auditing noise-infusion methods that limit privacy loss when releasing statistics from small cells.",
+    "note": "Verified on the official openICPSR project page, which lists the Stata implementation, example cell data, and documentation. It supplies initial evidence for the internal statistical disclosure control candidate label."
+  },
+  {
+    "id": "zenodo-synthetic-control-climate-policy",
+    "title": "Unilateral Climate Policies Can Substantially Reduce National Carbon Pollution",
+    "authors": "Alice Lepissier, Matto Mildenberger",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official replication archive with raw national emissions and policy data, synthetic-control results, and linked scripts for reconstructing the comparative case studies",
+    "datasetUrl": "https://zenodo.org/records/4566804",
+    "paperUrl": "https://doi.org/10.1007/s10584-021-03111-2",
+    "access": "open",
+    "formats": [
+      "raw panel data",
+      "synthetic-control outputs",
+      "analysis scripts",
+      "replication documentation"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "synthetic control methods",
+      "quasi-experimental designs",
+      "causal inference",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Reproducing country-level synthetic-control estimates of unilateral climate-policy effects on national carbon emissions.",
+    "note": "Verified from the official Zenodo replication archive, which provides raw data, results, and linked analysis scripts."
   }
 ]

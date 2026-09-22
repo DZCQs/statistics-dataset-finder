@@ -764,6 +764,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["probabilistic programming", "probabilistic programming language", "probabilistic programming framework", "stan source package", "stan program", "stan code", "stan example", "stan examples", "pymc", "turing.jl", "turinglang", "greta", "brms", "nimblesmc", "nimble package", "bugs-language", "bugs language", "automated inference"]
   },
   {
+    name: "variational inference",
+    level: "mid",
+    parents: ["bayesian inference"],
+    definition: "Datasets, simulator tasks, code, and replication resources useful for approximate posterior inference by optimizing a tractable variational family.",
+    includeWhen: [
+      "variational inference, variational Bayes, stochastic variational inference, mean-field or structured variational inference, or normalizing-flow posterior approximation is central to the paper or resource",
+      "the resource provides examples, simulations, code, or benchmarks for ELBO optimization or for comparing variational posterior approximations"
+    ],
+    avoidWhen: [
+      "variation or variational refers to calculus, regularization, or optimization without posterior approximation",
+      "variational inference is only an incidental implementation detail and no reusable data, code, or inference example is provided"
+    ],
+    evidenceTerms: ["variational inference", "variational bayes", "stochastic variational inference", "mean-field variational", "structured variational inference", "evidence lower bound", "elbo", "variational posterior", "guide distribution", "normalizing flow variational inference"]
+  },
+  {
     name: "simulation-based inference",
     level: "mid",
     parents: ["bayesian inference"],
@@ -836,7 +851,18 @@ export const LABEL_REGISTRY = [
   }
 ];
 
-export const LABEL_CANDIDATES = [];
+export const LABEL_CANDIDATES = [
+  {
+    name: "statistical disclosure control",
+    status: "candidate",
+    proposedLevel: "low",
+    proposedParents: ["survey methodology"],
+    currentEvidence: ["openicpsr-chetty-friedman-privacy-loss"],
+    evidence: "The current catalog has one verified openICPSR replication archive with code and data for reducing privacy loss when releasing small-sample statistics.",
+    evidenceTerms: ["statistical disclosure control", "disclosure limitation", "disclosure risk", "privacy loss", "noise infusion", "cell suppression", "data confidentiality"],
+    admissionConditions: "Add at least two more independent papers with accessible datasets or replication resources, and confirm that the topic remains distinct from generic differential privacy and survey weighting."
+  }
+];
 
 export const LABEL_RULES = {
   minLabelsPerPaper: 3,
