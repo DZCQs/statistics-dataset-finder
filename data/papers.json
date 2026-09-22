@@ -55054,6 +55054,7 @@
     "topics": [
       "bayesian inference",
       "graphical models",
+      "causal discovery",
       "causal inference",
       "high-dimensional statistics"
     ],
@@ -55086,6 +55087,7 @@
     ],
     "topics": [
       "graphical models",
+      "causal discovery",
       "causal inference",
       "high-dimensional statistics"
     ],
@@ -55497,5 +55499,878 @@
     ],
     "bestFor": "Evaluating stochastic-gradient MCMC variance reduction, scalability across dataset sizes, predictive density, and zero-variance control-variate postprocessing.",
     "note": "Verified from the open Statistics and Computing article and the authors' companion repository, whose README states that it implements each experiment in the publication."
+  },
+  {
+    "id": "jss-collapse-statistical-computing",
+    "title": "collapse: Advanced and Fast Statistical Computing and Data Transformation in R",
+    "authors": "Sebastian Krantz",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official JSS replication code and collapse package examples for memory-efficient statistical computing, grouped transformations, panel objects, time-series objects, and data exploration",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v116i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v116.i01",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "benchmark examples",
+      "data transformation examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Benchmarking fast, memory-efficient statistical data transformations across vectors, matrices, data frames, panel data, time series, and spatial objects.",
+    "note": "Verified on the official JSS page, which links the collapse package and R replication code for the paper's examples and benchmark."
+  },
+  {
+    "id": "jss-simdag-complex-data-simulation",
+    "title": "Simulating Complex Cross-Sectional and Longitudinal Data Using the simDAG R Package",
+    "authors": "Robin Denz, Nina Timmesfeld",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official JSS replication code and simDAG package workflows for generating cross-sectional, longitudinal, time-to-event, recurrent-event, competing-event, and time-varying-covariate data from structural-equation DAGs",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v116i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v116.i02",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "simulated longitudinal data",
+      "simulated survival data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "longitudinal data analysis",
+      "survival analysis",
+      "survival models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Designing Monte Carlo studies with explicit DAG-based data-generating processes, time-varying covariates, and recurrent or competing time-to-event outcomes.",
+    "note": "Verified on the official JSS page, which links simDAG and R replication code reproducing several published simulation designs."
+  },
+  {
+    "id": "jss-bayesmultimode-mode-inference",
+    "title": "BayesMultiMode: Bayesian Mode Inference in R",
+    "authors": "Nalan Basturk, Jamie Cross, Peter de Knijff, Lennart Hoogerheide, Paul Labonne, Herman K. van Dijk",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official JSS replication code and BayesMultiMode package examples using continuous and discrete empirical distributions for posterior inference on the number and locations of modes",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v116i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v116.i03",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "empirical distributions",
+      "MCMC output"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Bayesian mode detection with flexible finite mixtures, posterior probabilities for modality, and continuous or discrete empirical distributions.",
+    "note": "Verified on the official JSS page, which links the package and replication code for four empirical mode-inference applications."
+  },
+  {
+    "id": "jss-polle-causal-policy-learning",
+    "title": "Policy Learning with the polle Package",
+    "authors": "Andreas Nordland, Klaus Kahler Holst",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official JSS replication code, supplementary Stata data, and polle package examples for doubly robust policy learning, policy trees, outcome-weighted learning, cross-fitting, and policy-value inference",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v116i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v116.i04",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "supplementary Stata data",
+      "R package",
+      "policy-learning examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Learning and evaluating finite-stage treatment policies from observational data with doubly robust estimators, cross-fitting, and realistic-policy constraints.",
+    "note": "Verified on the official JSS page, which provides the package, R replication code, and supplementary data."
+  },
+  {
+    "id": "jss-fastcpd-change-point-detection",
+    "title": "fastcpd: Fast Change Point Detection in R",
+    "authors": "Xingchi Li, Xianyang Zhang",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official JSS replication code and fastcpd package examples for mean, variance, regression, ARMA, GARCH, VAR, multivariate, and user-defined change-point models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v116i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v116.i06",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "simulated sequences",
+      "time-series examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing efficient PELT-based change-point detection across multivariate sequences, regression models, and ARMA, GARCH, or VAR time series.",
+    "note": "Verified on the official JSS page, which links fastcpd and R replication code for the paper's change-point examples."
+  },
+  {
+    "id": "jss-dpmm-distributed-mixtures",
+    "title": "CPU- and GPU-Based Distributed Sampling in Dirichlet Process Mixtures for Large-Scale Analysis",
+    "authors": "Or Dinari, Raz Zamir, John W. Fisher III, Oren Freifeld",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official JSS source and replication materials for CPU- and GPU-distributed Dirichlet process mixture sampling on large, high-dimensional datasets",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v116i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v116.i07",
+    "access": "open",
+    "formats": [
+      "source code",
+      "replication materials",
+      "Julia",
+      "CUDA/C++",
+      "Python wrapper"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "mixture models",
+      "bayesian inference",
+      "mcmc diagnostics",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Scalability studies of Bayesian nonparametric mixture sampling across distributed CPU and GPU implementations and high-dimensional clustering tasks.",
+    "note": "Verified on the official JSS page, which links DPMMSubClusters source code and replication materials."
+  },
+  {
+    "id": "jss-cv-regression-cross-validation",
+    "title": "cv: An R Package for Cross-Validating Regression Models",
+    "authors": "John Fox, Georges Monette",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official JSS replication code and cv package examples for cross-validating regression, mixed-effects, transformation, predictor-selection, and model-selection workflows",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v116i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v116.i08",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "regression examples",
+      "cross-validation workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "variable selection",
+      "multilevel modeling",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Cross-validating standard and mixed-effects regression models, including procedures with transformations, predictor selection, and model selection.",
+    "note": "Verified on the official JSS page, which links the cv package and R replication code."
+  },
+  {
+    "id": "jss-pcalg-causal-discovery",
+    "title": "Causal Inference Using Graphical Models with the R Package pcalg",
+    "authors": "Markus Kalisch, Martin Machler, Diego Colombo, Marloes H. Maathuis, Peter Buhlmann",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "Official JSS example code and pcalg package workflows for causal structure learning and causal-effect estimation from observational data using toy and applied examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v047i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v047.i11",
+    "access": "open",
+    "formats": [
+      "journal example code",
+      "R package",
+      "toy data",
+      "applied causal examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal discovery",
+      "causal inference",
+      "graphical models",
+      "treatment effect estimation",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Causal graph discovery, conditional-independence algorithms, and estimation of causal effects from observational data with reproducible pcalg examples.",
+    "note": "Verified on the official JSS page, which provides the pcalg package and R example code. This supplies the third independent evidence record for the causal discovery label."
+  },
+  {
+    "id": "jss-singlercapture-population-size",
+    "title": "singleRcapture: An R Package for Single-Source Capture-Recapture Models",
+    "authors": "Piotr Chlebicki, Maciej Beresewicz",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code and singleRcapture package examples for estimating hard-to-measure population sizes, bootstrap variance, diagnostics, and sensitivity analysis from one-source count data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v115i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v115.i01",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "count-data examples",
+      "bootstrap workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "resampling methods"
+    ],
+    "bestFor": "Population-size estimation for hard-to-reach populations using single-source capture-recapture models, bootstrap uncertainty, and sensitivity diagnostics.",
+    "note": "Verified on the official JSS page, which links singleRcapture and R replication code."
+  },
+  {
+    "id": "jss-sdmtmb-spatiotemporal-glmm",
+    "title": "sdmTMB: An R Package for Fast, Flexible, and User-Friendly Generalized Linear Mixed Effects Models with Spatial and Spatiotemporal Random Fields",
+    "authors": "Sean C. Anderson, Eric J. Ward, Philina A. English, Lewis A. K. Barnett, James T. Thorson",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication data and code for spatial and spatiotemporal generalized linear mixed models with Gaussian Markov random fields, SPDE meshes, nonstationarity, hurdle models, and spatial cross-validation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v115i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v115.i02",
+    "access": "open",
+    "formats": [
+      "replication data",
+      "R replication code",
+      "R package",
+      "spatial case studies"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "multilevel modeling",
+      "time series analysis"
+    ],
+    "bestFor": "Geostatistical GLMMs with spatial or spatiotemporal latent fields, nonstationary coefficients, anisotropy, hurdle models, and spatial cross-validation.",
+    "note": "Verified on the official JSS page, which provides replication data, two replication-code archives, and the sdmTMB package."
+  },
+  {
+    "id": "jss-mixturemissing-incomplete-clustering",
+    "title": "MixtureMissing: An R Package for Robust and Flexible Model-Based Clustering with Incomplete Data",
+    "authors": "Hung Tong, Cristina Tortora",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code and MixtureMissing package examples using real incomplete datasets for robust model-based clustering under missing at random",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v115i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v115.i03",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "real incomplete data",
+      "clustering examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "mixture models",
+      "missing data",
+      "robust statistics"
+    ],
+    "bestFor": "Robust model-based clustering with missing-at-random values, heavy-tailed component families, distribution selection, and real incomplete datasets.",
+    "note": "Verified on the official JSS page, which links the package and R replication code and states that real datasets illustrate the methods."
+  },
+  {
+    "id": "jss-watson-directional-mixtures",
+    "title": "watson: An R Package for Fitting Mixtures of Watson Distributions",
+    "authors": "Lukas Sablica, Kurt Hornik, Josef Leydold",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and watson package examples with simulations, New Zealand earthquake data, and depth-image clustering on directional observations",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v115i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v115.i04",
+    "access": "open",
+    "formats": [
+      "replication materials",
+      "R package",
+      "earthquake data",
+      "depth-image data",
+      "simulations"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models"
+    ],
+    "bestFor": "Fitting and sampling mixtures of Watson distributions for directional data, with simulation, earthquake, and depth-image clustering examples.",
+    "note": "Verified on the official JSS page, which links the package and replication materials for all three example families."
+  },
+  {
+    "id": "jss-dynamite-bayesian-panel-models",
+    "title": "dynamite: An R Package for Dynamic Multivariate Panel Models",
+    "authors": "Santtu Tikka, Jouni Helske",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code and dynamite package examples for Bayesian multivariate panel models with repeated individuals, time-varying effects, random effects, latent factors, posterior predictions, and diagnostics",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v115i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v115.i05",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "panel data examples",
+      "MCMC output"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "panel data methods",
+      "longitudinal data analysis",
+      "multilevel modeling",
+      "time series analysis"
+    ],
+    "bestFor": "Bayesian dynamic multivariate panel modeling with mixed response distributions, random effects, latent factors, posterior prediction, and diagnostics.",
+    "note": "Verified on the official JSS page, which links dynamite and the R replication code."
+  },
+  {
+    "id": "jss-dbnr-dynamic-bayesian-networks",
+    "title": "dbnR: Gaussian Dynamic Bayesian Network Learning and Inference in R",
+    "authors": "David Quesada, Pedro Larranaga, Concha Bielza",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code and dbnR package examples for dynamic Bayesian-network structure learning, parameter estimation, inference, visualization, and multivariate time-series forecasting",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v115i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v115.i06",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "multivariate time series",
+      "network structures"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "time series analysis",
+      "time series forecasting",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Learning and inspecting dynamic Bayesian networks as interpretable multivariate forecasting models with exact or approximate inference.",
+    "note": "Verified on the official JSS page, which provides the dbnR package and R replication code."
+  },
+  {
+    "id": "jss-skewlmm-robust-longitudinal-models",
+    "title": "skewlmm: An R Package for Fitting Skewed and Heavy-Tailed Linear Mixed Models",
+    "authors": "Fernanda L. Schumacher, Larissa A. Matos, Victor H. Lachos",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code, supplementary Stata data, two empirical datasets, and a synthetic example for robust skewed and heavy-tailed longitudinal mixed models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v115i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v115.i07",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "supplementary Stata data",
+      "R package",
+      "longitudinal datasets"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "multilevel modeling",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Robust longitudinal mixed modeling under skewness, heavy tails, serial dependence, and departures from Gaussian random-effect or error assumptions.",
+    "note": "Verified on the official JSS page, which provides replication code, package software, supplementary data, and documents two real datasets plus a synthetic example."
+  },
+  {
+    "id": "jss-trendlsw-nonstationary-series",
+    "title": "TrendLSW: Trend and Spectral Estimation of Nonstationary Time Series in R",
+    "authors": "Euan T. McGonigle, Rebecca Killick, Matthew A. Nunes",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code and TrendLSW package examples using biological and activity-monitoring time series for wavelet spectrum, trend, thresholding, and confidence-interval estimation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v115i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v115.i10",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "biological time series",
+      "activity-monitoring time series"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Wavelet-based trend and evolutionary-spectrum estimation for nonstationary, non-dyadic time series with pointwise uncertainty.",
+    "note": "Verified on the official JSS page, which links TrendLSW and R replication code and documents two empirical time-series examples."
+  },
+  {
+    "id": "jss-equatemultiple-test-equating",
+    "title": "equateMultiple: An R Package to Equate Multiple Forms",
+    "authors": "Michela Battauz",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code and equateMultiple package examples for linking item parameters and latent scores estimated from multiple test or questionnaire forms",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v115i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v115.i11",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "test-form examples",
+      "item-parameter data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory"
+    ],
+    "bestFor": "Equating multiple test or questionnaire forms by linking separately estimated item parameters and latent scores onto a common metric.",
+    "note": "Verified on the official JSS page, which links equateMultiple and R replication code."
+  },
+  {
+    "id": "jss-nubo-bayesian-optimization",
+    "title": "NUBO: A Transparent Python Package for Bayesian Optimization",
+    "authors": "Mike Diessner, Kevin J. Wilson, Richard D. Whalley",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS Python replication code, notebook, supplementary tables, and nubopy examples for sequential, batch, asynchronous, constrained, and mixed-input Bayesian optimization",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v114i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v114.i01",
+    "access": "open",
+    "formats": [
+      "Python replication code",
+      "replication notebook",
+      "supplementary tables",
+      "Python package"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Bayesian optimization of expensive experiments or simulators with Gaussian-process surrogates and sequential, parallel, constrained, or mixed-input acquisition strategies.",
+    "note": "Verified on the official JSS page, which provides nubopy, replication code, a notebook, and supplementary tables."
+  },
+  {
+    "id": "jss-mdendro-hierarchical-clustering",
+    "title": "mdendro: An R Package for Extended Agglomerative Hierarchical Clustering",
+    "authors": "Alberto Fernandez, Sergio Gomez",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and mdendro package examples for extended agglomerative clustering, tied proximity data, multifurcated dendrograms, linkage methods, and dendrogram diagnostics",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v114i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v114.i02",
+    "access": "open",
+    "formats": [
+      "replication materials",
+      "R package",
+      "proximity matrices",
+      "dendrogram examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [],
+    "bestFor": "Agglomerative hierarchical clustering with tied distances, multifurcated dendrograms, alternative linkage rules, and dendrogram quality diagnostics.",
+    "note": "Verified on the official JSS page, which links mdendro and the article's replication materials."
+  },
+  {
+    "id": "jss-ebnm-empirical-bayes-normal-means",
+    "title": "ebnm: An R Package for Solving the Empirical Bayes Normal Means Problem Using a Variety of Prior Families",
+    "authors": "Jason Willwerscheid, Peter Carbonetto, Matthew Stephens",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and ebnm package examples for empirical-Bayes normal means, multiple testing, shrinkage, wavelet denoising, gene expression, and baseball statistics",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v114i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v114.i03",
+    "access": "open",
+    "formats": [
+      "replication materials",
+      "R package",
+      "baseball data",
+      "normal-means examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "multiple testing",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing empirical-Bayes normal-means estimators across prior families for shrinkage, multiple testing, denoising, and high-dimensional factorization workflows.",
+    "note": "Verified on the official JSS page, which links ebnm and replication materials and documents a detailed baseball-data analysis."
+  },
+  {
+    "id": "jss-hmmtmb-hidden-markov-models",
+    "title": "hmmTMB: Hidden Markov Models with Flexible Covariate Effects in R",
+    "authors": "Theo Michelot",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and hmmTMB package example analyzing animal-tracking time series with hidden states, covariate effects, splines, random effects, and autoregressive structures",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v114i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v114.i05",
+    "access": "open",
+    "formats": [
+      "replication materials",
+      "R package",
+      "animal-tracking data",
+      "multivariate time series"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Hidden Markov analysis of multivariate time series with nonlinear covariate effects, random effects, semi-Markov structure, and autoregression.",
+    "note": "Verified on the official JSS page, which links hmmTMB and replication materials for the animal-tracking analysis."
+  },
+  {
+    "id": "jss-hibayes-genomic-regression",
+    "title": "hibayes: An R Package to Fit Individual-Level, Summary-Level and Single-Step Bayesian Regression Models for Genomic Prediction and Genome-Wide Association Studies",
+    "authors": "Lilin Yin, Haohao Zhang, Xinyun Li, Shuhong Zhao, Xiaolei Liu",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code and hibayes package examples for individual-level, summary-level, and single-step Bayesian regression in genomic prediction and genome-wide association studies",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v114i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v114.i06",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "genomic predictors",
+      "GWAS examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Bayesian high-dimensional regression, genomic prediction, candidate-gene localization, and comparison of individual-, summary-, and single-step model inputs.",
+    "note": "Verified on the official JSS page, which links hibayes and R replication code."
+  },
+  {
+    "id": "jss-tsci-invalid-instruments",
+    "title": "TSCI: Two Stage Curvature Identification for Causal Inference with Invalid Instruments in R",
+    "authors": "David Carl, Corinne Emmenegger, Peter Buhlmann, Zijian Guo",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code and TSCI package examples for observational treatment-effect estimation with nonlinear first stages and potentially invalid instruments",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v114i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v114.i07",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "observational data examples",
+      "instrumental-variable workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "instrumental variables",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Treatment-effect estimation when classical instruments may all be invalid, using nonlinear first stages and data-adaptive projection of instrument violations.",
+    "note": "Verified on the official JSS page, which links the TSCI package and R replication code."
+  },
+  {
+    "id": "jss-ldvqreg-censored-quantiles",
+    "title": "Quantile Regression under Limited Dependent Variable in Stata",
+    "authors": "Javier Alejo, Gabriel Montes-Rojas",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and ldvqreg Stata examples for smoothed quantile regression with lower-censored, upper-censored, doubly censored, or binary outcomes",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v114i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v114.i08",
+    "access": "open",
+    "formats": [
+      "replication materials",
+      "Stata package",
+      "simulation exercises",
+      "empirical applications"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "quantile regression"
+    ],
+    "bestFor": "Quantile regression with limited dependent variables, including lower, upper, double censoring, and binary outcomes with simulation and empirical examples.",
+    "note": "Verified on the official JSS page, which links ldvqreg and the paper's replication materials."
+  },
+  {
+    "id": "jss-optimall-adaptive-sampling",
+    "title": "Optimum Allocation for Adaptive Multi-Wave Sampling in R: The R Package optimall",
+    "authors": "Jasper B. Yang, Thomas Lumley, Bryan E. Shepherd, Pamela A. Shaw",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication code and optimall package examples using real epidemiological studies for adaptive stratification, Neyman or Wright allocation, and multi-wave two- or three-phase survey sampling",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v114i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v114.i10",
+    "access": "open",
+    "formats": [
+      "journal replication code",
+      "R package",
+      "epidemiological study data",
+      "sampling-design examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey methodology"
+    ],
+    "bestFor": "Designing adaptive multi-wave, two-phase, or three-phase samples with interactive strata and optimum sample allocation from auxiliary covariates.",
+    "note": "Verified on the official JSS page, which links optimall and R replication code and documents real study examples."
+  },
+  {
+    "id": "jss-tramme-mixed-transformation-models",
+    "title": "Mixed-Effects Additive Transformation Models with the R Package tramME",
+    "authors": "Balint Tamasi",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and tramME package illustrations for dependent ordered outcomes, nonlinear effects, random-effect structures, and flexible transformation models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v114i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v114.i11",
+    "access": "open",
+    "formats": [
+      "replication materials",
+      "R package",
+      "dependent-data examples",
+      "mixed-effects workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multilevel modeling",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Mixed-effects transformation modeling of correlated ordered outcomes with nonlinear covariate effects and flexible conditional response distributions.",
+    "note": "Verified on the official JSS page, which links tramME and replication materials for two dependent-data illustrations."
+  },
+  {
+    "id": "jss-changepoint-pelt-analysis",
+    "title": "changepoint: An R Package for Changepoint Analysis",
+    "authors": "Rebecca Killick, Idris A. Eckley",
+    "year": 2014,
+    "citations": 0,
+    "dataset": "Official JSS example code and changepoint package simulations and practical time-series examples for PELT, binary segmentation, test statistics, and multiple-change detection",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v058i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v058.i03",
+    "access": "open",
+    "formats": [
+      "journal example code",
+      "R package",
+      "simulated time series",
+      "practical examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing PELT, binary segmentation, and other search procedures for detecting multiple changes in simulated and practical ordered sequences.",
+    "note": "Verified on the official JSS page, which provides the changepoint package and R example code."
+  },
+  {
+    "id": "jss-gfpop-constrained-changepoints",
+    "title": "Generalized Functional Pruning Optimal Partitioning (GFPOP) for Constrained Changepoint Detection in Genomic Data",
+    "authors": "Toby Dylan Hocking, Guillem Rigaill, Paul Fearnhead, Guillaume Bourque",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and PeakSegDisk package workflows for constrained change-point and peak detection in genomic sequences with tens of millions of observations",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v101i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v101.i10",
+    "access": "open",
+    "formats": [
+      "replication materials",
+      "R package",
+      "genomic sequences",
+      "peak-detection benchmarks"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection"
+    ],
+    "bestFor": "Constrained optimal partitioning and peak detection in very large genomic sequences, including runtime and segmentation-accuracy studies.",
+    "note": "Verified on the official JSS page, which provides PeakSegDisk and replication materials. Together with fastcpd and changepoint, it supports the new reusable change point detection label."
   }
 ]

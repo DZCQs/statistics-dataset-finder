@@ -578,6 +578,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["graphical model", "graphical-model", "graphical models", "gaussian graphical model", "markov random field", "conditional independence", "conditional dependence", "precision matrix", "structure learning", "decomposable models", "chordal graph", "birth-death mcmc", "g-wishart", "undirected graph estimation"]
   },
   {
+    name: "causal discovery",
+    level: "low",
+    parents: ["causal inference", "graphical models"],
+    definition: "Datasets, simulations, and replication resources useful for learning causal graph structure from observational or experimental data.",
+    includeWhen: [
+      "causal discovery, causal structure learning, causal graph learning, or learning a causal DAG is central",
+      "the resource provides accessible data, simulations, code, or benchmark workflows for evaluating causal-structure recovery"
+    ],
+    avoidWhen: [
+      "the paper estimates effects using a known causal graph without learning its structure",
+      "graph structure learning is purely probabilistic and no causal interpretation or assumptions are supported"
+    ],
+    evidenceTerms: ["causal discovery", "causal structure learning", "causal graph learning", "causal dag learning", "bayesian causal discovery", "causal structure recovery"]
+  },
+  {
     name: "compositional data analysis",
     level: "mid",
     parents: [],
@@ -662,6 +677,21 @@ export const LABEL_REGISTRY = [
       "the data are longitudinal individual records rather than time-series methodology examples"
     ],
     evidenceTerms: ["time series analysis", "time series", "interrupted time series", "controlled interrupted time series", "forecast", "forecasting", "temporal dependence", "autocorrelation"]
+  },
+  {
+    name: "change point detection",
+    level: "mid",
+    parents: [],
+    definition: "Datasets and ordered sequences useful for detecting structural changes, regime boundaries, breakpoints, or distributional shifts.",
+    includeWhen: [
+      "change point, changepoint, structural break, breakpoint, segmentation, or regime-shift detection is central",
+      "the resource provides accessible time-series, spatial, genomic, simulated, or other ordered-sequence examples for change-point methodology"
+    ],
+    avoidWhen: [
+      "the paper only discusses gradual trends or ordinary nonstationarity without detecting discrete changes",
+      "change refers informally to an intervention or outcome difference without a change-point model"
+    ],
+    evidenceTerms: ["change point detection", "changepoint detection", "change point analysis", "changepoint analysis", "change-point detection", "structural break", "breakpoint detection", "optimal partitioning", "pelt algorithm"]
   },
   {
     name: "forecasting competitions",
@@ -806,32 +836,7 @@ export const LABEL_REGISTRY = [
   }
 ];
 
-export const LABEL_CANDIDATES = [
-  {
-    name: "causal discovery",
-    status: "candidate",
-    proposedLevel: "low",
-    proposedParents: ["causal inference", "graphical models"],
-    currentEvidence: [
-      {
-        paperId: "jss-bcdag-causal-structure-learning",
-        evidence: "The official JSS replication workflow uses real and simulated Gaussian observational data for Bayesian causal-DAG structure learning."
-      },
-      {
-        paperId: "jss-benchpress-graph-structure-learning",
-        evidence: "The reproducible Benchpress workflow compares causal and probabilistic graph-structure learning algorithms on standard, literature, and generated datasets."
-      }
-    ],
-    evidenceTerms: [
-      "causal discovery",
-      "causal structure learning",
-      "causal graph learning",
-      "causal dag learning",
-      "bayesian causal discovery"
-    ],
-    admissionConditions: "Add at least one more independent high-confidence paper with accessible data or replication resources, then confirm the topic remains distinct from generic graphical-model structure learning."
-  }
-];
+export const LABEL_CANDIDATES = [];
 
 export const LABEL_RULES = {
   minLabelsPerPaper: 3,
