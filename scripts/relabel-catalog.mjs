@@ -49,6 +49,7 @@ const parentRules = [
       "survey weighting",
       "nonresponse adjustment",
       "small area estimation",
+      "statistical disclosure control",
       "survey experiments"
     ]
   },
@@ -212,10 +213,14 @@ const evidenceRules = [
   {
     label: "time series analysis",
     reason: "time-series, interrupted-time-series, temporal-dependence, or autocorrelation evidence in record text",
-    test: (paper) =>
-      /\b(time series analysis|time series|interrupted time series|controlled interrupted time series|temporal dependence|autocorrelation)\b/i.test(
-        paperText(paper)
-      )
+    test: (paper) => {
+      const text = paperText(paper);
+      return (
+        /\b(time series analysis|time series|interrupted time series|controlled interrupted time series|temporal dependence)\b/i.test(text) ||
+        (/\bautocorrelation\b/i.test(text) &&
+          !/\bspatial(?:ly)?(?:\s+\w+){0,2}\s+autocorrelation\b/i.test(text))
+      );
+    }
   },
   {
     label: "interrupted time series",

@@ -56806,7 +56806,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "survey methodology"
+      "survey methodology",
+      "statistical disclosure control"
     ],
     "bestFor": "Implementing and auditing noise-infusion methods that limit privacy loss when releasing statistics from small cells.",
     "note": "Verified on the official openICPSR project page, which lists the Stata implementation, example cell data, and documentation. It supplies initial evidence for the internal statistical disclosure control candidate label."
@@ -56844,5 +56845,920 @@
     ],
     "bestFor": "Reproducing country-level synthetic-control estimates of unilateral climate-policy effects on national carbon emissions.",
     "note": "Verified from the official Zenodo replication archive, which provides raw data, results, and linked analysis scripts."
+  },
+  {
+    "id": "jss-sdcmicro-disclosure-control",
+    "title": "Statistical Disclosure Control for Micro-Data Using the R Package sdcMicro",
+    "authors": "Matthias Templ, Alexander Kowarik, Bernhard Meindl",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Official JSS replication code and sdcMicro package examples built around the International Household Survey Network household survey test data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v067i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v067.i04",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "household survey test data",
+      "anonymization workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical disclosure control",
+      "survey methodology"
+    ],
+    "bestFor": "Evaluating disclosure risk, perturbation, suppression, information loss, and anonymization workflows for household microdata.",
+    "note": "Verified on the official JSS page, which links the paper, sdcMicro package, replication code, and documented IHSN test dataset."
+  },
+  {
+    "id": "jss-synthpop-synthetic-data",
+    "title": "synthpop: Bespoke Creation of Synthetic Data in R",
+    "authors": "Beata Nowok, Gillian M. Raab, Chris Dibben",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Official JSS replication code and synthpop package survey-data example for generating disclosure-controlled synthetic microdata",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v074i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v074.i11",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "survey microdata example",
+      "synthetic datasets"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical disclosure control",
+      "survey methodology"
+    ],
+    "bestFor": "Studying sequential synthesis, utility, and disclosure protection for synthetic public-use microdata.",
+    "note": "Verified on the official JSS page, which provides synthpop, replication code, and the survey-data illustration used in the paper."
+  },
+  {
+    "id": "jss-simpop-synthetic-population",
+    "title": "Simulation of Synthetic Complex Data: The R Package simPop",
+    "authors": "Matthias Templ, Bernhard Meindl, Alexander Kowarik, Olivier Dupriez",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Official JSS replication code and simPop package workflow for constructing and evaluating a synthetic Austrian population from survey-style population data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v079i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v079.i10",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "synthetic population",
+      "calibration workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical disclosure control",
+      "survey methodology"
+    ],
+    "bestFor": "Comparing calibration, combinatorial optimization, and model-based generation of synthetic populations for public-use data.",
+    "note": "Verified on the official JSS page, which links simPop and replication code and documents the synthetic Austrian population example."
+  },
+  {
+    "id": "jss-microsynth-synthetic-control",
+    "title": "microsynth: Synthetic Control Methods for Disaggregated and Micro-Level Data in R",
+    "authors": "Michael W. Robbins, Steven Davenport",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official JSS replication code and microsynth package application to a drug-market intervention in Seattle using disaggregated regional panel data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v097i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v097.i02",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "micro-level panel data",
+      "intervention study"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "synthetic control methods",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Estimating synthetic controls from disaggregated micro- or meso-level regional data and conducting randomization-based inference.",
+    "note": "Verified on the official JSS page, which links microsynth, replication code, and the Seattle intervention illustration."
+  },
+  {
+    "id": "jss-personalized-subgroups",
+    "title": "Subgroup Identification Using the personalized Package",
+    "authors": "Jared D. Huling, Menggang Yu",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official JSS replication code, personalized package, and supplementary R data for treatment-effect subgroup identification and evaluation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v098i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v098.i05",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "R binary data",
+      "treatment-effect examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "heterogeneous treatment effects",
+      "treatment effect estimation",
+      "causal inference",
+      "propensity score methods"
+    ],
+    "bestFor": "Comparing subgroup-identification methods, propensity diagnostics, and heterogeneous treatment-effect evaluation in one workflow.",
+    "note": "Verified on the official JSS page, which lists the package, two replication-code files, and supplementary R data."
+  },
+  {
+    "id": "jss-pre-prediction-rule-ensembles",
+    "title": "Fitting Prediction Rule Ensembles with R Package pre",
+    "authors": "Marjolein Fokkema",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and pre package analyses using depression prediction data and four regression and classification benchmark datasets",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v092i12",
+    "paperUrl": "https://doi.org/10.18637/jss.v092.i12",
+    "access": "open",
+    "formats": [
+      "R package",
+      "replication materials",
+      "depression data",
+      "benchmark datasets"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "risk prediction"
+    ],
+    "bestFor": "Comparing sparse interpretable prediction-rule ensembles with trees, random forests, lasso, and RuleFit.",
+    "note": "Verified on the official JSS page, which links the pre package and complete replication materials for the empirical and benchmark studies."
+  },
+  {
+    "id": "jss-mitisem-bayesian-inference",
+    "title": "The R Package MitISEM: Efficient and Robust Simulation Procedures for Bayesian Inference",
+    "authors": "Nalan Basturk, Stefano Grassi, Lennart Hoogerheide, Anne Opschoor, Herman K. van Dijk",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and MitISEM package examples for non-elliptical posterior approximation, importance sampling, and Metropolis-Hastings inference",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v079i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v079.i01",
+    "access": "open",
+    "formats": [
+      "R package",
+      "replication materials",
+      "econometric examples",
+      "posterior simulations"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Benchmarking adaptive mixture importance sampling and Metropolis-Hastings on multimodal and non-elliptical posterior targets.",
+    "note": "Verified on the official JSS page, which links MitISEM and replication materials for three statistical and econometric examples."
+  },
+  {
+    "id": "jss-krls-regularized-least-squares",
+    "title": "Kernel-Based Regularized Least Squares in R (KRLS) and Stata (krls)",
+    "authors": "Jeremy Ferwerda, Jens Hainmueller, Chad J. Hazlett",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Official JSS R and Stata replication code, software packages, and supplementary Stata data for kernel-based regularized regression and classification",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v079i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v079.i03",
+    "access": "open",
+    "formats": [
+      "R package",
+      "Stata package",
+      "replication code",
+      "Stata data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Studying nonlinear regularized regression with interpretable marginal effects and cross-language R and Stata implementations.",
+    "note": "Verified on the official JSS page, which lists both software packages, R and Stata replication code, and supplementary data."
+  },
+  {
+    "id": "jss-scoringrules-probabilistic-forecasts",
+    "title": "Evaluating Probabilistic Forecasts with scoringRules",
+    "authors": "Alexander Jordan, Fabian Kruger, Sebastian Lerch",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Official JSS replication code and scoringRules package case studies using meteorological and economic probabilistic forecasts",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v090i12",
+    "paperUrl": "https://doi.org/10.18637/jss.v090.i12",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "ensemble forecasts",
+      "economic forecasts"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing probabilistic forecast distributions and simulated predictive samples with proper scoring rules.",
+    "note": "Verified on the official JSS page and linked replication repository, which provide the package and code for both case studies."
+  },
+  {
+    "id": "jss-mixghd-clustering",
+    "title": "Model-Based Clustering, Classification, and Discriminant Analysis Using the Generalized Hyperbolic Distribution: MixGHD R package",
+    "authors": "Cristina Tortora, Ryan P. Browne, Aisha ElSherbiny, Brian C. Franczak, Paul D. McNicholas",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official JSS replication code, MixGHD package, and supplementary R data for generalized-hyperbolic mixture clustering and classification",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v098i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v098.i03",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "R binary data",
+      "clustering examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models"
+    ],
+    "bestFor": "Evaluating flexible mixture-distribution clustering, classification, and discriminant analysis under skewness and heavy tails.",
+    "note": "Verified on the official JSS volume page, which lists MixGHD, replication code, and supplementary R data."
+  },
+  {
+    "id": "jss-frk-spatial-prediction",
+    "title": "FRK: An R Package for Spatial and Spatio-Temporal Prediction with Large Datasets",
+    "authors": "Andrew Zammit-Mangion, Noel Cressie",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official JSS replication materials and FRK package examples for fixed-rank spatial and spatio-temporal prediction with large datasets",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v098i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v098.i04",
+    "access": "open",
+    "formats": [
+      "R package",
+      "replication materials",
+      "large spatial data",
+      "spatio-temporal examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "high-dimensional statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Benchmarking scalable fixed-rank kriging and prediction on large spatial and spatio-temporal datasets.",
+    "note": "Verified on the official JSS page, which provides FRK and the paper replication materials."
+  },
+  {
+    "id": "jss-conformal-orange",
+    "title": "Conformal Prediction with Orange",
+    "authors": "Tomaz Hocevar, Blaz Zupan, Jonna Stalring",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official JSS Python source package and replication materials for conformal prediction workflows in Orange",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v098i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v098.i07",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "replication materials",
+      "classification examples",
+      "prediction sets"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "risk prediction"
+    ],
+    "bestFor": "Reproducing conformal classification and regression workflows through the Orange visual analytics environment.",
+    "note": "Verified on the official JSS volume page, which lists the Python source package and replication materials."
+  },
+  {
+    "id": "jss-adoptr-adaptive-designs",
+    "title": "The adoptr Package: Adaptive Optimal Designs for Clinical Trials in R",
+    "authors": "Kevin Kunzmann, Maximilian Pilz, Carolin Herrmann, Geraldine Rauch, Meinhard Kieser",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official JSS replication code and adoptr package simulations for constrained adaptive optimal clinical-trial designs",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v098i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v098.i09",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "trial simulations",
+      "design examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "Optimizing and stress-testing adaptive randomized-trial designs under explicit operating-characteristic constraints.",
+    "note": "Verified on the official JSS volume page, which links the adoptr package and R replication code."
+  },
+  {
+    "id": "jss-hetgp-sequential-design",
+    "title": "hetGP: Heteroskedastic Gaussian Process Modeling and Sequential Design in R",
+    "authors": "Mickael Binois, Robert B. Gramacy",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official JSS replication code and hetGP package examples for heteroskedastic Gaussian-process modeling and sequential design",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v098i13",
+    "paperUrl": "https://doi.org/10.18637/jss.v098.i13",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "simulation examples",
+      "sequential-design workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Testing heteroskedastic Gaussian-process emulation, replication allocation, and sequential experimental design.",
+    "note": "Verified on the official JSS volume page, which links hetGP and the article replication code."
+  },
+  {
+    "id": "jss-mexhaz-flexible-hazard",
+    "title": "mexhaz: An R Package for Fitting Flexible Hazard-Based Regression Models for Overall and Excess Mortality with a Random Effect",
+    "authors": "Hadrien Charvat, Aurelien Belot",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official JSS replication code and mexhaz package examples for flexible overall and excess-mortality hazard models with random effects",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v098i14",
+    "paperUrl": "https://doi.org/10.18637/jss.v098.i14",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "survival examples",
+      "random-effects models"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Fitting flexible parametric hazard models for overall or excess mortality with clustered random effects.",
+    "note": "Verified on the official JSS volume page, which links mexhaz and R replication code."
+  },
+  {
+    "id": "jss-tsbss-dimension-reduction",
+    "title": "Dimension Reduction for Time Series in a Blind Source Separation Context Using R",
+    "authors": "Klaus Nordhausen, Markus Matilainen, Jari Miettinen, Joni Virta, Sara Taskinen",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official JSS replication code, R packages, and supplementary CSV data for blind-source-separation dimension reduction in multivariate time series",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v098i15",
+    "paperUrl": "https://doi.org/10.18637/jss.v098.i15",
+    "access": "open",
+    "formats": [
+      "R packages",
+      "R replication code",
+      "CSV data",
+      "multivariate time series"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing blind-source-separation methods for dimension reduction in dependent multivariate time series.",
+    "note": "Verified on the official JSS volume page, which lists the software, R replication code, and supplementary CSV data."
+  },
+  {
+    "id": "rj-npbayesimputecat",
+    "title": "Multiple Imputation and Synthetic Data Generation with NPBayesImputeCat",
+    "authors": "Jingchen Hu, Olanrewaju Akande, Quanli Wang",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "NPBayesImputeCat package workflows and American Community Survey samples for Bayesian categorical-data imputation and disclosure-controlled synthetic data generation",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2021-080/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-080",
+    "access": "open",
+    "formats": [
+      "R package",
+      "ACS samples",
+      "multiple imputations",
+      "synthetic datasets"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical disclosure control",
+      "multiple imputation",
+      "missing data",
+      "bayesian inference",
+      "mixture models",
+      "survey methodology"
+    ],
+    "bestFor": "Comparing Bayesian latent-class multiple imputation and synthetic-data generation for categorical ACS microdata with structural zeros.",
+    "note": "Verified on the official R Journal page, which links the CRAN package and documents the included ACS samples and complete workflows."
+  },
+  {
+    "id": "rj-deeplearningcausal",
+    "title": "DeepLearningCausal: R Package for Estimating Treatment Effects Using Deep Neural Networks and Ensemble Learning",
+    "authors": "Nguyen K. Huynh, Bumba Mukherjee, Yang Yang",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "DeepLearningCausal package data with a randomized India survey experiment and commensurate India World Values Survey population samples",
+    "datasetUrl": "https://github.com/hknd23/DeepLearningCausal",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-035",
+    "access": "open",
+    "formats": [
+      "R package",
+      "survey experiment data",
+      "World Values Survey extracts",
+      "treatment-effect workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "heterogeneous treatment effects",
+      "treatment effect estimation",
+      "causal inference",
+      "survey experiments",
+      "randomized experiments",
+      "survey methodology"
+    ],
+    "bestFor": "Estimating individual and subgroup treatment effects with meta-learners, deep networks, compliance models, and ensemble learning.",
+    "note": "Verified in the official R Journal article and linked package repository; both exp_data_full and pop_data_full are documented and distributed."
+  },
+  {
+    "id": "rj-arco-counterfactuals",
+    "title": "ArCo: An R package to Estimate Artificial Counterfactuals",
+    "authors": "Yuri R. Fonseca, Ricardo P. Masini, Marcelo C. Medeiros, Gabriel F. R. Vasconcelos",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "ArCo package simulations and real macroeconomic intervention datasets, including inflation and synthetic-control comparison examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2018-016/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2018-016",
+    "access": "open",
+    "formats": [
+      "R package",
+      "simulated panels",
+      "macroeconomic time series",
+      "counterfactual examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Estimating aggregate intervention effects from large donor panels when a conventional untreated control group is unavailable.",
+    "note": "Verified on the official R Journal page, which documents the package and its simulated and real counterfactual datasets."
+  },
+  {
+    "id": "rj-probabilistic-weather-forecasting",
+    "title": "Probabilistic Weather Forecasting in R",
+    "authors": "Chris Fraley, Adrian Raftery, Tilmann Gneiting, McLean Sloughter, Veronica Berrocal",
+    "year": 2011,
+    "citations": 0,
+    "dataset": "ensembleBMA and ProbForecastGOP package data with Pacific Northwest station and grid forecasts, observations, and probabilistic weather fields",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2011-009/",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2011-009/",
+    "access": "open",
+    "formats": [
+      "R packages",
+      "ensemble forecasts",
+      "station observations",
+      "spatial grids"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis",
+      "spatial statistics",
+      "spatio-temporal models",
+      "mixture models",
+      "bayesian inference"
+    ],
+    "bestFor": "Evaluating Bayesian model averaging and geostatistical postprocessing of ensemble weather forecasts at stations and over grids.",
+    "note": "Verified on the official R Journal page, which documents the included srft and srftGrid forecasts and observations used throughout the examples."
+  },
+  {
+    "id": "rj-disaggregatets",
+    "title": "Disaggregating Time-Series with Many Indicators: An Overview of the DisaggregateTS Package",
+    "authors": "Luke Mosley, Kaveh Salehzadeh Nobari, Giuseppe Brandi, Alex Gibberd",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "DisaggregateTS package simulations and empirical carbon-emissions data for classical and sparse high-dimensional temporal disaggregation",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-035/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-035",
+    "access": "open",
+    "formats": [
+      "R package",
+      "simulated time series",
+      "emissions data",
+      "high-frequency indicators"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing classical and sparse regression methods that disaggregate low-frequency series using many high-frequency indicators.",
+    "note": "Verified on the official R Journal page, which documents the simulation generator and empirical CO2-emissions application."
+  },
+  {
+    "id": "rj-tsfknn",
+    "title": "Time Series Forecasting with KNN in R: the tsfknn Package",
+    "authors": "Francisco Martinez, Maria P. Frias, Francisco Charte, Antonio J. Rivera",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Official R Journal supplementary materials and tsfknn package benchmarks using NN3 and NN5 competition series and rolling-origin evaluation",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2019-004/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2019-004",
+    "access": "open",
+    "formats": [
+      "R package",
+      "supplementary archive",
+      "competition time series",
+      "forecast benchmarks"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis",
+      "forecasting competitions"
+    ],
+    "bestFor": "Benchmarking nearest-neighbor time-series forecasting, multi-step strategies, and rolling-origin evaluation on competition data.",
+    "note": "Verified on the official R Journal page, which links the supplementary archive and documents NN3 and NN5 benchmark comparisons."
+  },
+  {
+    "id": "rj-nortstest",
+    "title": "nortsTest: An R Package for Assessing Normality of Stationary Processes",
+    "authors": "Asael Alonzo Matamoros, Alicia Nieto-Reyes, Claudio Agostinelli",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "nortsTest package simulations and real stationary time-series examples for asymptotic, bootstrap, and random-projection normality tests",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-008/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-008",
+    "access": "open",
+    "formats": [
+      "R package",
+      "simulated time series",
+      "real time series",
+      "bootstrap tests"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "resampling methods",
+      "robust statistics"
+    ],
+    "bestFor": "Comparing normality diagnostics for dependent stationary processes with asymptotic and bootstrap calibration.",
+    "note": "Verified on the official R Journal page, which documents the package, simulations, and real time-series diagnostics."
+  },
+  {
+    "id": "rj-echos",
+    "title": "echos: An R Package for Automatic Time Series Forecasting using Echo State Networks",
+    "authors": "Alexander Haeusser",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "echos package reproducible case studies plus separate parameter-tuning and forecast-evaluation collections of monthly and quarterly time series",
+    "datasetUrl": "https://github.com/ahaeusser/echos",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-040",
+    "access": "open",
+    "formats": [
+      "R package",
+      "forecast benchmark series",
+      "case-study code",
+      "evaluation outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis",
+      "forecasting competitions"
+    ],
+    "bestFor": "Evaluating automated echo-state-network forecasts with disjoint tuning and evaluation series across monthly and quarterly frequencies.",
+    "note": "Verified on the official R Journal page and linked GitHub repository; the article documents the disjoint benchmark datasets and reproducible case studies."
+  },
+  {
+    "id": "rj-mtarm",
+    "title": "mtarm: Bayesian Analysis of Multivariate Threshold Autoregressive Models in R",
+    "authors": "Luis Hernando Vanegas, Sergio Alejandro Calderon, Luz Marina Rondon",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "mtarm package simulations and two real multivariate hydrological time series for Bayesian threshold autoregression and forecast evaluation",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2026-043/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-043",
+    "access": "open",
+    "formats": [
+      "R package",
+      "hydrological time series",
+      "posterior samples",
+      "forecast evaluations"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "time series analysis",
+      "time series forecasting",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Fitting and diagnosing Bayesian multivariate threshold autoregressions with flexible heavy-tailed and skewed innovations.",
+    "note": "Verified on the official R Journal page, which documents the package, simulation support, and two empirical hydrological applications."
+  },
+  {
+    "id": "rj-bayesppd",
+    "title": "BayesPPD: An R Package for Bayesian Sample Size Determination Using the Power and Normalized Power Prior for Generalized Linear Models",
+    "authors": "Yueqi Shen, Matthew A. Psioda, Joseph G. Ibrahim",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "BayesPPD package simulations and case studies using current and historical control data for Bayesian power, type-I error, and sample-size determination",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2023-016/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-016",
+    "access": "open",
+    "formats": [
+      "R package",
+      "historical-data examples",
+      "trial simulations",
+      "posterior samples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "Designing Bayesian generalized-linear-model studies that borrow historical controls through fixed or normalized power priors.",
+    "note": "Verified on the official R Journal and CRAN pages, which provide source, vignette code, simulations, and two case studies."
+  },
+  {
+    "id": "rj-success-survival-control",
+    "title": "SUrvival Control Chart EStimation Software in R: the success Package",
+    "authors": "Daniel Gomon, Marta Fiocco, Hein Putter, Mirko Signorelli",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "success package surgerydat dataset with 32,529 simulated patient survival records from 45 hospitals for risk-adjusted survival control charts",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2023-095/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-095",
+    "access": "open",
+    "formats": [
+      "R package",
+      "simulated survival data",
+      "hospital clusters",
+      "control-chart examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "risk prediction"
+    ],
+    "bestFor": "Benchmarking risk-adjusted CUSUM and funnel-chart monitoring on clustered right-censored survival outcomes.",
+    "note": "Verified on the official R Journal page, which documents the enclosed surgerydat records, censoring fields, covariates, and generation model."
+  },
+  {
+    "id": "rj-spfilter",
+    "title": "spfilteR: An R package for Semiparametric Spatial Filtering with Eigenvectors in (Generalized) Linear Models",
+    "authors": "Sebastian Juhl",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "spfilteR package synthetic spatial dataset and worked code for supervised and unsupervised eigenvector spatial filtering",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2021-085/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-085",
+    "access": "open",
+    "formats": [
+      "R package",
+      "synthetic spatial data",
+      "connectivity matrices",
+      "regression examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing supervised and unsupervised eigenvector selection for removing residual spatial autocorrelation in regression models.",
+    "note": "Verified on the official R Journal page, which explicitly documents the accompanying synthetic spatial dataset and package code."
+  },
+  {
+    "id": "jss-synthacs",
+    "title": "synthACS: Spatial Microsimulation Modeling with Synthetic American Community Survey Data",
+    "authors": "Alex Whitworth",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Official JSS replication code and synthACS package workflows for creating spatially resolved synthetic microdatasets from American Community Survey tables",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v104i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v104.i07",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R replication code",
+      "ACS tables",
+      "synthetic spatial microdata"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "spatial statistics"
+    ],
+    "bestFor": "Building and validating spatially resolved synthetic microdata from American Community Survey base tables.",
+    "note": "Verified on the official JSS page, which provides synthACS, replication code, and the ACS population-dynamics case study."
   }
 ]

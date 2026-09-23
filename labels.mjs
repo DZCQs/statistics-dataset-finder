@@ -317,6 +317,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["small area", "domain", "subgroup", "geographic", "population estimation", "under-sampled"]
   },
   {
+    name: "statistical disclosure control",
+    level: "low",
+    parents: ["survey methodology"],
+    definition: "Datasets, code, and replication resources for measuring and reducing disclosure risk when releasing microdata, tabular statistics, or synthetic public-use data.",
+    includeWhen: [
+      "statistical disclosure control, disclosure limitation, microdata anonymization, disclosure-risk estimation, cell suppression, noise infusion, or privacy-preserving synthetic data release is central",
+      "the resource provides data, code, or worked examples for balancing confidentiality protection against statistical utility"
+    ],
+    avoidWhen: [
+      "privacy is discussed only as a general ethical or legal concern without a statistical disclosure-control method",
+      "synthetic data are generated only for augmentation or simulation and not for confidentiality-preserving release"
+    ],
+    evidenceTerms: ["statistical disclosure control", "disclosure control", "disclosure limitation", "disclosure risk", "microdata anonymization", "privacy loss", "noise infusion", "cell suppression", "data confidentiality", "synthetic public-use data"]
+  },
+  {
     name: "longitudinal data analysis",
     level: "mid",
     parents: [],
@@ -851,18 +866,7 @@ export const LABEL_REGISTRY = [
   }
 ];
 
-export const LABEL_CANDIDATES = [
-  {
-    name: "statistical disclosure control",
-    status: "candidate",
-    proposedLevel: "low",
-    proposedParents: ["survey methodology"],
-    currentEvidence: ["openicpsr-chetty-friedman-privacy-loss"],
-    evidence: "The current catalog has one verified openICPSR replication archive with code and data for reducing privacy loss when releasing small-sample statistics.",
-    evidenceTerms: ["statistical disclosure control", "disclosure limitation", "disclosure risk", "privacy loss", "noise infusion", "cell suppression", "data confidentiality"],
-    admissionConditions: "Add at least two more independent papers with accessible datasets or replication resources, and confirm that the topic remains distinct from generic differential privacy and survey weighting."
-  }
-];
+export const LABEL_CANDIDATES = [];
 
 export const LABEL_RULES = {
   minLabelsPerPaper: 3,
