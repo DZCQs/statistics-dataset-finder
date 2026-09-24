@@ -57760,5 +57760,265 @@
     ],
     "bestFor": "Building and validating spatially resolved synthetic microdata from American Community Survey base tables.",
     "note": "Verified on the official JSS page, which provides synthACS, replication code, and the ACS population-dynamics case study."
+  },
+  {
+    "id": "dataverse-did-ordinal-outcomes",
+    "title": "Difference-in-Differences for Ordinal Outcomes: Application to the Effect of Mass Shootings on Attitudes toward Gun Control",
+    "authors": "Soichiro Yamauchi",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package for ordinal-outcome difference-in-differences analyses of mass shootings and gun-control attitudes",
+    "datasetUrl": "https://doi.org/10.7910/DVN/M0H9IQ",
+    "paperUrl": "https://arxiv.org/abs/2009.13404",
+    "access": "open",
+    "formats": [
+      "replication archive",
+      "survey outcomes",
+      "analysis code",
+      "ordinal panel data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "difference-in-differences",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Evaluating difference-in-differences estimators for ordinal outcomes, latent-variable identification assumptions, and staggered adoption designs.",
+    "note": "Verified through the released Harvard Dataverse record, its 45 MB replication archive, the linked forthcoming Political Analysis citation, and the public paper version."
+  },
+  {
+    "id": "dataverse-immigration-nationalism-panel",
+    "title": "Immigration and Nationalistic Attitudes: Panel Evidence from Chile",
+    "authors": "Catalina Vega-Mendez, Giancarlo Visconti",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Harvard Dataverse administrative, panel-survey, geographic, and event-study replication files for immigration shocks in Chile",
+    "datasetUrl": "https://doi.org/10.7910/DVN/N7LPYM",
+    "paperUrl": "https://doi.org/10.31219/osf.io/u5grv_v2",
+    "access": "open",
+    "formats": [
+      "R code",
+      "panel survey data",
+      "administrative data",
+      "geospatial shapefiles",
+      "event-study outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "difference-in-differences",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Reproducing staggered and generalized difference-in-differences analyses that combine panel surveys, administrative records, and spatial exposure measures.",
+    "note": "Verified through the released Harvard Dataverse inventory with 65 files, including R scripts for standard and generalized DID, panel diagnostics, maps, and the OSF preprint."
+  },
+  {
+    "id": "dataverse-education-political-trust",
+    "title": "Educational Attainment and Political Trust",
+    "authors": "Edmund Kelly, Qinya Feng",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Harvard Dataverse verified replication materials for a meta-analysis and four twin-study designs on education and political trust",
+    "datasetUrl": "https://doi.org/10.7910/DVN/MBFF92",
+    "paperUrl": "https://edmund-kelly.github.io/EducTrust.pdf",
+    "access": "open",
+    "formats": [
+      "R Markdown",
+      "Stata code",
+      "tabular twin-study data",
+      "meta-analysis data",
+      "codebook"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "causal inference",
+      "propensity score methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Studying triangulation across meta-analysis, within-family twin comparisons, matching on early-life conditions, and polygenic adjustment.",
+    "note": "Verified through the Harvard Dataverse file inventory, its independent AJPS verification note, 37 data and code files, and the authors' public paper."
+  },
+  {
+    "id": "dataverse-parenting-youth-ipd-meta",
+    "title": "Parenting, Socio-economic Status, and Youth Mental Health: A Global Individual Participant Data Meta-analysis",
+    "authors": "Jonathan T. Rothwell",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse harmonization and analysis code for an individual-participant meta-analysis of 1,030,090 youth across 171 studies",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YQ8DJU",
+    "paperUrl": "https://doi.org/10.2139/ssrn.7089098",
+    "access": "open",
+    "formats": [
+      "Stata code",
+      "individual-participant data workflows",
+      "survey harmonization",
+      "meta-analysis scripts"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "measurement error models"
+    ],
+    "bestFor": "Reproducing large-scale individual-participant data harmonization and meta-analysis with corrections for measurement error and construct validity.",
+    "note": "Verified through the released Harvard Dataverse record, 30 Stata workflow files spanning multiple international surveys, and the SSRN paper."
+  },
+  {
+    "id": "dataverse-party-cues-pretreatment",
+    "title": "Assessing the Influence of Political Parties on Public Opinion: The Challenge from Pretreatment Effects",
+    "authors": "Rune Slothuus",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication data and code for two randomized survey experiments on party cues and real-world pretreatment",
+    "datasetUrl": "https://doi.org/10.7910/DVN/SI3BGA",
+    "paperUrl": "https://doi.org/10.1080/10584609.2015.1052892",
+    "access": "open",
+    "formats": [
+      "tabular survey data",
+      "SPSS syntax",
+      "Stata code",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey experiments",
+      "randomized experiments",
+      "treatment effect estimation",
+      "causal inference",
+      "survey methodology"
+    ],
+    "bestFor": "Analyzing how exposure and reputation pretreatment alter estimated party-cue effects in randomized survey experiments.",
+    "note": "Verified through the released Harvard Dataverse record, its seven experiment data and code files, and the published Political Communication article DOI."
+  },
+  {
+    "id": "dataverse-red-army-spatial-rdd",
+    "title": "Hostility, Population Sorting, and Backwardness: Quasi-Experimental Evidence from the Red Army after WWII",
+    "authors": "Christian Ochsner",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication archive for spatial regression-discontinuity estimates along the postwar Allied contact line in Austria",
+    "datasetUrl": "https://doi.org/10.7910/DVN/OH4JOP",
+    "paperUrl": "https://ideas.repec.org/p/cer/papers/wp768.html",
+    "access": "open",
+    "formats": [
+      "replication archive",
+      "spatial regional data",
+      "regression-discontinuity analysis",
+      "long-run outcomes"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "regression discontinuity designs",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference",
+      "spatial statistics",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Reproducing spatial regression-discontinuity designs and studying long-run treatment effects around a historical geographic boundary.",
+    "note": "Verified through the released Harvard Dataverse tar archive, its Review of Economics and Statistics supplement citation, and the CERGE-EI working-paper record."
+  },
+  {
+    "id": "dataverse-copyrights-creativity",
+    "title": "Copyrights and Creativity: Evidence from Italian Opera in the Napoleonic Age",
+    "authors": "Michela Giorcelli, Petra Moser",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Harvard Dataverse city-, state-, composer-, and opera-level replication data and Stata code for historical copyright adoption in Italy",
+    "datasetUrl": "https://doi.org/10.7910/DVN/NW08FK",
+    "paperUrl": "https://doi.org/10.1086/710534",
+    "access": "open",
+    "formats": [
+      "tab-separated data",
+      "Stata code",
+      "Excel tables",
+      "replication archive",
+      "historical panel data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "difference-in-differences",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Reproducing historical difference-in-differences analyses of staggered copyright adoption and creative output across Italian states.",
+    "note": "Verified through the updated Harvard Dataverse package with 41 raw-data, analysis, and output files and the Journal of Political Economy article DOI."
+  },
+  {
+    "id": "dataverse-party-framing-survey-experiments",
+    "title": "Political Parties, Motivated Reasoning, and Issue Framing Effects",
+    "authors": "Rune Slothuus, Claes H. de Vreese",
+    "year": 2010,
+    "citations": 0,
+    "dataset": "Harvard Dataverse questionnaire, nationally representative survey-experiment data, and R replication code for party-sponsored framing effects",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ULFZOQ",
+    "paperUrl": "https://doi.org/10.1017/S002238161000006X",
+    "access": "open",
+    "formats": [
+      "tabular survey data",
+      "questionnaire",
+      "R code",
+      "readme"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey experiments",
+      "randomized experiments",
+      "treatment effect estimation",
+      "causal inference",
+      "survey methodology"
+    ],
+    "bestFor": "Reproducing nationally representative survey experiments on framing, party cues, political awareness, and heterogeneous response to randomized messages.",
+    "note": "Verified through the released Harvard Dataverse dataset and code files and the published Journal of Politics article DOI."
   }
 ]
