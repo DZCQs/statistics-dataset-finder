@@ -58020,5 +58020,282 @@
     ],
     "bestFor": "Reproducing nationally representative survey experiments on framing, party cues, political awareness, and heterogeneous response to randomized messages.",
     "note": "Verified through the released Harvard Dataverse dataset and code files and the published Journal of Politics article DOI."
+  },
+  {
+    "id": "arxiv-bayesian-generative-conditional-inference",
+    "title": "An AI-powered Bayesian Generative Modeling Approach for Arbitrary Conditional Inference",
+    "authors": "Qiao Liu, Wing Hung Wong",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "bayesgm code, simulators, and tutorial resources",
+    "datasetUrl": "https://github.com/liuq-lab/bayesgm",
+    "paperUrl": "https://arxiv.org/abs/2601.05355",
+    "access": "open",
+    "formats": [
+      "python",
+      "r package",
+      "notebooks",
+      "simulators"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "missing data",
+      "causal inference",
+      "treatment effect estimation",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating one generative model across conditional prediction, imputation, uncertainty quantification, and causal-effect workflows.",
+    "note": "arXiv links the public bayesgm repository; its tree contains Python and R implementations, simulators, dataset helpers, tests, and causal-inference tutorials."
+  },
+  {
+    "id": "arxiv-bayesian-dynamic-borrowing-tutorial",
+    "title": "From priors to performance: enhancing statistical efficiency with Bayesian dynamic borrowing",
+    "authors": "Xinxin Chen, Ezequiel Braga, Joseph G. Ibrahim, Luiz Max Carvalho, Ethan M. Alt",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "hdbayes tutorial ACTG and survival-analysis resources",
+    "datasetUrl": "https://github.com/ezequielebs/hdbayes-tutorial",
+    "paperUrl": "https://arxiv.org/abs/2609.13976",
+    "access": "open",
+    "formats": [
+      "r",
+      "stan",
+      "rds",
+      "rdata"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "causal inference",
+      "treatment effect estimation",
+      "survival analysis"
+    ],
+    "bestFor": "Reproducing dynamic-borrowing analyses with historical controls, ACTG treatment data, propensity adjustment, and survival examples.",
+    "note": "The companion repository explicitly contains code and data, including ACTG RDS files, posterior draws, Stan models, and survival-analysis workflows."
+  },
+  {
+    "id": "arxiv-bayesian-hierarchical-meta-analysis",
+    "title": "A Bayesian hierarchical model for meta-analysis",
+    "authors": "Jing Dai, Sijie Xu, Shufei Ge",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "hierarchical meta-analysis clinical-trial datasets and code",
+    "datasetUrl": "https://github.com/xsjk/hierarchicalmetaanalysis",
+    "paperUrl": "https://arxiv.org/abs/2606.16224",
+    "access": "open",
+    "formats": [
+      "csv",
+      "python",
+      "mcmc code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "meta-analysis",
+      "randomized experiments",
+      "multilevel modeling",
+      "causal inference"
+    ],
+    "bestFor": "Comparing hierarchical Bayesian and conventional meta-analysis on small collections of clinical trials.",
+    "note": "The public repository contains three CSV datasets for efficacy, control, and side-effect outcomes plus analytical and MCMC implementations."
+  },
+  {
+    "id": "figshare-constrained-multivariate-normal-sampling",
+    "title": "Efficient sampling from a multivariate normal distribution subject to linear equality and inequality constraints",
+    "authors": "Matthew P. Adams, Gloria M. Monsalve-Bravo, Lucy G. Dowdell, Scott A. Sisson, Christopher Drovandi",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Constrained multivariate-normal MATLAB code and simulation outputs",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.29956304",
+    "paperUrl": "https://arxiv.org/abs/2508.15292",
+    "access": "open",
+    "formats": [
+      "matlab",
+      "mat files",
+      "simulation outputs"
+    ],
+    "properties": [
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Testing constrained Gaussian samplers, initialization methods, and efficiency under rare linear-constraint regions.",
+    "note": "The Figshare software archive provides sixteen MATLAB and output files, including a 30 MB simulation-results MAT file; the current vocabulary has no precise constrained-sampling label."
+  },
+  {
+    "id": "figshare-bayesian-mediation-measurement-error",
+    "title": "Automatic Mediation Analysis Under Measurement Error Via Bayesian Machine Learning",
+    "authors": "Xinran Song, Qian Zhang, Kaizong Ye, Antonio R. Linero",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "ACTIVE trial data and Bayesian mediation replication archive",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Automatic_Mediation_Analysis_Under_Measurement_Error_Via_Bayesian_Machine_Learning/32144048",
+    "paperUrl": "https://doi.org/10.1080/00273171.2026.2660129",
+    "access": "open",
+    "formats": [
+      "r data",
+      "r",
+      "stan",
+      "java",
+      "documentation"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "measurement error models",
+      "bayesian inference",
+      "randomized experiments"
+    ],
+    "bestFor": "Studying causal mediation, latent measurement error, nonlinear effects, and Bayesian uncertainty using a randomized-trial application.",
+    "note": "Crossref identifies the journal article; the linked Figshare archive exposes ACTIVE R data, preprocessing scripts, Stan models, simulation code, and package sources."
+  },
+  {
+    "id": "figshare-bayesian-pfs-os-survival-model",
+    "title": "A Bayesian Model for Inferring Overall Survival Benefit from Progression-Free Survival in Oncology Trials",
+    "authors": "Steven Snapinn, Chunlei Ke, Srinand Nandakumar",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "PFS-to-OS Bayesian model simulations and worked examples",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/A_Bayesian_Model_for_Inferring_Overall_Survival_Benefit_from_Progression-Free_Survival_in_Oncology_Trials/33737000",
+    "paperUrl": "https://doi.org/10.1080/19466315.2026.2733020",
+    "access": "open",
+    "formats": [
+      "r",
+      "simulation code",
+      "worked examples"
+    ],
+    "properties": [
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "survival analysis",
+      "survival models",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "Evaluating Bayesian survival-benefit models, prior calibration, trial-design sensitivity, and PFS-to-OS translation.",
+    "note": "The journal-linked Figshare archive contains a README and nine R files for simulations, calibration, trial design, sensitivity analysis, and worked examples."
+  },
+  {
+    "id": "figshare-nbdo-high-dimensional-design",
+    "title": "NBDO: An Autoencoder-Based Algorithm for Efficient Optimal Experimental Design in High-Dimensional Settings",
+    "authors": "Theodoros Ladas, Kalliopi Mylona, Davide Pigoli",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "NBDO high-dimensional design replication code",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/NBDO_An_Autoencoder-Based_Algorithm_for_Efficient_Optimal_Experimental_Design_in_High-Dimensional_Settings/33955349",
+    "paperUrl": "https://doi.org/10.1080/10618600.2026.2703747",
+    "access": "open",
+    "formats": [
+      "python",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "dimension reduction"
+    ],
+    "bestFor": "Benchmarking scalable optimal-design search with high-dimensional or functional experimental factors.",
+    "note": "The JCGS-linked Figshare archive supplies two Python implementations; only high-dimensional statistics and dimension reduction precisely match the current official labels."
+  },
+  {
+    "id": "figshare-functional-time-series-factor-models",
+    "title": "Approximate Factor Models for Functional Time Series",
+    "authors": "Sven Otto, Nazarii Salish",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Dynamic functional factor-model replication archive",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Approximate_Factor_Models_for_Functional_Time_Series/33940779",
+    "paperUrl": "https://doi.org/10.1080/07350015.2026.2736042",
+    "access": "open",
+    "formats": [
+      "zip archive",
+      "readme",
+      "supplement"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "time series analysis",
+      "time series forecasting",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing functional factor extraction, dimension selection, and out-of-sample curve forecasting.",
+    "note": "The journal-linked Figshare item provides a README, supplement, and downloadable dffm replication archive."
+  },
+  {
+    "id": "figshare-qc-screen-high-dimensional-quantile",
+    "title": "Model-free Feature Screening and False Discovery Control for High-dimensional Quantile Regressions",
+    "authors": "Cong Cheng, Tianyi Zhang, Runze Li, Yuan Ke",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "QC-Screen and QC-FDR replication archive",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Model-free_Feature_Screening_and_False_Discovery_Control_for_High-dimensional_Quantile_Regressions/33549919",
+    "paperUrl": "https://doi.org/10.1080/01621459.2026.2729128",
+    "access": "open",
+    "formats": [
+      "zip archive",
+      "simulation code",
+      "economic data",
+      "supplement"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "quantile regression",
+      "multiple testing"
+    ],
+    "bestFor": "Evaluating high-dimensional feature screening, quantile dependence, and FDR control with simulations and economic data.",
+    "note": "The JASA-linked Figshare item provides a 3.7 MB downloadable archive containing the supplement and qcscreen repository."
   }
 ]
