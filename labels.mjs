@@ -207,6 +207,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["survey experiment", "survey experiments", "vignette experiment", "information treatment", "survey-embedded experiment", "randomized survey", "experimental survey"]
   },
   {
+    name: "optimal experimental design",
+    level: "mid",
+    parents: [],
+    definition: "Datasets and replication packages useful for selecting experimental settings or sequential measurements to maximize statistical information or decision utility under resource constraints.",
+    includeWhen: [
+      "optimal, D-optimal, Bayesian, adaptive, or sequential experimental design is central to the method or empirical validation",
+      "the resource contains observations, simulations, code, or design points for comparing information-efficient experimental strategies"
+    ],
+    avoidWhen: [
+      "experimental design is mentioned generically without an optimization or information-based design problem",
+      "design refers only to software, product, or visual design"
+    ],
+    evidenceTerms: ["optimal experimental design", "d-optimal", "bayesian experimental design", "sequential experimental design", "adaptive experimental design", "optimal design", "information per measurement", "design points"]
+  },
+  {
     name: "resampling methods",
     level: "mid",
     parents: [],
@@ -866,7 +881,27 @@ export const LABEL_REGISTRY = [
   }
 ];
 
-export const LABEL_CANDIDATES = [];
+export const LABEL_CANDIDATES = [
+  {
+    name: "causal mediation analysis",
+    status: "candidate",
+    proposedLevel: "low",
+    proposedParents: ["causal inference", "treatment effect estimation"],
+    definition: "Datasets and replication packages useful for identifying, estimating, or stress-testing causal direct and indirect effects through mediators.",
+    evidenceTerms: ["causal mediation", "mediator-outcome confounding", "natural direct effect", "natural indirect effect", "interventional direct effect", "interventional indirect effect"],
+    currentEvidence: [
+      {
+        paperId: "figshare-bayesian-mediation-measurement-error",
+        note: "Randomized-trial application with explicit causal mediation, measurement error, nonlinear effects, and Bayesian uncertainty."
+      },
+      {
+        paperId: "osf-causal-mediation-workflow",
+        note: "Worked potential-outcomes workflow with mediator-outcome confounding, interaction-aware effects, and sensitivity analysis."
+      }
+    ],
+    admissionCriteria: "Add one more high-confidence paper with an accessible dataset or replication archive and an explicit causal mediation estimand."
+  }
+];
 
 export const LABEL_RULES = {
   minLabelsPerPaper: 3,

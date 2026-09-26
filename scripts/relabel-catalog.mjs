@@ -104,6 +104,14 @@ const parentRules = [
 
 const evidenceRules = [
   {
+    label: "optimal experimental design",
+    reason: "optimal, D-optimal, Bayesian, adaptive, or sequential experimental-design evidence in record text",
+    test: (paper) =>
+      /\b(optimal experimental design|d-optimal|bayesian experimental design|sequential experimental design|adaptive experimental design|optimal design|information per measurement|design points?)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
     label: "graphical models",
     reason: "graphical-model, conditional-dependence, precision-matrix, or structure-learning evidence in record text",
     test: (paper) =>

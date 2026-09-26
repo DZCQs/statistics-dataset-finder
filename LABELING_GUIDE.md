@@ -55,6 +55,7 @@ Good label level:
 - `treatment effect estimation`
 - `heterogeneous treatment effects`
 - `randomized experiments`
+- `optimal experimental design`
 - `multiple imputation`
 - `nonignorable missing data`
 - `nonresponse adjustment`
@@ -152,6 +153,7 @@ Mid-level topic families without a current high-level parent:
 - `measurement error models`
 - `meta-analysis`
   - `network meta-analysis`
+- `optimal experimental design`
 - `quantile regression`
 - `robust statistics`
 - `conformal prediction`

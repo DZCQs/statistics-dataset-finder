@@ -45794,7 +45794,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "bayesian inference"
+      "bayesian inference",
+      "optimal experimental design"
     ],
     "bestFor": "Bayesian-inference examples for sequential experimental design, Gaussian-process surrogate modeling, and repeated experimental measurements.",
     "note": "Auto-discovered from Zenodo on 2026-08-17. The archive provides raw measurements, repeated experimental settings, and Python notebooks for Bayesian exploratory design."
@@ -57277,7 +57278,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "bayesian inference"
+      "bayesian inference",
+      "optimal experimental design"
     ],
     "bestFor": "Testing heteroskedastic Gaussian-process emulation, replication allocation, and sequential experimental design.",
     "note": "Verified on the official JSS volume page, which links hetGP and the article replication code."
@@ -58226,12 +58228,12 @@
       "replication-data",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "high-dimensional statistics",
-      "dimension reduction"
+      "dimension reduction",
+      "optimal experimental design"
     ],
     "bestFor": "Benchmarking scalable optimal-design search with high-dimensional or functional experimental factors.",
     "note": "The JCGS-linked Figshare archive supplies two Python implementations; only high-dimensional statistics and dimension reduction precisely match the current official labels."
@@ -58297,5 +58299,578 @@
     ],
     "bestFor": "Evaluating high-dimensional feature screening, quantile dependence, and FDR control with simulations and economic data.",
     "note": "The JASA-linked Figshare item provides a 3.7 MB downloadable archive containing the supplement and qcscreen repository."
+  },
+  {
+    "id": "osf-bayesian-evidence-accumulation-forgetting-curves",
+    "title": "A Bayesian method for representing the process of accumulating evidence over time: The case of forgetting curve models",
+    "authors": "Yui Furukawa, Kensuke Okada",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "OSF secondary forgetting-curve datasets and analysis materials",
+    "datasetUrl": "https://osf.io/29zk7/files/osfstorage",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/e9zn7_v1/",
+    "access": "open",
+    "formats": [
+      "osf files",
+      "secondary data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Bayesian inference examples for sequential evidence accumulation, Bayes-factor generalizability, and secondary-data reanalysis.",
+    "note": "Verified through the OSF API: the latest PsyArXiv version declares the linked OSF storage project as available data, and the public link returned HTTP 200."
+  },
+  {
+    "id": "osf-bayesian-meta-analytic-mixture-model",
+    "title": "Addressing Heterogeneity with Bayesian Meta-Analytic Mixture Modelling",
+    "authors": "Maximilian Maier",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "OSF Bayesian meta-analytic mixture-model simulations and nudging meta-analysis example",
+    "datasetUrl": "https://osf.io/m2ufv",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/nkyqm_v2/",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "simulation data",
+      "r code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "meta-analysis",
+      "mixture models"
+    ],
+    "bestFor": "Bayesian inference, meta-analysis, and mixture-model examples for unexplained effect-size heterogeneity and publication-bias sensitivity.",
+    "note": "Verified through the OSF API: the latest preprint version declares the linked public OSF project as its available data source."
+  },
+  {
+    "id": "osf-bayesian-longitudinal-meta-analysis",
+    "title": "Bayesian Hierarchical Models for Longitudinal Meta-Analysis in Sports Science: A Practical Tutorial Using brms",
+    "authors": "Sandro Balbino Júnior, Ahlan Benezar Lima, Humberto M. Carvalho",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "OSF simulated longitudinal meta-analysis data and annotated brms workflow",
+    "datasetUrl": "https://osf.io/37pme/",
+    "paperUrl": "https://osf.io/preprints/sportrxiv/mkfsv_v1/",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "simulated data",
+      "r",
+      "brms"
+    ],
+    "properties": [
+      "synthetic-data",
+      "code",
+      "tutorial",
+      "preprint",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "probabilistic programming",
+      "meta-analysis",
+      "longitudinal data analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Bayesian hierarchical models, probabilistic programming, longitudinal data analysis, multilevel modeling, and meta-analysis tutorials.",
+    "note": "Verified through the OSF API: the preprint declares a public OSF data-and-code project, whose link returned HTTP 200."
+  },
+  {
+    "id": "osf-bayesian-meta-analytic-correlation-matrices",
+    "title": "A Diagnostic-Guided Hierarchical Bayesian Framework for Meta-Analytic Correlation Matrices: From Cellwise Estimation to Latent Co-Moderation",
+    "authors": "Piers Steel, Hadi Fariborzi",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "metaSEM Gnambs18 cross-cultural Rosenberg Self-Esteem correlation-matrix data",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/metaSEM/html/Gnambs18.html",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/2kjvb_v2/",
+    "access": "open",
+    "formats": [
+      "r data",
+      "cran package documentation",
+      "correlation matrices"
+    ],
+    "properties": [
+      "package-data",
+      "preprint",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "meta-analysis",
+      "dimension reduction",
+      "multilevel modeling",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Bayesian hierarchical models, meta-analysis, dimension reduction, and multilevel modeling with positive-definite correlation matrices.",
+    "note": "The OSF preprint metadata explicitly declares the public CRAN metaSEM Gnambs18 dataset as its data link; the documentation page returned HTTP 200."
+  },
+  {
+    "id": "osf-causal-effect-heterogeneity-communication",
+    "title": "Communicating causal effect heterogeneity",
+    "authors": "Matti Vuorre, Matthew Kay, Niall Bolger",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "GitHub and OSF empirical causal-effect heterogeneity data and Bayesian analysis code",
+    "datasetUrl": "https://github.com/kzee/heterogeneityproject",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/mwg4f_v2/",
+    "access": "open",
+    "formats": [
+      "github repository",
+      "osf project",
+      "analysis code",
+      "empirical data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "heterogeneous treatment effects",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Causal inference, treatment effect estimation, heterogeneous treatment effects, Bayesian hierarchical models, and multilevel modeling examples.",
+    "note": "The latest OSF preprint declares both a public GitHub repository and OSF project as data links; both resolved successfully."
+  },
+  {
+    "id": "osf-causal-mediation-workflow",
+    "title": "A Practical Causal Mediation Workflow for Psychologists: From Concepts to Implementation",
+    "authors": "Joshua D. Wenger, Zoe Baker, Vasant G. Honavar",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "OSF worked causal-mediation example and R implementation materials",
+    "datasetUrl": "https://osf.io/qps2v/overview?view_only=d3668eff120a46dda0f36851929dc585",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/sz7vx_v2/",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "r code",
+      "worked example"
+    ],
+    "properties": [
+      "code",
+      "tutorial",
+      "preprint",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Causal mediation analysis, causal inference, and treatment effect estimation with a fully worked R example.",
+    "note": "Verified through the OSF API: the latest preprint version declares the view-only OSF project as available data and code, and the link returned HTTP 200."
+  },
+  {
+    "id": "osf-double-robust-flexible-causal-adjustment",
+    "title": "Double Robust, Flexible Adjustment Methods for Causal Inference: An Overview and an Evaluation",
+    "authors": "Nathan I. Hoffmann",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse simulations for AIPW, TMLE, DML, and flexible G-computation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/SIMCZT",
+    "paperUrl": "https://osf.io/preprints/socarxiv/dzayg_v3/",
+    "access": "open",
+    "formats": [
+      "dataverse archive",
+      "simulation data",
+      "code"
+    ],
+    "properties": [
+      "synthetic-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "propensity score methods",
+      "heterogeneous treatment effects"
+    ],
+    "bestFor": "Causal inference, treatment effect estimation, propensity score methods, and heterogeneous treatment effects under flexible covariate adjustment.",
+    "note": "The latest OSF preprint declares Harvard Dataverse DOI 10.7910/DVN/SIMCZT as its data link; the DOI resolved to the public Dataverse citation endpoint."
+  },
+  {
+    "id": "osf-forecaster-measurement-error-crowd",
+    "title": "Reducing Measurement Error in Forecaster Evaluation Using the Wisdom of Crowds",
+    "authors": "Jessica Helmer, Nikolay Petrov, Sophie Ma Zhu, Ezra Karger, Edgar C. Merkle, Mark Himmelstein",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "OSF forecasting study with 894 participants, forecasts, metapredictions, and simulation materials",
+    "datasetUrl": "https://osf.io/6rqwh",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/rgf2u_v5/",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "participant data",
+      "simulation data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Measurement error models and simulation studies for estimating individual forecasting skill from noisy realized outcomes.",
+    "note": "Verified through the OSF API: the latest preprint declares the linked public OSF project as available data, and the link returned HTTP 200."
+  },
+  {
+    "id": "osf-forecasting-proficiency-psychometric",
+    "title": "Measuring Forecasting Proficiency: A Psychometric Perspective",
+    "authors": "Fabio Setti, Leah Feuerstahler, Sophie Ma Zhu, Nikolay Petrov, Ezra Karger, Mark Himmelstein",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "OSF Forecasting Proficiency Test quantile-elicitation responses and psychometric analysis",
+    "datasetUrl": "https://osf.io/sjq48/overview?view_only=e344cb65663f4851b72fdf05e43da207",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/m8kce_v1/",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "item responses",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "bayesian inference"
+    ],
+    "bestFor": "Item response theory and Bayesian inference examples using forecasting-proficiency item responses and proper-scoring-rule comparisons.",
+    "note": "Verified through the OSF API: the preprint declares a public view-only OSF data project, and the link returned HTTP 200."
+  },
+  {
+    "id": "osf-high-dimensional-multidimensional-irt",
+    "title": "Item Parameter Calibration in the Multidimensional Graded Response Model with High Dimensional Tests",
+    "authors": "Kenneth McClure, Ross Jacobucci",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "OSF multidimensional graded-response simulation and calibration materials",
+    "datasetUrl": "https://osf.io/97a8c/",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/cbemw_v1/",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "simulation data",
+      "analysis code"
+    ],
+    "properties": [
+      "synthetic-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Item response theory and high-dimensional statistics examples for multidimensional graded-response item calibration.",
+    "note": "The OSF preprint declares the linked public OSF project as available data; the project URL returned HTTP 200."
+  },
+  {
+    "id": "osf-high-dimensional-group-factor-sampling",
+    "title": "Using group level factor models to resolve high dimensionality in model-based sampling",
+    "authors": "Niek Stevenson, Reilly Innes, Quentin Frederik Gronau, Steven Miletic, Andrew Heathcote, Birte Forstmann, Scott Brown",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "OSF hierarchical factor-model code, tutorials, and three empirical joint-modeling applications",
+    "datasetUrl": "https://osf.io/pn3ca/",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/pn3wv_v1/",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "empirical data",
+      "simulation data",
+      "code",
+      "tutorial"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "high-dimensional statistics",
+      "dimension reduction",
+      "multilevel modeling"
+    ],
+    "bestFor": "Bayesian hierarchical models, high-dimensional statistics, dimension reduction, and multilevel modeling with factor-structured parameters.",
+    "note": "The OSF preprint declares its public OSF repository as the available data source; the link returned HTTP 200."
+  },
+  {
+    "id": "osf-longitudinal-multiple-imputation",
+    "title": "Flexible Multiple Imputation of Missing Data in Time-Structured Longitudinal Designs",
+    "authors": "Mark Lustig, Oliver Lüdtke, Alexander Robitzsch, Simon Grund",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "OSF longitudinal multiple-imputation simulations and empirical example",
+    "datasetUrl": "https://osf.io/789s5",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/8hb9u_v3/",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "simulation data",
+      "empirical data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "longitudinal data analysis",
+      "multilevel modeling",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Missing data, multiple imputation, longitudinal data analysis, multilevel modeling, and dimension reduction examples.",
+    "note": "Verified against the latest OSF preprint version: its declared public data project returned HTTP 200."
+  },
+  {
+    "id": "osf-planned-missing-data-causal-inference",
+    "title": "Causal Inference in the Absence of Direct Measurement Using Planned Missing Data",
+    "authors": "Mark Himmelstein, David Budescu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "OSF advice-taking experiment, planned-missingness simulations, and auxiliary-variable imputation materials",
+    "datasetUrl": "https://osf.io/8t54g/",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/g3j4r_v1/",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "experimental data",
+      "simulation data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Causal inference, randomized experiments, treatment effect estimation, missing data, and multiple imputation under planned missingness.",
+    "note": "The OSF preprint declares its linked public project as available data; the project resolved successfully."
+  },
+  {
+    "id": "osf-regularized-network-missing-data",
+    "title": "Regularized cross-sectional network modeling with missing data: A comparison of methods",
+    "authors": "Carl F. Falk, Joshua Starr",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Harvard Dataverse simulations and PROMIS example for graphical-lasso missing-data methods",
+    "datasetUrl": "https://doi.org/10.7910/DVN/0NGAKG",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/dk6zv_v5/",
+    "access": "open",
+    "formats": [
+      "dataverse archive",
+      "simulation data",
+      "empirical data",
+      "code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "graphical models",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Missing data, graphical models, high-dimensional statistics, and regularized inverse-covariance estimation under planned missingness.",
+    "note": "The latest OSF preprint declares Harvard Dataverse DOI 10.7910/DVN/0NGAKG as its data source; the DOI resolved to the public Dataverse endpoint."
+  },
+  {
+    "id": "osf-em-mi-network-regularization",
+    "title": "Missing Data Handling via EM and Multiple Imputation in Network Analysis using glasso and atan Regularization",
+    "authors": "Kai Jannik Nehler, Martin Schultze",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "OSF network simulations for EM, stacked multiple imputation, glasso, and atan regularization",
+    "datasetUrl": "https://osf.io/kdv7t/",
+    "paperUrl": "https://osf.io/preprints/psyarxiv/sz9nu_v2/",
+    "access": "open",
+    "formats": [
+      "osf project",
+      "simulation data",
+      "analysis code"
+    ],
+    "properties": [
+      "synthetic-data",
+      "code",
+      "preprint",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "graphical models",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Missing data, multiple imputation, graphical models, high-dimensional statistics, and regularization method comparisons.",
+    "note": "The latest OSF preprint declares the linked public OSF project as available data, and the project URL returned HTTP 200."
+  },
+  {
+    "id": "zenodo-probabilistic-ausaem-bayesian-inversion",
+    "title": "Continental-scale probabilistic resistivity imaging of Australia using deep learning: Implications for geology, groundwater, and critical minerals",
+    "authors": "Sihong Wu, Jiajia Sun, Jiefu Chen",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo AusAEM probabilistic inversion results, synthetic training data, trained invertible networks, and notebooks",
+    "datasetUrl": "https://zenodo.org/records/22801714",
+    "paperUrl": "https://arxiv.org/abs/2609.19516",
+    "access": "open",
+    "formats": [
+      "hdf5",
+      "txt",
+      "pytorch",
+      "jupyter notebooks",
+      "trained models",
+      "zip"
+    ],
+    "properties": [
+      "data",
+      "code",
+      "trained-models",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Bayesian inference and large-scale uncertainty-quantification examples using synthetic training data and geophysical posterior summaries.",
+    "note": "Zenodo metadata explicitly marks the file-rich record as a supplement to arXiv:2609.19516; the API lists 31 downloadable archives, notebooks, model files, and checksums."
+  },
+  {
+    "id": "zenodo-optimal-relaxation-experimental-design",
+    "title": "Optimal Experimental Design for Fast and Accurate Relaxation Time Measurements in Magnetic Resonance",
+    "authors": "Natalie E. Klein, Adam R. Altenhof, Amber J. Day, Michelle A. Espy, Michael W. Malone",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo high-field and fast-field-cycling relaxation-time experiments for D-optimal design validation",
+    "datasetUrl": "https://zenodo.org/records/22837423",
+    "paperUrl": "https://doi.org/10.1002/mrc.70140",
+    "access": "open",
+    "formats": [
+      "zip",
+      "experimental measurements",
+      "markdown documentation",
+      "github code"
+    ],
+    "properties": [
+      "experimental-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Optimal experimental design and D-optimal parameter-estimation examples with real repeated magnetic-resonance measurements.",
+    "note": "The Zenodo record links the published article DOI and GitHub analysis repository and exposes two experimental data archives plus a README; PubMed independently confirms the article metadata."
+  },
+  {
+    "id": "zenodo-generator-matrix-mortality-biomarkers",
+    "title": "A generator-matrix model quantifies the limited contribution of measured biomarkers to human mortality acceleration",
+    "authors": "Masato Tanigawa, Takafumi Iwaki",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo analysis code, aggregate derived tables, posterior draws, provenance, and verification sources for NHANES and HRS analyses",
+    "datasetUrl": "https://zenodo.org/records/22825428",
+    "paperUrl": "https://doi.org/10.64898/2026.07.05.26356402",
+    "access": "open-derived",
+    "formats": [
+      "zip",
+      "csv",
+      "posterior draws",
+      "python",
+      "r",
+      "lean",
+      "provenance documentation"
+    ],
+    "properties": [
+      "derived-data",
+      "code",
+      "posterior-samples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "survival analysis",
+      "survival models",
+      "causal inference",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Bayesian inference, survival analysis, survival models, causal inference, and longitudinal data analysis using reproducible derived outputs.",
+    "note": "The Zenodo archive is explicitly linked as a supplement to the medRxiv DOI and contains aggregate data, posterior draws, code, provenance, and verification files; restricted primary HRS data are not redistributed."
   }
 ]
