@@ -50537,13 +50537,15 @@
     "authors": "Yiqing Xu",
     "year": 2017,
     "citations": 0,
-    "dataset": "CRAN gsynth package source, R documentation, simulation data, and generalized synthetic-control examples for interactive fixed-effect models, multiple treated units, variable treatment periods, counterfactual imputation, cumulative effects, and panel causal inference.",
-    "datasetUrl": "https://CRAN.R-project.org/package=gsynth",
+    "dataset": "Harvard Dataverse empirical and simulated generalized synthetic-control replication data, source code, and gsynth package materials.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/8AKACJ",
     "paperUrl": "https://doi.org/10.1017/pan.2016.2",
     "access": "open",
     "formats": [
       "R package",
       "R documentation",
+      "tabular data",
+      "rdata",
       "simulation data",
       "source code",
       "examples"
@@ -50564,7 +50566,7 @@
       "quasi-experimental designs"
     ],
     "bestFor": "Generalized synthetic control methods, synthetic controls, causal inference, treatment effect estimation, quasi-experimental designs, panel data methods, longitudinal data analysis, interactive fixed effects, counterfactual imputation, and variable treatment timing examples.",
-    "note": "Verified from the CRAN gsynth package page and R documentation index; CRAN cites Xu 2017 and documents package data and code for generalized synthetic control with interactive fixed-effect panel models."
+    "note": "Updated on 2026-09-28 after Harvard Dataverse verification: the public archive contains empirical turnout and coverage data, simulation data, source code, and the gsynth package linked to the Political Analysis paper; CRAN remains the maintained package source."
   },
   {
     "id": "aoas-causalimpact-bayesian-structural-time-series",
@@ -58174,7 +58176,8 @@
       "treatment effect estimation",
       "measurement error models",
       "bayesian inference",
-      "randomized experiments"
+      "randomized experiments",
+      "causal mediation analysis"
     ],
     "bestFor": "Studying causal mediation, latent measurement error, nonlinear effects, and Bayesian uncertainty using a randomized-trial application.",
     "note": "Crossref identifies the journal article; the linked Figshare archive exposes ACTIVE R data, preprocessing scripts, Stan models, simulation code, and package sources."
@@ -58485,7 +58488,8 @@
     ],
     "topics": [
       "causal inference",
-      "treatment effect estimation"
+      "treatment effect estimation",
+      "causal mediation analysis"
     ],
     "bestFor": "Causal mediation analysis, causal inference, and treatment effect estimation with a fully worked R example.",
     "note": "Verified through the OSF API: the latest preprint version declares the view-only OSF project as available data and code, and the link returned HTTP 200."
@@ -58872,5 +58876,618 @@
     ],
     "bestFor": "Bayesian inference, survival analysis, survival models, causal inference, and longitudinal data analysis using reproducible derived outputs.",
     "note": "The Zenodo archive is explicitly linked as a supplement to the medRxiv DOI and contains aggregate data, posterior draws, code, provenance, and verification files; restricted primary HRS data are not redistributed."
+  },
+  {
+    "id": "dataverse-umeyxd-general-causal-mediation",
+    "title": "A General Approach to Causal Mediation Analysis",
+    "authors": "Kosuke Imai, Luke Keele, Dustin Tingley",
+    "year": 2010,
+    "citations": 4151,
+    "dataset": "Harvard Dataverse JOBS II and political-message experiment replication data",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UMEYXD",
+    "paperUrl": "https://doi.org/10.1037/a0020761",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "zip archive",
+      "r code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "causal mediation analysis",
+      "randomized experiments"
+    ],
+    "bestFor": "Causal mediation analysis with model-independent direct and indirect effects, nonlinear models, sensitivity analysis, and randomized-study examples.",
+    "note": "Verified through the Harvard Dataverse API: the public replication archive contains JOBS II and political-message experiment data plus analysis code, and identifies the Psychological Methods paper."
+  },
+  {
+    "id": "dataverse-apnmp7-causal-mediation-sensitivity",
+    "title": "Identification, Inference, and Sensitivity Analysis for Causal Mediation Effects",
+    "authors": "Kosuke Imai, Luke Keele, Teppei Yamamoto",
+    "year": 2010,
+    "citations": 1635,
+    "dataset": "Harvard Dataverse Nelson field-experiment data and causal-mediation sensitivity simulations",
+    "datasetUrl": "https://doi.org/10.7910/DVN/APNMP7",
+    "paperUrl": "https://doi.org/10.1214/10-STS321",
+    "access": "open",
+    "formats": [
+      "r",
+      "rdata",
+      "text"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "causal mediation analysis",
+      "randomized experiments"
+    ],
+    "bestFor": "Identification, estimation, and sensitivity analysis for average causal mediation effects with experimental data and simulation workflows.",
+    "note": "Verified through the Harvard Dataverse API: eight public files include Nelson experiment data, nonparametric sensitivity code, structural-equation sensitivity code, and simulations linked to the Statistical Science paper."
+  },
+  {
+    "id": "dataverse-5tbum3-ordered-mediator-estimation",
+    "title": "Semiparametric Estimation for Causal Mediation Analysis with Multiple Causally Ordered Mediators",
+    "authors": "Xiang Zhou",
+    "year": 2021,
+    "citations": 40,
+    "dataset": "Harvard Dataverse semiparametric multiple-mediator replication archive",
+    "datasetUrl": "https://doi.org/10.7910/DVN/5TBUM3",
+    "paperUrl": "https://doi.org/10.1111/RSSB.12487",
+    "access": "open",
+    "formats": [
+      "7z archive",
+      "simulation data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "causal mediation analysis"
+    ],
+    "bestFor": "Semiparametric causal mediation with multiple ordered mediators, path-specific effects, and efficiency comparisons.",
+    "note": "Verified through the Harvard Dataverse API: the public archive is explicitly titled for the JRSSB paper and contains the complete replication bundle."
+  },
+  {
+    "id": "dataverse-aj7q9b-continuous-treatment-mediation",
+    "title": "Direct and Indirect Effects of Continuous Treatments Based on Generalized Propensity Score Weighting",
+    "authors": "Yu-Chin Hsu, Martin Huber, Ying-Ying Lee, Layal Lettry",
+    "year": 2020,
+    "citations": 33,
+    "dataset": "Harvard Dataverse Job Corps public-use causal-mediation data and R code",
+    "datasetUrl": "https://doi.org/10.7910/DVN/AJ7Q9B",
+    "paperUrl": "https://doi.org/10.1002/JAE.2765",
+    "access": "open",
+    "formats": [
+      "rdata",
+      "r"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "causal mediation analysis",
+      "propensity score methods",
+      "randomized experiments"
+    ],
+    "bestFor": "Continuous-treatment causal mediation, generalized propensity-score weighting, and direct and indirect effects in Job Corps data.",
+    "note": "Verified through the Harvard Dataverse API: the public archive contains Job Corps data and R code, and its description documents the direct and mediated crime effects studied in the Journal of Applied Econometrics paper."
+  },
+  {
+    "id": "dataverse-8zpghb-changes-in-changes-mediation",
+    "title": "Direct and Indirect Effects Based on Changes-in-Changes",
+    "authors": "Martin Huber, Mark Schelker, Anthony Strittmatter",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Harvard Dataverse Jobs II and maternity-leave changes-in-changes replication materials",
+    "datasetUrl": "https://doi.org/10.7910/DVN/8ZPGHB",
+    "paperUrl": "https://doi.org/10.1080/07350015.2020.1831929",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "r",
+      "stata"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "causal mediation analysis",
+      "quasi-experimental designs",
+      "quantile regression"
+    ],
+    "bestFor": "Causal mediation under changes-in-changes assumptions, including average and quantile direct and indirect effects.",
+    "note": "Verified through the Harvard Dataverse API: the public archive contains Jobs II and maternity-leave application data, setup files, and R code linked to the JBES paper."
+  },
+  {
+    "id": "dataverse-jlaoen-comparative-causal-mediation",
+    "title": "Comparative Causal Mediation and Relaxing the Assumption of No Mediator-Outcome Confounding: An Application to International Law and Audience Costs",
+    "authors": "Kirk Bansak",
+    "year": 2019,
+    "citations": 8,
+    "dataset": "Harvard Dataverse audience-cost survey-experiment replication materials",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JLAOEN",
+    "paperUrl": "https://doi.org/10.1017/PAN.2019.31",
+    "access": "open",
+    "formats": [
+      "zip archive",
+      "text readme",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "causal mediation analysis",
+      "randomized experiments",
+      "survey experiments",
+      "survey methodology"
+    ],
+    "bestFor": "Comparative causal mediation and sensitivity to mediator-outcome confounding in a survey-experimental application.",
+    "note": "Verified through the Harvard Dataverse API: the public replication archive names the Political Analysis paper and provides a readme plus complete analysis bundle."
+  },
+  {
+    "id": "jss-mediation-causal-mediation-analysis",
+    "title": "mediation: R Package for Causal Mediation Analysis",
+    "authors": "Dustin Tingley, Teppei Yamamoto, Kentaro Hirose, Luke Keele, Kosuke Imai",
+    "year": 2014,
+    "citations": 0,
+    "dataset": "CRAN mediation package example datasets and JSS replication code",
+    "datasetUrl": "https://CRAN.R-project.org/package=mediation",
+    "paperUrl": "https://doi.org/10.18637/jss.v059.i05",
+    "access": "open",
+    "formats": [
+      "r package",
+      "r data",
+      "r example code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "tutorial",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "causal mediation analysis",
+      "randomized experiments",
+      "resampling methods"
+    ],
+    "bestFor": "Model-based and design-based causal mediation, sensitivity analysis, multiple mediators, noncompliance, and bootstrap inference.",
+    "note": "Verified on the JSS article page and CRAN: JSS supplies the paper package and example code, while CRAN provides the maintained package, vignettes, source, and documented example datasets."
+  },
+  {
+    "id": "jss-medflex-natural-effect-models",
+    "title": "medflex: An R Package for Flexible Mediation Analysis Using Natural Effect Models",
+    "authors": "Johan Steen, Tom Loeys, Beatrijs Moerkerke, Stijn Vansteelandt",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "CRAN medflex example data, vignettes, and JSS replication code",
+    "datasetUrl": "https://CRAN.R-project.org/package=medflex",
+    "paperUrl": "https://doi.org/10.18637/jss.v076.i11",
+    "access": "open",
+    "formats": [
+      "r package",
+      "r data",
+      "r replication code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "tutorial",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "causal mediation analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Counterfactual causal mediation with natural-effect models, path-specific effects, bootstrap inference, and flexible outcome types.",
+    "note": "Verified on the JSS article page and CRAN: JSS supplies replication code and the package, while CRAN provides the maintained package, data documentation, vignettes, and source."
+  },
+  {
+    "id": "dataverse-khe44f-causal-mechanisms-survey-experiments",
+    "title": "Analyzing Causal Mechanisms in Survey Experiments",
+    "authors": "Avidit Acharya, Matthew Blackwell, Maya Sen",
+    "year": 2018,
+    "citations": 76,
+    "dataset": "Harvard Dataverse randomized survey-experiment data and causal-mechanism code",
+    "datasetUrl": "https://doi.org/10.7910/DVN/KHE44F",
+    "paperUrl": "https://doi.org/10.1017/PAN.2018.19",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "r",
+      "markdown"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "causal mediation analysis",
+      "randomized experiments",
+      "survey experiments",
+      "survey methodology"
+    ],
+    "bestFor": "Design-based analysis of causal mechanisms, controlled direct effects, and mediator interventions in randomized survey experiments.",
+    "note": "Verified through the Harvard Dataverse API: five public files contain two survey-experiment datasets, R replication code, and documentation linked to the Political Analysis paper."
+  },
+  {
+    "id": "dataverse-crlkif-multiple-imputation-difference",
+    "title": "How Multiple Imputation Makes a Difference",
+    "authors": "Ranjit Lall",
+    "year": 2016,
+    "citations": 245,
+    "dataset": "Harvard Dataverse multi-study multiple-imputation reanalysis archive",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CRLKIF",
+    "paperUrl": "https://doi.org/10.1093/PAN/MPW020",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "r",
+      "stata"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Comparing complete-case and multiple-imputation conclusions across published empirical studies.",
+    "note": "Verified through the Harvard Dataverse API: the public archive contains 152 imputed and original datasets plus R and Stata code for the Political Analysis reanalyses."
+  },
+  {
+    "id": "dataverse-ggur0p-missing-tscs",
+    "title": "What to Do About Missing Values in Time-Series Cross-Section Data",
+    "authors": "James Honaker, Gary King",
+    "year": 2010,
+    "citations": 980,
+    "dataset": "Harvard Dataverse time-series cross-sectional multiple-imputation replication archive",
+    "datasetUrl": "https://doi.org/10.7910/DVN/GGUR0P",
+    "paperUrl": "https://doi.org/10.1111/j.1540-5907.2010.00447.x",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "rdata",
+      "r",
+      "stata"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "nonignorable missing data",
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Multiple imputation for time-series cross-sectional panels with temporal, unit, spatial-correlation, and nonignorable-missingness structure.",
+    "note": "Verified through the Harvard Dataverse API: the public archive contains empirical panel datasets, imputation scripts, and figure replication materials linked to the AJPS paper."
+  },
+  {
+    "id": "dataverse-24672-joint-conditional-multiple-imputation",
+    "title": "Multiple Imputation for Continuous and Categorical Data: Comparing Joint Multivariate Normal and Conditional Approaches",
+    "authors": "Jonathan Kropko, Ben Goodrich, Andrew Gelman, Jennifer Hill",
+    "year": 2014,
+    "citations": 111,
+    "dataset": "Harvard Dataverse ANES and simulation data for joint and conditional multiple imputation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/24672",
+    "paperUrl": "https://doi.org/10.1093/PAN/MPU007",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "r",
+      "r package source"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Comparing joint multivariate-normal and conditional multiple imputation across continuous, binary, ordinal, and unordered categorical variables.",
+    "note": "Verified through the Harvard Dataverse API: eight public files contain 2008 ANES data, simulation scripts, helper code, and package snapshots linked to the Political Analysis paper."
+  },
+  {
+    "id": "dataverse-29606-unified-measurement-missing",
+    "title": "A Unified Approach to Measurement Error and Missing Data: Overview and Applications",
+    "authors": "Matthew Blackwell, James Honaker, Gary King",
+    "year": 2015,
+    "citations": 250,
+    "dataset": "Harvard Dataverse measurement-error and missing-data empirical examples",
+    "datasetUrl": "https://doi.org/10.7910/DVN/29606",
+    "paperUrl": "https://doi.org/10.1177/0049124115585360",
+    "access": "open",
+    "formats": [
+      "csv",
+      "tabular data",
+      "r"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "measurement error models"
+    ],
+    "bestFor": "Unified multiple-imputation workflows that treat missing values as extreme measurement error and correct both problems jointly.",
+    "note": "Verified through the Harvard Dataverse API: the public archive contains empirical datasets and figure/table scripts linked to the Sociological Methods and Research paper."
+  },
+  {
+    "id": "dataverse-ndtr8k-listwise-deletion-mi",
+    "title": "A Note on Listwise Deletion versus Multiple Imputation",
+    "authors": "Thomas B. Pepinsky",
+    "year": 2018,
+    "citations": 180,
+    "dataset": "Harvard Dataverse listwise-deletion and multiple-imputation replication bundle",
+    "datasetUrl": "https://doi.org/10.7910/DVN/NDTR8K",
+    "paperUrl": "https://doi.org/10.1017/PAN.2018.18",
+    "access": "open",
+    "formats": [
+      "zip archive",
+      "rtf readme",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Studying when listwise deletion and multiple imputation differ under realistic missing-data mechanisms.",
+    "note": "Verified through the Harvard Dataverse API: the public archive is explicitly tied to the Political Analysis paper and contains its complete replication bundle and readme."
+  },
+  {
+    "id": "dataverse-jmwmww-gmm-missing-regressors",
+    "title": "A GMM Approach for Dealing with Missing Data on Regressors",
+    "authors": "Jason Abrevaya, Stephen G. Donald",
+    "year": 2016,
+    "citations": 45,
+    "dataset": "Harvard Dataverse GMM missing-regressor simulation code",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JMWMWW",
+    "paperUrl": "https://doi.org/10.1162/REST_a_00645",
+    "access": "open",
+    "formats": [
+      "gauss code",
+      "text readme"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data"
+    ],
+    "bestFor": "GMM estimation and simulation studies for regressions with covariates missing under conditionally independent selection.",
+    "note": "Verified through the Harvard Dataverse API: the public archive contains GAUSS simulation code and a readme linked by DOI to the Review of Economics and Statistics article."
+  },
+  {
+    "id": "dataverse-qr6phi-missing-asset-pricing-panels",
+    "title": "Missing Data in Asset Pricing Panels",
+    "authors": "Joachim Freyberger, Bjorn Hoeppner, Andreas Neuhierl, Michael Weber",
+    "year": 2024,
+    "citations": 25,
+    "dataset": "Harvard Dataverse asset-pricing panel replication package",
+    "datasetUrl": "https://doi.org/10.7910/DVN/QR6PHI",
+    "paperUrl": "https://doi.org/10.1093/RFS/HHae003",
+    "access": "open",
+    "formats": [
+      "tar.gz archive",
+      "panel data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "panel data methods",
+      "longitudinal data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Conditional-mean imputation and GMM inference with incomplete, high-dimensional predictor panels.",
+    "note": "Verified through the Harvard Dataverse API and the published abstract: the public archive contains the RFS replication package, and the method is designed for nonlinear and high-dimensional asset-pricing panels."
+  },
+  {
+    "id": "dataverse-hl7zyo-bayesian-causal-panel-sensitivity",
+    "title": "Bayesian Sensitivity Analysis for Unmeasured Confounding in Causal Panel Data Models",
+    "authors": "Licheng Liu, Teppei Yamamoto",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse causal-panel simulations, annual empirical data, and bpCausal package",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HL7ZYO",
+    "paperUrl": "https://doi.org/10.1017/PAN.2025.10029",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "r",
+      "r package source",
+      "simulation data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "causal inference",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Bayesian sensitivity analysis for time-varying unmeasured confounding in causal panel models with hierarchical shrinkage priors.",
+    "note": "Verified through the Harvard Dataverse API: eleven public files include simulations, an empirical annual panel, package source, and replication code linked by DOI to the Political Analysis paper."
+  },
+  {
+    "id": "dataverse-thjyqr-causal-conjoint-analysis",
+    "title": "Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments",
+    "authors": "Jens Hainmueller, Daniel J. Hopkins, Teppei Yamamoto",
+    "year": 2013,
+    "citations": 2011,
+    "dataset": "Harvard Dataverse candidate-choice and immigration conjoint experiment data",
+    "datasetUrl": "https://doi.org/10.7910/DVN/THJYQR",
+    "paperUrl": "https://doi.org/10.1093/PAN/MPT024",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "stata",
+      "r"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "survey experiments",
+      "survey methodology"
+    ],
+    "bestFor": "Design-based causal estimands and diagnostics for multidimensional randomized conjoint survey experiments.",
+    "note": "Verified through the Harvard Dataverse API: five public files contain both empirical conjoint datasets, Stata replication code, R plotting code, and documentation linked by DOI to the Political Analysis paper."
+  },
+  {
+    "id": "dataverse-eni8gf-ml-causal-conjoint-tests",
+    "title": "Using Machine Learning to Test Causal Hypotheses in Conjoint Analysis",
+    "authors": "Dae Woong Ham, Kosuke Imai, Lucas Janson",
+    "year": 2024,
+    "citations": 6,
+    "dataset": "Harvard Dataverse conditional-randomization-test conjoint replication archive",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ENI8GF",
+    "paperUrl": "https://doi.org/10.1017/PAN.2023.41",
+    "access": "open",
+    "formats": [
+      "zip archive",
+      "simulation data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "survey experiments",
+      "resampling methods",
+      "survey methodology"
+    ],
+    "bestFor": "Conditional randomization tests for causal hypotheses in high-factor conjoint experiments without outcome-model assumptions.",
+    "note": "Verified through the Harvard Dataverse API: the public archive supplies the complete CRT replication bundle linked to the Political Analysis paper."
+  },
+  {
+    "id": "dataverse-qxm09f-bayesian-policy-model-calibration",
+    "title": "Bayesian Methods for Calibrating Health Policy Models: A Tutorial",
+    "authors": "Nicolas A. Menzies, Djora I. Soeteman, Ankur Pandya, Jane J. Kim",
+    "year": 2017,
+    "citations": 82,
+    "dataset": "Harvard Dataverse self-contained Bayesian policy-model calibration example",
+    "datasetUrl": "https://doi.org/10.7910/DVN/QXM09F",
+    "paperUrl": "https://doi.org/10.1007/S40273-017-0494-4",
+    "access": "open",
+    "formats": [
+      "r",
+      "worked example",
+      "supplementary code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "tutorial",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "resampling methods"
+    ],
+    "bestFor": "Worked Bayesian calibration of simulation models using importance sampling, sampling-importance-resampling, and MCMC.",
+    "note": "Verified through the Harvard Dataverse API and the open paper: the archive contains two self-contained R scripts for the worked calibration example and the article documents its calibration targets."
   }
 ]

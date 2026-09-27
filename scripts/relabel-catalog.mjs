@@ -10,6 +10,7 @@ const parentRules = [
     label: "causal inference",
     children: [
       "treatment effect estimation",
+      "causal mediation analysis",
       "propensity score methods",
       "quasi-experimental designs",
       "difference-in-differences",
@@ -25,6 +26,7 @@ const parentRules = [
   {
     label: "treatment effect estimation",
     children: [
+      "causal mediation analysis",
       "difference-in-differences",
       "regression discontinuity designs",
       "instrumental variables",
@@ -103,6 +105,14 @@ const parentRules = [
 ];
 
 const evidenceRules = [
+  {
+    label: "causal mediation analysis",
+    reason: "causal-mediation, direct/indirect-effect, path-specific-effect, or mediator-confounding evidence in record text",
+    test: (paper) =>
+      /\b(causal mediation|causal mediation effect|average causal mediation effect|natural direct effect|natural indirect effect|interventional direct effect|interventional indirect effect|path-specific effect|mediator-outcome confounding|natural effect model)\b/i.test(
+        paperText(paper)
+      )
+  },
   {
     label: "optimal experimental design",
     reason: "optimal, D-optimal, Bayesian, adaptive, or sequential experimental-design evidence in record text",

@@ -54,6 +54,7 @@ Good label level:
 - `quasi-experimental designs`
 - `treatment effect estimation`
 - `heterogeneous treatment effects`
+- `causal mediation analysis`
 - `randomized experiments`
 - `optimal experimental design`
 - `multiple imputation`
@@ -103,6 +104,7 @@ High-level topic families:
 
 - `causal inference`
   - `treatment effect estimation`
+    - `causal mediation analysis`
     - `propensity score methods`
     - `heterogeneous treatment effects`
   - `quasi-experimental designs`
