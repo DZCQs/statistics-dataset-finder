@@ -59489,5 +59489,164 @@
     ],
     "bestFor": "Worked Bayesian calibration of simulation models using importance sampling, sampling-importance-resampling, and MCMC.",
     "note": "Verified through the Harvard Dataverse API and the open paper: the archive contains two self-contained R scripts for the worked calibration example and the article documents its calibration targets."
+  },
+  {
+    "id": "github-pathfinder-variational-inference",
+    "title": "Pathfinder: Parallel quasi-Newton variational inference",
+    "authors": "Lu Zhang, Bob Carpenter, Andrew Gelman, Aki Vehtari",
+    "year": 2022,
+    "citations": 18,
+    "dataset": "Pathfinder PosteriorDB benchmarks and worked-example data",
+    "datasetUrl": "https://github.com/LuZhangstat/Pathfinder",
+    "paperUrl": "https://jmlr.org/papers/v23/21-0889.html",
+    "access": "open",
+    "formats": [
+      "r",
+      "stan",
+      "posterior benchmark data",
+      "experiment outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "benchmark-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "variational inference",
+      "probabilistic programming"
+    ],
+    "bestFor": "Benchmarking quasi-Newton variational posterior approximations against ADVI and dynamic HMC on PosteriorDB and worked statistical examples.",
+    "note": "Verified from the JMLR code link and the authors' public repository: it contains a PosteriorDB snapshot, Stan and R experiment workflows, and data for the Birthday, ovarian, motorcycle-GP, and funnel examples."
+  },
+  {
+    "id": "github-varbvs-bayesian-variable-selection",
+    "title": "Scalable Variational Inference for Bayesian Variable Selection in Regression, and Its Accuracy in Genetic Association Studies",
+    "authors": "Peter Carbonetto, Matthew Stephens",
+    "year": 2012,
+    "citations": 304,
+    "dataset": "varbvs regression and genetic-association package data",
+    "datasetUrl": "https://github.com/pcarbo/varbvs",
+    "paperUrl": "https://doi.org/10.1214/12-BA703",
+    "access": "open",
+    "formats": [
+      "r",
+      "matlab",
+      "package data",
+      "genetic association examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "variational inference",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Large-scale Bayesian variable selection and accuracy studies for variational posterior inclusion probabilities in regression and genetic association data.",
+    "note": "Verified from the Bayesian Analysis article, CRAN citation metadata, and the authors' public varbvs repository, which supplies R and MATLAB implementations together with reusable package datasets and examples."
+  },
+  {
+    "id": "github-dadvi-deterministic-objective",
+    "title": "Black Box Variational Inference with a Deterministic Objective: Faster, More Accurate, and Even More Black Box",
+    "authors": "Ryan Giordano, Martin Ingram, Tamara Broderick",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "DADVI real-world posterior experiments and processed benchmark outputs",
+    "datasetUrl": "https://github.com/rgiordan/DADVIPaper",
+    "paperUrl": "https://jmlr.org/papers/v25/23-1015.html",
+    "access": "open",
+    "formats": [
+      "python",
+      "r",
+      "processed experiment data",
+      "reproduction scripts"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "benchmark-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "variational inference",
+      "probabilistic programming",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Reproducing deterministic ADVI, linear-response covariance correction, and high-dimensional posterior-accuracy and runtime comparisons.",
+    "note": "Verified from the JMLR code link and the authors' reproduction repository: the archive contains experiment code, processed experiment data, figures, and model-specific analyses for the paper's real-world comparisons."
+  },
+  {
+    "id": "github-boosting-black-box-vi",
+    "title": "Boosting Black Box Variational Inference",
+    "authors": "Francesco Locatello, Gideon Dresdner, Rajiv Khanna, Isabel Valera, Gunnar Raetsch",
+    "year": 2018,
+    "citations": 19,
+    "dataset": "Boosting-BBVI logistic-regression, matrix-factorization, and mixture-model experiments",
+    "datasetUrl": "https://github.com/ratschlab/boosting-bbvi",
+    "paperUrl": "https://proceedings.neurips.cc/paper/2018/hash/74563ba21a90da13dacf2a73e3ddefa7-Abstract.html",
+    "access": "open",
+    "formats": [
+      "python",
+      "experiment scripts",
+      "toy mixture data",
+      "tabular examples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "variational inference",
+      "mixture models"
+    ],
+    "bestFor": "Reproducing residual-ELBO boosting experiments for flexible mixture variational families across regression, matrix factorization, and toy targets.",
+    "note": "Verified from the NeurIPS proceedings and the authors' public repository: the code documents the chem and wine regression experiments, matrix-factorization benchmark, and generated mixture-model data used in the paper."
+  },
+  {
+    "id": "github-variational-boosting",
+    "title": "Variational Boosting: Iteratively Refining Posterior Approximations",
+    "authors": "Andrew C. Miller, Nicholas J. Foti, Ryan P. Adams",
+    "year": 2017,
+    "citations": 61,
+    "dataset": "Variational-boosting baseball and stop-and-frisk hierarchical-model experiments",
+    "datasetUrl": "https://github.com/andymiller/vboost",
+    "paperUrl": "https://proceedings.mlr.press/v70/miller17a.html",
+    "access": "open",
+    "formats": [
+      "python",
+      "hierarchical model examples",
+      "synthetic data",
+      "experiment outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "variational inference",
+      "mixture models",
+      "bayesian hierarchical models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Evaluating iterative mixture enrichment of variational posteriors on synthetic targets and real hierarchical baseball and stop-and-frisk models.",
+    "note": "Verified from the PMLR paper and the authors' code supplement: the repository contains baseball and stop-and-frisk multilevel-model outputs, visualization scripts, and synthetic experiment workflows."
   }
 ]
