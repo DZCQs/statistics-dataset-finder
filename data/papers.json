@@ -59648,5 +59648,133 @@
     ],
     "bestFor": "Evaluating iterative mixture enrichment of variational posteriors on synthetic targets and real hierarchical baseball and stop-and-frisk models.",
     "note": "Verified from the PMLR paper and the authors' code supplement: the repository contains baseball and stop-and-frisk multilevel-model outputs, visualization scripts, and synthetic experiment workflows."
+  },
+  {
+    "id": "pmlr-sghmc-stochastic-gradient-hamiltonian",
+    "title": "Stochastic Gradient Hamiltonian Monte Carlo",
+    "authors": "Tianqi Chen, Emily Fox, Carlos Guestrin",
+    "year": 2014,
+    "citations": 469,
+    "dataset": "SGHMC simulated targets, Bayesian neural-network, and matrix-factorization experiments",
+    "datasetUrl": "https://github.com/tqchen/ML-SGHMC",
+    "paperUrl": "https://proceedings.mlr.press/v32/cheni14.html",
+    "access": "open",
+    "formats": [
+      "matlab",
+      "python",
+      "c++",
+      "simulation scripts"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "stochastic-gradient MCMC",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Reproducing SGHMC behavior on simulated targets and comparing scalable posterior sampling in neural-network classification and Bayesian matrix factorization.",
+    "note": "Verified from the PMLR proceedings and the authors' public ML-SGHMC repository, which provides simulated experiments, a NumPy Bayesian neural-network implementation, and C++ matrix-factorization code."
+  },
+  {
+    "id": "openreview-cyclical-sgmcmc",
+    "title": "Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning",
+    "authors": "Ruqi Zhang, Chunyuan Li, Jianyi Zhang, Changyou Chen, Andrew Gordon Wilson",
+    "year": 2020,
+    "citations": 112,
+    "dataset": "Cyclical SG-MCMC Gaussian-mixture and CIFAR-10/100 experiments",
+    "datasetUrl": "https://github.com/ruqizhang/csgmcmc",
+    "paperUrl": "https://openreview.net/pdf?id=rkeS1RVtPS",
+    "access": "open",
+    "formats": [
+      "python",
+      "generated mixture data",
+      "cifar experiment scripts",
+      "cached results"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "stochastic-gradient MCMC",
+      "mcmc diagnostics",
+      "mixture models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Studying multimodal exploration and posterior ensembling with cyclical SG-MCMC on a 25-component Gaussian mixture and CIFAR image classifiers.",
+    "note": "Verified from the official OpenReview paper and the authors' public repository, which includes Gaussian-mixture generation and sampling code, cached results, and CIFAR-10/100 training and ensemble-evaluation scripts."
+  },
+  {
+    "id": "siam-sgmcmc-state-space-models",
+    "title": "Stochastic Gradient MCMC for State Space Models",
+    "authors": "Christopher Aicher, Yi-An Ma, Nicholas J. Foti, Emily B. Fox",
+    "year": 2019,
+    "citations": 34,
+    "dataset": "SG-MCMC state-space-model data, demonstrations, and nonlinear particle-filter experiments",
+    "datasetUrl": "https://github.com/aicherc/sgmcmc_ssm_code",
+    "paperUrl": "https://doi.org/10.1137/18M1214780",
+    "access": "open",
+    "formats": [
+      "python",
+      "time-series data",
+      "demo notebooks",
+      "experiment scripts"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "stochastic-gradient MCMC",
+      "mcmc diagnostics",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating minibatch posterior samplers for dependent time-series observations in linear and nonlinear state-space models.",
+    "note": "Verified from the SIAM article and the authors' public sgmcmc_ssm_code repository, which contains reusable data, demos, package code, and nonlinear state-space particle-filter experiment scripts."
+  },
+  {
+    "id": "aaai-preconditioned-sgld",
+    "title": "Preconditioned Stochastic Gradient Langevin Dynamics for Deep Neural Networks",
+    "authors": "Chunyuan Li, Changyou Chen, David Carlson, Lawrence Carin",
+    "year": 2016,
+    "citations": 136,
+    "dataset": "pSGLD two-dimensional Gaussian simulations and MNIST neural-network experiments",
+    "datasetUrl": "https://github.com/ChunyuanLI/pSGLD",
+    "paperUrl": "https://doi.org/10.1609/aaai.v30i1.10200",
+    "access": "open",
+    "formats": [
+      "python",
+      "matlab",
+      "simulation outputs",
+      "mnist experiment code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "stochastic-gradient MCMC",
+      "mcmc diagnostics",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing adaptive preconditioning against SGLD through Gaussian-target diagnostics and scalable Bayesian neural-network experiments.",
+    "note": "Verified from the AAAI article and the authors' public pSGLD repository, which provides two-dimensional Gaussian simulations, covariance-error and chain-mixing diagnostics, sample outputs, and MNIST model code."
   }
 ]
