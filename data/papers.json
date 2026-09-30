@@ -59776,5 +59776,161 @@
     ],
     "bestFor": "Comparing adaptive preconditioning against SGLD through Gaussian-target diagnostics and scalable Bayesian neural-network experiments.",
     "note": "Verified from the AAAI article and the authors' public pSGLD repository, which provides two-dimensional Gaussian simulations, covariance-error and chain-mixing diagnostics, sample outputs, and MNIST model code."
+  },
+  {
+    "id": "jss-acebayes-optimal-design",
+    "title": "acebayes: An R Package for Bayesian Optimal Design of Experiments via Approximate Coordinate Exchange",
+    "authors": "Antony M. Overstall, David C. Woods, Maria Adamou",
+    "year": 2020,
+    "citations": 28,
+    "dataset": "acebayes replication code and four Bayesian optimal-design tutorials",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v095i13",
+    "paperUrl": "https://doi.org/10.18637/jss.v095.i13",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "replication scripts",
+      "tutorials"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "optimal experimental design"
+    ],
+    "bestFor": "Reproducing approximate-coordinate-exchange designs for parameter estimation, model selection, and prediction in generalized linear and nonlinear models.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the acebayes R package and downloadable replication code for four worked Bayesian optimal-design examples."
+  },
+  {
+    "id": "pmlr-minebed-implicit-models",
+    "title": "Bayesian Experimental Design for Implicit Models by Mutual Information Neural Estimation",
+    "authors": "Steven Kleinegesse, Michael U. Gutmann",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "MINEBED implicit-model simulators and Bayesian experimental-design examples",
+    "datasetUrl": "https://github.com/stevenkleinegesse/minebed",
+    "paperUrl": "https://proceedings.mlr.press/v119/kleinegesse20a.html",
+    "access": "open",
+    "formats": [
+      "python",
+      "simulator experiments",
+      "package examples",
+      "supplementary code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "optimal experimental design",
+      "simulation-based inference"
+    ],
+    "bestFor": "Testing likelihood-free Bayesian experimental design based on neural mutual-information estimation for linear, pharmacokinetic, and gas-leak simulators.",
+    "note": "Verified from the PMLR paper and its linked author repository: the reusable Python package and examples implement MINEBED for implicit models, including the paper's simulator-based design studies."
+  },
+  {
+    "id": "zenodo-bayesian-ct-linearised-dip-design",
+    "title": "Bayesian Experimental Design for Computed Tomography with the Linearised Deep Image Prior",
+    "authors": "Riccardo Barbano, Johannes Leuschner, Javier Antoran, Bangti Jin, Jose Miguel Hernandez-Lobato",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Linearised-DIP computed-tomography design outputs and acquisition-angle experiments",
+    "datasetUrl": "https://zenodo.org/records/6635902",
+    "paperUrl": "https://arxiv.org/abs/2207.05714",
+    "access": "open",
+    "formats": [
+      "python",
+      "tensorboard logs",
+      "saved reconstructions",
+      "experiment outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "benchmark-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "optimal experimental design",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing adaptive CT acquisition-angle selection using expected information gain or expected squared error against equidistant and random baselines.",
+    "note": "Verified from the paper, the authors' public implementation, and the 23GB Zenodo supplement, which contains saved reconstructions, selection runs, baselines, tensorboard logs, and reusable experiment outputs."
+  },
+  {
+    "id": "zenodo-efficient-boed-finite-design-sets",
+    "title": "Efficient Bayesian Optimal Experimental Design for Expensive Computational Models over Finite Design Sets",
+    "authors": "Maximilian Dinkel, Dragos C. Ana, Benedikt Goderbauer, Wolfgang A. Wall",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Finite-design BOED lung-model and viscoplastic-model simulation outputs",
+    "datasetUrl": "https://zenodo.org/records/21723318",
+    "paperUrl": "https://arxiv.org/abs/2607.16933",
+    "access": "open",
+    "formats": [
+      "python",
+      "pickle",
+      "precomputed model outputs",
+      "reproduction scripts"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "optimal experimental design"
+    ],
+    "bestFor": "Reproducing adaptive expected-information-gain design selection for computationally expensive lung and viscoplastic models over finite candidate sets.",
+    "note": "Verified from the arXiv paper, the authors' reproduction repository, and the 2.7GB Zenodo dataset containing the precomputed lung-model and viscoplastic-model outputs used in the numerical experiments."
+  },
+  {
+    "id": "joss-kirstine-bayesian-optimal-design",
+    "title": "Kirstine.jl: A Julia Package for Bayesian Optimal Design of Experiments",
+    "authors": "Ludger Sandig",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Kirstine.jl nonlinear-regression design examples, tutorials, and tests",
+    "datasetUrl": "https://github.com/lsandig/Kirstine.jl",
+    "paperUrl": "https://doi.org/10.21105/joss.06424",
+    "access": "open",
+    "formats": [
+      "julia",
+      "package examples",
+      "tutorials",
+      "software tests"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "optimal experimental design"
+    ],
+    "bestFor": "Computing and verifying Bayesian D- and A-optimal designs for arbitrary nonlinear regression models with modular Julia workflows.",
+    "note": "Verified from the JOSS paper and its linked software repository and archive: Kirstine.jl includes documented tutorials, additional examples, tests, and implementations for Bayesian and locally optimal nonlinear-regression designs."
   }
 ]
