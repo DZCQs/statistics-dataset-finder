@@ -59932,5 +59932,159 @@
     ],
     "bestFor": "Computing and verifying Bayesian D- and A-optimal designs for arbitrary nonlinear regression models with modular Julia workflows.",
     "note": "Verified from the JOSS paper and its linked software repository and archive: Kirstine.jl includes documented tutorials, additional examples, tests, and implementations for Bayesian and locally optimal nonlinear-regression designs."
+  },
+  {
+    "id": "jss-mosum-change-point-analysis",
+    "title": "mosum: A Package for Moving Sums in Change-Point Analysis",
+    "authors": "Alexander Meier, Claudia Kirch, Haeran Cho",
+    "year": 2021,
+    "citations": 31,
+    "dataset": "mosum change-point examples, package data, and replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v097i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v097.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "replication scripts",
+      "supplementary code"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Reproducing moving-sum procedures for detecting and localizing multiple mean changes in ordered data.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the mosum R package, replication code, and supplementary R code used for the paper's change-point examples."
+  },
+  {
+    "id": "jss-ecp-multivariate-change-points",
+    "title": "ecp: An R Package for Nonparametric Multiple Change Point Analysis of Multivariate Data",
+    "authors": "Nicholas A. James, David S. Matteson",
+    "year": 2015,
+    "citations": 143,
+    "dataset": "ecp multivariate change-point examples, package data, and replication materials",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v062i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v062.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "replication materials"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating nonparametric divisive and agglomerative multiple-change procedures on univariate and multivariate sequences.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the ecp R package and downloadable replication materials for the paper's multiple-change examples."
+  },
+  {
+    "id": "jss-strucchange-structural-change",
+    "title": "strucchange: An R Package for Testing for Structural Change in Linear Regression Models",
+    "authors": "Achim Zeileis, Friedrich Leisch, Kurt Hornik, Christian Kleiber",
+    "year": 2002,
+    "citations": 849,
+    "dataset": "strucchange regression examples and package data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v007i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v007.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "package data"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Testing structural stability with fluctuation processes, CUSUM and MOSUM tests, F statistics, and monitoring procedures.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the strucchange R package containing the paper's structural-change methods, data, and worked examples."
+  },
+  {
+    "id": "jss-cpm-sequential-change-detection",
+    "title": "Parametric and Nonparametric Sequential Change Detection in R: The cpm Package",
+    "authors": "Gordon J. Ross",
+    "year": 2015,
+    "citations": 144,
+    "dataset": "cpm sequential change-detection examples and paper code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v066i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v066.i03",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "paper example code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing batch and sequential change detection for parametric and nonparametric observation streams.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the cpm R package and downloadable R example code used in the paper."
+  },
+  {
+    "id": "jss-gets-structural-breaks",
+    "title": "Automated General-to-Specific (GETS) Regression Modeling and Indicator Saturation for Outliers and Structural Breaks",
+    "authors": "Felix Pretis, J. James Reade, Genaro Sucarrat",
+    "year": 2018,
+    "citations": 71,
+    "dataset": "gets regression examples and structural-break replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v086i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v086.i03",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "replication scripts"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Reproducing indicator-saturation and general-to-specific regression workflows for detecting outliers and structural breaks.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the gets R package and downloadable replication code for the paper's regression and structural-break examples."
   }
 ]
