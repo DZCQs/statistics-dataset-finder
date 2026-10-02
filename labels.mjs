@@ -446,6 +446,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["quantile regression", "conditional quantile", "conditional quantiles", "quantile gam", "qgam", "pinball loss", "censored quantile regression", "bayesian quantile regression", "nonparametric series quantile regression", "quantile regression forest", "quantile-regression forest", "quantreg", "bayesqr"]
   },
   {
+    name: "distributional regression",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, package examples, and replication resources useful for modeling multiple parameters or the full conditional response distribution, including GAMLSS, additive distributional models, transformation models, and semi-structured deep distributional regression.",
+    includeWhen: [
+      "distributional regression, GAMLSS, conditional transformation models, or models for multiple response-distribution parameters are central",
+      "the resource provides data, code, package examples, vignettes, or replication material for fitting or evaluating full conditional-distribution models"
+    ],
+    avoidWhen: [
+      "the paper models only the conditional mean or a single quantile without a broader distributional-regression framework",
+      "distributional language refers only to an assumed error distribution rather than regression on response-distribution parameters"
+    ],
+    evidenceTerms: ["distributional regression", "distributional model", "distributional models", "full conditional distribution", "conditional response distribution", "location scale and shape", "location, scale and shape", "gamlss", "bamlss", "gamboostlss", "deepregression"]
+  },
+  {
     name: "robust statistics",
     level: "mid",
     parents: [],

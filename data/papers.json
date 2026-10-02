@@ -53103,12 +53103,12 @@
       "tutorial-data",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "high-dimensional statistics",
-      "variable selection"
+      "variable selection",
+      "distributional regression"
     ],
     "bestFor": "High-dimensional statistics, variable selection, generalized additive models for location scale and shape, regularized regression, boosting, tuning-parameter selection, prediction intervals, and reproducible gamboostLSS examples.",
     "note": "Verified from the JSS article page, which lists the paper, gamboostLSS package, and R replication code. The abstract states that variable selection and model choice are available in the regularized regression framework and that the article uses stunted-growth data from India."
@@ -56305,12 +56305,12 @@
       "software",
       "code",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "multilevel modeling",
-      "longitudinal data analysis"
+      "longitudinal data analysis",
+      "distributional regression"
     ],
     "bestFor": "Mixed-effects transformation modeling of correlated ordered outcomes with nonlinear covariate effects and flexible conditional response distributions.",
     "note": "Verified on the official JSS page, which links tramME and replication materials for two dependent-data illustrations."
@@ -60086,5 +60086,228 @@
     ],
     "bestFor": "Reproducing indicator-saturation and general-to-specific regression workflows for detecting outliers and structural breaks.",
     "note": "Verified from the Journal of Statistical Software article page, which directly supplies the gets R package and downloadable replication code for the paper's regression and structural-break examples."
+  },
+  {
+    "id": "jss-asgl-penalized-quantile-regression",
+    "title": "asgl: A Python Package for Penalized Quantile, Linear, and Logistic Regression",
+    "authors": "Alvaro Mendez-Civieta, M. Carmen Aguilera-Morillo, Rosa E. Lillo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "asgl penalized-regression examples and Python replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v117i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v117.i03",
+    "access": "open",
+    "formats": [
+      "python",
+      "package examples",
+      "replication scripts"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing adaptive lasso, group-lasso, sparse-group and elastic-net penalties in linear, logistic, and quantile regression.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the asgl Python package and replication code; the paper foregrounds penalized quantile regression and variable selection in low- and high-dimensional settings."
+  },
+  {
+    "id": "jss-cdfquantreg-distributional-quantiles",
+    "title": "cdfquantreg: An R Package for CDF-Quantile Regression",
+    "authors": "Yiyun Shou, Michael Smithson",
+    "year": 2019,
+    "citations": 8,
+    "dataset": "cdfquantreg bounded-response examples and replication materials",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v088i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v088.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "replication materials"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "distributional regression",
+      "bayesian inference",
+      "resampling methods"
+    ],
+    "bestFor": "Modeling location and dispersion quantiles of bounded responses with maximum-likelihood, Bayesian MCMC, and bootstrap workflows.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the cdfquantreg R package and replication materials for real-data examples spanning 36 CDF-quantile distributions."
+  },
+  {
+    "id": "jss-deepregression-distributional-modeling",
+    "title": "deepregression: A Flexible Neural Network Framework for Semi-Structured Deep Distributional Regression",
+    "authors": "David Rügamer, Chris Kolb, Cornelius Fritz, Florian Pfisterer, Philipp Kopper, Bernd Bischl, Ruolin Shen, Christina Bukas, Lisa Barros de Andrade e Sousa, Dominik Thalmeier, Philipp F. M. Baumann, Lucas Kook, Nadja Klein, Christian L. Müller",
+    "year": 2023,
+    "citations": 6,
+    "dataset": "deepregression replication code and Munich and 32-series replication datasets",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v105i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v105.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication scripts",
+      "replication datasets",
+      "package examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "distributional regression"
+    ],
+    "bestFor": "Studying interpretable semi-structured models that combine additive statistical effects with neural networks for full conditional-distribution prediction.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the deepregression R package, replication code, and three downloadable replication datasets labeled Munich, 32_1, and 32_2."
+  },
+  {
+    "id": "jss-bamlss-flexible-bayesian-regression",
+    "title": "bamlss: A Lego Toolbox for Flexible Bayesian Regression (and Beyond)",
+    "authors": "Nikolaus Umlauf, Nadja Klein, Thorsten Simon, Achim Zeileis",
+    "year": 2021,
+    "citations": 29,
+    "dataset": "bamlss distributional-regression examples, replication code, and supplementary data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v100i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "replication scripts",
+      "r binary data"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "bayesian inference",
+      "multilevel modeling"
+    ],
+    "bestFor": "Building modular Bayesian additive models for location, scale, shape, random effects, spatial fields, survival outcomes, and joint models.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the bamlss R package, replication code, and supplementary data in R binary format."
+  },
+  {
+    "id": "jss-censored-quantile-regression-redux",
+    "title": "Censored Quantile Regression Redux",
+    "authors": "Roger Koenker",
+    "year": 2008,
+    "citations": 88,
+    "dataset": "quantreg censored-survival examples and simulation replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v027i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v027.i06",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "simulation scripts",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "survival analysis"
+    ],
+    "bestFor": "Comparing Powell, Portnoy, and Peng-Huang censored quantile estimators through reproducible survival-data simulations and examples.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly supplies the quantreg R package, paper example code, and separate simulation scripts for the reported tables and figures."
+  },
+  {
+    "id": "jss-lqmm-linear-quantile-mixed-models",
+    "title": "Linear Quantile Mixed Models: The lqmm Package for Laplace Quantile Regression",
+    "authors": "Marco Geraci",
+    "year": 2014,
+    "citations": 233,
+    "dataset": "lqmm Orthodont longitudinal-data examples and paper code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v057i13",
+    "paperUrl": "https://doi.org/10.18637/jss.v057.i13",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "longitudinal data",
+      "paper example code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "multilevel modeling",
+      "longitudinal data analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Estimating conditional quantiles with random effects in clustered and longitudinal data, including reproducible Orthodont examples.",
+    "note": "Verified from the Journal of Statistical Software article page and downloadable R example code, which loads the Orthodont longitudinal dataset and reproduces mixed-model fits, bootstrap summaries, tables, and figures."
+  },
+  {
+    "id": "joss-quantile-forest-python",
+    "title": "quantile-forest: A Python Package for Quantile Regression Forests",
+    "authors": "Reid A. Johnson",
+    "year": 2024,
+    "citations": 29,
+    "dataset": "quantile-forest examples, tests, and California housing workflow",
+    "datasetUrl": "https://github.com/zillow/quantile-forest",
+    "paperUrl": "https://doi.org/10.21105/joss.05976",
+    "access": "open",
+    "formats": [
+      "python",
+      "package examples",
+      "software tests",
+      "documentation examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "benchmark-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating scikit-learn-compatible quantile regression forests, conditional prediction intervals, out-of-bag estimates, and quantile ranks.",
+    "note": "Verified from the JOSS paper and linked public repository and software archive; the repository includes package code, tests, documentation, and runnable examples using scikit-learn datasets such as California housing."
   }
 ]
