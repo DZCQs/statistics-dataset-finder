@@ -60309,5 +60309,199 @@
     ],
     "bestFor": "Evaluating scikit-learn-compatible quantile regression forests, conditional prediction intervals, out-of-bag estimates, and quantile ranks.",
     "note": "Verified from the JOSS paper and linked public repository and software archive; the repository includes package code, tests, documentation, and runnable examples using scikit-learn datasets such as California housing."
+  },
+  {
+    "id": "jss-deconvolver-empirical-bayes-deconvolution",
+    "title": "deconvolveR: A G-Modeling Program for Deconvolution and Empirical Bayes Estimation",
+    "authors": "Balasubramanian Narasimhan, Bradley Efron",
+    "year": 2020,
+    "citations": 16,
+    "dataset": "deconvolveR package examples and JSS replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v094i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v094.i11",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "bayesian inference"
+    ],
+    "bestFor": "Studying empirical-Bayes deconvolution and g-modeling with reproducible package examples and article code.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly provides the deconvolveR package and separate R replication code for the paper."
+  },
+  {
+    "id": "rjournal-lba-latent-budget-analysis",
+    "title": "lba: An R Package for Latent Budget Analysis",
+    "authors": "Enio G. Jelihovschi, Ivan Bezerra Allaman",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "lba compositional contingency-table examples including pregnancy data",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2018-026/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2018-026",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "article examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "mixture models"
+    ],
+    "bestFor": "Fitting latent-budget mixture decompositions to compositional contingency tables and reproducing the package's pregnancy-data example.",
+    "note": "Verified from The R Journal article, which links the public lba package and repository and gives executable examples using the package's pregnancy dataset."
+  },
+  {
+    "id": "scientificreports-propr-compositional-analysis",
+    "title": "propr: An R-package for Identifying Proportionally Abundant Features Using Compositional Data Analysis",
+    "authors": "Thomas P. Quinn, Mark F. Richardson, David Lovell, Tamsyn M. Crowley",
+    "year": 2017,
+    "citations": 245,
+    "dataset": "propr package data, data-generation scripts, vignettes, and tests",
+    "datasetUrl": "https://github.com/tpq/propr",
+    "paperUrl": "https://doi.org/10.1038/s41598-017-16520-0",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "data-generation scripts",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "high-dimensional",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "high-dimensional statistics",
+      "multiple testing"
+    ],
+    "bestFor": "Evaluating proportionality, differential proportionality, and false-discovery procedures for high-dimensional compositional abundance data.",
+    "note": "Verified from the open Scientific Reports paper and its official public repository, which contains package datasets, data-raw scripts, vignettes, tests, and worked proportionality examples."
+  },
+  {
+    "id": "arxiv-inlamemi-measurement-error-missing-data",
+    "title": "inlamemi: An R package for missing data imputation and measurement error modelling using INLA",
+    "authors": "Emma Skarstein, Stefanie Muff",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "inlamemi simple_data, blood-pressure examples, survival examples, and simulations",
+    "datasetUrl": "https://CRAN.R-project.org/package=inlamemi",
+    "paperUrl": "https://arxiv.org/abs/2406.08172",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "vignettes",
+      "simulation examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "missing data",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Fitting INLA-based hierarchical models with classical or Berkson measurement error, missing covariates, repeated measurements, and survival outcomes.",
+    "note": "Verified from the arXiv paper, CRAN package page, and official repository; the package supplies simple_data plus documented blood-pressure, survival, multiple-error, and simulated examples."
+  },
+  {
+    "id": "arxiv-mecfda-functional-measurement-error",
+    "title": "MECfda: An R Package for Bias Correction Due to Measurement Error in Functional and Scalar Covariates in Scalar-on-Function Regression Models",
+    "authors": "Heyang Ji, Ufuk Beyaztas, Nicolas Escobar-Velasquez, Yuanyuan Luan, Xiwei Chen, Mengli Zhang, Roger Zoh, Lan Xue, Carmen Tekwe",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "MECfda package examples, vignette source, and reproducible R code",
+    "datasetUrl": "https://CRAN.R-project.org/package=MECfda",
+    "paperUrl": "https://arxiv.org/abs/2510.21661",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "vignette source",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "functional data analysis",
+      "quantile regression",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Testing bias correction for noisy functional and scalar covariates in scalar-on-function, generalized, mixed-effect, and functional quantile regression.",
+    "note": "Verified from the stat.ME/stat.CO arXiv paper and CRAN package page, which provides the package source, reference manual, full vignette source, and executable R code."
+  },
+  {
+    "id": "multivariate-behavioral-research-multilevelcoda",
+    "title": "Bayesian Multilevel Compositional Data Analysis with the R Package multilevelcoda",
+    "authors": "Flora Le, Dorothea Dumuid, Tyman E. Stanford, Joshua F. Wiley",
+    "year": 2025,
+    "citations": 6,
+    "dataset": "multilevelcoda daily sleep-wake data, replication code, and supplementary materials",
+    "datasetUrl": "https://github.com/florale/multilevelcoda-overview",
+    "paperUrl": "https://doi.org/10.1080/00273171.2025.2565598",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "supplementary materials"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "longitudinal-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "multilevel modeling",
+      "longitudinal data analysis",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Modeling intensive longitudinal compositions with Bayesian multilevel predictors or outcomes and reproducing the daily sleep-wake analysis.",
+    "note": "Verified from the published article, CRAN package, and public reproduction repository, which contains the paper's replication R script and supplementary materials for the sleep-wake example."
   }
 ]
