@@ -60503,5 +60503,208 @@
     ],
     "bestFor": "Modeling intensive longitudinal compositions with Bayesian multilevel predictors or outcomes and reproducing the daily sleep-wake analysis.",
     "note": "Verified from the published article, CRAN package, and public reproduction repository, which contains the paper's replication R script and supplementary materials for the sleep-wake example."
+  },
+  {
+    "id": "jss-prevmap-prevalence-mapping",
+    "title": "PrevMap: An R Package for Prevalence Mapping",
+    "authors": "Emanuele Giorgi, Peter J. Diggle",
+    "year": 2017,
+    "citations": 123,
+    "dataset": "PrevMap Loa loa prevalence data, simulated geostatistical examples, and JSS replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v078i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v078.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "simulation examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Reproducing model-based geostatistical prevalence mapping with survey locations, binomial outcomes, spatial Gaussian processes, and Bayesian prediction.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly provides the PrevMap package and R replication code; the article analyzes Loa loa prevalence data and includes simulated geostatistical examples."
+  },
+  {
+    "id": "jss-spatsurv-spatial-survival",
+    "title": "spatsurv: An R Package for Bayesian Inference with Spatial Survival Models",
+    "authors": "Benjamin M. Taylor, Barry S. Rowlingson",
+    "year": 2017,
+    "citations": 32,
+    "dataset": "spatsurv real spatial-survival example, package examples, and simulation-study replication materials",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v077i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v077.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "simulation materials"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "survival analysis",
+      "survival models",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Evaluating Bayesian proportional-hazards and spatial frailty models with censored georeferenced survival data and simulation studies.",
+    "note": "Verified from the Journal of Statistical Software article page, which supplies the spatsurv package, R replication code, and separate simulation-study replication materials alongside a real-data analysis."
+  },
+  {
+    "id": "rjournal-hdspatialscan-functional-clusters",
+    "title": "The R Package HDSpatialScan for the Detection of Clusters of Multivariate and Functional Data using Spatial Scan Statistics",
+    "authors": "Camille Frévent, Mohamed-Salem Ahmed, Julien Soula, Lionel Cucala, Zaineb Smida, Sophie Dabo-Niang, Michaël Genin",
+    "year": 2022,
+    "citations": 14,
+    "dataset": "HDSpatialScan environmental multivariate and functional spatial data with supplementary examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2022-045/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-045",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "supplementary materials",
+      "article examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "high-dimensional",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "high-dimensional statistics",
+      "functional data analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Testing spatial scan statistics for multivariate or functional observations, including Monte Carlo cluster significance assessment on environmental data.",
+    "note": "Verified from The R Journal article, its linked CRAN package, and downloadable supplementary archive; the worked examples use environmental datasets distributed with HDSpatialScan."
+  },
+  {
+    "id": "jss-disaggregation-bayesian-spatial",
+    "title": "disaggregation: An R Package for Bayesian Spatial Disaggregation Modeling",
+    "authors": "Anita K. Nandi, Tim C. D. Lucas, Rohan Arambepola, Peter Gething, Daniel J. Weiss",
+    "year": 2023,
+    "citations": 10,
+    "dataset": "disaggregation package examples, JSS replication materials, and mcmc_out replication data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v106i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v106.i11",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "replication code",
+      "replication data"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Reproducing Bayesian conversion of polygon-level counts or rates into gridded estimates using spatial random fields and raster covariates.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly provides the disaggregation package, replication materials, and an mcmc_out replication-data archive."
+  },
+  {
+    "id": "jss-r2bayesx-structured-additive-regression",
+    "title": "Structured Additive Regression Models: An R Interface to BayesX",
+    "authors": "Nikolaus Umlauf, Daniel Adler, Thomas Kneib, Stefan Lang, Achim Zeileis",
+    "year": 2015,
+    "citations": 147,
+    "dataset": "R2BayesX MunichBnd spatial examples, simulations, and JSS example code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v063i21",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i21",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "example code",
+      "simulation examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "spatial statistics",
+      "bayesian hierarchical models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Studying structured additive regression with nonlinear, spatial, and random effects through reproducible BayesX and R2BayesX examples.",
+    "note": "Verified from the Journal of Statistical Software page, which provides the R2BayesX and BayesXsrc packages plus R example code; the package documentation includes the MunichBnd spatial boundary data."
+  },
+  {
+    "id": "mee-spoccupancy-spatial-occupancy",
+    "title": "spOccupancy: An R package for single-species, multi-species, and integrated spatial occupancy models",
+    "authors": "Jeffrey W. Doser, Andrew O. Finley, Marc Kéry, Elise F. Zipkin",
+    "year": 2022,
+    "citations": 196,
+    "dataset": "spOccupancy hbef2015 bird detections, hbefElev covariates, case studies, vignettes, and simulations",
+    "datasetUrl": "https://github.com/ecoverseR/spOccupancy",
+    "paperUrl": "https://doi.org/10.1111/2041-210X.13897",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "vignettes",
+      "simulation examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "simulation-data",
+      "longitudinal-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Evaluating Bayesian spatial and multi-season occupancy models with imperfect detection, multiple species, integrated datasets, and real bird surveys.",
+    "note": "Verified from the Methods in Ecology and Evolution paper, arXiv preprint, and official public repository; the package includes hbef2015 detections, hbefElev covariates, vignettes, simulations, and multi-season spatial examples."
   }
 ]
