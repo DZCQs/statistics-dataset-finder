@@ -56035,7 +56035,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "item response theory"
+      "item response theory",
+      "test equating"
     ],
     "bestFor": "Equating multiple test or questionnaire forms by linking separately estimated item parameters and latent scores onto a common metric.",
     "note": "Verified on the official JSS page, which links equateMultiple and R replication code."
@@ -60706,5 +60707,229 @@
     ],
     "bestFor": "Evaluating Bayesian spatial and multi-season occupancy models with imperfect detection, multiple species, integrated datasets, and real bird surveys.",
     "note": "Verified from the Methods in Ecology and Evolution paper, arXiv preprint, and official public repository; the package includes hbef2015 detections, hbefElev covariates, vignettes, simulations, and multi-season spatial examples."
+  },
+  {
+    "id": "jss-catr-response-patterns-cat",
+    "title": "Random Generation of Response Patterns under Computerized Adaptive Testing with the R Package catR",
+    "authors": "David Magis, Gilles Raîche",
+    "year": 2012,
+    "citations": 122,
+    "dataset": "catR calibrated item banks, tcals parameters, simulated adaptive response patterns, and JSS example code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v048i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v048.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "article example code",
+      "simulation examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "item response theory",
+      "computerized adaptive testing",
+      "optimal experimental design"
+    ],
+    "bestFor": "Simulating adaptive response patterns and comparing item-selection, ability-estimation, and stopping rules with calibrated dichotomous item banks.",
+    "note": "Verified from the Journal of Statistical Software article page, which directly provides the catR package and R example code; CRAN documentation exposes the tcals item parameters and executable adaptive-testing examples."
+  },
+  {
+    "id": "jss-catr-recent-updates",
+    "title": "Computerized Adaptive Testing with R: Recent Updates of the Package catR",
+    "authors": "David Magis, Juan Ramón Barrada",
+    "year": 2017,
+    "citations": 83,
+    "dataset": "catR dichotomous and polytomous item-bank examples, post-hoc simulations, and JSS replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v076c01",
+    "paperUrl": "https://doi.org/10.18637/jss.v076.c01",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "simulation examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "item response theory",
+      "computerized adaptive testing",
+      "optimal experimental design"
+    ],
+    "bestFor": "Evaluating adaptive item selection for dichotomous and polytomous IRT models, including post-hoc simulations and alternative stopping rules.",
+    "note": "Verified from the Journal of Statistical Software page, which provides the catR package and R replication code and documents polytomous item banks, added selection rules, and post-hoc simulations."
+  },
+  {
+    "id": "jss-mirtcat-adaptive-interfaces",
+    "title": "Generating Adaptive and Non-Adaptive Test Interfaces for Multidimensional Item Response Theory Applications",
+    "authors": "R. Philip Chalmers",
+    "year": 2016,
+    "citations": 129,
+    "dataset": "mirtCAT multidimensional item-bank simulations, adaptive-test interfaces, JSS replication code, and replication materials",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v071i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v071.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "replication materials",
+      "simulation examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "item response theory",
+      "computerized adaptive testing",
+      "optimal experimental design"
+    ],
+    "bestFor": "Constructing and simulating unidimensional or multidimensional adaptive tests with heterogeneous IRT item models and interactive test interfaces.",
+    "note": "Verified from the Journal of Statistical Software page, which directly supplies mirtCAT, R replication code, and replication materials; current package documentation also provides generated-item and interface examples."
+  },
+  {
+    "id": "qcmb-tmt-multistage-item-parameters",
+    "title": "Estimating Item Parameters in Multistage Designs With the tmt Package in R",
+    "authors": "Jan Steinfeld, Alexander Robitzsch",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "tmt deterministic and probabilistic multistage-design simulations, package vignette, and reproducible Rasch-model examples",
+    "datasetUrl": "https://qcmb.psychopen.eu/index.php/qcmb/article/view/10087",
+    "paperUrl": "https://doi.org/10.5964/qcmb.10087",
+    "access": "open",
+    "formats": [
+      "r",
+      "package vignette",
+      "simulated response data",
+      "article examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "item response theory",
+      "computerized adaptive testing",
+      "optimal experimental design"
+    ],
+    "bestFor": "Testing item-parameter estimation under deterministic or probabilistic multistage routing with Rasch models and simulated response data.",
+    "note": "Verified from the open QCMB article and official tmt package documentation; the article and vignette demonstrate model specification, data simulation, routing designs, and item-parameter estimation."
+  },
+  {
+    "id": "hqlo-msqol54-multidimensional-cat",
+    "title": "Applying Multidimensional Computerized Adaptive Testing to the MSQOL-54: A Simulation Study",
+    "authors": "Andrea Giordano, Silvia Testa, Marta Bassi, et al.",
+    "year": 2023,
+    "citations": 6,
+    "dataset": "International MSQOL-54 item responses, demographic and clinical variables, bifactor calibration data, and adaptive-test simulation supplements",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.4591136",
+    "paperUrl": "https://doi.org/10.1186/s12955-023-02152-8",
+    "access": "open",
+    "formats": [
+      "zenodo dataset",
+      "ordinal item responses",
+      "supplementary tables",
+      "simulation results"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "computerized adaptive testing"
+    ],
+    "bestFor": "Evaluating multidimensional adaptive testing with bifactor graded-response models, ordinal questionnaire items, stopping criteria, and item-reduction versus precision tradeoffs.",
+    "note": "Verified from the open journal article and its linked Zenodo dataset, which provides the international MSQOL-54 item responses used across measurement-invariance, bifactor, and multidimensional adaptive-testing studies."
+  },
+  {
+    "id": "jss-equateirt-test-equating",
+    "title": "equateIRT: An R Package for IRT Test Equating",
+    "authors": "Michela Battauz",
+    "year": 2015,
+    "citations": 59,
+    "dataset": "equateIRT common-item test forms, item-parameter examples, direct and chain equating workflows, and JSS replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v068i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v068.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "item-parameter examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "test equating"
+    ],
+    "bestFor": "Comparing direct, chain, and averaged IRT equating coefficients and their standard errors across test forms connected by common items.",
+    "note": "Verified from the Journal of Statistical Software page, which directly provides the equateIRT package and R replication code for dichotomous IRT test-form linking."
+  },
+  {
+    "id": "jss-equate-observed-score-linking",
+    "title": "equate: An R Package for Observed-Score Linking and Equating",
+    "authors": "Anthony D. Albano",
+    "year": 2016,
+    "citations": 126,
+    "dataset": "equate package test-form examples for single-group, equivalent-groups, and nonequivalent-groups anchor-test designs with JSS replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v074i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v074.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "test-form examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "test equating"
+    ],
+    "bestFor": "Reproducing observed-score linking and equating under single-group, equivalent-groups, and anchor-test designs with alternative equating functions.",
+    "note": "Verified from the Journal of Statistical Software page, which directly provides the equate package and R replication code and demonstrates the supported observed-score equating designs."
   }
 ]

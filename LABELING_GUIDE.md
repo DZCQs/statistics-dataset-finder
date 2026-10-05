@@ -66,6 +66,8 @@ Good label level:
 - `longitudinal data analysis`
 - `panel data methods`
 - `multilevel modeling`
+- `computerized adaptive testing`
+- `test equating`
 - `survival analysis`
 - `survival models`
 - `risk prediction`
@@ -152,6 +154,8 @@ Mid-level topic families without a current high-level parent:
 - `multilevel modeling`
   - `bayesian hierarchical models`
 - `item response theory`
+  - `computerized adaptive testing`
+- `test equating`
 - `measurement error models`
 - `meta-analysis`
   - `network meta-analysis`

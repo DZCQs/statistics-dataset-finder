@@ -416,6 +416,36 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["item response theory", "item response", "irt", "psychometric", "psychometrics", "latent trait", "measurement model", "differential item functioning", "item parameter drift", "item-level", "ordinal response"]
   },
   {
+    name: "computerized adaptive testing",
+    level: "low",
+    parents: ["item response theory"],
+    definition: "Datasets, item banks, simulations, and software examples for adaptive or multistage tests that select items or modules sequentially from item-response information.",
+    includeWhen: [
+      "computerized adaptive testing, multidimensional adaptive testing, adaptive item selection, or computerized multistage testing is central",
+      "the resource provides item banks, response patterns, simulation code, stopping rules, routing designs, or package examples for adaptive testing"
+    ],
+    avoidWhen: [
+      "adaptive refers to an experiment, clinical intervention, optimizer, or learning system without psychometric item selection",
+      "item response theory is used only to calibrate a fixed-form instrument and no adaptive or multistage testing procedure is studied"
+    ],
+    evidenceTerms: ["computerized adaptive testing", "computer adaptive testing", "multidimensional computerized adaptive testing", "multidimensional adaptive testing", "adaptive test", "adaptive item selection", "computerized multistage testing", "multistage testing", "catr", "mirtcat", "tmt package"]
+  },
+  {
+    name: "test equating",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, item parameters, test forms, and replication resources for linking scores or measurement scales across different test forms or populations.",
+    includeWhen: [
+      "test equating, score linking, common-item linking, chain equating, observed-score equating, or IRT equating is central",
+      "the resource provides multiple test forms, anchor items, item parameters, score distributions, code, or package examples for placing scores on a common metric"
+    ],
+    avoidWhen: [
+      "equating means only algebraic equality, calibration of an unrelated instrument, or generic normalization",
+      "multiple forms are mentioned but no statistical score-linking or equating procedure is provided"
+    ],
+    evidenceTerms: ["test equating", "score equating", "observed-score linking", "observed score linking", "observed-score equating", "irt test equating", "irt equating", "common-item linking", "chain equating", "equating coefficients", "equateirt", "equatemultiple"]
+  },
+  {
     name: "measurement error models",
     level: "mid",
     parents: [],

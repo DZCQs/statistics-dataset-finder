@@ -101,6 +101,10 @@ const parentRules = [
   {
     label: "longitudinal data analysis",
     children: ["panel data methods"]
+  },
+  {
+    label: "item response theory",
+    children: ["computerized adaptive testing"]
   }
 ];
 
@@ -260,6 +264,22 @@ const evidenceRules = [
     reason: "item-response-theory, psychometric measurement, latent-trait, or item-level response evidence in record text",
     test: (paper) =>
       /\b(item response theory|item response|irt|psychometric|psychometrics|latent trait|measurement model|differential item functioning|item parameter drift|item-level|ordinal response)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "computerized adaptive testing",
+    reason: "computerized-adaptive-testing, adaptive-item-selection, or multistage-testing evidence in record text",
+    test: (paper) =>
+      /\b(computerized adaptive testing|computer adaptive testing|multidimensional computerized adaptive testing|multidimensional adaptive testing|adaptive test|adaptive item selection|computerized multistage testing|multistage testing|catr|mirtcat|tmt package)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "test equating",
+    reason: "test-equating, score-linking, common-item, chain-equating, or equating-package evidence in record text",
+    test: (paper) =>
+      /\b(test equating|score equating|observed-score linking|observed score linking|observed-score equating|irt test equating|irt equating|common-item linking|chain equating|equating coefficients|equateirt|equatemultiple)\b/i.test(
         paperText(paper)
       )
   },
