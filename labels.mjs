@@ -281,6 +281,36 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["network meta-analysis", "network metaanalysis", "network meta analysis", "nma", "indirect treatment comparison", "mixed treatment comparison", "treatment network", "rank probabilities", "sucra", "netmeta", "pcnetmeta", "bugsnet", "gemtc"]
   },
   {
+    name: "diagnostic meta-analysis",
+    level: "low",
+    parents: ["meta-analysis"],
+    definition: "Datasets and replication packages useful for meta-analysis of diagnostic test accuracy, including bivariate sensitivity-specificity models, HSROC/SROC models, and diagnostic small-study-effect assessment.",
+    includeWhen: [
+      "the resource provides diagnostic two-by-two tables, sensitivity and specificity estimates, or study-level diagnostic-accuracy data for meta-analysis",
+      "the accessible code or package examples support bivariate diagnostic meta-analysis, HSROC/SROC models, or publication-bias assessment for diagnostic accuracy studies"
+    ],
+    avoidWhen: [
+      "diagnostic accuracy is evaluated in a single study without evidence synthesis",
+      "diagnostic language refers to model checking rather than diagnostic-test meta-analysis"
+    ],
+    evidenceTerms: ["diagnostic meta-analysis", "diagnostic test accuracy", "diagnostic accuracy studies", "dta meta-analysis", "bivariate meta-analysis", "hsroc", "sroc", "meta4diag", "bamdit", "mvpbt", "metadta"]
+  },
+  {
+    name: "publication bias",
+    level: "low",
+    parents: ["meta-analysis"],
+    definition: "Datasets and replication packages useful for detecting, adjusting for, or performing sensitivity analysis to publication bias and small-study effects in meta-analysis.",
+    includeWhen: [
+      "the paper or resource provides data and code for publication-bias tests, selection models, PET-PEESE, p-uniform methods, or bias sensitivity analysis",
+      "small-study effects or selective publication are central to the statistical method and reproducible workflow"
+    ],
+    avoidWhen: [
+      "publication bias is only mentioned as a generic limitation without an accessible analysis workflow",
+      "bias refers to estimator, sampling, or measurement bias unrelated to selective publication"
+    ],
+    evidenceTerms: ["publication bias", "small-study effects", "small study effects", "selection model", "pet-peese", "p-uniform", "robust bayesian meta-analysis", "mvpbt"]
+  },
+  {
     name: "complex survey design",
     level: "mid",
     parents: ["survey methodology"],

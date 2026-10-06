@@ -95,6 +95,8 @@ Good label level:
 - `conformal prediction`
 - `mixture models`
 - `network meta-analysis`
+- `diagnostic meta-analysis`
+- `publication bias`
 
 ## Current Label Hierarchy
 
@@ -159,6 +161,8 @@ Mid-level topic families without a current high-level parent:
 - `measurement error models`
 - `meta-analysis`
   - `network meta-analysis`
+  - `diagnostic meta-analysis`
+  - `publication bias`
 - `optimal experimental design`
 - `quantile regression`
 - `robust statistics`

@@ -76,7 +76,7 @@ const parentRules = [
   },
   {
     label: "meta-analysis",
-    children: ["network meta-analysis"]
+    children: ["network meta-analysis", "diagnostic meta-analysis", "publication bias"]
   },
   {
     label: "survival analysis",
@@ -178,6 +178,22 @@ const evidenceRules = [
     reason: "network-meta-analysis, indirect-treatment-comparison, treatment-network, or NMA software evidence in record text",
     test: (paper) =>
       /\b(network meta-analysis|network metaanalysis|network meta analysis|indirect treatment comparison|mixed treatment comparison|treatment network|rank probabilities|sucra|netmeta|pcnetmeta|bugsnet|gemtc)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "diagnostic meta-analysis",
+    reason: "diagnostic-test-accuracy, bivariate diagnostic, HSROC/SROC, or diagnostic-meta-analysis software evidence in record text",
+    test: (paper) =>
+      /\b(diagnostic meta-analysis|diagnostic test accuracy|diagnostic accuracy studies|dta meta-analysis|bivariate meta-analysis|hsroc|sroc|meta4diag|bamdit|mvpbt|metadta)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
+    label: "publication bias",
+    reason: "publication-bias, small-study-effect, selection-model, PET-PEESE, p-uniform, or robust-Bayesian-meta-analysis evidence in record text",
+    test: (paper) =>
+      /\b(publication bias|small-study effects?|small study effects?|selection models?|pet-peese|p-uniform|robust bayesian meta-analysis|mvpbt)\b/i.test(
         paperText(paper)
       )
   },

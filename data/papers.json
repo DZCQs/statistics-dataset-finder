@@ -60931,5 +60931,290 @@
     ],
     "bestFor": "Reproducing observed-score linking and equating under single-group, equivalent-groups, and anchor-test designs with alternative equating functions.",
     "note": "Verified from the Journal of Statistical Software page, which directly provides the equate package and R replication code and demonstrates the supported observed-score equating designs."
+  },
+  {
+    "id": "frontiers-metasem-sem-meta-analysis",
+    "title": "metaSEM: an R package for meta-analysis using structural equation modeling",
+    "authors": "Mike W.-L. Cheung",
+    "year": 2015,
+    "citations": 706,
+    "dataset": "metaSEM correlation-matrix and effect-size datasets, three-level examples, supplementary R code, and worked MASEM analyses",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/metaSEM/html/00Index.html",
+    "paperUrl": "https://doi.org/10.3389/fpsyg.2014.01521",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "correlation matrices",
+      "supplementary code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Developing and comparing univariate, multivariate, three-level, and meta-analytic structural equation models with published correlation matrices.",
+    "note": "Verified from the open Frontiers methods article, its supplementary examples, and the official metaSEM package index, which exposes numerous study-level correlation-matrix and effect-size datasets."
+  },
+  {
+    "id": "jss-bayesmeta-random-effects",
+    "title": "Bayesian Random-Effects Meta-Analysis Using the bayesmeta R Package",
+    "authors": "Christian Röver",
+    "year": 2020,
+    "citations": 291,
+    "dataset": "bayesmeta clinical and historical meta-analysis datasets, package vignettes, JSS replication code, and prior-sensitivity examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v093i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v093.i06",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "clinical meta-analysis examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "bayesian inference",
+      "multilevel modeling"
+    ],
+    "bestFor": "Studying prior sensitivity, shrinkage, prediction, and heterogeneity inference in Bayesian normal-normal hierarchical meta-analysis.",
+    "note": "Verified from the Journal of Statistical Software page, which directly provides the bayesmeta package and R replication code; package documentation includes multiple named real-data meta-analyses."
+  },
+  {
+    "id": "rjournal-metaplus-robust-meta-analysis",
+    "title": "metaplus: An R Package for the Analysis of Robust Meta-Analysis and Meta-Regression",
+    "authors": "Ken J. Beath",
+    "year": 2016,
+    "citations": 29,
+    "dataset": "metaplus CDP, exercise, magnesium, and Marinho meta-analysis datasets with robust random-effects and bootstrap examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2016-001/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2016-001",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "article code",
+      "bootstrap examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "robust statistics",
+      "resampling methods",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing normal, heavy-tailed, and normal-mixture random-effects models and testing meta-analytic outliers by parametric bootstrap.",
+    "note": "Verified from the R Journal article and official metaplus documentation, which provide four named meta-analysis datasets and executable robust-model and outlier-testing examples."
+  },
+  {
+    "id": "jss-meta4diag-bayesian-dta",
+    "title": "meta4diag: Bayesian Bivariate Meta-Analysis of Diagnostic Test Studies for Routine Practice",
+    "authors": "Jingyi Guo, Andrea Riebler",
+    "year": 2018,
+    "citations": 42,
+    "dataset": "meta4diag diagnostic two-by-two tables, three real-data examples, Bayesian bivariate models, and JSS replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v083i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v083.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "diagnostic accuracy tables"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "diagnostic meta-analysis",
+      "bayesian inference"
+    ],
+    "bestFor": "Evaluating priors and INLA-based Bayesian bivariate models for sensitivity, specificity, covariates, and SROC curves in diagnostic studies.",
+    "note": "Verified from the Journal of Statistical Software page, which directly supplies the meta4diag package, R replication code, and three real diagnostic-test meta-analysis examples."
+  },
+  {
+    "id": "jss-bamdit-bayesian-diagnostic-meta-analysis",
+    "title": "bamdit: An R Package for Bayesian Meta-Analysis of Diagnostic Test Data",
+    "authors": "Pablo Emilio Verde",
+    "year": 2018,
+    "citations": 22,
+    "dataset": "bamdit published diagnostic meta-analysis examples, hierarchical sensitivity-specificity models, and JSS replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v086i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v086.i10",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "diagnostic accuracy examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "diagnostic meta-analysis",
+      "bayesian inference",
+      "robust statistics"
+    ],
+    "bestFor": "Comparing Bayesian SROC models, prior choices, conflict-of-evidence diagnostics, and robust parameter estimation for diagnostic accuracy studies.",
+    "note": "Verified from the Journal of Statistical Software page, which directly provides the bamdit package and R replication code; the package contains several published diagnostic meta-analysis examples."
+  },
+  {
+    "id": "arxiv-mvpbt-diagnostic-publication-bias",
+    "title": "MVPBT: R package for publication bias tests in meta-analysis of diagnostic accuracy studies",
+    "authors": "Hisashi Noma",
+    "year": 2022,
+    "citations": 7,
+    "dataset": "MVPBT cervical-cancer diagnostic dataset, bivariate funnel plots, generalized Egger tests, and worked package examples",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/MVPBT/html/00Index.html",
+    "paperUrl": "https://doi.org/10.48550/arXiv.2209.07270",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "diagnostic two-by-two tables",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "diagnostic meta-analysis",
+      "publication bias"
+    ],
+    "bestFor": "Testing small-study effects in bivariate diagnostic meta-analysis while retaining correlation between sensitivity and specificity outcomes.",
+    "note": "Verified from the arXiv paper and official MVPBT package index, which exposes the Scheidler cervical-cancer dataset and executable generalized Egger-test and bivariate-funnel functions."
+  },
+  {
+    "id": "bmc-metadta-interactive-diagnostic-meta-analysis",
+    "title": "Development of an interactive web-based tool to conduct and interrogate meta-analysis of diagnostic test accuracy studies: MetaDTA",
+    "authors": "Suzanne C. Freeman, Clareece R. Kerby, Amit N. Patel, et al.",
+    "year": 2019,
+    "citations": 295,
+    "dataset": "MetaDTA diagnostic study datasets, dementia example, R Shiny source code, quality-assessment inputs, and sensitivity-analysis workflows",
+    "datasetUrl": "https://github.com/CRSU-Apps/MetaDTA",
+    "paperUrl": "https://doi.org/10.1186/s12874-019-0724-x",
+    "access": "open",
+    "formats": [
+      "r",
+      "csv",
+      "github repository",
+      "diagnostic accuracy tables"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "diagnostic meta-analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Reproducing and extending bivariate diagnostic-test meta-analyses, SROC visualizations, quality assessments, and sensitivity analyses in an open R Shiny workflow.",
+    "note": "Verified from the open BMC article and the authors' public MetaDTA repository, whose Data directory, R source, and user guide implement the paper's dementia example and reusable diagnostic meta-analysis workflow."
+  },
+  {
+    "id": "jrssc-publication-bias-sensitivity-analysis",
+    "title": "Sensitivity Analysis for Publication Bias in Meta-Analyses",
+    "authors": "Maya B. Mathur, Tyler J. VanderWeele",
+    "year": 2020,
+    "citations": 368,
+    "dataset": "OSF publication-bias sensitivity-analysis code, simulation study, and linked Boehm and Li meta-analysis datasets",
+    "datasetUrl": "https://osf.io/7wc2t/",
+    "paperUrl": "https://doi.org/10.1111/rssc.12440",
+    "access": "open",
+    "formats": [
+      "r",
+      "osf repository",
+      "replication code",
+      "simulation data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "publication bias"
+    ],
+    "bestFor": "Evaluating how severe selective publication would need to be to explain away meta-analytic conclusions and reproducing associated simulation studies.",
+    "note": "Verified from the journal reproducibility statement, which points to the documented OSF project containing all code for the applied examples and simulations plus links to the public Boehm and Li datasets."
+  },
+  {
+    "id": "ampps-jasp-r-publication-bias-adjustment",
+    "title": "Adjusting for Publication Bias in JASP and R: Selection Models, PET-PEESE, and Robust Bayesian Meta-Analysis",
+    "authors": "František Bartoš, Maximilian Maier, Daniel S. Quintana, Eric-Jan Wagenmakers",
+    "year": 2022,
+    "citations": 106,
+    "dataset": "OSF example meta-analysis data, JASP analysis file, R Markdown script, and publication-bias adjustment workflows",
+    "datasetUrl": "https://osf.io/uhaew/",
+    "paperUrl": "https://doi.org/10.1177/25152459221109259",
+    "access": "open",
+    "formats": [
+      "r markdown",
+      "jasp",
+      "osf repository",
+      "example meta-analysis data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "publication bias",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing selection models, PET-PEESE, and robust Bayesian model averaging on the same meta-analytic example in reproducible JASP and R workflows.",
+    "note": "Verified from the open article repository record and paper, which explicitly link the example dataset, JASP file, instructional materials, and OSF-hosted R Markdown analysis script."
   }
 ]
