@@ -61216,5 +61216,265 @@
     ],
     "bestFor": "Comparing selection models, PET-PEESE, and robust Bayesian model averaging on the same meta-analytic example in reproducible JASP and R workflows.",
     "note": "Verified from the open article repository record and paper, which explicitly link the example dataset, JASP file, instructional materials, and OSF-hosted R Markdown analysis script."
+  },
+  {
+    "id": "jss-extremes-2-extreme-value-analysis",
+    "title": "extRemes 2.0: An Extreme Value Analysis Package in R",
+    "authors": "Eric Gilleland, Richard W. Katz",
+    "year": 2016,
+    "citations": 652,
+    "dataset": "extRemes weather, climate, river-flow, hurricane, ozone, and tail-dependence package datasets with JSS replication code",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/extRemes/html/00Index.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v072.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "weather and hydrology time series"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "time series analysis",
+      "bayesian inference"
+    ],
+    "bestFor": "Teaching and comparing univariate block-maxima and threshold-exceedance models, return levels, nonstationary covariate effects, Bayesian fitting, and tail-dependence diagnostics.",
+    "note": "Verified from the JSS article, its linked R replication code, and the official extRemes index, which exposes multiple real weather, climate, flood, streamflow, hurricane, ozone, and wind datasets."
+  },
+  {
+    "id": "jss-evgam-generalized-additive-extreme-value-models",
+    "title": "evgam: An R Package for Generalized Additive Extreme Value Models",
+    "authors": "Benjamin D. Youngman",
+    "year": 2022,
+    "citations": 44,
+    "dataset": "Colorado precipitation and elevation, Fort Collins maximum-temperature, and Fremantle sea-level package datasets with JSS replication code",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/evgam/html/00Index.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v103.i03",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "spatial and temporal environmental data"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "distributional regression",
+      "spatial statistics",
+      "time series analysis",
+      "quantile regression"
+    ],
+    "bestFor": "Studying smooth spatial and temporal covariate effects in extreme-value distribution parameters and estimating high thresholds with quantile regression.",
+    "note": "Verified from the JSS paper and official evgam package index, which document executable generalized additive extreme-value workflows and expose the Colorado precipitation, Fort Collins temperature, and Fremantle sea-level datasets."
+  },
+  {
+    "id": "jss-evmix-extreme-value-mixture-modeling",
+    "title": "evmix: An R package for Extreme Value Mixture Modeling, Threshold Estimation and Boundary Corrected Kernel Density Estimation",
+    "authors": "Yang Hu, Carl Scarrott",
+    "year": 2018,
+    "citations": 39,
+    "dataset": "evmix package examples, vignettes, and JSS replication code for bulk-and-tail mixture models, threshold estimation, and boundary-corrected density estimation",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/evmix/html/00Index.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v084.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "vignettes",
+      "replication code"
+    ],
+    "properties": [
+      "code",
+      "worked-examples",
+      "replication-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "mixture models"
+    ],
+    "bestFor": "Comparing parametric and semiparametric bulk-and-tail mixtures, estimating extreme-value thresholds, and propagating threshold uncertainty into tail inference.",
+    "note": "Verified from the JSS article, its linked R replication code, and the official evmix documentation, which provides executable extreme-value mixture, GPD-tail, density-estimation, and diagnostic examples."
+  },
+  {
+    "id": "jss-recordtest-nonstationary-extremes",
+    "title": "RecordTest: An R Package to Analyze Non-Stationarity in the Extremes Based on Record-Breaking Events",
+    "authors": "Jorge Castillo-Mateo, Ana C. Cebrian, Jesus Asin",
+    "year": 2023,
+    "citations": 8,
+    "dataset": "Zaragoza daily maximum-temperature series and Olympic 200-meter record data with RecordTest package examples and JSS replication code",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/RecordTest/html/00Index.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v106.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "time series"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "time series analysis",
+      "change point detection"
+    ],
+    "bestFor": "Testing nonstationarity and change points in upper and lower extremes using record occurrence without first fitting a parametric extreme-value model.",
+    "note": "Verified from the JSS paper and official RecordTest index, which expose the Zaragoza temperature series, Olympic records, change-point tests, data-preparation utilities, and reproducible package workflow."
+  },
+  {
+    "id": "jss-extremefit-extreme-quantiles",
+    "title": "extremefit: A Package for Extreme Quantiles",
+    "authors": "Gilles Durrieu, Ion Grama, Kevin Jaunatre, Quang-Khoai Pham, Jean-Marie Tricot",
+    "year": 2018,
+    "citations": 8,
+    "dataset": "Oyster valvometry, Brest wind-speed, and household load-curve datasets with extremefit simulations and JSS replication code",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/extremefit/html/00Index.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v087.i12",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "time series"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "quantile regression",
+      "resampling methods",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating adaptive threshold selection and extreme conditional-quantile estimators on environmental, biological, energy-demand, and simulated tail data.",
+    "note": "Verified from the JSS article and official extremefit index, which expose three real datasets, dependent and independent simulations, Hill-type estimators, bootstrap intervals, and executable extreme-quantile examples."
+  },
+  {
+    "id": "joss-thresholdmodeling-peak-over-threshold",
+    "title": "thresholdmodeling: A Python package for modeling excesses over a threshold using the Peak-Over-Threshold Method and the Generalized Pareto Distribution",
+    "authors": "Iago Pereira Lemos, Antonio Marcos Goncalves Lima, Marcus Antonio Viana Duarte",
+    "year": 2020,
+    "citations": 12,
+    "dataset": "South-West England daily rainfall dataset, executable Python examples, tests, and archived thresholdmodeling software",
+    "datasetUrl": "https://github.com/iagolemos1/thresholdmodeling",
+    "paperUrl": "https://doi.org/10.21105/joss.02013",
+    "access": "open",
+    "formats": [
+      "python",
+      "csv",
+      "github repository",
+      "zenodo software archive"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Reproducing a complete peaks-over-threshold workflow from threshold diagnostics and GPD fitting through model checks, return levels, and declustering.",
+    "note": "Verified from the JOSS record, software archive, and public repository, whose dataset directory contains the South-West England rainfall CSV used by the documented reproducibility tutorial."
+  },
+  {
+    "id": "jss-extremes-jl-extreme-value-analysis",
+    "title": "Extremes.jl: Extreme Value Analysis in Julia",
+    "authors": "Jonathan Jalbert, Marilou Farmer, Gabriel Gobeil, Philippe Roy",
+    "year": 2024,
+    "citations": 8,
+    "dataset": "Port Pirie and Fremantle sea levels, South-West England rainfall, and Wooster temperature datasets with Julia replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v109i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v109.i06",
+    "access": "open",
+    "formats": [
+      "julia",
+      "package data",
+      "replication code",
+      "environmental time series"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "bayesian inference",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing maximum-likelihood, probability-weighted-moment, and Bayesian estimation for stationary and nonstationary block-maxima and threshold-exceedance models in Julia.",
+    "note": "Verified from the JSS article and linked Julia replication code, which load package datasets for sea levels, rainfall, and temperature and reproduce block-maxima, POT, return-level, declustering, and Bayesian analyses."
+  },
+  {
+    "id": "jasa-transformed-scale-mixtures-spatial-extremes",
+    "title": "Hierarchical Transformed Scale Mixtures for Flexible Modeling of Spatial Extremes on Datasets With Many Locations",
+    "authors": "Likun Zhang, Benjamin A. Shaby, Jennifer L. Wadsworth",
+    "year": 2022,
+    "citations": 14,
+    "dataset": "Figshare supplementary materials for the Great Plains fire-threat-index spatial-extremes application and coverage experiments",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.13342224.v2",
+    "paperUrl": "https://doi.org/10.1080/01621459.2020.1858838",
+    "access": "open",
+    "formats": [
+      "figshare dataset record",
+      "supplementary pdf",
+      "simulation study",
+      "spatial environmental data"
+    ],
+    "properties": [
+      "supplementary-materials",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "high-dimensional statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Studying scalable Bayesian hierarchical models that distinguish asymptotic dependence from independence in high-dimensional spatial threshold exceedances.",
+    "note": "Verified from the JASA article, Lancaster repository record, and versioned Taylor & Francis Figshare archive, which identifies the Great Plains fire-threat-index application and provides three supplementary files for the model and validation study."
   }
 ]

@@ -521,6 +521,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["distributional regression", "distributional model", "distributional models", "full conditional distribution", "conditional response distribution", "location scale and shape", "location, scale and shape", "gamlss", "bamlss", "gamboostlss", "deepregression"]
   },
   {
+    name: "extreme value analysis",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, package examples, and replication resources useful for statistical analysis of rare tail events, including block maxima, peaks over threshold, generalized extreme value and generalized Pareto models, return levels, tail dependence, and spatial extremes.",
+    includeWhen: [
+      "extreme value theory, block maxima, threshold exceedances, generalized extreme value or Pareto models, return levels, extremal dependence, or rare-event tail inference is central",
+      "the resource provides data, code, package examples, vignettes, or replication material for fitting, diagnosing, or comparing extreme-value models"
+    ],
+    avoidWhen: [
+      "extreme is used only as an application-domain adjective without statistical tail modeling",
+      "the record is about generic outlier detection, anomaly detection, or rare-class prediction without extreme-value methodology"
+    ],
+    evidenceTerms: ["extreme value analysis", "extreme value theory", "generalized extreme value", "generalised extreme value", "generalized pareto", "generalised pareto", "peaks over threshold", "peak over threshold", "peaks-over-threshold", "peak-over-threshold", "block maxima", "return level", "return levels", "extremal index", "tail dependence", "max-stable", "spatial extremes", "threshold exceedance", "threshold exceedances", "extremes.jl", "extremes package", "evgam", "evmix", "extremefit", "thresholdmodeling", "recordtest"]
+  },
+  {
     name: "robust statistics",
     level: "mid",
     parents: [],

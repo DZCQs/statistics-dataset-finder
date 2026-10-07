@@ -316,6 +316,14 @@ const evidenceRules = [
       )
   },
   {
+    label: "extreme value analysis",
+    reason: "extreme-value-theory, GEV/GPD, block-maxima, peaks-over-threshold, return-level, tail-dependence, or spatial-extremes evidence in record text",
+    test: (paper) =>
+      /\b(extreme value analysis|extreme value theory|generalized extreme value|generalised extreme value|generalized pareto|generalised pareto|peaks?[- ]over[- ]threshold|block maxima|return levels?|extremal index|tail dependence|max-stable|spatial extremes|threshold exceedances?|extremes\.jl|extremes package|evgam|evmix|extremefit|thresholdmodeling|recordtest)\b/i.test(
+        paperText(paper)
+      )
+  },
+  {
     label: "robust statistics",
     reason: "robust-statistics, robust-estimation, trimmed-mean, M-estimator, or robust package evidence in record text",
     test: (paper) =>

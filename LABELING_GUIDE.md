@@ -91,6 +91,7 @@ Good label level:
 - `approximate Bayesian computation`
 - `mcmc diagnostics`
 - `quantile regression`
+- `extreme value analysis`
 - `robust statistics`
 - `conformal prediction`
 - `mixture models`
@@ -165,6 +166,7 @@ Mid-level topic families without a current high-level parent:
   - `publication bias`
 - `optimal experimental design`
 - `quantile regression`
+- `extreme value analysis`
 - `robust statistics`
 - `conformal prediction`
 - `mixture models`
