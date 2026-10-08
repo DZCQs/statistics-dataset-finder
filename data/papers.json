@@ -61476,5 +61476,208 @@
     ],
     "bestFor": "Studying scalable Bayesian hierarchical models that distinguish asymptotic dependence from independence in high-dimensional spatial threshold exceedances.",
     "note": "Verified from the JASA article, Lancaster repository record, and versioned Taylor & Francis Figshare archive, which identifies the Great Plains fire-threat-index application and provides three supplementary files for the model and validation study."
+  },
+  {
+    "id": "jss-scikit-fda-functional-data-analysis",
+    "title": "scikit-fda: A Python Package for Functional Data Analysis",
+    "authors": "Carlos Ramos-Carreño, José Luis Torrecilla, Miguel Carbajo-Berrocal, Pablo Marcos, Alberto Suárez",
+    "year": 2024,
+    "citations": 31,
+    "dataset": "scikit-fda real functional datasets, JSS replication materials, tutorials, and dataset fetchers for CRAN and the UCR/UEA archive",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v109i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v109.i02",
+    "access": "open",
+    "formats": [
+      "python",
+      "package data",
+      "replication materials",
+      "tutorial notebooks"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Learning and comparing functional representations, smoothing, registration, FPCA, clustering, regression, and classification in Python using established curve and spectrum datasets.",
+    "note": "Verified from the Journal of Statistical Software page, which directly provides the Python package and replication materials, and from the package documentation listing Berkeley growth, Canadian and Spanish weather, gait, medfly, phoneme, Tecator, gasoline-spectrum, and other real datasets."
+  },
+  {
+    "id": "joss-registr-incomplete-curve-registration",
+    "title": "registr 2.0: Incomplete Curve Registration for Exponential Family Functional Data",
+    "authors": "Julia Wrobel, Alexander Bauer",
+    "year": 2021,
+    "citations": 3,
+    "dataset": "registr package Berkeley Growth Study curves with simulated incompleteness, NHANES activity trajectories, examples, and archived software",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/registr/html/00Index.html",
+    "paperUrl": "https://doi.org/10.21105/joss.02964",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "github repository",
+      "zenodo software archive"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "longitudinal-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "dimension reduction",
+      "longitudinal data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating likelihood-based registration of incomplete Gaussian, binary, and exponential-family curves while separating phase and amplitude variation.",
+    "note": "Verified from the JOSS paper, its linked repository and Zenodo archive, and the official CRAN documentation; the package distributes Berkeley child-growth derivatives with controlled leading and trailing incompleteness and NHANES activity data."
+  },
+  {
+    "id": "rjournal-rfssa-functional-singular-spectrum-analysis",
+    "title": "Rfssa: An R Package for Functional Singular Spectrum Analysis",
+    "authors": "Hossein Haghbin, Jordan Trinka, Mehdi Maadooliat",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Rfssa Callcenter functional time series, remote-sensing examples, simulations, article code, and downloadable supplementary materials",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-019/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-019",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "supplementary archive",
+      "functional time series"
+    ],
+    "properties": [
+      "package-data",
+      "supplementary-materials",
+      "simulation-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "time series analysis",
+      "time series forecasting",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Studying decomposition, reconstruction, and recurrent or vector forecasting for univariate and multivariate functional time series on one- and two-dimensional domains.",
+    "note": "Verified from The R Journal article, its supplementary ZIP, and linked CRAN package; the documented Callcenter data contain intraday call curves for every day of 1999, and the package also exposes remote-sensing and simulated functional time-series workflows."
+  },
+  {
+    "id": "jcgs-functional-additive-mixed-models",
+    "title": "Functional Additive Mixed Models",
+    "authors": "Fabian Scheipl, Ana-Maria Staicu, Sonja Greven",
+    "year": 2014,
+    "citations": 240,
+    "dataset": "refund package DTI tract profiles, longitudinal applications, pffr simulation scenarios, and reproducible functional mixed-model examples",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/refund/html/00Index.html",
+    "paperUrl": "https://doi.org/10.1080/10618600.2014.901914",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "simulation data",
+      "longitudinal functional data"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "longitudinal-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "multilevel modeling",
+      "longitudinal data analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating additive mixed models for correlated functional responses with crossed or nested functional random effects and scalar or functional covariates.",
+    "note": "Verified from the open JCGS manuscript and official refund documentation; the pffr implementation includes configurable simulation generators and package data for diffusion-tensor-imaging and longitudinal functional applications used in the modeling workflow."
+  },
+  {
+    "id": "jtsa-functional-factor-models-estimation-forecasting",
+    "title": "Factor Models for High-Dimensional Functional Time Series II: Estimation and Forecasting",
+    "authors": "Shahin Tavakoli, Gilles Nisol, Marc Hallin",
+    "year": 2022,
+    "citations": 17,
+    "dataset": "Zenodo code and data for simulations and Japanese mortality-curve forecasting in high-dimensional functional panels",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.7408998",
+    "paperUrl": "https://doi.org/10.1111/jtsa.12675",
+    "access": "open",
+    "formats": [
+      "zenodo replication archive",
+      "code",
+      "mortality curves",
+      "simulation data"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "time series analysis",
+      "time series forecasting",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Testing factor-number selection, common-component estimation, and mortality forecasting as both the cross-sectional dimension and time span grow.",
+    "note": "Verified from the Journal of Time Series Analysis article and its data-availability statement, which identify the Japanese Mortality Database as the original source and link a persistent Zenodo archive containing code and data for the Part II numerical results."
+  },
+  {
+    "id": "mathematics-cfda-categorical-functional-data",
+    "title": "Categorical Functional Data Analysis: The cfda R Package",
+    "authors": "Cristian Preda, Quentin Grimonprez, Vincent Vandewalle",
+    "year": 2021,
+    "citations": 5,
+    "dataset": "cfda care trajectories, biofam family-life sequences, flour quality trajectories, simulations, vignette, and package examples",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/cfda/html/00Index.html",
+    "paperUrl": "https://doi.org/10.3390/math9233074",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "vignette",
+      "categorical trajectories"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "longitudinal-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "dimension reduction",
+      "longitudinal data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Analyzing categorical state trajectories through optimal functional encodings, functional multiple correspondence analysis, descriptive summaries, and clustering.",
+    "note": "Verified from the open Mathematics article, public package repository, and official CRAN documentation; the package distributes 2,929 patient care trajectories plus biofam and flour datasets with explicit source documentation and reproducible examples."
   }
 ]
