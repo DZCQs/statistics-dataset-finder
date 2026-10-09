@@ -61679,5 +61679,239 @@
     ],
     "bestFor": "Analyzing categorical state trajectories through optimal functional encodings, functional multiple correspondence analysis, descriptive summaries, and clustering.",
     "note": "Verified from the open Mathematics article, public package repository, and official CRAN documentation; the package distributes 2,929 patient care trajectories plus biofam and flour datasets with explicit source documentation and reproducible examples."
+  },
+  {
+    "id": "jss-gamlss-location-scale-shape-r",
+    "title": "Generalized Additive Models for Location Scale and Shape (GAMLSS) in R",
+    "authors": "D. Mikis Stasinopoulos, Robert A. Rigby",
+    "year": 2007,
+    "citations": 1569,
+    "dataset": "gamlss.data real datasets and JSS example scripts spanning growth centiles, Munich rent, insurance claims, survival, and count outcomes",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/gamlss.data/html/00Index.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v023.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "distributional regression"
+    ],
+    "bestFor": "Learning and evaluating GAMLSS models in which location, scale, skewness, and kurtosis may vary with linear, nonlinear, or smooth covariate effects.",
+    "note": "Verified from the Journal of Statistical Software page, which supplies six related R packages and article example scripts, and from the official gamlss.data index, which exposes more than 50 documented real datasets including child growth, Munich rent, insurance claims, GDP, rainfall, stock-index, and survival examples."
+  },
+  {
+    "id": "jss-mlt-most-likely-transformations",
+    "title": "Most Likely Transformations: The mlt Package",
+    "authors": "Torsten Hothorn",
+    "year": 2020,
+    "citations": 43,
+    "dataset": "mlt conditional-transformation-model replication code and supplementary R data for censored, truncated, survival, and ordered-response examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v092i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v092.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "supplementary data",
+      "replication code",
+      "package examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "supplementary-materials",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "survival analysis",
+      "survival models",
+      "quantile regression"
+    ],
+    "bestFor": "Estimating and comparing exact-likelihood conditional transformation models for complete, censored, truncated, survival, and ordered outcomes.",
+    "note": "Verified from the official JSS article page, which directly links the mlt package, R replication code, supplementary data in R binary format, and supporting basefun and variables packages."
+  },
+  {
+    "id": "jss-transmodel-censored-transformation-models",
+    "title": "TransModel: An R Package for Linear Transformation Model with Censored Data",
+    "authors": "Jie Zhou, Jiajia Zhang, Wenbin Lu",
+    "year": 2022,
+    "citations": 4,
+    "dataset": "TransModel package PH_examp, PO_examp, and Veterans Administration lung-cancer survival data with JSS replication code",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/TransModel/html/00Index.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v101.i09",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "right-censored survival data"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Comparing proportional-hazards, proportional-odds, and broader linear transformation models under right censoring with survival-curve uncertainty bands.",
+    "note": "Verified from the official JSS page and CRAN documentation. The article provides replication code and applies the package to Veterans Administration lung-cancer data; the package index exposes the veteran dataset and separate proportional-hazards and proportional-odds examples."
+  },
+  {
+    "id": "aoas-distributional-regression-forests-precipitation",
+    "title": "Distributional Regression Forests for Probabilistic Precipitation Forecasting in Complex Terrain",
+    "authors": "Lisa Schlosser, Torsten Hothorn, Reto Stauffer, Achim Zeileis",
+    "year": 2019,
+    "citations": 65,
+    "dataset": "RainTyrol numerical-weather-prediction and precipitation observations with disttree demos for Axams, stationwise evaluation, response distributions, and full paper replication",
+    "datasetUrl": "https://www.zeileis.org/news/distforest/",
+    "paperUrl": "https://doi.org/10.1214/19-AOAS1247",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication demos",
+      "spatio-temporal weather data"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "spatial-data",
+      "time-series",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "time series forecasting",
+      "time series analysis",
+      "spatial statistics",
+      "spatio-temporal models",
+      "variable selection"
+    ],
+    "bestFor": "Evaluating distributional trees and forests for probabilistic forecasts when nonlinear covariate effects, interactions, censoring, and automatic variable selection matter.",
+    "note": "Verified from the Annals of Applied Statistics paper and the authors' software page. The paper documents disttree demos for Axams and all Tyrol results and identifies the public RainTyrol companion package on the partykit R-Forge project."
+  },
+  {
+    "id": "rjournal-bnsp-bayesian-semiparametric-regression",
+    "title": "BNSP: an R Package for Fitting Bayesian Semiparametric Regression Models and Variable Selection",
+    "authors": "Georgios Papageorgiou",
+    "year": 2018,
+    "citations": 6,
+    "dataset": "BNSP simulations and reproducible real-data analyses using Canadian census wages, Wooldridge wages, fMRI brain activity, and mtcars variable-selection data",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2018-069/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2018-069",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "article code",
+      "simulation data"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "bayesian inference",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Studying Bayesian semiparametric mean-variance regression, spike-and-slab regularization, nonlinear effect selection, and posterior predictive uncertainty.",
+    "note": "Verified from The R Journal article and linked CRAN package. The article contains executable code for three simulation studies and four public empirical datasets, including cps71 and wage1 from np, brain from gamair, and mtcars."
+  },
+  {
+    "id": "jrssb-isotonic-distributional-regression",
+    "title": "Isotonic Distributional Regression",
+    "authors": "Alexander Henzi, Johanna F. Ziegel, Tilmann Gneiting",
+    "year": 2021,
+    "citations": 47,
+    "dataset": "isodistrreg Frankfurt Airport precipitation observations and 52-member ECMWF ensemble forecasts from 2007 through 2016",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/isodistrreg/html/rain.html",
+    "paperUrl": "https://doi.org/10.1111/rssb.12450",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "ensemble forecasts",
+      "precipitation observations"
+    ],
+    "properties": [
+      "package-data",
+      "time-series",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "time series forecasting",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating nonparametric full-distribution calibration under stochastic-order constraints using ensemble forecasts and proper scoring rules.",
+    "note": "Verified from the JRSS B article, the authors' isodistrreg repository, and official CRAN documentation. The package distributes 3,617 days of Frankfurt precipitation observations and operational ECMWF forecasts with documented TIGGE and station-data sources."
+  },
+  {
+    "id": "plosone-treatment-effects-distributional-regression",
+    "title": "Treatment Effects Beyond the Mean Using Distributional Regression: Methods and Guidance",
+    "authors": "Maike Hohberg, Peter Pütz, Thomas Kneib",
+    "year": 2020,
+    "citations": 21,
+    "dataset": "Mexican Progresa household survey and cash-transfer experiment with GAMLSS analysis code and supporting bootstrap materials",
+    "datasetUrl": "https://www.aeaweb.org/articles?id=10.1257/aer.99.1.486",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0226514",
+    "access": "open",
+    "formats": [
+      "household survey",
+      "randomized experiment",
+      "article code",
+      "supporting information"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "survey-data",
+      "experimental-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "heterogeneous treatment effects",
+      "resampling methods"
+    ],
+    "bestFor": "Estimating how an intervention changes variance, quantiles, inequality, and poverty risk rather than only the conditional mean in program evaluation.",
+    "note": "Verified from the open PLOS ONE article and its data-availability section. The application section links the Progresa dataset on the American Economic Association article page and separate downloadable software code from the University of Goettingen; PLOS also supplies supporting bootstrap diagnostics."
   }
 ]
