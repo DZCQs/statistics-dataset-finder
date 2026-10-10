@@ -61913,5 +61913,272 @@
     ],
     "bestFor": "Estimating how an intervention changes variance, quantiles, inequality, and poverty risk rather than only the conditional mean in program evaluation.",
     "note": "Verified from the open PLOS ONE article and its data-availability section. The application section links the Progresa dataset on the American Economic Association article page and separate downloadable software code from the University of Goettingen; PLOS also supplies supporting bootstrap diagnostics."
+  },
+  {
+    "id": "rjournal-simexboost-high-dimensional-measurement-error",
+    "title": "SIMEXBoost: An R package for Analysis of High-Dimensional Error-Prone Data Based on Boosting Method",
+    "authors": "Li-Pang Chen, Bangxu Qiu",
+    "year": 2023,
+    "citations": 8,
+    "dataset": "SIMEXBoost package simulations and R Journal supplementary materials for high-dimensional regression with error-prone predictors",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2023-080/RJ-2023-080.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-080",
+    "access": "open",
+    "formats": [
+      "r",
+      "package source",
+      "article supplement",
+      "simulation code"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Evaluating simultaneous measurement-error correction, estimation, and variable selection for high-dimensional generalized linear and survival regression models.",
+    "note": "Verified from The R Journal article, its downloadable supplementary archive, and the CRAN SIMEXBoost package. The materials implement boosting with simulation extrapolation and include reproducible numerical studies across supported regression models."
+  },
+  {
+    "id": "rjournal-swgee-longitudinal-missing-measurement-error",
+    "title": "swgee: An R Package for Analyzing Longitudinal Data with Response Missingness and Covariate Measurement Error",
+    "authors": "Juan Xiong, Grace Y. Yi",
+    "year": 2019,
+    "citations": 3,
+    "dataset": "swgee BMI subset of the Framingham Heart Study with five repeated assessments, missing responses, and error-prone covariates",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/swgee/html/BMI.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2019-031",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "longitudinal data",
+      "missing-data example"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "code",
+      "longitudinal-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "longitudinal data analysis",
+      "missing data"
+    ],
+    "bestFor": "Studying joint correction of covariate measurement error and missing-at-random responses in marginal models for repeated measurements.",
+    "note": "Verified from The R Journal article and official CRAN documentation. The package distributes a 500-row BMI dataset for 100 Framingham participants observed at five visits and demonstrates SIMEX combined with inverse-probability-weighted GEE."
+  },
+  {
+    "id": "rjournal-mgee2-misclassified-longitudinal-ordinal-data",
+    "title": "mgee2: An R package for marginal analysis of longitudinal ordinal data with misclassified responses and covariates",
+    "authors": "Yuliang Xu, Shuo Shuo Liu, Grace Y. Yi",
+    "year": 2021,
+    "citations": 1,
+    "dataset": "mgee2 preprocessed Framingham Heart Study teaching data with longitudinal ordinal responses, covariates, and validation-subsample examples",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/mgee2/html/heart.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-093",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "longitudinal ordinal data",
+      "validation subsample"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "code",
+      "longitudinal-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Comparing naive and corrected second-order generalized estimating equations for misclassified longitudinal ordinal responses and covariates.",
+    "note": "Verified from The R Journal article and official CRAN documentation. The package includes a 1,830-row Framingham teaching dataset for 915 participants and supports both known misclassification parameters and parameters estimated from a validation subsample."
+  },
+  {
+    "id": "bmc-affect-error-contaminated-survival-gene-expression",
+    "title": "AFFECT: an R package for accelerated functional failure time model with error-contaminated survival times and applications to gene expression data",
+    "authors": "Li-Pang Chen, Hsiao-Ting Huang",
+    "year": 2024,
+    "citations": 8,
+    "dataset": "METABRIC breast-cancer gene-expression profiles with survival outcomes and AFFECT package analysis code",
+    "datasetUrl": "https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric",
+    "paperUrl": "https://doi.org/10.1186/s12859-024-05831-5",
+    "access": "open",
+    "formats": [
+      "r",
+      "gene expression",
+      "survival data",
+      "package source"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "high-dimensional",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "survival analysis",
+      "survival models",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating accelerated functional failure-time methods when survival times and censoring indicators are error-contaminated and predictors are high-dimensional functions.",
+    "note": "Verified from the open BMC Bioinformatics article, its explicit data-availability statement, and the CRAN AFFECT package. The paper links the full METABRIC dataset and supplies an implementation for regression-calibration-based correction."
+  },
+  {
+    "id": "ajps-causal-inference-differential-measurement-error",
+    "title": "Causal Inference with Differential Measurement Error: Nonparametric Identification and Sensitivity Analysis",
+    "authors": "Kosuke Imai, Teppei Yamamoto",
+    "year": 2010,
+    "citations": 80,
+    "dataset": "Harvard Dataverse replication archive for a randomized democratic-deliberation field experiment with differentially misclassified treatment measurements",
+    "datasetUrl": "https://doi.org/10.7910/DVN/TZOGL9",
+    "paperUrl": "https://doi.org/10.1111/j.1540-5907.2010.00446.x",
+    "access": "open",
+    "formats": [
+      "replication archive",
+      "field experiment",
+      "survey data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "experimental-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "survey experiments",
+      "survey methodology"
+    ],
+    "bestFor": "Studying partial identification and sensitivity analysis for treatment effects when a binary treatment is differentially misclassified.",
+    "note": "Verified from the authors' official paper page and linked Harvard Dataverse replication archive. The empirical application reanalyzes a field experiment on democratic deliberation and quantifies how post-outcome treatment measurement can distort causal conclusions."
+  },
+  {
+    "id": "jcgs-qp-density-deconvolution-measurement-error",
+    "title": "Density Deconvolution With Additive Measurement Errors Using Quadratic Programming",
+    "authors": "Ran Yang, Daniel W. Apley, Jeremy C. Staum, David Ruppert",
+    "year": 2020,
+    "citations": 12,
+    "dataset": "Figshare supplementary archive with QPdecon R code, package vignette, simulations, and the sodium measurement-error dataset",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.11396871",
+    "paperUrl": "https://doi.org/10.1080/10618600.2019.1704294",
+    "access": "open",
+    "formats": [
+      "r",
+      "figshare archive",
+      "package source",
+      "measurement-error data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "simulation-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Comparing constrained quadratic-programming and kernel estimators for recovering latent densities from noisy observations.",
+    "note": "Verified from the JCGS article and its Figshare supplement. The archive includes the QPdecon package, R code, a vignette, simulation materials, and the sodium dataset used in the empirical illustration."
+  },
+  {
+    "id": "bayesian-analysis-multinomial-measurement-error",
+    "title": "A Unified Bayesian Framework for Modeling Measurement Error in Multinomial Data",
+    "authors": "Matthew D. Koslovsky, Andee Kaplan, Victoria A. Terranova, Mevin B. Hooten",
+    "year": 2024,
+    "citations": 1,
+    "dataset": "missZIDM supplementary R package with simulation generators, acoustic-bat examples, and official crime-data analysis vignette",
+    "datasetUrl": "https://doi.org/10.1214/24-BA1477SUPPB",
+    "paperUrl": "https://doi.org/10.1214/24-BA1477",
+    "access": "open",
+    "formats": [
+      "r",
+      "supplementary package",
+      "count data",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "vignettes",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "mixture models"
+    ],
+    "bestFor": "Evaluating Bayesian hierarchical correction for simultaneous false positives and false negatives in zero-inflated multinomial or multivariate count data.",
+    "note": "Verified from the Bayesian Analysis paper and its named missZIDM software supplement. The supplement contains data generators, a reproducible vignette, and worked analyses of acoustic-bat monitoring and official crime data."
+  },
+  {
+    "id": "statistics-medicine-bayesian-functional-measurement-error",
+    "title": "A Bayesian semi-parametric scalar-on-function regression with measurement error using instrumental variables",
+    "authors": "Roger S. Zoh, Yuanyuan Luan, Lan Xue, David B. Allison, Carmen D. Tekwe",
+    "year": 2024,
+    "citations": 5,
+    "dataset": "SoFR-ME repository with R implementation, sample inputs, simulations, and NHANES 2005-2006 accelerometer analysis materials",
+    "datasetUrl": "https://github.com/rszoh/SoFR-ME",
+    "paperUrl": "https://doi.org/10.1002/sim.10165",
+    "access": "open",
+    "formats": [
+      "r",
+      "github repository",
+      "functional data",
+      "simulation data"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "high-dimensional",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Studying semiparametric Bayesian scalar-on-function regression when dense functional covariates are measured with correlated error and identified through auxiliary instruments.",
+    "note": "Verified from the open Statistics in Medicine article and its linked public SoFR-ME repository. The repository provides R code, sample input data, and documentation; the application uses NHANES accelerometer intensity, step-count instruments, BMI, and survey weights."
   }
 ]
