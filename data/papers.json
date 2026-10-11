@@ -62176,9 +62176,336 @@
       "bayesian inference",
       "bayesian hierarchical models",
       "functional data analysis",
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "instrumental variables"
     ],
     "bestFor": "Studying semiparametric Bayesian scalar-on-function regression when dense functional covariates are measured with correlated error and identified through auxiliary instruments.",
     "note": "Verified from the open Statistics in Medicine article and its linked public SoFR-ME repository. The repository provides R code, sample input data, and documentation; the application uses NHANES accelerometer intensity, step-count instruments, BMI, and survey weights."
+  },
+  {
+    "id": "rnews-geor-geostatistical-analysis",
+    "title": "geoR: A package for geostatistical analysis",
+    "authors": "Paulo J. Ribeiro Jr., Peter J. Diggle",
+    "year": 2001,
+    "citations": 125,
+    "dataset": "geoR package collection of geostatistical teaching and research datasets, including Gambia malaria, Rongelap radionuclide, Parana rainfall, soil chemistry, aquifer, and spatial interpolation data",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/geoR/html/00Index.html",
+    "paperUrl": "https://journal.r-project.org/articles/RN-2001-013/",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "spatial coordinates",
+      "geostatistical data"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Teaching and comparing likelihood, variogram, kriging, and Bayesian analyses of point-referenced geostatistical data.",
+    "note": "Verified from the R News article and current official geoR documentation. The package index exposes numerous named real datasets together with conventional and Bayesian geostatistical functions."
+  },
+  {
+    "id": "cageo-gstat-multivariable-geostatistics",
+    "title": "Multivariable geostatistics in S: the gstat package",
+    "authors": "Edzer J. Pebesma",
+    "year": 2004,
+    "citations": 3020,
+    "dataset": "gstat package datasets for multivariable geostatistics, including Jura soil chemistry, Meuse river heavy metals, Swiss rainfall, coal ash, Oxford soil, and North Sea sediment measurements",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/gstat/html/00Index.html",
+    "paperUrl": "https://doi.org/10.1016/j.cageo.2004.03.012",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "spatial coordinates",
+      "multivariate geostatistical data"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Benchmarking variograms, kriging, cokriging, and conditional simulation on established multivariable spatial datasets.",
+    "note": "Verified from the journal paper and official gstat documentation. The package provides direct access to multiple real geostatistical datasets used across spatial-methods examples."
+  },
+  {
+    "id": "jss-gwmodel-spatial-heterogeneity",
+    "title": "GWmodel: An R Package for Exploring Spatial Heterogeneity Using Geographically Weighted Models",
+    "authors": "Isabella Gollini, Binbin Lu, Martin Charlton, Christopher Brunsdon, Paul Harris",
+    "year": 2015,
+    "citations": 503,
+    "dataset": "GWmodel example datasets for Georgia census variables, London house prices, US elections, Dublin voter turnout, and English house-price analysis",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/GWmodel/html/LondonHP.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i17",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "spatial points",
+      "census and housing data"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "robust statistics",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing geographically weighted regression, robust local summaries, and geographically weighted principal components across social and housing datasets.",
+    "note": "Verified from the Journal of Statistical Software paper, its executable example code, and official GWmodel dataset documentation. The article documents five bundled datasets and uses Dublin voter and English house-price data as core case studies."
+  },
+  {
+    "id": "jss-randomfields-multivariate-random-fields",
+    "title": "Analysis, Simulation and Prediction of Multivariate Random Fields with Package RandomFields",
+    "authors": "Martin Schlather, Alexander Malinowski, Peter J. Menck, Marco Oesting, Kirstin Strokorb",
+    "year": 2015,
+    "citations": 209,
+    "dataset": "RandomFields UWME multivariate weather observations and soil physical data with published analysis code",
+    "datasetUrl": "https://rdrr.io/cran/RandomFields/man/weather.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "multivariate weather data",
+      "spatial coordinates"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating covariance models, parameter estimation, prediction, and simulation for multivariate spatial and spatio-temporal random fields.",
+    "note": "Verified from the Journal of Statistical Software paper and RandomFields package documentation. The package distributes the UWME weather data used for the paper's multivariate estimation and prediction example."
+  },
+  {
+    "id": "jss-bcp-bayesian-change-points",
+    "title": "bcp: An R Package for Performing a Bayesian Analysis of Change Point Problems",
+    "authors": "Chandra Erdman, John W. Emerson",
+    "year": 2007,
+    "citations": 364,
+    "dataset": "Journal of Statistical Software bcp package archive and reproducible economic and microarray change-point examples",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/download/v023i03/1681",
+    "paperUrl": "https://doi.org/10.18637/jss.v023.i03",
+    "access": "open",
+    "formats": [
+      "r",
+      "package source",
+      "economic time series",
+      "microarray data"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "bayesian inference"
+    ],
+    "bestFor": "Studying product-partition Bayesian change-point inference and posterior change probabilities on economic and genomic sequences.",
+    "note": "Verified from the Journal of Statistical Software article and its downloadable bcp package and example-code attachments. The paper explicitly illustrates the method with economic and microarray data from the literature."
+  },
+  {
+    "id": "rse-bfast-trend-seasonal-change",
+    "title": "Detecting trend and seasonal changes in satellite image time series",
+    "authors": "Jan Verbesselt, Rob J. Hyndman, Glenn Newnham, Darius Culvenor",
+    "year": 2010,
+    "citations": 1861,
+    "dataset": "bfast package NDVI series for a harvested Pinus radiata plantation and satellite locations in southern Somalia",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/bfast/html/harvest.html",
+    "paperUrl": "https://doi.org/10.1016/j.rse.2009.08.014",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "ndvi time series",
+      "satellite data"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "code",
+      "time-series-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Detecting abrupt breaks in trend and seasonal components of remotely sensed environmental time series.",
+    "note": "Verified from the Remote Sensing of Environment paper and official bfast documentation. The package exposes the paper's harvested-plantation NDVI series plus Somalia NDVI and raster examples."
+  },
+  {
+    "id": "rjournal-ssnbayes-stream-networks",
+    "title": "SSNbayes: An R Package for Bayesian Spatio-Temporal Modelling on Stream Networks",
+    "authors": "Edgar Santos-Fernandez, Jay M. Ver Hoef, James M. McGree, Daniel J. Isaak, Kerrie Mengersen, Erin E. Peterson",
+    "year": 2023,
+    "citations": 3,
+    "dataset": "SSNdata Clearwater River Basin stream-network object, water-temperature observations, covariates, and prediction locations",
+    "datasetUrl": "https://github.com/EdgarSantos-Fernandez/SSNdata",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-061",
+    "access": "open",
+    "formats": [
+      "r",
+      "github repository",
+      "stream network",
+      "spatio-temporal temperature data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "existing-dataset",
+      "code",
+      "spatio-temporal-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "time series analysis"
+    ],
+    "bestFor": "Fitting Bayesian spatial and temporal dependence models and producing network-wide probabilistic predictions on branching streams.",
+    "note": "Verified from The R Journal article, its supplement, and the linked public SSNdata repository. The companion package contains the Clearwater network, 18 observation sites, 60 prediction locations, covariates, and water-temperature records."
+  },
+  {
+    "id": "rjournal-geoadjust-positional-uncertainty",
+    "title": "GeoAdjust: Adjusting for Positional Uncertainty in Geostatistial Analysis of DHS Data",
+    "authors": "Umut Altay, John Paige, Andrea Riebler, Geir-Arne Fuglstad",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "The R Journal GeoAdjust supplementary archive with reproducible DHS-style geostatistical examples, code, and supporting inputs",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-027/RJ-2024-027.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-027",
+    "access": "open",
+    "formats": [
+      "r",
+      "supplementary archive",
+      "georeferenced survey data",
+      "raster covariates"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "survey-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "measurement error models",
+      "bayesian inference"
+    ],
+    "bestFor": "Assessing and correcting bias from intentionally displaced survey coordinates in raster- and distance-based geostatistical analyses.",
+    "note": "Verified from The R Journal article and its direct supplementary-material archive. GeoAdjust treats unknown true coordinates as latent quantities and provides empirical Bayesian correction for positional uncertainty in DHS-style analyses."
+  },
+  {
+    "id": "rjournal-spmc-continuous-lag-markov",
+    "title": "spMC: Modelling Spatial Random Fields with Continuous Lag Markov Chains",
+    "authors": "Luca Sartore",
+    "year": 2013,
+    "citations": 14,
+    "dataset": "gstat Jura spatial dataset with 359 sampled locations, categorical rock and land-use variables, soil chemistry, and a 5,957-site prediction grid",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/gstat/html/jura.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2013-022",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "categorical spatial data",
+      "soil chemistry"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Estimating continuous-lag Markov transition models and evaluating prediction or simulation of categorical spatial random fields.",
+    "note": "Verified from The R Journal article and the official gstat Jura data documentation. The paper directly loads the public Jura data and uses its rock-type field and spatial grid throughout the worked analysis."
+  },
+  {
+    "id": "jmlr-changeforest-random-forests",
+    "title": "Random Forests for Change Point Detection",
+    "authors": "Malte Londschien, Peter Buhlmann, Solt Kovacs",
+    "year": 2023,
+    "citations": 15,
+    "dataset": "changeforest simulation and benchmark repository with generated datasets, per-seed CSV results, comparison methods, and scripts reproducing the paper's tables and figures",
+    "datasetUrl": "https://github.com/mlondschien/changeforest-simulations",
+    "paperUrl": "https://www.jmlr.org/papers/v24/22-0512.html",
+    "access": "open",
+    "formats": [
+      "python",
+      "csv",
+      "simulation data",
+      "github repository"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "high-dimensional",
+      "benchmark",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Benchmarking nonparametric multivariate change-point detection when distributional changes may occur beyond the mean and dimension is moderate or high.",
+    "note": "Verified from the JMLR paper and the authors' public simulation repository. The repository includes CSV outputs for the reported experiments and scripts that regenerate the paper's tables and figures."
   }
 ]
