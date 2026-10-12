@@ -62507,5 +62507,311 @@
     ],
     "bestFor": "Benchmarking nonparametric multivariate change-point detection when distributional changes may occur beyond the mean and dimension is moderate or high.",
     "note": "Verified from the JMLR paper and the authors' public simulation repository. The repository includes CSV outputs for the reported experiments and scripts that regenerate the paper's tables and figures."
+  },
+  {
+    "id": "rjournal-qtools-quantile-inference",
+    "title": "Qtools: A Collection of Models and Tools for Quantile Inference",
+    "authors": "Marco Geraci",
+    "year": 2016,
+    "citations": 36,
+    "dataset": "Qtools package examples including the 118-observation esterase binding dataset, airquality data, and code for transformation-based, restricted, discrete, and multiple-imputation quantile methods",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2016-037/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2016-037",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "article examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Studying unconditional and conditional quantiles, transformation-based quantile regression, discrete responses, restricted quantiles, and quantile-based multiple imputation.",
+    "note": "Verified from The R Journal article and its executable examples. The paper directly loads the bundled esterase data and documents the package's quantile-regression and multiple-imputation workflows."
+  },
+  {
+    "id": "jss-frb-fast-robust-bootstrap",
+    "title": "Fast and Robust Bootstrap for Multivariate Inference: The R Package FRB",
+    "authors": "Stefan Van Aelst, Gert Willems",
+    "year": 2013,
+    "citations": 21,
+    "dataset": "Official FRB package and JSS example code for robust principal components, Hotelling tests, and multivariate regression with fast robust bootstrap inference",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v053i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v053.i03",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "resampling methods",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing fast robust bootstrap uncertainty estimates for robust PCA, multivariate location tests, and multivariate regression under contamination.",
+    "note": "Verified from the official JSS page, which links the FRB package and the paper's R example code. The worked resources reproduce robust multivariate analyses reported in the article."
+  },
+  {
+    "id": "jss-groc-orthogonal-components",
+    "title": "The R Package groc for Generalized Regression on Orthogonal Components",
+    "authors": "Martin Bilodeau, Pierre Lafaye de Micheaux, Smail Mahdi",
+    "year": 2015,
+    "citations": 18,
+    "dataset": "Official groc package, JSS example code, and supplementary datasets for robust and classical regression on orthogonal components and partial least squares",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v065i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v065.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "supplementary data",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating robust multivariate regression, robust partial least squares, orthogonal-component prediction, and outlier-resistant cross-validation criteria.",
+    "note": "Verified from the official JSS article page, which provides the groc package, paper example code, and a separate supplementary-data attachment."
+  },
+  {
+    "id": "jss-robper-robust-periodograms",
+    "title": "RobPer: An R Package to Calculate Periodograms for Light Curves Based on Robust Regression",
+    "authors": "Anita M. Thieler, Roland Fried, Jonathan Rathjens",
+    "year": 2016,
+    "citations": 24,
+    "dataset": "Official RobPer package and JSS replication code for irregularly sampled light curves, measurement-accuracy weighting, artificial light-curve generation, and robust period detection",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v069i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v069.i09",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "time series"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Testing period detection in irregular, heteroskedastic time series under outliers with least trimmed squares, M-, S-, tau-, and median regression.",
+    "note": "Verified from the official JSS page, which links the RobPer package and article replication code. The package also supplies a generator for controlled light-curve simulations."
+  },
+  {
+    "id": "joss-robusthd-high-dimensional-regression",
+    "title": "robustHD: An R package for robust regression with high-dimensional data",
+    "authors": "Andreas Alfons",
+    "year": 2021,
+    "citations": 34,
+    "dataset": "robustHD software archive and CRAN package data including NCI-60 protein expression and Top Gear automobile data for robust sparse regression and variable selection",
+    "datasetUrl": "https://CRAN.R-project.org/package=robustHD",
+    "paperUrl": "https://doi.org/10.21105/joss.03786",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "software archive"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "high-dimensional",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Benchmarking robust least-angle regression, sparse least-trimmed squares, groupwise selection, and contamination-resistant high-dimensional regression.",
+    "note": "Verified from the JOSS paper, its archived software repository, and the CRAN reference manual. The package documents and distributes NCI-60 and Top Gear example datasets."
+  },
+  {
+    "id": "jss-ssmrob-sample-selection",
+    "title": "Robust Analysis of Sample Selection Models through the R Package ssmrob",
+    "authors": "Mikhail Zhelonkin, Elvezio Ronchetti",
+    "year": 2021,
+    "citations": 10,
+    "dataset": "Official ssmrob package and two JSS replication-code archives for robust Heckman sample-selection and endogenous-treatment examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v099i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v099.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "econometric examples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "missing data",
+      "nonignorable missing data",
+      "causal inference"
+    ],
+    "bestFor": "Studying robust estimation and inference for nonrandom sample selection, Heckman-type models, selectivity tests, and endogenous treatment models.",
+    "note": "Verified from the official JSS page, which provides the ssmrob package and two replication-code downloads. Sample selection is represented as nonignorable missingness induced by an observed selection rule."
+  },
+  {
+    "id": "rjournal-siqr-single-index-quantile",
+    "title": "SIQR: An R Package for Single-index Quantile Regression",
+    "authors": "Tianhai Zu, Yan Yu",
+    "year": 2021,
+    "citations": 8,
+    "dataset": "Boston Housing data with 506 census tracts and 13 predictors, plus executable SIQR simulations and real-data analysis code",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/MASS/html/Boston.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-092",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "article examples"
+    ],
+    "properties": [
+      "existing-dataset",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "dimension reduction",
+      "high-dimensional statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Evaluating nonlinear single-index quantile regression, bootstrap coefficient uncertainty, and low-dimensional projections of heterogeneous conditional distributions.",
+    "note": "Verified from The R Journal article and official MASS documentation. The paper gives complete code for its Boston Housing analysis and identifies the maintained package-data source."
+  },
+  {
+    "id": "rjournal-rqpen-penalized-quantile",
+    "title": "rqPen: An R Package for Penalized Quantile Regression",
+    "authors": "Ben Sherwood, Shaobo Li, Adam Maidman",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "R Journal supplementary archive and Ames Housing example data for lasso, elastic-net, SCAD, MCP, and grouped penalized quantile regression",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2025-017/RJ-2025-017.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2025-017",
+    "access": "open",
+    "formats": [
+      "r",
+      "supplementary archive",
+      "housing data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "high-dimensional",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing sparse and grouped variable-selection penalties across multiple conditional quantiles in high-dimensional regression.",
+    "note": "Verified from The R Journal article and its direct supplementary archive. The worked group-penalty example loads public Ames Housing data and provides executable preprocessing and model code."
+  },
+  {
+    "id": "rjournal-qris-residual-life-quantiles",
+    "title": "Fitting a Quantile Regression Model for Residual Life with the R Package qris",
+    "authors": "Kyu Hyun Kim, Sangwook Kang, Sy Han Chiou",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "North Central Cancer Treatment Group lung-cancer survival data and qris simulation generator for right-censored residual-life quantile regression",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-007/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-007",
+    "access": "open",
+    "formats": [
+      "r",
+      "survival data",
+      "simulation code"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Modeling dynamic covariate effects on conditional residual-life quantiles under right censoring and comparing induced-smoothing estimators.",
+    "note": "Verified from The R Journal article and its package links. The article provides simulation-generation code and a complete analysis of the public NCCTG lung-cancer dataset."
+  },
+  {
+    "id": "rjournal-bqror-bayesian-ordinal-quantiles",
+    "title": "bqror: An R package for Bayesian Quantile Regression in Ordinal Models",
+    "authors": "Prajual Maheshwari, Mohammad Arshad Rahman",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Bundled NLSY educational-attainment and tax-policy opinion data, six ordinal simulation datasets, and R Journal supplementary materials for Bayesian ordinal quantile regression",
+    "datasetUrl": "https://CRAN.R-project.org/package=bqror",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-042",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "supplementary archive",
+      "mcmc output"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Evaluating Bayesian ordinal quantile models, Gibbs and Metropolis-Hastings samplers, marginal-likelihood comparisons, and covariate effects for ordered outcomes.",
+    "note": "Verified from The R Journal article and CRAN package. The package includes both real applications, six simulated ordinal datasets, posterior draws, and inefficiency-factor diagnostics used by the paper."
   }
 ]
