@@ -62813,5 +62813,374 @@
     ],
     "bestFor": "Evaluating Bayesian ordinal quantile models, Gibbs and Metropolis-Hastings samplers, marginal-likelihood comparisons, and covariate effects for ordered outcomes.",
     "note": "Verified from The R Journal article and CRAN package. The package includes both real applications, six simulated ordinal datasets, posterior draws, and inefficiency-factor diagnostics used by the paper."
+  },
+  {
+    "id": "jss-dicekriging-diceoptim",
+    "title": "DiceKriging, DiceOptim: Two R Packages for the Analysis of Computer Experiments by Kriging-Based Metamodeling and Optimization",
+    "authors": "Olivier Roustant, David Ginsbourger, Yves Deville",
+    "year": 2012,
+    "citations": 597,
+    "dataset": "DiceKriging and DiceOptim R packages with JSS replication scripts for kriging metamodels, numerical computer experiments, and sequential optimization",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v051i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v051.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "simulation examples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "sequential-design",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design",
+      "spatial statistics"
+    ],
+    "bestFor": "Studying kriging-based computer experiments, surrogate uncertainty, expected-improvement optimization, and sequential selection of design points.",
+    "note": "Verified from the official JSS page, which provides both R packages and article example code. The examples reproduce metamodel fitting and sequential optimal-design workflows."
+  },
+  {
+    "id": "jss-dicedesign-diceeval",
+    "title": "DiceDesign and DiceEval: Two R Packages for Design and Analysis of Computer Experiments",
+    "authors": "Delphine Dupuy, Celine Helbert, Jessica Vaz Franco",
+    "year": 2015,
+    "citations": 130,
+    "dataset": "DiceDesign and DiceEval R packages with JSS example code, a two-dimensional test function, and a five-dimensional industrial computer-experiment case study",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v065i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v065.i11",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "simulation examples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "computer-experiments",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Comparing space-filling design construction and geometric design-quality criteria for numerical and industrial computer experiments.",
+    "note": "Verified from the official JSS page, which supplies both R packages and executable article examples. The resource documents the public test function and industrial case study used in the paper."
+  },
+  {
+    "id": "jss-randomizer-randomization",
+    "title": "randomizeR: An R Package for the Assessment and Implementation of Randomization in Clinical Trials",
+    "authors": "Diane Uschner, David Schindler, Ralf-Dieter Hilgers, Nicole Heussen",
+    "year": 2018,
+    "citations": 142,
+    "dataset": "randomizeR package and JSS replication code for generating, assessing, and comparing clinical-trial randomization sequences",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v085i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v085.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "randomization sequences"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments"
+    ],
+    "bestFor": "Evaluating restricted and unrestricted randomization procedures, allocation predictability, selection bias, and chronological bias in randomized trials.",
+    "note": "Verified from the official JSS page, which provides the randomizeR package and replication code. The package exposes reproducible randomization-sequence generators and design-assessment simulations."
+  },
+  {
+    "id": "jss-idefix-discrete-choice",
+    "title": "Generating Optimal Designs for Discrete Choice Experiments in R: The idefix Package",
+    "authors": "Frits Traets, Daniel Gil-Sanchez, Martina Vandebroek",
+    "year": 2020,
+    "citations": 101,
+    "dataset": "idefix R package and two JSS replication archives for Bayesian and adaptive optimal discrete-choice survey designs",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v096i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v096.i03",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "choice-design matrices"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "survey-design",
+      "adaptive-design",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design",
+      "survey methodology"
+    ],
+    "bestFor": "Constructing and comparing locally optimal, Bayesian optimal, and sequential adaptive designs for discrete-choice surveys.",
+    "note": "Verified from the official JSS page, which provides the idefix package and two replication-code archives. The package also supports respondent data collection for adaptive designs."
+  },
+  {
+    "id": "jss-bcrm-dose-finding",
+    "title": "bcrm: Bayesian Continual Reassessment Method Designs for Phase I Dose-Finding Trials",
+    "authors": "Michael J. Sweeting, Adrian Mander, Tony Sabin",
+    "year": 2013,
+    "citations": 47,
+    "dataset": "bcrm R package and JSS example code for simulating, calibrating, and comparing Bayesian continual-reassessment dose-escalation designs",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v054i13",
+    "paperUrl": "https://doi.org/10.18637/jss.v054.i13",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "trial simulations"
+    ],
+    "properties": [
+      "simulation-data",
+      "code",
+      "adaptive-design",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design",
+      "bayesian inference"
+    ],
+    "bestFor": "Studying adaptive Bayesian dose finding, prior sensitivity, escalation rules, and operating characteristics of continual-reassessment designs.",
+    "note": "Verified from the official JSS page, which provides the bcrm package and paper example code. The reusable simulations compare design choices under explicit toxicity scenarios."
+  },
+  {
+    "id": "jss-mams-multi-arm",
+    "title": "The R Package MAMS for Designing Multi-Arm Multi-Stage Clinical Trials",
+    "authors": "Thomas Jaki, Philip Pallmann, Dominic Magirr",
+    "year": 2019,
+    "citations": 37,
+    "dataset": "MAMS R package and JSS replication code with real-trial design examples for multi-arm multi-stage studies",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v088i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v088.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "trial-design examples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "adaptive-design",
+      "group-sequential",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "optimal experimental design",
+      "multiple testing"
+    ],
+    "bestFor": "Designing and evaluating multi-arm multi-stage trials with interim selection, multiplicity control, conditional-error updates, and several endpoint types.",
+    "note": "Verified from the official JSS page, which supplies the MAMS package and replication code. The article's worked examples are based on real trial designs and include familywise type-I-error control."
+  },
+  {
+    "id": "aiche-pyomo-doe",
+    "title": "Pyomo.DOE: An Open-Source Package for Model-Based Design of Experiments in Python",
+    "authors": "Jialu Wang, Alexander W. Dowling",
+    "year": 2022,
+    "citations": 43,
+    "dataset": "Open-source Pyomo.DoE implementation, documentation, and executable model-based experimental-design examples in the Pyomo repository",
+    "datasetUrl": "https://github.com/Pyomo/pyomo/tree/main/pyomo/contrib/doe",
+    "paperUrl": "https://doi.org/10.1002/aic.17813",
+    "access": "open",
+    "formats": [
+      "python",
+      "source code",
+      "notebooks"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "simulation-data",
+      "model-based-design",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Reproducing Fisher-information-based design studies for science-based models, including dynamic and large-scale nonlinear systems.",
+    "note": "Verified from the publisher record, official Pyomo.DoE documentation, and maintained Pyomo source tree. The public repository includes executable examples and tutorial notebooks."
+  },
+  {
+    "id": "rjournal-altopt-life-testing",
+    "title": "ALTopt: An R Package for Optimal Experimental Design of Accelerated Life Testing",
+    "authors": "Kangwon Seo, Rong Pan",
+    "year": 2015,
+    "citations": 8,
+    "dataset": "ALTopt R package and article examples for D-, U-, and I-optimal accelerated-life tests with right- and interval-censored Weibull outcomes",
+    "datasetUrl": "https://CRAN.R-project.org/package=ALTopt",
+    "paperUrl": "https://doi.org/10.32614/RJ-2015-029",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "censored survival simulations"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "optimal experimental design",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Comparing optimal test plans for reliability prediction and parameter estimation under right or interval censoring and multiple stress factors.",
+    "note": "Verified from The R Journal article and the maintained CRAN package. The article provides executable optimal-design examples for censored Weibull failure-time experiments."
+  },
+  {
+    "id": "jss-carat-covariate-adaptive",
+    "title": "carat: An R Package for Covariate-Adaptive Randomization in Clinical Trials",
+    "authors": "Wei Ma, Xiaoqing Ye, Fuyi Tu, Feifang Hu",
+    "year": 2023,
+    "citations": 9,
+    "dataset": "carat R package and JSS replication materials for covariate-adaptive randomization, testing, power analysis, and sequential patient allocation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v107i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v107.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "trial simulations"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "adaptive-randomization",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "optimal experimental design"
+    ],
+    "bestFor": "Comparing covariate-adaptive allocation rules, imbalance, valid treatment tests, power, and sequential implementation in randomized trials.",
+    "note": "Verified from the official JSS page, which provides the carat package and replication materials. The package supports complete, generated, or sequentially accrued covariate data."
+  },
+  {
+    "id": "jss-gsbdesign-group-sequential",
+    "title": "gsbDesign: An R Package for Evaluating the Operating Characteristics of a Group Sequential Bayesian Design",
+    "authors": "Florian Gerber, Thomas Gsponer",
+    "year": 2016,
+    "citations": 12,
+    "dataset": "gsbDesign R package and JSS replication code for Bayesian group-sequential trial simulations and a detailed treatment-versus-control case study",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v069i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v069.i11",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "trial simulations"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "group-sequential",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "optimal experimental design",
+      "bayesian inference"
+    ],
+    "bestFor": "Evaluating Bayesian interim stopping rules, prior information, success and futility probabilities, and expected sample size in sequential trials.",
+    "note": "Verified from the official JSS page, which supplies the gsbDesign package and replication code. The paper includes a fully worked Bayesian group-sequential case study."
+  },
+  {
+    "id": "jss-streamingbandit-policies",
+    "title": "StreamingBandit: Experimenting with Bandit Policies",
+    "authors": "Jules Kruijswijk, Robin van Emden, Petri M. T. Parvinen, Maurits C. Kaptein",
+    "year": 2020,
+    "citations": 7,
+    "dataset": "StreamingBandit Python source and JSS replication materials for real-time sequential treatment allocation and field-experiment policy examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v094i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v094.i09",
+    "access": "open",
+    "formats": [
+      "python",
+      "source code",
+      "replication materials"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "sequential-design",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "optimal experimental design"
+    ],
+    "bestFor": "Developing and evaluating contextual multi-armed-bandit policies for sequential allocation, online experimentation, and reusable field studies.",
+    "note": "Verified from the official JSS page, which provides source code and replication materials. The examples demonstrate reproducible sequential experimentation with several bandit policies."
+  },
+  {
+    "id": "rjournal-icaod-optimal-designs",
+    "title": "ICAOD: An R Package for Finding Optimal Designs for Nonlinear Statistical Models by Imperialist Competitive Algorithm",
+    "authors": "Ehsan Masoudi, Heinz Holling, Weng Kee Wong, Seongho Kim",
+    "year": 2022,
+    "citations": 4,
+    "dataset": "ICAOD R package, documented examples, and nonlinear-model design problems for local, Bayesian, robust, minimax, and standardized-maximin optimal designs",
+    "datasetUrl": "https://CRAN.R-project.org/package=ICAOD",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-043",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "simulation code"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "simulation-data",
+      "nonlinear-design",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing local, Bayesian, robust, minimax, and standardized-maximin designs for nonlinear models under difficult nonconvex optimization.",
+    "note": "Verified from The R Journal article and current CRAN package. The documentation exposes reproducible model examples and equivalence-theorem checks for generated designs."
   }
 ]
