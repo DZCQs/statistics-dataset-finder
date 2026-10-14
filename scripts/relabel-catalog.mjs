@@ -79,8 +79,12 @@ const parentRules = [
     children: ["network meta-analysis", "diagnostic meta-analysis", "publication bias"]
   },
   {
+    label: "survival models",
+    children: ["joint models"]
+  },
+  {
     label: "survival analysis",
-    children: ["survival models"]
+    children: ["survival models", "joint models"]
   },
   {
     label: "time series analysis",
@@ -100,7 +104,7 @@ const parentRules = [
   },
   {
     label: "longitudinal data analysis",
-    children: ["panel data methods"]
+    children: ["panel data methods", "joint models"]
   },
   {
     label: "item response theory",
@@ -127,17 +131,17 @@ const evidenceRules = [
   },
   {
     label: "graphical models",
-    reason: "graphical-model, conditional-dependence, precision-matrix, or structure-learning evidence in record text",
+    reason: "graphical-model, precision-matrix, or structure-learning evidence in record text",
     test: (paper) =>
-      /\b(graphical model|graphical-model|graphical models|gaussian graphical model|markov random field|conditional independence|conditional dependence|precision matrix|structure learning|decomposable models|chordal graph|birth-death mcmc|g-wishart|undirected graph estimation)\b/i.test(
+      /\b(graphical model|graphical-model|graphical models|gaussian graphical model|markov random field|precision matrix|structure learning|decomposable models|chordal graph|birth-death mcmc|g-wishart|undirected graph estimation)\b/i.test(
         paperText(paper)
       )
   },
   {
     label: "regression discontinuity designs",
-    reason: "regression-discontinuity, RD-design, or cutoff-assignment evidence in record text",
+    reason: "explicit regression-discontinuity or RD-design evidence in record text",
     test: (paper) =>
-      /\b(regression discontinuity|fuzzy regression discontinuity|sharp regression discontinuity|rd design|cutoff|electoral threshold)\b/i.test(
+      /\b(regression discontinuity|fuzzy regression discontinuity|sharp regression discontinuity|rd design)\b/i.test(
         paperText(paper)
       )
   },
@@ -192,10 +196,13 @@ const evidenceRules = [
   {
     label: "publication bias",
     reason: "publication-bias, small-study-effect, selection-model, PET-PEESE, p-uniform, or robust-Bayesian-meta-analysis evidence in record text",
-    test: (paper) =>
-      /\b(publication bias|small-study effects?|small study effects?|selection models?|pet-peese|p-uniform|robust bayesian meta-analysis|mvpbt)\b/i.test(
-        paperText(paper)
-      )
+    test: (paper) => {
+      const text = paperText(paper);
+      return (
+        /\b(publication bias|small-study effects?|small study effects?|pet-peese|p-uniform|robust bayesian meta-analysis|mvpbt)\b/i.test(text) ||
+        (/\bselection models?\b/i.test(text) && /\b(publication|meta-analysis|meta-analytic|evidence synthesis)\b/i.test(text))
+      );
+    }
   },
   {
     label: "survey experiments",
@@ -429,6 +436,18 @@ const evidenceRules = [
       )
   },
   {
+    label: "joint models",
+    reason: "specific joint longitudinal and survival or time-to-event modeling evidence in record text",
+    test: (paper) => {
+      const text = paperText(paper);
+      return (
+        /\b(joint models?|joint modeling|joint modelling|shared parameter models?|jmbayes|joinerml|jmfit|package jsm)\b/i.test(text) &&
+        /\b(longitudinal|repeated measures?|time-varying biomarkers?|trajector(?:y|ies))\b/i.test(text) &&
+        /\b(survival|time-to-event|event times?|hazards?|censor(?:ed|ing))\b/i.test(text)
+      );
+    }
+  },
+  {
     label: "multilevel modeling",
     reason: "multilevel, nested, hierarchical, random-effects, or mixed-effects evidence in record text",
     test: (paper) =>
@@ -443,7 +462,7 @@ const evidenceRules = [
       const text = paperText(paper);
       return (
         !/\bsparse (demand|observations?|measurements?|records?|samples?|sampling|coverage|data)\b/i.test(text) &&
-        /\b(high-dimensional|high dimensional|p\s*>>\s*n|p\s*>\s*n|sparse (regression|models?|modeling|modelling|learning|precision|inverse covariance|graphical|variables?|features?|estimation)|sparsity-inducing|lasso|elastic net|regulari[sz]ed|regulari[sz]ation|penali[sz]ed|variable selection|genomics|transcriptomic|gene expression|microarray)\b/i.test(
+        /\b(high-dimensional|high dimensional|p\s*>>\s*n|p\s*>\s*n|sparse (regression|models?|modeling|modelling|learning|precision|inverse covariance|graphical|variables?|features?|estimation)|sparsity-inducing|lasso|elastic net|regulari[sz]ed|regulari[sz]ation|penali[sz]ed|variable selection)\b/i.test(
           text
         )
       );

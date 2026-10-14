@@ -63182,5 +63182,458 @@
     ],
     "bestFor": "Comparing local, Bayesian, robust, minimax, and standardized-maximin designs for nonlinear models under difficult nonconvex optimization.",
     "note": "Verified from The R Journal article and current CRAN package. The documentation exposes reproducible model examples and equivalence-theorem checks for generated designs."
+  },
+  {
+    "id": "jss-lordif-differential-item-functioning",
+    "title": "lordif: An R Package for Detecting Differential Item Functioning Using Iterative Hybrid Ordinal Logistic Regression/Item Response Theory and Monte Carlo Simulations",
+    "authors": "Seung W. Choi, Laura E. Gibbons, Paul K. Crane",
+    "year": 2011,
+    "citations": 755,
+    "dataset": "Official lordif package and JSS example code for PROMIS anxiety item responses, age-related differential item functioning, and Monte Carlo DIF thresholds",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v039i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v039.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "item responses",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory"
+    ],
+    "bestFor": "Evaluating ordinal-logistic and IRT-based differential item functioning procedures, purification, effect sizes, and empirical DIF thresholds.",
+    "note": "Verified from the official JSS page, which provides the lordif package and paper example code. The worked application analyzes PROMIS anxiety items for age-related DIF."
+  },
+  {
+    "id": "jss-kequate-kernel-test-equating",
+    "title": "Performing the Kernel Method of Test Equating with the Package kequate",
+    "authors": "Bjorn Andersson, Kenny Brangen, Marie Wiberg",
+    "year": 2013,
+    "citations": 62,
+    "dataset": "Official kequate package and JSS example code covering six common test-equating designs, score distributions, diagnostics, and standard errors",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v055i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v055.i06",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "test scores",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "test equating"
+    ],
+    "bestFor": "Comparing kernel equating, pre-smoothing, continuization, diagnostic choices, and equating standard errors across common test designs.",
+    "note": "Verified from the official JSS page, which links the kequate package and the paper's R example code for six test-equating designs."
+  },
+  {
+    "id": "jss-snsequate-test-equating",
+    "title": "SNSequate: Standard and Nonstandard Statistical Models and Methods for Test Equating",
+    "authors": "Jorge Gonzalez",
+    "year": 2014,
+    "citations": 33,
+    "dataset": "Official SNSequate package and JSS examples for mean, linear, equipercentile, local, kernel, and IRT score-linking methods",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v059i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v059.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "package examples",
+      "test scores",
+      "item parameters"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "test equating",
+      "item response theory"
+    ],
+    "bestFor": "Comparing classical observed-score equating with IRT linking, local equating, kernel equating, and asymmetric item-characteristic-function methods.",
+    "note": "Verified from the official JSS page, which provides the SNSequate package and reproducible example code for traditional and modern equating workflows."
+  },
+  {
+    "id": "jss-diffirt-response-times",
+    "title": "Fitting Diffusion Item Response Theory Models for Responses and Response Times Using the R Package diffIRT",
+    "authors": "Dylan Molenaar, Francis Tuerlinckx, Han L. J. van der Maas",
+    "year": 2015,
+    "citations": 38,
+    "dataset": "diffIRT package, extraversion and mental-rotation response-time examples, and JSS simulation-study replication code and data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v066i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v066.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "item responses",
+      "response times",
+      "simulation data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory"
+    ],
+    "bestFor": "Studying joint response-accuracy and response-time models based on diffusion processes, including parameter recovery and model-fit assessment.",
+    "note": "Verified from the official JSS page, which supplies the diffIRT package, paper examples, and a separate archive with simulation code and data."
+  },
+  {
+    "id": "jss-deltaplotr-differential-item-functioning",
+    "title": "deltaPlotR: An R Package for Differential Item Functioning Analysis with Angoff's Delta Plot",
+    "authors": "David Magis, Bruno Facon",
+    "year": 2014,
+    "citations": 12,
+    "dataset": "Language-skill assessment item responses, deltaPlotR package, JSS example code, and directly downloadable plain-text example data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v059c01",
+    "paperUrl": "https://doi.org/10.18637/jss.v059.c01",
+    "access": "open",
+    "formats": [
+      "r",
+      "plain text",
+      "item responses",
+      "example code"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory"
+    ],
+    "bestFor": "Evaluating Angoff delta-plot DIF detection, optimal thresholds, and item-purification procedures on a real language assessment.",
+    "note": "Verified from the official JSS page, which links the package, article code, and example data as a plain-text download."
+  },
+  {
+    "id": "jss-dfit-item-and-test-functioning",
+    "title": "DFIT: An R Package for Raju's Differential Functioning of Items and Tests Framework",
+    "authors": "Victor H. Cervantes",
+    "year": 2017,
+    "citations": 13,
+    "dataset": "Official DFIT package and JSS replication code for item/test DIF indices, power calculations, and Monte Carlo item-parameter replication",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v076i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v076.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "item parameters",
+      "simulation data",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory"
+    ],
+    "bestFor": "Studying differential functioning of items and tests, NCDIF power, Monte Carlo cutoff construction, and model-dependent DIF indices.",
+    "note": "Verified from the official JSS article and volume page, which provide the DFIT package and R replication code."
+  },
+  {
+    "id": "jss-lavaan-survey-complex-sem",
+    "title": "lavaan.survey: An R Package for Complex Survey Analysis of Structural Equation Models",
+    "authors": "Daniel Oberski",
+    "year": 2014,
+    "citations": 417,
+    "dataset": "lavaan.survey package, JSS example code, and imputed example datasets for weighted, stratified, clustered, and replicate-weight structural equation models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v057i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v057.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "r binary data",
+      "survey data",
+      "replicate weights"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "missing data",
+      "multiple imputation",
+      "resampling methods"
+    ],
+    "bestFor": "Evaluating structural equation models under complex sampling, survey weights, multiply imputed data, replicate weights, and finite-population corrections.",
+    "note": "Verified from the official JSS page, which provides the package, paper code, and imputed example datasets in R binary format."
+  },
+  {
+    "id": "jss-lcmm-latent-class-mixed-models",
+    "title": "Estimation of Extended Mixed Models Using Latent Classes and Latent Processes: The R Package lcmm",
+    "authors": "Cecile Proust-Lima, Viviane Philipps, Benoit Liquet",
+    "year": 2017,
+    "citations": 1106,
+    "dataset": "lcmm package cognitive-aging data and JSS replication code for latent-class, latent-process, multivariate, and joint longitudinal-event models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v078i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v078.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "longitudinal data",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "multilevel modeling",
+      "mixture models",
+      "joint models",
+      "survival models",
+      "survival analysis"
+    ],
+    "bestFor": "Comparing latent-class mixed models, nonlinear latent processes, multivariate trajectories, and joint longitudinal-event predictions on cognitive-aging data.",
+    "note": "Verified from the official JSS page, which links the lcmm package and R replication code. The paper's worked examples use a documented cognitive-aging dataset."
+  },
+  {
+    "id": "jss-randomlca-random-effects",
+    "title": "randomLCA: An R Package for Latent Class with Random Effects Analysis",
+    "authors": "Ken J. Beath",
+    "year": 2017,
+    "citations": 35,
+    "dataset": "randomLCA package and JSS replication code with myocardial-infarction symptoms, dentist caries diagnoses, and longitudinal infant respiratory/allergy examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v081i13",
+    "paperUrl": "https://doi.org/10.18637/jss.v081.i13",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "binary outcomes",
+      "longitudinal data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "mixture models",
+      "multilevel modeling",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Studying latent-class models with subject- and period-level random effects when conditional independence is violated.",
+    "note": "Verified from the official JSS page, which supplies the randomLCA package and replication code for three real-data examples."
+  },
+  {
+    "id": "jss-jmbayes-joint-models",
+    "title": "The R Package JMbayes for Fitting Joint Models for Longitudinal and Time-to-Event Data Using MCMC",
+    "authors": "Dimitris Rizopoulos",
+    "year": 2016,
+    "citations": 215,
+    "dataset": "JMbayes package primary-biliary-cirrhosis example and JSS replication code for Bayesian joint longitudinal and time-to-event models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v072i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v072.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "longitudinal biomarkers",
+      "time-to-event data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "mcmc",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "joint models",
+      "longitudinal data analysis",
+      "survival models",
+      "survival analysis",
+      "bayesian inference"
+    ],
+    "bestFor": "Evaluating Bayesian joint models, association structures, MCMC estimation, dynamic prediction, discrimination, and calibration.",
+    "note": "Verified from the official JSS page, which provides JMbayes and R replication code. The article illustrates the full workflow with primary biliary cirrhosis data."
+  },
+  {
+    "id": "jss-jmfit-joint-model-assessment",
+    "title": "JMFit: A SAS Macro for Joint Models of Longitudinal and Survival Data",
+    "authors": "Danjie Zhang, Ming-Hui Chen, Joseph G. Ibrahim, Mark E. Boye, Wei Shen",
+    "year": 2016,
+    "citations": 54,
+    "dataset": "JMFit SAS source, real and simulated longitudinal-survival examples, and JSS replication materials for component-wise joint-model assessment",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v071i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v071.i03",
+    "access": "open",
+    "formats": [
+      "sas",
+      "source code",
+      "replication materials",
+      "simulated data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "joint models",
+      "longitudinal data analysis",
+      "survival models",
+      "survival analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Assessing longitudinal and survival components of shared-parameter joint models with decomposed information criteria and contribution diagnostics.",
+    "note": "Verified from the official JSS page, which provides the SAS source and replication materials for real and simulated examples."
+  },
+  {
+    "id": "jss-jsm-semiparametric-joint-models",
+    "title": "Semi-Parametric Joint Modeling of Survival and Longitudinal Data: The R Package JSM",
+    "authors": "Cong Xu, Pantelis Z. Hadjipantelis, Jane-Ling Wang",
+    "year": 2020,
+    "citations": 6,
+    "dataset": "JSM package and JSS replication code for liver-cirrhosis and Mayo Clinic primary-biliary-cirrhosis joint-model examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v093i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v093.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "longitudinal data",
+      "survival data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "joint models",
+      "longitudinal data analysis",
+      "survival models",
+      "survival analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing semiparametric transformation survival models and mixed or multiplicative-random-effects longitudinal components in a joint likelihood.",
+    "note": "Verified from the official JSS page, which supplies the JSM package and R replication code for two real cirrhosis datasets."
+  },
+  {
+    "id": "jss-stepmix-generalized-mixtures",
+    "title": "StepMix: A Python Package for Pseudo-Likelihood Estimation of Generalized Mixture Models with External Variables",
+    "authors": "Sacha Morin, Robin Legault, Felix Laliberte, Zsuzsa Bakk, Charles-Edouard Giguere, Roxane de la Sablonniere, Eric Lacourse",
+    "year": 2025,
+    "citations": 31,
+    "dataset": "StepMix Python/R packages and JSS replication materials with simulated mixtures and a 3,029-record social-status and family-income application",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v113i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v113.i08",
+    "access": "open",
+    "formats": [
+      "python",
+      "r",
+      "replication materials",
+      "simulated data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models",
+      "missing data"
+    ],
+    "bestFor": "Comparing one-, two-, and bias-adjusted three-step latent-class estimators with covariates, distal outcomes, and incomplete indicators.",
+    "note": "Verified from the official JSS page and paper, which provide Python and R packages plus replication materials for simulation and real-data examples."
+  },
+  {
+    "id": "bmc-joinerml-multivariate-joint-models",
+    "title": "joineRML: A Joint Model and Software Package for Time-to-Event and Multivariate Longitudinal Outcomes",
+    "authors": "Graeme L. Hickey, Pete Philipson, Andrea Jorgensen, Ruwanthi Kolamunnage-Dona",
+    "year": 2018,
+    "citations": 87,
+    "dataset": "joineRML package pbc2 data, heart-valve data, joint-model simulator, source repository, and multivariate longitudinal-survival analysis workflow",
+    "datasetUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6047371/",
+    "paperUrl": "https://doi.org/10.1186/s12874-018-0502-1",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "multivariate longitudinal data",
+      "time-to-event data"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "joint models",
+      "longitudinal data analysis",
+      "survival models",
+      "survival analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Studying joint models with multiple longitudinal outcomes, latent association structures, Monte Carlo EM estimation, and censored event times.",
+    "note": "Verified from the open article and its data-availability statement. The pbc2 dataset is bundled with joineRML, and the package also provides heart-valve data and a joint-model simulator."
   }
 ]

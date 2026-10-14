@@ -123,6 +123,7 @@ High-level topic families:
   - `small area estimation`
 - `survival analysis`
   - `survival models`
+    - `joint models`
   - `risk prediction`
 - `high-dimensional statistics`
   - `dimension reduction`
@@ -154,6 +155,7 @@ Mid-level topic families without a current high-level parent:
   - `nonresponse adjustment`
 - `longitudinal data analysis`
   - `panel data methods`
+  - `joint models` (also under `survival models`)
 - `multilevel modeling`
   - `bayesian hierarchical models`
 - `item response theory`
@@ -180,7 +182,6 @@ checks include:
 - `instrumental variables`
 - `synthetic control methods`
 - `competing risks`
-- `joint models`
 - `recurrent event analysis`
 - `functional data analysis`
 - `spatial statistics`

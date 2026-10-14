@@ -418,6 +418,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["panel", "fixed effects", "household", "economic trajectories", "before-after", "establishment"]
   },
   {
+    name: "joint models",
+    level: "low",
+    parents: ["longitudinal data analysis", "survival models"],
+    definition: "Datasets and replication packages useful for joint statistical models that link repeated longitudinal outcomes with censored time-to-event outcomes through shared random effects, latent processes, or related association structures.",
+    includeWhen: [
+      "joint modeling of longitudinal measurements and survival or time-to-event outcomes is central to the paper or resource",
+      "the accessible data or code supports estimation, diagnostics, dynamic prediction, simulation, or model comparison for linked longitudinal-event processes"
+    ],
+    avoidWhen: [
+      "joint refers only to simultaneous estimation, a joint distribution, or a generic multivariate model without linked longitudinal and event outcomes",
+      "the resource contains separate longitudinal and survival analyses but no statistical joint model connecting them"
+    ],
+    evidenceTerms: ["joint models for longitudinal and time-to-event", "joint modeling of survival and longitudinal data", "joint modelling of multivariate longitudinal data and time-to-event", "joint longitudinal and survival", "joint longitudinal-event models", "shared parameter model", "jmbayes", "joinerml", "jmfit", "package jsm"]
+  },
+  {
     name: "multilevel modeling",
     level: "mid",
     parents: [],
@@ -986,7 +1001,43 @@ export const LABEL_REGISTRY = [
   }
 ];
 
-export const LABEL_CANDIDATES = [];
+export const LABEL_CANDIDATES = [
+  {
+    name: "latent variable models",
+    proposedLevel: "mid",
+    proposedParents: [],
+    status: "watch",
+    definition: "Datasets and replication packages for statistical models in which unobserved constructs, classes, traits, or processes explain dependence among observed variables.",
+    currentEvidence: [
+      {
+        paperId: "jss-lcmm-latent-class-mixed-models",
+        reason: "Provides cognitive-aging data and replication code for latent processes and latent-class mixed models."
+      },
+      {
+        paperId: "jss-randomlca-random-effects",
+        reason: "Provides three real examples for latent-class models with subject- and period-level random effects."
+      },
+      {
+        paperId: "jss-stepmix-generalized-mixtures",
+        reason: "Provides simulation and real-data resources for generalized latent-class measurement and structural models."
+      },
+      {
+        paperId: "jss-lavaan-survey-complex-sem",
+        reason: "Provides complex-survey structural-equation examples and imputed datasets with latent-variable measurement models."
+      },
+      {
+        paperId: "jss-diffirt-response-times",
+        reason: "Provides response and response-time examples for latent-trait diffusion item-response models."
+      }
+    ],
+    admitWhen: [
+      "additional high-confidence factor-analysis or structural-equation resources show reuse beyond the existing mixture-model and item-response-theory labels",
+      "the scope can be defined so that it improves search without becoming a redundant umbrella over mixture models and item response theory",
+      "the hierarchy position remains useful across psychometrics, structural equation modeling, and longitudinal latent-process work"
+    ],
+    evidenceTerms: ["latent variable model", "latent variable models", "latent process", "latent class", "structural equation model", "measurement model", "latent trait"]
+  }
+];
 
 export const LABEL_RULES = {
   minLabelsPerPaper: 3,
