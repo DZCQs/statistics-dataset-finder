@@ -1028,6 +1028,10 @@ export const LABEL_CANDIDATES = [
       {
         paperId: "jss-diffirt-response-times",
         reason: "Provides response and response-time examples for latent-trait diffusion item-response models."
+      },
+      {
+        paperId: "jss-famt-dependent-multiple-testing",
+        reason: "Provides expression and covariate data for factor-adjusted multiple testing, adding evidence from statistical factor models outside psychometrics and mixture modeling."
       }
     ],
     admitWhen: [
@@ -1036,6 +1040,33 @@ export const LABEL_CANDIDATES = [
       "the hierarchy position remains useful across psychometrics, structural equation modeling, and longitudinal latent-process work"
     ],
     evidenceTerms: ["latent variable model", "latent variable models", "latent process", "latent class", "structural equation model", "measurement model", "latent trait"]
+  },
+  {
+    name: "clustering",
+    proposedLevel: "mid",
+    proposedParents: [],
+    status: "watch",
+    definition: "Datasets, simulation designs, and replication packages for statistical clustering methods, including robust, sparse, partition-based, and model-based clustering.",
+    currentEvidence: [
+      {
+        paperId: "jss-contaminatedmixt-robust-mixtures",
+        reason: "Provides artificial and real-data resources for robust model-based clustering with contaminated-normal mixtures."
+      },
+      {
+        paperId: "jss-rskc-robust-sparse-clustering",
+        reason: "Provides four datasets and simulations for robust sparse K-means with noise variables, outliers, and missing values."
+      },
+      {
+        paperId: "jss-tclust-trimmed-clustering",
+        reason: "Provides package examples for trimming-based robust clustering under scatter constraints."
+      }
+    ],
+    admitWhen: [
+      "additional high-confidence non-robust or non-mixture clustering resources demonstrate reuse beyond this initial robust-clustering cluster",
+      "the boundary with mixture models is explicit enough that both filters return meaningfully different result sets",
+      "the hierarchy position remains useful across partition-based, hierarchical, density-based, and model-based clustering"
+    ],
+    evidenceTerms: ["cluster analysis", "k-means", "k means", "robust clustering", "sparse clustering", "model-based clustering", "trimmed clustering", "hierarchical clustering", "consensus clustering"]
   }
 ];
 

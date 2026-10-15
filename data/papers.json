@@ -63635,5 +63635,414 @@
     ],
     "bestFor": "Studying joint models with multiple longitudinal outcomes, latent association structures, Monte Carlo EM estimation, and censored event times.",
     "note": "Verified from the open article and its data-availability statement. The pbc2 dataset is bundled with joineRML, and the package also provides heart-valve data and a joint-model simulator."
+  },
+  {
+    "id": "jss-comppd-projection-depth",
+    "title": "CompPD: A MATLAB Package for Computing Projection Depth",
+    "authors": "Xiaohui Liu, Yijun Zuo",
+    "year": 2015,
+    "citations": 12,
+    "dataset": "CompPD MATLAB source, paper examples, and two supplementary MATLAB data files for projection-depth computation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v065i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v065.i02",
+    "access": "open",
+    "formats": [
+      "matlab",
+      "supplementary data",
+      "source code",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics"
+    ],
+    "bestFor": "Evaluating algorithms for projection depth and robust multivariate location, scale, and inference procedures.",
+    "note": "Verified from the official JSS page, which provides the MATLAB package, example code, and two supplementary MATLAB data files."
+  },
+  {
+    "id": "jss-contaminatedmixt-robust-mixtures",
+    "title": "ContaminatedMixt: An R Package for Fitting Parsimonious Mixtures of Multivariate Contaminated Normal Distributions",
+    "authors": "Antonio Punzo, Angelo Mazza, Paul D. McNicholas",
+    "year": 2018,
+    "citations": 53,
+    "dataset": "ContaminatedMixt package and JSS replication code for artificial and real robust-clustering examples with automatic mild-outlier detection",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v085i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v085.i10",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "multivariate data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "mixture models"
+    ],
+    "bestFor": "Comparing parsimonious contaminated-normal mixtures for robust clustering, classification, and automatic outlier detection.",
+    "note": "Verified from the official JSS page, which links the ContaminatedMixt package and R replication code for artificial and real-data applications."
+  },
+  {
+    "id": "jss-rskc-robust-sparse-clustering",
+    "title": "RSKC: An R Package for a Robust and Sparse K-Means Clustering Algorithm",
+    "authors": "Yumi Kondo, Matias Salibian-Barrera, Ruben Zamar",
+    "year": 2016,
+    "citations": 57,
+    "dataset": "RSKC package, four worked datasets, replication materials, and Monte Carlo experiments for sparse clustering with outliers and missing values",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v072i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v072.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication materials",
+      "simulation data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "high-dimensional statistics",
+      "variable selection",
+      "missing data"
+    ],
+    "bestFor": "Testing robust sparse K-means when many variables are noise variables and observations may be contaminated or incomplete.",
+    "note": "Verified from the official JSS page, which provides the package, replication materials, R code, four datasets, and a Monte Carlo comparison."
+  },
+  {
+    "id": "jss-tclust-trimmed-clustering",
+    "title": "tclust: An R Package for a Trimming Approach to Cluster Analysis",
+    "authors": "Heinrich Fritz, Luis A. Garcia-Escudero, Agustin Mayo-Iscar",
+    "year": 2012,
+    "citations": 120,
+    "dataset": "tclust package and JSS example code for trimmed robust model-based clustering under cluster-scatter constraints",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v047i12",
+    "paperUrl": "https://doi.org/10.18637/jss.v047.i12",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "example code",
+      "multivariate data"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "mixture models"
+    ],
+    "bestFor": "Studying trimming-based robust clustering, scatter constraints, outlier resistance, and sensitivity to the trimming proportion.",
+    "note": "Verified from the official JSS page, which supplies the tclust package and R example code used in the paper."
+  },
+  {
+    "id": "jss-mnm-multivariate-l1-methods",
+    "title": "Multivariate L1 Statistical Methods: The Package MNM",
+    "authors": "Klaus Nordhausen, Hannu Oja",
+    "year": 2011,
+    "citations": 45,
+    "dataset": "MNM package and JSS example code for multivariate L1 methods based on spatial signs, ranks, and signed ranks",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v043i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v043.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "example code",
+      "multivariate data"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics"
+    ],
+    "bestFor": "Evaluating robust multivariate L1 procedures based on spatial signs, spatial ranks, and signed ranks without moment assumptions.",
+    "note": "Verified from the official JSS page, which provides the MNM package and R example code for several worked analyses."
+  },
+  {
+    "id": "jss-npbr-boundary-regression",
+    "title": "npbr: A Package for Nonparametric Boundary Regression in R",
+    "authors": "Abdelaati Daouia, Thibault Laurent, Hohsuk Noh",
+    "year": 2017,
+    "citations": 14,
+    "dataset": "npbr package and JSS replication code with empirical, simulated, shape-constrained, outlier-robust, and extreme-value boundary-regression examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v079i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v079.i09",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "simulation data",
+      "empirical data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "extreme value analysis"
+    ],
+    "bestFor": "Comparing nonparametric frontier and boundary estimators under shape constraints, outliers, and extreme-value formulations.",
+    "note": "Verified from the official JSS page, which provides the npbr package and R replication code for empirical and simulated examples."
+  },
+  {
+    "id": "rnews-pot-peaks-over-threshold",
+    "title": "POT: Modelling Peaks Over a Threshold",
+    "authors": "Mathieu Ribatet",
+    "year": 2007,
+    "citations": 0,
+    "dataset": "POT package Ardeires River flood-discharge data, package vignette, and two peaks-over-threshold demos",
+    "datasetUrl": "https://journal.r-project.org/articles/RN-2007-008/",
+    "paperUrl": "https://journal.r-project.org/articles/RN-2007-008/",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "time series",
+      "vignette"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Studying generalized Pareto peaks-over-threshold workflows, event declustering, threshold selection, and tail estimation.",
+    "note": "Verified from the official R News page and article, which document the bundled Ardeires River flood series, a package vignette, and two demos."
+  },
+  {
+    "id": "rjournal-ercv-tail-analysis",
+    "title": "Fitting Tails by the Empirical Residual Coefficient of Variation: The ercv Package",
+    "authors": "Joan del Castillo, Isabel Serra, Maria Padilla, David Morina",
+    "year": 2019,
+    "citations": 8,
+    "dataset": "ercv package examples including Danish fire insurance, River Nidd, Bilbao sea-state observations, euro-dollar returns, word frequencies, and execution times",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2019-044/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2019-044",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "time series",
+      "heavy-tailed data"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "multiple testing",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating tail diagnostics, generalized-Pareto threshold tests, automatic threshold selection, and heavy-tail transformations.",
+    "note": "Verified from the official R Journal article, which documents nine accessible package examples and the datasets used for threshold and tail analysis."
+  },
+  {
+    "id": "rjournal-longevity-excess-lifetimes",
+    "title": "longevity: An R Package for Modelling Excess Lifetimes",
+    "authors": "Leo R. Belzile",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "longevity package Dutch individual lifetimes and Japanese centenarian death counts with interval censoring and truncation",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2025-034/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2025-034",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "survival data",
+      "aggregated counts"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "censored-data",
+      "truncated-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Comparing excess-lifetime models and diagnostics when rare-event survival data are censored, truncated, aggregated, or sparsely observed.",
+    "note": "Verified from the official R Journal article and package links. The worked examples use documented Dutch individual records and Japanese age-at-death counts."
+  },
+  {
+    "id": "jss-betareg-beta-regression",
+    "title": "Beta Regression in R",
+    "authors": "Francisco Cribari-Neto, Achim Zeileis",
+    "year": 2010,
+    "citations": 2389,
+    "dataset": "betareg package and JSS replication code for beta-regression analyses of rates and proportions with mean and precision submodels",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v034i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v034.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "proportion data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "distributional regression"
+    ],
+    "bestFor": "Studying beta regression with separate mean and precision predictors, heteroskedasticity, skewness, and bounded continuous responses.",
+    "note": "Verified from the official JSS page, which provides the betareg package and R example code for the paper's replication exercises."
+  },
+  {
+    "id": "rjournal-crch-censored-regression",
+    "title": "Heteroscedastic Censored and Truncated Regression with crch",
+    "authors": "Jakob W. Messner, Georg J. Mayr, Achim Zeileis",
+    "year": 2016,
+    "citations": 84,
+    "dataset": "crch package RainIbk numerical-weather-prediction precipitation data and worked censored and truncated location-scale regressions",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2016-012/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2016-012",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "precipitation data",
+      "censored data"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "censored-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "distributional regression"
+    ],
+    "bestFor": "Evaluating censored and truncated regression with covariate-dependent location and scale under Gaussian, logistic, or Student-t errors.",
+    "note": "Verified from the official R Journal article, which documents the bundled RainIbk precipitation data and the complete analysis workflow."
+  },
+  {
+    "id": "jss-famt-dependent-multiple-testing",
+    "title": "Factor Analysis for Multiple Testing (FAMT): An R Package for Large-Scale Significance Testing under Dependence",
+    "authors": "David Causeur, Chloe Friguet, Magalie Houee-Bigot, Maela Kloareg",
+    "year": 2011,
+    "citations": 14,
+    "dataset": "FAMT package, JSS example code, and downloadable expression and covariate data for two dependent large-scale testing analyses",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v040i14",
+    "paperUrl": "https://doi.org/10.18637/jss.v040.i14",
+    "access": "open",
+    "formats": [
+      "r",
+      "gene expression data",
+      "covariate data",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "high-dimensional statistics",
+      "dimension reduction"
+    ],
+    "bestFor": "Studying false-discovery control under strong dependence using latent-factor adjustment in large-scale expression testing.",
+    "note": "Verified from the official JSS page, which provides the FAMT package, R code, expression measurements, and covariates for the second example."
+  },
+  {
+    "id": "rjournal-sgof-multiple-testing",
+    "title": "sgof: An R Package for Multiple Testing Problems",
+    "authors": "Irene Castro-Conde, Jacobo de Una-Alvarez",
+    "year": 2014,
+    "citations": 16,
+    "dataset": "sgof package Needleman and Hedenfalk examples for sequential goodness-of-fit, Bayesian, beta-binomial, BH, and BY multiple-testing procedures",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2014-027/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2014-027",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "p-values",
+      "gene expression data"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "high-dimensional statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing SGoF, dependence-adjusted, Bayesian, Benjamini-Hochberg, and Benjamini-Yekutieli procedures across small and large test families.",
+    "note": "Verified from the official R Journal article, which documents two real examples and identifies the Hedenfalk data bundled with the sgof package."
   }
 ]
