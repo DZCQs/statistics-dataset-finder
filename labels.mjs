@@ -1032,6 +1032,14 @@ export const LABEL_CANDIDATES = [
       {
         paperId: "jss-famt-dependent-multiple-testing",
         reason: "Provides expression and covariate data for factor-adjusted multiple testing, adding evidence from statistical factor models outside psychometrics and mixture modeling."
+      },
+      {
+        paperId: "jss-blavaan-bayesian-sem",
+        reason: "Provides package data and replication materials for classical and novel Bayesian structural equation models with explicit latent-variable parameterizations."
+      },
+      {
+        paperId: "jss-efficient-bayesian-sem-stan",
+        reason: "Provides replication code and benchmark materials for marginalized and conditional Bayesian structural equation models in Stan and JAGS."
       }
     ],
     admitWhen: [

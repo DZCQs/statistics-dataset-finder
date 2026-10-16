@@ -257,15 +257,11 @@ const evidenceRules = [
   },
   {
     label: "time series analysis",
-    reason: "time-series, interrupted-time-series, temporal-dependence, or autocorrelation evidence in record text",
-    test: (paper) => {
-      const text = paperText(paper);
-      return (
-        /\b(time series analysis|time series|interrupted time series|controlled interrupted time series|temporal dependence)\b/i.test(text) ||
-        (/\bautocorrelation\b/i.test(text) &&
-          !/\bspatial(?:ly)?(?:\s+\w+){0,2}\s+autocorrelation\b/i.test(text))
-      );
-    }
+    reason: "time-series, interrupted-time-series, or temporal-dependence evidence in record text",
+    test: (paper) =>
+      /\b(time series analysis|time series|interrupted time series|controlled interrupted time series|temporal dependence)\b/i.test(
+        paperText(paper)
+      )
   },
   {
     label: "interrupted time series",
@@ -403,7 +399,7 @@ const evidenceRules = [
     test: (paper) => {
       const text = paperText(paper);
       const directEvidence =
-        /\b(compositional data|compositional single-cell|compositional-share|compositional panel|simplex|aitchison|proportional outcomes|proportions with synthetic controls)\b/i.test(text);
+        /\b(compositional data|compositional single-cell|compositional-share|compositional panel|simplex-valued|aitchison|proportional outcomes|proportions with synthetic controls)\b/i.test(text);
       const contextualLogRatio =
         /\b(log-ratio|log ratio)\b/i.test(text) &&
         /\b(composition|compositional|simplex|proportion|aitchison)\b/i.test(text);
@@ -462,7 +458,7 @@ const evidenceRules = [
       const text = paperText(paper);
       return (
         !/\bsparse (demand|observations?|measurements?|records?|samples?|sampling|coverage|data)\b/i.test(text) &&
-        /\b(high-dimensional|high dimensional|p\s*>>\s*n|p\s*>\s*n|sparse (regression|models?|modeling|modelling|learning|precision|inverse covariance|graphical|variables?|features?|estimation)|sparsity-inducing|lasso|elastic net|regulari[sz]ed|regulari[sz]ation|penali[sz]ed|variable selection)\b/i.test(
+        /\b(high[- ]dimensional (data|statistics?|regression|models?|modeling|modelling|covariates?|predictors?|features?|inference|estimation|variable selection|multiple testing)|p\s*>>\s*n|p\s*>\s*n|sparse (regression|models?|modeling|modelling|learning|precision|inverse covariance|graphical|variables?|features?|estimation)|sparsity-inducing|lasso|elastic net|regulari[sz]ed|regulari[sz]ation|penali[sz]ed|variable selection)\b/i.test(
           text
         )
       );

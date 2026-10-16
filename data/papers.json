@@ -64044,5 +64044,455 @@
     ],
     "bestFor": "Comparing SGoF, dependence-adjusted, Bayesian, Benjamini-Hochberg, and Benjamini-Yekutieli procedures across small and large test families.",
     "note": "Verified from the official R Journal article, which documents two real examples and identifies the Hedenfalk data bundled with the sgof package."
+  },
+  {
+    "id": "jss-runjags-mcmc-interface",
+    "title": "runjags: An R Package Providing Interface Utilities, Model Templates, Parallel Computing Methods and Additional Distributions for MCMC Models in JAGS",
+    "authors": "Matthew J. Denwood",
+    "year": 2016,
+    "citations": 598,
+    "dataset": "runjags package, JSS replication code, model templates, convergence examples, and prior-sensitivity simulation study",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v071i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v071.i09",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "simulation study"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Testing JAGS workflows, parallel MCMC execution, convergence and sample-length diagnostics, prior sensitivity, and automated simulation studies.",
+    "note": "Verified from the official JSS page, which provides the runjags package and the paper's R replication code."
+  },
+  {
+    "id": "jss-pomp-partially-observed-markov-processes",
+    "title": "Statistical Inference for Partially Observed Markov Processes via the R Package pomp",
+    "authors": "Aaron A. King, Dao Nguyen, Edward L. Ionides",
+    "year": 2016,
+    "citations": 334,
+    "dataset": "pomp package examples and JSS replication bundle for nonlinear state-space models using particle filters, iterated filtering, particle MCMC, ABC, and synthetic likelihood",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v069i12",
+    "paperUrl": "https://doi.org/10.18637/jss.v069.i12",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication code",
+      "state-space data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "time-series",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "simulation-based inference",
+      "approximate Bayesian computation",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing plug-and-play inference methods for nonlinear, non-Gaussian partially observed dynamical systems.",
+    "note": "Verified from the official JSS page and the maintained pomp repository, which provide package data, scripts, output, and worked model examples."
+  },
+  {
+    "id": "jss-libbi-bayesian-state-space",
+    "title": "Bayesian State-Space Modelling on High-Performance Hardware Using LibBi",
+    "authors": "Lawrence M. Murray",
+    "year": 2015,
+    "citations": 52,
+    "dataset": "LibBi source packages and executable windkessel and Lorenz '96 state-space examples for particle filters, particle MCMC, and SMC2",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v067i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v067.i10",
+    "access": "open",
+    "formats": [
+      "source code",
+      "model files",
+      "simulation data",
+      "state-space data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "worked-examples",
+      "time-series",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "probabilistic programming",
+      "time series analysis"
+    ],
+    "bestFor": "Benchmarking scalable Bayesian state-space inference with sequential Monte Carlo and particle MCMC on CPUs, GPUs, and clusters.",
+    "note": "Verified from the official JSS page, which exposes three source-code packages and develops two complete state-space examples."
+  },
+  {
+    "id": "joss-spatpomp-spatiotemporal-pomp",
+    "title": "spatPomp: An R Package for Spatiotemporal Partially Observed Markov Process Models",
+    "authors": "Kidus Asfaw, Joonha Park, Aaron A. King, Edward L. Ionides",
+    "year": 2024,
+    "citations": 1,
+    "dataset": "spatPomp software archive, package models, tutorials, and scripts for high-dimensional spatiotemporal particle filtering and iterated inference",
+    "datasetUrl": "https://joss.theoj.org/papers/10.21105/joss.07008",
+    "paperUrl": "https://doi.org/10.21105/joss.07008",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "software archive",
+      "tutorial code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "time-series",
+      "spatial-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating particle filters and iterated inference for nonlinear spatiotemporal systems with many interacting spatial units.",
+    "note": "Verified from the official JOSS page, software archive, project site, and linked tutorials with reproducible R scripts."
+  },
+  {
+    "id": "rjournal-panelpomp-panel-pomp",
+    "title": "panelPomp: Analysis of Panel Data via Partially Observed Markov Processes in R",
+    "authors": "Carles Breto, Jesse J. Wheeler, Aaron A. King, Edward L. Ionides",
+    "year": 2025,
+    "citations": 1,
+    "dataset": "panelPomp package, tutorials, and worked panel partially observed Markov process examples including the article's Gompertz-model analysis",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2025-009/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2025-009",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "panel data",
+      "tutorial code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "worked-examples",
+      "longitudinal-data",
+      "time-series",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Studying plug-and-play filtering and parameter estimation for collections of nonlinear stochastic time series.",
+    "note": "Verified from the official R Journal article, CRAN package, GitHub source, and two maintained package tutorials."
+  },
+  {
+    "id": "arxiv-blackjax-composable-bayesian-inference",
+    "title": "BlackJAX: Composable Bayesian Inference in JAX",
+    "authors": "Alberto Cabezas, Adrien Corenflos, Junpeng Lao, Remi Louf, Antoine Carnec, Kaustubh Chaudhari, Reuben Cohn-Gordon, Jeremie Coullon, Wei Deng, Sam Duffield, Gerardo Duran-Martin, Marcin Elantkowski, Dan Foreman-Mackey, Michele Gregori, Carlos Iguaran, Ravin Kumar, Martin Lysy, Kevin Murphy, Juan Camilo Orduz, Karm Patel, Xi Wang, Rob Zinkov",
+    "year": 2024,
+    "citations": 9,
+    "dataset": "BlackJAX repository and Sampling Book benchmark models for MCMC, stochastic-gradient MCMC, sequential Monte Carlo, diagnostics, and variational inference",
+    "datasetUrl": "https://github.com/blackjax-devs/blackjax",
+    "paperUrl": "https://arxiv.org/abs/2402.10797",
+    "access": "open",
+    "formats": [
+      "python",
+      "jax",
+      "benchmark models",
+      "tutorial notebooks"
+    ],
+    "properties": [
+      "code",
+      "benchmarks",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "variational inference",
+      "stochastic-gradient MCMC",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Comparing composable JAX implementations of modern samplers, variational approximations, SGMCMC algorithms, and convergence diagnostics.",
+    "note": "Verified from the official paper, repository, algorithm reference, and Sampling Book examples covering regression, latent-state, neural-network, and ODE models."
+  },
+  {
+    "id": "arxiv-numpyro-composable-effects",
+    "title": "Composable Effects for Flexible and Accelerated Probabilistic Programming in NumPyro",
+    "authors": "Du Phan, Neeraj Pradhan, Martin Jankowiak",
+    "year": 2019,
+    "citations": 591,
+    "dataset": "NumPyro source, tutorials, and downloadable example datasets including WaffleDivorce regression data and Canadian lynx time-series data",
+    "datasetUrl": "https://github.com/pyro-ppl/numpyro",
+    "paperUrl": "https://arxiv.org/abs/1912.11554",
+    "access": "open",
+    "formats": [
+      "python",
+      "jax",
+      "csv",
+      "tutorial notebooks"
+    ],
+    "properties": [
+      "code",
+      "worked-examples",
+      "external-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming",
+      "variational inference"
+    ],
+    "bestFor": "Benchmarking accelerated probabilistic programs, iterative NUTS, effect handlers, variational inference, and posterior prediction on documented datasets.",
+    "note": "Verified from the official NumPyro repository and documentation, whose tutorials link directly to reproducible regression and time-series datasets."
+  },
+  {
+    "id": "bayesian-analysis-sbc-test-quantities",
+    "title": "Simulation-Based Calibration Checking for Bayesian Computation: The Choice of Test Quantities Shapes Sensitivity",
+    "authors": "Martin Modrak, Angie H. Moon, Shinyoung Kim, Paul-Christian Buerkner, Niko Huurre, Katerina Faltejskova, Andrew Gelman, Aki Vehtari",
+    "year": 2023,
+    "citations": 42,
+    "dataset": "SBC R package, built-in generators and Stan backends, simulated calibration datasets, and reproducible multivariate-normal and ordered-simplex case studies",
+    "datasetUrl": "https://github.com/hyunjimoon/SBC",
+    "paperUrl": "https://doi.org/10.1214/23-BA1404",
+    "access": "open",
+    "formats": [
+      "r",
+      "stan",
+      "simulation data",
+      "package vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "simulation-study",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Testing whether posterior implementations and approximate inference algorithms recover calibrated distributions under sensitive data-dependent test quantities.",
+    "note": "Verified from the open Bayesian Analysis paper and the official SBC package, which contains executable generators, backends, example models, and diagnostic visualizations."
+  },
+  {
+    "id": "pasp-emcee-mcmc-hammer",
+    "title": "emcee: The MCMC Hammer",
+    "authors": "Daniel Foreman-Mackey, David W. Hogg, Dustin Lang, Jonathan Goodman",
+    "year": 2013,
+    "citations": 13365,
+    "dataset": "emcee source repository, ensemble-sampler examples, and documented synthetic targets for affine-invariant MCMC",
+    "datasetUrl": "https://github.com/dfm/emcee",
+    "paperUrl": "https://doi.org/10.1086/670067",
+    "access": "open",
+    "formats": [
+      "python",
+      "source code",
+      "simulation data",
+      "worked examples"
+    ],
+    "properties": [
+      "code",
+      "worked-examples",
+      "simulation-study",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Benchmarking affine-invariant ensemble MCMC, autocorrelation behavior, parallel sampling, and posterior exploration with minimal tuning.",
+    "note": "Verified from the open paper and official emcee repository. The current label system lacks a specific general-purpose MCMC sampling label, so this record is marked for label review."
+  },
+  {
+    "id": "bayesian-analysis-sequential-bed-implicit-models",
+    "title": "Sequential Bayesian Experimental Design for Implicit Models via Mutual Information",
+    "authors": "Steven Kleinegesse, Christopher Drovandi, Michael U. Gutmann",
+    "year": 2021,
+    "citations": 19,
+    "dataset": "seqbed Python package and paper examples for sequential mutual-information design with likelihood-free ratio estimation and Bayesian optimization",
+    "datasetUrl": "https://github.com/stevenkleinegesse/seqbed",
+    "paperUrl": "https://doi.org/10.1214/20-BA1225",
+    "access": "open",
+    "formats": [
+      "python",
+      "simulation data",
+      "example scripts",
+      "implicit models"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "simulation-study",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "optimal experimental design",
+      "bayesian inference",
+      "simulation-based inference"
+    ],
+    "bestFor": "Evaluating sequential experiment selection when the likelihood is intractable but simulations are available.",
+    "note": "Verified from the paper's explicit code link and the authors' seqbed repository, which includes installable source and runnable examples."
+  },
+  {
+    "id": "jss-pexm-piecewise-exponential-jags",
+    "title": "pexm: A JAGS Module for Applications Involving the Piecewise Exponential Distribution",
+    "authors": "Vinicius D. Mayrink, Joao Daniel N. Duarte, Fabio N. Demarqui",
+    "year": 2021,
+    "citations": 3,
+    "dataset": "pexm package, JSS replication code and materials, simulation study, and real-data piecewise-exponential survival analysis",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v100i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "jags",
+      "replication code",
+      "survival data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "censored-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Testing Bayesian piecewise-exponential survival and reliability models through a direct JAGS distribution module.",
+    "note": "Verified from the official JSS page, which provides the package, R replication code, supplementary materials, a simulation study, and a real application."
+  },
+  {
+    "id": "jss-blavaan-bayesian-sem",
+    "title": "blavaan: Bayesian Structural Equation Models via Parameter Expansion",
+    "authors": "Edgar C. Merkle, Yves Rosseel",
+    "year": 2018,
+    "citations": 232,
+    "dataset": "blavaan package and JSS replication materials for Bayesian structural equation models, residual covariances, parameter expansion, and fit assessment",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v085i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v085.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "jags",
+      "package data",
+      "replication materials"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming"
+    ],
+    "bestFor": "Studying Bayesian structural equation models, latent-variable parameterizations, posterior fit measures, and JAGS sampling efficiency.",
+    "note": "Verified from the official JSS page, which provides the blavaan package and replication materials. The latent-variable candidate label is supported, but remains internal pending hierarchy review."
+  },
+  {
+    "id": "jss-efficient-bayesian-sem-stan",
+    "title": "Efficient Bayesian Structural Equation Modeling in Stan",
+    "authors": "Edgar C. Merkle, Ellen Fitzsimmons, James Uanhoro, Ben Goodrich",
+    "year": 2021,
+    "citations": 109,
+    "dataset": "blavaan package, R replication code, and JSS replication materials comparing conditional and marginalized Bayesian SEM implementations in Stan and JAGS",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v100i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i06",
+    "access": "open",
+    "formats": [
+      "r",
+      "stan",
+      "jags",
+      "replication materials"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "benchmarks",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Comparing conditional and marginalized parameterizations for Bayesian SEM, with emphasis on posterior sampling efficiency and diagnostics.",
+    "note": "Verified from the official JSS page, which provides the blavaan package, R replication code, and full replication materials."
+  },
+  {
+    "id": "jss-banova-hierarchical-bayesian-anova",
+    "title": "BANOVA: An R Package for Hierarchical Bayesian ANOVA",
+    "authors": "Chen Dong, Michel Wedel",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "BANOVA package and JSS replication code for hierarchical Bayesian analyses of within- and between-subject experimental factors",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v081i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v081.i09",
+    "access": "open",
+    "formats": [
+      "r",
+      "jags",
+      "package data",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Analyzing repeated-measures and mixed experimental designs with subject-level heterogeneity and non-Gaussian responses.",
+    "note": "Verified from the official JSS page, which provides the BANOVA package and the paper's complete R replication code."
   }
 ]
