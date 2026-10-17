@@ -64494,5 +64494,300 @@
     ],
     "bestFor": "Analyzing repeated-measures and mixed experimental designs with subject-level heterogeneity and non-Gaussian responses.",
     "note": "Verified from the official JSS page, which provides the BANOVA package and the paper's complete R replication code."
+  },
+  {
+    "id": "jss-fdboost-functional-regression",
+    "title": "Boosting Functional Regression Models with FDboost",
+    "authors": "Sarah Brockhaus, David Rugamer, Sonja Greven",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software replication materials and the FDboost R package with fossil-fuel spectra, bioelectrical emotional-episode signals, functional regression examples, model-tuning workflows, and simulation utilities",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v094i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v094.i10",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "replication materials",
+      "functional signals",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Studying scalar-on-function, function-on-scalar, and function-on-function regression with boosting, tuning, high-dimensional covariates, and real functional signals.",
+    "note": "Verified from the official JSS article page and CRAN documentation. JSS provides FDboost and replication materials; the package documentation lists fossil-fuel spectra and functional signal examples used by the workflows."
+  },
+  {
+    "id": "jss-sparsegl-sparse-group-lasso",
+    "title": "sparsegl: An R Package for Estimating Sparse Group Lasso",
+    "authors": "Xiaoxuan Liang, Aaron Cohen, Anibal Solon Heinsfeld, Franco Pestilli, Daniel J. McDonald",
+    "year": 2024,
+    "citations": 13,
+    "dataset": "Journal of Statistical Software R replication code and sparsegl package workflows for sparse group lasso paths, cross-validation, risk estimation, grouped sparse design matrices, and simulation examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v110i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v110.i06",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "simulation examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Evaluating sparse group lasso when predictors have grouped structure and sparsity is expected both between and within groups, including large sparse design matrices.",
+    "note": "Verified from the official JSS page, which directly supplies the sparsegl package and the paper's R replication code. Two official labels fit cleanly, so the record is retained and marked for label review."
+  },
+  {
+    "id": "jss-sphet-spatial-heteroskedastic-models",
+    "title": "sphet: Spatial Models with Heteroskedastic Innovations in R",
+    "authors": "Gianfranco Piras",
+    "year": 2010,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software sphet package, paper example code, Boston housing data, artificial spatial example, and downloadable GWT spatial-weight files for heteroskedastic spatial econometric models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v035i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v035.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "example code",
+      "GWT spatial weights",
+      "tabular data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Reproducing generalized-moments and semiparametric estimation for spatial regression models with heteroskedastic innovations and explicit spatial-weight matrices.",
+    "note": "Verified from the official JSS page, which provides the sphet package, R code, Boston and artificial-example GWT files, and the paper. The record is included with one well-supported official label and marked for label review."
+  },
+  {
+    "id": "jasa-mfpca-multidomain-functional-data",
+    "title": "Multivariate Functional Principal Component Analysis for Data Observed on Different (Dimensional) Domains",
+    "authors": "Clara Happ, Sonja Greven",
+    "year": 2018,
+    "citations": 354,
+    "dataset": "MFPCA R package, reference manual, source repository, simulation functions, multidomain functional-data examples, univariate basis-expansion utilities, PACE workflows, and multivariate functional principal-component analysis code",
+    "datasetUrl": "https://cran.r-project.org/web/packages/MFPCA/index.html",
+    "paperUrl": "https://arxiv.org/abs/1509.02029",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "simulation code",
+      "functional data objects",
+      "reference manual"
+    ],
+    "properties": [
+      "software",
+      "tutorial-data",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Studying multivariate functional principal components when component functions live on curves, images, or other domains of different dimensions.",
+    "note": "Verified from CRAN citation metadata and documentation. CRAN explicitly links the MFPCA package to the JASA paper and exposes the package source, manual, multidomain MFPCA routines, simulation tools, and PACE implementation."
+  },
+  {
+    "id": "aoas-slope-adaptive-variable-selection",
+    "title": "SLOPE: Adaptive Variable Selection via Convex Optimization",
+    "authors": "Malgorzata Bogdan, Ewout van den Berg, Chiara Sabatti, Weijie Su, Emmanuel J. Candes",
+    "year": 2015,
+    "citations": 277,
+    "dataset": "SLOPE R package, CRAN citation record, vignettes, R example code, simulation workflows, and bundled abalone, body-fat, heart-disease, and student-performance datasets for sorted L1 penalized estimation",
+    "datasetUrl": "https://cran.r-project.org/web/packages/SLOPE/index.html",
+    "paperUrl": "https://doi.org/10.1214/15-AOAS842",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "vignettes",
+      "simulation code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "multiple testing"
+    ],
+    "bestFor": "Evaluating sorted L1 regularization, adaptive sparse estimation, and false-discovery-rate-aware variable selection on simulations and reusable tabular datasets.",
+    "note": "Verified from CRAN citation metadata and package documentation. CRAN explicitly cites the Annals of Applied Statistics paper and provides package data, vignettes, source code, and worked SLOPE models."
+  },
+  {
+    "id": "arxiv-ruptures-python-change-point",
+    "title": "ruptures: change point detection in Python",
+    "authors": "Charles Truong, Laurent Oudre, Nicolas Vayatis",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "ruptures GitHub repository and documentation with synthetic signal generators, exact and approximate segmentation algorithms, parametric and kernel cost functions, evaluation metrics, tutorials, and reproducible Python examples",
+    "datasetUrl": "https://github.com/deepcharles/ruptures",
+    "paperUrl": "https://arxiv.org/abs/1801.00826",
+    "access": "open",
+    "formats": [
+      "python",
+      "GitHub repository",
+      "synthetic signals",
+      "tutorials",
+      "source code"
+    ],
+    "properties": [
+      "software",
+      "simulation-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Benchmarking offline multiple-change detection across exact, approximate, parametric, and nonparametric algorithms using a consistent Python interface.",
+    "note": "Verified from the arXiv paper and official GitHub repository. The repository exposes source code, signal generators, tutorials, documentation, and complete runnable change-point examples."
+  },
+  {
+    "id": "osf-mcp-bayesian-regression-change-points",
+    "title": "mcp: An R Package for Regression With Multiple Change Points",
+    "authors": "Jonas Kristoffer Lindelov",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "mcp package website, CRAN package, OSF preprint, built-in example-model and example-data generator, JAGS model generation, posterior predictive checks, hierarchical change-point examples, and complete Bayesian regression tutorials",
+    "datasetUrl": "https://lindeloev.github.io/mcp/index.html",
+    "paperUrl": "https://doi.org/10.31219/osf.io/fzqxv",
+    "access": "open",
+    "formats": [
+      "r",
+      "jags",
+      "package examples",
+      "simulated data",
+      "tutorials"
+    ],
+    "properties": [
+      "software",
+      "simulation-data",
+      "tutorial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "bayesian inference",
+      "time series analysis",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Fitting Bayesian piecewise generalized and hierarchical regression models with known numbers of change points, flexible segment formulas, and posterior predictive checks.",
+    "note": "Verified from the official package website, CRAN documentation, and OSF preprint citation. The package exposes reusable example models and data, tutorials, simulation values, JAGS code generation, and posterior workflows."
+  },
+  {
+    "id": "jss-spatial-econometrics-implementation-comparison",
+    "title": "Comparing Implementations of Estimation Methods for Spatial Econometrics",
+    "authors": "Roger Bivand, Gianfranco Piras",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Journal of Statistical Software replication materials, cross-sectional US county data, spdep and sphet R packages, modified MATLAB Spatial Econometrics Toolbox, and cross-software generalized-moments and maximum-likelihood comparison scripts",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v063i18",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i18",
+    "access": "open",
+    "formats": [
+      "r",
+      "matlab",
+      "replication materials",
+      "county data",
+      "spatial weights"
+    ],
+    "properties": [
+      "replication-data",
+      "existing-dataset",
+      "code",
+      "benchmarks",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Auditing spatial econometric estimators across R, Stata, Python, and MATLAB implementations on a shared county dataset and shared spatial-weight structures.",
+    "note": "Verified from the official JSS page, which supplies replication materials, spdep and sphet, a modified MATLAB toolbox, and documents the cross-sectional US county comparison data. The record has one specific official label and is marked for label review."
+  },
+  {
+    "id": "jmlr-changeauc-model-free-change-point",
+    "title": "Model-free Change-Point Detection Using AUC of a Classifier",
+    "authors": "Rohit Kanrar, Feiyu Jiang, Zhanrui Cai",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official changeAUC GitHub repository linked by JMLR with simulation code, classifier-based AUC change-point workflows, two real-data analyses, experiment scripts, and reproducible model-free change-point comparisons",
+    "datasetUrl": "https://github.com/rohitkanrar/changeAUC",
+    "paperUrl": "https://www.jmlr.org/papers/v26/24-0365.html",
+    "access": "open",
+    "formats": [
+      "r",
+      "GitHub repository",
+      "simulation code",
+      "real-data examples",
+      "experiment scripts"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "benchmarks",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating model-free offline change-point localization through classifier AUC processes on complex, potentially high-dimensional sequences.",
+    "note": "Verified from the official JMLR article page, which directly links the public changeAUC code repository and describes extensive simulations plus two real-world data analyses."
   }
 ]
