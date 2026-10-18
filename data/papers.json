@@ -64789,5 +64789,382 @@
     ],
     "bestFor": "Evaluating model-free offline change-point localization through classifier AUC processes on complex, potentially high-dimensional sequences.",
     "note": "Verified from the official JMLR article page, which directly links the public changeAUC code repository and describes extensive simulations plus two real-world data analyses."
+  },
+  {
+    "id": "aer-synthetic-difference-in-differences",
+    "title": "Synthetic Difference-in-Differences",
+    "authors": "Dmitry Arkhangelsky, Susan Athey, David A. Hirshberg, Guido W. Imbens, Stefan Wager",
+    "year": 2021,
+    "citations": 1496,
+    "dataset": "Official synthdid repository with the California Proposition 99 state cigarette-consumption panel, package data, empirical workflows, simulation code, vignettes, and paper-result scripts",
+    "datasetUrl": "https://github.com/synth-inference/synthdid",
+    "paperUrl": "https://doi.org/10.1257/aer.20190159",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "panel data",
+      "simulation code",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences",
+      "synthetic control methods",
+      "panel data methods"
+    ],
+    "bestFor": "Comparing difference-in-differences and synthetic-control estimators for policy panels with a treated unit or cohort and a donor pool.",
+    "note": "Verified from the official synthdid repository cited for the American Economic Review paper. The repository includes the california_prop99 data, reusable estimators, simulations, vignettes, and paper-result code."
+  },
+  {
+    "id": "restud-honestdid-parallel-trends",
+    "title": "A More Credible Approach to Parallel Trends",
+    "authors": "Ashesh Rambachan, Jonathan Roth",
+    "year": 2023,
+    "citations": 1507,
+    "dataset": "Official HonestDiD repository with a public ACS-derived state panel on Medicaid expansion and insurance coverage, event-study code, sensitivity-analysis routines, and staggered-adoption examples",
+    "datasetUrl": "https://github.com/asheshrambachan/HonestDiD",
+    "paperUrl": "https://doi.org/10.1093/restud/rdad018",
+    "access": "open",
+    "formats": [
+      "r",
+      "stata",
+      "GitHub repository",
+      "state panel data",
+      "worked examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Stress-testing difference-in-differences and event-study conclusions against bounded violations of parallel trends.",
+    "note": "Verified from the official HonestDiD repository. Its reproducible Medicaid-expansion example downloads a public ACS-derived panel and demonstrates relative-magnitude, smoothness, and staggered-timing sensitivity analyses."
+  },
+  {
+    "id": "jrssb-sensemakr-omitted-variable-bias",
+    "title": "Making Sense of Sensitivity: Extending Omitted Variable Bias",
+    "authors": "Carlos Cinelli, Chad Hazlett",
+    "year": 2020,
+    "citations": 1052,
+    "dataset": "Official sensemakr repository and bundled Darfur survey data for sensitivity analysis of the estimated effect of direct harm on attitudes toward peace",
+    "datasetUrl": "https://github.com/carloscinelli/sensemakr",
+    "paperUrl": "https://doi.org/10.1111/rssb.12348",
+    "access": "open",
+    "formats": [
+      "r",
+      "stata",
+      "R package",
+      "survey data",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Quantifying how strong an unobserved confounder would need to be to alter a regression-based causal conclusion.",
+    "note": "Verified from the official sensemakr repository, which cites the JRSSB paper and loads the bundled darfur dataset in its primary example. Two official labels fit cleanly, so the record is retained and marked for label review."
+  },
+  {
+    "id": "rjournal-did2s-two-stage-did",
+    "title": "did2s: Two-Stage Difference-in-Differences",
+    "authors": "Kyle Butts, John Gardner",
+    "year": 2022,
+    "citations": 101,
+    "dataset": "R Journal supplementary archive and did2s package examples with heterogeneous-treatment simulation panels and a common interface for modern event-study estimators",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2022-048/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-048",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "supplementary archive",
+      "simulated panel data",
+      "event-study examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Evaluating two-stage and alternative event-study estimators under staggered adoption and heterogeneous treatment effects.",
+    "note": "Verified on the official R Journal article page, which supplies a downloadable supplementary archive and complete did2s examples for static and dynamic treatment effects."
+  },
+  {
+    "id": "rjournal-sae-small-area-estimation",
+    "title": "sae: An R Package for Small Area Estimation",
+    "authors": "Isabel Molina, Yolanda Marhuenda",
+    "year": 2015,
+    "citations": 109,
+    "dataset": "sae package data and R Journal examples, including Iowa county corn-soybean survey and LANDSAT data, income microdata, population auxiliaries, and area-level spatial and temporal examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2015-007/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2015-007",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "survey data",
+      "satellite auxiliaries",
+      "area-level data"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "spatial statistics",
+      "spatio-temporal models",
+      "resampling methods",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing direct, Fay-Herriot, spatial, spatio-temporal, unit-level, and bootstrap small-area estimators on reusable survey and auxiliary data.",
+    "note": "Verified on the official R Journal page. The worked examples explicitly load cornsoybean, cornsoybeanmeans, incomedata, and Xoutsamp package datasets and reproduce model-based estimates and uncertainty measures."
+  },
+  {
+    "id": "rjournal-jomo-multilevel-imputation",
+    "title": "jomo: A Flexible Package for Two-level Joint Modelling Multiple Imputation",
+    "authors": "Matteo Quartagno, Simon Grund, James Carpenter",
+    "year": 2019,
+    "citations": 142,
+    "dataset": "jomo package tutorials and partially observed Junior School Project test-score data for single-level and multilevel joint-model multiple imputation of continuous and categorical variables",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2019-028/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2019-028",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "multilevel data",
+      "missing-data examples",
+      "tutorials"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "multilevel modeling",
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Studying joint-model multiple imputation when incomplete continuous and categorical variables are nested within clusters or measured at multiple levels.",
+    "note": "Verified on the official R Journal page. The tutorials use the jomo package's JSPmiss educational data and include convergence diagnostics, multilevel imputation, and pooled analyses."
+  },
+  {
+    "id": "rjournal-matchthem-multiple-imputation",
+    "title": "MatchThem:: Matching and Weighting after Multiple Imputation",
+    "authors": "Farhad Pishgar, Noah Greifer, Clemence Leyrat, Elizabeth Stuart",
+    "year": 2021,
+    "citations": 132,
+    "dataset": "MatchThem package and bundled osteoarthritis data on 2,585 individuals with incomplete covariates and outcomes for end-to-end imputation, matching, weighting, balance assessment, and pooled effect estimation",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2021-073/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-073",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "observational data",
+      "multiply imputed data",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "propensity score methods",
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Evaluating matching and propensity-score weighting workflows when confounders or outcomes have first been multiply imputed.",
+    "note": "Verified on the official R Journal page. The paper loads the package's osteoarthritis dataset and documents a complete mice, MatchIt or WeightIt, cobalt, survey, and pooling workflow."
+  },
+  {
+    "id": "jmlr-gluonts-probabilistic-time-series",
+    "title": "GluonTS: Probabilistic and Neural Time Series Modeling in Python",
+    "authors": "Alexander Alexandrov, Konstantinos Benidis, Michael Bohlke-Schneider, Valentin Flunkert, Jan Gasthaus, Tim Januschowski, Danielle C. Maddix, Syama Rangapuram, David Salinas, Jasper Schulz, Lorenzo Stella, Ali Caner Turkmen, Yuyang Wang",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Official GluonTS repository with licensed forecasting-dataset loaders, artificial generators, AirPassengers, M1-M5, electricity, traffic, exchange-rate, tourism, weather, and Monash-repository time series",
+    "datasetUrl": "https://github.com/awslabs/gluonts",
+    "paperUrl": "https://www.jmlr.org/papers/v21/19-820.html",
+    "access": "open",
+    "formats": [
+      "python",
+      "GitHub repository",
+      "time series",
+      "dataset loaders",
+      "tutorials"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "benchmarks",
+      "tutorial-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Benchmarking probabilistic forecasting models through a common Python data, training, prediction, and evaluation interface.",
+    "note": "Verified from the official JMLR page and linked GluonTS repository. The repository exposes dataset recipes, public benchmark loaders, artificial generators, model implementations, tutorials, and evaluation code. Two official labels fit after whole-catalog relabeling, so the record is retained and marked for label review."
+  },
+  {
+    "id": "arxiv-scoringutils-forecast-evaluation",
+    "title": "Evaluating Forecasts with scoringutils in R",
+    "authors": "Nikos I. Bosse, Hugo Gruson, Anne Cori, Edwin van Leeuwen, Sebastian Funk, Sam Abbott",
+    "year": 2022,
+    "citations": 28,
+    "dataset": "Official scoringutils package site and example point, binary, quantile, sample, ordinal, nominal, and multivariate forecast data with observed outcomes, vignettes, scoring rules, and visualization workflows",
+    "datasetUrl": "https://epiforecasts.io/scoringutils/",
+    "paperUrl": "https://doi.org/10.48550/arXiv.2205.07090",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "forecast tables",
+      "package data",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "tutorial-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Testing proper scoring, calibration, sharpness, coverage, relative skill, and visualization workflows across multiple probabilistic forecast formats.",
+    "note": "Verified from the official package site and documentation cited by the paper. The package exposes multiple reusable example forecast datasets, observations, metrics, vignettes, and complete scoring workflows. Two official labels fit after whole-catalog relabeling, so the record is retained and marked for label review."
+  },
+  {
+    "id": "rjournal-psweight-propensity-weighting",
+    "title": "PSweight: An R Package for Propensity Score Weighting Analysis",
+    "authors": "Tianhui Helen Zhou, Guangyu Tong, Fan Li, Laine E. Thomas, Fan Li",
+    "year": 2022,
+    "citations": 56,
+    "dataset": "Harvard Dataverse replication data from the National Child Development Survey and R Journal supplementary materials for propensity-score weighting of educational attainment and income",
+    "datasetUrl": "https://doi.org/10.7910/DVN/EPCYUL",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-011",
+    "access": "open",
+    "formats": [
+      "r",
+      "Harvard Dataverse",
+      "survey cohort data",
+      "supplementary archive",
+      "worked examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "propensity score methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Comparing inverse-probability, overlap, matching, entropy, and augmented propensity-score weights for binary or multiple treatments.",
+    "note": "Verified on the official R Journal page, which links supplementary materials and the Harvard Dataverse NCDS replication archive used for the educational-attainment example."
+  },
+  {
+    "id": "rjournal-rdrobust-regression-discontinuity",
+    "title": "rdrobust: An R Package for Robust Nonparametric Inference in Regression-Discontinuity Designs",
+    "authors": "Sebastian Calonico, Matias D. Cattaneo, Rocio Titiunik",
+    "year": 2015,
+    "citations": 223,
+    "dataset": "rdrobust package and bundled RDsenate data with 1,297 complete U.S. Senate election observations, vote shares, assignment margins, and reproducible bandwidth, estimation, inference, and plotting examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2015-004/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2015-004",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "election data",
+      "regression-discontinuity examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "regression discontinuity designs"
+    ],
+    "bestFor": "Reproducing local-polynomial regression-discontinuity estimation, bandwidth selection, bias correction, and graphical diagnostics at an electoral cutoff.",
+    "note": "Verified on the official R Journal page. The empirical illustration explicitly loads rdrobust_RDsenate and documents the variables, 1,297 complete observations, cutoff design, and analysis commands."
   }
 ]
