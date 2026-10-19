@@ -65166,5 +65166,268 @@
     ],
     "bestFor": "Reproducing local-polynomial regression-discontinuity estimation, bandwidth selection, bias correction, and graphical diagnostics at an electoral cutoff.",
     "note": "Verified on the official R Journal page. The empirical illustration explicitly loads rdrobust_RDsenate and documents the variables, 1,297 complete observations, cutoff design, and analysis commands."
+  },
+  {
+    "id": "jss-tmb-laplace-approximation",
+    "title": "TMB: Automatic Differentiation and Laplace Approximation",
+    "authors": "Kasper Kristensen, Anders Nielsen, Casper W. Berg, Hans Skaug, Bradley M. Bell",
+    "year": 2016,
+    "citations": 961,
+    "dataset": "Official JSS replication materials, TMB package, and worked random-effects examples ranging from simple models to large spatial Gaussian random fields",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v070i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v070.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "C++",
+      "R package",
+      "replication code",
+      "worked examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multilevel modeling",
+      "spatial statistics"
+    ],
+    "bestFor": "Benchmarking automatic differentiation and Laplace approximation for nonlinear random-effects and large latent Gaussian models.",
+    "note": "Verified on the official JSS page, which directly links the TMB package and replication materials and documents a reusable suite of examples from simple random-effects models to large spatial models. Two official labels fit cleanly, so the record is retained and marked for label review."
+  },
+  {
+    "id": "jss-rsm-response-surface-methods",
+    "title": "Response-Surface Methods in R, Using rsm",
+    "authors": "Russell V. Lenth",
+    "year": 2009,
+    "citations": 671,
+    "dataset": "Official JSS example code and rsm package resources for central-composite and Box-Behnken designs, coded experimental data, response-surface fitting, steepest ascent, and canonical analysis",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v032i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v032.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "experimental designs",
+      "example code",
+      "package data"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "tutorial-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Teaching and reproducing response-surface design, first- and second-order modeling, lack-of-fit assessment, and process optimization.",
+    "note": "Verified on the official JSS and CRAN pages, which link the rsm package, the paper's R example code, executable vignettes, and documented response-surface design workflows. Only one current official label fits without stretching the hierarchy, so the record is retained and marked for label review."
+  },
+  {
+    "id": "jss-lagp-local-gaussian-processes",
+    "title": "laGP: Large-Scale Spatial Modeling via Local Approximate Gaussian Processes in R",
+    "authors": "Robert B. Gramacy",
+    "year": 2016,
+    "citations": 163,
+    "dataset": "Official JSS replication code, laGP package, and worked computer-experiment and spatial-data examples for local Gaussian-process prediction, sequential design, calibration, and constrained optimization",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v072i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v072.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "computer experiments",
+      "spatial data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "optimal experimental design"
+    ],
+    "bestFor": "Comparing local Gaussian-process approximations, active local design, spatial prediction, computer-model calibration, and parallel prediction at scale.",
+    "note": "Verified on the official JSS and CRAN pages, which provide the laGP package, R replication code, executable vignette, and worked examples for large computer experiments and spatial datasets. Two official labels fit cleanly, so the record is retained and marked for label review."
+  },
+  {
+    "id": "jss-gpfit-deterministic-simulators",
+    "title": "GPfit: An R Package for Fitting a Gaussian Process Model to Deterministic Simulator Outputs",
+    "authors": "Blake MacDonald, Pritam Ranjan, Hugh Chipman",
+    "year": 2015,
+    "citations": 83,
+    "dataset": "Official JSS supplementary plain-text data, paper example code, Table 1-4 replication code, simulator test functions, and Bay of Fundy tidal-energy application data for Gaussian-process emulation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v064i12",
+    "paperUrl": "https://doi.org/10.18637/jss.v064.i12",
+    "access": "open",
+    "formats": [
+      "r",
+      "plain text",
+      "R package",
+      "supplementary data",
+      "replication code"
+    ],
+    "properties": [
+      "supplementary-data",
+      "replication-data",
+      "software",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Reproducing stable Gaussian-process emulation of deterministic simulators and comparing test-function performance with a real tidal-energy model.",
+    "note": "Verified on the official JSS page, which directly links the GPfit package, R example code, supplementary plain-text data, and replication code for Tables 1-4. Only one current official label fits cleanly, so the record is retained and marked for label review."
+  },
+  {
+    "id": "jss-frf2-fractional-factorial-designs",
+    "title": "R Package FrF2 for Creating and Analyzing Fractional Factorial 2-Level Designs",
+    "authors": "Ulrike Groemping",
+    "year": 2014,
+    "citations": 48,
+    "dataset": "Official JSS example dataset, paper example code, and FrF2 package resources for regular and nonregular fractional factorial designs, blocking, split plots, estimability, and effects analysis",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v056i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v056.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "example dataset",
+      "factorial designs",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "tutorial-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Generating and analyzing information-efficient two-level fractional factorial experiments with blocking, split plots, and estimability constraints.",
+    "note": "Verified on the official JSS page, which directly provides the FrF2 package, R example code, and a downloadable example dataset. The catalog lacks a broader design-of-experiments label, so the closest supported official label is used and the record is marked for label review."
+  },
+  {
+    "id": "jss-skpr-optimal-design-power",
+    "title": "Optimal Design Generation and Power Evaluation in R: The skpr Package",
+    "authors": "Tyler Morgan-Wall, George Khoury",
+    "year": 2021,
+    "citations": 20,
+    "dataset": "Official JSS replication code and skpr package workflows for D-, I-, A-, Alias-, E-, T-, and G-optimal designs, split plots, mixture designs, augmentation, and analytic or Monte Carlo power evaluation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v099i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v099.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "optimal designs",
+      "Monte Carlo experiments"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "optimal experimental design",
+      "multilevel modeling",
+      "survival analysis"
+    ],
+    "bestFor": "Generating optimal blocked, split-plot, mixture, and augmented designs and evaluating power for normal, nonnormal, random-effects, censored, and survival outcomes.",
+    "note": "Verified on the official JSS and CRAN pages, which directly link the skpr package and paper replication code and document optimal-design generation plus analytic and Monte Carlo power workflows."
+  },
+  {
+    "id": "csda-diceoptim-noisy-kriging",
+    "title": "Noisy Kriging-Based Optimization Methods: A Unified Implementation Within the DiceOptim Package",
+    "authors": "Victor Picheny, David Ginsbourger",
+    "year": 2014,
+    "citations": 41,
+    "dataset": "DiceOptim package source, reference manual, and documented computer-experiment test functions for sequential kriging-based optimization under noisy evaluations",
+    "datasetUrl": "https://CRAN.R-project.org/package=DiceOptim",
+    "paperUrl": "https://doi.org/10.1016/j.csda.2013.03.018",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "computer experiments",
+      "test functions",
+      "package examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design",
+      "spatial statistics"
+    ],
+    "bestFor": "Comparing sequential kriging-based acquisition strategies for expensive computer experiments with noisy outputs and constrained evaluation budgets.",
+    "note": "Verified from the publisher metadata and the official CRAN package page, which identifies this paper as the package's noisy-optimization reference and exposes the package source, manual, and documented examples. Two official labels fit cleanly, so the record is retained and marked for label review."
+  },
+  {
+    "id": "jcgs-bamlss-bayesian-distributional-regression",
+    "title": "BAMLSS: Bayesian Additive Models for Location, Scale, and Shape (and Beyond)",
+    "authors": "Nikolaus Umlauf, Nadja Klein, Achim Zeileis",
+    "year": 2018,
+    "citations": 152,
+    "dataset": "Open supplementary archive, bamlss package, package data, executable vignette, and two worked case studies for Bayesian additive distributional regression with modular optimization and MCMC engines",
+    "datasetUrl": "https://CRAN.R-project.org/package=bamlss",
+    "paperUrl": "https://doi.org/10.1080/10618600.2017.1407325",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "supplementary archive",
+      "package data",
+      "vignette"
+    ],
+    "properties": [
+      "supplementary-data",
+      "package-data",
+      "software",
+      "code",
+      "tutorial-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "distributional regression",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Building and comparing modular Bayesian location-scale-shape models with additive effects, hierarchical terms, custom distributions, optimization, and posterior sampling.",
+    "note": "Verified from the open publisher page and official CRAN package documentation. The article supplies online supplementary materials and two case studies, while CRAN links the package source, reference manual, citation, vignette, and R code."
   }
 ]

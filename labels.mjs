@@ -1040,6 +1040,10 @@ export const LABEL_CANDIDATES = [
       {
         paperId: "jss-efficient-bayesian-sem-stan",
         reason: "Provides replication code and benchmark materials for marginalized and conditional Bayesian structural equation models in Stan and JAGS."
+      },
+      {
+        paperId: "jss-tmb-laplace-approximation",
+        reason: "Provides replication materials and a general computational framework for nonlinear random-effects and latent-variable models, extending the evidence beyond structural equation and item-response applications."
       }
     ],
     admitWhen: [
