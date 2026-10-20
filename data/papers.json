@@ -65429,5 +65429,282 @@
     ],
     "bestFor": "Building and comparing modular Bayesian location-scale-shape models with additive effects, hierarchical terms, custom distributions, optimization, and posterior sampling.",
     "note": "Verified from the open publisher page and official CRAN package documentation. The article supplies online supplementary materials and two case studies, while CRAN links the package source, reference manual, citation, vignette, and R code."
+  },
+  {
+    "id": "bioinformatics-missforest-mixed-type-imputation",
+    "title": "MissForest - Non-Parametric Missing Value Imputation for Mixed-Type Data",
+    "authors": "Daniel J. Stekhoven, Peter Buhlmann",
+    "year": 2012,
+    "citations": 5743,
+    "dataset": "Public UCI Parkinson's, Musk, SPECT, promoter-sequence, and lymphography datasets plus life-science examples evaluated with 10-30% synthetic missingness and the missForest R implementation",
+    "datasetUrl": "https://archive.ics.uci.edu/dataset/174/parkinsons",
+    "paperUrl": "https://doi.org/10.1093/bioinformatics/btr597",
+    "access": "open",
+    "formats": [
+      "r",
+      "UCI datasets",
+      "mixed numeric and categorical data",
+      "artificial missingness"
+    ],
+    "properties": [
+      "existing-dataset",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Benchmarking nonlinear, interaction-aware imputation of mixed continuous and categorical variables with out-of-bag error estimates and controlled missingness rates.",
+    "note": "Verified from the open Bioinformatics article, which names ten evaluation datasets and states that most came from the UCI repository, and from the official missForest package documentation. Two current official labels fit cleanly, so the record is retained and marked for label review."
+  },
+  {
+    "id": "joss-rbmi-reference-based-multiple-imputation",
+    "title": "rbmi: A R Package for Standard and Reference-Based Multiple Imputation Methods",
+    "authors": "Craig Gower-Page, Alessandro Noci, Marcel Wolbers",
+    "year": 2022,
+    "citations": 21,
+    "dataset": "Public antidepressant-trial data, realistic longitudinal trial simulators, JOSS software archive, vignettes, and workflows for MAR, jump-to-reference, copy-reference, delta, bootstrap, jackknife, and Bayesian multiple imputation",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/rbmi/html/00Index.html",
+    "paperUrl": "https://doi.org/10.21105/joss.04251",
+    "access": "open",
+    "formats": [
+      "r",
+      "stan",
+      "package data",
+      "software archive",
+      "longitudinal trial simulations"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "software",
+      "code",
+      "replication-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "nonignorable missing data",
+      "longitudinal data analysis",
+      "bayesian inference",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing standard and reference-based sensitivity analyses for longitudinal clinical-trial dropout under deterministic, bootstrap, jackknife, and Bayesian imputation engines.",
+    "note": "Verified from the JOSS paper, linked repository and software archive, and official package documentation. The package exposes a public antidepressant example, realistic data generators, missingness-pattern tools, and executable reference-based imputation workflows."
+  },
+  {
+    "id": "arxiv-remiod-controlled-multiple-imputation",
+    "title": "Remiod: Reference-Based Controlled Multiple Imputation of Longitudinal Binary and Ordinal Outcomes with Non-Ignorable Missingness",
+    "authors": "Tony Wang, Ying Liu",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Antidepressant and National Institute of Mental Health schizophrenia datasets in continuous, binary, and ordinal longitudinal formats with JAGS-based controlled-imputation examples",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/remiod/html/00Index.html",
+    "paperUrl": "https://doi.org/10.48550/arXiv.2203.02771",
+    "access": "open",
+    "formats": [
+      "r",
+      "jags",
+      "package data",
+      "longitudinal binary data",
+      "longitudinal ordinal data"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "longitudinal-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "nonignorable missing data",
+      "longitudinal data analysis",
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Evaluating jump-to-reference, copy-reference, and delta-adjusted Bayesian multiple imputation for incomplete longitudinal binary and ordinal outcomes.",
+    "note": "Verified from the open preprint and official remiod documentation, which distributes antidepressant and schizophrenia examples, multiple wide outcome encodings, JAGS posterior workflows, imputed-data extractors, and MCMC diagnostic plots."
+  },
+  {
+    "id": "statistics-medicine-imputation-stacking-mnar",
+    "title": "Accounting for Not-at-Random Missingness through Imputation Stacking",
+    "authors": "Lauren J. Beesley, Jeremy M. G. Taylor",
+    "year": 2021,
+    "citations": 16,
+    "dataset": "StackImpute package simulations, executable vignette, supplementary materials, and weighted stacked-imputation workflows for generalized linear and Cox regression under MNAR sensitivity models",
+    "datasetUrl": "https://cran.r-project.org/package=StackImpute",
+    "paperUrl": "https://doi.org/10.1002/sim.9174",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "vignette",
+      "simulation data",
+      "supplementary materials"
+    ],
+    "properties": [
+      "simulation-data",
+      "software",
+      "code",
+      "supplementary-materials",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "nonignorable missing data",
+      "resampling methods",
+      "survival analysis"
+    ],
+    "bestFor": "Studying MNAR sensitivity analysis after MAR imputation by weighting stacked datasets and estimating uncertainty for generalized linear and survival models.",
+    "note": "Verified from the open manuscript, its supplementary material, and official StackImpute package vignette. These resources provide the weighting construction, reproducible simulations, and bootstrap or sandwich standard-error workflows, including Cox regression."
+  },
+  {
+    "id": "computational-statistics-fdanova-functional-anova",
+    "title": "fdANOVA: An R Software Package for Analysis of Variance for Univariate and Multivariate Functional Data",
+    "authors": "Tomasz Gorecki, Lukasz Smaga",
+    "year": 2019,
+    "citations": 77,
+    "dataset": "fda gait curves, mfds Graz and uWaveGestureLibrary functional datasets, simulation designs, supplementary materials, and bootstrap, permutation, and random-projection FANOVA workflows",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/fda/html/gait.html",
+    "paperUrl": "https://doi.org/10.1007/s00180-018-0842-7",
+    "access": "open",
+    "formats": [
+      "r",
+      "functional curves",
+      "package data",
+      "simulation data",
+      "supplementary materials"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "supplementary-materials",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing functional ANOVA and MANOVA tests based on bootstrap, permutations, basis representations, and random projections across real curve datasets and controlled simulations.",
+    "note": "Verified from the open Springer article and official package documentation. The article directly documents the fda gait data, Graz and uWaveGestureLibrary benchmarks, reproducible simulation models, and supplementary comparisons of functional tests."
+  },
+  {
+    "id": "rjournal-roahd-robust-functional-data",
+    "title": "roahd Package: Robust Analysis of High Dimensional Data",
+    "authors": "Francesca Ieva, Anna Maria Paganoni, Juan Romo, Nicholas Tarabelloni",
+    "year": 2019,
+    "citations": 13,
+    "dataset": "Healthy and left-bundle-branch-block multilead ECG curves, univariate and multivariate Gaussian functional-data generators, package examples, and downloadable article supplements",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2019-032/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2019-032",
+    "access": "open",
+    "formats": [
+      "r",
+      "package data",
+      "ECG functional curves",
+      "simulation generators",
+      "supplementary archive"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "supplementary-materials",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "robust statistics",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Testing depth-based robust summaries, functional boxplots, shape and magnitude outlier detection, dependence measures, and multivariate functional inference on realistic ECG signals.",
+    "note": "Verified from The R Journal article, its supplementary ZIP, and linked package. The paper documents two 50-subject multilead ECG datasets and executable generators for univariate and multivariate Gaussian functional samples."
+  },
+  {
+    "id": "bayesian-analysis-registration-functions-curves",
+    "title": "Bayesian Registration of Functions and Curves",
+    "authors": "Wen Cheng, Ian L. Dryden, Xianzheng Huang",
+    "year": 2016,
+    "citations": 52,
+    "dataset": "Mouse vertebra shape outlines, mass-spectrometry functions, simulation study, and fdasrvf Bayesian pairwise and mean-registration examples with posterior warping samples",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/fdasrvf/html/00Index.html",
+    "paperUrl": "https://doi.org/10.1214/15-BA957",
+    "access": "open",
+    "formats": [
+      "r",
+      "functional curves",
+      "shape outlines",
+      "mass spectrometry",
+      "simulation data"
+    ],
+    "properties": [
+      "simulation-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "bayesian inference",
+      "mcmc diagnostics",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Studying posterior uncertainty in elastic registration, phase variation, mean-shape estimation, and classification when functions or curves require nonlinear warping.",
+    "note": "Verified from the open Bayesian Analysis paper and official fdasrvf documentation, which explicitly implements the paper's Bayesian pairwise and Karcher-mean registration algorithms and exposes simulated functional examples and posterior diagnostics."
+  },
+  {
+    "id": "plosone-bayesian-function-registration-random-truncation",
+    "title": "Bayesian Function Registration with Random Truncation",
+    "authors": "Yi Lu, Radu Herbei, Sebastian Kurtek",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Six real functional datasets spanning gait, Berkeley growth, pinch force, signatures, neural activity, and movement, with downloadable R code, .RData files, and simulation resources",
+    "datasetUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0287734",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0287734",
+    "access": "open",
+    "formats": [
+      "r",
+      "RData",
+      "supplementary ZIP",
+      "functional curves",
+      "simulation data"
+    ],
+    "properties": [
+      "replication-data",
+      "supplementary-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "bayesian inference",
+      "dimension reduction",
+      "mcmc diagnostics",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating adaptive basis truncation in Bayesian pairwise and multiple-function registration while reproducing posterior behavior across six real curve datasets.",
+    "note": "Verified from the open PLOS ONE article and its Supporting Information. The paper states that all relevant data are included, and the downloadable code-and-data archive contains R scripts, manuscript datasets as .RData files, and a readme."
   }
 ]
