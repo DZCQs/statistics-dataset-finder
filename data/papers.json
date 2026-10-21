@@ -65706,5 +65706,269 @@
     ],
     "bestFor": "Evaluating adaptive basis truncation in Bayesian pairwise and multiple-function registration while reproducing posterior behavior across six real curve datasets.",
     "note": "Verified from the open PLOS ONE article and its Supporting Information. The paper states that all relevant data are included, and the downloadable code-and-data archive contains R scripts, manuscript datasets as .RData files, and a readme."
+  },
+  {
+    "id": "aos-wild-binary-segmentation-change-points",
+    "title": "Wild Binary Segmentation for Multiple Change-Point Detection",
+    "authors": "Piotr Fryzlewicz",
+    "year": 2014,
+    "citations": 719,
+    "dataset": "wbs R package source, documented simulation designs, binary-segmentation comparisons, change-point extraction examples, and executable synthetic time-series workflows",
+    "datasetUrl": "https://CRAN.R-project.org/package=wbs",
+    "paperUrl": "https://doi.org/10.1214/14-AOS1245",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "simulation data",
+      "source code"
+    ],
+    "properties": [
+      "simulation-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing wild and standard binary segmentation for multiple mean changes, studying random-interval localization, and reproducing failure and success cases on controlled time series.",
+    "note": "Verified from the Annals of Statistics paper and official wbs documentation. The package explicitly implements the paper, provides executable synthetic signals, and exposes standard and wild binary segmentation plus change-point extraction. Two official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jkss-wbs2-frequent-change-points",
+    "title": "Detecting Possibly Frequent Change-Points: Wild Binary Segmentation 2 and Steepest-Drop Model Selection",
+    "authors": "Piotr Fryzlewicz",
+    "year": 2020,
+    "citations": 53,
+    "dataset": "Author-maintained WBS2.SDLL repository with complete R implementations, robust non-Gaussian and heterogeneous-noise variants, and a comparison script reproducing the paper's simulation study",
+    "datasetUrl": "https://github.com/pfryz/wild-binary-segmentation-2.0",
+    "paperUrl": "https://doi.org/10.1007/s42952-020-00060-x",
+    "access": "open",
+    "formats": [
+      "r",
+      "GitHub repository",
+      "replication scripts",
+      "simulation data"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "robust statistics"
+    ],
+    "bestFor": "Evaluating dense or frequent mean-change regimes, complete nested solution paths, steepest-drop model selection, and robust variants under non-Gaussian or heterogeneous noise.",
+    "note": "Verified from the open paper and the author's companion repository. The repository identifies itself as code for the paper and includes the main WBS2.SDLL implementation, a robust variant, utilities, and the script used to compare methods in the simulation study."
+  },
+  {
+    "id": "statmod-expectile-quantile-david-goliath",
+    "title": "Expectile and Quantile Regression: David and Goliath?",
+    "authors": "Linda Schulze Waltrup, Fabian Sobotka, Thomas Kneib, Goran Kauermann",
+    "year": 2015,
+    "citations": 138,
+    "dataset": "expectreg package data and vignette with Indian Demographic and Health Survey malnutrition observations, Dutch growth-study data, OECD gasoline data, simulations, noncrossing expectile curves, and expected-shortfall examples",
+    "datasetUrl": "https://CRAN.R-project.org/package=expectreg",
+    "paperUrl": "https://doi.org/10.1177/1471082X14561155",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "vignette",
+      "simulation data"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "distributional regression"
+    ],
+    "bestFor": "Comparing conditional quantile and expectile regression, deriving quantiles from dense expectile grids, estimating noncrossing curves, and studying expected shortfall as a tail functional of the full conditional response distribution.",
+    "note": "Verified from the open Statistical Modelling paper, the official expectreg vignette, and package documentation. The vignette explicitly documents the India and Dutch growth datasets and executable expectile, quantile, boosting, and noncrossing-curve workflows. Two official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "technometrics-detecting-deviating-data-cells",
+    "title": "Detecting Deviating Data Cells",
+    "authors": "Peter J. Rousseeuw, Wannes Van den Bossche",
+    "year": 2018,
+    "citations": 109,
+    "dataset": "cellWise package DDC implementation, DDC vignette and R code, Top Gear automobile data, glass-composition and other package datasets, contaminated-data generators, and missing-cell imputation examples",
+    "datasetUrl": "https://CRAN.R-project.org/package=cellWise",
+    "paperUrl": "https://doi.org/10.1080/00401706.2017.1340909",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "vignettes",
+      "simulation generator"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "missing data"
+    ],
+    "bestFor": "Studying robust multivariate detection of anomalous individual cells, correlation-aware cell maps, contamination diagnostics, and simultaneous prediction-based imputation of missing entries.",
+    "note": "Verified from the open Technometrics paper and official cellWise package page. CRAN links the paper, dedicated DDC vignette source and R code, reusable real datasets, and generators for cellwise, casewise, and mixed contamination. Two official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "technometrics-macropca-cellwise-rowwise-outliers",
+    "title": "MacroPCA: An All-in-One PCA Method Allowing for Missing Values as Well as Cellwise and Rowwise Outliers",
+    "authors": "Mia Hubert, Peter J. Rousseeuw, Wannes Van den Bossche",
+    "year": 2019,
+    "citations": 46,
+    "dataset": "cellWise MacroPCA implementation, dedicated vignette and R code, archaeological glass-composition data, simulated contaminated matrices, residual maps, and workflows combining missing values with cellwise and rowwise outliers",
+    "datasetUrl": "https://CRAN.R-project.org/package=cellWise",
+    "paperUrl": "https://doi.org/10.1080/00401706.2018.1562989",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "vignettes",
+      "simulation data"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "dimension reduction",
+      "high-dimensional statistics",
+      "missing data"
+    ],
+    "bestFor": "Comparing classical and robust principal component analysis when high-dimensional matrices contain missing entries, isolated anomalous cells, contaminated rows, or mixtures of all three.",
+    "note": "Verified from the open paper and official cellWise documentation. CRAN explicitly links MacroPCA to the paper and supplies a dedicated vignette, R code, glass data, additional package datasets, and contamination generators."
+  },
+  {
+    "id": "joss-ppmdata-spatial-point-process",
+    "title": "The ppmData R-Package for Setting Up Spatial Point Process Models",
+    "authors": "Skipton N. C. Woolley, Scott D. Foster",
+    "year": 2023,
+    "citations": 2,
+    "dataset": "Archived ppmData software and GitHub example data for species locations, study-region boundaries, covariates, quasi-random quadrature, Dirichlet tessellation, marked point processes, and inhomogeneous Poisson point-process fitting",
+    "datasetUrl": "https://github.com/skiptoniam/ppmData",
+    "paperUrl": "https://doi.org/10.21105/joss.04771",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "spatial point data",
+      "GitHub repository",
+      "software archive"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Constructing quadrature schemes for single- and multi-species spatial point processes and fitting inhomogeneous Poisson point-process models from presence-only data.",
+    "note": "Verified from the JOSS article, its linked software repository and archive, and the repository's packaged example data. The materials provide spatial coordinates, covariates, quadrature construction, marked-process examples, and a complete model-fitting workflow. One official label fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "mee-pointedsdms-integrated-species-distributions",
+    "title": "PointedSDMs: An R Package to Help Facilitate the Construction of Integrated Species Distribution Models",
+    "authors": "Philip S. Mostert, Robert B. O'Hara",
+    "year": 2023,
+    "citations": 22,
+    "dataset": "PointedSDMs package data, four executable vignettes, solitary-tinamou and Setophaga examples, presence-only and presence-absence integration, marked point-process workflows, spatio-temporal examples, GitHub source, and archived manuscript package version",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.7688454",
+    "paperUrl": "https://doi.org/10.1111/2041-210X.14091",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "vignettes",
+      "Zenodo archive"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "bayesian inference",
+      "time series analysis"
+    ],
+    "bestFor": "Building Bayesian integrated spatial and spatio-temporal species-distribution models that combine presence-only, presence-absence, count, and marked point-process data through INLA and inlabru.",
+    "note": "Verified from the open Methods in Ecology and Evolution paper and its data-availability statement. The paper states that all data are in PointedSDMs, links the source, and archives the exact package version used; current documentation exposes four data-rich vignettes."
+  },
+  {
+    "id": "ecoevo-stelfi-hawkes-lgcp-point-processes",
+    "title": "stelfi: An R Package for Fitting Hawkes and Log-Gaussian Cox Point Process Models",
+    "authors": "Charlotte M. Jones-Todd, Alec B. M. van Helsdingen",
+    "year": 2024,
+    "citations": 7,
+    "dataset": "stelfi package data including US Sasquatch sightings and simulated marked point patterns, supplementary model-fitting archive, GitHub source, and Zenodo snapshots for temporal Hawkes, spatial and spatio-temporal LGCP, and self-exciting process examples",
+    "datasetUrl": "https://CRAN.R-project.org/package=stelfi",
+    "paperUrl": "https://doi.org/10.1002/ece3.11005",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "supplementary ZIP",
+      "Zenodo archive"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "supplementary-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Fitting temporal Hawkes processes, spatial and spatio-temporal log-Gaussian Cox processes, self-exciting event models, marked processes, and joint likelihoods using Template Model Builder.",
+    "note": "Verified from the open Ecology and Evolution paper, associated-data section, CRAN package, and Zenodo archives. The paper states that the analysis data ship with stelfi and that complete model-fitting code and package-version information are supplied in the supplement and archived repository."
   }
 ]
