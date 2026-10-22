@@ -173,7 +173,7 @@ const evidenceRules = [
     label: "resampling methods",
     reason: "bootstrap, permutation, jackknife, or resampling-inference evidence in record text",
     test: (paper) =>
-      /\b(bootstrap|resampling|permutation test|permutation|jackknife|bootstrap confidence interval|bootstrap confidence region)\b/i.test(
+      /\b(bootstrap|resampling|permutation test|permutation inference|permutation-based inference|jackknife|bootstrap confidence interval|bootstrap confidence region)\b/i.test(
         paperText(paper)
       )
   },
@@ -458,7 +458,7 @@ const evidenceRules = [
       const text = paperText(paper);
       return (
         !/\bsparse (demand|observations?|measurements?|records?|samples?|sampling|coverage|data)\b/i.test(text) &&
-        /\b(high[- ]dimensional (data|statistics?|regression|models?|modeling|modelling|covariates?|predictors?|features?|inference|estimation|variable selection|multiple testing)|p\s*>>\s*n|p\s*>\s*n|sparse (regression|models?|modeling|modelling|learning|precision|inverse covariance|graphical|variables?|features?|estimation)|sparsity-inducing|lasso|elastic net|regulari[sz]ed|regulari[sz]ation|penali[sz]ed|variable selection)\b/i.test(
+        /\b(high[- ]dimensional (data|statistics?|regression|models?|modeling|modelling|covariates?|predictors?|features?|inference|estimation|variable selection|multiple testing)|p\s*>>\s*n|p\s*>\s*n|sparse (regression|models?|modeling|modelling|learning|precision|inverse covariance|graphical|variables?|features?|estimation)|sparsity-inducing|lasso|elastic net|variable selection)\b/i.test(
           text
         )
       );

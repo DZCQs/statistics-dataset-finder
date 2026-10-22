@@ -65970,5 +65970,419 @@
     ],
     "bestFor": "Fitting temporal Hawkes processes, spatial and spatio-temporal log-Gaussian Cox processes, self-exciting event models, marked processes, and joint likelihoods using Template Model Builder.",
     "note": "Verified from the open Ecology and Evolution paper, associated-data section, CRAN package, and Zenodo archives. The paper states that the analysis data ship with stelfi and that complete model-fitting code and package-version information are supplied in the supplement and archived repository."
+  },
+  {
+    "id": "jss-msm-multistate-panel-models",
+    "title": "Multi-State Models for Panel Data: The msm Package for R",
+    "authors": "Christopher H. Jackson",
+    "year": 2011,
+    "citations": 1305,
+    "dataset": "msm R package, JSS example code, and package data for chronic disease progression, screening, continuous-time Markov models, hidden Markov models, and misclassified panel-observed states",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v038i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v038.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "example code",
+      "panel event histories"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "multi-state models",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Fitting continuous-time Markov and hidden Markov multi-state models to intermittently observed disease-state panels, including covariates, misclassification, and model-fit assessment.",
+    "note": "Verified from the official JSS article page, which links the msm package and paper example code. The article documents reusable chronic-disease progression and screening examples for panel-observed states."
+  },
+  {
+    "id": "jss-mstate-competing-multistate-models",
+    "title": "mstate: An R Package for the Analysis of Competing Risks and Multi-State Models",
+    "authors": "Liesbeth C. de Wreede, Marta Fiocco, Hein Putter",
+    "year": 2011,
+    "citations": 481,
+    "dataset": "mstate R package, JSS example code, and EBMT blood-cancer transplant event-history data for competing-risk and multi-state estimation, prediction, and visualization",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v038i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v038.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "example code",
+      "event histories"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "multi-state models",
+      "competing risks",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Reproducing nonparametric and Cox-based multi-state analyses, cumulative incidence, transition-specific covariate effects, and post-transplant prediction.",
+    "note": "Verified from the official JSS page, which provides the mstate package and paper code. The worked analysis uses documented EBMT post-transplant event histories for patients with blood cancer."
+  },
+  {
+    "id": "jss-etm-empirical-transition-matrix",
+    "title": "Empirical Transition Matrix of Multi-State Models: The etm Package",
+    "authors": "Arthur Allignol, Martin Schumacher, Jan Beyersmann",
+    "year": 2011,
+    "citations": 137,
+    "dataset": "etm R package, JSS example code, and downloadable R-binary example data for empirical transition matrices, Aalen-Johansen estimation, competing events, censoring, and left truncation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v038i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v038.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "RData",
+      "example code",
+      "event histories"
+    ],
+    "properties": [
+      "package-data",
+      "supplementary-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "multi-state models",
+      "competing risks"
+    ],
+    "bestFor": "Estimating and comparing empirical transition-probability matrices in censored or left-truncated multi-state data with competing events.",
+    "note": "Verified from the official JSS special-volume page, which directly supplies the etm package, the article's R code, and example data in R binary format."
+  },
+  {
+    "id": "jss-timereg-competing-risks",
+    "title": "Analyzing Competing Risk Data Using the R timereg Package",
+    "authors": "Thomas H. Scheike, Mei-Jie Zhang",
+    "year": 2011,
+    "citations": 136,
+    "dataset": "timereg R package, JSS example code, and downloadable follicular-cell-lymphoma CSV data with relapse and death as competing events",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v038i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v038.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "csv",
+      "example code",
+      "competing-event data"
+    ],
+    "properties": [
+      "supplementary-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "multi-state models",
+      "competing risks"
+    ],
+    "bestFor": "Studying flexible cumulative-incidence regression, Fine-Gray special cases, nonproportional subdistribution hazards, goodness-of-fit tests, and prediction bands.",
+    "note": "Verified from the official JSS page, which directly links timereg, paper code, and CSV example data. The article documents relapse and death without relapse in follicular-cell lymphoma."
+  },
+  {
+    "id": "jss-rereg-recurrent-terminal-events",
+    "title": "Regression Modeling for Recurrent Events Possibly with an Informative Terminal Event Using R Package reReg",
+    "authors": "Sy Han Chiou, Gongjun Xu, Jun Yan, Chiung-Yu Huang",
+    "year": 2023,
+    "citations": 27,
+    "dataset": "reReg package, JSS replication code, built-in simDat recurrent-event simulation, and frailtypack colorectal cancer trial data with repeated lesions and terminal death",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v105i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v105.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "replication code",
+      "simulation data"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "recurrent event analysis"
+    ],
+    "bestFor": "Comparing Cox-type, accelerated-rate, accelerated-mean, and general scale-change recurrent-event regressions with informative terminal events.",
+    "note": "Verified from the official JSS page and article. The package supplies an exactly reproducible simulated recurrent-terminal dataset, while the application uses 150 colorectal-cancer trial patients with repeated new lesions and death."
+  },
+  {
+    "id": "jss-frailtypack-correlated-survival",
+    "title": "frailtypack: An R Package for the Analysis of Correlated Survival Data with Frailty Models Using Penalized Likelihood Estimation or Parametrical Estimation",
+    "authors": "Virginie Rondeau, Yassin Mazroui, Juan R. González",
+    "year": 2012,
+    "citations": 255,
+    "dataset": "frailtypack R package and JSS example code with clustered survival, recurrent-event, terminal-event, nested-frailty, and joint-frailty data examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v047i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v047.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "example code",
+      "event histories"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "recurrent event analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Fitting shared, nested, joint, and additive frailty models to clustered failures, recurrent events, terminal events, censoring, and left truncation.",
+    "note": "Verified from the official JSS page, which links the frailtypack package and paper code. The package is explicitly designed around reusable correlated-survival and recurrent-event examples."
+  },
+  {
+    "id": "jss-frailtyem-shared-frailty",
+    "title": "frailtyEM: An R Package for Estimating Semiparametric Shared Frailty Models",
+    "authors": "Theodor Adrian Balan, Hein Putter",
+    "year": 2019,
+    "citations": 50,
+    "dataset": "frailtyEM R package and JSS replication code for clustered failures, recurrent events in calendar or gap time, left truncation, shared-frailty distributions, and survival prediction",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v090i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v090.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "event histories",
+      "simulation examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "recurrent event analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Evaluating EM estimation of semiparametric shared-frailty models across clustered failures, recurrent events, left truncation, and alternative frailty distributions.",
+    "note": "Verified from the official JSS page, which supplies the frailtyEM package and complete replication code for the article's clustered-failure and recurrent-event analyses."
+  },
+  {
+    "id": "rjournal-fastcmprsk-scalable-competing-risks",
+    "title": "A Fast and Scalable Implementation Method for Competing Risks Data with the R Package fastcmprsk",
+    "authors": "Eric S. Kawaguchi, Jenny I. Shen, Gang Li, Marc A. Suchard",
+    "year": 2020,
+    "citations": 20,
+    "dataset": "fastcmprsk R package, R Journal supplementary archive, two-cause competing-risk simulator, timing experiments, and penalized Fine-Gray regression workflows",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2021-010/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-010",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "supplementary ZIP",
+      "simulation data",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "multi-state models",
+      "competing risks",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Benchmarking scalable unpenalized and penalized Fine-Gray regression, cumulative-incidence prediction, regularization, and runtime on large competing-risk samples.",
+    "note": "Verified from the official R Journal page, which links a supplementary archive and CRAN package. The package documents a two-cause simulator and reproducible unpenalized and penalized competing-risk experiments."
+  },
+  {
+    "id": "rjournal-emdi-area-level-small-area",
+    "title": "A Framework for Producing Small Area Estimates Based on Area-Level Models in R",
+    "authors": "Sylvia Harmening, Ann-Kristin Kreutzmann, Sören Schmidt, Nicola Salvati, Timo Schmid",
+    "year": 2023,
+    "citations": 11,
+    "dataset": "R Journal supplementary archive and emdi package synthetic Austrian district data for Fay-Herriot, transformed, spatial, robust, measurement-error, benchmarking, mapping, and MSE workflows",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2023-039/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-039",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "supplementary ZIP",
+      "synthetic area-level data",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "spatial statistics",
+      "measurement error models",
+      "robust statistics"
+    ],
+    "bestFor": "Comparing classical and extended Fay-Herriot models, spatial and robust area effects, transformations, measurement error, benchmarking, uncertainty, and mapping.",
+    "note": "Verified from the official R Journal page, which provides a supplementary archive. The article documents synthetic Austrian district data and a complete emdi workflow for producing and diagnosing area-level estimates."
+  },
+  {
+    "id": "jmlr-causal-learn-python",
+    "title": "Causal-learn: Causal Discovery in Python",
+    "authors": "Yujia Zheng, Biwei Huang, Wei Chen, Joseph Ramsey, Mingming Gong, Ruichu Cai, Shohei Shimizu, Peter Spirtes, Kun Zhang",
+    "year": 2024,
+    "citations": 32,
+    "dataset": "causal-learn source, runnable PC and GES examples, tests, documentation, and linked CMU benchmark collection of real and simulated causal datasets",
+    "datasetUrl": "https://github.com/py-why/causal-learn",
+    "paperUrl": "https://www.jmlr.org/papers/v25/23-0970.html",
+    "access": "open",
+    "formats": [
+      "python",
+      "GitHub repository",
+      "benchmark links",
+      "tests",
+      "documentation"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "benchmarks",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "graphical models",
+      "causal discovery",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Running and comparing constraint-based, score-based, functional-causal, hidden-representation, permutation, and time-series causal discovery methods in Python.",
+    "note": "Verified from the official JMLR article and maintained py-why repository. The repository provides executable examples and links a maintained CMU collection of real-world and simulated causal benchmark datasets."
+  },
+  {
+    "id": "jmlr-causal-discovery-toolbox",
+    "title": "Causal Discovery Toolbox: Uncovering Causal Relationships in Python",
+    "authors": "Diviyan Kalainathan, Olivier Goudet, Ritik Dutta",
+    "year": 2020,
+    "citations": 35,
+    "dataset": "Causal Discovery Toolbox repository, tutorials, graph-recovery examples, Sachs protein-signaling data loader, Tuebingen cause-effect pairs, synthetic generators, and evaluation utilities",
+    "datasetUrl": "https://github.com/FenTechSolutions/CausalDiscoveryToolbox",
+    "paperUrl": "https://www.jmlr.org/papers/v21/19-187.html",
+    "access": "open",
+    "formats": [
+      "python",
+      "GitHub repository",
+      "package data",
+      "tutorials",
+      "simulation generators"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "benchmarks",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "graphical models",
+      "causal discovery",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Benchmarking pairwise causal direction, graph skeleton recovery, causal orientation, and end-to-end structure learning on real and synthetic data.",
+    "note": "Verified from the official JMLR page and maintained repository. The package exposes loaders for Sachs and Tuebingen data, graph examples, synthetic-data utilities, tutorials, and implementations spanning pairwise and graph-level discovery."
+  },
+  {
+    "id": "joss-bggm-bayesian-gaussian-graphs",
+    "title": "BGGM: Bayesian Gaussian Graphical Models in R",
+    "authors": "Donald R. Williams, Joris Mulder",
+    "year": 2020,
+    "citations": 112,
+    "dataset": "BGGM software archive and R package data, including women_math and additional continuous, binary, ordinal, and mixed-data examples with estimation, hypothesis-testing, and network-comparison vignettes",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.3954503",
+    "paperUrl": "https://doi.org/10.21105/joss.02111",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "vignettes",
+      "Zenodo archive"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "high-dimensional statistics",
+      "graphical models"
+    ],
+    "bestFor": "Estimating, testing, comparing, and predicting Bayesian Gaussian graphical models for continuous, binary, ordinal, and mixed observations.",
+    "note": "Verified from the official JOSS page, archived software DOI, and maintained package repository. The package contains reusable datasets such as women_math plus vignettes for estimation, confirmatory testing, and graph comparison."
   }
 ]

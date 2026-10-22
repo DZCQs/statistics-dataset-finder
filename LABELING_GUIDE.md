@@ -70,6 +70,9 @@ Good label level:
 - `test equating`
 - `survival analysis`
 - `survival models`
+- `multi-state models`
+- `competing risks`
+- `recurrent event analysis`
 - `risk prediction`
 - `measurement error models`
 - `high-dimensional statistics`
@@ -123,6 +126,9 @@ High-level topic families:
   - `small area estimation`
 - `survival analysis`
   - `survival models`
+    - `multi-state models`
+      - `competing risks`
+    - `recurrent event analysis`
     - `joint models`
   - `risk prediction`
 - `high-dimensional statistics`

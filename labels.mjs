@@ -609,6 +609,51 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["survival", "time-to-event", "censoring", "cox", "hazard", "event histories"]
   },
   {
+    name: "multi-state models",
+    level: "mid",
+    parents: ["survival models"],
+    definition: "Datasets, panel histories, and replication resources for statistical models of transitions among multiple event or disease states over time.",
+    includeWhen: [
+      "multi-state, illness-death, transition-intensity, state-occupation, or continuous-time Markov modeling is central",
+      "the resource provides event histories, panel-observed states, code, simulations, or package examples for estimating transition hazards or probabilities"
+    ],
+    avoidWhen: [
+      "states refer only to geographic or administrative regions without a transition model",
+      "the paper uses a generic finite-state algorithm without a statistical event-history or longitudinal modeling purpose"
+    ],
+    evidenceTerms: ["multi-state model", "multi-state models", "multistate model", "multistate models", "illness-death model", "transition intensity", "transition matrix", "state occupation", "package mstate", "package msm", "package etm"]
+  },
+  {
+    name: "competing risks",
+    level: "low",
+    parents: ["multi-state models", "survival models"],
+    definition: "Datasets and replication resources for time-to-event settings in which distinct event types preclude or alter observation of one another.",
+    includeWhen: [
+      "competing events, cumulative incidence, cause-specific hazards, subdistribution hazards, or Fine-Gray regression are central",
+      "the resource provides event-type data, code, simulations, or software workflows for competing-risk estimation or prediction"
+    ],
+    avoidWhen: [
+      "competition is an application-domain concept without mutually exclusive event types",
+      "ordinary right-censored survival analysis is performed without competing events"
+    ],
+    evidenceTerms: ["competing risks", "competing risk", "cumulative incidence", "cause-specific hazard", "cause specific hazard", "subdistribution hazard", "fine-gray", "fine and gray", "timereg", "fastcmprsk"]
+  },
+  {
+    name: "recurrent event analysis",
+    level: "low",
+    parents: ["survival models"],
+    definition: "Datasets and replication resources for event-history settings in which each subject may experience the same or related events repeatedly during follow-up.",
+    includeWhen: [
+      "recurrent events, repeated failures, event rates or means, gap times, joint recurrent-terminal processes, or recurrent-event frailty models are central",
+      "the resource provides repeated-event histories, simulations, code, or package examples for recurrent-event regression"
+    ],
+    avoidWhen: [
+      "the data contain repeated measurements but no repeated event process",
+      "only a subject's first event is analyzed and recurrent-event methodology is not provided"
+    ],
+    evidenceTerms: ["recurrent event", "recurrent events", "repeated failure", "gap time", "mean cumulative function", "recurrent terminal", "recurrent-event", "rereg", "frailtypack", "frailtyem"]
+  },
+  {
     name: "survival analysis",
     level: "high",
     parents: [],
