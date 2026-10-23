@@ -98,6 +98,8 @@ Good label level:
 - `robust statistics`
 - `conformal prediction`
 - `mixture models`
+- `clustering`
+- `latent variable models`
 - `network meta-analysis`
 - `diagnostic meta-analysis`
 - `publication bias`
@@ -194,8 +196,6 @@ checks include:
 - `high-dimensional statistics`
 - `variable selection`
 - `regularization methods`
-- `latent variable models`
-- `clustering`
 - `dimension reduction`
 - `uncertainty quantification`
 

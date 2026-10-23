@@ -596,6 +596,37 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["mixture models", "mixture model", "finite mixture", "finite mixtures", "gaussian mixture", "normal mixture", "multivariate t mixture", "model-based clustering", "model based clustering", "latent class regression", "latent class", "mixture-of-regression", "mixture-of-regressions", "mixtures of regressions", "mixture of generalized linear regressions", "mixture modeling", "mixture modelling", "expectation-maximization", "em algorithm", "mclust", "flexmix", "mixtools", "rmixmod", "teigen", "bgmm"]
   },
   {
+    name: "clustering",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, simulation designs, software examples, and replication packages for statistical clustering methods, including partition-based, hierarchical, density-based, sparse, robust, and model-based clustering.",
+    includeWhen: [
+      "cluster construction, validation, stability, number-of-clusters selection, density-based clustering, hierarchical clustering, K-means, or another statistical clustering method is central",
+      "the resource provides data, simulations, package examples, benchmark material, or replication code for fitting or evaluating clustering methods"
+    ],
+    avoidWhen: [
+      "cluster refers only to clustered sampling, cluster-randomized trials, computing clusters, or correlated observations",
+      "the resource fits a finite mixture model without a clustering or classification purpose"
+    ],
+    evidenceTerms: ["cluster analysis", "clustering", "cluster validation", "number of clusters", "k-means", "k means", "hierarchical clustering", "agglomerative clustering", "density-based clustering", "density based clustering", "dbscan", "optics", "robust clustering", "sparse clustering", "model-based clustering", "trimmed clustering", "consensus clustering", "nbclust", "clvalid", "fastcluster", "pdfcluster"]
+  },
+  {
+    name: "latent variable models",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, software examples, and replication packages for factor analysis, structural equation models, latent growth or process models, and related measurement models with unobserved constructs.",
+    includeWhen: [
+      "factor analysis, structural equation modeling, latent growth or process modeling, measurement models, or latent-variable network models are central",
+      "the resource provides observed indicators, covariance structures, simulations, package data, code, or replication material for estimating latent-variable models"
+    ],
+    avoidWhen: [
+      "latent class or mixture terminology is primary and the resource is better retrieved through mixture models",
+      "latent variables appear only as an implementation detail without reusable data or a latent-variable modeling workflow",
+      "item response theory is the sole modeling purpose and no broader factor, structural-equation, or latent-process analysis is supported"
+    ],
+    evidenceTerms: ["latent variable model", "latent variable models", "factor analysis", "confirmatory factor analysis", "structural equation model", "structural equation modeling", "structural equation modelling", "measurement model", "latent growth model", "latent process", "latent network", "lavaan", "openmx", "psychonetrics", "blavaan"]
+  },
+  {
     name: "survival models",
     level: "mid",
     parents: ["survival analysis"],
@@ -1046,86 +1077,7 @@ export const LABEL_REGISTRY = [
   }
 ];
 
-export const LABEL_CANDIDATES = [
-  {
-    name: "latent variable models",
-    proposedLevel: "mid",
-    proposedParents: [],
-    status: "watch",
-    definition: "Datasets and replication packages for statistical models in which unobserved constructs, classes, traits, or processes explain dependence among observed variables.",
-    currentEvidence: [
-      {
-        paperId: "jss-lcmm-latent-class-mixed-models",
-        reason: "Provides cognitive-aging data and replication code for latent processes and latent-class mixed models."
-      },
-      {
-        paperId: "jss-randomlca-random-effects",
-        reason: "Provides three real examples for latent-class models with subject- and period-level random effects."
-      },
-      {
-        paperId: "jss-stepmix-generalized-mixtures",
-        reason: "Provides simulation and real-data resources for generalized latent-class measurement and structural models."
-      },
-      {
-        paperId: "jss-lavaan-survey-complex-sem",
-        reason: "Provides complex-survey structural-equation examples and imputed datasets with latent-variable measurement models."
-      },
-      {
-        paperId: "jss-diffirt-response-times",
-        reason: "Provides response and response-time examples for latent-trait diffusion item-response models."
-      },
-      {
-        paperId: "jss-famt-dependent-multiple-testing",
-        reason: "Provides expression and covariate data for factor-adjusted multiple testing, adding evidence from statistical factor models outside psychometrics and mixture modeling."
-      },
-      {
-        paperId: "jss-blavaan-bayesian-sem",
-        reason: "Provides package data and replication materials for classical and novel Bayesian structural equation models with explicit latent-variable parameterizations."
-      },
-      {
-        paperId: "jss-efficient-bayesian-sem-stan",
-        reason: "Provides replication code and benchmark materials for marginalized and conditional Bayesian structural equation models in Stan and JAGS."
-      },
-      {
-        paperId: "jss-tmb-laplace-approximation",
-        reason: "Provides replication materials and a general computational framework for nonlinear random-effects and latent-variable models, extending the evidence beyond structural equation and item-response applications."
-      }
-    ],
-    admitWhen: [
-      "additional high-confidence factor-analysis or structural-equation resources show reuse beyond the existing mixture-model and item-response-theory labels",
-      "the scope can be defined so that it improves search without becoming a redundant umbrella over mixture models and item response theory",
-      "the hierarchy position remains useful across psychometrics, structural equation modeling, and longitudinal latent-process work"
-    ],
-    evidenceTerms: ["latent variable model", "latent variable models", "latent process", "latent class", "structural equation model", "measurement model", "latent trait"]
-  },
-  {
-    name: "clustering",
-    proposedLevel: "mid",
-    proposedParents: [],
-    status: "watch",
-    definition: "Datasets, simulation designs, and replication packages for statistical clustering methods, including robust, sparse, partition-based, and model-based clustering.",
-    currentEvidence: [
-      {
-        paperId: "jss-contaminatedmixt-robust-mixtures",
-        reason: "Provides artificial and real-data resources for robust model-based clustering with contaminated-normal mixtures."
-      },
-      {
-        paperId: "jss-rskc-robust-sparse-clustering",
-        reason: "Provides four datasets and simulations for robust sparse K-means with noise variables, outliers, and missing values."
-      },
-      {
-        paperId: "jss-tclust-trimmed-clustering",
-        reason: "Provides package examples for trimming-based robust clustering under scatter constraints."
-      }
-    ],
-    admitWhen: [
-      "additional high-confidence non-robust or non-mixture clustering resources demonstrate reuse beyond this initial robust-clustering cluster",
-      "the boundary with mixture models is explicit enough that both filters return meaningfully different result sets",
-      "the hierarchy position remains useful across partition-based, hierarchical, density-based, and model-based clustering"
-    ],
-    evidenceTerms: ["cluster analysis", "k-means", "k means", "robust clustering", "sparse clustering", "model-based clustering", "trimmed clustering", "hierarchical clustering", "consensus clustering"]
-  }
-];
+export const LABEL_CANDIDATES = [];
 
 export const LABEL_RULES = {
   minLabelsPerPaper: 3,

@@ -282,7 +282,7 @@ const evidenceRules = [
     label: "item response theory",
     reason: "item-response-theory, psychometric measurement, latent-trait, or item-level response evidence in record text",
     test: (paper) =>
-      /\b(item response theory|item response|irt|psychometric|psychometrics|latent trait|measurement model|differential item functioning|item parameter drift|item-level|ordinal response)\b/i.test(
+      /\b(item response theory|item response|irt|psychometric measurement|psychometric scale|psychometric test|latent trait|measurement model|differential item functioning|item parameter drift|item-level|ordinal response)\b/i.test(
         paperText(paper)
       )
   },
@@ -375,6 +375,35 @@ const evidenceRules = [
         !/\bpattern-mixture\b/i.test(text) &&
         /\b(mixture models?|finite mixtures?|gaussian mixtures?|normal mixtures?|multivariate t mixtures?|model-based clustering|model based clustering|latent class regression|latent class|mixture-of-regressions?|mixtures of regressions|mixture of generalized linear regressions|mixture modeling|mixture modelling|expectation-maximization|em algorithm|mclust|flexmix|mixtools|rmixmod|teigen|bgmm)\b/i.test(text)
       );
+    }
+  },
+  {
+    label: "clustering",
+    reason: "statistical clustering, cluster-validation, number-of-clusters, density-based, hierarchical, K-means, or clustering-package evidence in record text",
+    test: (paper) => {
+      const text = paperText(paper);
+      const genericClusterDesign =
+        /\b(cluster(?:ed)? sampling|cluster-randomized|cluster randomized|computing cluster|cluster-robust standard errors?)\b/i.test(text) &&
+        !/\b(cluster analysis|clustering (?:method|methods|algorithm|algorithms|validation)|number of clusters|k-means|k means|hierarchical clustering|agglomerative clustering|density-based clustering|density based clustering|dbscan|optics|robust clustering|sparse clustering|model-based clustering|trimmed clustering|consensus clustering|nbclust|clvalid|fastcluster|pdfcluster)\b/i.test(text);
+
+      return (
+        !genericClusterDesign &&
+        /\b(cluster analysis|clustering (?:method|methods|algorithm|algorithms|validation)|number of clusters|k-means|k means|hierarchical clustering|agglomerative clustering|density-based clustering|density based clustering|dbscan|optics|robust clustering|sparse clustering|model-based clustering|trimmed clustering|consensus clustering|nbclust|clvalid|fastcluster|pdfcluster)\b/i.test(text)
+      );
+    }
+  },
+  {
+    label: "latent variable models",
+    reason: "factor-analysis, structural-equation, measurement-model, latent-process, latent-growth, or latent-network evidence in record text",
+    test: (paper) => {
+      const text = paperText(paper);
+      const directEvidence =
+        /\b(latent variable models?|factor analysis|confirmatory factor analysis|structural equation models?|structural equation modeling|structural equation modelling|measurement models?|latent growth models?|latent process(?:es)?|latent networks?|lavaan|openmx|psychonetrics|blavaan)\b/i.test(text);
+      const itemResponseOnly =
+        /\b(item response theory|item response|irt)\b/i.test(text) &&
+        !/\b(factor analysis|structural equation|measurement model|latent process|latent growth|latent network|lavaan|openmx|psychonetrics|blavaan)\b/i.test(text);
+
+      return directEvidence && !itemResponseOnly;
     }
   },
   {

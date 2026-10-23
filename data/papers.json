@@ -33801,7 +33801,8 @@
     ],
     "topics": [
       "bayesian inference",
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "clustering"
     ],
     "bestFor": "Finding Bayesian inference and high-dimensional genomics examples for hierarchical clustering and population-structure modeling.",
     "note": "Repository verified reachable. Auto-discovered candidate; review vignettes and included datasets before treating it as curated."
@@ -46869,7 +46870,8 @@
     "topics": [
       "survey methodology",
       "complex survey design",
-      "item response theory"
+      "item response theory",
+      "latent variable models"
     ],
     "bestFor": "Item response theory, latent-scale calibration, factor-analysis, and survey-measurement examples with ordinal item responses and respondent covariates.",
     "note": "Auto-discovered from Dataverse and manually accepted because the record explicitly documents a scale study using factor analysis and item response theory with supplemental data."
@@ -49627,7 +49629,8 @@
       "mixture models",
       "resampling methods",
       "dimension reduction",
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "clustering"
     ],
     "bestFor": "Mixture models, Gaussian finite mixture models, model-based clustering, classification, density estimation, EM algorithm fitting, BIC model selection, dimension reduction, bootstrap inference, and acidity, banknote, faithful, and iris examples.",
     "note": "Verified from the R Journal article, CRAN package page, package reference, and R documentation; the package exposes vignettes, documentation, source code, and included/example datasets."
@@ -49690,7 +49693,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "mixture models"
+      "mixture models",
+      "clustering"
     ],
     "bestFor": "Mixture models, Gaussian mixture models, multinomial mixture models, model-based clustering, discriminant analysis, supervised classification, semi-supervised classification, EM algorithm variants, SEM/CEM algorithms, BIC, ICL, NEC, cross-validation, and geyser, birds, finance, and iris examples.",
     "note": "Verified from the JSS article page and CRAN/R documentation; the JSS page links the paper, package, and R replication code, and the package documentation lists example datasets and workflows."
@@ -49753,7 +49757,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "mixture models"
+      "mixture models",
+      "clustering"
     ],
     "bestFor": "Mixture models, multivariate t mixture models, Gaussian mixture special cases, model-based clustering, classification, covariance constraints, EM algorithm fitting, BIC model selection, fuzzy clustering, faithful examples, and iris examples.",
     "note": "Verified from the JSS article page, CRAN package page, and R documentation; the JSS page links the paper, package, and R replication code."
@@ -50219,7 +50224,8 @@
       "compositional data analysis",
       "dimension reduction",
       "spatial statistics",
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "clustering"
     ],
     "bestFor": "Compositional data analysis, Aitchison geometry, simplex-valued data, log-ratio coordinates, additive log-ratio and centered log-ratio transforms, principal component analysis, dimension reduction, cluster analysis, spatial statistics, variograms, compositional kriging, and geochemical composition examples.",
     "note": "Verified from the Computers and Geosciences article page, CRAN package page, CRAN task view, and R documentation; the package provides source code, vignettes, demos, and bundled compositional datasets such as Aar glacial sediments."
@@ -52944,7 +52950,8 @@
       "graphical models",
       "high-dimensional statistics",
       "resampling methods",
-      "variable selection"
+      "variable selection",
+      "clustering"
     ],
     "bestFor": "High-dimensional statistics, variable selection, graphical models, resampling methods, stability selection, consensus clustering, feature-selection probabilities, graphical-model selection, subsampling diagnostics, and reproducible sharp package workflows.",
     "note": "Verified from the JSS article page, which lists the paper, sharp R package, R replication code, and two replication-data resources. The abstract describes stability-enhanced variable selection, graphical modeling, consensus clustering, and resampling-based selection probabilities."
@@ -53043,7 +53050,8 @@
     "topics": [
       "high-dimensional statistics",
       "variable selection",
-      "multiple testing"
+      "multiple testing",
+      "clustering"
     ],
     "bestFor": "High-dimensional statistics, variable selection, multiple testing, correlated predictors, group-lasso, hierarchical clustering of variables, redundant-covariate screening, sparse regression, and reproducible MLGL replication workflows.",
     "note": "Verified from the JSS article page, which lists the paper, MLGL R package, and replication materials. The abstract documents high-dimensional correlated-variable selection, hierarchical clustering of variables, group-lasso candidate groups, and multiple hierarchical testing."
@@ -55313,7 +55321,8 @@
     "topics": [
       "mixture models",
       "variable selection",
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "clustering"
     ],
     "bestFor": "Variable and feature selection for Gaussian model-based clustering, including greedy and headlong subset searches for informative clustering variables.",
     "note": "Verified on the official JSS page, which links the clustvarsel package and R replication code and documents several worked data examples."
@@ -55345,7 +55354,8 @@
       "functional data analysis",
       "high-dimensional statistics",
       "mixture models",
-      "multilevel modeling"
+      "multilevel modeling",
+      "clustering"
     ],
     "bestFor": "Comparing functional clustering algorithms based on projected curves, random-effects models, EM fitting, and distance-based approaches for sparse measurements.",
     "note": "Verified on the official JSS page, which provides the funcy package and replication code for the functional-clustering examples."
@@ -55847,7 +55857,8 @@
     "topics": [
       "mixture models",
       "missing data",
-      "robust statistics"
+      "robust statistics",
+      "clustering"
     ],
     "bestFor": "Robust model-based clustering with missing-at-random values, heavy-tailed component families, distribution selection, and real incomplete datasets.",
     "note": "Verified on the official JSS page, which links the package and R replication code and states that real datasets illustrate the methods."
@@ -56095,7 +56106,9 @@
       "needs-review",
       "needs-label-review"
     ],
-    "topics": [],
+    "topics": [
+      "clustering"
+    ],
     "bestFor": "Agglomerative hierarchical clustering with tied distances, multifurcated dendrograms, alternative linkage rules, and dendrogram quality diagnostics.",
     "note": "Verified on the official JSS page, which links mdendro and the article's replication materials."
   },
@@ -57157,7 +57170,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "mixture models"
+      "mixture models",
+      "clustering"
     ],
     "bestFor": "Evaluating flexible mixture-distribution clustering, classification, and discriminant analysis under skewness and heavy tails.",
     "note": "Verified on the official JSS volume page, which lists MixGHD, replication code, and supplementary R data."
@@ -60958,7 +60972,8 @@
     ],
     "topics": [
       "meta-analysis",
-      "multilevel modeling"
+      "multilevel modeling",
+      "latent variable models"
     ],
     "bestFor": "Developing and comparing univariate, multivariate, three-level, and meta-analytic structural equation models with published correlation matrices.",
     "note": "Verified from the open Frontiers methods article, its supplementary examples, and the official metaSEM package index, which exposes numerous study-level correlation-matrix and effect-size datasets."
@@ -63693,7 +63708,8 @@
     ],
     "topics": [
       "robust statistics",
-      "mixture models"
+      "mixture models",
+      "clustering"
     ],
     "bestFor": "Comparing parsimonious contaminated-normal mixtures for robust clustering, classification, and automatic outlier detection.",
     "note": "Verified from the official JSS page, which links the ContaminatedMixt package and R replication code for artificial and real-data applications."
@@ -63726,7 +63742,8 @@
       "robust statistics",
       "high-dimensional statistics",
       "variable selection",
-      "missing data"
+      "missing data",
+      "clustering"
     ],
     "bestFor": "Testing robust sparse K-means when many variables are noise variables and observations may be contaminated or incomplete.",
     "note": "Verified from the official JSS page, which provides the package, replication materials, R code, four datasets, and a Monte Carlo comparison."
@@ -63757,7 +63774,8 @@
     ],
     "topics": [
       "robust statistics",
-      "mixture models"
+      "mixture models",
+      "clustering"
     ],
     "bestFor": "Studying trimming-based robust clustering, scatter constraints, outlier resistance, and sensitivity to the trimming proportion.",
     "note": "Verified from the official JSS page, which supplies the tclust package and R example code used in the paper."
@@ -64008,7 +64026,8 @@
     "topics": [
       "multiple testing",
       "high-dimensional statistics",
-      "dimension reduction"
+      "dimension reduction",
+      "latent variable models"
     ],
     "bestFor": "Studying false-discovery control under strong dependence using latent-factor adjustment in large-scale expression testing.",
     "note": "Verified from the official JSS page, which provides the FAMT package, R code, expression measurements, and covariates for the second example."
@@ -64425,7 +64444,8 @@
     ],
     "topics": [
       "bayesian inference",
-      "probabilistic programming"
+      "probabilistic programming",
+      "latent variable models"
     ],
     "bestFor": "Studying Bayesian structural equation models, latent-variable parameterizations, posterior fit measures, and JAGS sampling efficiency.",
     "note": "Verified from the official JSS page, which provides the blavaan package and replication materials. The latent-variable candidate label is supported, but remains internal pending hierarchy review."
@@ -64457,7 +64477,8 @@
     "topics": [
       "bayesian inference",
       "probabilistic programming",
-      "mcmc diagnostics"
+      "mcmc diagnostics",
+      "latent variable models"
     ],
     "bestFor": "Comparing conditional and marginalized parameterizations for Bayesian SEM, with emphasis on posterior sampling efficiency and diagnostics.",
     "note": "Verified from the official JSS page, which provides the blavaan package, R replication code, and full replication materials."
@@ -66384,5 +66405,405 @@
     ],
     "bestFor": "Estimating, testing, comparing, and predicting Bayesian Gaussian graphical models for continuous, binary, ordinal, and mixed observations.",
     "note": "Verified from the official JOSS page, archived software DOI, and maintained package repository. The package contains reusable datasets such as women_math plus vignettes for estimation, confirmatory testing, and graph comparison."
+  },
+  {
+    "id": "jss-dbscan-density-clustering",
+    "title": "dbscan: Fast Density-Based Clustering with R",
+    "authors": "Michael Hahsler, Matthew Piekenbrock, Derek Doran",
+    "year": 2019,
+    "citations": 841,
+    "dataset": "dbscan R package, article replication code, benchmark materials, synthetic shape data, and executable DBSCAN, OPTICS, HDBSCAN, reachability, and nearest-neighbor examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v091i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v091.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "benchmark materials",
+      "synthetic data"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "clustering"
+    ],
+    "bestFor": "Reproducing and benchmarking density-based clustering, neighborhood search, reachability plots, DBSCAN, OPTICS, and hierarchical density clustering.",
+    "note": "Verified from the official JSS article page, which directly provides the dbscan package, R replication code, and benchmark replication materials. Only one official label fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jss-nbclust-cluster-number",
+    "title": "NbClust: An R Package for Determining the Relevant Number of Clusters in a Data Set",
+    "authors": "Malika Charrad, Nadia Ghazzali, Véronique Boiteau, Azam Niknafs",
+    "year": 2014,
+    "citations": 3394,
+    "dataset": "NbClust R package, article example code, and downloadable plain-text data for comparing 30 cluster-validity indices across K-means and hierarchical clustering schemes",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v061i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v061.i06",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "plain text",
+      "example code",
+      "cluster validation data"
+    ],
+    "properties": [
+      "package-data",
+      "supplementary-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "clustering"
+    ],
+    "bestFor": "Comparing internal cluster-validity indices, distance measures, linkage rules, and consensus choices for the number of clusters.",
+    "note": "Verified from the official JSS article page, which directly exposes the NbClust package, paper code, and an example dataset in plain-text format. Only one official label fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jss-clvalid-cluster-validation",
+    "title": "clValid: An R Package for Cluster Validation",
+    "authors": "Guy Brock, Vasyl Pihur, Susmita Datta, Somnath Datta",
+    "year": 2008,
+    "citations": 579,
+    "dataset": "clValid R package and article code for internal, stability, and biological cluster validation across hierarchical, K-means, self-organizing-map, model-based, and SOTA clustering workflows",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v025i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v025.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "example code",
+      "gene-expression examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "clustering"
+    ],
+    "bestFor": "Evaluating clustering algorithms and cluster counts with internal, stability, and biological validation measures on expression-style data.",
+    "note": "Verified from the official JSS page, which links the clValid package and exact article example code. The article documents reusable clustering comparisons and biological validation through Bioconductor annotations. Only one official label fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jss-fastcluster-hierarchical-benchmarks",
+    "title": "fastcluster: Fast Hierarchical, Agglomerative Clustering Routines for R and Python",
+    "authors": "Daniel Müllner",
+    "year": 2013,
+    "citations": 606,
+    "dataset": "fastcluster R and Python sources, paper example code, benchmark replication files, and downloadable ASCII example data for hierarchical agglomerative clustering",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v053i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v053.i09",
+    "access": "open",
+    "formats": [
+      "r",
+      "python",
+      "ASCII data",
+      "replication code",
+      "benchmark materials"
+    ],
+    "properties": [
+      "replication-data",
+      "supplementary-data",
+      "software",
+      "code",
+      "benchmarks",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "clustering"
+    ],
+    "bestFor": "Benchmarking time and memory complexity of hierarchical agglomerative clustering implementations across linkage methods and software ecosystems.",
+    "note": "Verified from the official JSS page, which provides R and Python sources, benchmark replication files, and example data in ASCII format. Only one official label fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jss-pdfcluster-nonparametric-density",
+    "title": "Clustering via Nonparametric Density Estimation: The R Package pdfCluster",
+    "authors": "Adelchi Azzalini, Giovanna Menardi",
+    "year": 2014,
+    "citations": 75,
+    "dataset": "pdfCluster R package, article code, and two worked datasets covering kernel-density estimation, density-based cluster construction, cluster trees, and graphical diagnostics",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v057i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v057.i11",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "clustering"
+    ],
+    "bestFor": "Studying nonparametric density-based clustering from bandwidth selection and density estimation through cluster-tree construction and diagnostics.",
+    "note": "Verified from the official JSS article page, which links the pdfCluster package and paper code and states that the complete workflow is illustrated with two datasets. Only one official label fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jss-lavaan-structural-equation-modeling",
+    "title": "lavaan: An R Package for Structural Equation Modeling",
+    "authors": "Yves Rosseel",
+    "year": 2012,
+    "citations": 27838,
+    "dataset": "lavaan R package and article example code for confirmatory factor analysis, path analysis, latent growth models, multiple groups, categorical indicators, missing data, and structural equation modeling",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v048i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v048.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "example code",
+      "package data"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "latent variable models"
+    ],
+    "bestFor": "Learning and reproducing confirmatory factor, path, latent-growth, multigroup, categorical-indicator, and missing-data structural equation models.",
+    "note": "Verified from the official JSS article page, which directly supplies the lavaan package and R example code used in the paper. One official label fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "psychometrika-openmx-extended-sem",
+    "title": "OpenMx 2.0: Extended Structural Equation and Statistical Modeling",
+    "authors": "Michael C. Neale, Michael D. Hunter, Joshua N. Pritikin, Mahsa Zahery, Timothy R. Brick, Robert M. Kirkpatrick, Ryne Estabrook, Timothy C. Bates, Hermine H. Maes, Steven M. Boker",
+    "year": 2015,
+    "citations": 1100,
+    "dataset": "OpenMx package data and documented examples for factor analysis, path models, item-factor analysis, state-space models, mixture distributions, latent classes, behavior genetics, ordinal data, and incomplete longitudinal data",
+    "datasetUrl": "https://openmx.ssri.psu.edu/docs/OpenMx/2.0.0-3756/NewBeginnersGuide.html",
+    "paperUrl": "https://doi.org/10.1007/s11336-014-9435-8",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "documentation",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "latent variable models",
+      "item response theory",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Building extensible structural-equation, factor, item-factor, state-space, mixture, ordinal, and behavior-genetic models from raw or covariance data.",
+    "note": "Verified from the open Psychometrika article, official OpenMx documentation, and package examples. The beginner guide directly loads packaged demoOneFactor data, while the reference examples cover dynamic factor, state-space, item-factor, and multigroup models."
+  },
+  {
+    "id": "trhg-umx-twin-path-sem",
+    "title": "umx: Twin and Path-Based Structural Equation Modeling in R",
+    "authors": "Timothy C. Bates, Hermine Maes, Michael C. Neale",
+    "year": 2019,
+    "citations": 158,
+    "dataset": "umx package examples and built-in OpenMx demoOneFactor data for confirmatory factor analysis, path models, ACE twin models, common- and independent-pathway models, ordinal outcomes, covariates, and gene-environment interaction",
+    "datasetUrl": "https://www.cambridge.org/core/journals/twin-research-and-human-genetics/article/umx-twin-and-pathbased-structural-equation-modeling-in-r/B9658AC0CDA139E540BFAC0C9D989623",
+    "paperUrl": "https://doi.org/10.1017/thg.2019.2",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "latent variable models"
+    ],
+    "bestFor": "Reproducing path-based SEM and multigroup twin models, including ACE decompositions, common pathways, ordinal variables, covariates, and gene-environment moderation.",
+    "note": "Verified from the open Cambridge article, which supplies practical code, names the built-in demoOneFactor data, and states that all paper examples are available through umxExamples. One official label fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "psychometrika-psychonetrics-time-panel-networks",
+    "title": "Psychometric Network Models from Time-Series and Panel Data",
+    "authors": "Sacha Epskamp",
+    "year": 2020,
+    "citations": 350,
+    "dataset": "psychonetrics analysis code, public experience-sampling time series for one participant, three-wave panel data, and simulation designs for temporal and contemporaneous latent-variable networks",
+    "datasetUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7186258/",
+    "paperUrl": "https://doi.org/10.1007/s11336-020-09697-3",
+    "access": "open",
+    "formats": [
+      "r",
+      "longitudinal data",
+      "panel data",
+      "time series",
+      "supplementary code",
+      "simulation data"
+    ],
+    "properties": [
+      "replication-data",
+      "existing-dataset",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "latent variable models",
+      "graphical models",
+      "longitudinal data analysis",
+      "panel data methods",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Estimating and stress-testing latent graphical vector-autoregression models that separate within-person temporal, within-person contemporaneous, and between-person networks.",
+    "note": "Verified from the open Psychometrika article and its associated-data section. The article identifies the public experience-sampling source, describes the panel dataset, and states that psychonetrics analysis code is supplied in the supplementary materials."
+  },
+  {
+    "id": "jss-sparsebn-large-bayesian-networks",
+    "title": "Learning Large-Scale Bayesian Networks with the sparsebn Package",
+    "authors": "Bryon Aragam, Jiaying Gu, Qing Zhou",
+    "year": 2019,
+    "citations": 42,
+    "dataset": "sparsebn R package, JSS replication code, and replication data files for high-dimensional sparse Bayesian-network structure learning with observational and interventional data",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v091i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v091.i11",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "replication data",
+      "network data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "benchmarks",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "graphical models",
+      "variable selection",
+      "causal inference"
+    ],
+    "bestFor": "Benchmarking scalable sparse Bayesian-network learning, structure recovery, multi-logit models, and causal-network estimation under interventions.",
+    "note": "Verified from the official JSS page, which directly supplies the sparsebn package, R replication code, and replication data files."
+  },
+  {
+    "id": "rjournal-biglasso-big-data",
+    "title": "The biglasso Package: A Memory- and Computation-Efficient Solver for Lasso Model Fitting with Big Data in R",
+    "authors": "Yaohui Zeng, Patrick Breheny",
+    "year": 2020,
+    "citations": 52,
+    "dataset": "biglasso package simulations and real-data benchmarks using breast-cancer gene expression, MNIST images, cardiac-fibrosis GWAS, and New York Times bag-of-words data for scalable lasso and cross-validation",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2021-001/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-001",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "simulation data",
+      "gene expression",
+      "image data",
+      "GWAS data",
+      "text data"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "simulation-data",
+      "software",
+      "code",
+      "benchmarks",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing memory-mapped lasso solvers, feature screening, parallel cross-validation, and regularized linear or logistic regression when data exceed memory.",
+    "note": "Verified from the official R Journal article, which documents reproducible simulations and four named public real-data benchmarks with their source references. Two official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "psychmethods-robma-publication-bias",
+    "title": "Robust Bayesian Meta-Analysis: Addressing Publication Bias with Model-Averaging",
+    "authors": "Maximilian Maier, František Bartoš, Eric-Jan Wagenmakers",
+    "year": 2022,
+    "citations": 143,
+    "dataset": "RoBMA package datasets, vignettes, JASP workflows, simulation designs, Registered Replication Report examples, and reproducible selection-model, PET-PEESE, heterogeneity, and publication-bias analyses",
+    "datasetUrl": "https://fbartos.github.io/RoBMA/",
+    "paperUrl": "https://doi.org/10.1037/met0000405",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "vignettes",
+      "simulation data",
+      "JASP"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "publication bias",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing Bayesian model-averaged meta-analysis across effect, heterogeneity, and publication-bias models without an all-or-none bias decision.",
+    "note": "Verified from the open methodology article, official RoBMA documentation, CRAN manual, package datasets, and manuscript companion vignettes. The package provides reusable examples for publication-bias adjustment and robust Bayesian evidence synthesis."
   }
 ]
