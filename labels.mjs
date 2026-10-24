@@ -1077,7 +1077,43 @@ export const LABEL_REGISTRY = [
   }
 ];
 
-export const LABEL_CANDIDATES = [];
+export const LABEL_CANDIDATES = [
+  {
+    name: "bayesian nonparametric methods",
+    proposedLevel: "mid",
+    proposedParents: ["bayesian inference"],
+    status: "watch",
+    definition: "Datasets, package examples, and replication resources for Bayesian models with random probability measures, nonparametric priors, or data-adaptive latent structure, including Dirichlet-process mixtures and profile regression.",
+    currentEvidence: [
+      {
+        paperId: "jss-dppackage-bayesian-nonparametrics",
+        reason: "Provides code and datasets for Dirichlet-process density estimation, semiparametric regression, item response, interval-censored, and longitudinal models."
+      },
+      {
+        paperId: "jss-premium-profile-regression",
+        reason: "Provides package examples for Dirichlet-process profile regression, clustering, prediction, missing covariates, and variable selection."
+      },
+      {
+        paperId: "jss-hdpglm-hierarchical-dirichlet-process",
+        reason: "Provides replication code and welfare datasets for hierarchical Dirichlet-process generalized linear model mixtures."
+      },
+      {
+        paperId: "jss-dpmm-distributed-mixtures",
+        reason: "Provides scalable CPU and GPU replication materials for Dirichlet-process mixture sampling on large, high-dimensional data."
+      },
+      {
+        paperId: "rj-npbayesimputecat",
+        reason: "Provides ACS examples for Bayesian nonparametric latent-class imputation and disclosure-controlled synthetic-data generation."
+      }
+    ],
+    admitWhen: [
+      "additional high-confidence resources demonstrate reuse beyond Dirichlet-process mixtures and latent-class applications",
+      "the boundary with bayesian inference, mixture models, and clustering can be stated without making the label a redundant umbrella",
+      "users would gain a stable intersection for random-measure priors, density regression, survival, longitudinal, and other nonparametric Bayesian workflows"
+    ],
+    evidenceTerms: ["bayesian nonparametric", "bayesian non-parametric", "dirichlet process", "dependent dirichlet process", "hierarchical dirichlet process", "random probability measure", "profile regression", "species sampling", "dp mixture", "dpmm"]
+  }
+];
 
 export const LABEL_RULES = {
   minLabelsPerPaper: 3,

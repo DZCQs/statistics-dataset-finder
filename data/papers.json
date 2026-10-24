@@ -66805,5 +66805,328 @@
     ],
     "bestFor": "Comparing Bayesian model-averaged meta-analysis across effect, heterogeneity, and publication-bias models without an all-or-none bias decision.",
     "note": "Verified from the open methodology article, official RoBMA documentation, CRAN manual, package datasets, and manuscript companion vignettes. The package provides reusable examples for publication-bias adjustment and robust Bayesian evidence synthesis."
+  },
+  {
+    "id": "jss-coin-permutation-tests",
+    "title": "Implementing a Class of Permutation Tests: The coin Package",
+    "authors": "Torsten Hothorn, Kurt Hornik, Mark A. van de Wiel, Achim Zeileis",
+    "year": 2008,
+    "citations": 1495,
+    "dataset": "Official JSS example code and coin package workflows for exact, asymptotic, and Monte Carlo conditional inference with numeric, ordered, nominal, censored, and multivariate outcomes",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v028i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v028.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "R example code",
+      "package examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods"
+    ],
+    "bestFor": "Teaching and comparing permutation tests for location, scale, contingency tables, ordered outcomes, survival outcomes, and multivariate independence problems.",
+    "note": "Verified from the official JSS page, which directly links the coin package and R example code. One official label fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jss-permuco-permutation-tests",
+    "title": "Permutation Tests for Regression, ANOVA, and Comparison of Signals: The permuco Package",
+    "authors": "Jaromil Frossard, Olivier Renaud",
+    "year": 2021,
+    "citations": 220,
+    "dataset": "Official JSS replication code and permuco package examples for regression, repeated-measures ANOVA, psychological control-trial data, EEG event-related potentials, cluster-mass tests, and threshold-free cluster enhancement",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v099i15",
+    "paperUrl": "https://doi.org/10.18637/jss.v099.i15",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "psychology data",
+      "EEG data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "multiple testing",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Comparing permutation schemes with nuisance variables, repeated-measures designs, signal-wise familywise error control, cluster-mass inference, and TFCE.",
+    "note": "Verified from the official JSS page and article, which provide the package, R replication code, and two real-data tutorials covering a psychology trial and EEG signals."
+  },
+  {
+    "id": "jss-npmv-multivariate-permutation",
+    "title": "Nonparametric Inference for Multivariate Data: The R Package npmv",
+    "authors": "Woodrow W. Burchett, Amanda R. Ellis, Solomon W. Harrar, Arne C. Bathke",
+    "year": 2017,
+    "citations": 203,
+    "dataset": "Official JSS replication code and npmv package examples for permutation-based multivariate inference with mixed-scale outcomes, closed testing, familywise error control, and low- or high-dimensional samples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v076i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v076.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "multivariate data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "multiple testing",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating permutation MANOVA-style procedures, mixed-scale multivariate outcomes, closed testing, and familywise error control when normality is inappropriate.",
+    "note": "Verified from the official JSS page, which links the npmv package and R replication code."
+  },
+  {
+    "id": "jss-dppackage-bayesian-nonparametrics",
+    "title": "DPpackage: Bayesian Semi- and Nonparametric Modeling in R",
+    "authors": "Alejandro Jara, Timothy Hanson, Fernando A. Quintana, Peter Müller, Gary L. Rosner",
+    "year": 2011,
+    "citations": 197,
+    "dataset": "Official JSS R code and data sets for Dirichlet-process marginal and conditional density estimation, ROC analysis, interval-censored outcomes, binary regression, item response models, longitudinal and clustered data, and generalized additive regression",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v040i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v040.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "replication data",
+      "supplement"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "survival analysis",
+      "item response theory",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Studying Dirichlet-process priors across density estimation, semiparametric regression, interval censoring, ROC curves, item response models, and clustered longitudinal outcomes.",
+    "note": "Verified from the official JSS page, which explicitly provides DPpackage, replication files containing R code and data sets, and supplementary material. It also supplies evidence for the internal Bayesian nonparametric methods candidate label."
+  },
+  {
+    "id": "jss-premium-profile-regression",
+    "title": "PReMiuM: An R Package for Profile Regression Mixture Models Using Dirichlet Processes",
+    "authors": "Silvia Liverani, David I. Hastie, Lamiae Azizi, Michail Papathomas, Sylvia Richardson",
+    "year": 2015,
+    "citations": 146,
+    "dataset": "Official JSS example code and PReMiuM package workflows for Dirichlet-process profile regression, Bayesian clustering, binary, categorical, count, and continuous responses, missing covariates, prediction, diagnostics, and variable selection",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v064i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v064.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "R example code",
+      "package examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "clustering",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing Bayesian profile-regression mixtures, Dirichlet-process clustering, response prediction, missing-covariate handling, label switching, and cluster-driving covariate selection.",
+    "note": "Verified from the official JSS page, which links PReMiuM and R example code. It supplies evidence for the internal Bayesian nonparametric methods candidate label."
+  },
+  {
+    "id": "jss-hdpglm-hierarchical-dirichlet-process",
+    "title": "hdpGLM: An R Package to Estimate Heterogeneous Effects in Generalized Linear Models Using Hierarchical Dirichlet Process",
+    "authors": "Diogo Ferrari",
+    "year": 2023,
+    "citations": 3,
+    "dataset": "Official JSS replication code, hdpGLM package, and bundled welfare and welfare2 datasets for hierarchical Dirichlet-process mixtures of generalized linear models and latent effect heterogeneity across countries",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v107i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v107.i10",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "package data"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "clustering",
+      "heterogeneous treatment effects",
+      "causal inference"
+    ],
+    "bestFor": "Estimating latent heterogeneous effects with Dirichlet-process and hierarchical Dirichlet-process mixtures of generalized linear models across grouped contexts.",
+    "note": "Verified from the official JSS page and paper, which provide two replication-code bundles and document the included welfare and welfare2 datasets. It supplies evidence for the internal Bayesian nonparametric methods candidate label."
+  },
+  {
+    "id": "jss-deeptrafo-conditional-distributions",
+    "title": "Estimating Conditional Distributions with Neural Networks Using R Package deeptrafo",
+    "authors": "Lucas Kook, Philipp F. M. Baumann, Oliver Dürr, Beate Sick, David Rügamer",
+    "year": 2024,
+    "citations": 2,
+    "dataset": "Official JSS replication materials and deeptrafo package applications for deep conditional transformation models with binary, ordinal, count, survival, continuous, time-series, tabular, image, and text responses",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v111i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v111.i10",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication materials",
+      "TensorFlow",
+      "non-tabular data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "survival analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Fitting and evaluating deep conditional transformation models across mixed response types, censoring, time series, images, and text while retaining structured effects.",
+    "note": "Verified from the official JSS page, which directly supplies deeptrafo and replication materials."
+  },
+  {
+    "id": "rjournal-aquadtree-spatial-anonymization",
+    "title": "AQuadtree: an R Package for Quadtree Anonymization of Point Data",
+    "authors": "Raymond Lagonigro, Ramon Oller, Joan Carles Martori",
+    "year": 2021,
+    "citations": 3,
+    "dataset": "R Journal supplementary materials and AQuadtree package data including BarcelonaPop, CharlestonPop, BarcelonaCensusTracts, and CharlestonCensusTracts for privacy-preserving aggregation and local suppression of geolocated point data",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2021-013/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-013",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "supplementary materials",
+      "spatial point data",
+      "census boundaries"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical disclosure control",
+      "spatial statistics",
+      "survey methodology"
+    ],
+    "bestFor": "Evaluating quadtree aggregation, local suppression, k-anonymity thresholds, spatial resolution, and information loss for georeferenced official statistics.",
+    "note": "Verified from the official R Journal article and supplement. The article documents four bundled spatial datasets derived from Barcelona and Charleston population and census-boundary sources."
+  },
+  {
+    "id": "ajs-cellkey-tabular-perturbation",
+    "title": "cellKey - An R Package to Perturb Statistical Tables",
+    "authors": "Bernhard Meindl",
+    "year": 2025,
+    "citations": 2,
+    "dataset": "Open article examples, cellKey package vignette, example microdata, record keys, perturbation tables, and reproducible workflows for consistent perturbation of frequency and magnitude tables",
+    "datasetUrl": "https://www.ajs.or.at/index.php/ajs/article/view/2131",
+    "paperUrl": "https://doi.org/10.17713/ajs.v54i4.2131",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "vignette",
+      "example microdata",
+      "statistical tables"
+    ],
+    "properties": [
+      "package-data",
+      "tutorial-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical disclosure control",
+      "survey methodology"
+    ],
+    "bestFor": "Testing consistent post-tabular perturbation, cell-key construction, frequency and magnitude table protection, and privacy-utility tradeoffs for official statistics.",
+    "note": "Verified from the open Austrian Journal of Statistics article and official cellKey package vignette, which provide practical example microdata and perturbation-table workflows. Two official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "crc-measurement-error-missing-data",
+    "title": "Measurement Error as a Missing Data Problem",
+    "authors": "Ruth H. Keogh, Jonathan W. Bartlett",
+    "year": 2021,
+    "citations": 6,
+    "dataset": "Public NHANES III CSV and R, BUGS, regression-calibration, Bayesian, and substantive-model-compatible multiple-imputation scripts for systolic-blood-pressure measurement error, missing smoking status, and cardiovascular mortality",
+    "datasetUrl": "https://github.com/ruthkeogh/meas_error_handbook",
+    "paperUrl": "https://doi.org/10.1201/9781315101279-20",
+    "access": "open",
+    "formats": [
+      "csv",
+      "r",
+      "BUGS",
+      "replication code",
+      "NHANES III data"
+    ],
+    "properties": [
+      "replication-data",
+      "existing-dataset",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "missing data",
+      "survival analysis",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing naive, regression-calibration, Bayesian, and multiple-imputation corrections when a survival covariate is measured with error and another confounder is missing.",
+    "note": "Verified from the University of Bath publication record, arXiv metadata, and the authors' GitHub repository. The repository includes nhanes.csv and separate R or BUGS workflows for naive, regression-calibration, Bayesian, and SMCFCS analyses."
   }
 ]
