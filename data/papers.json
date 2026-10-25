@@ -67128,5 +67128,317 @@
     ],
     "bestFor": "Comparing naive, regression-calibration, Bayesian, and multiple-imputation corrections when a survival covariate is measured with error and another confounder is missing.",
     "note": "Verified from the University of Bath publication record, arXiv metadata, and the authors' GitHub repository. The repository includes nhanes.csv and separate R or BUGS workflows for naive, regression-calibration, Bayesian, and SMCFCS analyses."
+  },
+  {
+    "id": "jss-jm-joint-longitudinal-survival",
+    "title": "JM: An R Package for the Joint Modelling of Longitudinal and Time-to-Event Data",
+    "authors": "Dimitris Rizopoulos",
+    "year": 2010,
+    "citations": 393,
+    "dataset": "JM package AIDS, primary biliary cirrhosis, prothrombin, and competing-risk longitudinal-survival datasets with JSS example code",
+    "datasetUrl": "https://www.stat.ethz.ch/CRAN/web/packages/JM/refman/JM.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v035.i09",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "example code",
+      "longitudinal event histories"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "joint models",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Reproducing maximum-likelihood joint models for repeated biomarkers and event times, dynamic survival prediction, and simulated joint longitudinal-survival studies.",
+    "note": "Verified from the official JSS article and current JM reference manual. The package exposes the 467-patient AIDS trial data, pbc2, prothro, and crLong datasets plus simulation and paper example code."
+  },
+  {
+    "id": "jss-percent-jm-sas-macro",
+    "title": "%JM: A SAS Macro to Fit Jointly Generalized Mixed Models for Longitudinal Data and Time-to-Event Responses",
+    "authors": "Alberto Garcia-Hernandez, Dimitris Rizopoulos",
+    "year": 2018,
+    "citations": 24,
+    "dataset": "JSS SAS replication code and materials for jointly modeling generalized longitudinal responses and time-to-event outcomes",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v084i12",
+    "paperUrl": "https://doi.org/10.18637/jss.v084.i12",
+    "access": "open",
+    "formats": [
+      "sas",
+      "SAS macro",
+      "replication code",
+      "replication materials"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "joint models",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Reproducing SAS joint models with normal, binary, binomial, or Poisson longitudinal responses and flexible shared-parameter time-to-event links.",
+    "note": "Verified from the official JSS page, which directly provides the paper source, replication materials, and SAS replication code."
+  },
+  {
+    "id": "jss-frailtypack-joint-model-tutorial",
+    "title": "Tutorial in Joint Modeling and Prediction: A Statistical Software for Correlated Longitudinal Outcomes, Recurrent Events and a Terminal Event",
+    "authors": "Agnieszka Krol, Audrey Mauguen, Yassin Mazroui, Alexandre Laurent, Stefan Michiels, Virginie Rondeau",
+    "year": 2017,
+    "citations": 65,
+    "dataset": "frailtypack package colorectal cancer recurrent-lesion, terminal-event, and longitudinal tumor-size data with JSS replication materials",
+    "datasetUrl": "https://www.stat.ethz.ch/CRAN/web/packages/frailtypack/refman/frailtypack.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v081.i03",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "replication materials",
+      "event histories"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "joint models",
+      "recurrent event analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Comparing joint frailty, longitudinal-terminal, recurrent-terminal, and trivariate prediction models with dynamic prediction and model checking.",
+    "note": "Verified from the official JSS page and current frailtypack manual. The package documents colorectal and colorectalLongi data and additional simulated recurrent/terminal-event datasets."
+  },
+  {
+    "id": "rjournal-jmcmprsk-joint-competing-risks",
+    "title": "JMcmprsk: An R Package for Joint Modelling of Longitudinal and Survival Data with Competing Risks",
+    "authors": "Hong Wang, Ning Li, Shanpeng Li, Gang Li",
+    "year": 2021,
+    "citations": 4,
+    "dataset": "JMcmprsk lung-study package data, bundled continuous and ordinal joint-model simulation files, and reproducible R Journal examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2021-028/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-028",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "simulation data",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "joint models",
+      "competing risks",
+      "longitudinal data analysis",
+      "multilevel modeling",
+      "survival models"
+    ],
+    "bestFor": "Evaluating joint models that combine continuous or ordinal longitudinal outcomes with multiple failure causes and correlated random effects.",
+    "note": "Verified from the official R Journal article. It loads the bundled lung dataset, documents text-file simulation examples, and provides SimDataC and SimDataO generators with known ground truth."
+  },
+  {
+    "id": "rjournal-slcare-recurrent-latent-classes",
+    "title": "SLCARE: An R Package for Semiparametric Latent Class Analysis of Recurrent Events",
+    "authors": "Qi Yu, Limin Peng",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "SLCARE SimData and colorectal recurrent-lesion package datasets with R Journal examples for semiparametric latent-class event models",
+    "datasetUrl": "https://www.stat.ethz.ch/CRAN/web/packages/SLCARE/refman/SLCARE.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-030",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "simulation data",
+      "recurrent event histories"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "recurrent event analysis",
+      "latent variable models",
+      "clustering",
+      "mixture models"
+    ],
+    "bestFor": "Studying latent population heterogeneity in recurrent-event intensity models, entropy-based class selection, posterior class prediction, and model checking.",
+    "note": "Verified from the official R Journal article and CRAN manual. SimData has 476 interval rows, while the bundled colorectal data contain recurrent lesions and terminal follow-up for 150 trial patients."
+  },
+  {
+    "id": "rjournal-riskregression-competing-risk-prediction",
+    "title": "riskRegression: Predicting the Risk of an Event using Cox Regression Models",
+    "authors": "Brice Ozenne, Anne Lyngholm Sorensen, Thomas Scheike, Christian Torp-Pedersen, Thomas Alexander Gerds",
+    "year": 2017,
+    "citations": 103,
+    "dataset": "riskRegression Melanoma competing-risk and Paquid survival package datasets with R Journal cause-specific Cox examples",
+    "datasetUrl": "https://www.stat.ethz.ch/CRAN/web/packages/riskRegression/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2017-062",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "example code",
+      "event histories"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "competing risks",
+      "risk prediction"
+    ],
+    "bestFor": "Reproducing cause-specific Cox absolute-risk prediction, confidence bands, competing-risk discrimination, calibration, and prediction-score comparisons.",
+    "note": "Verified from the official R Journal article and CRAN package index. The article analyzes the bundled 205-row Melanoma competing-risk data; the package also supplies Paquid and simulation utilities."
+  },
+  {
+    "id": "rjournal-semicomprisks-illness-death-models",
+    "title": "SemiCompRisks: An R Package for the Analysis of Independent and Cluster-correlated Semi-competing Risks Data",
+    "authors": "Danilo Alvares, Sebastien Haneuse, Catherine Lee, Kyu Ha Lee",
+    "year": 2019,
+    "citations": 29,
+    "dataset": "SemiCompRisks CIBMTR covariates with reproducibly simulated transplant outcomes, package vignettes, and R Journal illness-death analyses",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2019-038/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2019-038",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "simulation data",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "multi-state models",
+      "competing risks",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing Bayesian and maximum-likelihood illness-death models for independent or clustered semi-competing risks under Markov and semi-Markov assumptions.",
+    "note": "Verified from the official R Journal article. The package retains 9,651 CIBMTR covariate records and provides a documented seed and simulation procedure for the confidential outcomes, plus twelve model-specific vignettes."
+  },
+  {
+    "id": "jss-ics-invariant-coordinate-selection",
+    "title": "Tools for Exploring Multivariate Data: The Package ICS",
+    "authors": "Klaus Nordhausen, Hannu Oja, David E. Tyler",
+    "year": 2008,
+    "citations": 65,
+    "dataset": "ICS package multivariate example datasets, JSS R code, and reproducible invariant-coordinate and independent-component analyses",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v028i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v028.i06",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "example code",
+      "multivariate data"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "latent variable models",
+      "clustering",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Exploring multivariate structure through invariant coordinates, independent-component recovery, blind discrimination, clustering, and multivariate nonparametric tests.",
+    "note": "Verified from the official JSS page and current ICS package page, both of which expose the package and R code used for the article's multivariate examples."
+  },
+  {
+    "id": "uconn-eva-environmental-extremes",
+    "title": "Automated, Efficient, and Practical Extreme Value Analysis with Environmental Applications",
+    "authors": "Brian Bader",
+    "year": 2016,
+    "citations": 2,
+    "dataset": "eva package Lowestoft harbor sea-level and Fort Collins precipitation datasets with an open dissertation, vignette, and reproducible extreme-value examples",
+    "datasetUrl": "https://rdrr.io/cran/eva/f/",
+    "paperUrl": "https://digitalcommons.lib.uconn.edu/dissertations/1261/",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "vignette",
+      "environmental time series"
+    ],
+    "properties": [
+      "package-data",
+      "tutorial-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "time series analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Testing r-largest order-statistic selection, peaks-over-threshold diagnostics, sequential goodness-of-fit tests, return levels, and environmental extremes workflows.",
+    "note": "Verified from the open UConn dissertation record and current eva package source. The package bundles top-ten Lowestoft sea levels from 1964-2014 and annual Fort Collins precipitation extremes with a worked vignette."
   }
 ]
