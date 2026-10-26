@@ -67440,5 +67440,279 @@
     ],
     "bestFor": "Testing r-largest order-statistic selection, peaks-over-threshold diagnostics, sequential goodness-of-fit tests, return levels, and environmental extremes workflows.",
     "note": "Verified from the open UConn dissertation record and current eva package source. The package bundles top-ten Lowestoft sea levels from 1964-2014 and annual Fort Collins precipitation extremes with a worked vignette."
+  },
+  {
+    "id": "jss-glmnet-all-generalized-linear-models",
+    "title": "Elastic Net Regularization Paths for All Generalized Linear Models",
+    "authors": "J. Kenneth Tay, Balasubramanian Narasimhan, Trevor Hastie",
+    "year": 2023,
+    "citations": 670,
+    "dataset": "JSS spambase replication data, glmnet R package, and R replication code for elastic-net generalized linear, stratified Cox, start-stop survival, and relaxed-lasso examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v106i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v106.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication data",
+      "replication code",
+      "tabular classification data",
+      "survival examples"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Evaluating lasso and elastic-net paths across generalized linear families, relaxed lasso, stratified Cox models, and start-stop survival outcomes with reproducible data and code.",
+    "note": "Verified from the official JSS page, which directly provides the glmnet package, R replication code, and downloadable spambase replication data."
+  },
+  {
+    "id": "jss-cubble-spatiotemporal-data",
+    "title": "cubble: An R Package for Organizing and Wrangling Multivariate Spatio-Temporal Data",
+    "authors": "H. Sherry Zhang, Dianne Cook, Ursula Laa, Nicolas Langrene, Patricia Menendez",
+    "year": 2024,
+    "citations": 4,
+    "dataset": "cubble replication materials and package data for Australian meteorological stations, multivariate climate measurements, spatial-temporal transformations, and NetCDF workflows",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v110i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v110.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication materials",
+      "meteorological station data",
+      "NetCDF examples"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Testing tidy storage, synchronized spatial and temporal views, multivariate station-data wrangling, and reproducible space-time visualization and modeling workflows.",
+    "note": "Verified from the official JSS page and paper, which supply the cubble package and replication materials and document Australian weather-station and NetCDF examples."
+  },
+  {
+    "id": "rj-vsurf-random-forest-variable-selection",
+    "title": "VSURF: An R Package for Variable Selection Using Random Forests",
+    "authors": "Robin Genuer, Jean-Michel Poggi, Christine Tuleau-Malot",
+    "year": 2015,
+    "citations": 620,
+    "dataset": "VSURF package simulations and reproducible classical and high-dimensional real-data examples for random-forest variable selection",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2015-018/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2015-018",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "simulated data",
+      "real-data examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing interpretation-oriented and prediction-oriented variable subsets selected by random-forest importance in regression and classification settings.",
+    "note": "Verified from the official R Journal article and linked package resources. The paper applies VSURF to a simulation, a classical real dataset, and two high-dimensional real examples."
+  },
+  {
+    "id": "rj-sf-simple-features",
+    "title": "Simple Features for R: Standardized Support for Spatial Vector Data",
+    "authors": "Edzer Pebesma",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "sf package spatial-vector examples and bundled North Carolina sudden-infant-death polygon data with open vignettes for geometry, coordinate-reference, and spatial I/O operations",
+    "datasetUrl": "https://r-spatial.github.io/sf/articles/sf1.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2018-009",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "shapefile",
+      "spatial vector data",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "tutorial-data",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Teaching and testing standardized spatial-vector representations, geometry operations, coordinate-reference transformations, and interoperable spatial data input and output in R.",
+    "note": "Verified from the official sf documentation and R Journal citation. The open vignette loads the package-bundled North Carolina polygon dataset and documents reproducible spatial operations."
+  },
+  {
+    "id": "jss-causalqueries-causal-models",
+    "title": "Making, Updating, and Querying Causal Models with CausalQueries",
+    "authors": "Till Tietz, Lily Medina, Georgiy Syunyaev, Macartan Humphreys",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "CausalQueries R package and JSS replication code for binary-node structural causal models, causal types, Stan-based belief updating, and posterior causal queries",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v117i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v117.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "Stan models",
+      "causal-model examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "graphical models",
+      "bayesian inference",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Constructing binary structural causal models, enumerating principal strata, updating causal-type distributions with data, and posing prior or posterior causal queries.",
+    "note": "Verified from the official JSS page, which directly supplies the CausalQueries R package and the paper's R replication code."
+  },
+  {
+    "id": "jss-nonprobsvy-nonprobability-surveys",
+    "title": "nonprobsvy: An R Package for Modern Methods for Non-Probability Surveys",
+    "authors": "Lukasz Chrostowski, Piotr Chlebicki, Maciej Beresewicz",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "nonprobsvy R package case-study resources and JSS replication code for model-based prediction, inverse-probability weighting, doubly robust estimation, and bootstrap survey inference",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v117i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v117.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "case-study data",
+      "survey examples"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey weighting",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing prediction, inverse-probability weighting, doubly robust, analytical-variance, and bootstrap estimators for non-probability samples linked to population information.",
+    "note": "Verified from the official JSS page, which directly supplies the nonprobsvy package and downloadable R replication code for the article's case study."
+  },
+  {
+    "id": "jss-bace-bounded-model-averaging",
+    "title": "BACE: A gretl Package for Model Averaging in Bounded Dependent Variable Models",
+    "authors": "Marcin Blazejowski, Jacek Kwiatkowski",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "BACE gretl source code and JSS replication files for Bayesian averaging of classical estimates across bounded-response and linear regression models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v117i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v117.i04",
+    "access": "open",
+    "formats": [
+      "gretl",
+      "source code",
+      "replication files",
+      "econometric examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Studying Bayesian averaging of classical estimates, model uncertainty, and predictor selection across logit, probit, ordered, multinomial, count, Tobit, interval, and linear models.",
+    "note": "Verified from the official JSS page, which directly supplies the source code and article replication files. The existing label hierarchy covers Bayesian inference and variable selection, while the bounded-response econometric aspect remains flagged for review."
+  },
+  {
+    "id": "jss-lorenzregression-penalized-inequality",
+    "title": "LorenzRegression: An Implementation of the Lorenz and Penalized Lorenz Regressions in R",
+    "authors": "Alexandre Jacquemain, Cedric Heuchenne",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "LorenzRegression R package, income-data illustration, and JSS R replication code for nonpenalized, lasso-penalized, and SCAD-penalized Lorenz regression",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v117i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v117.i06",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "income data",
+      "tabular data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Evaluating explained-Gini and Lorenz-regression workflows, including lasso and SCAD penalties, variable selection, and inequality analysis with income data.",
+    "note": "Verified from the official JSS page, which directly supplies the LorenzRegression package and R replication code and documents the income-data illustration. Two official labels fit cleanly, so the record is marked for label review."
   }
 ]
