@@ -67714,5 +67714,176 @@
     ],
     "bestFor": "Evaluating explained-Gini and Lorenz-regression workflows, including lasso and SCAD penalties, variable selection, and inequality analysis with income data.",
     "note": "Verified from the official JSS page, which directly supplies the LorenzRegression package and R replication code and documents the income-data illustration. Two official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "rj-psvmsdr-sufficient-dimension-reduction",
+    "title": "psvmSDR: An R Package for a Unified Algorithm for Sufficient Dimension Reduction via Principal Machines",
+    "authors": "Jungmin Shin, Seung Jun Shin, Andreas Artemiou",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "psvmSDR reproducible simulated regression, classification, nonlinear, and streaming-data examples for principal-machine sufficient dimension reduction",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2026-037/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-037",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "simulated data",
+      "streaming-data examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "dimension reduction"
+    ],
+    "bestFor": "Comparing linear, nonlinear, classification, and real-time sufficient-dimension-reduction estimators with fully reproducible generated data.",
+    "note": "Verified from the official R Journal article and linked CRAN package. The article gives executable data-generating code for batch and streaming examples; two official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "rj-hdtg-truncated-normal-simulation",
+    "title": "hdtg: An R Package for High-Dimensional Truncated Normal Simulation",
+    "authors": "Zhenyu Zhang, Andrew Chin, Akihiko Nishimura, Marc A. Suchard",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "hdtg Zenodo replication archive with LKJ, compound-symmetric, and HIV phylogenetics truncated-normal benchmarks at dimensions 100 to 1600",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.18618209",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-038",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "Zenodo archive",
+      "replication code",
+      "simulated data",
+      "phylogenetics data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Benchmarking harmonic and zigzag Hamiltonian Monte Carlo against minimax tilting for correlated high-dimensional truncated normal distributions.",
+    "note": "Verified from the official R Journal article, which links a Zenodo archive containing the code and data needed to reproduce all timing and effective-sample-size results, including the HIV posterior example. Two official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "rj-rsrd-ranking-differences",
+    "title": "rSRD: An R Package for the Sum of Ranking Differences Statistical Procedure",
+    "authors": "Balazs R. Sziklai, Attila Gere, Karoly Heberger, Jochen Staudacher",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "rSRD package examples with European Parliament member profiles, 2020-21 Bundesliga statistics, and social-network centrality data for permutation and cross-validation studies",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2026-045/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-045",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "tabular data",
+      "network data"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "robust statistics"
+    ],
+    "bestFor": "Studying reference-based rank comparisons, empirical permutation null distributions, cross-validation tests, ties, small samples, and sensitivity to outliers.",
+    "note": "Verified from the official R Journal article and linked package. The paper documents the real-data sources and supplies executable analyses for permutation and cross-validation workflows; two official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "rj-xplainfi-feature-importance-inference",
+    "title": "xplainfi: Feature Importance and Statistical Inference for Machine Learning in R",
+    "authors": "Lukas Burk, Fiona Katharina Meinzer, Giuseppe Casalicchio, Marvin N. Wright, Bernd Bischl",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "xplainfi reproduction suite with correlated-feature generators, Palmer penguins, bike sharing, and mlbench peak tasks for feature-importance inference",
+    "datasetUrl": "https://github.com/mlr-org/xplainfi",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-054",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "GitHub repository",
+      "supplement",
+      "simulated data",
+      "tabular data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing marginal and conditional feature-importance estimators, conditional samplers, confidence intervals, predictive-impact tests, and repeated train-test analyses.",
+    "note": "Verified from the official R Journal article, which links the maintained GitHub repository and online supplement with all reproduction code and documents the included and public benchmark datasets."
+  },
+  {
+    "id": "rj-metafrontier-efficiency-productivity",
+    "title": "metafrontier: Unified Metafrontier Analysis for Efficiency and Productivity in R",
+    "authors": "Erik Enstad",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "metafrontier simulations and sfaR utility panel with 791 US fossil-fuel power-plant observations from 1986 to 1996",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2026-055/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-055",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "panel data",
+      "simulated data"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "resampling methods",
+      "latent variable models"
+    ],
+    "bestFor": "Evaluating stochastic and deterministic metafrontiers, bootstrap technology-gap inference, latent technology classes, and balanced or unbalanced panel efficiency models.",
+    "note": "Verified from the official R Journal article and linked CRAN packages. The real-data illustration loads the public utility package dataset, and the article supplies fully reproducible simulations and Monte Carlo code."
   }
 ]
