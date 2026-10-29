@@ -68157,5 +68157,283 @@
     ],
     "bestFor": "Fitting and validating hyper-Poisson GAMLSS models when count responses are under- or over-dispersed and both location and dispersion depend on covariates.",
     "note": "Verified from the official R Journal article, which links all simulation scripts in GitHub and directly loads the public Ecdat Bids dataset. Only distributional regression fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "rj-manovarm-resampling-repeated-measures",
+    "title": "Resampling-Based Analysis of Multivariate Data and Repeated Measures Designs with the R Package MANOVA.RM",
+    "authors": "Sarah Friedrich, Frank Konietschke, Markus Pauly",
+    "year": 2019,
+    "citations": 120,
+    "dataset": "MANOVA.RM package data including leukocyte oxygen-consumption measurements (o2cons), 160-patient EEG measurements, and executable multivariate and repeated-measures examples",
+    "datasetUrl": "https://CRAN.R-project.org/package=MANOVA.RM",
+    "paperUrl": "https://doi.org/10.32614/RJ-2019-051",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "repeated-measures data",
+      "multivariate data",
+      "bootstrap examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "longitudinal-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Comparing permutation, parametric-bootstrap, and wild-bootstrap inference for factorial repeated-measures and multivariate designs without equal-covariance assumptions.",
+    "note": "Verified from the official R Journal article and CRAN package. The paper directly loads the bundled o2cons and EEG datasets and documents a nested-design example based on GFD curdies data. Only two official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "rj-sfdesign-space-filling-designs",
+    "title": "SFDesign: An R Package for Space-Filling Designs",
+    "authors": "Shangkun Wang, Weijun Xie, V. Roshan Joseph",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "SFDesign package code and reproducible generated maximin, minimax, clustering-based, maximum-projection, uniform, and Latin-hypercube computer-experiment designs",
+    "datasetUrl": "https://CRAN.R-project.org/package=SFDesign",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-027",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "generated designs",
+      "Latin hypercube designs",
+      "computer experiments"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "worked-examples",
+      "simulation-data",
+      "computer-experiments",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Generating and comparing space-filling designs for surrogate modeling, deterministic computer experiments, uncertainty quantification, and integration.",
+    "note": "Verified from the official R Journal article and CRAN package. The article provides executable design-generation examples and comparisons with recorded sphere-packing solutions and competing design packages. The hierarchy has no dedicated space-filling-design label, so the record is marked for label review."
+  },
+  {
+    "id": "jss-nlstools-nonlinear-regression-diagnostics",
+    "title": "A Toolbox for Nonlinear Regression in R: The Package nlstools",
+    "authors": "Florent Baty, Christian Ritz, Sandrine Charles, Martin Brutsche, Jean-Pierre Flandrois, Marie-Laure Delignette-Muller",
+    "year": 2015,
+    "citations": 718,
+    "dataset": "nlstools package data and downloadable JSS example code, including the O2K pulmonary oxygen-uptake series and Michaelis-Menten worked examples",
+    "datasetUrl": "https://CRAN.R-project.org/package=nlstools",
+    "paperUrl": "https://doi.org/10.18637/jss.v066.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "R example code",
+      "package data",
+      "nonlinear regression data",
+      "bootstrap samples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods"
+    ],
+    "bestFor": "Diagnosing nonlinear least-squares fits, selecting starting values, assessing influential observations, and comparing profile, jackknife, and residual-bootstrap uncertainty.",
+    "note": "Verified from the official JSS page, which provides the package and article example code, and from the CRAN documentation for the bundled O2K, Michaelis-Menten, and related datasets. Only resampling methods fits the current hierarchy cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "bioadv-nestedcv-transcriptomics-validation",
+    "title": "nestedcv: An R Package for Fast Implementation of Nested Cross-Validation with Embedded Feature Selection Designed for Transcriptomics and High-Dimensional Data",
+    "authors": "Myles J. Lewis, Athina Spiliopoulou, Katriona Goldmann, Costantino Pitzalis, Paul McKeigue, Michael R. Barnes",
+    "year": 2023,
+    "citations": 116,
+    "dataset": "ArrayExpress E-MTAB-11611 transcriptomics data and nestedcv CRAN/GitHub code for nested cross-validation with embedded filtering and feature selection",
+    "datasetUrl": "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-11611",
+    "paperUrl": "https://doi.org/10.1093/bioadv/vbad048",
+    "access": "open",
+    "formats": [
+      "gene-expression data",
+      "ArrayExpress accession",
+      "r",
+      "R package",
+      "GitHub repository",
+      "cross-validation folds"
+    ],
+    "properties": [
+      "external-data",
+      "software",
+      "code",
+      "worked-examples",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "resampling methods",
+      "risk prediction"
+    ],
+    "bestFor": "Building leak-resistant high-dimensional prediction workflows with nested cross-validation, embedded feature selection, class balancing, and stability assessment.",
+    "note": "Verified from the official Bioinformatics Advances data-availability statement. It names ArrayExpress accession E-MTAB-11611 as the underlying dataset and links all article code through CRAN and GitHub."
+  },
+  {
+    "id": "genomebiology-linda-compositional-differential-abundance",
+    "title": "LinDA: Linear Models for Differential Abundance Analysis of Microbiome Compositional Data",
+    "authors": "Huijuan Zhou, Kejun He, Jun Chen, Xianyang Zhang",
+    "year": 2022,
+    "citations": 420,
+    "dataset": "LinDA Zenodo replication archive with complete code and CDI, IBD, rheumatoid-arthritis, smoking, and COMBO microbiome datasets used in the paper",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.6326019",
+    "paperUrl": "https://doi.org/10.1186/s13059-022-02655-5",
+    "access": "open",
+    "formats": [
+      "r",
+      "Zenodo archive",
+      "GitHub repository",
+      "microbiome count data",
+      "compositional data",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "high-dimensional statistics",
+      "multiple testing"
+    ],
+    "bestFor": "Evaluating bias-corrected linear-model differential-abundance inference for cross-sectional and correlated microbiome compositions with covariate adjustment.",
+    "note": "Verified from the official Genome Biology availability statement. It links the complete code and data archive on Zenodo and GitHub and names the five real microbiome dataset families used in the analyses."
+  },
+  {
+    "id": "plosone-phyloseq-microbiome-census-data",
+    "title": "phyloseq: An R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data",
+    "authors": "Paul J. McMurdie, Susan Holmes",
+    "year": 2013,
+    "citations": 21436,
+    "dataset": "phyloseq Bioconductor package data including GlobalPatterns, Enterotype, esophagus, and soil microbiome census datasets with complete reproducible article materials",
+    "datasetUrl": "https://bioconductor.org/packages/release/bioc/html/phyloseq.html",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0061217",
+    "access": "open",
+    "formats": [
+      "r",
+      "Bioconductor package",
+      "package data",
+      "OTU tables",
+      "sample metadata",
+      "phylogenetic trees"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "dimension reduction",
+      "clustering",
+      "high-dimensional statistics",
+      "multiple testing"
+    ],
+    "bestFor": "Reproducible import, integration, ordination, clustering, testing, and visualization of microbiome census tables, sample metadata, and phylogenetic trees.",
+    "note": "Verified from the official PLOS article and Bioconductor package. The article states that its examples use included package data and specifically documents the GlobalPatterns and Enterotype datasets plus complete figure-reproduction materials."
+  },
+  {
+    "id": "bmcbioinformatics-catmap-genetic-meta-analysis",
+    "title": "catmap: Case-Control and TDT Meta-Analysis Package",
+    "authors": "Kristin K. Nicodemus",
+    "year": 2008,
+    "citations": 51,
+    "dataset": "catmapdata bundled example of case-control and family-based transmission-disequilibrium study counts for fixed- and random-effects genetic meta-analysis",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/catmap/html/catmapdata.html",
+    "paperUrl": "https://doi.org/10.1186/1471-2105-9-130",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "case-control counts",
+      "family-based study counts"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis"
+    ],
+    "bestFor": "Pooling case-control and family-based transmission-disequilibrium studies with fixed or random effects, sensitivity analysis, cumulative analysis, and forest or funnel plots.",
+    "note": "Verified from the official BMC Bioinformatics article and archived CRAN documentation. The package exposes a documented catmapdata example with the exact study-count schema used by the methods. Only meta-analysis fits the current hierarchy cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "bmjmh-metaumbrella-evidence-stratification",
+    "title": "metaumbrella: The First Comprehensive Suite to Perform Data Analysis in Umbrella Reviews with Stratification of the Evidence",
+    "authors": "Corentin J. Gosling, Aleix Solanes, Paolo Fusar-Poli, Joaquim Radua",
+    "year": 2023,
+    "citations": 103,
+    "dataset": "metaumbrella package datasets including df.radua2019 with 155 studies in seven PTSD-risk-factor meta-analyses and examples for SMD, SMC, correlations, odds ratios, risk ratios, hazard ratios, and incidence-rate ratios",
+    "datasetUrl": "https://CRAN.R-project.org/package=metaumbrella",
+    "paperUrl": "https://doi.org/10.1136/bmjment-2022-300534",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "meta-analysis data",
+      "effect-size tables",
+      "worked tutorials"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis"
+    ],
+    "bestFor": "Recalculating many meta-analyses in a common framework, checking input structure, assessing small-study and excess-significance signals, and stratifying umbrella-review evidence.",
+    "note": "Verified from the official BMJ Mental Health article and CRAN package. The paper directly loads df.radua2019 and documents its 155 studies and seven meta-analyses; the package adds example datasets for seven effect-size families. Only meta-analysis fits the current hierarchy cleanly, so the record is marked for label review."
   }
 ]
