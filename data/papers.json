@@ -67885,5 +67885,277 @@
     ],
     "bestFor": "Evaluating stochastic and deterministic metafrontiers, bootstrap technology-gap inference, latent technology classes, and balanced or unbalanced panel efficiency models.",
     "note": "Verified from the official R Journal article and linked CRAN packages. The real-data illustration loads the public utility package dataset, and the article supplies fully reproducible simulations and Monte Carlo code."
+  },
+  {
+    "id": "rj-advanced-brms-multilevel-modeling",
+    "title": "Advanced Bayesian Multilevel Modeling with the R Package brms",
+    "authors": "Paul-Christian Buerkner",
+    "year": 2018,
+    "citations": 2954,
+    "dataset": "Four reproducible brms examples using UCLA fish-count data, gamlss.data rent99 housing data, cumulative insurance-loss data, and simulated multiple-membership school data",
+    "datasetUrl": "https://rjournal.github.io/archive/2018/RJ-2018-017/RJ-2018-017.pdf",
+    "paperUrl": "https://doi.org/10.32614/RJ-2018-017",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "Stan code",
+      "public datasets",
+      "package data",
+      "simulated data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "distributional regression"
+    ],
+    "bestFor": "Teaching advanced brms formula syntax for distributional, nonlinear, multivariate, and multiple-membership Bayesian multilevel models fitted with Stan.",
+    "note": "Verified from the official R Journal paper, which gives executable code and explicit data sources for all four examples and points to the online supplement for the multiple-membership generator."
+  },
+  {
+    "id": "rj-imputerobust-gamlss-multiple-imputation",
+    "title": "Generalized Additive Model Multiple Imputation by Chained Equations With Package ImputeRobust",
+    "authors": "Daniel Salfran, Martin Spiess",
+    "year": 2018,
+    "citations": 15,
+    "dataset": "ImputeRobust simulation code and the UCI Chronic Kidney Disease data with 400 observations, including 149 incomplete rows, for GAMLSS chained-equation multiple imputation",
+    "datasetUrl": "https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease",
+    "paperUrl": "https://doi.org/10.32614/RJ-2018-014",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "supplement",
+      "tabular data",
+      "missing data",
+      "simulated data"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "distributional regression",
+      "robust statistics"
+    ],
+    "bestFor": "Comparing chained-equation multiple-imputation models for skewed, heavy-tailed, multimodal, count, and binary variables under weak distributional assumptions.",
+    "note": "Verified from the official R Journal article and supplement. The paper directly loads the public UCI Chronic Kidney Disease data and documents the nonmonotone missingness pattern and five-imputation workflow."
+  },
+  {
+    "id": "jss-missmech-mcar-testing",
+    "title": "MissMech: An R Package for Testing Homoscedasticity, Multivariate Normality, and Missing Completely at Random (MCAR)",
+    "authors": "Mortaza Jamshidian, Siavash Jalal, Camden S. Jansen",
+    "year": 2014,
+    "citations": 262,
+    "dataset": "MissMech R package and downloadable JSS example code for MCAR tests, multivariate-normality and homoscedasticity checks, incomplete-data estimation, and imputation examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v056i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v056.i06",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "R example code",
+      "incomplete-data examples"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data"
+    ],
+    "bestFor": "Testing MCAR assumptions, multivariate normality, group homoscedasticity, and distribution-free incomplete-data procedures with reproducible R examples.",
+    "note": "Verified from the official JSS page, which directly provides the MissMech package and downloadable R example code. Only the broad missing-data label fits cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "rj-fhdi-fractional-hot-deck-imputation",
+    "title": "FHDI: An R Package for Fractional Hot Deck Imputation",
+    "authors": "Jongho Im, In Ho Cho, Jae Kwang Kim",
+    "year": 2018,
+    "citations": 22,
+    "dataset": "FHDI package code, generated multivariate missing-data examples, and a 2,210-person South Korean legislative-election exit poll with item nonresponse",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2018-020/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2018-020",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "simulated data",
+      "survey data",
+      "missing data",
+      "replication weights"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data",
+      "survey methodology"
+    ],
+    "bestFor": "Studying fractional hot-deck and fully efficient fractional imputation, donor-cell construction, item nonresponse, and replication-weight variance estimation.",
+    "note": "Verified from the official R Journal article, which supplies complete package source, executable generated examples, and an exit-poll application. The hierarchy lacks a dedicated fractional-imputation label, so the record is marked for label review."
+  },
+  {
+    "id": "rj-msae-multivariate-fay-herriot",
+    "title": "msae: An R Package of Multivariate Fay-Herriot Models for Small Area Estimation",
+    "authors": "Novia Permatasari, Azka Ubaidillah",
+    "year": 2021,
+    "citations": 6,
+    "dataset": "msae generated Model 1-3 multivariate Fay-Herriot datasets and the sae incomedata example for univariate, multivariate, autoregressive, and heteroskedastic small-area models",
+    "datasetUrl": "https://CRAN.R-project.org/package=msae",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-096",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "simulated data",
+      "small-area data"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing direct, univariate, multivariate, autoregressive, and heteroskedastic Fay-Herriot estimators and their mean squared errors across small areas.",
+    "note": "Verified from the official R Journal article and CRAN package. The paper names three bundled generated datasets and the public incomedata application and gives executable analyses for all four model classes."
+  },
+  {
+    "id": "bioinformatics-pvclust-cluster-uncertainty",
+    "title": "Pvclust: An R Package for Assessing the Uncertainty in Hierarchical Clustering",
+    "authors": "Ryota Suzuki, Hidetoshi Shimodaira",
+    "year": 2006,
+    "citations": 2452,
+    "dataset": "pvclust package and 73-lung-tumor, 916-gene expression example from Garber et al. for multiscale-bootstrap uncertainty assessment in hierarchical clustering",
+    "datasetUrl": "https://CRAN.R-project.org/package=pvclust",
+    "paperUrl": "https://doi.org/10.1093/bioinformatics/btl117",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "gene-expression data",
+      "hierarchical clustering",
+      "bootstrap samples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "clustering",
+      "resampling methods",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Assessing cluster stability with approximately unbiased and bootstrap-probability p-values from multiscale bootstrap resampling.",
+    "note": "Verified from the official Bioinformatics article and CRAN package. The paper documents the public package and applies it to a 73-sample lung-tumor expression matrix with 916 genes."
+  },
+  {
+    "id": "jgr-hadex2-climate-extremes",
+    "title": "Updated Analyses of Temperature and Precipitation Extreme Indices Since the Beginning of the Twentieth Century: The HadEX2 Dataset",
+    "authors": "Markus G. Donat et al.",
+    "year": 2013,
+    "citations": 1361,
+    "dataset": "HadEX2 global gridded annual and monthly temperature and precipitation extreme indices from 1901 to 2010, with 29 downloadable NetCDF products",
+    "datasetUrl": "https://www.metoffice.gov.uk/hadobs/hadex2/download.html",
+    "paperUrl": "https://doi.org/10.1002/jgrd.50150",
+    "access": "open",
+    "formats": [
+      "NetCDF",
+      "gridded data",
+      "climate indices",
+      "annual data",
+      "monthly data",
+      "spatiotemporal data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Analyzing global trends, spatial coverage, uncertainty, and model-evaluation questions for observed temperature and precipitation extremes over the twentieth century.",
+    "note": "Verified from the official JGR paper and Met Office HadEX2 download page, which exposes 29 named NetCDF index products and identifies the paper as the dataset citation."
+  },
+  {
+    "id": "rj-hyperpoisson-gamlss-bids",
+    "title": "Hyper-Poisson Regression Modeling via GAMLSS",
+    "authors": "Freddy Hernandez-Barajas, Jamiu S. Olumoh, Osho O. Ajayi, Fernando Marmolejo-Ramos",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "DiscreteDists simulation repository and Ecdat Bids data for 126 US tender-offer targets observed from 1978 to 1985, with under- and over-dispersed count-regression examples",
+    "datasetUrl": "https://github.com/fhernanb/HYPERPO_paper",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-004",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "GitHub repository",
+      "simulation code",
+      "package data",
+      "count data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "distributional regression"
+    ],
+    "bestFor": "Fitting and validating hyper-Poisson GAMLSS models when count responses are under- or over-dispersed and both location and dispersion depend on covariates.",
+    "note": "Verified from the official R Journal article, which links all simulation scripts in GitHub and directly loads the public Ecdat Bids dataset. Only distributional regression fits cleanly, so the record is marked for label review."
   }
 ]
