@@ -68435,5 +68435,280 @@
     ],
     "bestFor": "Recalculating many meta-analyses in a common framework, checking input structure, assessing small-study and excess-significance signals, and stratifying umbrella-review evidence.",
     "note": "Verified from the official BMJ Mental Health article and CRAN package. The paper directly loads df.radua2019 and documents its 155 studies and seven meta-analyses; the package adds example datasets for seven effect-size families. Only meta-analysis fits the current hierarchy cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "rj-glmmtmb-zero-inflated-mixed-models",
+    "title": "glmmTMB Balances Speed and Flexibility Among Packages for Zero-inflated Generalized Linear Mixed Modeling",
+    "authors": "Mollie E. Brooks, Kasper Kristensen, Koen J. van Benthem, Arni Magnusson, Casper W. Berg, Anders Nielsen, Hans J. Skaug, Martin Maechler, Benjamin M. Bolker",
+    "year": 2017,
+    "citations": 13350,
+    "dataset": "Salamanders stream-abundance data from Dryad and the glmmTMB package, plus the Owls nestling-begging example used for zero-inflated count-model comparisons",
+    "datasetUrl": "https://doi.org/10.5061/dryad.5m8f6",
+    "paperUrl": "https://doi.org/10.32614/RJ-2017-066",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "Dryad dataset",
+      "count data",
+      "mixed-model data",
+      "replication code"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multilevel modeling",
+      "distributional regression"
+    ],
+    "bestFor": "Fitting and comparing zero-inflated, hurdle, negative-binomial, and Conway-Maxwell-Poisson mixed models for clustered count data.",
+    "note": "Verified from the official R Journal article, the glmmTMB package documentation, and the linked Dryad archive. The article directly analyzes Salamanders and Owls and provides its model and benchmark code. Only two current official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jss-qgraph-psychometric-networks",
+    "title": "qgraph: Network Visualizations of Relationships in Psychometric Data",
+    "authors": "Sacha Epskamp, Angelique O. J. Cramer, Lourens J. Waldorp, Verena D. Schmittmann, Denny Borsboom",
+    "year": 2012,
+    "citations": 4896,
+    "dataset": "qgraph big5 package dataset with 500 first-year psychology students measured on 240 Dutch NEO-PI-R personality items, plus JSS example code",
+    "datasetUrl": "https://CRAN.R-project.org/package=qgraph",
+    "paperUrl": "https://doi.org/10.18637/jss.v048.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "psychometric item responses",
+      "R example code",
+      "network matrices"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics",
+      "latent variable models"
+    ],
+    "bestFor": "Visualizing and estimating psychometric association networks, Gaussian graphical models, factor-loading structures, and covariance or correlation matrices.",
+    "note": "Verified from the official JSS page and current CRAN documentation. JSS supplies the package and article example code, while qgraph documents the bundled big5 NEO-PI-R dataset used in the paper."
+  },
+  {
+    "id": "jss-nparld-longitudinal-rank-methods",
+    "title": "nparLD: An R Software Package for the Nonparametric Analysis of Longitudinal Data in Factorial Experiments",
+    "authors": "Kimihiro Noguchi, Yulia R. Gel, Edgar Brunner, Frank Konietschke",
+    "year": 2012,
+    "citations": 1146,
+    "dataset": "nparLD package datasets for dental growth, rat growth, shoulder-tip pain, respiration, edema, amylase, plasma, tree, and panic longitudinal factorial studies",
+    "datasetUrl": "https://CRAN.R-project.org/package=nparLD",
+    "paperUrl": "https://doi.org/10.18637/jss.v050.i12",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "longitudinal data",
+      "factorial experiments",
+      "R example code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "longitudinal-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "robust statistics"
+    ],
+    "bestFor": "Comparing rank-based Wald- and ANOVA-type inference for repeated-measures factorial designs with outliers, nonnormal outcomes, or incomplete observations.",
+    "note": "Verified from the official JSS page and CRAN reference manual. The article supplies example code and the package exposes multiple documented longitudinal case-study datasets. Only two current official labels fit cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jss-flexsurv-parametric-survival-modeling",
+    "title": "flexsurv: A Platform for Parametric Survival Modeling in R",
+    "authors": "Christopher H. Jackson",
+    "year": 2016,
+    "citations": 558,
+    "dataset": "flexsurv package breast-cancer survival data (bc) and three- and four-state bronchiolitis-obliterans histories (bosms3 and bosms4) with JSS replication code",
+    "datasetUrl": "https://CRAN.R-project.org/package=flexsurv",
+    "paperUrl": "https://doi.org/10.18637/jss.v070.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "survival data",
+      "multi-state histories",
+      "R replication code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "time-to-event-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "multi-state models"
+    ],
+    "bestFor": "Fitting flexible parametric survival distributions, spline-based hazards, user-defined event-time models, and fully parametric multi-state models.",
+    "note": "Verified from the official JSS page and CRAN package documentation. The paper uses the bundled bc breast-cancer data throughout and documents the bosms3 and bosms4 transition histories for multi-state examples."
+  },
+  {
+    "id": "jss-hnp-half-normal-model-diagnostics",
+    "title": "Half-Normal Plots and Overdispersed Models in R: The hnp Package",
+    "authors": "Rafael A. Moral, John Hinde, Clarice G. B. Demetrio",
+    "year": 2017,
+    "citations": 377,
+    "dataset": "hnp package example datasets cbb, chryso, corn, fungi, oil, orange, progeny, and wolbachia with JSS replication code for simulated-envelope diagnostics",
+    "datasetUrl": "https://CRAN.R-project.org/package=hnp",
+    "paperUrl": "https://doi.org/10.18637/jss.v081.i10",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "count and proportion data",
+      "R replication code",
+      "simulation envelopes"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods"
+    ],
+    "bestFor": "Diagnosing generalized linear, mixed, zero-inflated, and overdispersed models with half-normal residual plots and simulation envelopes.",
+    "note": "Verified from the official JSS page and CRAN package manual. JSS provides replication code and the package documents eight bundled example datasets. Only resampling methods fits the current hierarchy cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "softwarex-onlinebcp-bayesian-change-points",
+    "title": "onlineBcp: An R Package for Online Change Point Detection Using a Bayesian Approach",
+    "authors": "Hongyan Xu, Ayten Yigiter, Jie Chen",
+    "year": 2022,
+    "citations": 5,
+    "dataset": "onlineBcp package data including transformed aCGH measurements, GC-corrected H2347 copy-number variation, and daily US COVID-19 case series",
+    "datasetUrl": "https://CRAN.R-project.org/package=onlineBcp",
+    "paperUrl": "https://doi.org/10.1016/j.softx.2022.100999",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "genomic sequences",
+      "time series",
+      "vignette code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "time-series",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "bayesian inference"
+    ],
+    "bestFor": "Evaluating sequential Bayesian detection of multiple mean shifts, batch updates, segment summaries, and missing-value preprocessing in streaming data.",
+    "note": "Verified from the open-access SoftwareX paper and CRAN package documentation. The maintained package exposes three documented real-data examples and a reproducible comparison vignette."
+  },
+  {
+    "id": "rj-glmperm-regressor-residual-permutation",
+    "title": "glmperm: A Permutation of Regressor Residuals Test for Inference in Generalized Linear Models",
+    "authors": "Wiebke Werft, Axel Benner",
+    "year": 2010,
+    "citations": 21,
+    "dataset": "coin treepipit dataset with 86 forest plots and tree-pipit counts, habitat covariates, and overdispersion examples, plus reproducible simulated logistic and Poisson samples",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/coin/html/treepipit.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2010-007",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "ecological count data",
+      "simulated data",
+      "permutation code"
+    ],
+    "properties": [
+      "external-data",
+      "code",
+      "worked-examples",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods"
+    ],
+    "bestFor": "Comparing permutation-of-regressor-residual inference with asymptotic generalized-linear-model tests for small samples and overdispersed counts.",
+    "note": "Verified from the official R Journal article and current coin documentation. The article directly loads treepipit for its overdispersion example and provides executable simulated-data sessions. Only resampling methods fits the current hierarchy cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jss-sandwich-clustered-covariances",
+    "title": "Various Versatile Variances: An Object-Oriented Implementation of Clustered Covariances in R",
+    "authors": "Achim Zeileis, Susanne Koll, Nathaniel Graham",
+    "year": 2020,
+    "citations": 543,
+    "dataset": "sandwich package data including PetersenCL clustered-error simulations, InstInnovation firm panels, PublicSchools expenditures, and US Investment data with JSS replication materials",
+    "datasetUrl": "https://CRAN.R-project.org/package=sandwich",
+    "paperUrl": "https://doi.org/10.18637/jss.v095.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "package data",
+      "panel data",
+      "replication materials"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "panel-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "resampling methods",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Comparing one- and multi-way clustered covariance estimators, bias corrections, panel covariances, and clustered bootstrap standard errors across model classes.",
+    "note": "Verified from the official JSS page and CRAN sandwich documentation. The package provides four documented datasets and the article page supplies replication materials for clustered, panel, and bootstrap covariance estimators."
   }
 ]
