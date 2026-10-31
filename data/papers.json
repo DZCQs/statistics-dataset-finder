@@ -68710,5 +68710,315 @@
     ],
     "bestFor": "Comparing one- and multi-way clustered covariance estimators, bias corrections, panel covariances, and clustered bootstrap standard errors across model classes.",
     "note": "Verified from the official JSS page and CRAN sandwich documentation. The package provides four documented datasets and the article page supplies replication materials for clustered, panel, and bootstrap covariance estimators."
+  },
+  {
+    "id": "jss-spatstat-knet-linear-network-events",
+    "title": "Efficient Code for Second Order Analysis of Events on a Linear Network",
+    "authors": "Suman Rakshit, Adrian Baddeley, Gopalan Nair",
+    "year": 2019,
+    "citations": 27,
+    "dataset": "spatstat.Knet wacrashes data with 14,562 road-accident locations on 115,169 Western Australian road segments, plus JSS R replication code and supplementary R data files",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/spatstat.Knet/html/wacrashes.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v090.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "spatial point pattern",
+      "linear network",
+      "supplementary R data"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "code",
+      "replication-materials",
+      "spatial-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Benchmarking second-order point-process summaries, K-functions, pair-correlation functions, and memory-efficient algorithms for large event patterns on linear networks.",
+    "note": "Verified from the official JSS article, which links the package, replication code, and two supplementary R data files, and from current spatstat.Knet documentation for the open-policy Western Australian road-accident data. Only spatial statistics fits the current hierarchy cleanly, so the record is marked for label review."
+  },
+  {
+    "id": "jss-geoxp-exploratory-spatial-data",
+    "title": "GeoXp: An R Package for Exploratory Spatial Data Analysis",
+    "authors": "Thibault Laurent, Anne Ruiz-Gazen, Christine Thomas-Agnan",
+    "year": 2012,
+    "citations": 24,
+    "dataset": "GeoXp mp.school and mp.school.ps data covering 226 schools and 155 pseudo-cantons in Midi-Pyrenees, with coordinates, staffing, enrollment, cost, rurality, and teaching variables plus JSS example code",
+    "datasetUrl": "https://github.com/tibo31/GeoXp",
+    "paperUrl": "https://doi.org/10.18637/jss.v047.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "spatial tabular data",
+      "coordinates",
+      "example code"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "spatial-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Teaching linked maps and statistical graphics, Moran scatterplots, variogram clouds, PCA, clustering, and multivariate exploratory analysis of geographically referenced school data.",
+    "note": "Verified from the official JSS page, GeoXp package repository, and package documentation. The paper uses the bundled Midi-Pyrenees school data and provides R example code; two official labels fit, so the record remains flagged for label review."
+  },
+  {
+    "id": "jss-bfda-bayesian-functional-data",
+    "title": "BFDA: A MATLAB Toolbox for Bayesian Functional Data Analysis",
+    "authors": "Jingjing Yang, Peng Ren",
+    "year": 2019,
+    "citations": 7,
+    "dataset": "BFDA MATLAB source package, dependencies, and JSS replication code for dense and sparse functional-data smoothing, covariance estimation, spline approximations, simulations, and follow-up functional regression",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v089i02/3787",
+    "paperUrl": "https://doi.org/10.18637/jss.v089.i02",
+    "access": "open",
+    "formats": [
+      "matlab",
+      "source package",
+      "replication code",
+      "simulated functional data"
+    ],
+    "properties": [
+      "code",
+      "replication-materials",
+      "simulation-data",
+      "worked-examples",
+      "software",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Reproducing Bayesian smoothing and mean-covariance estimation for sparse or dense functional observations using Gaussian-process and spline-based approximations.",
+    "note": "Verified from the official JSS article page, which directly provides the MATLAB source package with dependencies and replication code used for the paper's functional-data examples."
+  },
+  {
+    "id": "jss-spbsampling-spatially-balanced-sampling",
+    "title": "Spbsampling: An R Package for Spatially Balanced Sampling",
+    "authors": "Francesco Pantalone, Roberto Benedetti, Federica Piersimoni",
+    "year": 2022,
+    "citations": 7,
+    "dataset": "Spbsampling R package, JSS replication code, supplementary data, and finite-population examples for drawing spatially balanced probability samples from geographic or general distance matrices",
+    "datasetUrl": "https://CRAN.R-project.org/package=Spbsampling",
+    "paperUrl": "https://doi.org/10.18637/jss.v103.c02",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "supplementary data",
+      "finite-population data"
+    ],
+    "properties": [
+      "code",
+      "replication-materials",
+      "worked-examples",
+      "spatial-data",
+      "survey-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "spatial statistics"
+    ],
+    "bestFor": "Comparing spatially balanced probability-sampling designs, distance-based spread criteria, inclusion probabilities, and MCMC sampling for environmental or official-statistics populations.",
+    "note": "Verified from the official JSS code-snippet page, which supplies the R package, replication code, and supplementary data, and from current CRAN documentation for the implemented spatially balanced designs."
+  },
+  {
+    "id": "jss-npcirc-nonparametric-circular-methods",
+    "title": "NPCirc: An R Package for Nonparametric Circular Methods",
+    "authors": "Maria Oliveira, Rosa M. Crujeiras, Alberto Rodriguez-Casal",
+    "year": 2014,
+    "citations": 64,
+    "dataset": "NPCirc package datasets including Atlantic wind speed and direction, temperature and wind, sandhopper orientation, periwinkles, PM10, spikes, and zebrafish examples, with JSS example code",
+    "datasetUrl": "https://CRAN.R-project.org/package=NPCirc",
+    "paperUrl": "https://doi.org/10.18637/jss.v061.i09",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "circular data",
+      "environmental data",
+      "example code"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "directional statistics"
+    ],
+    "bestFor": "Evaluating nonparametric circular density and regression estimators, bandwidth selection, CircSiZer feature assessment, and circular-linear or circular-circular relationships.",
+    "note": "Verified from the JSS article and current NPCirc documentation. The package supplies multiple real circular datasets, including wind observations linked to the CODIAC archive; directional statistics is the sole precise official label, so the record is marked for label review."
+  },
+  {
+    "id": "jss-circnntsr-directional-trigonometric-sums",
+    "title": "CircNNTSR: An R Package for the Statistical Analysis of Circular, Multivariate Circular, and Spherical Data Using Nonnegative Trigonometric Sums",
+    "authors": "Juan Jose Fernandez-Duran, Maria Mercedes Gregorio-Dominguez",
+    "year": 2016,
+    "citations": 30,
+    "dataset": "CircNNTSR package data with 19 circular, bivariate circular, and spherical datasets including ants, turtles, magnetic remanence, Mexico earthquakes and homicides, Gulf of Mexico hurricanes, proteins, and trivariate wind directions, plus JSS replication code",
+    "datasetUrl": "https://CRAN.R-project.org/package=CircNNTSR",
+    "paperUrl": "https://doi.org/10.18637/jss.v070.i06",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "circular data",
+      "spherical data",
+      "replication code"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "code",
+      "replication-materials",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "directional statistics"
+    ],
+    "bestFor": "Fitting flexible unimodal or multimodal circular and spherical distributions, maximum-likelihood estimation on a hypersphere, simulation, and likelihood-ratio tests of uniformity, homogeneity, and independence.",
+    "note": "Verified from the official JSS article and current CircNNTSR package documentation. The article links replication code, and the package exposes 19 real and simulated directional datasets; directional statistics is the sole precise official label, so the record is marked for label review."
+  },
+  {
+    "id": "jss-tipsae-unit-interval-small-area",
+    "title": "The R Package tipsae: Tools for Mapping Proportions and Indicators on the Unit Interval",
+    "authors": "Silvia De Nicolo, Aldo Gardini",
+    "year": 2024,
+    "citations": 4,
+    "dataset": "tipsae emilia, emilia_cs, and emilia_shp package datasets for poverty mapping across 38 Emilia-Romagna health districts, including 2016 cross-sectional and 2012-2020 spatio-temporal small-area indicators, sampling variances, population sizes, covariates, and boundaries",
+    "datasetUrl": "https://CRAN.R-project.org/package=tipsae",
+    "paperUrl": "https://doi.org/10.18637/jss.v108.i01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "small-area panel data",
+      "spatial boundaries",
+      "replication code"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "code",
+      "replication-materials",
+      "survey-data",
+      "spatial-data",
+      "panel-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "spatial statistics",
+      "spatio-temporal models"
+    ],
+    "bestFor": "Estimating and mapping bounded small-area indicators with beta, zero/one-inflated beta, flexible beta, spatial, and spatio-temporal Bayesian models, diagnostics, benchmarking, and variance smoothing.",
+    "note": "Verified from the official JSS page and current CRAN reference manual. The package provides cross-sectional, panel, and shapefile data derived from publicly available Emilia-Romagna poverty estimates, together with executable examples and replication code."
+  },
+  {
+    "id": "jss-sms-spatial-microsimulation",
+    "title": "sms: An R Package for the Construction of Microdata for Geographical Analysis",
+    "authors": "Dimitris Kavroudakis",
+    "year": 2015,
+    "citations": 9,
+    "dataset": "sms package census data for 10 areas and survey microdata for 200 individuals, with source code and JSS replication code for fitting individual records to small-area population margins",
+    "datasetUrl": "https://CRAN.R-project.org/package=sms",
+    "paperUrl": "https://doi.org/10.18637/jss.v068.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "survey microdata",
+      "census margins",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "replication-materials",
+      "survey-data",
+      "small-area-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation"
+    ],
+    "bestFor": "Teaching spatial microsimulation, fitting survey microrecords to census area margins, constructing synthetic small-area populations, and comparing serial and parallel combinatorial-optimization workflows.",
+    "note": "Verified from the official JSS page and current sms package documentation. JSS provides source and replication code, while the package distributes census data for 10 areas and survey data for 200 individuals; two official labels fit, so the record remains flagged for label review."
+  },
+  {
+    "id": "jscs-circspacetime-bayesian-circular-models",
+    "title": "CircSpaceTime: An R Package for Spatial and Spatio-Temporal Modeling of Circular Data",
+    "authors": "Giovanna Jona Lasinio, Mario Santoro, Gianluca Mastrantonio",
+    "year": 2020,
+    "citations": 6,
+    "dataset": "CircSpaceTime package data with April and May 2010 Adriatic Sea wave directions, wave heights, spatial coordinates, hourly time indices, and storm-state labels derived from the ISPRA Mediterranean forecasting system, plus package examples and simulations",
+    "datasetUrl": "https://github.com/santoroma/CircSpaceTime",
+    "paperUrl": "https://arxiv.org/abs/2001.00405",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "circular data",
+      "spatio-temporal data",
+      "wave-model output"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "code",
+      "worked-examples",
+      "spatial-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "spatial statistics",
+      "spatio-temporal models",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Fitting wrapped- and projected-Gaussian Bayesian models for circular observations over space and time, checking MCMC behavior, and interpolating Adriatic wave directions.",
+    "note": "Verified from the open-access paper, archived CRAN documentation, and maintained GitHub repository. The peer-reviewed article is DOI 10.1080/00949655.2020.1725008. The package distributes spatial and spatio-temporal ISPRA wave-direction examples; CRAN archived the package in 2025, but its source and data remain publicly accessible on GitHub."
   }
 ]

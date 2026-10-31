@@ -834,6 +834,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["compositional data", "compositional", "simplex", "log-ratio", "log ratio", "aitchison", "proportional outcomes", "proportions with synthetic controls"]
   },
   {
+    name: "directional statistics",
+    level: "high",
+    parents: [],
+    definition: "Datasets and replication resources for statistical analysis of circular, spherical, axial, toroidal, or other direction-valued observations.",
+    includeWhen: [
+      "directional, circular, spherical, axial, or multivariate circular observations are central to the statistical method or empirical example",
+      "the resource provides accessible data, code, simulations, or package examples for directional density estimation, regression, testing, or distribution modeling"
+    ],
+    avoidWhen: [
+      "circular is used only to describe a workflow, graph, economy, or physical shape rather than direction-valued data",
+      "angles or bearings are incidental and no directional statistical method is studied"
+    ],
+    evidenceTerms: ["directional statistics", "directional data", "circular data", "spherical data", "axial data", "circular regression", "circular density", "multivariate circular", "von mises", "wrapped cauchy", "nonnegative trigonometric sums"]
+  },
+  {
     name: "spatial statistics",
     level: "high",
     parents: [],
