@@ -69020,5 +69020,401 @@
     ],
     "bestFor": "Fitting wrapped- and projected-Gaussian Bayesian models for circular observations over space and time, checking MCMC behavior, and interpolating Adriatic wave directions.",
     "note": "Verified from the open-access paper, archived CRAN documentation, and maintained GitHub repository. The peer-reviewed article is DOI 10.1080/00949655.2020.1725008. The package distributes spatial and spatio-temporal ISPRA wave-direction examples; CRAN archived the package in 2025, but its source and data remain publicly accessible on GitHub."
+  },
+  {
+    "id": "jss-lme4-item-response-models",
+    "title": "The Estimation of Item Response Models with the lmer Function from the lme4 Package in R",
+    "authors": "Paul De Boeck, Marjan Bakker, Robert Zwitser, Michel Nivard, Abe Hofman, Francis Tuerlinckx, Ivailo Partchev",
+    "year": 2011,
+    "citations": 339,
+    "dataset": "lme4 VerbAgg verbal-aggression item responses and ltm LSAT item-response data, with JSS R code for fitting GLMM formulations of Rasch, DIF, item-covariate, and local-dependence models",
+    "datasetUrl": "https://CRAN.R-project.org/package=lme4",
+    "paperUrl": "https://doi.org/10.18637/jss.v039.i12",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "item responses",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "multilevel modeling"
+    ],
+    "bestFor": "Expressing Rasch and explanatory item-response models as generalized linear mixed models with person, item, and person-by-item covariates.",
+    "note": "Verified from the official JSS article, its R example code, and the current lme4 documentation for VerbAgg. Only two current official labels fit cleanly, so the record remains flagged for label review."
+  },
+  {
+    "id": "jss-multilevel-rasch-lme4",
+    "title": "Estimating the Multilevel Rasch Model: With the lme4 Package",
+    "authors": "Harold Doran, Douglas Bates, Paul Bliese, Maritza Dowling",
+    "year": 2007,
+    "citations": 104,
+    "dataset": "JSS R example code and reproducible educational-testing examples for students clustered in classrooms, items grouped by content strand, and teacher-by-strand interactions",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v020i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v020.i02",
+    "access": "open",
+    "formats": [
+      "r",
+      "R code",
+      "item responses",
+      "multilevel data"
+    ],
+    "properties": [
+      "replication-materials",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "multilevel modeling"
+    ],
+    "bestFor": "Teaching multilevel Rasch estimation when examinees are clustered, items share passages or content strands, and teacher-by-content interactions matter.",
+    "note": "Verified from the official JSS page and its downloadable R example code. The code documents the modeled multilevel testing structures; two official labels fit, so the record remains flagged for label review."
+  },
+  {
+    "id": "jss-irtrees-glmm-item-response",
+    "title": "IRTrees: Tree-Based Item Response Models of the GLMM Family",
+    "authors": "Paul De Boeck, Ivailo Partchev",
+    "year": 2012,
+    "citations": 214,
+    "dataset": "JSS irtrees package, simulated item-response examples, and downloadable R binary data for fast-versus-slow intelligence and fear-and-stress applications",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v048c01",
+    "paperUrl": "https://doi.org/10.18637/jss.v048.c01",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "R binary data",
+      "item responses",
+      "replication code"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "multilevel modeling"
+    ],
+    "bestFor": "Fitting linear and nested response trees, latent-variable trees, bifactor structures, and change-process item-response models through GLMMs.",
+    "note": "Verified from the official JSS page, which directly supplies the irtrees package, R example code, two real-data R binaries, and simulated datasets. Two official labels fit, so the record remains flagged for label review."
+  },
+  {
+    "id": "jss-polca-latent-class-analysis",
+    "title": "poLCA: An R Package for Polytomous Variable Latent Class Analysis",
+    "authors": "Drew A. Linzer, Jeffrey B. Lewis",
+    "year": 2011,
+    "citations": 1322,
+    "dataset": "poLCA package data including carcinoma ratings, undergraduate cheating responses, 2000 National Election Study candidate evaluations, and 1982 General Social Survey attitudes",
+    "datasetUrl": "https://CRAN.R-project.org/package=poLCA",
+    "paperUrl": "https://doi.org/10.18637/jss.v042.i10",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "categorical data",
+      "survey data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "survey-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models",
+      "clustering"
+    ],
+    "bestFor": "Estimating latent class and latent class regression models for multivariate polytomous responses with substantive survey and diagnostic examples.",
+    "note": "Verified from the official JSS page and current CRAN manual, which documents four bundled datasets, their provenance, formats, and executable examples. Two official labels fit, so the record remains flagged for label review."
+  },
+  {
+    "id": "jss-flexmix-finite-mixtures",
+    "title": "FlexMix: A General Framework for Finite Mixture Models and Latent Class Regression in R",
+    "authors": "Friedrich Leisch",
+    "year": 2004,
+    "citations": 679,
+    "dataset": "flexmix package examples including NPreg mixture regressions, Nclus Gaussian clusters, beta-blocker clinical trials, biochemist publication counts, fabric faults, patent citations, seizures, and other mixture-model data",
+    "datasetUrl": "https://CRAN.R-project.org/package=flexmix",
+    "paperUrl": "https://doi.org/10.18637/jss.v011.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "mixture data",
+      "cluster data"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mixture models",
+      "clustering"
+    ],
+    "bestFor": "Building finite mixtures of regressions, generalized linear models, and model-based clusters with extensible EM driver functions.",
+    "note": "Verified from the official JSS article and current CRAN manual. The paper directly uses NPreg and Nclus, while the maintained package exposes a broader documented data collection. Two official labels fit, so the record remains flagged for label review."
+  },
+  {
+    "id": "jss-depmixs4-hidden-markov-models",
+    "title": "depmixS4: An R Package for Hidden Markov Models",
+    "authors": "Ingmar Visser, Maarten Speekenbrink",
+    "year": 2010,
+    "citations": 421,
+    "dataset": "depmixS4 package data including response-time and accuracy sequences, S&P 500 returns, and child balance-scale responses, with JSS code for hidden Markov and dependent mixture models",
+    "datasetUrl": "https://CRAN.R-project.org/package=depmixS4",
+    "paperUrl": "https://doi.org/10.18637/jss.v036.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "time series",
+      "categorical data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "time-series",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "mixture models",
+      "clustering",
+      "time series analysis"
+    ],
+    "bestFor": "Fitting hidden Markov, latent Markov, latent class, and finite mixture models to mixed multivariate sequences with flexible response distributions.",
+    "note": "Verified from the official JSS page and current CRAN manual, which documents the speed, sp500, and balance datasets and supplies executable examples and article code."
+  },
+  {
+    "id": "jss-copula-multivariate-dependence",
+    "title": "Enjoy the Joy of Copulas: With a Package copula",
+    "authors": "Jun Yan",
+    "year": 2007,
+    "citations": 319,
+    "dataset": "copula package dependence datasets including daily crude-oil and natural-gas prices, insurance losses, uranium exploration measurements, and financial-return examples, with JSS R code",
+    "datasetUrl": "https://CRAN.R-project.org/package=copula",
+    "paperUrl": "https://doi.org/10.18637/jss.v021.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "multivariate data",
+      "financial time series",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "time-series",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [],
+    "bestFor": "Modeling multivariate dependence with elliptical and Archimedean copulas, fitting copula models, and studying tail or cross-market dependence.",
+    "note": "Verified from the official JSS page and current CRAN manual, which documents gasoil, loss, uranium, and other bundled examples. No current official label captures copula dependence cleanly, so the record is intentionally left for label review rather than assigned a misleading topic."
+  },
+  {
+    "id": "jss-systemfit-simultaneous-equations",
+    "title": "systemfit: A Package for Estimating Systems of Simultaneous Equations in R",
+    "authors": "Arne Henningsen, Jeff D. Hamann",
+    "year": 2007,
+    "citations": 207,
+    "dataset": "systemfit package econometric data including Kmenta supply-demand equations, Klein Model I, and GrunfeldGreene firm-investment panels, with JSS example scripts",
+    "datasetUrl": "https://CRAN.R-project.org/package=systemfit",
+    "paperUrl": "https://doi.org/10.18637/jss.v023.i04",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "panel data",
+      "econometric data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "panel-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "instrumental variables",
+      "panel data methods",
+      "longitudinal data analysis",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Comparing OLS, SUR, 2SLS, 3SLS, and iterated estimators for structurally related equations and firm panels.",
+    "note": "Verified from the official JSS page, article examples, and current CRAN manual. The package documents Kmenta, KleinI, and GrunfeldGreene and traces the latter to published econometric tables."
+  },
+  {
+    "id": "jss-panelview-panel-visualization",
+    "title": "Panel Data Visualization in R (panelView) and Stata (panelview)",
+    "authors": "Hongyu Mou, Licheng Liu, Yiqing Xu",
+    "year": 2023,
+    "citations": 9,
+    "dataset": "panelView capacity, turnout, and simulated panel datasets, including 7,186 country-year observations for democracy and state capacity, with R and Stata replication code",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v107i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v107.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "stata",
+      "panel data",
+      "country-year data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "replication-materials",
+      "software",
+      "code",
+      "worked-examples",
+      "panel-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "causal inference"
+    ],
+    "bestFor": "Auditing panel treatment timing, missingness, outcome dynamics, and unit-level or aggregate treatment-outcome relationships before causal analysis.",
+    "note": "Verified from the official JSS article and its R and Stata replication files. The paper explicitly documents the capacity, turnout, and simdata datasets and their panel variables."
+  },
+  {
+    "id": "jss-melt-empirical-likelihood-tests",
+    "title": "melt: Multiple Empirical Likelihood Tests in R",
+    "authors": "Eunseop Kim, Steven N. MacEachern, Mario Peruggia",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "melt thiamethoxam field-experiment data on squash varieties, pesticide applications, bee visits, crop yield, residues, and pest damage, plus MASS synth.tr and JSS replication code",
+    "datasetUrl": "https://CRAN.R-project.org/package=melt",
+    "paperUrl": "https://doi.org/10.18637/jss.v108.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "field experiment",
+      "count data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "replication-materials",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multiple testing"
+    ],
+    "bestFor": "Applying empirical likelihood to linear and generalized linear models, simultaneous hypotheses, confidence regions, and multiplicity-adjusted inference.",
+    "note": "Verified from the official JSS article, replication code, and package documentation. The case study loads the internal thiamethoxam data with 165 observations and 11 variables. Empirical likelihood lacks a dedicated official label, so the record remains flagged for review."
+  },
+  {
+    "id": "jss-gmm-generalized-empirical-likelihood",
+    "title": "Computing Generalized Method of Moments and Generalized Empirical Likelihood with R",
+    "authors": "Pierre Chausse",
+    "year": 2010,
+    "citations": 124,
+    "dataset": "gmm package and JSS R examples for generalized method of moments and generalized empirical likelihood estimation in economics and finance",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v034i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v034.i11",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "econometric examples",
+      "financial examples",
+      "replication code"
+    ],
+    "properties": [
+      "replication-materials",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [],
+    "bestFor": "Estimating moment-condition models with one- and two-step GMM, continuously updated estimators, and generalized empirical likelihood in econometric applications.",
+    "note": "Verified from the official JSS page, which supplies the gmm package and article R code. Two current official labels cover major econometric uses, but generalized empirical likelihood itself lacks a dedicated label, so the record remains flagged for review."
+  },
+  {
+    "id": "statmodelling-gamlss-distributional-regression",
+    "title": "GAMLSS: A Distributional Regression Approach",
+    "authors": "Mikis D. Stasinopoulos, Robert A. Rigby, Fernanda De Bastiani",
+    "year": 2018,
+    "citations": 145,
+    "dataset": "Dutch boys growth data with head circumference, height, and age, plus AER NMES1988 medical-expenditure survey data on physician visits and health covariates",
+    "datasetUrl": "https://gamlss-dev.r-universe.dev/datasets",
+    "paperUrl": "https://repository.londonmet.ac.uk/4821/",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "growth data",
+      "survey data",
+      "count data"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "worked-examples",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "distributional regression"
+    ],
+    "bestFor": "Teaching distributional regression for centile surfaces, heteroskedastic and skewed outcomes, overdispersed counts, and zero-inflated medical utilization.",
+    "note": "Verified from the author-institution repository copy, the publisher page (DOI 10.1177/1471082X18759144), the gamlss data registry, and the documented AER NMES1988 source. Only distributional regression fits cleanly in the current label system, so the record remains flagged for review."
   }
 ]
