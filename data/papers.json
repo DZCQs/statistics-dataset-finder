@@ -51767,7 +51767,8 @@
       "quasi-experimental designs",
       "treatment effect estimation",
       "regression discontinuity designs",
-      "robust statistics"
+      "robust statistics",
+      "power analysis"
     ],
     "bestFor": "Regression discontinuity designs, quasi-experimental designs, causal inference, treatment effect estimation, experimental design, power calculations, sample size planning, minimum detectable effects, robust estimation, and senate-data RD examples.",
     "note": "Verified from the SAGE article page, CRAN documentation, PyPI metadata, and the rdpackages/rdpower repository, which list implementations, illustration files, replication scripts, and senate data."
@@ -57682,7 +57683,8 @@
     "topics": [
       "bayesian inference",
       "randomized experiments",
-      "causal inference"
+      "causal inference",
+      "power analysis"
     ],
     "bestFor": "Designing Bayesian generalized-linear-model studies that borrow historical controls through fixed or normalized power priors.",
     "note": "Verified on the official R Journal and CRAN pages, which provide source, vignette code, simulations, and two case studies."
@@ -57713,7 +57715,8 @@
     "topics": [
       "survival analysis",
       "survival models",
-      "risk prediction"
+      "risk prediction",
+      "statistical process control"
     ],
     "bestFor": "Benchmarking risk-adjusted CUSUM and funnel-chart monitoring on clustered right-censored survival outcomes.",
     "note": "Verified on the official R Journal page, which documents the enclosed surgerydat records, censoring fields, covariates, and generation model."
@@ -63008,7 +63011,8 @@
       "causal inference",
       "randomized experiments",
       "optimal experimental design",
-      "multiple testing"
+      "multiple testing",
+      "power analysis"
     ],
     "bestFor": "Designing and evaluating multi-arm multi-stage trials with interim selection, multiplicity control, conditional-error updates, and several endpoint types.",
     "note": "Verified from the official JSS page, which supplies the MAMS package and replication code. The article's worked examples are based on real trial designs and include familywise type-I-error control."
@@ -63099,7 +63103,8 @@
     "topics": [
       "causal inference",
       "randomized experiments",
-      "optimal experimental design"
+      "optimal experimental design",
+      "power analysis"
     ],
     "bestFor": "Comparing covariate-adaptive allocation rules, imbalance, valid treatment tests, power, and sequential implementation in randomized trials.",
     "note": "Verified from the official JSS page, which provides the carat package and replication materials. The package supports complete, generated, or sequentially accrued covariate data."
@@ -63131,7 +63136,8 @@
       "causal inference",
       "randomized experiments",
       "optimal experimental design",
-      "bayesian inference"
+      "bayesian inference",
+      "power analysis"
     ],
     "bestFor": "Evaluating Bayesian interim stopping rules, prior information, success and futility probabilities, and expected sample size in sequential trials.",
     "note": "Verified from the official JSS page, which supplies the gsbDesign package and replication code. The paper includes a fully worked Bayesian group-sequential case study."
@@ -65379,7 +65385,8 @@
     "topics": [
       "optimal experimental design",
       "multilevel modeling",
-      "survival analysis"
+      "survival analysis",
+      "power analysis"
     ],
     "bestFor": "Generating optimal blocked, split-plot, mixture, and augmented designs and evaluating power for normal, nonnormal, random-effects, censored, and survival outcomes.",
     "note": "Verified on the official JSS and CRAN pages, which directly link the skpr package and paper replication code and document optimal-design generation plus analytic and Monte Carlo power workflows."
@@ -69416,5 +69423,267 @@
     ],
     "bestFor": "Teaching distributional regression for centile surfaces, heteroskedastic and skewed outcomes, overdispersed counts, and zero-inflated medical utilization.",
     "note": "Verified from the author-institution repository copy, the publisher page (DOI 10.1177/1471082X18759144), the gamlss data registry, and the documented AER NMES1988 source. Only distributional regression fits cleanly in the current label system, so the record remains flagged for review."
+  },
+  {
+    "id": "methods-ecology-simr-power-analysis",
+    "title": "SIMR: An R Package for Power Analysis of Generalized Linear Mixed Models by Simulation",
+    "authors": "Peter Green, Catriona J. MacLeod",
+    "year": 2016,
+    "citations": 2466,
+    "dataset": "simr package randomly generated count data, data-generation code, power-analysis-from-scratch material, test-example vignettes, and Monte Carlo workflows for linear and generalized linear mixed models",
+    "datasetUrl": "https://CRAN.R-project.org/package=simr",
+    "paperUrl": "https://doi.org/10.1111/2041-210X.12504",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "simulation code",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "simulated-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "power analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Simulation-based power curves, sample-size trade-offs, and prospective design sensitivity for LMMs and GLMMs fitted with lme4.",
+    "note": "Verified from the publisher data-accessibility statement and current CRAN package. The paper states that its randomly generated example data and generation code are included in simr, and its supplementary vignettes remain accessible through the package."
+  },
+  {
+    "id": "rj-longpower-longitudinal-power",
+    "title": "Power and Sample Size for Longitudinal Models in R: The longpower Package and Shiny App",
+    "authors": "Samuel Iddi, Michael C. Donohue",
+    "year": 2022,
+    "citations": 47,
+    "dataset": "longpower package, article code, longitudinal trial design examples, mixed-model pilot-parameter workflows, and a Shiny application that can derive pilot estimates from Alzheimer's Disease Neuroimaging Initiative data",
+    "datasetUrl": "https://CRAN.R-project.org/package=longpower",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-022",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "longitudinal data",
+      "worked examples"
+    ],
+    "properties": [
+      "external-data",
+      "software",
+      "code",
+      "worked-examples",
+      "longitudinal-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "power analysis",
+      "longitudinal data analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Planning longitudinal two-group studies with repeated continuous outcomes, mixed-effects pilot models, alternative covariance structures, and attrition-aware sample-size calculations.",
+    "note": "Verified from the official R Journal article and current CRAN documentation. The article links the package and Shiny app, provides executable examples, and documents optional ADNI-based pilot estimation."
+  },
+  {
+    "id": "amps-superpower-factorial-power",
+    "title": "Simulation-Based Power Analysis for Factorial Analysis of Variance Designs",
+    "authors": "Daniel Lakens, Aaron R. Caldwell",
+    "year": 2021,
+    "citations": 602,
+    "dataset": "OSF reproduction materials, Superpower R package, factorial-design simulation code, Shiny applications, and examples for between-subject, within-subject, and mixed ANOVA designs",
+    "datasetUrl": "https://osf.io/pn8mc/",
+    "paperUrl": "https://doi.org/10.1177/2515245920951503",
+    "access": "open",
+    "formats": [
+      "r",
+      "OSF materials",
+      "simulation code",
+      "factorial designs"
+    ],
+    "properties": [
+      "replication-materials",
+      "software",
+      "code",
+      "simulated-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "power analysis",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "Prospective simulation-based power analysis for factorial ANOVA, planned contrasts, multiple-comparison adjustments, repeated measures, and mixed experimental designs.",
+    "note": "Verified from the journal's open-practices statement, which directly links the OSF reproduction materials, CRAN package, GitHub repository, manual, and Shiny applications."
+  },
+  {
+    "id": "jss-nparcomp-nonparametric-comparisons",
+    "title": "nparcomp: An R Software Package for Nonparametric Multiple Comparisons and Simultaneous Confidence Intervals",
+    "authors": "Frank Konietschke, Marius Placzek, Frank Schaarschmidt, Ludwig A. Hothorn",
+    "year": 2015,
+    "citations": 317,
+    "dataset": "nparcomp package datasets for appetite, liver enzymes, panic disorder, reaction times, plant growth, implantation, and biomedical one-way layouts, plus JSS R example code",
+    "datasetUrl": "https://CRAN.R-project.org/package=nparcomp",
+    "paperUrl": "https://doi.org/10.18637/jss.v064.i09",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "biomedical data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "robust statistics"
+    ],
+    "bestFor": "Rank-based multiple comparisons, simultaneous confidence intervals, nonparametric Behrens-Fisher problems, unbalanced one-way layouts, and inference with outliers or distributional uncertainty.",
+    "note": "Verified from the official JSS page, which provides the paper, package, and article R code, and from the package data catalog documenting seven bundled datasets."
+  },
+  {
+    "id": "rnews-qcc-process-control",
+    "title": "qcc: An R Package for Quality Control Charting and Statistical Process Control",
+    "authors": "Luca Scrucca",
+    "year": 2004,
+    "citations": 167,
+    "dataset": "qcc package boiler, circuit-board, dyed-cloth, orange-juice, piston-ring, and process-capability datasets with article examples for Shewhart, CUSUM, EWMA, operating-characteristic, and capability analyses",
+    "datasetUrl": "https://CRAN.R-project.org/package=qcc",
+    "paperUrl": "https://journal.r-project.org/articles/RN-2004-003/",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "process measurements",
+      "control charts"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "time-ordered-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control"
+    ],
+    "bestFor": "Teaching and comparing classical Shewhart, CUSUM, and EWMA charts, process capability indices, operating-characteristic curves, and attribute or count monitoring.",
+    "note": "Verified from the official R News article, maintained package site, and CRAN manual, which documents the package's reusable process-control datasets and vignette."
+  },
+  {
+    "id": "rj-qcr-statistical-quality-control",
+    "title": "Statistical Quality Control with the qcr Package",
+    "authors": "Miguel Flores, Ruben Fernandez-Casal, Salvador Naya, Javier Tarrio-Saavedra",
+    "year": 2021,
+    "citations": 13,
+    "dataset": "qcr package datasets including water-counter performance, hotel occupancy, olive-oil oxidation, archery coordinates, circuit-board defects, piston-ring dimensions, and orange-juice process measurements",
+    "datasetUrl": "https://CRAN.R-project.org/package=qcr",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-034",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "industrial process data",
+      "multivariate data"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "multivariate-data",
+      "time-ordered-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "robust statistics"
+    ],
+    "bestFor": "Univariate and multivariate control charts, nonparametric data-depth monitoring, process capability analysis, and comparisons of Gaussian and distribution-robust quality-control procedures.",
+    "note": "Verified from the official R Journal article and CRAN package. The article explicitly inventories new professional case-study datasets and datasets reused from qcc and MSQC."
+  },
+  {
+    "id": "rj-spcadjust-control-charts",
+    "title": "spcadjust: An R Package for Adjusting for Estimation Error in Control Charts",
+    "authors": "Axel Gandy, Jan Terje Kvaloy",
+    "year": 2017,
+    "citations": 6,
+    "dataset": "spcadjust cardiacsurgery data with risk-adjusted cardiac-surgery outcomes, article examples, and bootstrap calibration workflows for Shewhart, CUSUM, EWMA, linear-regression, and logistic-regression charts",
+    "datasetUrl": "https://CRAN.R-project.org/package=spcadjust",
+    "paperUrl": "https://doi.org/10.32614/RJ-2017-014",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "clinical outcomes",
+      "bootstrap code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "time-ordered-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "resampling methods"
+    ],
+    "bestFor": "Bootstrap adjustment of control-chart thresholds when in-control parameters are estimated, including risk-adjusted monitoring with linear and logistic regression models.",
+    "note": "Verified from the official R Journal article and current package manual. The article uses a cardiac-surgery dataset, and the package distributes a privacy-protected random subset with added noise as cardiacsurgery."
+  },
+  {
+    "id": "rj-passed-power-sample-size",
+    "title": "PASSED: Calculate Power and Sample Size for Two Sample Tests",
+    "authors": "Jinpu Li, Ryan P. Knigge, Kaiyi Chen, Emily V. Leary",
+    "year": 2021,
+    "citations": 5,
+    "dataset": "PASSED package vignette, R code, simulated examples, pressure-ulcer planning example based on Skilled Nursing Facility Quality Reporting Program data, and rainfall-summary examples for seven outcome distributions",
+    "datasetUrl": "https://CRAN.R-project.org/package=PASSED",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-094",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "simulation code",
+      "worked examples"
+    ],
+    "properties": [
+      "external-data",
+      "software",
+      "code",
+      "simulated-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "power analysis"
+    ],
+    "bestFor": "Power and sample-size calculations for two-sample means, proportions, or rate ratios under binomial, negative-binomial, geometric, Poisson, normal, beta, and gamma outcomes.",
+    "note": "Verified from the official R Journal article and current CRAN package, which provide a vignette, source code, executable examples, and explicit links to the public data sources motivating the worked designs."
   }
 ]

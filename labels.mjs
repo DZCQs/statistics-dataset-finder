@@ -237,6 +237,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["optimal experimental design", "d-optimal", "bayesian experimental design", "sequential experimental design", "adaptive experimental design", "optimal design", "information per measurement", "design points"]
   },
   {
+    name: "power analysis",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, simulations, package examples, and replication resources useful for statistical power analysis, sample-size determination, minimum detectable effects, or prospective study-design sensitivity calculations.",
+    includeWhen: [
+      "power, sample size, minimum detectable effects, or operating characteristics are a central methodological purpose of the paper or resource",
+      "the accessible data, code, package, or simulation workflow supports prospective design calculations or power evaluation"
+    ],
+    avoidWhen: [
+      "power is reported only as a secondary descriptive statistic or post hoc check",
+      "computational power, electrical power, or political power is meant rather than statistical power"
+    ],
+    evidenceTerms: ["power analysis", "statistical power", "sample size determination", "sample size calculation", "sample size planning", "minimum detectable effect", "minimum detectable effects", "power calculation", "power calculations", "power curve", "power curves", "simr", "superpower", "longpower"]
+  },
+  {
     name: "resampling methods",
     level: "mid",
     parents: [],
@@ -249,6 +264,21 @@ export const LABEL_REGISTRY = [
       "bootstrap or permutation is only a minor robustness detail rather than a meaningful reason to use the dataset"
     ],
     evidenceTerms: ["bootstrap", "resampling", "permutation test", "permutation", "jackknife", "bootstrap confidence interval", "bootstrap confidence region"]
+  },
+  {
+    name: "statistical process control",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, package examples, and replication resources useful for statistical process control, process monitoring, control charts, process capability analysis, or detecting departures from an in-control process.",
+    includeWhen: [
+      "control charts, statistical process monitoring, process capability, or in-control versus out-of-control behavior are central",
+      "the accessible resource provides ordered process measurements, monitoring simulations, package data, or code for evaluating process-control procedures"
+    ],
+    avoidWhen: [
+      "quality control refers only to data cleaning, assay filtering, or administrative review without statistical process-monitoring methodology",
+      "change detection is discussed without a process-control or monitoring interpretation"
+    ],
+    evidenceTerms: ["statistical process control", "statistical quality control", "process monitoring", "control chart", "control charts", "shewhart", "cusum chart", "cusum charts", "ewma chart", "ewma charts", "process capability", "in-control process", "out-of-control process", "qcc package", "qcr package", "spcadjust"]
   },
   {
     name: "meta-analysis",

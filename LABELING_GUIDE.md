@@ -57,6 +57,7 @@ Good label level:
 - `causal mediation analysis`
 - `randomized experiments`
 - `optimal experimental design`
+- `power analysis`
 - `multiple imputation`
 - `nonignorable missing data`
 - `nonresponse adjustment`
@@ -96,6 +97,7 @@ Good label level:
 - `quantile regression`
 - `extreme value analysis`
 - `robust statistics`
+- `statistical process control`
 - `conformal prediction`
 - `mixture models`
 - `clustering`
@@ -175,9 +177,11 @@ Mid-level topic families without a current high-level parent:
   - `diagnostic meta-analysis`
   - `publication bias`
 - `optimal experimental design`
+- `power analysis`
 - `quantile regression`
 - `extreme value analysis`
 - `robust statistics`
+- `statistical process control`
 - `conformal prediction`
 - `mixture models`
 
