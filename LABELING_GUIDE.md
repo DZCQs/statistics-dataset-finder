@@ -98,6 +98,8 @@ Good label level:
 - `extreme value analysis`
 - `robust statistics`
 - `statistical process control`
+- `density estimation`
+- `record linkage`
 - `conformal prediction`
 - `mixture models`
 - `clustering`
@@ -182,6 +184,8 @@ Mid-level topic families without a current high-level parent:
 - `extreme value analysis`
 - `robust statistics`
 - `statistical process control`
+- `density estimation`
+- `record linkage`
 - `conformal prediction`
 - `mixture models`
 

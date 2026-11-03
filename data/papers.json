@@ -49630,7 +49630,8 @@
       "resampling methods",
       "dimension reduction",
       "high-dimensional statistics",
-      "clustering"
+      "clustering",
+      "density estimation"
     ],
     "bestFor": "Mixture models, Gaussian finite mixture models, model-based clustering, classification, density estimation, EM algorithm fitting, BIC model selection, dimension reduction, bootstrap inference, and acidity, banknote, faithful, and iris examples.",
     "note": "Verified from the R Journal article, CRAN package page, package reference, and R documentation; the package exposes vignettes, documentation, source code, and included/example datasets."
@@ -51700,7 +51701,8 @@
       "quasi-experimental designs",
       "treatment effect estimation",
       "regression discontinuity designs",
-      "robust statistics"
+      "robust statistics",
+      "density estimation"
     ],
     "bestFor": "Regression discontinuity designs, quasi-experimental designs, causal inference, treatment effect estimation, manipulation testing, density discontinuity checks, local polynomial density estimation, robust estimation, bandwidth selection, and senate-data RD falsification examples.",
     "note": "Verified from the Stata Journal article page, CRAN documentation, and the rdpackages/rddensity repository, which expose replication scripts, illustration files, and senate data."
@@ -51732,10 +51734,11 @@
       "needs-label-review"
     ],
     "topics": [
-      "robust statistics"
+      "robust statistics",
+      "density estimation"
     ],
     "bestFor": "Robust estimation, nonparametric density estimation, local polynomial inference, boundary correction, bandwidth selection, Monte Carlo comparison, confidence bands, and reusable package examples for density and distribution-function estimation.",
-    "note": "Verified from the JSS article page, Princeton publication metadata, and the nppackages/lpdensity repository, which provide the paper, package materials, replication resources, and examples. Included with label review because density estimation is not yet an official public label."
+    "note": "Verified from the JSS article page, Princeton publication metadata, and the nppackages/lpdensity repository, which provide the paper, package materials, replication resources, and examples. Two official labels fit, so the record remains flagged for label review."
   },
   {
     "id": "statajournal-rdpower-rd-power-sample-size",
@@ -52758,7 +52761,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "measurement error models"
+      "measurement error models",
+      "density estimation"
     ],
     "bestFor": "Measurement error models, errors-in-variables, nonparametric deconvolution, contaminated data, density and distribution-function estimation, nonparametric regression with measurement error, simulation examples, and real data examples.",
     "note": "Verified from the JSS article page, which lists the paper, decon R package, and R example code from the paper. The article abstract describes simulated and real examples for measurement-error deconvolution methods."
@@ -55448,7 +55452,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "robust statistics"
+      "robust statistics",
+      "density estimation"
     ],
     "bestFor": "Nonparametric kernel density and local-polynomial estimation with robust bias-corrected inference, coverage-error-optimal bandwidths, and boundary evaluation.",
     "note": "Verified on the official JSS page, which provides two R replication files, supplementary CSV data, the package, and Stata source code."
@@ -61327,7 +61332,8 @@
     ],
     "topics": [
       "extreme value analysis",
-      "mixture models"
+      "mixture models",
+      "density estimation"
     ],
     "bestFor": "Comparing parametric and semiparametric bulk-and-tail mixtures, estimating extreme-value thresholds, and propagating threshold uncertainty into tail inference.",
     "note": "Verified from the JSS article, its linked R replication code, and the official evmix documentation, which provides executable extreme-value mixture, GPD-tail, density-estimation, and diagnostic examples."
@@ -62126,7 +62132,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "measurement error models"
+      "measurement error models",
+      "density estimation"
     ],
     "bestFor": "Comparing constrained quadratic-programming and kernel estimators for recovering latent densities from noisy observations.",
     "note": "Verified from the JCGS article and its Figshare supplement. The archive includes the QPdecon package, R code, a vignette, simulation materials, and the sodium dataset used in the empirical illustration."
@@ -66568,10 +66575,11 @@
       "needs-label-review"
     ],
     "topics": [
-      "clustering"
+      "clustering",
+      "density estimation"
     ],
     "bestFor": "Studying nonparametric density-based clustering from bandwidth selection and density estimation through cluster-tree construction and diagnostics.",
-    "note": "Verified from the official JSS article page, which links the pdfCluster package and paper code and states that the complete workflow is illustrated with two datasets. Only one official label fits cleanly, so the record is marked for label review."
+    "note": "Verified from the official JSS article page, which links the pdfCluster package and paper code and states that the complete workflow is illustrated with two datasets. Two official labels fit, so the record remains marked for label review."
   },
   {
     "id": "jss-lavaan-structural-equation-modeling",
@@ -69685,5 +69693,268 @@
     ],
     "bestFor": "Power and sample-size calculations for two-sample means, proportions, or rate ratios under binomial, negative-binomial, geometric, Poisson, normal, beta, and gamma outcomes.",
     "note": "Verified from the official R Journal article and current CRAN package, which provide a vignette, source code, executable examples, and explicit links to the public data sources motivating the worked designs."
+  },
+  {
+    "id": "jss-np-nonparametric-econometrics",
+    "title": "Nonparametric Econometrics: The np Package",
+    "authors": "Tristen Hayfield, Jeffrey S. Racine",
+    "year": 2008,
+    "citations": 825,
+    "dataset": "np package data and JSS examples for unconditional and conditional density estimation, nonparametric regression, quantile regression, mixed continuous and categorical covariates, and data-driven bandwidth selection",
+    "datasetUrl": "https://CRAN.R-project.org/package=np",
+    "paperUrl": "https://doi.org/10.18637/jss.v027.i05",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "econometric data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation",
+      "quantile regression",
+      "resampling methods"
+    ],
+    "bestFor": "Studying kernel density, distribution, regression, and quantile estimators for mixed data types with cross-validated bandwidths and bootstrap inference.",
+    "note": "Verified from the official JSS article, which provides the np package and article code, and from current package documentation with reusable data such as cps71 and worked density, regression, and quantile examples."
+  },
+  {
+    "id": "jss-ks-multivariate-kernel-density",
+    "title": "ks: Kernel Density Estimation and Kernel Discriminant Analysis for Multivariate Data in R",
+    "authors": "Tarn Duong",
+    "year": 2007,
+    "citations": 600,
+    "dataset": "ks package datasets including underground-station air measurements, fetal cardiotocograms, and Grevillea plant locations, with JSS R code for multivariate density estimation and kernel discriminant analysis",
+    "datasetUrl": "https://CRAN.R-project.org/package=ks",
+    "paperUrl": "https://doi.org/10.18637/jss.v021.i07",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "multivariate data",
+      "spatial point data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "multivariate-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "density estimation"
+    ],
+    "bestFor": "Comparing multivariate kernel density estimators, bandwidth-matrix selectors, density derivatives, contours, and kernel discriminant procedures.",
+    "note": "Verified from the official JSS page, which provides the package and article R code, and from the package index documenting reusable air, cardio, and grevillea datasets. Density estimation is the only current official label that fits cleanly, so the record remains flagged for label review."
+  },
+  {
+    "id": "jss-kerdiest-kernel-distribution",
+    "title": "Nonparametric Kernel Distribution Function Estimation with kerdiest: An R Package for Bandwidth Choice and Applications",
+    "authors": "Alejandro Quintela-del-Rio, Graciela Estevez-Perez",
+    "year": 2012,
+    "citations": 39,
+    "dataset": "kerdiest package earthquake catalogue for northwestern Iberia and United States river maximum peak-flow data, with JSS example code for distribution, hazard, and mean residual life estimation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v050i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v050.i08",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "earthquake catalogue",
+      "river peak-flow data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "density estimation",
+      "extreme value analysis"
+    ],
+    "bestFor": "Evaluating kernel distribution-function estimators, bandwidth selectors, hazard functions, and tail-related summaries on environmental event data.",
+    "note": "Verified from the official JSS page, which explicitly states that the package includes an earthquake catalogue and river maximum peak-flow dataset and provides the paper, package, and article code. Two official labels fit, so the record remains flagged for label review."
+  },
+  {
+    "id": "jss-fksum-fast-kernel-smoothing",
+    "title": "Fast Kernel Smoothing in R with Applications to Projection Pursuit",
+    "authors": "David P. Hofmeyr",
+    "year": 2022,
+    "citations": 2,
+    "dataset": "FKSUM JSS replication code, simulated Gaussian-mixture and regression examples, optical handwritten-digit data, and ISLR Hitters baseball-salary data for kernel smoothing and projection pursuit",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v101i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v101.i03",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "simulated data",
+      "image features",
+      "regression data"
+    ],
+    "properties": [
+      "replication-materials",
+      "software",
+      "code",
+      "simulated-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation",
+      "dimension reduction",
+      "clustering",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Benchmarking exact and binned kernel sums, fast univariate density estimation, independent component analysis, minimum-density clustering, and projection pursuit regression.",
+    "note": "Verified from the official JSS page and article, which provide FKSUM and R replication code and document simulated examples plus optical-digit and baseball-salary applications."
+  },
+  {
+    "id": "rj-recordlinkage-detecting-errors",
+    "title": "The RecordLinkage Package: Detecting Errors in Data",
+    "authors": "Murat Sariyar, Andreas Borg",
+    "year": 2010,
+    "citations": 97,
+    "dataset": "RecordLinkage package RLdata500 and RLdata10000 synthetic personal-record datasets with known duplicate identities and randomly introduced errors",
+    "datasetUrl": "https://CRAN.R-project.org/package=RecordLinkage",
+    "paperUrl": "https://doi.org/10.32614/RJ-2010-017",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "synthetic personal records",
+      "known match status"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "simulated-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "record linkage"
+    ],
+    "bestFor": "Teaching and benchmarking probabilistic record linkage, supervised classification, duplicate detection, blocking, and error-sensitive match evaluation.",
+    "note": "Verified from the official R Journal article and maintained CRAN package. The package distributes RLdata500 and RLdata10000 with true identity keys, making linkage accuracy directly assessable. Record linkage is the only current official label that fits cleanly."
+  },
+  {
+    "id": "rj-reclin2-record-linkage",
+    "title": "reclin2: a Toolkit for Record Linkage and Deduplication",
+    "authors": "D. Jan van der Laan",
+    "year": 2022,
+    "citations": 5,
+    "dataset": "reclin2 article supplement and benchmark repository with PDR and CIS data-integration records, sampled linkage tasks, timing results, memory measurements, and complete comparison code",
+    "datasetUrl": "https://github.com/djvanderlaan/reclin2-benchmark",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-038",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "administrative records",
+      "benchmark results"
+    ],
+    "properties": [
+      "replication-materials",
+      "software",
+      "code",
+      "benchmark",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "record linkage"
+    ],
+    "bestFor": "Building modular record-linkage pipelines, comparing Fellegi-Sunter implementations, and measuring speed and memory use as candidate-pair counts grow.",
+    "note": "Verified from the official R Journal article, its downloadable supplement, and the linked benchmark repository containing complete code and results for the PDR-CIS linkage comparison. Record linkage is the only current official label that fits cleanly."
+  },
+  {
+    "id": "rj-blocking-record-linkage",
+    "title": "blocking: An R Package for Blocking of Records for Record Linkage and Deduplication",
+    "authors": "Maciej Beresewicz, Adam Struzik",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "blocking package foreigners data with 110,000 fictional administrative records, 100,000 entities, 10,000 known duplicates, and true identifiers, plus an RLdata500 deduplication case study",
+    "datasetUrl": "https://CRAN.R-project.org/package=blocking",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-029",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "synthetic administrative records",
+      "known match status"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "simulated-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "record linkage"
+    ],
+    "bestFor": "Comparing exact, phonetic, token, nearest-neighbor, and embedding-based blocking strategies before probabilistic linkage or deduplication.",
+    "note": "Verified from the 2026 R Journal article and CRAN package. The article documents the bundled foreigners data with explicit duplicate truth and also demonstrates deduplication on RLdata500. Record linkage is the only current official label that fits cleanly."
+  },
+  {
+    "id": "apsr-fastlink-administrative-records",
+    "title": "Using a Probabilistic Model to Assist Merging of Large-Scale Administrative Records",
+    "authors": "Ted Enamorado, Benjamin Fifield, Kosuke Imai",
+    "year": 2019,
+    "citations": 228,
+    "dataset": "Harvard Dataverse replication archive for fastLink simulations and applications merging campaign-contribution records, survey data, and nationwide voter files",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YGUHTD",
+    "paperUrl": "https://doi.org/10.1017/S0003055418000783",
+    "access": "open",
+    "formats": [
+      "r",
+      "Harvard Dataverse",
+      "simulation code",
+      "administrative records",
+      "survey data"
+    ],
+    "properties": [
+      "replication-materials",
+      "software",
+      "code",
+      "simulated-data",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "record linkage",
+      "missing data",
+      "survey methodology"
+    ],
+    "bestFor": "Evaluating scalable Fellegi-Sunter linkage with missing and inaccurate fields, auxiliary information, known simulation truth, and uncertainty-aware post-linkage analysis.",
+    "note": "Verified from the publisher page and author research page, both of which directly link the Harvard Dataverse replication archive and the open-source fastLink package."
   }
 ]

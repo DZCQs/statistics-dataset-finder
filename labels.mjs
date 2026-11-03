@@ -281,6 +281,36 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["statistical process control", "statistical quality control", "process monitoring", "control chart", "control charts", "shewhart", "cusum chart", "cusum charts", "ewma chart", "ewma charts", "process capability", "in-control process", "out-of-control process", "qcc package", "qcr package", "spcadjust"]
   },
   {
+    name: "density estimation",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, package examples, simulations, and replication resources useful for estimating probability density or distribution functions, selecting smoothing parameters, or evaluating nonparametric and semiparametric density estimators.",
+    includeWhen: [
+      "density estimation, distribution-function estimation, kernel density estimation, deconvolution density estimation, or density-derivative estimation is central to the paper or resource",
+      "the accessible data, simulation code, package examples, or replication materials support bandwidth selection, density inference, or comparison of density estimators"
+    ],
+    avoidWhen: [
+      "density is only an application-domain measurement such as population, traffic, material, or snow density",
+      "a density appears only as an incidental model component and is not a meaningful reason to use the dataset"
+    ],
+    evidenceTerms: ["density estimation", "density estimator", "density estimators", "kernel density", "density function estimation", "distribution function estimation", "bandwidth selection", "density derivative", "deconvolution density", "conditional density estimation", "local polynomial density", "kde"]
+  },
+  {
+    name: "record linkage",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, synthetic record pairs, package examples, and replication resources useful for probabilistic or deterministic record linkage, entity resolution, deduplication, blocking, and linkage-error evaluation.",
+    includeWhen: [
+      "record linkage, entity resolution, deduplication, linkage blocking, or probabilistic matching is central to the method or resource",
+      "the accessible resource provides linked or duplicate records, known match status, simulations, administrative-data examples, package data, or replication code for evaluating linkage procedures"
+    ],
+    avoidWhen: [
+      "linkage refers only to genetic linkage, web links, or ordinary database joins with reliable unique identifiers",
+      "data integration is mentioned without uncertain identity matching or duplicate detection"
+    ],
+    evidenceTerms: ["record linkage", "probabilistic record linkage", "deterministic record linkage", "entity resolution", "deduplication", "duplicate detection", "fellegi-sunter", "fellegi sunter", "linkage blocking", "record matching", "fastlink", "recordlinkage", "reclin2"]
+  },
+  {
     name: "meta-analysis",
     level: "mid",
     parents: [],
