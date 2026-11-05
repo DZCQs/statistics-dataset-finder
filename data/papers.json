@@ -55895,7 +55895,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "mixture models"
+      "mixture models",
+      "directional statistics"
     ],
     "bestFor": "Fitting and sampling mixtures of Watson distributions for directional data, with simulation, earthquake, and depth-image clustering examples.",
     "note": "Verified on the official JSS page, which links the package and replication materials for all three example families."
@@ -69956,5 +69957,274 @@
     ],
     "bestFor": "Evaluating scalable Fellegi-Sunter linkage with missing and inaccurate fields, auxiliary information, known simulation truth, and uncertainty-aware post-linkage analysis.",
     "note": "Verified from the publisher page and author research page, both of which directly link the Harvard Dataverse replication archive and the open-source fastLink package."
+  },
+  {
+    "id": "jss-movmf-von-mises-fisher-mixtures",
+    "title": "movMF: An R Package for Fitting Mixtures of von Mises-Fisher Distributions",
+    "authors": "Kurt Hornik, Bettina Grun",
+    "year": 2014,
+    "citations": 129,
+    "dataset": "Official JSS data and replication files for household-expenditure vectors, classified text corpora, useR! 2008 abstracts, and simulated spherical clustering experiments",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v058i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v058.i10",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "R binary data",
+      "text corpora",
+      "replication code"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "replication-materials",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "mixture models",
+      "clustering"
+    ],
+    "bestFor": "Fitting and comparing finite von Mises-Fisher mixtures for model-based clustering of unit-vector, sparse text, and simulated spherical data.",
+    "note": "Verified on the official JSS page, which supplies the package, complete example code, and two downloadable R data files used by the article."
+  },
+  {
+    "id": "jss-bambi-angular-mixture-models",
+    "title": "BAMBI: An R Package for Fitting Bivariate Angular Mixture Models",
+    "authors": "Saptarshi Chakraborty, Samuel W. K. Wong",
+    "year": 2021,
+    "citations": 24,
+    "dataset": "BAMBI package data with one univariate and one bivariate real angular dataset, plus the official JSS replication code for Bayesian mixture analyses",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v099i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v099.i11",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "angular data",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "replication-materials",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "mixture models",
+      "bayesian inference"
+    ],
+    "bestFor": "Fitting Bayesian univariate and bivariate angular mixtures, selecting component counts, and checking MCMC behavior on real directional data.",
+    "note": "Verified on the official JSS page. The article explicitly analyzes two real datasets included in BAMBI and links both the package and replication code."
+  },
+  {
+    "id": "mee-movehmm-animal-movement",
+    "title": "moveHMM: an R package for the statistical modelling of animal movement data using hidden Markov models",
+    "authors": "Theo Michelot, Roland Langrock, Toby A. Patterson",
+    "year": 2016,
+    "citations": 438,
+    "dataset": "Wiley supporting archive with rawHaggises.csv containing 15 simulated movement tracks and covariates, plus case-study, simulation, and data-generation R scripts",
+    "datasetUrl": "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12578",
+    "paperUrl": "https://doi.org/10.1111/2041-210X.12578",
+    "access": "open",
+    "formats": [
+      "csv",
+      "r",
+      "movement tracks",
+      "time series",
+      "supporting information"
+    ],
+    "properties": [
+      "supplementary-data",
+      "software",
+      "code",
+      "simulated-data",
+      "longitudinal-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Modeling step lengths and turning angles with hidden Markov models, reproducing movement case studies, and testing state-switching workflows on known simulated tracks.",
+    "note": "Verified on the publisher page. Data S1 is a directly downloadable CSV and the accompanying R files reproduce its simulation, processing, and analysis."
+  },
+  {
+    "id": "mee-momentuhmm-generalized-animal-movement",
+    "title": "momentuHMM: R package for generalized hidden Markov models of animal movement",
+    "authors": "Brett T. McClintock, Theo Michelot",
+    "year": 2018,
+    "citations": 427,
+    "dataset": "momentuHMM package repository with bundled real-world elephant, fur-seal, loggerhead-turtle, and grey-seal examples, package data, manuscript code, and detailed vignettes",
+    "datasetUrl": "https://github.com/bmcclintock/momentuHMM",
+    "paperUrl": "https://doi.org/10.1111/2041-210X.12995",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "telemetry data",
+      "vignettes",
+      "manuscript code"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "longitudinal-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "time series analysis",
+      "missing data"
+    ],
+    "bestFor": "Fitting multivariate movement HMMs with angular streams, telemetry error, irregular observation times, missing data, spatial covariates, and multiple imputation.",
+    "note": "Verified from the publisher data-accessibility statement and maintained package repository. The article documents four real movement applications and points to the package for all code."
+  },
+  {
+    "id": "jasa-rotasym-hyperspherical-symmetry",
+    "title": "On Optimal Tests for Rotational Symmetry Against New Classes of Hyperspherical Distributions",
+    "authors": "Eduardo Garcia-Portugues, Davy Paindaveine, Thomas Verdebout",
+    "year": 2019,
+    "citations": 49,
+    "dataset": "rotasym package data and code reproducing the paper's real astronomy application, Monte Carlo experiments, and hyperspherical rotational-symmetry tests",
+    "datasetUrl": "https://CRAN.R-project.org/package=rotasym",
+    "paperUrl": "https://doi.org/10.1080/01621459.2019.1665527",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "astronomy data",
+      "simulation code"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "simulated-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "directional statistics"
+    ],
+    "bestFor": "Testing specified or unspecified rotational symmetry on hyperspheres and reproducing semiparametric power studies and the astronomy application.",
+    "note": "Verified from the official journal page and current CRAN documentation, both of which state that rotasym fully reproduces the data application."
+  },
+  {
+    "id": "spl-stereographic-spherical-uniformity",
+    "title": "A stereographic test of spherical uniformity",
+    "authors": "Alberto Fernandez-de-Marcos, Eduardo Garcia-Portugues",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "sphunif repository and package datasets with replication code for the stereographic uniformity test, spherical simulations, and documented directional-data applications",
+    "datasetUrl": "https://github.com/egarpor/sphunif",
+    "paperUrl": "https://doi.org/10.1016/j.spl.2024.110218",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "spherical data",
+      "replication code",
+      "simulations"
+    ],
+    "properties": [
+      "package-data",
+      "replication-materials",
+      "software",
+      "code",
+      "simulated-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "directional statistics"
+    ],
+    "bestFor": "Evaluating spherical and hyperspherical uniformity tests, reproducing stereographic-test simulations, and comparing power under antipodal dependence.",
+    "note": "Verified from the article data-availability statement and the current sphunif package page, which link the replication repository and novel datasets."
+  },
+  {
+    "id": "jjstats-circular-hidden-markov-wind",
+    "title": "A circular hidden Markov model for directional time series data",
+    "authors": "A. A. P. N. M. Perera, Francis K. C. Hui, Carolyn Huston, A. H. Welsh",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Springer supplementary archive with three wind-direction datasets in XLSX format, seven R analysis and simulation files, and supporting methodological documentation",
+    "datasetUrl": "https://link.springer.com/article/10.1007/s42081-025-00315-z",
+    "paperUrl": "https://doi.org/10.1007/s42081-025-00315-z",
+    "access": "open",
+    "formats": [
+      "xlsx",
+      "r",
+      "wind direction",
+      "time series",
+      "supplementary materials"
+    ],
+    "properties": [
+      "supplementary-data",
+      "code",
+      "existing-dataset",
+      "simulated-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Modeling multimodal wind directions with state-dependent von Mises processes and comparing point and probabilistic forecasts across directional time-series methods.",
+    "note": "Verified from the open Springer article. Its data-availability section points to eight downloadable supplementary files, including the wind data workbook and seven R or documentation files."
+  },
+  {
+    "id": "frontiers-one-direction-circular-tutorial",
+    "title": "One Direction? A Tutorial for Circular Data Analysis Using R With Examples in Cognitive Psychology",
+    "authors": "Jolien Cremers, Irene G. Klugkist",
+    "year": 2018,
+    "citations": 175,
+    "dataset": "bpnreg package Motor and Maps datasets for circular ANOVA and mixed-effects examples, with the package source, data preparation files, and tutorial code",
+    "datasetUrl": "https://github.com/joliencremers/bpnreg",
+    "paperUrl": "https://doi.org/10.3389/fpsyg.2018.02040",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "circular outcomes",
+      "repeated measures",
+      "tutorial code"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "bayesian inference",
+      "multilevel modeling"
+    ],
+    "bestFor": "Learning Bayesian projected-normal circular regression, ANOVA-style contrasts, and circular mixed-effects modeling from two documented cognitive datasets.",
+    "note": "Verified from the open article and bpnreg repository. The paper identifies Motor and Maps as the package datasets used throughout its complete worked analyses."
   }
 ]
