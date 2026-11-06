@@ -70519,5 +70519,359 @@
     ],
     "bestFor": "Generating customized Tennessee Eastman process-monitoring datasets with controlled operating modes, fault scenarios, interventions, and data-logging schedules.",
     "note": "Verified from the open SoftwareX article and its permanent ElsevierSoftwareX repository, which contains the Python API, simulator files, documentation, tests, and data-storage workflow."
+  },
+  {
+    "id": "plos-powerlaw-heavy-tailed-distributions",
+    "title": "powerlaw: A Python Package for Analysis of Heavy-Tailed Distributions",
+    "authors": "Jeff Alstott, Edward Thomas Bullmore, Dietmar Plenz",
+    "year": 2014,
+    "citations": 990,
+    "dataset": "powerlaw Python package repository with manuscript materials, worked examples, tests, and empirical heavy-tailed distribution workflows",
+    "datasetUrl": "https://github.com/powerlaw-devs/powerlaw",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0085777",
+    "access": "open",
+    "formats": [
+      "python",
+      "package data",
+      "worked examples",
+      "empirical distributions"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis"
+    ],
+    "bestFor": "Fitting and comparing power-law, lognormal, exponential, stretched-exponential, and truncated heavy-tail models with reusable Python examples.",
+    "note": "Verified from the open PLOS software paper and the maintained public repository, which contains the package, manuscript, documentation, tests, and example analysis workflow."
+  },
+  {
+    "id": "ecology-black-swans-spatiotemporal-extremes",
+    "title": "Black swans in space: modeling spatiotemporal processes with extremes",
+    "authors": "Sean C. Anderson, Eric J. Ward",
+    "year": 2018,
+    "citations": 39,
+    "dataset": "Archived spatial-extremes replication code, simulations, glmmfields examples, and mountain pine beetle mortality data for the U.S. Pacific Northwest",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.1240567",
+    "paperUrl": "https://doi.org/10.1002/ecy.2403",
+    "access": "open",
+    "formats": [
+      "r",
+      "replication code",
+      "simulated data",
+      "spatio-temporal ecological data"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "software",
+      "code",
+      "simulated-data",
+      "spatial-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis",
+      "bayesian inference",
+      "multilevel modeling",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Comparing Gaussian and heavy-tailed spatial random effects in Bayesian predictive-process GLMMs when rare events occur jointly across space and time.",
+    "note": "Verified from the Ecology article, NOAA record, and archived Zenodo release. The paper uses simulated data and 16 years of mountain pine beetle mortality and provides the glmmfields implementation."
+  },
+  {
+    "id": "scientificdata-chirps-precipitation-extremes",
+    "title": "The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes",
+    "authors": "Chris C. Funk, Pete J. Peterson, M. F. Landsfeld, Diego H. Pedreros, J. P. Verdin, Shraddhanand Shukla, Gregory J. Husak, James Rowland, Laura Harrison, Andrew Hoell, Joel C. Michaelsen",
+    "year": 2015,
+    "citations": 6560,
+    "dataset": "CHIRPS v2 quasi-global 0.05-degree gridded precipitation time series from 1981 to near-present, with daily, pentadal, monthly, and annual products",
+    "datasetUrl": "https://chc.ucsb.edu/data/chirps",
+    "paperUrl": "https://doi.org/10.1038/sdata.2015.66",
+    "access": "open",
+    "formats": [
+      "GeoTIFF",
+      "NetCDF",
+      "BIL",
+      "gridded time series"
+    ],
+    "properties": [
+      "new-dataset",
+      "spatial-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Studying precipitation extremes, drought, spatial rainfall variability, and long-run environmental trends with a gauge-calibrated satellite record.",
+    "note": "Verified from the Scientific Data descriptor and the official UCSB Climate Hazards Center page, which links the public CHIRPS v2 archive and documents coverage, resolution, formats, and update cadence."
+  },
+  {
+    "id": "nature-gtsr-storm-surges",
+    "title": "A global reanalysis of storm surges and extreme sea levels",
+    "authors": "Sanne Muis, Martin Verlaan, Hessel Winsemius, Jeroen C. J. H. Aerts, Philip J. Ward",
+    "year": 2016,
+    "citations": 756,
+    "dataset": "Global Tide and Surge Reanalysis 1979–2014 coastal sea-level simulations and 1-in-100-year return levels for more than 12,000 coastline locations",
+    "datasetUrl": "https://doi.org/10.4121/uuid:aa4a6ad5-e92c-468e-841b-de07f7133786",
+    "paperUrl": "https://doi.org/10.1038/ncomms11969",
+    "access": "open",
+    "formats": [
+      "gridded coastal data",
+      "return levels",
+      "time series",
+      "model reanalysis"
+    ],
+    "properties": [
+      "new-dataset",
+      "spatial-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Estimating and comparing global coastal return levels, storm-surge climatology, and spatially varying extreme sea-level risk from a consistent hydrodynamic reanalysis.",
+    "note": "Verified from the Nature Communications data-availability statement and the 4TU repository DOI, which provides the global GTSR extreme sea levels developed for the paper."
+  },
+  {
+    "id": "scientificdata-annex80-weather-extremes",
+    "title": "Typical and extreme weather datasets for studying the resilience of buildings to climate change and heatwaves",
+    "authors": "Anaïs Machard, Agnese Salvati, Mamak P. Tootkaboni, Abhishek Gaur, Jiwei Zou, Liangzhu Leon Wang, Fuad Mutasim Baba, Hua Ge, Facundo Bre, Emmanuel Bozonnet, Vincenzo Corrado, Xuan Luo, Ronnen Levinson, Sang Hoon Lee, Tianzhen Hong, Marcelo Salles Olinger, Rayner Maurício e Silva Machado, Emeli Lalesca Aparecida da Guarda, Rodolfo Kirch Veiga, Roberto Lamberts, Afshin Afshari, Delphine Ramon, Hoang Ngoc Dung Ngo, Abantika Sengupta, Hilde Breesch, Nicolas Heijmans, Jade Deltour, Xavier Kuborn, Sana Sayadi, Bin Qian, Chen Zhang, Ramin Rahif, Shady Attia, Philipp Stern, Peter Holzer",
+    "year": 2024,
+    "citations": 112,
+    "dataset": "IEA EBC Annex 80 hourly typical and extreme weather years plus multi-year climate projections for 15 locations in ten climate zones from 2001 to 2100",
+    "datasetUrl": "https://doi.org/10.26050/WDCC/WDTF_Annex80_build_v1.0",
+    "paperUrl": "https://doi.org/10.1038/s41597-024-03319-8",
+    "access": "open",
+    "formats": [
+      "EPW",
+      "CSV",
+      "hourly weather data",
+      "climate projections"
+    ],
+    "properties": [
+      "new-dataset",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing typical years, heatwave years, and long-horizon hourly climate projections in resilience, stress-testing, and extreme-weather analyses.",
+    "note": "Verified from the Scientific Data article and the World Data Center for Climate DOI. The archived CC-BY collection contains EPW and CSV files for historical, mid-century, and late-century periods."
+  },
+  {
+    "id": "scientificdata-global-storm-surge-reconstructions",
+    "title": "A database of global storm surge reconstructions",
+    "authors": "Michael Getachew Tadesse, Thomas Wahl",
+    "year": 2021,
+    "citations": 69,
+    "dataset": "Global Storm Surge Reconstruction database with daily maximum surge series and prediction intervals at 882 tide gauges from five atmospheric reanalyses",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.c.5124878",
+    "paperUrl": "https://doi.org/10.1038/s41597-021-00906-x",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "daily maximum time series",
+      "validation metadata",
+      "replication scripts"
+    ],
+    "properties": [
+      "new-dataset",
+      "replication-data",
+      "code",
+      "spatial-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Long-record trend, variability, cross-validation, and extreme-value studies of storm surges where observed tide-gauge histories are too short.",
+    "note": "Verified from the Scientific Data descriptor, NOAA record, and Figshare collection. The repository exposes five reconstructions, validation outputs, README files, and all analysis scripts."
+  },
+  {
+    "id": "data-climate-extreme-indices",
+    "title": "A High-Resolution Global Gridded Historical Dataset of Climate Extreme Indices",
+    "authors": "Malcolm Mistry",
+    "year": 2019,
+    "citations": 61,
+    "dataset": "CEI_0p25_1970_2016 global 0.25-degree grid of 71 ETCCDI and ET-SCI temperature and precipitation extreme indices",
+    "datasetUrl": "https://doi.org/10.1594/PANGAEA.898014",
+    "paperUrl": "https://doi.org/10.3390/data4010041",
+    "access": "open",
+    "formats": [
+      "NetCDF4",
+      "gridded data",
+      "monthly indices",
+      "annual indices"
+    ],
+    "properties": [
+      "new-dataset",
+      "spatial-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Global comparison of temperature and precipitation extreme indices, spatial clustering, historical trends, and sector-specific climate-impact analyses.",
+    "note": "Verified from the article's dataset-availability section and the PANGAEA record, which provides downloadable NetCDF4 files for 71 indices over 1970–2016 under CC BY 4.0."
+  },
+  {
+    "id": "essd-gtsm-era5-e-storm-surge",
+    "title": "Global dataset of storm surges and extreme sea levels for 1950–2024 based on the ERA5 climate reanalysis",
+    "authors": "Natalia Aleksandrova, Jelmer Veenstra, Sanne Muis",
+    "year": 2026,
+    "citations": 4,
+    "dataset": "GTSM-ERA5-E total water-level and surge-height series for more than 43,000 global coastal and ocean points, with percentiles and extreme return-level statistics",
+    "datasetUrl": "https://doi.org/10.24381/cds.a6d42d60",
+    "paperUrl": "https://doi.org/10.5194/essd-18-5759-2026",
+    "access": "open",
+    "formats": [
+      "10-minute time series",
+      "hourly time series",
+      "daily maxima",
+      "return-level statistics"
+    ],
+    "properties": [
+      "new-dataset",
+      "spatial-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Global coastal extreme-value fits, return-level uncertainty, historical storm-event validation, and long-run sea-level trend studies over 1950–2024.",
+    "note": "Verified from the ESSD data-records section and the Copernicus Climate Data Store DOI. The paper also links a Zenodo archive of percentiles, return levels, confidence intervals, and fitted extreme-value parameters."
+  },
+  {
+    "id": "technometrics-multivariate-generalized-pareto",
+    "title": "Peaks Over Thresholds Modeling With Multivariate Generalized Pareto Distributions",
+    "authors": "Anna Kiriliouk, Holger Rootzén, Johan Segers, Jennifer L. Wadsworth",
+    "year": 2018,
+    "citations": 77,
+    "dataset": "Figshare supplementary code and data for multivariate generalized Pareto analyses of four UK bank returns and rainfall-driven landslide risk",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.6161177.v3",
+    "paperUrl": "https://doi.org/10.1080/00401706.2018.1462738",
+    "access": "open",
+    "formats": [
+      "replication code",
+      "financial returns",
+      "rainfall data",
+      "supplementary files"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "multivariate-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis"
+    ],
+    "bestFor": "Fitting, selecting, and diagnosing multivariate generalized Pareto models with censored likelihoods for dependent threshold exceedances.",
+    "note": "Verified from the Technometrics article and its linked Figshare supplement, which provides the code and data for the bank-return and rainfall analyses in Sections 5 and 6."
+  },
+  {
+    "id": "erl-pxr-global-idf",
+    "title": "Intensity-duration-frequency curves at the global scale",
+    "authors": "Laurent Guillaume Courty, Robert Leonard Wilby, John K. Hillier, Louise J. Slater",
+    "year": 2019,
+    "citations": 120,
+    "dataset": "Parametrized eXtreme Rain global maps of generalized extreme-value parameters for 19 precipitation durations and compact parameters for IDF curves",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.3351812",
+    "paperUrl": "https://doi.org/10.1088/1748-9326/ab370a",
+    "access": "open",
+    "formats": [
+      "NetCDF",
+      "GEV parameters",
+      "gridded data",
+      "IDF curves"
+    ],
+    "properties": [
+      "new-dataset",
+      "spatial-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Constructing globally consistent rainfall intensity-duration-frequency curves and comparing spatial variation in fitted GEV parameters across durations.",
+    "note": "Verified from the article DOI and the linked Zenodo dataset. PXR-2 supplies 19 duration-specific GEV maps, while PXR-4 supplies a compact four-parameter representation."
+  },
+  {
+    "id": "essd-misela-minute-sea-level",
+    "title": "Minute Sea-Level Analysis (MISELA): a high-frequency sea-level analysis global dataset",
+    "authors": "Petra Zemunik, Jadranka Šepić, Havu Pellikka, Leon Ćatipović, Ivica Vilibić",
+    "year": 2021,
+    "citations": 26,
+    "dataset": "MISELA quality-checked and high-pass-filtered one-minute sea-level series from 331 global tide gauges, totaling 2,303 station-years over 2004–2019",
+    "datasetUrl": "https://doi.org/10.14284/456",
+    "paperUrl": "https://doi.org/10.5194/essd-13-4121-2021",
+    "access": "open",
+    "formats": [
+      "one-minute time series",
+      "tide-gauge data",
+      "quality-controlled data",
+      "station metadata"
+    ],
+    "properties": [
+      "new-dataset",
+      "spatial-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Analyzing meteotsunamis, seiches, coastal extremes, sampling-frequency effects, and other high-frequency sea-level phenomena across global stations.",
+    "note": "Verified from the ESSD data-availability statement and the Marine Data Archive DOI. The archive contains standardized research-quality one-minute records from multiple source networks."
   }
 ]
