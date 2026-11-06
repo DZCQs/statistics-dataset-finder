@@ -70226,5 +70226,298 @@
     ],
     "bestFor": "Learning Bayesian projected-normal circular regression, ANOVA-style contrasts, and circular mixed-effects modeling from two documented cognitive datasets.",
     "note": "Verified from the open article and bpnreg repository. The paper identifies Motor and Maps as the package datasets used throughout its complete worked analyses."
+  },
+  {
+    "id": "joss-qicharts2-quality-improvement",
+    "title": "qicharts2: Quality Improvement Charts for R",
+    "authors": "Jacob Anhoj",
+    "year": 2018,
+    "citations": 12,
+    "dataset": "qicharts2 package data for coronary bypass operations, hospital infections, Clostridium difficile interventions, NHS accident-department waits, and inpatient adverse events",
+    "datasetUrl": "https://CRAN.R-project.org/package=qicharts2",
+    "paperUrl": "https://doi.org/10.21105/joss.00699",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "time-ordered counts",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "time-ordered-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control"
+    ],
+    "bestFor": "Creating run, Shewhart, Pareto, and Bernoulli CUSUM charts for quality-improvement studies with reusable health-care process examples.",
+    "note": "Verified from the JOSS article and current package documentation. The package distributes multiple documented datasets and a vignette covering I, MR, Xbar, S, T, C, U, P, G, and related charts."
+  },
+  {
+    "id": "jqt-spc4sts-textured-surfaces",
+    "title": "spc4sts: Statistical process control for stochastic textured surfaces in R",
+    "authors": "Anh Tuan Bui, Daniel W. Apley",
+    "year": 2020,
+    "citations": 7,
+    "dataset": "Textile Images 2 and 3 repositories plus the textile package image collections used for monitoring spatial changes in stochastic textured surfaces",
+    "datasetUrl": "https://doi.org/10.17632/wy3pndgpcx.1",
+    "paperUrl": "https://doi.org/10.1080/00224065.2019.1707730",
+    "access": "open",
+    "formats": [
+      "image data",
+      "R package data",
+      "textile surfaces",
+      "worked examples"
+    ],
+    "properties": [
+      "external-data",
+      "package-data",
+      "software",
+      "code",
+      "spatial-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "spatial statistics"
+    ],
+    "bestFor": "Monitoring and diagnosing distributional or spatial-dependence changes in stochastic texture images with dissimilarity and control-chart statistics.",
+    "note": "Verified from the spc4sts reference manual, which links the maintained package, the textile image package, Mendeley Data, and Figshare source collections used by the article."
+  },
+  {
+    "id": "jss-edcc-economic-control-chart",
+    "title": "edcc: An R Package for the Economic Design of the Control Chart",
+    "authors": "Weicheng Zhu, Changsoon Park",
+    "year": 2013,
+    "citations": 8,
+    "dataset": "JSS replication archive with the edcc R package and article example code for cost-optimal X-bar control-chart design under process shifts",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v052i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v052.i09",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "replication code",
+      "simulation examples"
+    ],
+    "properties": [
+      "replication-materials",
+      "software",
+      "code",
+      "simulated-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "optimal experimental design"
+    ],
+    "bestFor": "Optimizing control limits, sample size, and sampling interval when control-chart performance must be balanced against inspection, repair, and process costs.",
+    "note": "Verified on the official JSS page, which provides the paper, package archive, and the R code used for its worked economic-design examples."
+  },
+  {
+    "id": "simpa-pbcc-percentile-control-charts",
+    "title": "An R package for percentile-based control charts: pbcc",
+    "authors": "Aamir Saghir, Zsolt Tibor Kosztyan",
+    "year": 2022,
+    "citations": 5,
+    "dataset": "Software Impacts permanent code archive with the pbcc package, percentile-based control-chart simulations, and reproducible examples",
+    "datasetUrl": "https://github.com/SoftwareImpacts/SIMPAC-2022-289",
+    "paperUrl": "https://doi.org/10.1016/j.simpa.2022.100455",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package",
+      "simulation code",
+      "repository archive"
+    ],
+    "properties": [
+      "replication-materials",
+      "software",
+      "code",
+      "simulated-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control"
+    ],
+    "bestFor": "Constructing and comparing percentile-based control charts when practitioners want distribution-sensitive alternatives to conventional mean-based charts.",
+    "note": "Verified from the open Software Impacts article, which supplies a permanent software repository, development repository, and Code Ocean capsule for the published package version."
+  },
+  {
+    "id": "plos-eatme-ewma-measurement-error",
+    "title": "EATME: An R package for EWMA control charts with adjustments of measurement error",
+    "authors": "Li-Pang Chen, Cheng-Kuan Lin",
+    "year": 2024,
+    "citations": 4,
+    "dataset": "SECOM semiconductor manufacturing measurements with EATME package code and in-control and out-of-control analysis files",
+    "datasetUrl": "https://archive.ics.uci.edu/dataset/179/secom",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0308828",
+    "access": "open",
+    "formats": [
+      "tabular",
+      "semiconductor process data",
+      "r",
+      "analysis code"
+    ],
+    "properties": [
+      "external-data",
+      "software",
+      "code",
+      "existing-dataset",
+      "multivariate-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "measurement error models"
+    ],
+    "bestFor": "Evaluating EWMA control charts for continuous or discrete error-prone measurements and quantifying false alarms caused by ignored measurement error.",
+    "note": "Verified from the open PLOS article data-availability statement, which identifies the UCI SECOM data and CRAN EATME package; the authors also provide real-data analysis files in the linked code repository."
+  },
+  {
+    "id": "cs-markovchart-patient-monitoring",
+    "title": "Markovchart: an R package for cost-optimal patient monitoring and treatment using control charts",
+    "authors": "Balazs Dobi, Andras Zempleni",
+    "year": 2021,
+    "citations": 3,
+    "dataset": "Harvard Dataverse randomized patient records and Markovchart package data for diabetes monitoring, treatment, sampling, and cost optimization",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UTYIOL",
+    "paperUrl": "https://doi.org/10.1007/s00180-021-01175-3",
+    "access": "open",
+    "formats": [
+      "tabular",
+      "r",
+      "R package data",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "software",
+      "code",
+      "simulated-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control"
+    ],
+    "bestFor": "Studying Markov-chain control charts that jointly optimize monitoring intervals, treatment decisions, critical values, and patient-level costs.",
+    "note": "Verified from the open Springer article. Its data-availability statement links the randomized patient data in Harvard Dataverse and the package, while two online resources contain the article code."
+  },
+  {
+    "id": "jqt-ph1xbar-phase-one-shewhart",
+    "title": "PH1XBAR: An R package for univariate Phase I Shewhart-type control charts for the mean",
+    "authors": "Yuhui Yao, Chase Holcombe, Tyler Thomas, Subhabrata Chakraborti, Jason M. Parton",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "PH1XBAR package data for silicon-wafer thickness, piston rings, automotive gear bores, prescription fentanyl consumption, SECOM semiconductor measurements, and seasonal snowfall",
+    "datasetUrl": "https://CRAN.R-project.org/package=PH1XBAR",
+    "paperUrl": "https://doi.org/10.1080/00224065.2026.2641154",
+    "access": "open",
+    "formats": [
+      "r",
+      "R package data",
+      "manufacturing measurements",
+      "time series"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "time-ordered-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "time series analysis"
+    ],
+    "bestFor": "Phase I Shewhart monitoring with subgrouped, individual, random-effects, and autocorrelated ARMA data, including corrected false-alarm limits.",
+    "note": "Verified from the current CRAN manual and publisher page. The package documents six reusable datasets and article examples for basic, variance-component, and ARMA control charts."
+  },
+  {
+    "id": "cce-extended-tennessee-eastman-data",
+    "title": "An extended Tennessee Eastman simulation dataset for fault-detection and decision support systems",
+    "authors": "Christopher Clarc Reinartz, Murat Kulahci, Ole Ravn",
+    "year": 2021,
+    "citations": 135,
+    "dataset": "Tennessee Eastman Reference Data with 500 seeded simulations for each of 28 process faults across six operating modes, plus setpoint changes and mode transitions",
+    "datasetUrl": "https://doi.org/10.11583/DTU.13385936.v1",
+    "paperUrl": "https://doi.org/10.1016/j.compchemeng.2021.107281",
+    "access": "open",
+    "formats": [
+      "multivariate time series",
+      "simulation data",
+      "process faults",
+      "benchmark data"
+    ],
+    "properties": [
+      "benchmark",
+      "new-dataset",
+      "simulated-data",
+      "time-series-data",
+      "multivariate-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "dimension reduction",
+      "high-dimensional statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Benchmarking PCA-based and alternative multivariate fault-detection methods using repeated healthy and faulty runs, multiple disturbance magnitudes, and average run length.",
+    "note": "Verified from the DTU publication record and CC0 DTU Data repository. The paper links the dataset directly and provides a baseline with PCA, Hotelling T-squared, Q charts, and average run length."
+  },
+  {
+    "id": "softx-pytep-simulator",
+    "title": "pyTEP: A Python package for interactive simulations of the Tennessee Eastman process",
+    "authors": "Christopher Reinartz, Thomas Thuesen Enevoldsen",
+    "year": 2022,
+    "citations": 11,
+    "dataset": "SoftwareX permanent pyTEP code archive for configuring Tennessee Eastman operating conditions, disturbances, interactive simulations, and stored process trajectories",
+    "datasetUrl": "https://github.com/ElsevierSoftwareX/SOFTX-D-21-00069",
+    "paperUrl": "https://doi.org/10.1016/j.softx.2022.101053",
+    "access": "open",
+    "formats": [
+      "python",
+      "MATLAB Simulink",
+      "simulation code",
+      "multivariate time series"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "data-generator",
+      "simulated-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "time series analysis"
+    ],
+    "bestFor": "Generating customized Tennessee Eastman process-monitoring datasets with controlled operating modes, fault scenarios, interventions, and data-logging schedules.",
+    "note": "Verified from the open SoftwareX article and its permanent ElsevierSoftwareX repository, which contains the Python API, simulator files, documentation, tests, and data-storage workflow."
   }
 ]
