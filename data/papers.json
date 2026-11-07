@@ -66843,7 +66843,8 @@
       "software",
       "code",
       "auto-discovered",
-      "needs-review"
+      "needs-review",
+      "needs-label-review"
     ],
     "topics": [
       "resampling methods"
@@ -70873,5 +70874,359 @@
     ],
     "bestFor": "Analyzing meteotsunamis, seiches, coastal extremes, sampling-frequency effects, and other high-frequency sea-level phenomena across global stations.",
     "note": "Verified from the ESSD data-availability statement and the Marine Data Archive DOI. The archive contains standardized research-quality one-minute records from multiple source networks."
+  },
+  {
+    "id": "nature-38-microbiome-da-datasets",
+    "title": "Microbiome differential abundance methods produce different results across 38 datasets",
+    "authors": "Jacob T. Nearing, Gavin M. Douglas, Molly G. Hayes, Jocelyn MacDonald, Dhwani Desai, Nicole E. McCormick, Casey M. A. Jones, Robyn Wright, Akhilesh S. Dhanani, André M. Comeau, Morgan G. I. Langille",
+    "year": 2022,
+    "citations": 1049,
+    "dataset": "Processed feature tables and metadata for 38 public 16S rRNA datasets spanning 9,405 samples and multiple environmental, animal, and human microbiomes",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.14531724",
+    "paperUrl": "https://doi.org/10.1038/s41467-022-28034-z",
+    "access": "open",
+    "formats": [
+      "feature tables",
+      "sample metadata",
+      "R scripts",
+      "method outputs"
+    ],
+    "properties": [
+      "benchmark",
+      "replication-data",
+      "code",
+      "multivariate-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "multiple testing",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Benchmarking differential-abundance procedures, studying method disagreement, and auditing false discoveries across heterogeneous microbiome study designs.",
+    "note": "Verified from the Nature Communications data-availability statement and Figshare archive. The paper compares 14 differential-abundance methods across 38 processed datasets; raw-data accession locations are cataloged in Supplementary Data 1."
+  },
+  {
+    "id": "plos-kernelbiome-compositional-learning",
+    "title": "Supervised learning and model analysis with compositional data",
+    "authors": "Shimeng Huang, Elisabeth Ailer, Niki Kilbertus, Niklas Pfister",
+    "year": 2023,
+    "citations": 18,
+    "dataset": "KernelBiome reproducibility repository with 33 public microbiome datasets, preprocessing code, simulations, and supervised compositional-learning experiments",
+    "datasetUrl": "https://github.com/shimenghuang/KernelBiome",
+    "paperUrl": "https://doi.org/10.1371/journal.pcbi.1011240",
+    "access": "open",
+    "formats": [
+      "Python code",
+      "microbiome tables",
+      "metadata",
+      "simulation scripts"
+    ],
+    "properties": [
+      "benchmark",
+      "replication-data",
+      "code",
+      "multivariate-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating kernel methods for simplex-valued predictors and studying prediction, variable importance, and nonlinear effects across many microbiome datasets.",
+    "note": "Verified from the PLOS Computational Biology data-availability statement and the public KernelBiome repository, which contains the data-loading and reproduction workflow for all experiments."
+  },
+  {
+    "id": "msystems-gneiss-balance-trees",
+    "title": "Balance Trees Reveal Microbial Niche Differentiation",
+    "authors": "James T. Morton, Jon G. Sanders, Robert A. Quinn, Daniel McDonald, Antonio Gonzalez, Yoshiki Vázquez-Baeza, Jose A. Navas-Molina, Se Jin Song, Jessica L. Metcalf, Embriette R. Hyde, Manuel Lladser, Pieter C. Dorrestein, Rob Knight",
+    "year": 2017,
+    "citations": 254,
+    "dataset": "Gneiss reproducibility materials for 88-soils and cystic-fibrosis sputum studies, including Qiita-linked abundance data, analysis notebooks, and supplementary tables",
+    "datasetUrl": "https://github.com/biocore/gneiss",
+    "paperUrl": "https://doi.org/10.1128/mSystems.00162-16",
+    "access": "open",
+    "formats": [
+      "Jupyter notebooks",
+      "Qiita studies",
+      "feature tables",
+      "XLSX supplement"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "multivariate-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "clustering",
+      "multilevel modeling"
+    ],
+    "bestFor": "Constructing balance trees, fitting mixed-effects models to log-ratio balances, and comparing niche differentiation in soil and lung microbial communities.",
+    "note": "Verified from the ASM article, its supplementary files, Qiita study references, and the public Gneiss repository. The worked analyses cover both environmental soil samples and cystic-fibrosis sputum."
+  },
+  {
+    "id": "aoas-corncob-beta-binomial-regression",
+    "title": "Modeling microbial abundances and dysbiosis with beta-binomial regression",
+    "authors": "Bryan D. Martin, Daniela Witten, Amy D. Willis",
+    "year": 2020,
+    "citations": 376,
+    "dataset": "corncob supplementary repository with soil-microbiology and inflammatory-bowel-disease abundance data, simulations, and complete analysis scripts",
+    "datasetUrl": "https://github.com/bryandmartin/corncob_supplementary",
+    "paperUrl": "https://doi.org/10.1214/19-AOAS1283",
+    "access": "open",
+    "formats": [
+      "R code",
+      "microbiome count tables",
+      "simulation scripts",
+      "analysis outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "distributional regression",
+      "resampling methods"
+    ],
+    "bestFor": "Modeling covariate effects on both mean relative abundance and overdispersion, including small-sample parametric-bootstrap inference with many zero counts.",
+    "note": "Verified from the Annals of Applied Statistics article, Supplements A and B, and the public corncob supplementary repository. The real-data analyses include replicated soil samples and an inflammatory-bowel-disease study."
+  },
+  {
+    "id": "sedgeo-provenance-r-package",
+    "title": "An R package for statistical provenance analysis",
+    "authors": "Pieter Vermeesch, Alberto Resentini, Eduardo Garzanti",
+    "year": 2016,
+    "citations": 469,
+    "dataset": "provenance R package data, including 14 Namib Sand Sea samples and two Orange River samples with zircon ages, petrography, heavy minerals, and geochemistry",
+    "datasetUrl": "https://cran.r-project.org/package=provenance",
+    "paperUrl": "https://doi.org/10.1016/j.sedgeo.2016.01.009",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "zircon ages",
+      "compositional geochemistry",
+      "mineral counts"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "worked-examples",
+      "multivariate-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "dimension reduction",
+      "density estimation",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing sediment provenance proxies with Aitchison distances, PCA, multidimensional scaling, kernel density estimates, and multi-method ordination.",
+    "note": "Verified from the article, CRAN package documentation, and reference manual. The package ships the published Namibia dataset used throughout the paper rather than only example-generating code."
+  },
+  {
+    "id": "acags-geocoda-lithogeochemistry",
+    "title": "GeoCoDA: Recognizing and validating structural processes in geochemical data. A workflow on compositional data analysis in lithogeochemistry",
+    "authors": "Eric Grunsky, Michael Greenacre, Bruce A. Kjarsgaard",
+    "year": 2024,
+    "citations": 23,
+    "dataset": "Star kimberlite lithogeochemistry data and R workflow for additive and centered log-ratio analysis, process discovery, classification, and validation",
+    "datasetUrl": "https://github.com/michaelgreenacre/CODAinPractice",
+    "paperUrl": "https://doi.org/10.1016/j.acags.2023.100149",
+    "access": "open",
+    "formats": [
+      "R code",
+      "geochemical tables",
+      "worked notebooks",
+      "classification outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "multivariate-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "dimension reduction",
+      "clustering",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Reproducing an end-to-end lithogeochemical CoDA workflow that discovers and validates structural processes in a real kimberlite dataset.",
+    "note": "Verified from the open-access journal article's availability section and the linked CODAinPractice repository, which provides the Star kimberlite data and R analysis code."
+  },
+  {
+    "id": "mee-beta-dirichlet-proportions",
+    "title": "Analysing continuous proportions in ecology and evolution: A practical introduction to beta and Dirichlet regression",
+    "authors": "Jacob C. Douma, James T. Weedon",
+    "year": 2019,
+    "citations": 768,
+    "dataset": "Zenodo archive of data and source files for three ecological case studies on percent cover, plant biomass allocation, and multivariate continuous proportions",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.3234670",
+    "paperUrl": "https://doi.org/10.1111/2041-210X.13234",
+    "access": "open",
+    "formats": [
+      "R code",
+      "ecological tables",
+      "ZIP archives",
+      "worked case studies"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "distributional regression",
+      "multilevel modeling"
+    ],
+    "bestFor": "Learning and comparing beta and Dirichlet regression for continuous proportions, including zeros, nested structure, and multi-category ecological outcomes.",
+    "note": "Verified from the Methods in Ecology and Evolution data-availability statement and its Zenodo archive, which contains the data and source files for the paper's worked examples."
+  },
+  {
+    "id": "plos-codalomic-longitudinal-microbiome",
+    "title": "CoDaLoMic: An R package for modeling microbiome compositional and longitudinal data",
+    "authors": "Irene Creus-Martí, Andrés Moya, Francisco J. Santonja",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "CoDaLoMic package datasets and tutorials containing simulated series and a longitudinal cockroach microbiome dataset with preprocessing and reproduction scripts",
+    "datasetUrl": "https://cran.r-project.org/package=CoDaLoMic",
+    "paperUrl": "https://doi.org/10.1371/journal.pcbi.1014328",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "longitudinal microbiome tables",
+      "R scripts",
+      "tutorials"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "longitudinal data analysis",
+      "time series analysis",
+      "bayesian inference"
+    ],
+    "bestFor": "Fitting Dirichlet generalized Lotka-Volterra and balance-based models to longitudinal microbiome compositions with package-supplied real and simulated data.",
+    "note": "Verified from the PLOS Computational Biology availability section, CRAN package, and public tutorial repository. The article states that both simulated data and the cockroach dataset are included in the package."
+  },
+  {
+    "id": "nargab-compositional-multiomic-time-series",
+    "title": "An application of compositional data analysis to multiomic time-series data",
+    "authors": "Laura Sisk-Hackworth, Scott T. Kelley",
+    "year": 2020,
+    "citations": 29,
+    "dataset": "Figshare bacterial, fungal, and metabolomic time-series tables from a high-humidity experiment on four common building materials",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.7865015.v2",
+    "paperUrl": "https://doi.org/10.1093/nargab/lqaa079",
+    "access": "open",
+    "formats": [
+      "amplicon count tables",
+      "metabolomics tables",
+      "sample metadata",
+      "supplementary ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "multivariate-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "time series analysis",
+      "longitudinal data analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing raw and centered-log-ratio multiomic trajectories and studying temporal integration of bacterial, fungal, and metabolomic profiles.",
+    "note": "Verified from the NAR Genomics and Bioinformatics data-availability statement, supplementary archive, and linked Figshare dataset from the original building-material experiment."
+  },
+  {
+    "id": "plos-compositional-lotka-volterra",
+    "title": "Compositional Lotka-Volterra describes microbial dynamics in the simplex",
+    "authors": "Tyler A. Joseph, Liat Shenhav, João B. Xavier, Eran Halperin, Itsik Pe'er",
+    "year": 2020,
+    "citations": 71,
+    "dataset": "Reproducibility repository with antibiotic, diet, and Clostridioides difficile microbial time series, preprocessing steps, simulations, and cLV model outputs",
+    "datasetUrl": "https://github.com/tyjo/clv",
+    "paperUrl": "https://doi.org/10.1371/journal.pcbi.1007917",
+    "access": "open",
+    "formats": [
+      "Python code",
+      "microbial time series",
+      "simulation scripts",
+      "model outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "time-series-data",
+      "multivariate-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "time series analysis",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Estimating and comparing dynamical systems for relative-abundance trajectories when only simplex-valued microbial measurements are available.",
+    "note": "Verified from the PLOS data-availability statement and the public cLV repository, whose data directories and scripts reproduce the real-data and simulation experiments."
+  },
+  {
+    "id": "aoas-dacomp-differential-abundance",
+    "title": "Testing for differential abundance in compositional counts data, with application to microbiome studies",
+    "authors": "Barak Brill, Amnon Amir, Ruth Heller",
+    "year": 2022,
+    "citations": 53,
+    "dataset": "DACOMP reproduction repository with Crohn's disease, Human Microbiome Project, and spike-in experiment datasets plus simulation and figure scripts",
+    "datasetUrl": "https://github.com/barakbri/CompositionalAnalysis_CodeBase",
+    "paperUrl": "https://doi.org/10.1214/22-AOAS1607",
+    "access": "open",
+    "formats": [
+      "R code",
+      "microbiome count tables",
+      "simulation scripts",
+      "analysis outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "multivariate-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "multiple testing",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating differential-abundance tests under sparse compositional counts, technical zeros, reference-set estimation, and many simultaneous taxon hypotheses.",
+    "note": "Verified from the Annals of Applied Statistics paper and the public reproduction repository, which includes all three real datasets and scripts for the simulations and figures."
   }
 ]
