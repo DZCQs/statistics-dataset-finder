@@ -71228,5 +71228,267 @@
     ],
     "bestFor": "Evaluating differential-abundance tests under sparse compositional counts, technical zeros, reference-set estimation, and many simultaneous taxon hypotheses.",
     "note": "Verified from the Annals of Applied Statistics paper and the public reproduction repository, which includes all three real datasets and scripts for the simulations and figures."
+  },
+  {
+    "id": "aos-graph-based-change-point-detection",
+    "title": "Graph-Based Change-Point Detection",
+    "authors": "Hao Chen, Nancy R. Zhang",
+    "year": 2015,
+    "citations": 165,
+    "dataset": "gSeg package Example data and E1-E5 similarity-graph edge matrices with executable single-change and changed-interval scan examples",
+    "datasetUrl": "https://CRAN.R-project.org/package=gSeg",
+    "paperUrl": "https://doi.org/10.1214/14-AOS1269",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "edge matrices",
+      "R code",
+      "vignette"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Studying nonparametric graph-scan change-point tests for multivariate or non-Euclidean sequences when an informative similarity graph can be constructed.",
+    "note": "Verified from the Annals of Statistics article and current gSeg package archive. The package includes an Example dataset, five documented similarity-graph edge matrices, and data-level interfaces for single changes and changed intervals."
+  },
+  {
+    "id": "jrssb-sparse-projection-change-points",
+    "title": "High Dimensional Change Point Estimation via Sparse Projection",
+    "authors": "Tengyao Wang, Richard J. Samworth",
+    "year": 2018,
+    "citations": 232,
+    "dataset": "ecp ACGH bladder-tumour microarray data for 43 individuals at 2,215 loci, together with InspectChangepoint sparse-projection simulation workflows",
+    "datasetUrl": "https://CRAN.R-project.org/package=ecp",
+    "paperUrl": "https://doi.org/10.1111/rssb.12243",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "microarray matrix",
+      "R code",
+      "simulation workflows"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "code",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "high-dimensional statistics",
+      "dimension reduction"
+    ],
+    "bestFor": "Evaluating sparse projection and wild binary segmentation for shared mean changes across many coordinates, including recurrent copy-number changes across tumour profiles.",
+    "note": "Verified from the JRSS B real-data section, current ecp documentation for the ACGH dataset, and the official InspectChangepoint package. The paper identifies the package dataset and documents the sparse-projection analysis."
+  },
+  {
+    "id": "jrssb-missinspect-heterogeneous-missingness",
+    "title": "High-Dimensional Changepoint Estimation with Heterogeneous Missingness",
+    "authors": "Bertille Follain, Tengyao Wang, Richard J. Samworth",
+    "year": 2022,
+    "citations": 22,
+    "dataset": "MissInspect repository with carbon-isotope measurements and core ages from 16 North Atlantic, Pacific, and Southern Ocean sediment cores plus complete reproduction scripts",
+    "datasetUrl": "https://github.com/wangtengyao/MissInspect",
+    "paperUrl": "https://doi.org/10.1111/rssb.12540",
+    "access": "open",
+    "formats": [
+      "text data",
+      "R code",
+      "ocean-core measurements",
+      "simulation outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "high-dimensional-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "high-dimensional statistics",
+      "missing data"
+    ],
+    "bestFor": "Testing high-dimensional mean-change estimators when observation rates vary by coordinate and applying missingness-aware CUSUM methods to irregular oceanographic series.",
+    "note": "Verified from the JRSS B implementation statement and public MissInspect repository. The repository contains three regional core-data files with ages, carbon-isotope values, and core identifiers, plus scripts reproducing the real-data figure."
+  },
+  {
+    "id": "technometrics-most-recent-panel-changepoint",
+    "title": "Most Recent Changepoint Detection in Panel Data",
+    "authors": "Lawrence Bardwell, Paul Fearnhead, Idris A. Eckley, Simon C. Smith, Martin Spott",
+    "year": 2019,
+    "citations": 37,
+    "dataset": "Lancaster University CC BY research-data archive with R implementation and example input files for all three panel-data simulation cases",
+    "datasetUrl": "https://doi.org/10.17635/lancaster/researchdata/199",
+    "paperUrl": "https://doi.org/10.1080/00401706.2018.1438926",
+    "access": "open",
+    "formats": [
+      "R code",
+      "example data",
+      "simulation inputs",
+      "tar.gz archive"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "panel-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "panel data methods",
+      "longitudinal data analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing estimators of the latest shared change across many related series when individual panels can have different earlier changepoints.",
+    "note": "Verified from the Technometrics article and Lancaster research-data DOI. The archive supplies the MRC implementation and example files for each simulation setting under a CC BY licence."
+  },
+  {
+    "id": "jrssb-online-multiscale-changepoint",
+    "title": "High-Dimensional, Multiscale Online Changepoint Detection",
+    "authors": "Yudong Chen, Tengyao Wang, Richard J. Samworth",
+    "year": 2022,
+    "citations": 65,
+    "dataset": "Northern California Earthquake Data Center waveform service used for the paper's 13-station Parkfield seismic monitoring example, with the ocd R implementation",
+    "datasetUrl": "https://service.ncedc.org/fdsnws/dataselect/1/",
+    "paperUrl": "https://doi.org/10.1111/rssb.12447",
+    "access": "open",
+    "formats": [
+      "miniSEED waveforms",
+      "FDSN web service",
+      "R package",
+      "simulation workflows"
+    ],
+    "properties": [
+      "external-data",
+      "software",
+      "code",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Benchmarking online multiscale detection of sparse or dense mean shifts in high-dimensional streams with fixed per-observation storage and computation.",
+    "note": "Verified from the JRSS B article, the current CRAN ocd package, and the live NCEDC FDSN service. The paper documents the network, stations, channels, sampling rate, and time window used for its seismic application."
+  },
+  {
+    "id": "jasa-online-changepoint-inference",
+    "title": "Inference in High-Dimensional Online Changepoint Detection",
+    "authors": "Yudong Chen, Tengyao Wang, Richard J. Samworth",
+    "year": 2023,
+    "citations": 8,
+    "dataset": "ocd_CI reproduction repository with weekly US deaths from January 2017 through June 2020, CDC source fields, simulation code, tables, and figure scripts",
+    "datasetUrl": "https://github.com/yudongchen88/ocd_CI",
+    "paperUrl": "https://doi.org/10.1080/01621459.2023.2199962",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "R code",
+      "weekly time series",
+      "simulation outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "time-series-data",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating confidence intervals for online changepoint locations and support recovery after sequential detection in sparse high-dimensional streams.",
+    "note": "Verified from the JASA article and public ocd_CI repository. The repository includes the complete US_weekly_deaths.csv file, CDC provenance, analysis code for the real-data figure, and scripts for all reported tables and simulations."
+  },
+  {
+    "id": "jrssc-autonomous-vehicle-recurrent-reliability",
+    "title": "Reliability Analysis of Artificial Intelligence Systems Using Recurrent Events Data from Autonomous Vehicles",
+    "authors": "Jie Min, Yili Hong, Caleb B. King, William Q. Meeker",
+    "year": 2022,
+    "citations": 34,
+    "dataset": "California DMV autonomous-vehicle mileage and disengagement reports for 2019-2020 preserved as downloadable original regulatory-report files",
+    "datasetUrl": "https://doi.org/10.17632/74s6nw7dk9.1",
+    "paperUrl": "https://doi.org/10.1111/rssc.12564",
+    "access": "open",
+    "formats": [
+      "regulatory reports",
+      "mileage tables",
+      "disengagement event records",
+      "PDF and spreadsheet files"
+    ],
+    "properties": [
+      "existing-dataset",
+      "longitudinal-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "recurrent event analysis",
+      "survival models",
+      "survival analysis",
+      "longitudinal data analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Modeling repeated autonomous-driving disengagements with nonhomogeneous Poisson processes, monotone splines, frailty, and bootstrap uncertainty under window observation.",
+    "note": "Verified from the JRSS C article, its open manuscript, California DMV provenance, and the Mendeley archive of original 2019-2020 reports. The paper analyzes recurrent disengagement events from four manufacturers rather than only aggregated event counts."
+  },
+  {
+    "id": "scientific-data-california-av-events",
+    "title": "Crash and Disengagement Data of Autonomous Vehicles on Public Roads in California",
+    "authors": "Amolika Sinha, Sai Chand, Vincent Vu, Huang Chen, Vinayak V. Dixit",
+    "year": 2021,
+    "citations": 49,
+    "dataset": "Figshare repository with processed California DMV crash and disengagement records from 2014-2020, monthly mileage summaries, road networks, and land-use data",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.16923463.v1",
+    "paperUrl": "https://doi.org/10.1038/s41597-021-01083-7",
+    "access": "open",
+    "formats": [
+      "Excel",
+      "CSV",
+      "shapefiles",
+      "event records",
+      "metadata"
+    ],
+    "properties": [
+      "new-dataset",
+      "longitudinal-data",
+      "spatial-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "recurrent event analysis",
+      "survival models",
+      "survival analysis",
+      "panel data methods",
+      "longitudinal data analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Building statistical models of repeated disengagements and crashes while combining manufacturer-month exposure, event narratives, roadway structure, and spatial context.",
+    "note": "Verified from the Scientific Data data-record section and linked Figshare DOI. The repository contains annual and combined disengagement files, processed crash records, points of interest, and street-network shapefiles with documented variables."
   }
 ]
