@@ -71490,5 +71490,322 @@
     ],
     "bestFor": "Building statistical models of repeated disengagements and crashes while combining manufacturer-month exposure, event narratives, roadway structure, and spatial context.",
     "note": "Verified from the Scientific Data data-record section and linked Figshare DOI. The repository contains annual and combined disengagement files, processed crash records, points of interest, and street-network shapefiles with documented variables."
+  },
+  {
+    "id": "ecolevol-boosted-gamlss-wildlife",
+    "title": "Modeling Spatiotemporal Abundance of Mobile Wildlife in Highly Variable Environments Using Boosted GAMLSS Hurdle Models",
+    "authors": "Adam D. Smith, Benjamin Hofner, Juliet S. Lamb, Jason E. Osenkowski, Taber D. Allison, Giancarlo Sadoti, Scott R. McWilliams, Peter W. C. Paton",
+    "year": 2019,
+    "citations": 24,
+    "dataset": "Dryad sea-duck survey archive for Nantucket Sound with abundance, environmental covariates, documentation, fitted-model results, and boosted GAMLSS hurdle-model outputs",
+    "datasetUrl": "https://doi.org/10.5061/dryad.1vm20t6",
+    "paperUrl": "https://doi.org/10.1002/ece3.4738",
+    "access": "open",
+    "formats": [
+      "ZIP archives",
+      "survey data",
+      "environmental covariates",
+      "model results",
+      "Markdown README"
+    ],
+    "properties": [
+      "replication-data",
+      "spatial-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "spatio-temporal models",
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Studying zero-inflated and overdispersed abundance surveys with hurdle models that allow environmental covariates to affect both the mean and dispersion across space and time.",
+    "note": "Verified from the Ecology and Evolution article and its linked Dryad deposit. The archive contains the documented Nantucket Sound survey inputs and multi-gigabyte fitted-result bundles for two sea-duck species."
+  },
+  {
+    "id": "natcomms-quantile-regression-gwas",
+    "title": "Genome-Wide Discovery for Biomarkers Using Quantile Regression at Biobank Scale",
+    "authors": "Chen Wang, Tianying Wang, Krzysztof Kiryluk, Ying Wei, Hugues Aschard, Iuliana Ionita-Laza",
+    "year": 2024,
+    "citations": 20,
+    "dataset": "Zenodo quantile-regression GWAS summary statistics for 39 UK Biobank quantitative traits with quantile-specific, integrated-quantile, and linear-regression association results",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.11095249",
+    "paperUrl": "https://doi.org/10.1038/s41467-024-50726-x",
+    "access": "open",
+    "formats": [
+      "CSV trait index",
+      "bgzip-compressed TSV",
+      "tabix indexes",
+      "GWAS summary statistics"
+    ],
+    "properties": [
+      "new-dataset",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "high-dimensional statistics",
+      "multiple testing"
+    ],
+    "bestFor": "Comparing mean-based and quantile-specific genome-wide association signals and developing scalable tests for heterogeneous genetic effects across outcome distributions.",
+    "note": "Verified from the Nature Communications article and the linked Zenodo dataset. The deposit provides 39 trait-level summary-statistic files, explicit column definitions, checksums, and tabix indexes; a separate archived code release is also linked from the study."
+  },
+  {
+    "id": "econometrica-gaussian-transforms-distributional-regression",
+    "title": "Gaussian Transforms Modeling and the Estimation of Distributional Regression Functions",
+    "authors": "Richard H. Spady, Sami Stouli",
+    "year": 2025,
+    "citations": 5,
+    "dataset": "Zenodo replication archive with 2019 IPUMS USA ACS microdata, occupation and industry dictionaries, data-cleaning scripts, simulations, and empirical gender-wage-gap analyses",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.15171317",
+    "paperUrl": "https://doi.org/10.3982/ecta19153",
+    "access": "open",
+    "formats": [
+      "compressed fixed-width data",
+      "CSV dictionaries",
+      "R code",
+      "RData outputs",
+      "replication ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "quantile regression",
+      "density estimation"
+    ],
+    "bestFor": "Estimating conditional densities, distribution functions, and quantiles jointly while enforcing valid distributional shape and reproducing a full wage-distribution application.",
+    "note": "Verified from the Econometrica article and Zenodo replication archive. The package includes the raw 2019 ACS extract, variable dictionaries, a complete preprocessing script, empirical-application code, and numerical-simulation workflows."
+  },
+  {
+    "id": "jasa-discrete-quantile-effect-inference",
+    "title": "Generic Inference on Quantile and Quantile Effect Functions for Discrete Outcomes",
+    "authors": "Victor Chernozhukov, Iván Fernández-Val, Blaise Melly, Kaspar Wüthrich",
+    "year": 2019,
+    "citations": 46,
+    "dataset": "discreteQ package and replication archive with Current Population Survey and Oregon Health Insurance Experiment Stata files, figure scripts, simulations, and inference routines",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.1406948",
+    "paperUrl": "https://doi.org/10.1080/01621459.2019.1611581",
+    "access": "open",
+    "formats": [
+      "Stata data",
+      "R package",
+      "R code",
+      "simulation scripts",
+      "replication ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments"
+    ],
+    "bestFor": "Constructing simultaneous confidence bands for discrete outcome quantiles and quantile effects, including empirical treatment-effect analyses with randomized health-insurance data.",
+    "note": "Verified from the JASA article and the archived discreteQ release. Its replication directory contains the empirical Stata datasets, scripts for every reported figure, and the simulation program."
+  },
+  {
+    "id": "rsos-joint-quantile-disease-mapping",
+    "title": "Joint Quantile Disease Mapping with Application to Malaria and G6PD Deficiency",
+    "authors": "Hanan H. Alahmadi, Janet van Niekerk, Tullia Padellini, Håvard Rue",
+    "year": 2024,
+    "citations": 6,
+    "dataset": "Dryad country-level malaria and G6PD-deficiency incidence tables for 21 countries with documentation for the joint Bayesian quantile disease-mapping analysis",
+    "datasetUrl": "https://doi.org/10.5061/dryad.x3ffbg7qw",
+    "paperUrl": "https://doi.org/10.1098/rsos.230851",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "README",
+      "country-level disease data"
+    ],
+    "properties": [
+      "replication-data",
+      "spatial-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "spatial statistics",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Fitting joint spatial quantile models for correlated disease burdens when associations may differ across the conditional distribution rather than only at the mean.",
+    "note": "Verified from the Royal Society Open Science paper and linked Dryad dataset. The deposit exposes separate Malaria.csv and G6PD.csv files plus a README describing the variables and analysis context."
+  },
+  {
+    "id": "qe-robust-subvector-permutation-test",
+    "title": "A Robust Permutation Test for Subvector Inference in Linear Regressions",
+    "authors": "Xavier D'Haultfœuille, Purevdorj Tuvaandorj",
+    "year": 2024,
+    "citations": 11,
+    "dataset": "Zenodo replication package with Project STAR student microdata, traffic-safety data, Matlab simulations, and Stata and R scripts for two empirical illustrations",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.8422960",
+    "paperUrl": "https://doi.org/10.3982/qe2269",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "Stata data",
+      "Matlab code",
+      "R code",
+      "replication ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "robust statistics"
+    ],
+    "bestFor": "Evaluating exact and heteroskedasticity-robust permutation tests for subsets of regression coefficients with discrete nuisance regressors and finite-sample concerns.",
+    "note": "Verified from the Quantitative Economics article and Zenodo replication package. The archive includes a 13 MB Project STAR student file, traffic data in CSV and Stata formats, and all simulation and empirical-analysis code."
+  },
+  {
+    "id": "restat-permutation-heterogeneous-clusters",
+    "title": "Permutation Inference with a Finite Number of Heterogeneous Clusters",
+    "authors": "Andreas Hagemann",
+    "year": 2023,
+    "citations": 9,
+    "dataset": "Harvard Dataverse replication deposit with clustered empirical datasets, tabular inputs, simulation outputs, and R programs for permutation inference under heterogeneous clusters",
+    "datasetUrl": "https://doi.org/10.7910/DVN/TDP8QG",
+    "paperUrl": "https://doi.org/10.1162/rest_a_01300",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "tab-separated data",
+      "R code",
+      "PDF outputs",
+      "README files"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "clustered-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "robust statistics",
+      "multilevel modeling"
+    ],
+    "bestFor": "Studying permutation tests and confidence procedures when only a small number of independent clusters are available and cluster distributions can differ substantially.",
+    "note": "Verified from the Review of Economics and Statistics article and released Harvard Dataverse record. The deposit contains multiple empirical tabular datasets, reusable R functions, Monte Carlo programs, and documented output files."
+  },
+  {
+    "id": "jeconom-sieve-bootstrap-time-varying-coefficients",
+    "title": "Sieve Bootstrap Inference for Linear Time-Varying Coefficient Models",
+    "authors": "Marina Friedrich, Yicong Lin",
+    "year": 2024,
+    "citations": 14,
+    "dataset": "Zenodo data and code for the paper's empirical application, including weekly EU emissions-trading, temperature, and derived analysis series with Matlab confidence-band routines",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.20342687",
+    "paperUrl": "https://doi.org/10.1016/j.jeconom.2022.09.004",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "Matlab code",
+      "RTF README",
+      "weekly time series"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "time series analysis"
+    ],
+    "bestFor": "Constructing simultaneous sieve-bootstrap confidence bands for smoothly changing regression effects in locally stationary weekly time series.",
+    "note": "Verified from the Journal of Econometrics DOI and the linked Zenodo supplement. The deposit provides three weekly CSV datasets, the empirical EU ETS script, the data-driven confidence-band implementation, and a README."
+  },
+  {
+    "id": "jasa-fast-calibrated-additive-quantile-regression",
+    "title": "Fast Calibrated Additive Quantile Regression",
+    "authors": "Matteo Fasiolo, Simon N. Wood, Margaux Zaffran, Raphaël Nedellec, Yannig Goude",
+    "year": 2020,
+    "citations": 219,
+    "dataset": "Figshare supplement with GEFCom 2014, French RTE, and UK electricity-load data, qgam source, model formulas, preprocessing scripts, and complete forecasting analyses",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.11848347.v1",
+    "paperUrl": "https://doi.org/10.1080/01621459.2020.1725521",
+    "access": "open",
+    "formats": [
+      "RData",
+      "RDS",
+      "R code",
+      "R package source",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "time series forecasting",
+      "time series analysis",
+      "forecasting competitions"
+    ],
+    "bestFor": "Benchmarking smooth additive quantile models, smoothing-parameter calibration, and probabilistic electricity-load forecasts across several national and competition datasets.",
+    "note": "Verified from the JASA article and official Figshare supplement. The record exposes three electricity datasets, preprocessing and model scripts, a qgam source snapshot, README files, and the complete supplementary article."
+  },
+  {
+    "id": "econometrica-bootstrap-fixed-effect-models",
+    "title": "Bootstrap Inference for Fixed-Effect Models",
+    "authors": "Ayden Higgins, Koen Jochmans",
+    "year": 2024,
+    "citations": 14,
+    "dataset": "Zenodo replication package with Matlab programs, reference outputs, and documentation reproducing all simulation tables for bootstrap inference in nonlinear fixed-effect models",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.10440011",
+    "paperUrl": "https://doi.org/10.3982/ecta20712",
+    "access": "open",
+    "formats": [
+      "Matlab code",
+      "simulation outputs",
+      "PDF README",
+      "replication ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "panel-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Reproducing finite-sample bootstrap comparisons for fixed-effect estimators and studying bias and inference as the number of units and observations per unit vary.",
+    "note": "Verified from the Econometrica article and Zenodo replication package. The archive contains separate test and replication directories, Matlab programs for both reported tables, reference outputs, and a detailed README."
   }
 ]
