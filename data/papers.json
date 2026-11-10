@@ -71807,5 +71807,283 @@
     ],
     "bestFor": "Reproducing finite-sample bootstrap comparisons for fixed-effect estimators and studying bias and inference as the number of units and observations per unit vary.",
     "note": "Verified from the Econometrica article and Zenodo replication package. The archive contains separate test and replication directories, Matlab programs for both reported tables, reference outputs, and a detailed README."
+  },
+  {
+    "id": "gloepi-sensitivity-random-measurement-error",
+    "title": "Sensitivity Analysis for Random Measurement Error Using Regression Calibration and Simulation-Extrapolation",
+    "authors": "Linda Nab, Rolf H. H. Groenwold",
+    "year": 2021,
+    "citations": 3,
+    "dataset": "Zenodo replication release with R generators, SIMEX and regression-calibration implementations, scenario inputs, Monte Carlo summaries, and saved outputs for linear and logistic regression experiments",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.5726886",
+    "paperUrl": "https://doi.org/10.1016/j.gloepi.2021.100067",
+    "access": "open",
+    "formats": [
+      "R code",
+      "RData",
+      "RDS",
+      "simulation outputs",
+      "replication ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Comparing regression calibration and SIMEX sensitivity analyses across controlled measurement-error scenarios, including linear and logistic outcome models.",
+    "note": "Verified from the Global Epidemiology DOI and the linked Zenodo release. The 142-file archive includes scenario generators, R input objects, analysis scripts, Monte Carlo summaries, and saved simulation results."
+  },
+  {
+    "id": "restud-stochastic-revealed-preferences-measurement-error",
+    "title": "Stochastic Revealed Preferences with Measurement Error",
+    "authors": "Victor H. Aguiar, Nail Kashaev",
+    "year": 2020,
+    "citations": 26,
+    "dataset": "Zenodo replication package with individual and couple choice datasets, raw Matlab inputs, prepared CSV files, Julia estimation and testing programs, R preprocessing scripts, simulation designs, and reference outputs",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.4007866",
+    "paperUrl": "https://doi.org/10.1093/restud/rdaa067",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "MAT files",
+      "Julia code",
+      "R code",
+      "replication ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Testing stochastic revealed-preference restrictions when consumption choices are measured with error and reproducing empirical applications to individual and household decision data.",
+    "note": "Verified from the Review of Economic Studies DOI and Zenodo replication package. The archive exposes five prepared choice datasets, raw inputs, data-preparation scripts, simulation programs, and reported-output files."
+  },
+  {
+    "id": "aje-internal-validation-measurement-error",
+    "title": "Sampling Strategies for Internal Validation Samples for Exposure Measurement-Error Correction: A Study of Visceral Adipose Tissue Measures Replaced by Waist Circumference Measures",
+    "authors": "Linda Nab, Maarten van Smeden, Renee de Mutsert, Frits R. Rosendaal, Rolf H. H. Groenwold",
+    "year": 2021,
+    "citations": 5,
+    "dataset": "Zenodo analysis archive with synthetic NEO-style validation data, R workflows for random, extreme, and uniform validation sampling, regression-calibration estimators, complete-case comparisons, and saved results",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.4648836",
+    "paperUrl": "https://doi.org/10.1093/aje/kwab114",
+    "access": "open",
+    "formats": [
+      "RDS",
+      "R code",
+      "shell scripts",
+      "PDF figures",
+      "replication ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "synthetic-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Evaluating how internal-validation sampling designs affect regression-calibration correction when an inexpensive surrogate replaces an error-prone exposure measurement.",
+    "note": "Verified from the American Journal of Epidemiology DOI and the linked Zenodo/GitHub snapshot. The archive contains a synthetic validation dataset, scripts for three sampling strategies, four correction analyses, and saved summaries."
+  },
+  {
+    "id": "ecoevo-sharing-morphometric-measurement-error",
+    "title": "Sharing Is Caring? Measurement Error and the Issues Arising from Combining 3D Morphometric Datasets",
+    "authors": "Carmelo Fruciano, Melina A. Celik, Kaylene Butler, Tom Dooley, Vera Weisbecker, Matthew J. Phillips",
+    "year": 2017,
+    "citations": 75,
+    "dataset": "Dryad deposit with raw 3D landmark coordinates, generalized Procrustes analysis inputs, and posterior phylogenetic tree distributions for assessing operator and device measurement error",
+    "datasetUrl": "https://doi.org/10.5061/dryad.t9888",
+    "paperUrl": "https://doi.org/10.1002/ece3.3256",
+    "access": "open",
+    "formats": [
+      "TXT",
+      "ZIP",
+      "3D landmark coordinates",
+      "phylogenetic tree samples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Quantifying device, operator, and landmark-selection measurement error in pooled geometric-morphometric studies and assessing its effect on phylogenetic signal.",
+    "note": "Verified from the Ecology and Evolution DOI and its cited Dryad dataset. The public deposit exposes raw coordinate data, analysis inputs, and a 37 MB archive of posterior tree distributions."
+  },
+  {
+    "id": "jas-edit-imputation-disclosure-limitation",
+    "title": "Simultaneous Edit-Imputation and Disclosure Limitation for Business Establishment Data",
+    "authors": "Hang J. Kim, Jerome P. Reiter, Alan F. Karr",
+    "year": 2016,
+    "citations": 7,
+    "dataset": "Official Figshare journal supplement documenting the Census of Manufactures edit-imputation and synthetic-data workflow, utility evaluations, and disclosure-risk assessments for business establishment microdata",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.4476140.v1",
+    "paperUrl": "https://doi.org/10.1080/02664763.2016.1267123",
+    "access": "open",
+    "formats": [
+      "supplementary PDF",
+      "journal supplement"
+    ],
+    "properties": [
+      "supplementary-materials",
+      "synthetic-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical disclosure control",
+      "survey methodology"
+    ],
+    "bestFor": "Studying integrated edit-imputation and confidentiality-preserving synthetic microdata for establishment surveys while balancing analytic utility and disclosure risk.",
+    "note": "Verified from the Journal of Applied Statistics DOI and its official Figshare supplement. Figshare explicitly links the article and provides the downloadable supplementary PDF; the underlying establishment microdata remain confidential."
+  },
+  {
+    "id": "ploscb-deep-rl-optimal-design-biology",
+    "title": "Deep Reinforcement Learning for Optimal Experimental Design in Biology",
+    "authors": "Neythen J. Treloar, Nathan Braniff, Brian Ingalls, Chris P. Barnes",
+    "year": 2022,
+    "citations": 36,
+    "dataset": "Zenodo figure-data release with NumPy arrays, plotting programs, and generated outputs for sequential optimal-design experiments, including supplementary figures and reported tables",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.6521194",
+    "paperUrl": "https://doi.org/10.1371/journal.pcbi.1010695",
+    "access": "open",
+    "formats": [
+      "NumPy arrays",
+      "Python code",
+      "ZIP",
+      "figure data",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Reproducing sequential experimental-design comparisons in which reinforcement-learning policies choose informative measurements for nonlinear biological systems.",
+    "note": "Verified from the PLOS Computational Biology DOI and Zenodo figure-data record. The deposit provides data and plotting code for all main and supplementary figures and tables in eight downloadable archives."
+  },
+  {
+    "id": "sysbio-robust-coalescent-experimental-design",
+    "title": "Robust Design for Coalescent Model Inference",
+    "authors": "Kris V. Parag, Oliver G. Pybus",
+    "year": 2019,
+    "citations": 31,
+    "dataset": "Dryad replication archive with Matlab implementations, simulated coalescent sampling-design data, Fisher-information calculations, example outputs, and documentation for temporal and structured sampling designs",
+    "datasetUrl": "https://doi.org/10.5061/dryad.n7rm21c",
+    "paperUrl": "https://doi.org/10.1093/sysbio/syz008",
+    "access": "open",
+    "formats": [
+      "MAT files",
+      "Matlab code",
+      "EPS",
+      "FIG",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Exploring robust temporal and spatial sampling designs for coalescent demographic inference using Fisher-information criteria and simulated genealogical experiments.",
+    "note": "Verified from the Systematic Biology DOI and its cited Dryad deposit. The archive includes Matlab design routines, a simulated 5,000-tip MAT dataset, plotted examples, and a README mapping files to analyses."
+  },
+  {
+    "id": "ecoevo-bayesian-tag-recovery-power",
+    "title": "Prior Choice and Data Requirements of Bayesian Multivariate Hierarchical Models Fit to Tag-Recovery Data: The Need for Power Analyses",
+    "authors": "Cody E. Deane, Lindsay G. Carlson, Curry J. Cunningham, Pat Doak, Knut Kielland, Greg A. Breed",
+    "year": 2023,
+    "citations": 2,
+    "dataset": "Dryad deposit with mallard tag-recovery histories, simulated monitoring-intensity scenarios, fitted posterior objects for three prior specifications, and detailed reuse documentation",
+    "datasetUrl": "https://doi.org/10.5061/dryad.hmgqnk9h6",
+    "paperUrl": "https://doi.org/10.1002/ece3.9847",
+    "access": "open",
+    "formats": [
+      "TXT",
+      "RDS",
+      "Markdown README",
+      "tag-recovery data",
+      "posterior samples"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "longitudinal-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "power analysis",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "survival analysis",
+      "longitudinal data analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Assessing prior sensitivity and sample-size requirements for multivariate hierarchical survival and recovery models fitted to longitudinal tag-recovery studies.",
+    "note": "Verified from the Ecology and Evolution DOI and its Dryad dataset. The deposit exposes empirical mallard histories, four monitoring-intensity simulations, three large fitted posterior objects, and a detailed README."
+  },
+  {
+    "id": "srep-adaptive-melodic-discrimination",
+    "title": "Applying Modern Psychometric Techniques to Melodic Discrimination Testing: Item Response Theory, Computerised Adaptive Testing, and Automatic Item Generation",
+    "authors": "Peter M. C. Harrison, Tom Collins, Daniel Mullensiefen",
+    "year": 2017,
+    "citations": 58,
+    "dataset": "Zenodo test-materials release with the final adaptive melodic-discrimination item bank, audio stimuli, corrected item-level psychometric data, and easier items added during the third calibration study",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.3745477",
+    "paperUrl": "https://doi.org/10.1038/s41598-017-03586-z",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "audio stimuli",
+      "ZIP",
+      "item bank",
+      "psychometric data"
+    ],
+    "properties": [
+      "replication-data",
+      "item-response-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "item response theory",
+      "computerized adaptive testing"
+    ],
+    "bestFor": "Building and evaluating computerized adaptive tests from calibrated auditory items, including IRT item analysis, item-bank expansion, and automatic item generation.",
+    "note": "Verified from the Scientific Reports DOI and the authors' Zenodo deposit. The 1.17 GB archive supplies the final item bank, test stimuli, and a corrected melodic_discrimination_psych_data.csv file."
   }
 ]
