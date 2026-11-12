@@ -72085,5 +72085,297 @@
     ],
     "bestFor": "Building and evaluating computerized adaptive tests from calibrated auditory items, including IRT item analysis, item-bank expansion, and automatic item generation.",
     "note": "Verified from the Scientific Reports DOI and the authors' Zenodo deposit. The 1.17 GB archive supplies the final item bank, test stimuli, and a corrected melodic_discrimination_psych_data.csv file."
+  },
+  {
+    "id": "ejor-stochastic-derivatives-max-stable-fields",
+    "title": "Stochastic Derivative Estimation for Max-Stable Random Fields",
+    "authors": "Erwan Koch, Christian Y. Robert",
+    "year": 2021,
+    "citations": 4,
+    "dataset": "Zenodo replication deposit with seasonal-maxima observations, spatial coordinates, initialized model objects, R and C++ implementations, goodness-of-fit routines, and simulation-study scripts for max-stable fields",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.5913865",
+    "paperUrl": "https://doi.org/10.1016/j.ejor.2021.12.026",
+    "access": "open",
+    "formats": [
+      "RData",
+      "R code",
+      "C++ code",
+      "spatial maxima",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Reproducing likelihood-ratio and infinitesimal-perturbation derivative estimators for spatial max-stable models and comparing them in simulation and environmental-maxima applications.",
+    "note": "Verified from the European Journal of Operational Research DOI and its Zenodo supplement. The deposit exposes ten individual data and code files, including seasonal maxima, coordinates, simulation code, and goodness-of-fit functions."
+  },
+  {
+    "id": "cjm-compositional-microbiome-analysis",
+    "title": "Compositional Analysis: A Valid Approach to Analyze Microbiome High-Throughput Sequencing Data",
+    "authors": "Gregory B. Gloor, Gregor Reid",
+    "year": 2016,
+    "citations": 383,
+    "dataset": "Zenodo supplement with probiotic-study sample metadata, high-throughput taxon counts, Hsiao microbiome data, color annotations, compositional-analysis functions, and complete reproducible workshop source",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.49579",
+    "paperUrl": "https://doi.org/10.1139/cjm-2015-0821",
+    "access": "open",
+    "formats": [
+      "TXT",
+      "R code",
+      "Rnw",
+      "PDF",
+      "replication ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "high-dimensional-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Teaching and reproducing log-ratio analyses of sparse microbiome sequencing tables while studying how relative abundance and library-size constraints affect inference.",
+    "note": "Verified from the Canadian Journal of Microbiology DOI and the authors' Zenodo/GitHub supplement. The archive contains three microbiome data tables, reusable R functions, and source for every figure in the paper."
+  },
+  {
+    "id": "mbe-empirical-phylogenetic-mcmc-diagnostics",
+    "title": "Properties of Markov Chain Monte Carlo Performance across Many Empirical Alignments",
+    "authors": "Sean M. Harrington, Van Wishingrad, Robert C. Thomson",
+    "year": 2020,
+    "citations": 29,
+    "dataset": "Two companion Dryad archives containing empirical sequence alignments and complete phylogenetic MCMC outputs for more than 18,000 analyses, with repository readmes and public analysis scripts",
+    "datasetUrl": "https://doi.org/10.5061/dryad.g4vp6jv",
+    "paperUrl": "https://doi.org/10.1093/molbev/msaa295",
+    "access": "open",
+    "formats": [
+      "TAR blocks",
+      "sequence alignments",
+      "MCMC outputs",
+      "TXT README",
+      "GitHub analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "large-scale-data",
+      "mcmc-output",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mcmc diagnostics",
+      "bayesian inference"
+    ],
+    "bestFor": "Benchmarking effective sample size, split-frequency, potential-scale-reduction, topology, and convergence diagnostics across a large collection of empirical Bayesian phylogenetic analyses.",
+    "note": "Verified from the Molecular Biology and Evolution data-availability statement and both Dryad deposits. The primary archive is about 188 GB and the companion part-II archive is available at doi:10.5061/dryad.b568p21; public scripts are linked from the paper."
+  },
+  {
+    "id": "mlst-sbi-single-molecule-force-spectroscopy",
+    "title": "Simulation-Based Inference of Single-Molecule Force Spectroscopy",
+    "authors": "Lars Dingeldein, Pilar Cossio, Roberto Covino",
+    "year": 2023,
+    "citations": 11,
+    "dataset": "Zenodo code-and-data archive reproducing the paper's single-molecule force-spectroscopy simulations, trained inference workflows, posterior analyses, and figure outputs",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.7717522",
+    "paperUrl": "https://doi.org/10.1088/2632-2153/acc8b8",
+    "access": "open",
+    "formats": [
+      "simulation data",
+      "Python code",
+      "trained inference outputs",
+      "ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "simulation-based inference",
+      "bayesian inference"
+    ],
+    "bestFor": "Testing neural simulation-based posterior inference when likelihood evaluation is impractical but mechanistic force-spectroscopy simulators and observed trajectories are available.",
+    "note": "Verified from the Machine Learning: Science and Technology DOI and its Zenodo deposit. The public 9.5 GB archive is explicitly described as the code and data required to reproduce the paper's figures."
+  },
+  {
+    "id": "jae-state-space-multispecies-stock-assessment",
+    "title": "Performance of a State-Space Multispecies Model: What Are the Consequences of Ignoring Predation and Process Errors in Stock Assessments?",
+    "authors": "Vanessa Trijoulet, Gavin Fay, Timothy J. Miller",
+    "year": 2019,
+    "citations": 56,
+    "dataset": "Zenodo replication release with 1,000 simulated multispecies stock-assessment datasets, initial values, R fitting workflows, TMB C++ model code, and mapping functions for alternative process-error specifications",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.3407513",
+    "paperUrl": "https://doi.org/10.1111/1365-2664.13515",
+    "access": "open",
+    "formats": [
+      "RData",
+      "R code",
+      "C++ code",
+      "simulation data",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Studying observation and process error in latent state-space stock assessments and quantifying bias from omitting predation in multispecies population dynamics.",
+    "note": "Verified from the Journal of Applied Ecology DOI and the authors' Zenodo release. The deposit includes a 666 MB RData file with 1,000 simulated datasets plus complete R and TMB fitting code."
+  },
+  {
+    "id": "joss-heatwaver-extreme-event-detection",
+    "title": "heatwaveR: A Central Algorithm for the Detection of Heatwaves and Cold-Spells",
+    "authors": "Robert W. Schlegel, Albertus Jacobus Smit",
+    "year": 2018,
+    "citations": 335,
+    "dataset": "Archived heatwaveR source package with Algiers air temperatures, Mediterranean, Northwest Atlantic, and Western Australia sea-surface temperatures, event-detection functions, gridded workflows, tests, and six vignettes",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.4431715",
+    "paperUrl": "https://doi.org/10.21105/joss.00821",
+    "access": "open",
+    "formats": [
+      "R package",
+      "RData",
+      "R code",
+      "R Markdown vignettes",
+      "C++ code"
+    ],
+    "properties": [
+      "software",
+      "package-data",
+      "time-series-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "time series analysis",
+      "spatio-temporal models",
+      "spatial statistics"
+    ],
+    "bestFor": "Detecting, categorizing, and visualizing threshold-defined heatwaves and cold spells in atmospheric, marine, and gridded temperature series.",
+    "note": "Verified from the JOSS DOI and archived package source. The release contains four documented real datasets, executable detection and visualization vignettes, gridded-event examples, tests, and implementation code."
+  },
+  {
+    "id": "jcgs-bayesian-change-point-variable-selection",
+    "title": "The Bayesian Change Point and Variable Selection Algorithm: Application to the Delta-18O Proxy Record of the Plio-Pleistocene",
+    "authors": "Eric Ruggieri, Charles E. Lawrence",
+    "year": 2014,
+    "citations": 14,
+    "dataset": "Official Figshare supplement with the Plio-Pleistocene oxygen-isotope proxy series, simulated change-point data, Matlab dynamic-programming and direct-sampling implementations, a detailed README, and online appendix",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.963476.v3",
+    "paperUrl": "https://doi.org/10.1080/10618600.2012.707852",
+    "access": "open",
+    "formats": [
+      "MAT files",
+      "TXT",
+      "Matlab code",
+      "DOCX appendix",
+      "replication ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "time-series-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "bayesian inference",
+      "time series analysis",
+      "variable selection"
+    ],
+    "bestFor": "Reproducing exact Bayesian segmentation and within-segment variable selection for long proxy records whose regression relationships can change over time.",
+    "note": "Verified from the Journal of Computational and Graphical Statistics DOI and linked Figshare supplement. The archive contains the oxygen-isotope series, simulated datasets, and nine Matlab programs implementing the analysis."
+  },
+  {
+    "id": "jas-extreme-value-individuals-control-charts",
+    "title": "Extreme Value Theory for Individuals Control Charts: A Semiparametric Approach to Ensuring In-Control Performance",
+    "authors": "Hong-Ji Yang, Chung-I Li",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official Figshare journal supplement documenting simulation designs, tail estimators, control-limit construction, coverage evaluations, and semiconductor-manufacturing applications for semiparametric individuals charts",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.30101373.v1",
+    "paperUrl": "https://doi.org/10.1080/02664763.2025.2554805",
+    "access": "open",
+    "formats": [
+      "supplementary PDF",
+      "journal supplement"
+    ],
+    "properties": [
+      "supplementary-materials",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "extreme value analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Designing Phase I individuals control charts with guaranteed in-control coverage when tail behavior is estimated semiparametrically from small or moderate reference samples.",
+    "note": "Verified from the Journal of Applied Statistics DOI and official Figshare supplement. Figshare explicitly links the paper and supplies its downloadable methodological and simulation appendix."
+  },
+  {
+    "id": "jole-indirect-variational-inference-earnings",
+    "title": "Indirect Variational Inference: Applications to Earnings Dynamics",
+    "authors": "Neele Balke, Stephane Bonhomme, Thibaut Lamadon",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication package with simulated panel generators, variational and sequential-Monte-Carlo implementations, precomputed estimates and bootstrap summaries, and documented links and checksums for the ICPSR-PSID earnings inputs",
+    "datasetUrl": "https://doi.org/10.7910/DVN/X7CAT0",
+    "paperUrl": "https://doi.org/10.3386/w35877",
+    "access": "open-link",
+    "formats": [
+      "Python code",
+      "Jupyter notebook",
+      "JSON outputs",
+      "simulation data",
+      "replication ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variational inference",
+      "bayesian inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Comparing indirect and direct variational inference in nonlinear earnings-dynamics models using controlled panels and a documented PSID household-year application.",
+    "note": "Verified from the NBER paper record, Journal of Labor Economics Dataverse collection, and archive README. The 154-file package includes all simulation outputs and code; PSID microdata are obtained separately from openICPSR project 210782 under standard PSID terms."
   }
 ]
