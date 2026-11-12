@@ -72377,5 +72377,758 @@
     ],
     "bestFor": "Comparing indirect and direct variational inference in nonlinear earnings-dynamics models using controlled panels and a documented PSID household-year application.",
     "note": "Verified from the NBER paper record, Journal of Labor Economics Dataverse collection, and archive README. The 154-file package includes all simulation outputs and code; PSID microdata are obtained separately from openICPSR project 210782 under standard PSID terms."
+  },
+  {
+    "id": "restud-selection-surveys-randomized-incentives",
+    "title": "Selection in Surveys: Using Randomized Incentives to Detect and Account for Nonresponse Bias",
+    "authors": "Deniz Dutz, Ingrid Huitfeldt, Santiago Lacouture, Magne Mogstad, Alexander Torgovitsky, Winnie van Dijk",
+    "year": 2021,
+    "citations": 34,
+    "dataset": "Zenodo replication package with the Norge i Koronatid survey experiment, linked administrative-data analysis files, randomized incentive and reminder specifications, code, and documentation for nonresponse-bias tests and adjustments",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.16259430",
+    "paperUrl": "https://doi.org/10.3386/w29549",
+    "access": "open",
+    "formats": [
+      "replication ZIP",
+      "README PDF",
+      "survey experiment data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "linked-administrative-data",
+      "randomized-experiment",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "nonresponse adjustment",
+      "missing data",
+      "randomized experiments",
+      "survey experiments",
+      "causal inference"
+    ],
+    "bestFor": "Testing and correcting survey nonresponse bias with randomized participation incentives, reminder variation, and linked population-register outcomes that reveal participant-nonparticipant differences.",
+    "note": "Verified from the NBER paper record and the Review of Economic Studies Zenodo community. The open 43 MB package contains a README and replication archive for the survey experiment and linked-data analyses."
+  },
+  {
+    "id": "pa-stacked-regression-poststratification",
+    "title": "Stacked Regression and Poststratification",
+    "authors": "Joseph T. Ornstein",
+    "year": 2020,
+    "citations": 22,
+    "dataset": "Harvard Dataverse replication archive with survey and poststratification inputs, simulation materials, and code for stacked ensemble estimation of local-area public opinion",
+    "datasetUrl": "https://doi.org/10.7910/DVN/PRDURU",
+    "paperUrl": "https://doi.org/10.1017/pan.2019.43",
+    "access": "open",
+    "formats": [
+      "ZIP",
+      "survey data",
+      "simulation data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "multilevel modeling",
+      "survey weighting"
+    ],
+    "bestFor": "Comparing classical multilevel regression and poststratification with stacked ensembles for small-area opinion estimation under nonlinear interactions and limited local samples.",
+    "note": "Verified from the Political Analysis article and Harvard Dataverse metadata. The public 223 MB archive is explicitly identified as the complete replication data and code for the paper."
+  },
+  {
+    "id": "pa-mrp-conventional-national-surveys",
+    "title": "How Does Multilevel Regression and Poststratification Perform with Conventional National Surveys?",
+    "authors": "Matthew K. Buttice, Benjamin Highton",
+    "year": 2013,
+    "citations": 110,
+    "dataset": "Harvard Dataverse replication archive with large national opinion-survey samples, poststratification inputs, Monte Carlo experiments, and code for evaluating state-level MRP performance",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CJUG8F",
+    "paperUrl": "https://doi.org/10.1093/pan/mpt017",
+    "access": "open",
+    "formats": [
+      "ZIP",
+      "survey data",
+      "simulation data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "multilevel modeling",
+      "survey weighting"
+    ],
+    "bestFor": "Evaluating when MRP succeeds or fails for state-level estimation from conventional national samples by varying sample size, covariate strength, and geographic opinion structure.",
+    "note": "Verified from the Political Analysis DOI and Harvard Dataverse record. The open 8.2 MB replication ZIP supports the paper's empirical analyses of 89 survey items and its controlled simulations."
+  },
+  {
+    "id": "pa-mrp-eurobarometer-performance",
+    "title": "Exploring the Performance of Multilevel Modeling and Poststratification with Eurobarometer Data",
+    "authors": "Dimiter Toshkov",
+    "year": 2015,
+    "citations": 10,
+    "dataset": "Harvard Dataverse replication collection with Eurobarometer analysis scripts, census and population-weight inputs, variable definitions, and ten item-specific MRP workflows",
+    "datasetUrl": "https://doi.org/10.7910/DVN/29488",
+    "paperUrl": "https://doi.org/10.1093/pan/mpv009",
+    "access": "open",
+    "formats": [
+      "R code",
+      "TXT",
+      "population weights",
+      "survey variable definitions"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "multilevel modeling",
+      "survey weighting"
+    ],
+    "bestFor": "Assessing MRP with representative country-level Eurobarometer benchmarks by repeatedly subsampling pooled surveys and reconstructing national means using census poststratification.",
+    "note": "Verified from the Political Analysis article, which links the Dataverse archive directly. The collection exposes 15 downloadable scripts and data-support files covering census construction, population weights, and ten survey outcomes."
+  },
+  {
+    "id": "eeh-record-linkage-character-surnames",
+    "title": "Record Linkage for Character-Based Surnames: Evidence from Chinese Exclusion",
+    "authors": "Hannah M. Postel",
+    "year": 2023,
+    "citations": 11,
+    "dataset": "Harvard Dataverse replication collection with a 1.69 GB linked census panel, Chinese surname dictionaries, transliteration and name-cleaning code, validation scripts, and match-balance analyses",
+    "datasetUrl": "https://doi.org/10.7910/DVN/LWPOJQ",
+    "paperUrl": "https://doi.org/10.1016/j.eeh.2022.101493",
+    "access": "open",
+    "formats": [
+      "Stata data",
+      "Stata code",
+      "TSV",
+      "XLSX",
+      "linked census records"
+    ],
+    "properties": [
+      "replication-data",
+      "record-linkage-data",
+      "large-scale-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "record linkage"
+    ],
+    "bestFor": "Developing and validating language-specific preprocessing for probabilistic historical record linkage when character-based surnames, transliteration, and enumeration errors depress baseline match rates.",
+    "note": "Verified from the journal DOI, Duke publication record, and Harvard Dataverse file manifest. The archive includes the linked 1900-1910 panel, surname resources, cleaning and matching programs, and independent validation workflows."
+  },
+  {
+    "id": "mee-multiple-imputation-meta-regression",
+    "title": "Using Multiple Imputation to Estimate Missing Data in Meta-Regression",
+    "authors": "E. Hance Ellington, Guillaume Bastille-Rousseau, Cayla Austin, Kristen N. Landolt, Bruce A. Pond, Erin E. Rees, Nicholas Robar, Dennis L. Murray",
+    "year": 2015,
+    "citations": 79,
+    "dataset": "Dryad archive with the complete Rees and Robar ecological meta-regression datasets, plus journal supplements containing missingness scenarios, imputation diagnostics, and executable R source code",
+    "datasetUrl": "https://doi.org/10.5061/dryad.m2v4m",
+    "paperUrl": "https://doi.org/10.1111/2041-210X.12322",
+    "access": "open",
+    "formats": [
+      "meta-analysis data",
+      "R code",
+      "TXT",
+      "DOCX supplement"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "meta-analysis"
+    ],
+    "bestFor": "Benchmarking multiple imputation against complete-case analysis in meta-regression across MCAR, MAR, and MNAR scenarios, missing effect sizes, weights, and predictors.",
+    "note": "Verified from the Methods in Ecology and Evolution data-accessibility statement and supporting-information table. The paper links the Dryad datasets and supplies sample and source R code for generating missingness and evaluating imputation performance."
+  },
+  {
+    "id": "bmcrm-mnar-action-sensitivity-analysis",
+    "title": "Missing Not at Random in End of Life Care Studies: Multiple Imputation and Sensitivity Analysis on Data from the ACTION Study",
+    "authors": "Giulia Carreras, Guido Miccinesi, Andrew Wilcock, Nancy J. Preston, Daan Nieboer, Luc Deliens, Mogens Gronvold, Urska Lunder, Agnes van der Heide, Michela Baccini",
+    "year": 2021,
+    "citations": 48,
+    "dataset": "Open journal supplement with ACTION cluster-trial missingness definitions, MAR and MNAR multiple-imputation specifications, sensitivity-analysis results, and supporting tables for longitudinal quality-of-life outcomes",
+    "datasetUrl": "https://zenodo.org/records/4431066",
+    "paperUrl": "https://doi.org/10.1186/s12874-020-01180-y",
+    "access": "open",
+    "formats": [
+      "DOCX supplement",
+      "PDF supplement",
+      "journal article",
+      "supporting tables"
+    ],
+    "properties": [
+      "supplementary-materials",
+      "longitudinal-data",
+      "cluster-randomized-trial",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "nonignorable missing data",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Reproducing sensitivity analyses that separate item-level MAR missingness from questionnaire-level MNAR dropout in longitudinal cluster-trial quality-of-life data.",
+    "note": "Verified from the BMC Medical Research Methodology record mirrored on Zenodo. The open deposit provides the article and two downloadable supplements documenting the ACTION data structure, imputation models, and sensitivity results."
+  },
+  {
+    "id": "joss-cre-heterogeneous-treatment-effects",
+    "title": "CRE: An R Package for Interpretable Discovery and Inference of Heterogeneous Treatment Effects",
+    "authors": "Riccardo Cadei, Naeem Khoshnevis, Kwonsang Lee, Daniela Maria Garcia, Falco J. Bargagli Stoffi",
+    "year": 2023,
+    "citations": 9,
+    "dataset": "Archived CRE R package with synthetic treatment-effect generators, reproducible examples, causal-rule-ensemble implementations, honest discovery and inference workflows, and package documentation",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.10278296",
+    "paperUrl": "https://doi.org/10.21105/joss.05587",
+    "access": "open",
+    "formats": [
+      "R package",
+      "R code",
+      "simulation data",
+      "vignettes",
+      "package documentation"
+    ],
+    "properties": [
+      "software",
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "heterogeneous treatment effects",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Discovering stable, interpretable treatment-effect subgroups with causal rule ensembles and evaluating heterogeneous-effect recovery on synthetic data with known individual effects.",
+    "note": "Verified from the JOSS article and its linked software archive. The package documents a configurable synthetic-data generator and complete discovery, stability-selection, honest-inference, prediction, and visualization workflows."
+  },
+  {
+    "id": "pa-record-linkage-text-embeddings",
+    "title": "Probabilistic Record Linkage Using Pretrained Text Embeddings",
+    "authors": "Joseph T. Ornstein",
+    "year": 2025,
+    "citations": 5,
+    "dataset": "Harvard Dataverse archive with 235 files spanning hand-labeled record pairs, multilingual cities, political organizations and parties, pretrained embedding features, validation outputs, and complete R linkage workflows",
+    "datasetUrl": "https://doi.org/10.7910/DVN/7U5KEJ",
+    "paperUrl": "https://doi.org/10.1017/pan.2025.10016",
+    "access": "open",
+    "formats": [
+      "RData",
+      "R code",
+      "TSV",
+      "XLSX",
+      "labeled record pairs"
+    ],
+    "properties": [
+      "replication-data",
+      "record-linkage-data",
+      "multilingual-data",
+      "large-scale-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "record linkage"
+    ],
+    "bestFor": "Evaluating probabilistic linkage with semantic embeddings across lexical variation, multilingual names, organizations, cities, and parties using hand-labeled precision and recall benchmarks.",
+    "note": "Verified from the Political Analysis DOI and Harvard Dataverse API. The 235-file archive includes large candidate sets, hand-coded labels, embedding and fastLink comparisons, country-level examples, and scripts for every application."
+  },
+  {
+    "id": "pa-adaptive-fuzzy-string-matching",
+    "title": "Adaptive Fuzzy String Matching: How to Merge Datasets with Only One (Messy) Identifying Field",
+    "authors": "Aaron Russell Kaufman, Aja Klevs",
+    "year": 2021,
+    "citations": 17,
+    "dataset": "Harvard Dataverse replication collection with 55 files containing organization, place, and individual matching datasets, hand-labeled pairs, fitted adaptive models, and Python and R workflows",
+    "datasetUrl": "https://doi.org/10.7910/DVN/4031UL",
+    "paperUrl": "https://doi.org/10.1017/pan.2021.38",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "TSV",
+      "Python code",
+      "R code",
+      "trained models"
+    ],
+    "properties": [
+      "replication-data",
+      "record-linkage-data",
+      "large-scale-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "record linkage"
+    ],
+    "bestFor": "Benchmarking adaptive fuzzy matching when only one noisy identifier is available, including human-in-the-loop labels and organization, city, and person-level applications.",
+    "note": "Verified from the Political Analysis DOI and Dataverse file manifest. The public collection exposes more than 1 GB of candidate pairs and results plus reproducible Python and R implementations."
+  },
+  {
+    "id": "cjfr-bayesian-county-small-area-estimation",
+    "title": "Hierarchical Bayesian Models for Small Area Estimation of County-Level Private Forest Landowner Population",
+    "authors": "Neil R. Ver Planck, Andrew O. Finley, Emily Silver Huff",
+    "year": 2017,
+    "citations": 5,
+    "dataset": "Harvard Dataverse archive with county-level survey and auxiliary data, Fay-Herriot and conditional autoregressive model scripts, posterior summaries, and a complete reproducible R Markdown analysis",
+    "datasetUrl": "https://doi.org/10.7910/DVN/A3ROXD",
+    "paperUrl": "https://doi.org/10.1139/cjfr-2017-0154",
+    "access": "open",
+    "formats": [
+      "TSV",
+      "R code",
+      "R Markdown",
+      "PDF",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "spatial statistics",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing area-level Fay-Herriot and spatial conditional autoregressive Bayesian models for county estimates when direct survey samples are sparse.",
+    "note": "Verified from the Canadian Journal of Forest Research DOI and Harvard Dataverse. The nine-file archive contains the modeling data, separate nonspatial and CAR programs, summaries, and an executable analysis document."
+  },
+  {
+    "id": "pa-calibrated-small-area-public-opinion",
+    "title": "Improving Small-Area Estimates of Public Opinion by Calibrating to Known Population Quantities",
+    "authors": "William Marble, Joshua D. Clinton",
+    "year": 2026,
+    "citations": 1,
+    "dataset": "Harvard Dataverse replication archive with pre-election opinion-poll data, county and precinct auxiliary totals, poststratification inputs, calibration workflows, and complete small-area analyses",
+    "datasetUrl": "https://doi.org/10.7910/DVN/LGISTM",
+    "paperUrl": "https://doi.org/10.1017/pan.2026.10044",
+    "access": "open",
+    "formats": [
+      "replication ZIP",
+      "survey data",
+      "population controls",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "small-area-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "survey weighting",
+      "multilevel modeling",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "Calibrating MRP estimates to known auxiliary margins to reduce county error and extend estimates to nested geographies without direct poststratification data.",
+    "note": "Verified from the Political Analysis DOI and Harvard Dataverse. The open 2.19 GB replication ZIP supports the poll, referendum, county-calibration, and precinct-estimation analyses."
+  },
+  {
+    "id": "pa-sensitivity-analysis-survey-weights",
+    "title": "Sensitivity Analysis for Survey Weights",
+    "authors": "Erin Hartman, Melody Huang",
+    "year": 2023,
+    "citations": 27,
+    "dataset": "Harvard Dataverse replication package with 2020 state-level presidential polling data, survey weights, benchmarking variables, and code for partially observed and fully unobserved confounder sensitivity analyses",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YJSJEX",
+    "paperUrl": "https://doi.org/10.1017/pan.2023.12",
+    "access": "open",
+    "formats": [
+      "replication ZIP",
+      "survey data",
+      "R code",
+      "weighting diagnostics"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "survey weighting",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "Quantifying how omitted or unavailable adjustment variables could bias weighted survey estimates and benchmarking that sensitivity against observed covariates.",
+    "note": "Verified from the Political Analysis DOI and Dataverse description. The public 43 MB package is explicitly the full replication archive for both sensitivity procedures and the polling application."
+  },
+  {
+    "id": "ssrn-measuring-measurement-error",
+    "title": "Measuring Measurement Error",
+    "authors": "N. Aaron Pancost, Garrett Schaller",
+    "year": 2022,
+    "citations": 25,
+    "dataset": "Harvard Dataverse replication ZIP with assembled instrumental-variable data, Excel inputs, Stata and Matlab programs, table and figure outputs, and documentation for measurement-error estimators",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HOW3J4",
+    "paperUrl": "https://doi.org/10.2139/ssrn.4045772",
+    "access": "open",
+    "formats": [
+      "XLSX",
+      "Stata code",
+      "Matlab code",
+      "TXT",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Estimating and comparing measurement-error quantities in instrumental-variable settings with fully reproducible empirical inputs and cross-software implementations.",
+    "note": "Verified from the paper DOI and Harvard Dataverse. The archive description and README identify a complete one-megabyte package containing all data and code needed to reproduce every table and figure."
+  },
+  {
+    "id": "pa-list-experiments-measurement-error",
+    "title": "List Experiments with Measurement Error",
+    "authors": "Graeme Blair, Winston Chou, Kosuke Imai",
+    "year": 2019,
+    "citations": 67,
+    "dataset": "Harvard Dataverse replication package with list-experiment data, simulations, measurement-error diagnostics, model-misspecification tests, robust estimators, and empirical reanalysis code",
+    "datasetUrl": "https://doi.org/10.7910/DVN/L3GWNP",
+    "paperUrl": "https://doi.org/10.1017/pan.2018.56",
+    "access": "open",
+    "formats": [
+      "replication ZIP",
+      "survey experiment data",
+      "simulation data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "survey methodology",
+      "randomized experiments",
+      "survey experiments",
+      "causal inference"
+    ],
+    "bestFor": "Diagnosing nonstrategic measurement error in list experiments and comparing nonlinear least squares, maximum likelihood, and direct error-model estimators.",
+    "note": "Verified from the Political Analysis DOI and Dataverse metadata. The public 95 MB BCI materials archive contains the simulations, empirical studies, and open-source implementation used in the paper."
+  },
+  {
+    "id": "rfs-missing-financial-data",
+    "title": "Missing Financial Data",
+    "authors": "Svetlana Bryzgalova, Sven Lerner, Martin Lettau, Markus Pelger",
+    "year": 2024,
+    "citations": 90,
+    "dataset": "Harvard Dataverse replication package with financial characteristic panels, missingness experiments, imputation and portfolio-analysis code, and complete outputs for the paper",
+    "datasetUrl": "https://doi.org/10.7910/DVN/S9WCJB",
+    "paperUrl": "https://doi.org/10.1093/rfs/hhae036",
+    "access": "open",
+    "formats": [
+      "replication ZIP",
+      "panel data",
+      "analysis code",
+      "model outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Studying structured missingness and imputation in large financial panels while tracing downstream effects on cross-sectional prediction and portfolio construction.",
+    "note": "Verified from the Review of Financial Studies DOI and Harvard Dataverse. The open 216 MB replication archive is explicitly described as the paper's complete data and code package."
+  },
+  {
+    "id": "sm-reverse-causality-panel-simulation",
+    "title": "How to Deal With Reverse Causality Using Panel Data? Recommendations for Researchers Based on a Simulation Study",
+    "authors": "Lars Leszczensky, Tobias Wolbring",
+    "year": 2019,
+    "citations": 473,
+    "dataset": "Harvard Dataverse collection with Monte Carlo master programs and estimator-specific Stata scripts comparing pooled, random-effects, fixed-effects, first-difference, GMM, and multilevel panel models",
+    "datasetUrl": "https://doi.org/10.7910/DVN/PRXHPM",
+    "paperUrl": "https://doi.org/10.1177/0049124119882473",
+    "access": "open",
+    "formats": [
+      "Stata code",
+      "simulation programs",
+      "TXT README"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Comparing panel estimators under reverse causality, unobserved heterogeneity, and temporal-lag misspecification using controlled Monte Carlo designs.",
+    "note": "Verified from the Sociological Methods and Research DOI and Dataverse manifest. The five-file archive contains a master simulator, estimator modules, table programs, and execution documentation."
+  },
+  {
+    "id": "psrm-transformed-likelihood-dynamic-panels",
+    "title": "Transformed-Likelihood Estimators for Dynamic Panel Models with a Very Small T",
+    "authors": "Mark Alexander Pickup, Vincent C. Hopkins",
+    "year": 2020,
+    "citations": 3,
+    "dataset": "Harvard Dataverse replication ZIP with short dynamic-panel simulations, empirical examples, and code comparing orthogonal reparameterization estimators with fixed-effects, random-effects, and GMM alternatives",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YIQKN8",
+    "paperUrl": "https://doi.org/10.1017/psrm.2020.30",
+    "access": "open",
+    "formats": [
+      "replication ZIP",
+      "simulation data",
+      "panel data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Benchmarking transformed-likelihood estimators for persistent dynamic panels with very few time periods, especially where standard GMM estimators are weak or inefficient.",
+    "note": "Verified from the Political Science Research and Methods DOI and Harvard Dataverse. The public 12 MB archive contains the paper's complete simulation and empirical replication materials."
+  },
+  {
+    "id": "ajps-placebo-tests-causal-inference",
+    "title": "Placebo Tests for Causal Inference",
+    "authors": "Andrew C. Eggers, Guadalupe Tunon, Allan Dafoe",
+    "year": 2023,
+    "citations": 267,
+    "dataset": "Harvard Dataverse replication collection with a coded corpus of placebo-test papers, Google Scholar counts, codebook, and R code for reproducing the methodological evidence",
+    "datasetUrl": "https://doi.org/10.7910/DVN/3RR5RJ",
+    "paperUrl": "https://doi.org/10.1111/ajps.12818",
+    "access": "open",
+    "formats": [
+      "TSV",
+      "R code",
+      "TXT codebook",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "coded-literature-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference"
+    ],
+    "bestFor": "Studying outcome, treatment, and population placebo tests as diagnostics for bias and distributional assumptions using a coded empirical-methods corpus.",
+    "note": "Verified from the American Journal of Political Science DOI and Dataverse manifest. The archive exposes the coded counts, codebook, README, and figure-generation program."
+  },
+  {
+    "id": "ajps-causal-inference-latent-outcomes",
+    "title": "Causal Inference with Latent Outcomes",
+    "authors": "Lukas F. Stoetzer, Xiang Zhou, Marco R. Steenbergen",
+    "year": 2024,
+    "citations": 18,
+    "dataset": "Harvard Dataverse archive with 55 files containing two experimental application datasets, hierarchical item-response models, differential-item-functioning analyses, simulation code, and fitted outputs",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UZFWT7",
+    "paperUrl": "https://doi.org/10.1111/ajps.12871",
+    "access": "open",
+    "formats": [
+      "TSV",
+      "CSV",
+      "R code",
+      "RDS",
+      "PDF codebook"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "survey-experiment-data",
+      "item-response-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "latent variable models",
+      "item response theory",
+      "randomized experiments"
+    ],
+    "bestFor": "Estimating treatment effects on latent attitudes with hierarchical item-response models and diagnosing violations through differential item functioning.",
+    "note": "Verified from the American Journal of Political Science DOI and Dataverse API. The archive supplies raw and cleaned application data, complete simulation outputs, model code, and DIF diagnostics."
+  },
+  {
+    "id": "ajps-dynamic-causal-inference-panel",
+    "title": "A Framework for Dynamic Causal Inference in Political Science",
+    "authors": "Matthew Blackwell",
+    "year": 2012,
+    "citations": 118,
+    "dataset": "Harvard Dataverse replication collection with election-week panel data, stabilized-weighting models, balance diagnostics, sensitivity analyses, and R utilities for time-varying treatments",
+    "datasetUrl": "https://doi.org/10.7910/DVN/DSDD7W",
+    "paperUrl": "https://doi.org/10.1111/j.1540-5907.2012.00626.x",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "RData",
+      "R code",
+      "panel data"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "time-varying-treatment-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Estimating effects of sequential treatment strategies with panel data while avoiding post-treatment adjustment and evaluating balance and unmeasured-confounding sensitivity.",
+    "note": "Verified from the American Journal of Political Science DOI and Dataverse file descriptions. The archive includes cleaned 2000-2006 election panels and programs for weighting, balance, main estimates, and sensitivity checks."
+  },
+  {
+    "id": "psrm-explaining-fixed-random-effects-panel",
+    "title": "Explaining Fixed Effects: Random Effects Modeling of Time-Series Cross-Sectional and Panel Data",
+    "authors": "Andrew Bell, Kelvyn Jones",
+    "year": 2014,
+    "citations": 1579,
+    "dataset": "Harvard Dataverse replication package with Monte Carlo results, Stata programs, an empirical panel reanalysis, and an appendix comparing fixed-effects, random-effects, and Mundlak specifications",
+    "datasetUrl": "https://doi.org/10.7910/DVN/23415",
+    "paperUrl": "https://doi.org/10.1017/psrm.2014.7",
+    "access": "open",
+    "formats": [
+      "Stata data",
+      "Stata code",
+      "ZIP",
+      "PDF appendix"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing within- and between-effect recovery in fixed-effects and correlated random-effects panel models under balanced and unbalanced designs.",
+    "note": "Verified from the Political Science Research and Methods DOI and Dataverse. The archive provides simulation results, replication do-files, example data, and a worked methodological appendix."
+  },
+  {
+    "id": "psrm-reducing-phone-panel-attrition",
+    "title": "Reducing Attrition in Phone-Based Panel Surveys: Best Practices and Semi-Automation for Survey Workflows",
+    "authors": "Ala Alrababah, Marine Casalis, Daniel Masterson, Dominik Hangartner, Stefan Wehrli, Jeremy M. Weinstein",
+    "year": 2025,
+    "citations": 3,
+    "dataset": "Harvard Dataverse replication archive with a multi-year Syrian refugee phone-panel retention study, attrition analyses, enumerator workflow materials, and reproducible survey-management code",
+    "datasetUrl": "https://doi.org/10.7910/DVN/IL3IKY",
+    "paperUrl": "https://doi.org/10.1017/psrm.2025.6",
+    "access": "open",
+    "formats": [
+      "replication ZIP",
+      "panel survey data",
+      "workflow code",
+      "documentation"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "nonresponse adjustment",
+      "missing data",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Studying operational interventions that reduce attrition in phone-based panel surveys and linking fieldwork design to long-run retention and data quality.",
+    "note": "Verified from the Political Science Research and Methods DOI and Dataverse. The public 3.2 MB package reproduces the retention analyses and workflow framework for a panel maintained over four and a half years."
   }
 ]
