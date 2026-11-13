@@ -73130,5 +73130,997 @@
     ],
     "bestFor": "Studying operational interventions that reduce attrition in phone-based panel surveys and linking fieldwork design to long-run retention and data quality.",
     "note": "Verified from the Political Science Research and Methods DOI and Dataverse. The public 3.2 MB package reproduces the retention analyses and workflow framework for a panel maintained over four and a half years."
+  },
+  {
+    "id": "rj-gasmodel-score-driven-time-series",
+    "title": "gasmodel: An R Package for Generalized Autoregressive Score Models",
+    "authors": "Vladimír Holý",
+    "year": 2026,
+    "citations": 1,
+    "dataset": "gasmodel package data and worked forecasting examples, including the toilet_paper_sales time series used for score-driven estimation, simulation, and bootstrap prediction",
+    "datasetUrl": "https://CRAN.R-project.org/package=gasmodel",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-002",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "R code",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "resampling methods"
+    ],
+    "bestFor": "Estimating, simulating, and forecasting generalized autoregressive score models with a documented retail-demand series.",
+    "note": "Verified from the R Journal article and CRAN package documentation. The article works directly with the packaged toilet-paper-sales data and documents bootstrap and simulation workflows."
+  },
+  {
+    "id": "rj-stepreg-variable-selection",
+    "title": "StepReg: A Comprehensive and Intuitive R Package for Stepwise Regression Analysis",
+    "authors": "Junhui Li, Kai Hu, Xiaohuan Lu, Cesar B. Sotelo, Sushmita Nayak, Michael A. Lodato, Wenxin Liu, Lihua Julie Zhu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "StepReg package examples and reproducible analyses using the public lung survival dataset for forward, backward, stepwise, and best-subset regression",
+    "datasetUrl": "https://CRAN.R-project.org/package=StepReg",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-005",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "R code",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "survival-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variable selection",
+      "best subset selection",
+      "survival analysis",
+      "survival models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing classical stepwise and best-subset variable-selection procedures on a documented time-to-event dataset.",
+    "note": "Verified from the R Journal article and CRAN package page. The worked survival example uses the public lung dataset and exposes the complete model-selection workflow."
+  },
+  {
+    "id": "rj-geothinner-spatial-thinning",
+    "title": "GeoThinneR: An R Package for Efficient Spatial Thinning of Species Occurrences and Point Data",
+    "authors": "Jorge Mestre-Tomás",
+    "year": 2026,
+    "citations": 10,
+    "dataset": "Cleaned caretta and thunnus GBIF occurrence datasets distributed with GeoThinneR, plus article supplements for reproducing downloads, thinning, and diagnostics",
+    "datasetUrl": "https://CRAN.R-project.org/package=GeoThinneR",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-006",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "spatial point data",
+      "R code",
+      "supplementary files"
+    ],
+    "properties": [
+      "package-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Evaluating spatial thinning strategies on large, documented species-occurrence point datasets.",
+    "note": "Verified from the R Journal article, supplement, and CRAN package. The package includes cleaned Caretta and Thunnus occurrence records and reproducible acquisition scripts."
+  },
+  {
+    "id": "rj-hdbayes-historical-borrowing",
+    "title": "hdbayes: An R Package for Bayesian Analysis of Generalized Linear Models Using Historical Data",
+    "authors": "Ethan M. Alt, Xinxin Chen, Luiz M. Carvalho, Joseph G. Ibrahim",
+    "year": 2026,
+    "citations": 3,
+    "dataset": "ACTG 019 and ACTG 036 randomized HIV clinical-trial datasets distributed with hdbayes for Bayesian historical-data borrowing analyses",
+    "datasetUrl": "https://CRAN.R-project.org/package=hdbayes",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-010",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "R code",
+      "vignettes",
+      "supplementary files"
+    ],
+    "properties": [
+      "package-data",
+      "clinical-trial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "probabilistic programming",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "Studying commensurate and power-prior borrowing across randomized trials with reproducible Bayesian generalized linear models.",
+    "note": "Verified from the R Journal article and package documentation. Two ACTG trial datasets and the corresponding Bayesian analysis code are openly packaged."
+  },
+  {
+    "id": "rj-rts2-log-gaussian-cox-process",
+    "title": "Estimation of the Log Gaussian Cox Process Model with Point and Aggregated Case Data: The rts2 Package for R",
+    "authors": "Samuel I. Watson",
+    "year": 2026,
+    "citations": 3,
+    "dataset": "Reproducible rts2 analyses of gorilla nesting-site point data and North Carolina sudden infant death counts drawn from documented R spatial-data packages",
+    "datasetUrl": "https://CRAN.R-project.org/package=rts2",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-012",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "spatial point data",
+      "areal count data",
+      "R code"
+    ],
+    "properties": [
+      "package-data",
+      "spatial-data",
+      "count-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Comparing log-Gaussian Cox process estimation when cases are observed as points, area totals, or a mixture of both.",
+    "note": "Verified from the R Journal article and CRAN package. The worked examples link directly to public gorilla-nest and North Carolina SIDS datasets."
+  },
+  {
+    "id": "rj-priority-elastic-net",
+    "title": "Priority Elastic Net: A Hierarchical Framework for Heterogeneous Data Integration",
+    "authors": "Laila Qadir Musib, Helena Mouriño, Eunice Carrasquinha",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "R Journal supplementary archive and priorityelasticnet package examples for block-prioritized regularized regression with heterogeneous and partially missing predictors",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2026-019/RJ-2026-019.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-019",
+    "access": "open",
+    "formats": [
+      "supplementary ZIP",
+      "R code",
+      "simulation data",
+      "package examples"
+    ],
+    "properties": [
+      "supplementary-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "missing data"
+    ],
+    "bestFor": "Testing block-prioritized elastic-net models when predictor sources have different priorities and incomplete coverage.",
+    "note": "Verified from the R Journal article and downloadable supplement. The archive contains the code and examples used to demonstrate hierarchical data integration."
+  },
+  {
+    "id": "rj-conformal-prediction-tools",
+    "title": "Conformal Prediction Tools in R",
+    "authors": "Jesus Uriel Diaz-Martinez, Xiaoqian Wang, Paula Moraga",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Tutorial repository with SCADA wind-power observations, weekly dengue cases, and complete R workflows for split, cross, and time-series conformal prediction",
+    "datasetUrl": "https://github.com/uriel278/tutorials-cp",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-024",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "R code",
+      "tutorial notebooks"
+    ],
+    "properties": [
+      "repository-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "time series forecasting",
+      "time series analysis"
+    ],
+    "bestFor": "Learning and comparing conformal prediction workflows on continuous wind-power and count-valued disease time series.",
+    "note": "Verified from the R Journal article and its public companion repository. The article reads both application datasets directly from the repository."
+  },
+  {
+    "id": "rj-deseats-trend-seasonality",
+    "title": "deseats: An R Package for Data-Driven Trend and Seasonality Estimation in Time Series",
+    "authors": "Dominik Schulz",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "R Journal supplement and deseats examples using US log-GDP, US labor-force, and German COVID-19 time series for trend and seasonal-component estimation",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2026-025/RJ-2026-025.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-025",
+    "access": "open",
+    "formats": [
+      "supplementary ZIP",
+      "R code",
+      "time-series data"
+    ],
+    "properties": [
+      "supplementary-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Evaluating data-driven trend and seasonality estimation on macroeconomic and public-health series with different frequencies.",
+    "note": "Verified from the R Journal article and downloadable supplement. The worked examples document the source series and the full decomposition workflow."
+  },
+  {
+    "id": "rj-nimblewomble-bayesian-spatial-boundaries",
+    "title": "nimblewomble: An R package for Bayesian Wombling with nimble",
+    "authors": "Aritra Halder, Sudipto Banerjee",
+    "year": 2026,
+    "citations": 2,
+    "dataset": "Supplementary genes.RData spatial-transcriptomics example and simulation code for Bayesian detection of boundaries in spatial surfaces",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2026-026/RJ-2026-026.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-026",
+    "access": "open",
+    "formats": [
+      "RData",
+      "R code",
+      "simulation data",
+      "supplementary ZIP"
+    ],
+    "properties": [
+      "supplementary-data",
+      "spatial-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "probabilistic programming"
+    ],
+    "bestFor": "Studying Bayesian spatial-boundary detection with both controlled simulations and a spatial-transcriptomics application.",
+    "note": "Verified from the R Journal article and supplement. The archive includes the spatial gene-expression dataset and complete nimble model code."
+  },
+  {
+    "id": "rj-binspp-neyman-scott-processes",
+    "title": "binspp: An R Package for Bayesian Inference for Neyman-Scott Point Processes with Complex Inhomogeneity Structure",
+    "authors": "Jiří Dvořák, Radim Remeš, Ladislav Beránek, Tomáš Mrkvička",
+    "year": 2026,
+    "citations": 2,
+    "dataset": "binspp package data on infected oak trees, with simulation and MCMC examples for inhomogeneous Neyman-Scott point-process models",
+    "datasetUrl": "https://CRAN.R-project.org/package=binspp",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-032",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "spatial point data",
+      "R code",
+      "simulation data"
+    ],
+    "properties": [
+      "package-data",
+      "spatial-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Fitting Bayesian cluster point-process models with complex spatial inhomogeneity to real and simulated point patterns.",
+    "note": "Verified from the R Journal article and CRAN documentation. The package distributes the oak-tree pattern and the code used for model fitting and diagnostics."
+  },
+  {
+    "id": "jss-weighted-scoringrules",
+    "title": "Weighted scoringRules: Emphasizing Particular Outcomes When Evaluating Probabilistic Forecasts",
+    "authors": "Sam Allen",
+    "year": 2024,
+    "citations": 11,
+    "dataset": "Journal of Statistical Software replication code and package examples for weighted probabilistic forecast evaluation in weather and economic case studies",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v110i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v110.i08",
+    "access": "open",
+    "formats": [
+      "R code",
+      "replication files",
+      "package examples"
+    ],
+    "properties": [
+      "replication-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating probabilistic forecasts when selected outcome regions matter more than average predictive performance.",
+    "note": "Verified from the JSS article page, which exposes the package and the complete R replication materials for both case studies."
+  },
+  {
+    "id": "jss-get-global-envelopes",
+    "title": "GET: Global Envelopes in R",
+    "authors": "Mari Myllymäki, Tomáš Mrkvička",
+    "year": 2024,
+    "citations": 83,
+    "dataset": "GET package examples and JSS replication code for global envelope tests on functional statistics and spatial point patterns",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v111i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v111.i03",
+    "access": "open",
+    "formats": [
+      "R code",
+      "replication files",
+      "R package data"
+    ],
+    "properties": [
+      "replication-data",
+      "functional-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "spatial statistics",
+      "multiple testing",
+      "resampling methods",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Constructing simultaneous Monte Carlo and permutation envelopes for functional summaries and spatial point-pattern diagnostics.",
+    "note": "Verified from the JSS article page and replication download. The public materials reproduce the functional and spatial examples in the paper."
+  },
+  {
+    "id": "jss-bekks-multivariate-volatility",
+    "title": "BEKKs: An R Package for Estimation of Conditional Volatility of Multivariate Time Series",
+    "authors": "Markus J. Fülle, Alexander Lange, Christian M. Hafner, Helmut Herwartz",
+    "year": 2024,
+    "citations": 6,
+    "dataset": "BEKKs package and JSS replication materials using ETF returns and oil-gold series for multivariate conditional-volatility estimation and forecasting",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v111i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v111.i04",
+    "access": "open",
+    "formats": [
+      "R code",
+      "replication files",
+      "financial time-series data"
+    ],
+    "properties": [
+      "replication-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Estimating and forecasting multivariate GARCH volatility with documented financial return series.",
+    "note": "Verified from the JSS article page, which links the package and full replication code for the ETF and commodity applications."
+  },
+  {
+    "id": "acm-rhiots-hierarchical-forecasting",
+    "title": "RHiOTS: A Framework for Evaluating Hierarchical Time Series Forecasting Algorithms",
+    "authors": "Luís Roque, Carlos Soares, Luís Torgo",
+    "year": 2024,
+    "citations": 7,
+    "dataset": "Open RHiOTS repository for transforming real hierarchical time-series benchmarks and evaluating forecast robustness and reconciliation methods",
+    "datasetUrl": "https://github.com/luisroque/robustness_hierarchical_time_series_forecasting_algorithms",
+    "paperUrl": "https://doi.org/10.1145/3637528.3672062",
+    "access": "open",
+    "formats": [
+      "Python code",
+      "benchmark data workflows",
+      "experiment configurations"
+    ],
+    "properties": [
+      "repository-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "hierarchical forecasting",
+      "time series forecasting",
+      "time series analysis"
+    ],
+    "bestFor": "Stress-testing hierarchical forecasting and reconciliation algorithms under controlled changes to real benchmark series.",
+    "note": "Verified from the open Zenodo paper record, which identifies the official software repository and documents its real-world hierarchical-data transformations."
+  },
+  {
+    "id": "jss-tscount-count-time-series",
+    "title": "tscount: An R Package for Analysis of Count Time Series Following Generalized Linear Models",
+    "authors": "Tobias Liboschik, Konstantinos Fokianos, Roland Fried",
+    "year": 2017,
+    "citations": 223,
+    "dataset": "tscount package data and JSS replication materials for count autoregression, prediction, and intervention analysis in two documented applications",
+    "datasetUrl": "https://CRAN.R-project.org/package=tscount",
+    "paperUrl": "https://doi.org/10.18637/jss.v082.i05",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "R code",
+      "replication files"
+    ],
+    "properties": [
+      "package-data",
+      "count-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Fitting generalized linear autoregressive models to integer-valued series and studying count interventions and predictive distributions.",
+    "note": "Verified from the JSS article and CRAN package. The journal page supplies package and replication materials for both empirical examples."
+  },
+  {
+    "id": "jss-msgarch-markov-switching-volatility",
+    "title": "Markov-Switching GARCH Models in R: The MSGARCH Package",
+    "authors": "David Ardia, Keven Bluteau, Kris Boudt, Leopoldo Catania, Denis-Alexandre Trottier",
+    "year": 2019,
+    "citations": 160,
+    "dataset": "MSGARCH package examples and JSS replication files using exchange-rate and stock-return series for regime-switching volatility and density forecasting",
+    "datasetUrl": "https://CRAN.R-project.org/package=MSGARCH",
+    "paperUrl": "https://doi.org/10.18637/jss.v091.i04",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "R code",
+      "financial time-series data"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing classical and Bayesian Markov-switching GARCH estimation and probabilistic volatility forecasts.",
+    "note": "Verified from the JSS article page and CRAN package. The public replication materials cover the exchange-rate and equity-return applications."
+  },
+  {
+    "id": "rj-marss-multivariate-state-space",
+    "title": "MARSS: Multivariate Autoregressive State-space Models for Analyzing Time-series Data",
+    "authors": "Elizabeth E. Holmes, Eric J. Ward, Kellie Wills",
+    "year": 2012,
+    "citations": 343,
+    "dataset": "MARSS package datasets on harbor seals, sea turtles, and plankton for multivariate state-space modeling with observation error and missing values",
+    "datasetUrl": "https://CRAN.R-project.org/package=MARSS",
+    "paperUrl": "https://doi.org/10.32614/RJ-2012-002",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "R code",
+      "ecological time series"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "missing-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "missing data"
+    ],
+    "bestFor": "Learning multivariate state-space estimation on ecological series with latent dynamics, observation error, and incomplete records.",
+    "note": "Verified from the R Journal article and CRAN documentation. The three application datasets are distributed with the package and used in the article."
+  },
+  {
+    "id": "rj-bssm-bayesian-state-space",
+    "title": "bssm: Bayesian Inference of Non-linear and Non-Gaussian State Space Models in R",
+    "authors": "Jouni Helske, Matti Vihola",
+    "year": 2021,
+    "citations": 12,
+    "dataset": "bssm package examples and vignettes with temperature and stochastic-volatility series for particle-MCMC and importance-sampling workflows",
+    "datasetUrl": "https://CRAN.R-project.org/package=bssm",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-103",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "R code",
+      "vignettes",
+      "time-series data"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "bayesian inference"
+    ],
+    "bestFor": "Evaluating particle-based Bayesian inference for nonlinear and non-Gaussian state-space models on real series.",
+    "note": "Verified from the R Journal article and package vignettes. The documented examples include temperature and financial stochastic-volatility data."
+  },
+  {
+    "id": "rj-ataforecasting-automatic-forecasts",
+    "title": "Automatic Time Series Forecasting with Ata Method in R: ATAforecasting Package",
+    "authors": "Ali Sabri Taylan, Güçkan Yapar, Hanife Taylan Selamlar",
+    "year": 2021,
+    "citations": 8,
+    "dataset": "ATAforecasting examples using M3 and M4 competition series and Australian retail data for automatic forecasting and decomposition",
+    "datasetUrl": "https://CRAN.R-project.org/package=ATAforecasting",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-101",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "R code",
+      "forecast-competition series"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "forecasting competitions"
+    ],
+    "bestFor": "Comparing automatic Ata-method forecasts across established competition and retail time-series collections.",
+    "note": "Verified from the R Journal article and CRAN package. The reproducible examples use M3, M4, and Australian retail series."
+  },
+  {
+    "id": "rj-ngsseml-nongaussian-state-space",
+    "title": "NGSSEML: Non-Gaussian State Space with Exact Marginal Likelihood",
+    "authors": "Thiago R. Santos, Glaura C. Franco, Dani Gamerman",
+    "year": 2021,
+    "citations": 1,
+    "dataset": "NGSSEML package data and article examples spanning count, volatility, reliability, and survival responses for exact-marginal-likelihood state-space inference",
+    "datasetUrl": "https://cran.r-project.org/src/contrib/Archive/NGSSEML/NGSSEML_2.2.tar.gz",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-087",
+    "access": "open",
+    "formats": [
+      "archived R package data",
+      "R code",
+      "time-series data"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "bayesian inference"
+    ],
+    "bestFor": "Studying non-Gaussian state-space inference and forecasts across count, volatility, reliability, and survival examples.",
+    "note": "Verified from the R Journal article and CRAN package. The package provides the data and code for all four application families."
+  },
+  {
+    "id": "rj-spnetwork-network-kde",
+    "title": "spNetwork: A Package for Network Kernel Density Estimation",
+    "authors": "Jérémy Gelb",
+    "year": 2021,
+    "citations": 22,
+    "dataset": "spNetwork package sample of Montreal bicycle accidents with a street network for network-constrained kernel density estimation",
+    "datasetUrl": "https://CRAN.R-project.org/package=spNetwork",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-102",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "spatial network data",
+      "point events",
+      "R code"
+    ],
+    "properties": [
+      "package-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "density estimation"
+    ],
+    "bestFor": "Estimating and validating event intensity along transport networks rather than in unconstrained Euclidean space.",
+    "note": "Verified from the R Journal article and CRAN package. The Montreal accident sample and associated network are openly distributed."
+  },
+  {
+    "id": "jss-surveillance-spatiotemporal-epidemics",
+    "title": "Spatio-Temporal Analysis of Epidemic Phenomena Using the R Package surveillance",
+    "authors": "Sebastian Meyer, Leonhard Held, Michael Höhle",
+    "year": 2017,
+    "citations": 208,
+    "dataset": "surveillance package measles and meningococcal disease datasets with JSS replication code for endemic-epidemic and self-exciting space-time models",
+    "datasetUrl": "https://CRAN.R-project.org/package=surveillance",
+    "paperUrl": "https://doi.org/10.18637/jss.v077.i11",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "spatio-temporal counts",
+      "R code",
+      "replication files"
+    ],
+    "properties": [
+      "package-data",
+      "spatial-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Fitting endemic-epidemic and self-exciting models to infectious-disease counts observed across regions and time.",
+    "note": "Verified from the JSS article page and CRAN package. The journal supplies replication code for the packaged measles and meningococcal datasets."
+  },
+  {
+    "id": "pan-bin-conditional-conformal-conflict",
+    "title": "Bin-Conditional Conformal Prediction of Fatalities from Armed Conflict",
+    "authors": "David Randahl, Jonathan P. Williams, Håvard Hegre",
+    "year": 2026,
+    "citations": 3,
+    "dataset": "Harvard Dataverse replication package with armed-conflict fatality source data and code for bin-conditional conformal prediction intervals",
+    "datasetUrl": "https://doi.org/10.7910/DVN/BZC110",
+    "paperUrl": "https://doi.org/10.1017/pan.2025.10010",
+    "access": "open",
+    "formats": [
+      "replication files",
+      "tabular data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction"
+    ],
+    "bestFor": "Evaluating conformal uncertainty intervals for highly skewed, zero-heavy fatality outcomes across conditioning bins.",
+    "note": "Verified from the Political Analysis DOI and 13-file Harvard Dataverse archive, which includes source data and complete analysis code."
+  },
+  {
+    "id": "jds-scalable-bootstrap-variable-selection",
+    "title": "Variable Selection with Scalable Bootstrapping in Generalized Linear Model for Massive Data",
+    "authors": "Zhang Zhang, Zhibing He, Yichen Qin, Ye Shen, Ben-Chang Shia, Yang Li",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Harvard Dataverse supplement with simulations, bike-sharing regression data, lending classification data, and scalable-bootstrap variable-selection code",
+    "datasetUrl": "https://doi.org/10.7910/DVN/RB7EW6",
+    "paperUrl": "https://doi.org/10.6339/22-JDS1052",
+    "access": "open",
+    "formats": [
+      "simulation data",
+      "tabular data",
+      "analysis code",
+      "supplementary files"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "resampling methods"
+    ],
+    "bestFor": "Testing bootstrap-based variable selection for generalized linear models when observations are too numerous for ordinary resampling.",
+    "note": "Verified from the Journal of Data Science DOI and Dataverse supplement. The archive contains both simulations and two real-data applications."
+  },
+  {
+    "id": "jsim-sparse-gaussian-copula-graphs",
+    "title": "Sparsity-Constrained Gaussian Copula Graphical Models",
+    "authors": "Alessandro Fulci",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication archive with simulation designs, financial-network data, ground-truth graphs, and sparse Gaussian-copula benchmark code",
+    "datasetUrl": "https://doi.org/10.7910/DVN/Q4MDWD",
+    "paperUrl": "https://doi.org/10.1080/00949655.2026.2752388",
+    "access": "open",
+    "formats": [
+      "simulation data",
+      "financial network data",
+      "graph files",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "network-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "graphical models"
+    ],
+    "bestFor": "Benchmarking sparse copula graphical-model recovery against known graph structures and an empirical financial network.",
+    "note": "Verified from the journal DOI and seven-file Harvard Dataverse archive. The resource includes simulations, the real application, and ground-truth network structures."
+  },
+  {
+    "id": "ng-sparse-ld-graphical-models",
+    "title": "Extremely Sparse Models of Linkage Disequilibrium in Ancestrally Diverse Association Studies",
+    "authors": "Pouria Salehi Nowbandegani, Anthony Wilder Wohns, Jenna L. Ballard, Eric S. Lander, Alex Bloemendal, Benjamin M. Neale, Luke J. O'Connor",
+    "year": 2023,
+    "citations": 42,
+    "dataset": "Zenodo archive of linkage-disequilibrium graphical models, sparse precision matrices, and tree sequences for ancestrally diverse association studies",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.8157131",
+    "paperUrl": "https://doi.org/10.1038/s41588-023-01487-8",
+    "access": "open",
+    "formats": [
+      "precision matrices",
+      "graph files",
+      "tree sequences",
+      "genomic data"
+    ],
+    "properties": [
+      "repository-data",
+      "high-dimensional-data",
+      "network-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "graphical models"
+    ],
+    "bestFor": "Studying sparse precision estimation and linkage-disequilibrium structure across ancestrally diverse genomic cohorts.",
+    "note": "Verified from the Nature Genetics DOI and Zenodo record. The archive exposes the fitted graphical models, precision structures, and underlying tree-sequence resources."
+  },
+  {
+    "id": "ml-fast-scalable-frank-wolfe-lasso",
+    "title": "Fast and Scalable Lasso via Stochastic Frank-Wolfe Methods with a Convergence Guarantee",
+    "authors": "Emanuele Frandi, Ricardo Ñanculef, Stefano Lodi, Claudio Sartori, Johan A. K. Suykens",
+    "year": 2016,
+    "citations": 16,
+    "dataset": "Harvard Dataverse archive with 14 files reproducing the stochastic Frank-Wolfe lasso simulations and computational experiments",
+    "datasetUrl": "https://doi.org/10.7910/DVN/QJEUKR",
+    "paperUrl": "https://doi.org/10.1007/s10994-016-5578-4",
+    "access": "open",
+    "formats": [
+      "simulation data",
+      "benchmark data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing scalable lasso optimization under stochastic Frank-Wolfe updates on reproducible synthetic and benchmark experiments.",
+    "note": "Verified from the Machine Learning DOI and public Dataverse archive, which contains the paper's complete computational experiment files."
+  },
+  {
+    "id": "ba-penalized-regression-bayesian-lassos",
+    "title": "Penalized Regression, Standard Errors, and Bayesian Lassos",
+    "authors": "Minjung Kyung, Jeff Gill, Malay Ghosh, George Casella",
+    "year": 2010,
+    "citations": 578,
+    "dataset": "Harvard Dataverse replication data and programs for simulations and applications comparing penalized regression with Bayesian lasso formulations",
+    "datasetUrl": "https://doi.org/10.7910/DVN/GHEAJ9",
+    "paperUrl": "https://doi.org/10.1214/10-BA607",
+    "access": "open",
+    "formats": [
+      "simulation data",
+      "application data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Comparing frequentist penalties and hierarchical Bayesian lasso estimators with reproducible uncertainty calculations.",
+    "note": "Verified from the Bayesian Analysis DOI and Harvard Dataverse record. The public resource covers the simulations and empirical examples."
+  },
+  {
+    "id": "restat-omitted-variable-bias-lasso-inference",
+    "title": "Omitted Variable Bias of Lasso-Based Inference Methods: A Finite Sample Analysis",
+    "authors": "Kaspar Wüthrich, Ying Zhu",
+    "year": 2023,
+    "citations": 54,
+    "dataset": "Harvard Dataverse replication archive with 15 files for finite-sample simulations and applications studying omitted-variable bias after lasso selection",
+    "datasetUrl": "https://doi.org/10.7910/DVN/KZIDUB",
+    "paperUrl": "https://doi.org/10.1162/rest_a_01128",
+    "access": "open",
+    "formats": [
+      "simulation data",
+      "application data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Assessing finite-sample bias and coverage of lasso-based inference when relevant controls are omitted by regularization.",
+    "note": "Verified from the Review of Economics and Statistics DOI and 15-file Harvard Dataverse archive."
+  },
+  {
+    "id": "pan-sparse-estimation-subgroup-analysis",
+    "title": "Sparse Estimation and Uncertainty with Application to Subgroup Analysis",
+    "authors": "Marc Ratkovic, Dustin H. Tingley",
+    "year": 2017,
+    "citations": 51,
+    "dataset": "Harvard Dataverse archive with simulation and empirical replication materials for sparse subgroup discovery and treatment-effect estimation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/RNMB1Q",
+    "paperUrl": "https://doi.org/10.1017/pan.2016.14",
+    "access": "open",
+    "formats": [
+      "simulation data",
+      "empirical data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "bayesian inference",
+      "causal inference",
+      "treatment effect estimation",
+      "heterogeneous treatment effects"
+    ],
+    "bestFor": "Evaluating sparse Bayesian subgroup discovery and uncertainty quantification for heterogeneous treatment effects.",
+    "note": "Verified from the Political Analysis DOI and 11-file Harvard Dataverse archive containing the paper's simulations and empirical analyses."
+  },
+  {
+    "id": "aer-post-selection-many-controls-instruments",
+    "title": "Post-Selection and Post-Regularization Inference in Linear Models with Many Controls and Instruments",
+    "authors": "Victor Chernozhukov, Christian Hansen, Martin Spindler",
+    "year": 2015,
+    "citations": 214,
+    "dataset": "openICPSR data-and-replication directory for post-selection inference with many controls and instrumental variables",
+    "datasetUrl": "https://doi.org/10.3886/E113367V2",
+    "paperUrl": "https://doi.org/10.1257/aer.p20151022",
+    "access": "open",
+    "formats": [
+      "replication archive",
+      "empirical data",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "instrumental variables",
+      "quasi-experimental designs",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Studying valid causal inference after regularized selection among many controls and instruments.",
+    "note": "Verified from the American Economic Review DOI and openICPSR archive, which supplies the complete data and replication directory."
+  },
+  {
+    "id": "rssb-optimal-mcmc-thinning",
+    "title": "Optimal Thinning of MCMC Output",
+    "authors": "Marina Riabiz, Wilson Ye Chen, Jon Cockayne, Pawel Swietach, Steven A. Niederer, Lester W. Mackey, Chris J. Oates",
+    "year": 2022,
+    "citations": 56,
+    "dataset": "Harvard Dataverse archive with complete sampler trajectories and gradients for the paper's empirical MCMC thinning studies",
+    "datasetUrl": "https://doi.org/10.7910/DVN/MDKNWM",
+    "paperUrl": "https://doi.org/10.1111/rssb.12503",
+    "access": "open",
+    "formats": [
+      "MCMC draws",
+      "gradient data",
+      "analysis code",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "posterior-samples",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Comparing optimal and conventional MCMC thinning strategies using full sampler trajectories from several empirical models.",
+    "note": "Verified from the Journal of the Royal Statistical Society Series B DOI and 26-file Dataverse archive. The resource exposes every trajectory and gradient used in the study."
   }
 ]

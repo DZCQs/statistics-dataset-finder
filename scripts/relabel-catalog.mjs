@@ -5,6 +5,26 @@ const PAPERS_URL = new URL("../data/papers.json", import.meta.url);
 
 const labelNames = new Set(LABEL_REGISTRY.map((label) => label.name));
 
+// Persist reviewed exceptions where broad evidence terms or parent propagation
+// do not describe the paper's methodological focus.
+const topicExclusions = new Map([
+  ["jss-nonprobsvy-nonprobability-surveys", new Set(["robust statistics"])],
+  ["bmcbioinformatics-catmap-genetic-meta-analysis", new Set(["multilevel modeling"])],
+  ["jscs-circspacetime-bayesian-circular-models", new Set(["time series analysis"])],
+  ["jss-copula-multivariate-dependence", new Set(["time series analysis"])],
+  ["amps-superpower-factorial-power", new Set(["longitudinal data analysis"])],
+  ["mee-movehmm-animal-movement", new Set(["longitudinal data analysis"])],
+  ["mee-momentuhmm-generalized-animal-movement", new Set(["longitudinal data analysis"])],
+  ["frontiers-one-direction-circular-tutorial", new Set(["longitudinal data analysis"])],
+  ["jqt-ph1xbar-phase-one-shewhart", new Set(["multilevel modeling"])],
+  ["srep-adaptive-melodic-discrimination", new Set(["measurement error models"])],
+  ["jcgs-bayesian-change-point-variable-selection", new Set(["high-dimensional statistics"])],
+  ["jole-indirect-variational-inference-earnings", new Set(["resampling methods"])],
+  ["bmcrm-mnar-action-sensitivity-analysis", new Set(["item response theory"])],
+  ["sm-reverse-causality-panel-simulation", new Set(["multilevel modeling"])],
+  ["psrm-transformed-likelihood-dynamic-panels", new Set(["multilevel modeling"])]
+]);
+
 const parentRules = [
   {
     label: "causal inference",
@@ -521,6 +541,7 @@ function hasTopic(paper, label) {
 
 function addTopic(paper, label, reason, changeLog) {
   if (!labelNames.has(label)) return false;
+  if (topicExclusions.get(paper.id)?.has(label)) return false;
   paper.topics ||= [];
   if (paper.topics.includes(label)) return false;
   if (paper.topics.length >= LABEL_RULES.maxLabelsPerPaper) return false;
