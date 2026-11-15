@@ -74122,5 +74122,1111 @@
     ],
     "bestFor": "Comparing optimal and conventional MCMC thinning strategies using full sampler trajectories from several empirical models.",
     "note": "Verified from the Journal of the Royal Statistical Society Series B DOI and 26-file Dataverse archive. The resource exposes every trajectory and gradient used in the study."
+  },
+  {
+    "id": "bmcrm-missing-binary-diagnostic-tests",
+    "title": "Comparison of methods to handle missing values in a binary index test in a diagnostic accuracy study - a simulation study",
+    "authors": "Dennis Juljugin, Katharina Stahlmann, Antonia Zapf",
+    "year": 2026,
+    "citations": 1,
+    "dataset": "Versioned Zenodo and GitHub archive with simulated diagnostic-study data, R programs, and results for 729 MCAR, MAR, and MNAR scenarios",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.19087135",
+    "paperUrl": "https://doi.org/10.1186/s12874-026-02865-6",
+    "access": "open",
+    "formats": [
+      "simulated data",
+      "R code",
+      "analysis results",
+      "supplementary material"
+    ],
+    "properties": [
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "nonignorable missing data"
+    ],
+    "bestFor": "Comparing complete-case, hot-deck, MICE, and product-multinomial methods across MCAR, MAR, and MNAR diagnostic-test scenarios.",
+    "note": "Verified from the BMC Medical Research Methodology data-availability statement and the versioned Zenodo code-and-data release."
+  },
+  {
+    "id": "arxiv-dta-small-study-effects",
+    "title": "Small-study effects on the hierarchical summary ROC curve: latent accuracy and threshold trends in meta-analysis of diagnostic test accuracy",
+    "authors": "Yuta Nonomiya, Kazuki Nishida",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo reproducibility archive with Python code, simulation settings and results, and study-level data from two diagnostic-accuracy reviews",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.23333166",
+    "paperUrl": "https://doi.org/10.48550/arXiv.2609.38297",
+    "access": "open",
+    "formats": [
+      "study-level data",
+      "simulation results",
+      "Python code",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "diagnostic meta-analysis",
+      "publication bias"
+    ],
+    "bestFor": "Studying small-study effects that act through latent diagnostic accuracy and threshold trends in HSROC models.",
+    "note": "Verified from the arXiv DOI and Zenodo archive description, which documents two review datasets and complete reproduction scripts."
+  },
+  {
+    "id": "smmr-diagnostic-meta-outlier-influence",
+    "title": "Statistical methods for detecting outlying and influential studies in meta-analysis of diagnostic test accuracy studies",
+    "authors": "Zelalem Negeri, Joseph Beyene",
+    "year": 2019,
+    "citations": 21,
+    "dataset": "Zenodo software-documentation archive with R code and data for diagnostic meta-analysis outlier and influence diagnostics",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.19097789",
+    "paperUrl": "https://doi.org/10.1177/0962280219852747",
+    "access": "open",
+    "formats": [
+      "study-level data",
+      "R code",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "diagnostic meta-analysis",
+      "robust statistics"
+    ],
+    "bestFor": "Comparing outlier detection and influence diagnostics for bivariate diagnostic-test meta-analysis.",
+    "note": "Verified from the Statistical Methods in Medical Research DOI and the Zenodo record explicitly supplying the manuscript's R code and data."
+  },
+  {
+    "id": "cesm-publication-bias-landscape",
+    "title": "Detecting and Adjusting for Publication Bias in Meta-Analysis: A landscape review",
+    "authors": "Joseph Alvin Ramos Santos, Emiliano Albanese, Gian Luca Di Tanna",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo companion archive with two extracted meta-analysis datasets and an executable R Markdown tutorial covering frequentist and Bayesian bias-adjustment methods",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.24006029",
+    "paperUrl": "https://doi.org/10.5281/zenodo.24006028",
+    "access": "open",
+    "formats": [
+      "study-level data",
+      "R Markdown",
+      "HTML tutorial",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "publication bias"
+    ],
+    "bestFor": "Reproducing and comparing funnel, PET-PEESE, selection-model, p-value, power-based, and Bayesian publication-bias adjustments.",
+    "note": "Verified from the Zenodo manuscript and companion archive metadata, including two named study-level datasets and reproducible R Markdown."
+  },
+  {
+    "id": "prsa-forward-sensitivity-sensor-placement",
+    "title": "On the dual advantage of placing observations through forward sensitivity analysis",
+    "authors": "Shady E. Ahmed, Omer San, S. Lakshmivarahan, J. M. Lewis",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Versioned Zenodo software release with Python code and numerical experiments for forward-sensitivity observation placement",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.7955330",
+    "paperUrl": "https://doi.org/10.1098/rspa.2022.0815",
+    "access": "open",
+    "formats": [
+      "Python code",
+      "simulation data",
+      "numerical experiments"
+    ],
+    "properties": [
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Testing observation-placement strategies based on forward sensitivities and observability in dynamic inverse problems.",
+    "note": "Verified from the Proceedings of the Royal Society A DOI and its linked Zenodo code archive."
+  },
+  {
+    "id": "entropy-multichange-economic-crises",
+    "title": "Efficient Multi-Change Point Analysis to Decode Economic Crisis Information from the S&P500 Mean Market Correlation",
+    "authors": "Martin Heßler, Tobias Wand, Oliver Kamps",
+    "year": 2023,
+    "citations": 4,
+    "dataset": "Zenodo supplementary archive with the correlation time series, thinned arrays, Bayesian change-point probabilities, segment fits, and Python reproduction code",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.8186951",
+    "paperUrl": "https://doi.org/10.3390/e25091265",
+    "access": "open",
+    "formats": [
+      "time series",
+      "NumPy arrays",
+      "CSV",
+      "Python code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "change point detection",
+      "bayesian inference"
+    ],
+    "bestFor": "Reproducing Bayesian multi-change-point inference on market-correlation time series with stored posterior configurations and segment fits.",
+    "note": "Verified from the Entropy DOI and Zenodo supplementary-data record, which enumerates raw inputs, posterior arrays, and analysis scripts."
+  },
+  {
+    "id": "figshare-bayesian-multinomial-dta-meta",
+    "title": "A proposed workflow for model selection for Bayesian multinomial meta-analysis of multicategory diagnostic tests",
+    "authors": "Nilotpal Chowdhury",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Figshare archive with three diagnostic meta-analysis datasets, JAGS model files, posterior-predictive scripts, LOO analyses, and simulation-based calibration outputs",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.33271599.v2",
+    "paperUrl": "https://doi.org/10.6084/m9.figshare.33271599.v2",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "R code",
+      "JAGS models",
+      "simulation outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "diagnostic meta-analysis",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Evaluating Bayesian multinomial models for multicategory diagnostic tests with posterior predictive checks, LOO comparison, and calibration simulations.",
+    "note": "Verified from Figshare metadata and its 31-file manifest, including named datasets, JAGS specifications, and reproducible R workflows."
+  },
+  {
+    "id": "jqt-change-point-control-chart",
+    "title": "A change-point-based control chart for detecting sparse mean changes in high-dimensional heteroscedastic data",
+    "authors": "Zezhong Wang, Inez Maria Zwetsloot",
+    "year": 2023,
+    "citations": 11,
+    "dataset": "Figshare dataset with the SECOM case-study workbook and an R Markdown file for the simulations and control-chart analysis",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.24441804.v1",
+    "paperUrl": "https://doi.org/10.1080/00224065.2023.2250884",
+    "access": "open",
+    "formats": [
+      "XLSX",
+      "R Markdown",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "high-dimensional statistics",
+      "change point detection"
+    ],
+    "bestFor": "Benchmarking change-point control charts for sparse mean shifts in high-dimensional, heteroscedastic processes.",
+    "note": "Verified from the Journal of Quality Technology DOI and Figshare's two-file data-and-code manifest."
+  },
+  {
+    "id": "procir-generalized-spc-resnet",
+    "title": "Generalized Statistical Process Control via 1D-ResNet Pretraining",
+    "authors": "Tobias Schulze, Louis Huebser, Sebastian Beckschulte, Robert H. Schmitt",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo benchmark with train and test process time series, stability labels, mixture-distribution weights, and distribution metadata",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.8249487",
+    "paperUrl": "https://doi.org/10.1016/j.procir.2026.01.185",
+    "access": "open",
+    "formats": [
+      "CSV",
+      "time series",
+      "train-test splits",
+      "distribution metadata"
+    ],
+    "properties": [
+      "benchmark-data",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "time series analysis",
+      "time series classification"
+    ],
+    "bestFor": "Comparing conventional process monitoring with pretrained classifiers on stable and unstable non-normal process mixtures.",
+    "note": "Verified from the open Procedia CIRP paper and Zenodo benchmark description, which documents labeled train and test series."
+  },
+  {
+    "id": "restat-robust-heteroskedastic-identification",
+    "title": "Robust Inference in Models Identified via Heteroskedasticity",
+    "authors": "Daniel Lewis",
+    "year": 2022,
+    "citations": 30,
+    "dataset": "Harvard Dataverse replication archive with empirical data, MATLAB routines, and Monte Carlo power and test-inversion code",
+    "datasetUrl": "https://doi.org/10.7910/DVN/8D9EQ6",
+    "paperUrl": "https://doi.org/10.1162/rest_a_00963",
+    "access": "open",
+    "formats": [
+      "MATLAB code",
+      "MAT data",
+      "simulation code",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "instrumental variables",
+      "causal inference",
+      "quasi-experimental designs",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Studying weak-identification-robust inference for structural models whose instruments arise from heteroskedasticity.",
+    "note": "Verified from the Review of Economics and Statistics DOI and the 11-file Harvard Dataverse archive."
+  },
+  {
+    "id": "ssrn-robust-interrupted-time-series",
+    "title": "Robust Inference for Interrupted Time Series Models with Serial Dependent Disturbances",
+    "authors": "Shih-Yang Lin, Wen-Jen Tsay, Hsin-Chieh Wong",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication archive with empirical inputs, MATLAB estimators, ARMA generators, and table-production scripts",
+    "datasetUrl": "https://doi.org/10.7910/DVN/9G5L4D",
+    "paperUrl": "https://doi.org/10.2139/ssrn.5486489",
+    "access": "open",
+    "formats": [
+      "MATLAB code",
+      "empirical data",
+      "simulation code",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "interrupted time series",
+      "robust statistics",
+      "quasi-experimental designs",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Evaluating inference for level and slope interventions when interrupted time-series disturbances are serially dependent.",
+    "note": "Verified from the SSRN DOI and the 10-file Harvard Dataverse archive of estimators, simulations, and empirical scripts."
+  },
+  {
+    "id": "pan-bigkrls-robust-inference",
+    "title": "Messy Data, Robust Inference? Navigating Obstacles to Inference with bigKRLS",
+    "authors": "Pete Mohanty, Robert Shaffer",
+    "year": 2018,
+    "citations": 6,
+    "dataset": "Harvard Dataverse ZIP archive with county-level 2016 election data, simulation materials, and code reproducing every figure and table",
+    "datasetUrl": "https://doi.org/10.7910/DVN/CYYLOK",
+    "paperUrl": "https://doi.org/10.1017/pan.2018.33",
+    "access": "open",
+    "formats": [
+      "replication archive",
+      "county-level data",
+      "simulation data",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "robust statistics"
+    ],
+    "bestFor": "Stress-testing flexible kernel regression inference under irregular empirical data and simulation conditions.",
+    "note": "Verified from the Political Analysis DOI and Harvard Dataverse description of the complete election-data and simulation replication archive."
+  },
+  {
+    "id": "psrm-bayesian-quantities-uncertainty",
+    "title": "Computing quantities of interest and their uncertainty using Bayesian simulation",
+    "authors": "Andreas Erwin Murr, Richard Traunmüller, Jeff Gill",
+    "year": 2022,
+    "citations": 4,
+    "dataset": "Harvard Dataverse replication archive with two empirical datasets and R programs for posterior predictions, marginal effects, and variable-importance summaries",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ONY6WJ",
+    "paperUrl": "https://doi.org/10.1017/psrm.2022.18",
+    "access": "open",
+    "formats": [
+      "tabular data",
+      "R code",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Teaching posterior quantities of interest, uncertainty propagation, predictive data, and marginal effects from Bayesian simulations.",
+    "note": "Verified from the Political Science Research and Methods DOI and the nine-file Harvard Dataverse archive."
+  },
+  {
+    "id": "aer-testing-forward-model-selection",
+    "title": "Testing-Based Forward Model Selection",
+    "authors": "Damian Kozbur",
+    "year": 2017,
+    "citations": 20,
+    "dataset": "openICPSR replication archive for simulations and empirical analyses of testing-based forward covariate selection",
+    "datasetUrl": "https://doi.org/10.3886/E113506V1",
+    "paperUrl": "https://doi.org/10.1257/aer.p20171039",
+    "access": "open",
+    "formats": [
+      "replication archive",
+      "simulation data",
+      "empirical data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing hypothesis-testing-based forward selection procedures in sparse high-dimensional regression settings.",
+    "note": "Verified from the American Economic Review DOI and the linked openICPSR replication-data DOI."
+  },
+  {
+    "id": "aer-l2-boosting-economic-applications",
+    "title": "L2-Boosting for Economic Applications",
+    "authors": "Ye Luo, Martin Spindler",
+    "year": 2017,
+    "citations": 13,
+    "dataset": "openICPSR replication archive for L2-boosting simulations and empirical economic applications",
+    "datasetUrl": "https://doi.org/10.3886/E113507V1",
+    "paperUrl": "https://doi.org/10.1257/aer.p20171040",
+    "access": "open",
+    "formats": [
+      "replication archive",
+      "simulation data",
+      "empirical data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Evaluating L2-boosting as a sparse high-dimensional estimation and variable-selection procedure.",
+    "note": "Verified from the American Economic Review DOI and the linked openICPSR replication-data DOI."
+  },
+  {
+    "id": "bmc-haplin-power-analysis",
+    "title": "Haplin power analysis: a software module for power and sample size calculations in genetic association analyses of family triads and unrelated controls",
+    "authors": "Miriam Gjerdevik, Astanand Jugessur, Øystein A. Haaland, Julia Romanowska, Rolv T. Lie, Heather J. Cordell, Håkon K. Gjessing",
+    "year": 2019,
+    "citations": 17,
+    "dataset": "CRAN Haplin package with analytic and simulation-based power workflows plus the paper's supplementary worked calculations",
+    "datasetUrl": "https://cran.r-project.org/package=Haplin",
+    "paperUrl": "https://doi.org/10.1186/s12859-019-2727-3",
+    "access": "open",
+    "formats": [
+      "R package",
+      "simulation code",
+      "worked examples",
+      "supplementary material"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "power analysis"
+    ],
+    "bestFor": "Planning family-triad and unrelated-control studies with analytic or simulation-based power and sample-size calculations.",
+    "note": "Verified from the open BMC Bioinformatics paper, its supplementary power-calculation materials, and the documented CRAN Haplin package."
+  },
+  {
+    "id": "jss-gcimpute-missing-data",
+    "title": "gcimpute: A Package for Missing Data Imputation",
+    "authors": "Yuxuan Zhao, Madeleine R. Udell",
+    "year": 2024,
+    "citations": 11,
+    "dataset": "Public gcimpute package and JSS replication materials with mixed-type examples, confidence intervals, and multiple-imputation workflows",
+    "datasetUrl": "https://github.com/udellgroup/gcimpute",
+    "paperUrl": "https://doi.org/10.18637/jss.v108.i04",
+    "access": "open",
+    "formats": [
+      "Python package",
+      "example data",
+      "notebooks",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Testing Gaussian-copula imputation for mixed continuous, ordinal, and categorical variables with uncertainty quantification.",
+    "note": "Verified from the Journal of Statistical Software article and its first-party package and replication links."
+  },
+  {
+    "id": "rj-r-miss-tastic-workflows",
+    "title": "R-miss-tastic: a unified platform for missing values methods and workflows",
+    "authors": "Imke Mayer, Aude Sportisse, Julie Josse, Nicholas Tierney, Nathalie Vialaneix",
+    "year": 2022,
+    "citations": 49,
+    "dataset": "Public R-miss-tastic repository with reproducible R and Python workflows, simulated missingness mechanisms, public datasets, and imputation examples",
+    "datasetUrl": "https://github.com/R-miss-tastic",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-040",
+    "access": "open",
+    "formats": [
+      "R code",
+      "Python code",
+      "public datasets",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "nonignorable missing data"
+    ],
+    "bestFor": "Reproducing missing-data generation, visualization, imputation, and inference workflows across R and Python.",
+    "note": "Verified from The R Journal article and the linked first-party workflow repository."
+  },
+  {
+    "id": "ecta-noisy-covariates-causal-inference",
+    "title": "Causal Inference With Noisy Covariates: Heteroscedastic Measurement Error and Differential Privacy",
+    "authors": "Anish Agarwal, Rahul Singh",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Econometric Society replication package with downloadable data and code for high-dimensional balancing weights under heteroscedastic covariate error",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.19866751",
+    "paperUrl": "https://doi.org/10.3982/ECTA23897",
+    "access": "open",
+    "formats": [
+      "replication archive",
+      "simulation data",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Evaluating causal weighting estimators when high-dimensional confounders are observed with heteroscedastic measurement error.",
+    "note": "Verified from the Econometrica DOI and official versioned replication package."
+  },
+  {
+    "id": "aoas-multivariate-dietary-measurement-error",
+    "title": "A new multivariate measurement error model with zero-inflated dietary data, and its application to dietary assessment",
+    "authors": "Saijuan Zhang, Raymond J. Carroll, Douglas Midthune, Patricia M. Guenther, Susan M. Krebs-Smith, Victor Kipnis, Kevin W. Dodd, Dennis W. Buckman, Janet A. Tooze, Laurence S. Freedman",
+    "year": 2011,
+    "citations": 136,
+    "dataset": "Official NHANES data supplement and MATLAB code supplement for a survey-weighted Bayesian model of zero-inflated dietary recalls",
+    "datasetUrl": "https://doi.org/10.1214/10-AOAS446SUPPB",
+    "paperUrl": "https://doi.org/10.1214/10-AOAS446",
+    "access": "open",
+    "formats": [
+      "survey data",
+      "MATLAB code",
+      "supplementary files"
+    ],
+    "properties": [
+      "supplementary-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "bayesian inference",
+      "complex survey design",
+      "survey methodology"
+    ],
+    "bestFor": "Fitting multivariate measurement-error models to episodically consumed dietary components with excess zeros and complex survey weights.",
+    "note": "Verified from the Annals of Applied Statistics paper and its separate official data and code supplements."
+  },
+  {
+    "id": "jss-rbest-meta-analytic-predictive-priors",
+    "title": "Applying Meta-Analytic-Predictive Priors with the R Bayesian Evidence Synthesis Tools",
+    "authors": "Sebastian Weber, Yue Li, John W. Seaman III, Tomoyuki Kakizume, Heinz Schmidli",
+    "year": 2021,
+    "citations": 81,
+    "dataset": "CRAN RBesT package with historical-control datasets, hierarchical meta-analytic-predictive prior workflows, and trial operating-characteristic examples",
+    "datasetUrl": "https://cran.r-project.org/package=RBesT",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i19",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package data",
+      "vignettes",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "optimal experimental design",
+      "power analysis"
+    ],
+    "bestFor": "Constructing robust meta-analytic-predictive priors and evaluating Bayesian trial operating characteristics from historical controls.",
+    "note": "Verified from the Journal of Statistical Software article and documented CRAN package datasets and replication code."
+  },
+  {
+    "id": "rj-nmaforest-evidence-contributions",
+    "title": "NMAforest: An R Package for Generating Forest Plots in Network Meta-Analysis with Decomposition of Direct, Indirect, and Study-Level Evidence Contributions",
+    "authors": "Yanqi Zhang, Chong Wang, Annette O'Connor",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "CRAN NMAforest package with network meta-analysis examples and decomposition of direct, indirect, path-level, and study-level evidence",
+    "datasetUrl": "https://cran.r-project.org/package=NMAforest",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-030",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package data",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "network meta-analysis"
+    ],
+    "bestFor": "Tracing how direct comparisons, indirect paths, and individual studies contribute to network meta-analysis estimates.",
+    "note": "Verified from The R Journal article and the documented CRAN package with reusable network examples."
+  },
+  {
+    "id": "rj-copas-selection-model",
+    "title": "copas: An R package for Fitting the Copas Selection Model",
+    "authors": "James R. Carpenter, Gerta Rücker, Guido Schwarzer",
+    "year": 2009,
+    "citations": 16,
+    "dataset": "CRAN copas package with bundled clinical meta-analysis data and worked selection-model sensitivity analyses",
+    "datasetUrl": "https://cran.r-project.org/package=copas",
+    "paperUrl": "https://doi.org/10.32614/RJ-2009-012",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package data",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "meta-analysis",
+      "publication bias"
+    ],
+    "bestFor": "Teaching and stress-testing Copas selection-model adjustments for publication bias with bundled meta-analysis data.",
+    "note": "Verified from The R Journal article and the accessible CRAN package data and examples."
+  },
+  {
+    "id": "brm-mlpwr-sample-size-planning",
+    "title": "Sample size planning for complex study designs: A tutorial for the mlpwr package",
+    "authors": "Felix Zimmer, Mirka Henninger, Rudolf Debelak",
+    "year": 2023,
+    "citations": 19,
+    "dataset": "CRAN mlpwr package with simulation-based power workflows, surrogate-model search, and multi-parameter cost optimization examples",
+    "datasetUrl": "https://cran.r-project.org/package=mlpwr",
+    "paperUrl": "https://doi.org/10.3758/s13428-023-02269-0",
+    "access": "open",
+    "formats": [
+      "R package",
+      "simulation code",
+      "worked examples",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "power analysis",
+      "optimal experimental design"
+    ],
+    "bestFor": "Optimizing sample sizes and allocations for complex studies when power must be estimated by simulation.",
+    "note": "Verified from the open Behavior Research Methods article and documented CRAN package examples."
+  },
+  {
+    "id": "jss-statistical-process-monitoring-julia",
+    "title": "StatisticalProcessMonitoring.jl: A General Framework for Statistical Process Monitoring in Julia",
+    "authors": "Daniele Zago",
+    "year": 2025,
+    "citations": 1,
+    "dataset": "Julia package and JSS replication materials with univariate, multivariate, partially observed, and profile-control-chart examples",
+    "datasetUrl": "https://github.com/DedZago/StatisticalProcessMonitoring.jl",
+    "paperUrl": "https://doi.org/10.18637/jss.v113.i07",
+    "access": "open",
+    "formats": [
+      "Julia package",
+      "example data",
+      "simulation code",
+      "replication files"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control"
+    ],
+    "bestFor": "Comparing control-chart families, automated limits, and run-length tuning in a unified Julia framework.",
+    "note": "Verified from the Journal of Statistical Software article and its linked package and replication materials."
+  },
+  {
+    "id": "jqt-funcharts-functional-control-charts",
+    "title": "funcharts: control charts for multivariate functional data in R",
+    "authors": "Christian Capezza, Fabio Centofanti, Antonio Lepore, Alessandra Menafoglio, Biagio Palumbo, Simone Vantini",
+    "year": 2023,
+    "citations": 21,
+    "dataset": "CRAN funcharts package with a profile generator, vignettes, and the supplementary ShipNavigation multivariate functional dataset",
+    "datasetUrl": "https://cran.r-project.org/package=funcharts",
+    "paperUrl": "https://doi.org/10.1080/00224065.2023.2219012",
+    "access": "open",
+    "formats": [
+      "R package",
+      "functional data",
+      "simulation generator",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Monitoring multivariate functional profiles, including partially observed real-time trajectories and ship-navigation examples.",
+    "note": "Verified from the Journal of Quality Technology article and documented CRAN package data and vignettes."
+  },
+  {
+    "id": "arxiv-flexible-causal-sensitivity",
+    "title": "Flexible sensitivity analysis for causal inference in observational studies subject to unmeasured confounding",
+    "authors": "Sizhu Lu, Peng Ding",
+    "year": 2023,
+    "citations": 14,
+    "dataset": "Harvard Dataverse replication archive with application datasets, R code, and simulations for flexible unmeasured-confounding sensitivity analysis",
+    "datasetUrl": "https://doi.org/10.7910/DVN/TVQE9U",
+    "paperUrl": "https://doi.org/10.48550/arXiv.2305.17643",
+    "access": "open",
+    "formats": [
+      "application data",
+      "R code",
+      "simulation data",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Assessing how treatment-effect conclusions change over interpretable classes of unmeasured confounding.",
+    "note": "Verified from the arXiv paper and its linked Harvard Dataverse application and simulation archive."
+  },
+  {
+    "id": "rj-selectionbias-causal-bounds",
+    "title": "SelectionBias: An R Package for Bounding Selection Bias in Causal Estimands",
+    "authors": "Stina Zetterstrom, Ingeborg Waernbaum",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "CRAN SelectionBias package with worked examples for assumption-free, sharp, and sensitivity-parameter bounds on causal risk ratios and differences",
+    "datasetUrl": "https://cran.r-project.org/package=SelectionBias",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-049",
+    "access": "open",
+    "formats": [
+      "R package",
+      "worked examples",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "nonignorable missing data",
+      "missing data"
+    ],
+    "bestFor": "Computing partial-identification and sensitivity bounds for causal effects under nonrandom sample selection.",
+    "note": "Verified from The R Journal article and the documented CRAN package examples."
+  },
+  {
+    "id": "surveypractice-personality-nonresponse",
+    "title": "The Psychological and Personality-Based Underpinnings of Survey Nonresponse",
+    "authors": "David Dutwin, Ting Yan, Ipek Bilgen, Erlina Hendarwan",
+    "year": 2025,
+    "citations": 3,
+    "dataset": "Harvard Dataverse archive with AmeriSpeak survey data and code for testing personality-linked nonresponse and weighting mitigation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZLFLRT",
+    "paperUrl": "https://doi.org/10.29115/SP-2025-0008",
+    "access": "open",
+    "formats": [
+      "survey data",
+      "analysis code",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "nonresponse adjustment",
+      "survey weighting",
+      "missing data",
+      "complex survey design"
+    ],
+    "bestFor": "Studying whether standard survey weighting variables absorb nonresponse associated with psychological and personality characteristics.",
+    "note": "Verified from the Survey Practice article and its linked Harvard Dataverse data-and-code archive."
+  },
+  {
+    "id": "jss-laeken-complex-survey-indicators",
+    "title": "Estimation of Social Exclusion Indicators from Complex Surveys: The R Package laeken",
+    "authors": "Andreas Alfons, Matthias Templ",
+    "year": 2013,
+    "citations": 76,
+    "dataset": "CRAN laeken package with synthetic EU-SILC and earnings data, robust indicator estimators, calibration, and bootstrap variance examples",
+    "datasetUrl": "https://cran.r-project.org/package=laeken",
+    "paperUrl": "https://doi.org/10.18637/jss.v054.i15",
+    "access": "open",
+    "formats": [
+      "R package",
+      "synthetic survey data",
+      "worked examples",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "synthetic-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "robust statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Estimating standard and robust social-exclusion indicators from complex surveys with calibrated bootstrap uncertainty.",
+    "note": "Verified from the Journal of Statistical Software article and documented CRAN package datasets and examples."
+  },
+  {
+    "id": "rj-dbrobust-mixed-type-distances",
+    "title": "R Package dbrobust: Robust Distance-Based Visualization and Analysis of Mixed-Type Data",
+    "authors": "Eva Boj del Val, Aurea Grané, Marcos Álvarez",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "CRAN dbrobust package with mixed-type datasets and worked robust-distance, trimming, and multidimensional-scaling analyses",
+    "datasetUrl": "https://cran.r-project.org/package=dbrobust",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-046",
+    "access": "open",
+    "formats": [
+      "R package",
+      "mixed-type data",
+      "worked examples",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing robust distance constructions, trimming, and low-dimensional visualizations for mixed numerical and categorical data.",
+    "note": "Verified from The R Journal article and the documented CRAN package data and examples."
+  },
+  {
+    "id": "rj-moonboot-m-out-of-n-bootstrap",
+    "title": "moonboot: An R Package Implementing m-out-of-n Bootstrap Methods",
+    "authors": "Christoph Dalitz, Felix Lögler",
+    "year": 2025,
+    "citations": 3,
+    "dataset": "CRAN moonboot package with Monte Carlo examples, confidence intervals, and data-driven subsample-size choices for bootstrap-inconsistent estimators",
+    "datasetUrl": "https://cran.r-project.org/package=moonboot",
+    "paperUrl": "https://doi.org/10.32614/RJ-2025-031",
+    "access": "open",
+    "formats": [
+      "R package",
+      "simulation code",
+      "worked examples",
+      "vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "resampling methods"
+    ],
+    "bestFor": "Evaluating m-out-of-n bootstrap confidence intervals when the ordinary bootstrap is inconsistent.",
+    "note": "Verified from The R Journal article and the accessible CRAN package simulations and examples."
+  },
+  {
+    "id": "rj-cdsampling-constrained-d-optimal",
+    "title": "CDsampling: An R Package for Constrained D-Optimal Sampling in Paid Research Studies",
+    "authors": "Yifei Huang, Liping Tong, Jie Yang",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "CRAN CDsampling package with constrained exact and approximate D-optimal allocation simulations and embedded real data",
+    "datasetUrl": "https://cran.r-project.org/package=CDsampling",
+    "paperUrl": "https://doi.org/10.32614/RJ-2025-008",
+    "access": "open",
+    "formats": [
+      "R package",
+      "package data",
+      "simulation code",
+      "supplementary material"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design",
+      "survey methodology"
+    ],
+    "bestFor": "Optimizing paid-study sample allocation under cost, capacity, and subgroup constraints.",
+    "note": "Verified from The R Journal article, its supplement, and the documented CRAN package data."
+  },
+  {
+    "id": "srep-matched-calibration-changepoints",
+    "title": "Matched-calibration of changepoint detectors for biopharmaceutical quality monitoring",
+    "authors": "Halil İbrahim Özdemir, Berfin Doğan, Pemra Özbek",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo reproduction archive with Python implementations of five detectors, calibration and evaluation streams, case-study data, and all plotting scripts",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.22115584",
+    "paperUrl": "https://doi.org/10.1038/s41598-026-74483-7",
+    "access": "open",
+    "formats": [
+      "Python code",
+      "simulation data",
+      "time series",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "statistical process control",
+      "robust statistics",
+      "resampling methods",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing changepoint detectors at matched false-alarm calibration in quality-monitoring streams.",
+    "note": "Verified from the Scientific Reports article and its complete versioned Zenodo reproduction archive."
+  },
+  {
+    "id": "aer-mobility-race-measurement-error",
+    "title": "Intergenerational Mobility in American History: Accounting for Race and Measurement Error",
+    "authors": "Zachary Ward",
+    "year": 2021,
+    "citations": 70,
+    "dataset": "openICPSR data-and-code archive using linked historical censuses and PSID materials to study attenuation from record-linkage error",
+    "datasetUrl": "https://doi.org/10.3886/E184542V1",
+    "paperUrl": "https://doi.org/10.1257/aer.20200292",
+    "access": "open",
+    "formats": [
+      "linked census data",
+      "survey data",
+      "Stata code",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "record-linkage-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "record linkage",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Studying how historical record-linkage error changes estimates of intergenerational mobility across racial groups.",
+    "note": "Verified from the American Economic Review DOI and its public openICPSR data-and-code archive."
+  },
+  {
+    "id": "jel-automated-record-linking-performance",
+    "title": "How Well Do Automated Linking Methods Perform? Lessons from US Historical Data",
+    "authors": "Martha J. Bailey, Connor Cole, Morgan Henderson, Catherine Massey",
+    "year": 2020,
+    "citations": 227,
+    "dataset": "openICPSR replication archive with Stata scripts and a synthetic linkage-error generator for evaluating automated historical record matching",
+    "datasetUrl": "https://doi.org/10.3886/E119932V1",
+    "paperUrl": "https://doi.org/10.1257/jel.20191526",
+    "access": "open",
+    "formats": [
+      "Stata code",
+      "synthetic data generator",
+      "replication files"
+    ],
+    "properties": [
+      "replication-data",
+      "synthetic-data",
+      "record-linkage-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "record linkage",
+      "measurement error models"
+    ],
+    "bestFor": "Benchmarking false matches, false nonmatches, and downstream bias from automated historical record linkage.",
+    "note": "Verified from the Journal of Economic Literature DOI and public openICPSR code and synthetic-error materials; proprietary microdata are not redistributed."
   }
 ]

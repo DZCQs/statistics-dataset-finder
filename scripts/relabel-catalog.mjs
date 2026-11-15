@@ -22,7 +22,8 @@ const topicExclusions = new Map([
   ["jole-indirect-variational-inference-earnings", new Set(["resampling methods"])],
   ["bmcrm-mnar-action-sensitivity-analysis", new Set(["item response theory"])],
   ["sm-reverse-causality-panel-simulation", new Set(["multilevel modeling"])],
-  ["psrm-transformed-likelihood-dynamic-panels", new Set(["multilevel modeling"])]
+  ["psrm-transformed-likelihood-dynamic-panels", new Set(["multilevel modeling"])],
+  ["restat-robust-heteroskedastic-identification", new Set(["robust statistics"])]
 ]);
 
 const parentRules = [
