@@ -1179,6 +1179,18 @@ export const LABEL_CANDIDATES = [
       {
         paperId: "rj-npbayesimputecat",
         reason: "Provides ACS examples for Bayesian nonparametric latent-class imputation and disclosure-controlled synthetic-data generation."
+      },
+      {
+        paperId: "jss-bnpmix-pitman-yor-mixtures",
+        reason: "Provides package examples for Pitman-Yor random probability measures in multivariate density estimation, clustering, and regression."
+      },
+      {
+        paperId: "jss-bayesmix-cpp-mixtures",
+        reason: "Provides extensible C++ replication workflows for finite and Bayesian nonparametric mixture models."
+      },
+      {
+        paperId: "jss-bnp-functional-time-indexed",
+        reason: "Provides replication code for Bayesian nonparametric mixture modeling of dependent time-indexed functional observations."
       }
     ],
     admitWhen: [

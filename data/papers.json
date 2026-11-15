@@ -75228,5 +75228,1090 @@
     ],
     "bestFor": "Benchmarking false matches, false nonmatches, and downstream bias from automated historical record linkage.",
     "note": "Verified from the Journal of Economic Literature DOI and public openICPSR code and synthetic-error materials; proprietary microdata are not redistributed."
+  },
+  {
+    "access": "open",
+    "id": "jss-bnpmix-pitman-yor-mixtures",
+    "title": "BNPmix: An R Package for Bayesian Nonparametric Modeling via Pitman-Yor Mixtures",
+    "authors": "Riccardo Corradin, Antonio Canale, Bernardo Nipoti",
+    "year": 2021,
+    "citations": 26,
+    "dataset": "CRAN BNPmix package with Pitman-Yor mixture examples for multivariate density estimation, clustering, and regression",
+    "datasetUrl": "https://cran.r-project.org/package=BNPmix",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i15",
+    "formats": [
+      "R package",
+      "worked examples",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "density estimation",
+      "clustering"
+    ],
+    "bestFor": "Comparing Pitman-Yor mixture samplers for Bayesian nonparametric density estimation, regression, and clustering.",
+    "note": "Verified from the Journal of Statistical Software article and the live CRAN BNPmix package."
+  },
+  {
+    "access": "open",
+    "id": "jss-bidag-bayesian-structure-learning",
+    "title": "Bayesian Structure Learning and Sampling of Bayesian Networks with the R Package BiDAG",
+    "authors": "Polina Suter, Jack Kuipers, Giusi Moffa, Niko Beerenwinkel",
+    "year": 2023,
+    "citations": 47,
+    "dataset": "CRAN BiDAG package with simulated and cancer-subtype examples, Bayesian-network structure searches, and dynamic-network workflows",
+    "datasetUrl": "https://cran.r-project.org/package=BiDAG",
+    "paperUrl": "https://doi.org/10.18637/jss.v105.i09",
+    "formats": [
+      "R package",
+      "simulation data",
+      "worked examples",
+      "replication code"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating Bayesian structure-learning and graph-sampling algorithms for static and dynamic networks.",
+    "note": "Verified from the Journal of Statistical Software article and the live CRAN BiDAG package."
+  },
+  {
+    "access": "open",
+    "id": "jss-bnlearn-bayesian-networks",
+    "title": "Learning Bayesian Networks with the bnlearn R Package",
+    "authors": "Marco Scutari",
+    "year": 2010,
+    "citations": 2198,
+    "dataset": "CRAN bnlearn package with benchmark Bayesian-network datasets, structure-learning algorithms, and article example code",
+    "datasetUrl": "https://cran.r-project.org/package=bnlearn",
+    "paperUrl": "https://doi.org/10.18637/jss.v035.i03",
+    "formats": [
+      "R package",
+      "network data",
+      "worked examples",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing constraint-based and score-based structure learning on discrete and continuous Bayesian-network data.",
+    "note": "Verified from the Journal of Statistical Software article and the live CRAN bnlearn package."
+  },
+  {
+    "access": "open",
+    "id": "rj-zoib-zero-one-inflated-beta",
+    "title": "zoib: An R Package for Bayesian Inference for Beta Regression and Zero/One Inflated Beta Regression",
+    "authors": "Fang Liu, Yunchuan Kong",
+    "year": 2015,
+    "citations": 128,
+    "dataset": "CRAN zoib package with real and simulated proportion-data examples for Bayesian beta and zero/one-inflated beta regression",
+    "datasetUrl": "https://cran.r-project.org/package=zoib",
+    "paperUrl": "https://doi.org/10.32614/RJ-2015-019",
+    "formats": [
+      "R package",
+      "package data",
+      "simulation code",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "distributional regression"
+    ],
+    "bestFor": "Modeling bounded proportions with boundary mass, clustered observations, and Bayesian mixed effects.",
+    "note": "Verified from The R Journal article and the live CRAN zoib package."
+  },
+  {
+    "access": "open",
+    "id": "rj-pdfestimator-density-estimation",
+    "title": "PDFEstimator: An R Package for Density Estimation and Analysis",
+    "authors": "Jenny Farmer, Donald Jacobs",
+    "year": 2022,
+    "citations": 2,
+    "dataset": "CRAN PDFEstimator package with benchmark distributions, rare-stamp data, density diagnostics, and worked comparisons",
+    "datasetUrl": "https://cran.r-project.org/package=PDFEstimator",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-037",
+    "formats": [
+      "R package",
+      "benchmark data",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation"
+    ],
+    "bestFor": "Evaluating nonparametric density estimates and diagnosing local underfit, overfit, and outliers.",
+    "note": "Verified from The R Journal article and the live CRAN PDFEstimator package."
+  },
+  {
+    "access": "open",
+    "id": "rj-hdir-directional-density-regions",
+    "title": "HDiR: An R Package for Computation and Nonparametric Plug-in Estimation of Directional Highest Density Regions and General Level Sets",
+    "authors": "Paula Saavedra-Nieves, Rosa M. Crujeiras",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "CRAN HDiR package with earthquakes and sandhoppers directional datasets plus circular and spherical density examples",
+    "datasetUrl": "https://cran.r-project.org/package=HDiR",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-046",
+    "formats": [
+      "R package",
+      "package data",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "density estimation"
+    ],
+    "bestFor": "Estimating circular and spherical highest-density regions and general directional level sets.",
+    "note": "Verified from The R Journal article and the live CRAN HDiR package."
+  },
+  {
+    "access": "open",
+    "id": "rj-ake-associated-kernel-estimation",
+    "title": "Ake: An R Package for Discrete and Continuous Associated Kernel Estimations",
+    "authors": "Wanbitching E. Wansouwe, Sobom M. Some, Celestin C. Kokonendji",
+    "year": 2016,
+    "citations": 15,
+    "dataset": "CRAN Ake package with bounded, positive, count, and categorical kernel-estimation examples and bandwidth-selection workflows",
+    "datasetUrl": "https://cran.r-project.org/package=Ake",
+    "paperUrl": "https://doi.org/10.32614/RJ-2016-045",
+    "formats": [
+      "R package",
+      "worked examples",
+      "simulation code"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing associated-kernel density, mass-function, and regression estimators on constrained supports.",
+    "note": "Verified from The R Journal article and the live CRAN Ake package."
+  },
+  {
+    "access": "open",
+    "id": "rj-dad-density-group-analysis",
+    "title": "dad: an R Package for Visualisation, Classification and Discrimination of Multivariate Groups Modelled by their Densities",
+    "authors": "Rachid Boumaza, Pierre Santagostini, Smail Yousfi, Sabine Demotes-Mainard",
+    "year": 2021,
+    "citations": 1,
+    "dataset": "CRAN dad package with multigroup density examples for multidimensional scaling, clustering, and discrimination",
+    "datasetUrl": "https://cran.r-project.org/package=dad",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-071",
+    "formats": [
+      "R package",
+      "multivariate data",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation",
+      "dimension reduction",
+      "high-dimensional statistics",
+      "clustering"
+    ],
+    "bestFor": "Comparing groups represented by estimated multivariate densities using distances, scaling, clustering, and discrimination.",
+    "note": "Verified from The R Journal article and the live CRAN dad package."
+  },
+  {
+    "access": "open",
+    "id": "jss-benchden-benchmark-densities",
+    "title": "The benchden Package: Benchmark Densities for Nonparametric Density Estimation",
+    "authors": "Thoralf Mildenberger, Henrike Weinert",
+    "year": 2012,
+    "citations": 10,
+    "dataset": "CRAN benchden package containing 28 benchmark densities and simulation helpers for nonparametric density-estimation studies",
+    "datasetUrl": "https://cran.r-project.org/package=benchden",
+    "paperUrl": "https://doi.org/10.18637/jss.v046.i14",
+    "formats": [
+      "R package",
+      "benchmark data",
+      "simulation code"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation"
+    ],
+    "bestFor": "Running reproducible simulation comparisons across a standard collection of challenging benchmark densities.",
+    "note": "Verified from the Journal of Statistical Software article and the live CRAN benchden package."
+  },
+  {
+    "access": "open",
+    "id": "jss-semiparsamplesel-copula-selection",
+    "title": "Copula Regression Spline Sample Selection Models: The R Package SemiParSampleSel",
+    "authors": "Malgorzata Wojtys, Giampiero Marra, Rosalba Radice",
+    "year": 2016,
+    "citations": 35,
+    "dataset": "JSS replication data and code for copula regression-spline sample-selection models with simulated and real examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v071i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v071.i06",
+    "formats": [
+      "R package",
+      "replication data",
+      "simulation data",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression"
+    ],
+    "bestFor": "Studying nonrandom sample selection with nonlinear effects and non-Gaussian copula dependence.",
+    "note": "Verified from the Journal of Statistical Software article, which exposes package, code, and replication-data files."
+  },
+  {
+    "access": "open",
+    "id": "csda-icbayes-interval-censored",
+    "title": "ICBayes: a package of Bayesian semiparametric regression for interval-censored data",
+    "authors": "Chun Pan, Bo Cai, Lianming Wang, Xiaoyan Lin",
+    "year": 2019,
+    "citations": 1,
+    "dataset": "CRAN ICBayes package with breast-cosmesis and lung-cancer interval-censored datasets and semiparametric model examples",
+    "datasetUrl": "https://cran.r-project.org/package=ICBayes",
+    "paperUrl": "https://doi.org/10.1080/03610918.2019.1687720",
+    "formats": [
+      "R package",
+      "survival data",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Comparing Bayesian proportional-hazards, proportional-odds, and probit models for interval-censored outcomes.",
+    "note": "Verified from the journal DOI and the live CRAN ICBayes package documentation and datasets."
+  },
+  {
+    "access": "open",
+    "id": "jors-bbsbayes-bird-survey",
+    "title": "bbsBayes: An R Package for Hierarchical Bayesian Analysis of North American Breeding Bird Survey Data",
+    "authors": "Brandon P. M. Edwards, Adam C. Smith",
+    "year": 2021,
+    "citations": 23,
+    "dataset": "bbsBayes repository with North American Breeding Bird Survey download workflows, hierarchical JAGS models, examples, and model templates",
+    "datasetUrl": "https://github.com/bbsBayes/bbsBayes",
+    "paperUrl": "https://doi.org/10.5334/jors.329",
+    "formats": [
+      "R package",
+      "survey data",
+      "JAGS models",
+      "worked examples"
+    ],
+    "properties": [
+      "survey-data",
+      "code",
+      "package-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "time series analysis",
+      "spatial statistics",
+      "spatio-temporal models"
+    ],
+    "bestFor": "Estimating spatially structured population trajectories and trends from long-running monitoring surveys.",
+    "note": "Verified from the Journal of Open Research Software paper and the public bbsBayes repository."
+  },
+  {
+    "access": "open",
+    "id": "joss-kalepy-kernel-density",
+    "title": "kalepy: a Python package for kernel density estimation, sampling and plotting",
+    "authors": "Luke Zoltan Kelley",
+    "year": 2021,
+    "citations": 37,
+    "dataset": "kalepy repository with multidimensional kernel-density notebooks, resampling examples, tests, and reproducible plotting workflows",
+    "datasetUrl": "https://github.com/lzkelley/kalepy",
+    "paperUrl": "https://doi.org/10.21105/joss.02784",
+    "formats": [
+      "Python package",
+      "Jupyter notebooks",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation"
+    ],
+    "bestFor": "Testing multidimensional kernel-density estimation, boundary reflection, resampling, and visualization workflows in Python.",
+    "note": "Verified from the JOSS paper and the public kalepy software repository."
+  },
+  {
+    "access": "open",
+    "id": "jss-cdvine-vine-copulas",
+    "title": "Modeling Dependence with C- and D-Vine Copulas: The R Package CDVine",
+    "authors": "Eike Christian Brechmann, Ulf Schepsmeier",
+    "year": 2013,
+    "citations": 516,
+    "dataset": "JSS CDVine package materials and replication examples for C-vine and D-vine copula estimation, selection, simulation, and visualization",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v052i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v052.i03",
+    "formats": [
+      "R package",
+      "replication code",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation"
+    ],
+    "bestFor": "Evaluating flexible multivariate dependence models built from pair-copula constructions.",
+    "note": "Verified from the Journal of Statistical Software article and its accessible package and replication files."
+  },
+  {
+    "access": "open",
+    "id": "jss-covsim-vine-copula-simulation",
+    "title": "covsim: An R Package for Simulating Non-Normal Data for Structural Equation Models Using Copulas",
+    "authors": "Steffen Gronneberg, Njal Foldnes, Katerina M. Marcoulides",
+    "year": 2022,
+    "citations": 35,
+    "dataset": "CRAN covsim package with vine-to-anything simulation examples for nonnormal continuous and ordinal covariance models",
+    "datasetUrl": "https://cran.r-project.org/package=covsim",
+    "paperUrl": "https://doi.org/10.18637/jss.v102.i03",
+    "formats": [
+      "R package",
+      "simulation code",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "latent variable models"
+    ],
+    "bestFor": "Simulating nonnormal data with controlled marginals and vine-copula dependence for structural-equation studies.",
+    "note": "Verified from the Journal of Statistical Software article and the live CRAN covsim package."
+  },
+  {
+    "access": "open",
+    "id": "jss-frk-nongaussian-spatiotemporal",
+    "title": "Modeling Big, Heterogeneous, Non-Gaussian Spatial and Spatio-Temporal Data Using FRK",
+    "authors": "Matthew Sainsbury-Dale, Andrew Zammit-Mangion, Noel Cressie",
+    "year": 2024,
+    "citations": 23,
+    "dataset": "JSS FRK package and replication materials with simulated and real non-Gaussian spatial and spatio-temporal examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v108i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v108.i10",
+    "formats": [
+      "R package",
+      "spatial data",
+      "simulation data",
+      "replication materials"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing scalable generalized spatial random-effects models for heterogeneous non-Gaussian observations.",
+    "note": "Verified from the Journal of Statistical Software article and its accessible FRK and replication files."
+  },
+  {
+    "access": "open",
+    "id": "jss-spsur-spatial-sur-models",
+    "title": "spsur: An R Package for Dealing with Spatial Seemingly Unrelated Regression Models",
+    "authors": "Roman Minguez, Fernando A. Lopez, Jesus Mur",
+    "year": 2022,
+    "citations": 13,
+    "dataset": "CRAN spsur package with simulated spatial-SUR data and a real regional-mobility application",
+    "datasetUrl": "https://cran.r-project.org/package=spsur",
+    "paperUrl": "https://doi.org/10.18637/jss.v104.i11",
+    "formats": [
+      "R package",
+      "spatial data",
+      "simulation code",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Testing multiequation regression with spatial lags, spatial errors, correlated equations, and regional impacts.",
+    "note": "Verified from the Journal of Statistical Software article and the live CRAN spsur package."
+  },
+  {
+    "access": "open",
+    "id": "tas-distribution-free-location-scale",
+    "title": "Distribution-Free Location-Scale Regression",
+    "authors": "Sandra Siegfried, Lucas Kook, Torsten Hothorn",
+    "year": 2023,
+    "citations": 21,
+    "dataset": "Figshare supplement with reproducible tram analyses for continuous, count, ordinal, censored, and growth-curve applications",
+    "datasetUrl": "https://tandf.figshare.com/articles/journal_contribution/Distribution-Free_Location-Scale_Regression/22659004",
+    "paperUrl": "https://doi.org/10.1080/00031305.2023.2203177",
+    "formats": [
+      "supplementary PDF",
+      "R code",
+      "worked examples"
+    ],
+    "properties": [
+      "supplementary-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing interpretable location-scale transformation models across mixed response types and censoring schemes.",
+    "note": "Verified from the open article and its versioned Taylor & Francis Figshare supplement."
+  },
+  {
+    "access": "open",
+    "id": "jcgs-mfm-normalized-inverse-gaussian",
+    "title": "Bayesian mixture modeling using a mixture of finite mixtures with normalized inverse Gaussian weights",
+    "authors": "Fumiya Iwashige, Shintaro Hashimoto",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Taylor & Francis Figshare supplement with numerical experiments and real-data clustering, density-estimation, and community-detection examples",
+    "datasetUrl": "https://tandf.figshare.com/articles/journal_contribution/Bayesian_mixture_modeling_using_a_mixture_of_finite_mixtures_with_normalized_inverse_Gaussian_weights/34015893",
+    "paperUrl": "https://doi.org/10.1080/10618600.2026.2739978",
+    "formats": [
+      "supplementary PDF",
+      "simulation results",
+      "worked examples"
+    ],
+    "properties": [
+      "supplementary-data",
+      "simulation-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "clustering",
+      "density estimation"
+    ],
+    "bestFor": "Comparing finite-mixture priors for an unknown number of components under clustering and density-estimation tasks.",
+    "note": "Verified from the journal DOI and its versioned Taylor & Francis Figshare supplement."
+  },
+  {
+    "access": "open",
+    "id": "jss-bayesmix-cpp-mixtures",
+    "title": "BayesMix: Bayesian Mixture Models in C++",
+    "authors": "Mario Beraha, Bruno Guindani, Matteo Gianella, Alessandra Guglielmi",
+    "year": 2025,
+    "citations": 12,
+    "dataset": "JSS BayesMix package and replication materials with finite and Bayesian nonparametric mixture examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v112i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v112.i09",
+    "formats": [
+      "C++ package",
+      "replication materials",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "density estimation",
+      "clustering"
+    ],
+    "bestFor": "Implementing and comparing extensible Bayesian finite and nonparametric mixture samplers in C++.",
+    "note": "Verified from the Journal of Statistical Software article and its accessible BayesMix and replication files."
+  },
+  {
+    "access": "open",
+    "id": "jss-pyrichlet-gaussian-mixtures",
+    "title": "pyrichlet: A Python Package for Density Estimation and Clustering Using Gaussian Mixture Models",
+    "authors": "Fidel Selva, Ruth Fuentes-Garcia, Maria Fernanda Gil-Leyva",
+    "year": 2025,
+    "citations": 3,
+    "dataset": "JSS pyrichlet package and replication materials with Gaussian-mixture density-estimation and clustering examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v112i08",
+    "paperUrl": "https://doi.org/10.18637/jss.v112.i08",
+    "formats": [
+      "Python package",
+      "replication materials",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "density estimation",
+      "clustering"
+    ],
+    "bestFor": "Comparing Bayesian Gaussian-mixture priors and samplers for density estimation and clustering in Python.",
+    "note": "Verified from the Journal of Statistical Software article and its accessible pyrichlet and replication files."
+  },
+  {
+    "access": "open",
+    "id": "jss-inla-new-frontiers",
+    "title": "New Frontiers in Bayesian Modeling Using the INLA Package in R",
+    "authors": "Janet van Niekerk, Haakon Bakka, Havard Rue, Olaf Schenk",
+    "year": 2021,
+    "citations": 83,
+    "dataset": "JSS INLA replication materials covering spatial, spatio-temporal, survival, and multivariate latent Gaussian examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v100i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i02",
+    "formats": [
+      "R package",
+      "replication code",
+      "worked examples"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Exploring advanced latent Gaussian models and deterministic Bayesian computation with INLA.",
+    "note": "Verified from the Journal of Statistical Software article and its package and replication files."
+  },
+  {
+    "access": "open",
+    "id": "jss-dalmatian-double-hierarchical",
+    "title": "dalmatian: A Package for Fitting Double Hierarchical Linear Models in R via JAGS and nimble",
+    "authors": "Simon Bonner, Han-Na Kim, David Westneat, Ariane Mutzel, Jonathan Wright, Matthew Schofield",
+    "year": 2021,
+    "citations": 5,
+    "dataset": "JSS dalmatian package and replication materials with ecological datasets and double-hierarchical mean-dispersion models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v100i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i10",
+    "formats": [
+      "R package",
+      "replication code",
+      "ecological count data",
+      "JAGS models"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Modeling covariate effects on both conditional means and residual variation in hierarchical Bayesian analyses.",
+    "note": "Verified from the Journal of Statistical Software article and its accessible dalmatian replication files."
+  },
+  {
+    "access": "open",
+    "id": "jss-stochvol-factorstochvol",
+    "title": "Modeling Univariate and Multivariate Stochastic Volatility in R with stochvol and factorstochvol",
+    "authors": "Darjus Hosszejni, Gregor Kastner",
+    "year": 2021,
+    "citations": 63,
+    "dataset": "JSS stochvol and factorstochvol replication materials with exchange-rate data and univariate and multivariate volatility examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v100i12",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i12",
+    "formats": [
+      "R packages",
+      "time series",
+      "replication code",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "bayesian inference",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing Bayesian stochastic-volatility and factor-volatility models for financial time series.",
+    "note": "Verified from the Journal of Statistical Software article and its package, code, and exchange-rate materials."
+  },
+  {
+    "access": "open",
+    "id": "smmr-bayesian-compositional-ordinal",
+    "title": "Bayesian compositional models for ordinal response",
+    "authors": "Li Zhang, Xinyan Zhang, Justin M. Leach, A. K. M. Fazlur Rahman, Nengjun Yi",
+    "year": 2024,
+    "citations": 4,
+    "dataset": "BCO repository with code, simulation workflows, and real compositional datasets for ordinal-response models",
+    "datasetUrl": "https://github.com/Li-Zhang28/BCO",
+    "paperUrl": "https://doi.org/10.1177/09622802241247730",
+    "formats": [
+      "R code",
+      "simulation data",
+      "worked examples"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "bayesian inference"
+    ],
+    "bestFor": "Evaluating Bayesian ordinal-response models with high-dimensional compositional predictors.",
+    "note": "Verified from the journal DOI and the authors' public BCO code-and-data repository."
+  },
+  {
+    "access": "open",
+    "id": "statistics-computing-robust-score-compositions",
+    "title": "Robust score matching for compositional data",
+    "authors": "Janice L. Scealy, Kassel L. Hingee, John T. Kent, Andrew T. A. Wood",
+    "year": 2024,
+    "citations": 4,
+    "dataset": "scorematchingad repository with simulation scripts and compositional-data applications for robust score matching",
+    "datasetUrl": "https://github.com/kasselhingee/scorematchingad",
+    "paperUrl": "https://doi.org/10.1007/s11222-024-10412-w",
+    "formats": [
+      "R code",
+      "simulation data",
+      "worked examples"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "robust statistics",
+      "density estimation"
+    ],
+    "bestFor": "Assessing robust score-matching estimators for flexible distributions on the simplex.",
+    "note": "Verified from the Statistics and Computing DOI and the authors' public reproduction repository."
+  },
+  {
+    "access": "open",
+    "id": "jcgs-dirinla-dirichlet-regression",
+    "title": "The Integrated Nested Laplace Approximation for Fitting Dirichlet Regression Models",
+    "authors": "Joaquin Martinez-Minaya, Finn Lindgren, Antonio Lopez-Quilez, Daniel Simpson, David Conesa",
+    "year": 2023,
+    "citations": 9,
+    "dataset": "dirinla repository with code and data reproducing INLA-based Bayesian Dirichlet regression examples",
+    "datasetUrl": "https://github.com/inlabru-org/dirinla",
+    "paperUrl": "https://doi.org/10.1080/10618600.2022.2144330",
+    "formats": [
+      "R code",
+      "compositional data",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "bayesian inference",
+      "distributional regression"
+    ],
+    "bestFor": "Fitting and comparing Bayesian Dirichlet regression models with deterministic INLA approximations.",
+    "note": "Verified from the journal DOI and the public dirinla reproduction repository."
+  },
+  {
+    "access": "open",
+    "id": "jss-circstat-matlab-circular",
+    "title": "CircStat: A MATLAB Toolbox for Circular Statistics",
+    "authors": "Philipp Berens",
+    "year": 2009,
+    "citations": 3150,
+    "dataset": "JSS CircStat MATLAB toolbox, example code, and circular datasets distributed with the article",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v031i10",
+    "paperUrl": "https://doi.org/10.18637/jss.v031.i10",
+    "formats": [
+      "MATLAB package",
+      "circular data",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics"
+    ],
+    "bestFor": "Testing descriptive statistics, inference, regression, and visualization for circular observations in MATLAB.",
+    "note": "Verified from the Journal of Statistical Software article and its downloadable toolbox and data files."
+  },
+  {
+    "access": "open",
+    "id": "jss-isocir-isotonic-circular",
+    "title": "isocir: An R Package for Constrained Inference Using Isotonic Regression for Circular Data, with an Application to Cell Biology",
+    "authors": "Sandra Barragan, Miguel A. Fernandez, Cristina Rueda, Shyamal Das Peddada",
+    "year": 2013,
+    "citations": 23,
+    "dataset": "JSS isocir package materials with circular cell-biology data and constrained isotonic-regression examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v054i04",
+    "paperUrl": "https://doi.org/10.18637/jss.v054.i04",
+    "formats": [
+      "R package",
+      "circular data",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics"
+    ],
+    "bestFor": "Studying order-restricted inference and isotonic regression when the response lies on a circle.",
+    "note": "Verified from the Journal of Statistical Software article and its downloadable package-data examples."
+  },
+  {
+    "access": "open",
+    "id": "rj-spheresmooth-geodesic-curves",
+    "title": "spheresmooth: An R Package for Penalized Piecewise Geodesic Curve Fitting on a Sphere",
+    "authors": "Jae-Hwan Jhong, Seyoung Lee, Ja-Yong Koo, Kwan-Young Bak",
+    "year": 2025,
+    "citations": 1,
+    "dataset": "CRAN spheresmooth package with spherical curve data, simulation tools, and penalized geodesic-fitting examples",
+    "datasetUrl": "https://cran.r-project.org/package=spheresmooth",
+    "paperUrl": "https://doi.org/10.32614/RJ-2025-004",
+    "formats": [
+      "R package",
+      "spherical data",
+      "simulation code",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Estimating smooth function-valued trajectories constrained to the sphere.",
+    "note": "Verified from The R Journal DOI and the live CRAN spheresmooth package."
+  },
+  {
+    "access": "open",
+    "id": "jss-bnp-functional-time-indexed",
+    "title": "Bayesian Nonparametric Mixture Estimation for Time-Indexed Functional Data in R",
+    "authors": "Terrance D. Savitsky",
+    "year": 2016,
+    "citations": 5,
+    "dataset": "JSS replication code and time-indexed functional-data examples for Bayesian nonparametric mixture models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v072i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v072.i02",
+    "formats": [
+      "R code",
+      "functional data",
+      "replication materials"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "functional data analysis",
+      "high-dimensional statistics",
+      "clustering"
+    ],
+    "bestFor": "Clustering and modeling dependent curves with Bayesian nonparametric mixtures for time-indexed functions.",
+    "note": "Verified from the Journal of Statistical Software article and its accessible replication code."
+  },
+  {
+    "access": "open",
+    "id": "rj-splinets-orthogonal-functional-splines",
+    "title": "Splinets: Orthogonal Splines for Functional Data Analysis",
+    "authors": "Rani Basna, Hiba Nassar, Krzysztof Podgorski",
+    "year": 2025,
+    "citations": 4,
+    "dataset": "R Journal supplementary ZIP with code and data for orthogonal-spline representations and functional-data examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-034/RJ-2024-034.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-034",
+    "formats": [
+      "R code",
+      "functional data",
+      "supplementary archive"
+    ],
+    "properties": [
+      "supplementary-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing orthogonal spline bases and localized representations for functional observations.",
+    "note": "Verified from The R Journal DOI and its downloadable code-and-data supplement."
+  },
+  {
+    "access": "open",
+    "id": "jss-hybrid-gibbs-point-processes",
+    "title": "Hybrids of Gibbs Point Process Models and Their Implementation",
+    "authors": "Adrian Baddeley, Rolf Turner, Jorge Mateu, Andrew Bevan",
+    "year": 2013,
+    "citations": 77,
+    "dataset": "JSS analysis files and Gordon Square point-pattern data for hybrid Gibbs point-process models",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v055i11",
+    "paperUrl": "https://doi.org/10.18637/jss.v055.i11",
+    "formats": [
+      "spatial point data",
+      "R code",
+      "analysis code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Fitting and diagnosing hybrid Gibbs point-process models on irregular urban point patterns.",
+    "note": "Verified from the Journal of Statistical Software article and its downloadable Gordon Square analysis files."
+  },
+  {
+    "access": "open",
+    "id": "jss-ads-k-function-irregular-windows",
+    "title": "ads Package for R: A Fast Unbiased Implementation of the K-function Family for Studying Spatial Point Patterns in Irregular-Shaped Sampling Windows",
+    "authors": "Raphael Pelissier, Francois Goreaud",
+    "year": 2015,
+    "citations": 32,
+    "dataset": "JSS ads package materials and irregular-window spatial point-pattern examples for K-function analysis",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v063i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i06",
+    "formats": [
+      "R package",
+      "spatial point data",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Estimating K-function summaries for spatial point patterns observed through irregular sampling windows.",
+    "note": "Verified from the Journal of Statistical Software article and its accessible package and example files."
+  },
+  {
+    "access": "open",
+    "id": "pmlr-pytetrad-rpytetrad",
+    "title": "Py-Tetrad and RPy-Tetrad: A New Python Interface with R Support for Tetrad Causal Search",
+    "authors": "Joseph Ramsey, Bryan Andrews",
+    "year": 2023,
+    "citations": 6,
+    "dataset": "Py-Tetrad repository with causal-search examples, data workflows, and Python and R interfaces to Tetrad",
+    "datasetUrl": "https://github.com/cmu-phil/py-tetrad",
+    "paperUrl": "https://proceedings.mlr.press/v223/ramsey23a.html",
+    "formats": [
+      "Python package",
+      "r interface",
+      "worked examples",
+      "example workflows"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal discovery",
+      "causal inference",
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Reproducing constraint-based, score-based, and latent-variable causal searches through Tetrad from Python or R.",
+    "note": "Verified from the PMLR paper and the public Py-Tetrad repository."
+  },
+  {
+    "access": "open",
+    "id": "natrev-causal-inference-time-series",
+    "title": "Causal inference for time series",
+    "authors": "Jakob Runge, Andreas Gerhardus, Gherardo Varando, Veronika Eyring, Gustau Camps-Valls",
+    "year": 2023,
+    "citations": 381,
+    "dataset": "Tigramite case-study repository with reproducible causal time-series notebooks, simulations, and application data workflows",
+    "datasetUrl": "https://github.com/jakobrunge/tigramite/tree/master/tutorials/case_studies",
+    "paperUrl": "https://doi.org/10.1038/s43017-023-00431-y",
+    "formats": [
+      "Jupyter notebooks",
+      "time series",
+      "simulation code",
+      "case-study data"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal discovery",
+      "causal inference",
+      "graphical models",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing assumptions and algorithms for causal discovery and effect estimation in time series.",
+    "note": "Verified from the Nature Reviews Earth & Environment article and its publisher-linked Tigramite case studies."
   }
 ]

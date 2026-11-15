@@ -23,7 +23,9 @@ const topicExclusions = new Map([
   ["bmcrm-mnar-action-sensitivity-analysis", new Set(["item response theory"])],
   ["sm-reverse-causality-panel-simulation", new Set(["multilevel modeling"])],
   ["psrm-transformed-likelihood-dynamic-panels", new Set(["multilevel modeling"])],
-  ["restat-robust-heteroskedastic-identification", new Set(["robust statistics"])]
+  ["restat-robust-heteroskedastic-identification", new Set(["robust statistics"])],
+  ["joss-kalepy-kernel-density", new Set(["resampling methods"])],
+  ["smmr-bayesian-compositional-ordinal", new Set(["item response theory"])]
 ]);
 
 const parentRules = [
@@ -194,7 +196,7 @@ const evidenceRules = [
     label: "resampling methods",
     reason: "bootstrap, permutation, jackknife, or resampling-inference evidence in record text",
     test: (paper) =>
-      /\b(bootstrap|resampling|permutation test|permutation inference|permutation-based inference|jackknife|bootstrap confidence interval|bootstrap confidence region)\b/i.test(
+      /\b(bootstrap|resampling inference|resampling-based inference|resampling methods|permutation test|permutation inference|permutation-based inference|jackknife|bootstrap confidence interval|bootstrap confidence region)\b/i.test(
         paperText(paper)
       )
   },
@@ -303,7 +305,7 @@ const evidenceRules = [
     label: "item response theory",
     reason: "item-response-theory, psychometric measurement, latent-trait, or item-level response evidence in record text",
     test: (paper) =>
-      /\b(item response theory|item response|irt|psychometric measurement|psychometric scale|psychometric test|latent trait|measurement model|differential item functioning|item parameter drift|item-level|ordinal response)\b/i.test(
+      /\b(item response theory|item response|irt|psychometric measurement|psychometric scale|psychometric test|latent trait|measurement model|differential item functioning|item parameter drift|item-level)\b/i.test(
         paperText(paper)
       )
   },
@@ -580,7 +582,11 @@ for (const paper of papers) {
   }
 
   paper.topics = (paper.topics || []).filter((topic, index, topics) => {
-    return labelNames.has(topic) && topics.indexOf(topic) === index;
+    return (
+      labelNames.has(topic) &&
+      topics.indexOf(topic) === index &&
+      !topicExclusions.get(paper.id)?.has(topic)
+    );
   });
 }
 
