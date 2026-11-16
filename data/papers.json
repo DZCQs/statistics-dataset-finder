@@ -76313,5 +76313,1255 @@
     ],
     "bestFor": "Comparing assumptions and algorithms for causal discovery and effect estimation in time series.",
     "note": "Verified from the Nature Reviews Earth & Environment article and its publisher-linked Tigramite case studies."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-rdd-multiple-cutoffs",
+    "title": "Interpreting Regression Discontinuity Designs with Multiple Cutoffs",
+    "authors": "Matias D. Cattaneo, Luke Keele, Rocío Titiunik, Gonzalo Vazquez-Bare",
+    "year": 2016,
+    "citations": 278,
+    "dataset": "Harvard Dataverse replication package with election, education, and population data plus R and Stata workflows for multiple-cutoff RDDs",
+    "datasetUrl": "https://doi.org/10.7910/DVN/6N2PN4",
+    "paperUrl": "https://doi.org/10.1086/686802",
+    "formats": [
+      "Harvard Dataverse",
+      "R code",
+      "Stata code",
+      "replication data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "regression discontinuity designs",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Studying identification and extrapolation in regression discontinuity designs with multiple assignment cutoffs.",
+    "note": "Verified from the Harvard Dataverse archive; fourteen files include empirical datasets and R and Stata replication scripts."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-optimized-rdd",
+    "title": "Optimized Regression Discontinuity Designs",
+    "authors": "Guido Imbens, Stefan Wager",
+    "year": 2019,
+    "citations": 107,
+    "dataset": "Harvard Dataverse optrdd replication archive with data and code for optimized regression discontinuity estimation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/8SATPR",
+    "paperUrl": "https://doi.org/10.1162/rest_a_00793",
+    "formats": [
+      "Harvard Dataverse",
+      "tar.gz archive",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "regression discontinuity designs",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Reproducing optimized weighting and inference for regression discontinuity designs.",
+    "note": "Verified from the Harvard Dataverse archive and its downloadable optrdd replication bundle."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-rdd-equivalence-testing",
+    "title": "Equivalence Testing for Regression Discontinuity Designs",
+    "authors": "Erin Hartman",
+    "year": 2020,
+    "citations": 23,
+    "dataset": "Harvard Dataverse R Markdown replication files for equivalence tests and diagnostics in regression discontinuity designs",
+    "datasetUrl": "https://doi.org/10.7910/DVN/IVRHIR",
+    "paperUrl": "https://doi.org/10.1017/pan.2020.43",
+    "formats": [
+      "Harvard Dataverse",
+      "R Markdown",
+      "HTML tutorial",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "regression discontinuity designs",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Applying equivalence tests to assess continuity assumptions around an RDD cutoff.",
+    "note": "Verified from the Harvard Dataverse archive; the five files include R Markdown analyses, rendered output, and documentation."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-rdd-visual-inference",
+    "title": "Visual Inference and Graphical Representation in Regression Discontinuity Designs",
+    "authors": "Christina Korting, Carl Lieberman, Jordan Matsudaira, Zhuan Pei, Yi Shen",
+    "year": 2023,
+    "citations": 38,
+    "dataset": "Harvard Dataverse replication collection with data, code, figures, and experimental materials for visual inference in RDD plots",
+    "datasetUrl": "https://doi.org/10.7910/DVN/RAHKNJ",
+    "paperUrl": "https://doi.org/10.1093/qje/qjad011",
+    "formats": [
+      "Harvard Dataverse",
+      "replication data",
+      "analysis code",
+      "experimental data"
+    ],
+    "properties": [
+      "replication-data",
+      "experimental-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "regression discontinuity designs",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Evaluating how graphical choices affect human inference from regression discontinuity plots.",
+    "note": "Verified from the Harvard Dataverse archive; the collection exposes 1,075 data, code, figure, and experiment files."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-rdd-covariates",
+    "title": "Regression Discontinuity Designs Using Covariates",
+    "authors": "Sebastian Calonico, Matias D. Cattaneo, Max H. Farrell, Rocío Titiunik",
+    "year": 2019,
+    "citations": 855,
+    "dataset": "Harvard Dataverse Head Start replication data with R and Stata code for covariate-adjusted RDD estimation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/LPZLBF",
+    "paperUrl": "https://doi.org/10.1162/rest_a_00760",
+    "formats": [
+      "Harvard Dataverse",
+      "R code",
+      "Stata code",
+      "replication data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "regression discontinuity designs",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Comparing covariate-adjusted and unadjusted regression discontinuity estimators.",
+    "note": "Verified from the Harvard Dataverse archive; five files include the Head Start application data and R and Stata workflows."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-multilevel-calibration-weighting",
+    "title": "Multilevel Calibration Weighting for Survey Data",
+    "authors": "Eli Ben-Michael, Avi Feller, Erin Hartman",
+    "year": 2023,
+    "citations": 38,
+    "dataset": "Harvard Dataverse replication archive with raw survey data, cleaning scripts, empirical analyses, and weighting simulations",
+    "datasetUrl": "https://doi.org/10.7910/DVN/J7BSXQ",
+    "paperUrl": "https://doi.org/10.1017/pan.2023.9",
+    "formats": [
+      "Harvard Dataverse",
+      "survey data",
+      "R code",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey weighting",
+      "complex survey design",
+      "survey methodology",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing multilevel calibration weights with conventional survey weighting estimators.",
+    "note": "Verified from the Harvard Dataverse archive and the publisher data-availability statement; twenty-five files cover raw data, cleaning, analysis, and simulation."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-quantile-ratio-panel",
+    "title": "Quantile ratio regression for panel data",
+    "authors": "Alessandro Fulci, Alessio Farcomeni",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Harvard Dataverse panel-data replication package with RData objects, simulation outputs, and quantile-ratio regression workflows",
+    "datasetUrl": "https://doi.org/10.7910/DVN/2SXNOZ",
+    "paperUrl": "https://doi.org/10.1007/s00180-026-01799-3",
+    "formats": [
+      "Harvard Dataverse",
+      "RData",
+      "R code",
+      "simulated panel data"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "quantile regression"
+    ],
+    "bestFor": "Estimating and evaluating quantile-ratio regression models with repeated unit-level observations.",
+    "note": "Verified from the Harvard Dataverse archive; sixteen files include panel examples, RData objects, and simulation workflows."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-location-measurement-error-privacy",
+    "title": "Adding Measurement Error to Location Data to Protect Subject Confidentiality While Allowing for Consistent Estimation of Exposure Effects",
+    "authors": "Mahesh Karra, David Canning, Ryoko Sato",
+    "year": 2020,
+    "citations": 3,
+    "dataset": "Harvard Dataverse replication data and Stata code for privacy-protecting location perturbation and exposure-effect estimation",
+    "datasetUrl": "https://doi.org/10.7910/DVN/VHBLVA",
+    "paperUrl": "https://doi.org/10.1111/rssc.12439",
+    "formats": [
+      "Harvard Dataverse",
+      "Stata data",
+      "Stata code",
+      "spatial data"
+    ],
+    "properties": [
+      "replication-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "statistical disclosure control",
+      "survey methodology",
+      "spatial statistics"
+    ],
+    "bestFor": "Studying confidentiality-preserving perturbation of geocoded data under explicit measurement error correction.",
+    "note": "Verified from the Harvard Dataverse archive; five files provide location data, Stata analysis code, and documentation."
+  },
+  {
+    "access": "open",
+    "id": "figshare-dynamic-network-change-points",
+    "title": "Change Point Detection in Dynamic Networks via Regularized Tensor Decomposition",
+    "authors": "Yuzhao Zhang, Jingnan Zhang, Yifan Sun, Junhui Wang",
+    "year": 2023,
+    "citations": 13,
+    "dataset": "Figshare replication materials with MIT dynamic-network data, labels, Python and R code, and supplementary results",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.23866868.v2",
+    "paperUrl": "https://doi.org/10.1080/10618600.2023.2240864",
+    "formats": [
+      "Figshare replication data",
+      "CSV data",
+      "Python code",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "network-data",
+      "time-ordered-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Detecting structural changes in time-varying networks with regularized tensor decompositions.",
+    "note": "Verified from the Figshare file inventory; the archive includes MIT network observations, labels, and runnable Python and R workflows."
+  },
+  {
+    "access": "open",
+    "id": "figshare-bayesian-fused-lasso-networks",
+    "title": "Bayesian Fused Lasso Regression for Dynamic Binary Networks",
+    "authors": "Brenda Betancourt, Abel Rodríguez, Naomi Boyd",
+    "year": 2017,
+    "citations": 23,
+    "dataset": "Figshare dynamic binary-network data with C++, R, and Bayesian fused-lasso replication code",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.5108620.v2",
+    "paperUrl": "https://doi.org/10.1080/10618600.2017.1341323",
+    "formats": [
+      "Figshare replication data",
+      "network data",
+      "C++ code",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "network-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "change point detection",
+      "variable selection",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Estimating evolving binary networks with Bayesian fused-lasso shrinkage.",
+    "note": "Verified from the Figshare archive; it exposes real network matrices together with C++ and R estimation code."
+  },
+  {
+    "access": "open",
+    "id": "figshare-robust-sparse-pca-lts",
+    "title": "Sparse Principal Component Analysis Based on Least Trimmed Squares",
+    "authors": "Yixin Wang, Stefan Van Aelst",
+    "year": 2019,
+    "citations": 10,
+    "dataset": "Figshare supplementary package with robust sparse PCA software, README, simulations, and documented real-data examples",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.9907166.v1",
+    "paperUrl": "https://doi.org/10.1080/00401706.2019.1671234",
+    "formats": [
+      "Figshare replication data",
+      "R package source",
+      "supplementary PDF",
+      "README"
+    ],
+    "properties": [
+      "package-data",
+      "supplementary-materials",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "variable selection",
+      "robust statistics",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing sparse principal-component estimators under contamination and outliers.",
+    "note": "Verified from the Figshare file inventory; the resource includes the method's R package, documentation, and supplementary examples."
+  },
+  {
+    "access": "open",
+    "id": "figshare-mssl-variable-covariance-selection",
+    "title": "Simultaneous Variable and Covariance Selection With the Multivariate Spike-and-Slab LASSO",
+    "authors": "Sameer K. Deshpande, Veronika Ročková, Edward I. George",
+    "year": 2019,
+    "citations": 82,
+    "dataset": "Figshare MSSL replication archive with R package source, scripts, examples, and simulation results",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.7869350.v4",
+    "paperUrl": "https://doi.org/10.1080/10618600.2019.1593179",
+    "formats": [
+      "Figshare replication data",
+      "R package source",
+      "R scripts",
+      "simulation results"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "variable selection",
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Reproducing Bayesian joint selection of predictors and residual covariance structure in multivariate regression.",
+    "note": "Verified from the Figshare archive; the ZIP contains package source, applied examples, scripts, and saved simulation results."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-distance-adjusted-propensity",
+    "title": "Adjusting for unmeasured spatial confounding with distance adjusted propensity score matching",
+    "authors": "Georgia Papadogeorgou, Christine Choirat, Corwin M. Zigler",
+    "year": 2018,
+    "citations": 102,
+    "dataset": "Harvard Dataverse power-plant analysis data with covariates, area characteristics, ozone, and temperature measures for spatial propensity matching",
+    "datasetUrl": "https://doi.org/10.7910/DVN/DKXXSN",
+    "paperUrl": "https://doi.org/10.1093/biostatistics/kxx074",
+    "formats": [
+      "Harvard Dataverse",
+      "tabular data",
+      "spatial data",
+      "observational data"
+    ],
+    "properties": [
+      "replication-data",
+      "spatial-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "propensity score methods",
+      "treatment effect estimation",
+      "causal inference",
+      "spatial statistics"
+    ],
+    "bestFor": "Evaluating propensity-score matching methods that use geographic distance to address spatial confounding.",
+    "note": "Verified from the Harvard Dataverse archive; the analysis table links power-plant covariates and area characteristics to ozone and temperature."
+  },
+  {
+    "access": "open",
+    "id": "rj-forecastcomb-electricity",
+    "title": "Forecast Combinations in R using the ForecastComb Package",
+    "authors": "Christoph E. Weiss, Eran Raviv, Gernot Roetzer",
+    "year": 2018,
+    "citations": 41,
+    "dataset": "ForecastComb package source with bundled electricity forecasts and combination-method examples",
+    "datasetUrl": "https://cran.r-project.org/src/contrib/Archive/ForecastComb/ForecastComb_1.3.1.tar.gz",
+    "paperUrl": "https://doi.org/10.32614/RJ-2018-052",
+    "formats": [
+      "R package source",
+      "R package data",
+      "time series",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing point-forecast combination methods on a bundled electricity series.",
+    "note": "Verified from the archived CRAN source; it contains electricity.rda, documentation, package code, and tests."
+  },
+  {
+    "access": "open",
+    "id": "rj-onlineforecast-adaptive-recursive",
+    "title": "onlineforecast: An R Package for Adaptive and Recursive Forecasting",
+    "authors": "Peder Bacher, Hjörleifur G. Bergsteinsson, Linde Frölke, Mikkel L. Sørensen, Julian Lemos-Vinasco, Jon Liisberg, Jan Kloppenborg Møller, Henrik Aalborg Nielsen, Henrik Madsen",
+    "year": 2023,
+    "citations": 9,
+    "dataset": "onlineforecast CRAN package with executable data-setup, model-selection, forecasting, and evaluation vignettes",
+    "datasetUrl": "https://CRAN.R-project.org/package=onlineforecast",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-031",
+    "formats": [
+      "R package",
+      "package vignettes",
+      "example workflows",
+      "time series examples"
+    ],
+    "properties": [
+      "package-data",
+      "vignettes",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis"
+    ],
+    "bestFor": "Building adaptive recursive forecasts and evaluating online model updates.",
+    "note": "Verified from CRAN source and four executable package vignettes covering setup, selection, forecasting, and evaluation."
+  },
+  {
+    "access": "open",
+    "id": "rj-nowcasting-dynamic-factor-models",
+    "title": "Nowcasting: An R Package for Predicting Economic Variables Using Dynamic Factor Models",
+    "authors": "Serge de Valk, Daiane de Mattos, Pedro Ferreira",
+    "year": 2019,
+    "citations": 24,
+    "dataset": "nowcasting repository with USGDP, NYFED, and BRGDP macroeconomic panels and dynamic-factor workflows",
+    "datasetUrl": "https://github.com/nmecsys/nowcasting",
+    "paperUrl": "https://doi.org/10.32614/RJ-2019-020",
+    "formats": [
+      "GitHub repository",
+      "R package data",
+      "macroeconomic time series",
+      "example code"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series forecasting",
+      "time series analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Nowcasting macroeconomic variables from mixed-frequency panels with dynamic factor models.",
+    "note": "Verified from the author repository; its data directory and README document US and Brazilian GDP nowcasting examples."
+  },
+  {
+    "access": "open",
+    "id": "jss-bgvar-global-vector-autoregressions",
+    "title": "BGVAR: Bayesian Global Vector Autoregressions with Shrinkage Priors in R",
+    "authors": "Maximilian Boeck, Martin Feldkircher, Florian Huber",
+    "year": 2022,
+    "citations": 26,
+    "dataset": "BGVAR package data, vignette, and JSS replication code for Bayesian global vector autoregressions",
+    "datasetUrl": "https://CRAN.R-project.org/package=BGVAR",
+    "paperUrl": "https://doi.org/10.18637/jss.v104.i09",
+    "formats": [
+      "R package",
+      "R package data",
+      "package vignette",
+      "R replication code"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "vignettes",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "time series forecasting",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Estimating and forecasting Bayesian global VARs with shrinkage priors and structural analysis.",
+    "note": "Verified from the JSS replication files and CRAN package source and vignette."
+  },
+  {
+    "access": "open",
+    "id": "jss-bvar-hierarchical-prior-selection",
+    "title": "BVAR: Bayesian Vector Autoregressions with Hierarchical Prior Selection in R",
+    "authors": "Nikolas Kuschnig, Lukas Vashold",
+    "year": 2021,
+    "citations": 81,
+    "dataset": "BVAR package examples, vignette, and JSS replication code for hierarchical-prior Bayesian vector autoregressions",
+    "datasetUrl": "https://CRAN.R-project.org/package=BVAR",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i14",
+    "formats": [
+      "R package",
+      "R package data",
+      "package vignette",
+      "R replication code"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "vignettes",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "time series forecasting",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Fitting Bayesian VARs with data-driven prior selection and producing forecasts and impulse responses.",
+    "note": "Verified from the JSS replication files and CRAN source and executable vignette."
+  },
+  {
+    "access": "open",
+    "id": "rj-pdynmc-dynamic-panel-gmm",
+    "title": "pdynmc: A Package for Estimating Linear Dynamic Panel Data Models Based on Nonlinear Moment Conditions",
+    "authors": "Markus Fritsch, Andrew Adrian Yu Pua, Joachim Schnurbus",
+    "year": 2021,
+    "citations": 14,
+    "dataset": "pdynmc package examples and vignettes for GMM estimation of dynamic panel models with linear and nonlinear moment conditions",
+    "datasetUrl": "https://CRAN.R-project.org/package=pdynmc",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-035",
+    "formats": [
+      "R package",
+      "package vignettes",
+      "panel data examples",
+      "instrumental-variable workflows"
+    ],
+    "properties": [
+      "package-data",
+      "panel-data",
+      "vignettes",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Estimating dynamic panel GMM models using linear and nonlinear moment restrictions.",
+    "note": "Verified from CRAN package source and two vignettes covering instrument construction, estimation, and diagnostics."
+  },
+  {
+    "access": "open",
+    "id": "jss-phtt-heterogeneous-panel-trends",
+    "title": "phtt: Panel Data Analysis with Heterogeneous Time Trends in R",
+    "authors": "Oualid Bada, Dominik Liebl",
+    "year": 2014,
+    "citations": 29,
+    "dataset": "JSS phtt replication script with the bundled Cigar state panel and heterogeneous-trend model examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v059i06/2825",
+    "paperUrl": "https://doi.org/10.18637/jss.v059.i06",
+    "formats": [
+      "R replication code",
+      "R package data",
+      "state panel data",
+      "example workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Estimating panel models with unit-specific time trends and latent common components.",
+    "note": "Verified from the direct JSS replication script, which loads Cigar data and reproduces the article's estimates and figures."
+  },
+  {
+    "access": "open",
+    "id": "jss-pcse-panel-corrected-errors",
+    "title": "Implementing Panel-Corrected Standard Errors in R: The pcse Package",
+    "authors": "Delia Bailey, Jonathan N. Katz",
+    "year": 2011,
+    "citations": 297,
+    "dataset": "JSS pcse replication script with bundled agl and aglUn panel datasets",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v042c01/2283",
+    "paperUrl": "https://doi.org/10.18637/jss.v042.c01",
+    "formats": [
+      "R replication code",
+      "R package data",
+      "panel data examples"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Teaching and reproducing panel-corrected standard-error calculations.",
+    "note": "Verified from the direct JSS script, which loads both bundled panel datasets and reproduces the article examples."
+  },
+  {
+    "access": "open",
+    "id": "rj-lfe-linear-group-fixed-effects",
+    "title": "lfe: Linear Group Fixed Effects",
+    "authors": "Simen Gaure",
+    "year": 2013,
+    "citations": 124,
+    "dataset": "lfe package examples and vignettes for linear models with many group fixed effects",
+    "datasetUrl": "https://CRAN.R-project.org/package=lfe",
+    "paperUrl": "https://doi.org/10.32614/RJ-2013-031",
+    "formats": [
+      "R package",
+      "package vignettes",
+      "panel data examples",
+      "R code"
+    ],
+    "properties": [
+      "package-data",
+      "panel-data",
+      "vignettes",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Fitting and diagnosing linear models with very large sets of group fixed effects.",
+    "note": "Verified from CRAN package source and four vignettes covering estimation, identification, convergence, and clustered errors."
+  },
+  {
+    "access": "open",
+    "id": "rj-nonprobest-nonprobability-surveys",
+    "title": "The R package NonProbEst for estimation in non-probability surveys",
+    "authors": "M. Rueda, R. Ferri-García, L. Castro",
+    "year": 2020,
+    "citations": 13,
+    "dataset": "R Journal NonProbEst supplement with probability and nonprobability survey samples, calibration, propensity weighting, and jackknife workflows",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2020-015/RJ-2020-015.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2020-015",
+    "formats": [
+      "R Journal article",
+      "R scripts",
+      "survey data",
+      "weighting diagnostics"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey weighting",
+      "complex survey design",
+      "survey methodology",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing calibration and propensity-based estimators for nonprobability survey samples.",
+    "note": "Verified from the R Journal supplement; the scripts use sampleNP and sampleP and implement weighting and jackknife variance estimation."
+  },
+  {
+    "access": "open",
+    "id": "rj-frames2-dual-frame-surveys",
+    "title": "Frames2: A Package for Estimation in Dual Frame Surveys",
+    "authors": "Antonio Arcos, David Molina, Maria Giovanna Ranalli, María del Mar Rueda",
+    "year": 2015,
+    "citations": 14,
+    "dataset": "Frames2 package with documented dual-frame sample and population datasets and estimation vignettes",
+    "datasetUrl": "https://CRAN.R-project.org/package=Frames2",
+    "paperUrl": "https://doi.org/10.32614/RJ-2015-005",
+    "formats": [
+      "R package",
+      "R package data",
+      "package vignettes",
+      "survey data"
+    ],
+    "properties": [
+      "package-data",
+      "survey-data",
+      "vignettes",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey weighting",
+      "complex survey design",
+      "survey methodology"
+    ],
+    "bestFor": "Estimating totals and variances from overlapping dual-frame survey samples.",
+    "note": "Verified from CRAN source, two vignettes, and the documented Dat, DatMA, DatMB, and DatPopM datasets."
+  },
+  {
+    "access": "open",
+    "id": "rj-practools-finite-population-sampling",
+    "title": "PracTools: Computations for Design of Finite Population Samples",
+    "authors": "Richard Valliant, Jill A. Dever, Frauke Kreuter",
+    "year": 2015,
+    "citations": 4,
+    "dataset": "PracTools package datasets and vignettes for finite-population sample design, allocation, design effects, and multistage variance components",
+    "datasetUrl": "https://CRAN.R-project.org/package=PracTools",
+    "paperUrl": "https://doi.org/10.32614/RJ-2015-028",
+    "formats": [
+      "R package",
+      "R package data",
+      "package vignettes",
+      "sampling-design examples"
+    ],
+    "properties": [
+      "package-data",
+      "survey-design",
+      "vignettes",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey methodology"
+    ],
+    "bestFor": "Planning finite-population samples and studying design effects and multistage allocations.",
+    "note": "Verified from CRAN source and six code vignettes; the package explicitly includes functions and example datasets."
+  },
+  {
+    "access": "open",
+    "id": "rj-r2beat-two-stage-sampling",
+    "title": "Two-Stage Sampling Design and Sample Selection with the R Package R2BEAT",
+    "authors": "Giulio Barcaroli, Andrea Fasulo, Alessio Guandalini, Marco D. Terribili",
+    "year": 2023,
+    "citations": 4,
+    "dataset": "R2BEAT package data and workflows for two-stage survey allocation and PSU and SSU selection",
+    "datasetUrl": "https://CRAN.R-project.org/package=R2BEAT",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-069",
+    "formats": [
+      "R package",
+      "R package data",
+      "package vignettes",
+      "sampling-design examples"
+    ],
+    "properties": [
+      "package-data",
+      "survey-design",
+      "vignettes",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey weighting",
+      "complex survey design",
+      "survey methodology"
+    ],
+    "bestFor": "Optimizing and selecting two-stage survey samples under precision constraints.",
+    "note": "Verified from the live package source, including beat.example data and installed workflow and methodology documents."
+  },
+  {
+    "access": "open",
+    "id": "jss-oem-tall-penalized-regression",
+    "title": "Fast Penalized Regression and Cross Validation for Tall Data with the oem Package",
+    "authors": "Jared D. Huling, Peter Chien",
+    "year": 2022,
+    "citations": 15,
+    "dataset": "JSS oem replication archive with R and Python benchmarks, timing data, and cross-validation workflows",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v104i06/4391",
+    "paperUrl": "https://doi.org/10.18637/jss.v104.i06",
+    "formats": [
+      "JSS supplementary files",
+      "R code",
+      "Python code",
+      "CSV data"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "large-scale-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variable selection",
+      "high-dimensional statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Benchmarking penalized regression and cross-validation algorithms on tall data.",
+    "note": "Verified from the JSS ZIP; it contains R and Python replication scripts, documentation, and saved ten-fold timing data."
+  },
+  {
+    "access": "open",
+    "id": "rj-mglm-multivariate-categorical",
+    "title": "MGLM: An R Package for Multivariate Categorical Data Analysis",
+    "authors": "Juhyun Kim, Yiwen Zhang, Joshua Day, Hua Zhou",
+    "year": 2018,
+    "citations": 25,
+    "dataset": "MGLM package examples and vignette for penalized regression with multivariate categorical and count responses",
+    "datasetUrl": "https://CRAN.R-project.org/package=MGLM",
+    "paperUrl": "https://doi.org/10.32614/RJ-2018-015",
+    "formats": [
+      "R package",
+      "package vignette",
+      "categorical data",
+      "count-data examples"
+    ],
+    "properties": [
+      "package-data",
+      "multivariate-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variable selection",
+      "high-dimensional statistics",
+      "compositional data analysis"
+    ],
+    "bestFor": "Fitting penalized multivariate categorical models with multinomial and Dirichlet-multinomial responses.",
+    "note": "Verified from CRAN package source and its executable vignette with documented model examples."
+  },
+  {
+    "access": "open",
+    "id": "rj-lmridge-ridge-regression",
+    "title": "lmridge: A Comprehensive R Package for Ridge Regression",
+    "authors": "Muhammad Imdad Ullah, Muhammad Aslam, Saima Altaf",
+    "year": 2018,
+    "citations": 36,
+    "dataset": "R Journal lmridge supplement with the Hald regression data and ridge diagnostic, estimation, testing, and prediction workflow",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2018-060/RJ-2018-060.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2018-060",
+    "formats": [
+      "R Journal article",
+      "R script",
+      "regression data",
+      "example workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Teaching ridge regression paths, diagnostics, tests, and prediction under multicollinearity.",
+    "note": "Verified from the R Journal supplement; its complete script analyzes the Hald data through the package workflow."
+  },
+  {
+    "access": "open",
+    "id": "rj-fwdselect-forward-variable-selection",
+    "title": "FWDselect: An R Package for Variable Selection in Regression Models",
+    "authors": "Marta Sestelo, Nora M. Villanueva, Luis Meira-Machado, Javier Roca-Pardiñas",
+    "year": 2016,
+    "citations": 24,
+    "dataset": "Archived FWDselect package with diabetes, episode, and pollution datasets plus forward-selection and cross-validation code",
+    "datasetUrl": "https://cran.r-project.org/src/contrib/Archive/FWDselect/FWDselect_2.1.0.tar.gz",
+    "paperUrl": "https://doi.org/10.32614/RJ-2016-009",
+    "formats": [
+      "R package source",
+      "R package data",
+      "regression datasets",
+      "cross-validation workflows"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variable selection",
+      "high-dimensional statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing forward variable-selection criteria and cross-validated model choices on real regression datasets.",
+    "note": "Verified from the archived CRAN source; it includes three data files, documentation, and the package selection code."
+  },
+  {
+    "access": "open",
+    "id": "jss-larf-local-average-response",
+    "title": "LARF: Instrumental Variable Estimation of Causal Effects through Local Average Response Functions",
+    "authors": "Weihua An, Xuefu Wang",
+    "year": 2016,
+    "citations": 10,
+    "dataset": "JSS LARF replication script with simulations and the bundled c401k instrumental-variable dataset",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v071c01/3263",
+    "paperUrl": "https://doi.org/10.18637/jss.v071.c01",
+    "formats": [
+      "R replication code",
+      "R package data",
+      "instrumental-variable workflows",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "instrumental variables",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Estimating heterogeneous causal response functions using an instrumental variable.",
+    "note": "Verified from the direct JSS script, which includes simulation studies and empirical analysis of 401(k) eligibility."
+  },
+  {
+    "access": "open",
+    "id": "jss-dame-flame-causal-matching",
+    "title": "dame-flame: A Python Package Providing Fast Interpretable Matching for Causal Inference",
+    "authors": "Neha R. Gupta, Vittorio Orlandi, Chia-Rui Chang, Tianyu Wang, Marco Morucci, Pritam Dey, Thomas J. Howell, Xian Sun, Angikar Ghosal, Sudeepa Roy, Cynthia Rudin, Alexander Volfovsky",
+    "year": 2025,
+    "citations": 2,
+    "dataset": "DAME-FLAME repository with causal-matching data, examples, tutorials, package source, and tests",
+    "datasetUrl": "https://github.com/almost-matching-exactly/DAME-FLAME-Python-Package",
+    "paperUrl": "https://doi.org/10.18637/jss.v113.i02",
+    "formats": [
+      "GitHub repository",
+      "Python package",
+      "causal-model examples",
+      "tutorials"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "tutorial",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Learning and evaluating interpretable almost-exact matching methods for observational causal studies.",
+    "note": "Verified from the JSS replication files and author repository, including data, examples, tutorials, source, and tests."
+  },
+  {
+    "access": "open",
+    "id": "jss-simcausal-longitudinal-simulations",
+    "title": "simcausal R Package: Conducting Transparent and Reproducible Simulation Studies of Causal Effect Estimation with Complex Longitudinal Data",
+    "authors": "Oleg Sofrygin, Mark J. van der Laan, Romain Neugebauer",
+    "year": 2017,
+    "citations": 45,
+    "dataset": "JSS simcausal replication script with longitudinal data-generating systems, causal estimators, saved results, and reproduced tables",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v081i02/3531",
+    "paperUrl": "https://doi.org/10.18637/jss.v081.i02",
+    "formats": [
+      "R replication code",
+      "simulated longitudinal data",
+      "simulation results",
+      "causal-model examples"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "longitudinal-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "treatment effect estimation",
+      "causal inference",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Designing reproducible simulations for causal estimators under complex longitudinal data-generating systems.",
+    "note": "Verified from the direct JSS script; more than 800 lines define simulations, run estimators, and reproduce article results."
+  },
+  {
+    "access": "open",
+    "id": "jss-beanz-heterogeneous-treatment-effects",
+    "title": "beanz: An R Package for Bayesian Analysis of Heterogeneous Treatment Effects with a Graphical User Interface",
+    "authors": "Chenguang Wang, Thomas A. Louis, Nicholas C. Henderson, Carlos O. Weiss, Ravi Varadhan",
+    "year": 2018,
+    "citations": 16,
+    "dataset": "JSS beanz replication code with bundled SOLVD randomized-trial data for Bayesian subgroup treatment-effect analysis",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v085i07/3676",
+    "paperUrl": "https://doi.org/10.18637/jss.v085.i07",
+    "formats": [
+      "R replication code",
+      "clinical trial data",
+      "R package data",
+      "treatment-effect workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "randomized-experiment",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "heterogeneous treatment effects",
+      "treatment effect estimation",
+      "randomized experiments",
+      "causal inference",
+      "bayesian inference"
+    ],
+    "bestFor": "Estimating and visualizing Bayesian subgroup treatment effects in randomized trials.",
+    "note": "Verified from the direct JSS script, which loads SOLVD trial data and reproduces Bayesian heterogeneous-effect analyses."
+  },
+  {
+    "access": "open",
+    "id": "jss-causaleffect-identification",
+    "title": "Identifying Causal Effects with the R Package causaleffect",
+    "authors": "Santtu Tikka, Juha Karvanen",
+    "year": 2017,
+    "citations": 87,
+    "dataset": "JSS causaleffect replication code with directed and latent-confounded graph examples and identification outputs",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v076i12/3408",
+    "paperUrl": "https://doi.org/10.18637/jss.v076.i12",
+    "formats": [
+      "R replication code",
+      "graph examples",
+      "causal-model examples",
+      "example workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Reproducing graphical identification of causal effects in the presence of latent confounding.",
+    "note": "Verified from the direct JSS script, which reconstructs the paper's graphs, identification formulas, and nonidentifiability examples."
+  },
+  {
+    "access": "open",
+    "id": "rj-cimtx-multiple-treatments",
+    "title": "CIMTx: An R Package for Causal Inference with Multiple Treatments using Observational Data",
+    "authors": "Liangyuan Hu, Jiayi Ji",
+    "year": 2022,
+    "citations": 4,
+    "dataset": "R Journal CIMTx supplement with simulated multiple-treatment data and weighting, matching, BART, TMLE, and sensitivity workflows",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2022-058/RJ-2022-058.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-058",
+    "formats": [
+      "R Journal article",
+      "R replication code",
+      "simulated data",
+      "treatment-effect workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "propensity score methods",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Comparing causal estimators for observational studies with more than two treatments.",
+    "note": "Verified from the R Journal ZIP, which contains a complete workflow for weighting, matching, outcome modeling, overlap, and sensitivity analysis."
+  },
+  {
+    "access": "open",
+    "id": "jss-scalable-massive-data-strategies",
+    "title": "Scalable Strategies for Computing with Massive Data",
+    "authors": "Michael J. Kane, John Emerson, Stephen Weston",
+    "year": 2013,
+    "citations": 168,
+    "dataset": "JSS replication archive with airline, CPU visualization, and simulation scripts for memory-mapped and parallel massive-data workflows",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v055i14/2708",
+    "paperUrl": "https://doi.org/10.18637/jss.v055.i14",
+    "formats": [
+      "JSS supplementary files",
+      "R scripts",
+      "example data",
+      "simulation code"
+    ],
+    "properties": [
+      "replication-data",
+      "large-scale-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [],
+    "bestFor": "Reproducing memory-conscious and parallel strategies for statistical computation on large datasets.",
+    "note": "Verified from the JSS ZIP; it contains airline, CPU visualization, and simulation replication scripts."
+  },
+  {
+    "access": "open",
+    "id": "jss-parallel-simulations-r",
+    "title": "Parallel and Other Simulations in R Made Easy: An End-to-End Study",
+    "authors": "Marius Hofert, Martin Mächler",
+    "year": 2016,
+    "citations": 22,
+    "dataset": "JSS replication script with copula simulation grids, sequential and parallel runs, stored result arrays, analyses, and plots",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v069i04/3204",
+    "paperUrl": "https://doi.org/10.18637/jss.v069.i04",
+    "formats": [
+      "R replication code",
+      "simulation code",
+      "simulation results",
+      "parallel workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [],
+    "bestFor": "Building reproducible end-to-end simulation studies that run sequentially or in parallel.",
+    "note": "Verified from the direct JSS script. No current official label cleanly represents general Monte Carlo study infrastructure, so the record is flagged for label review."
+  },
+  {
+    "access": "open",
+    "id": "jss-rcpp-r-cpp-integration",
+    "title": "Rcpp: Seamless R and C++ Integration",
+    "authors": "Dirk Eddelbuettel, Romain François",
+    "year": 2011,
+    "citations": 1738,
+    "dataset": "JSS executable Rcpp example code using faithful data, inline C++ compilation, and R-backed apply workflows",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v040i08/2216",
+    "paperUrl": "https://doi.org/10.18637/jss.v040.i08",
+    "formats": [
+      "JSS code snippet",
+      "R example code",
+      "C++ code",
+      "example data"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [],
+    "bestFor": "Reproducing foundational examples of integrating compiled C++ statistical code with R data and functions.",
+    "note": "Verified from the direct JSS example script. No current official statistics-method label cleanly represents language-integration infrastructure, so the record is flagged for label review."
+  },
+  {
+    "access": "open",
+    "id": "csda-rcpparmadillo-linear-algebra",
+    "title": "RcppArmadillo: Accelerating R with high-performance C++ linear algebra",
+    "authors": "Dirk Eddelbuettel, Conrad Sanderson",
+    "year": 2014,
+    "citations": 584,
+    "dataset": "RcppArmadillo repository with source, tests, vignettes, and runnable statistical linear-algebra examples",
+    "datasetUrl": "https://github.com/RcppCore/RcppArmadillo",
+    "paperUrl": "https://doi.org/10.1016/j.csda.2013.02.005",
+    "formats": [
+      "GitHub repository",
+      "C++ package",
+      "package vignettes",
+      "regression examples"
+    ],
+    "properties": [
+      "package-data",
+      "software",
+      "vignettes",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [],
+    "bestFor": "Building and benchmarking compiled matrix-based statistical routines for R.",
+    "note": "Verified from the author-maintained repository. The current label fit is broad, so the record is flagged for label review."
   }
 ]
