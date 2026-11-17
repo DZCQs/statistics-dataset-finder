@@ -1191,6 +1191,10 @@ export const LABEL_CANDIDATES = [
       {
         paperId: "jss-bnp-functional-time-indexed",
         reason: "Provides replication code for Bayesian nonparametric mixture modeling of dependent time-indexed functional observations."
+      },
+      {
+        paperId: "jss-bspmma-bayesian-semiparametric-meta-analysis",
+        reason: "Provides direct replication code and datasets for ordinary and conditional Dirichlet-process meta-analysis models."
       }
     ],
     admitWhen: [
