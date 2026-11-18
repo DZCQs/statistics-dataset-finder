@@ -55704,7 +55704,8 @@
       "mixture models",
       "bayesian inference",
       "mcmc diagnostics",
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "bayesian nonparametric methods"
     ],
     "bestFor": "Scalability studies of Bayesian nonparametric mixture sampling across distributed CPU and GPU implementations and high-dimensional clustering tasks.",
     "note": "Verified on the official JSS page, which links DPMMSubClusters source code and replication materials."
@@ -57398,8 +57399,8 @@
       "multiple imputation",
       "missing data",
       "bayesian inference",
-      "mixture models",
-      "survey methodology"
+      "survey methodology",
+      "bayesian nonparametric methods"
     ],
     "bestFor": "Comparing Bayesian latent-class multiple imputation and synthetic-data generation for categorical ACS microdata with structural zeros.",
     "note": "Verified on the official R Journal page, which links the CRAN package and documents the included ACS samples and complete workflows."
@@ -66943,7 +66944,8 @@
       "bayesian inference",
       "survival analysis",
       "item response theory",
-      "longitudinal data analysis"
+      "longitudinal data analysis",
+      "bayesian nonparametric methods"
     ],
     "bestFor": "Studying Dirichlet-process priors across density estimation, semiparametric regression, interval censoring, ROC curves, item response models, and clustered longitudinal outcomes.",
     "note": "Verified from the official JSS page, which explicitly provides DPpackage, replication files containing R code and data sets, and supplementary material. It also supplies evidence for the internal Bayesian nonparametric methods candidate label."
@@ -66976,7 +66978,8 @@
       "mixture models",
       "clustering",
       "variable selection",
-      "high-dimensional statistics"
+      "high-dimensional statistics",
+      "bayesian nonparametric methods"
     ],
     "bestFor": "Comparing Bayesian profile-regression mixtures, Dirichlet-process clustering, response prediction, missing-covariate handling, label switching, and cluster-driving covariate selection.",
     "note": "Verified from the official JSS page, which links PReMiuM and R example code. It supplies evidence for the internal Bayesian nonparametric methods candidate label."
@@ -67010,7 +67013,8 @@
       "mixture models",
       "clustering",
       "heterogeneous treatment effects",
-      "causal inference"
+      "causal inference",
+      "bayesian nonparametric methods"
     ],
     "bestFor": "Estimating latent heterogeneous effects with Dirichlet-process and hierarchical Dirichlet-process mixtures of generalized linear models across grouped contexts.",
     "note": "Verified from the official JSS page and paper, which provide two replication-code bundles and document the included welfare and welfare2 datasets. It supplies evidence for the internal Bayesian nonparametric methods candidate label."
@@ -75254,7 +75258,8 @@
       "bayesian inference",
       "mixture models",
       "density estimation",
-      "clustering"
+      "clustering",
+      "bayesian nonparametric methods"
     ],
     "bestFor": "Comparing Pitman-Yor mixture samplers for Bayesian nonparametric density estimation, regression, and clustering.",
     "note": "Verified from the Journal of Statistical Software article and the live CRAN BNPmix package."
@@ -75825,7 +75830,8 @@
       "bayesian inference",
       "mixture models",
       "density estimation",
-      "clustering"
+      "clustering",
+      "bayesian nonparametric methods"
     ],
     "bestFor": "Implementing and comparing extensible Bayesian finite and nonparametric mixture samplers in C++.",
     "note": "Verified from the Journal of Statistical Software article and its accessible BayesMix and replication files."
@@ -76160,7 +76166,8 @@
       "mixture models",
       "functional data analysis",
       "high-dimensional statistics",
-      "clustering"
+      "clustering",
+      "bayesian nonparametric methods"
     ],
     "bestFor": "Clustering and modeling dependent curves with Bayesian nonparametric mixtures for time-indexed functions.",
     "note": "Verified from the Journal of Statistical Software article and its accessible replication code."
@@ -77818,7 +77825,8 @@
     "topics": [
       "meta-analysis",
       "bayesian inference",
-      "mixture models"
+      "mixture models",
+      "bayesian nonparametric methods"
     ],
     "bestFor": "Reproducing ordinary and conditional Dirichlet-process meta-analysis models and Bayes-factor calculations.",
     "note": "Verified from the direct JSS replication script, which loads two datasets and produces posterior and Bayes-factor summaries."
@@ -77908,7 +77916,8 @@
       "meta-analysis",
       "bayesian hierarchical models",
       "bayesian inference",
-      "multilevel modeling"
+      "multilevel modeling",
+      "probabilistic programming"
     ],
     "bestFor": "Reproducing Bayesian copula models for paired sensitivity and specificity evidence.",
     "note": "Verified from the 473-line JSS script; it fits multiple copulas and a Stan bivariate random-effects model with WAIC and diagnostics."
@@ -78304,7 +78313,8 @@
     "topics": [
       "mixture models",
       "density estimation",
-      "bayesian inference"
+      "bayesian inference",
+      "longitudinal data analysis"
     ],
     "bestFor": "Fitting empirical-Bayes mixing distributions across normal, count, survival, and longitudinal models.",
     "note": "Verified from the package source, manual, and JSS examples; the resource includes shape- and norm-constrained density workflows."
@@ -78492,9 +78502,947 @@
       "needs-review"
     ],
     "topics": [
-      "missing data"
+      "missing data",
+      "robust statistics"
     ],
     "bestFor": "Studying semiparametric regression when a key covariate is subject to right censoring.",
     "note": "Verified from the public 15 MB Figshare supplement, which documents the sparcc package, simulations, and the paper's application workflow."
+  },
+  {
+    "access": "open",
+    "id": "rnews-boot-resampling-methods",
+    "title": "Resampling methods in R: The boot package",
+    "authors": "Angelo J. Canty",
+    "year": 2002,
+    "citations": 0,
+    "dataset": "boot package source with resampling functions and bundled aircondit, acme, cd4, channing, and other example datasets",
+    "datasetUrl": "https://cran.r-project.org/web/packages/boot/index.html",
+    "paperUrl": "https://journal.r-project.org/articles/RN-2002-017/",
+    "formats": [
+      "R package",
+      "R package data",
+      "resampling examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods"
+    ],
+    "bestFor": "Teaching and comparing parametric, nonparametric, censored-data, time-series, and permutation bootstrap workflows.",
+    "note": "Verified from the R News article and current CRAN package; boot exposes multiple reusable datasets, confidence-interval methods, and specialized resampling routines."
+  },
+  {
+    "access": "open",
+    "id": "rj-lmeresampler-clustered-bootstrap",
+    "title": "Bootstrapping Clustered Data in R using lmeresampler",
+    "authors": "Adam Loy, Jenna Korobova",
+    "year": 2023,
+    "citations": 43,
+    "dataset": "lmeresampler vignette with the 728-student jsp728 multilevel school dataset and clustered bootstrap workflows",
+    "datasetUrl": "https://cran.r-project.org/web/packages/lmeresampler/vignettes/lmeresampler-vignette.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-015",
+    "formats": [
+      "R package vignette",
+      "R package data",
+      "multilevel data"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "resampling methods",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing parametric, cases, residual, wild, and random-effect block bootstraps for mixed models.",
+    "note": "Verified from the CRAN vignette and package data; the worked jsp728 analysis covers interval construction and bootstrap diagnostics for clustered observations."
+  },
+  {
+    "access": "open",
+    "id": "rj-farmtest-robust-multiple-testing",
+    "title": "FarmTest: An R Package for Factor-Adjusted Robust Multiple Testing",
+    "authors": "Koushiki Bose, Jianqing Fan, Yuan Ke, Xiaoou Pan, Wen‐Xin Zhou",
+    "year": 2021,
+    "citations": 3,
+    "dataset": "FarmTest repository with factor-model simulations and robust high-dimensional multiple-testing workflows",
+    "datasetUrl": "https://github.com/XiaoouPan/FarmTest",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-023",
+    "formats": [
+      "GitHub repository",
+      "R package",
+      "simulation data"
+    ],
+    "properties": [
+      "repository-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "high-dimensional statistics",
+      "robust statistics"
+    ],
+    "bestFor": "Studying false-discovery control under dependence, latent factors, and heavy-tailed observations.",
+    "note": "Verified from the official package repository; it includes robust mean, covariance, regression, and factor-adjusted testing implementations with reproducible synthetic examples."
+  },
+  {
+    "access": "open",
+    "id": "jrssb-adapt-multiple-testing-side-information",
+    "title": "AdaPT: An Interactive Procedure for Multiple Testing with Side Information",
+    "authors": "Lihua Lei, William Fithian",
+    "year": 2018,
+    "citations": 200,
+    "dataset": "AdaPT repository with GEOquery, Bottomly, airway, pasilla, proteomics, and simulation replication scripts",
+    "datasetUrl": "https://github.com/lihualei71/AdaPT",
+    "paperUrl": "https://doi.org/10.1111/rssb.12274",
+    "formats": [
+      "GitHub repository",
+      "R code",
+      "gene expression data",
+      "proteomics data"
+    ],
+    "properties": [
+      "repository-data",
+      "high-dimensional-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Reproducing covariate-adaptive false-discovery-rate control with side information.",
+    "note": "Verified from the paper-linked repository; it provides five real high-dimensional applications, local-FDR code, two simulation studies, and plotting scripts."
+  },
+  {
+    "access": "open",
+    "id": "jss-pump-multiple-outcome-power",
+    "title": "PUMP: Estimating Power, Minimum Detectable Effect Size, and Sample Size When Adjusting for Multiple Outcomes in Multi-Level Experiments",
+    "authors": "Kristen B. Hunter, Luke W Miratrix, Kristin Porter",
+    "year": 2024,
+    "citations": 4,
+    "dataset": "JSS PUMP replication code for power, minimum-detectable-effect, and sample-size calculations in multilevel randomized experiments",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v108i06/4542",
+    "paperUrl": "https://doi.org/10.18637/jss.v108.i06",
+    "formats": [
+      "JSS replication code",
+      "simulation data",
+      "trial design examples"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "randomized-experiment",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "power analysis",
+      "multilevel modeling",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "Evaluating multiplicity-adjusted power and design tradeoffs for clustered experiments with several outcomes.",
+    "note": "Verified from the direct JSS attachment; the workflows compare Bonferroni and Benjamini-Hochberg adjustments across multilevel experimental designs."
+  },
+  {
+    "access": "open",
+    "id": "rj-quantifquantile-optimal-quantization",
+    "title": "QuantifQuantile: An R Package for Performing Quantile Regression through Optimal Quantization",
+    "authors": "Isabelle Charlier, Davy Paindaveine, Jérôme Saracco",
+    "year": 2015,
+    "citations": 6,
+    "dataset": "Archived QuantifQuantile package source with optimal-quantization examples for conditional quantile curves and surfaces",
+    "datasetUrl": "https://cran.r-project.org/src/contrib/Archive/QuantifQuantile/QuantifQuantile_2.2.tar.gz",
+    "paperUrl": "https://doi.org/10.32614/RJ-2015-021",
+    "formats": [
+      "archived R package",
+      "R examples",
+      "simulation data"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression"
+    ],
+    "bestFor": "Exploring nonparametric conditional quantile estimation through data-adaptive quantization grids.",
+    "note": "Verified from the public CRAN source archive and R Journal article; the package supports grid selection, prediction intervals, and reference curve or surface plots."
+  },
+  {
+    "access": "open",
+    "id": "pmlr-bayesian-distribution-regression",
+    "title": "Bayesian Approaches to Distribution Regression",
+    "authors": "Ho Chung Leon Law, Danica J. Sutherland, Dino Sejdinović, Seth R Flaxman",
+    "year": 2018,
+    "citations": 39,
+    "dataset": "bdr repository with toy gamma generators, IMDb-WIKI feature processing, experiment configurations, MCMC code, and stored results",
+    "datasetUrl": "https://github.com/hcllaw/bdr",
+    "paperUrl": "https://proceedings.mlr.press/v84/law18a.html",
+    "formats": [
+      "GitHub repository",
+      "Python code",
+      "R code",
+      "experiment results"
+    ],
+    "properties": [
+      "repository-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Studying Bayesian prediction when covariates are probability distributions rather than ordinary feature vectors.",
+    "note": "Verified from the PMLR paper and official repository; the resource includes synthetic distribution-valued inputs, image-feature processing, experiment configurations, and posterior computation code."
+  },
+  {
+    "access": "open",
+    "id": "arxiv-distributional-gradient-boosting",
+    "title": "Distributional Gradient Boosting Machines",
+    "authors": "Alexander März, Thomas Kneib",
+    "year": 2022,
+    "citations": 23,
+    "dataset": "Versioned Zenodo archive with OpenML suite 336 and UCI benchmark runners, evaluation splits, tuning outputs, and result tables",
+    "datasetUrl": "https://zenodo.org/records/21875433",
+    "paperUrl": "https://arxiv.org/abs/2204.00778",
+    "formats": [
+      "Zenodo archive",
+      "Python code",
+      "benchmark results",
+      "CSV"
+    ],
+    "properties": [
+      "repository-data",
+      "benchmark-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "distributional regression"
+    ],
+    "bestFor": "Benchmarking gradient-boosted full-distribution models across heterogeneous tabular regression tasks.",
+    "note": "Verified from the versioned Zenodo archive; it includes OpenML and UCI entry points, per-dataset result files, tuning outputs, pinned environments, and table generators."
+  },
+  {
+    "access": "open",
+    "id": "rj-idspatialstats-dependence",
+    "title": "The IDSpatialStats R Package: Quantifying Spatial Dependence of Infectious Disease Spread",
+    "authors": "John R. Giles, Henrik Salje, Justin Lessler",
+    "year": 2019,
+    "citations": 7,
+    "dataset": "IDSpatialStats repository with epidemic-case data, spatial branching-process simulations, transmission-kernel estimation, and tau-statistic workflows",
+    "datasetUrl": "https://github.com/HopkinsIDD/IDSpatialStats",
+    "paperUrl": "https://doi.org/10.32614/RJ-2019-043",
+    "formats": [
+      "GitHub repository",
+      "R package data",
+      "spatial data",
+      "simulation data"
+    ],
+    "properties": [
+      "repository-data",
+      "spatial-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Quantifying and resampling spatial dependence in infectious-disease transmission patterns.",
+    "note": "Verified from the official repository; package source, data, compiled routines, simulation tools, and tau-statistic analyses are all exposed."
+  },
+  {
+    "access": "open",
+    "id": "rj-spatiotemporal-point-patterns",
+    "title": "Non-Parametric Analysis of Spatial and Spatio-Temporal Point Patterns",
+    "authors": "Jonatan A. González, Paula Moraga",
+    "year": 2023,
+    "citations": 7,
+    "dataset": "R Journal supplement with AegissData.RData containing 10,443 Hampshire gastrointestinal reports from 2001 to 2003",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2023-025/RJ-2023-025.zip",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-025",
+    "formats": [
+      "R Journal supplement",
+      "RData",
+      "spatio-temporal point data",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "spatial-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Reproducing nonparametric intensity, relative-risk, simulation-envelope, and space-time point-pattern analyses.",
+    "note": "Verified from the public R Journal ZIP; it bundles the Aegiss reports and code for K-functions, pair correlation, adaptive intensities, and spatio-temporal diagnostics."
+  },
+  {
+    "access": "open",
+    "id": "rj-clustorus-conformal-torus",
+    "title": "ClusTorus: An R Package for Prediction and Clustering on the Torus by Conformal Prediction",
+    "authors": "Seungki Hong, Sungkyu Jung",
+    "year": 2022,
+    "citations": 6,
+    "dataset": "ClusTorus package source with SARS_CoV_2 protein dihedral-angle data and toroidal clustering examples",
+    "datasetUrl": "https://cran.r-project.org/web/packages/ClusTorus/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-032",
+    "formats": [
+      "R package",
+      "R package data",
+      "directional data",
+      "package vignette"
+    ],
+    "properties": [
+      "package-data",
+      "multivariate-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "clustering",
+      "conformal prediction",
+      "density estimation",
+      "mixture models"
+    ],
+    "bestFor": "Studying toroidal clustering and conformal prediction sets for multivariate angular observations.",
+    "note": "Verified from the CRAN package and vignette; the SARS-CoV-2 data support angular-distance, kernel-density, von Mises mixture, and conformal workflows."
+  },
+  {
+    "access": "open",
+    "id": "jss-libdirectional-filtering",
+    "title": "Directional Statistics and Filtering Using libDirectional",
+    "authors": "Gerhard Kurz, Igor Gilitschenski, Florian Pfaff, Lukas Drude, Uwe D. Hanebeck, Reinhold Haeb‐Umbach, Roland Siegwart",
+    "year": 2019,
+    "citations": 32,
+    "dataset": "JSS MATLAB replication code for circular and toroidal distributions, mixtures, deterministic sampling, and recursive directional filters",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v089i04/3792",
+    "paperUrl": "https://doi.org/10.18637/jss.v089.i04",
+    "formats": [
+      "JSS replication code",
+      "MATLAB",
+      "simulation data",
+      "directional examples"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "mixture models"
+    ],
+    "bestFor": "Reproducing circular, toroidal, and spherical distribution calculations and nonlinear directional filtering.",
+    "note": "Verified from the direct JSS attachment; examples cover wrapped-normal and von Mises laws, Watson mixtures, moments, deterministic sampling, and recursive filters."
+  },
+  {
+    "access": "open",
+    "id": "jmlr-bayespy-variational-python",
+    "title": "BayesPy: Variational Bayesian Inference in Python",
+    "authors": "Jaakko Luttinen",
+    "year": 2016,
+    "citations": 9,
+    "dataset": "BayesPy documentation and source examples for regression, mixtures, hidden Markov models, PCA, state-space models, and topic models",
+    "datasetUrl": "https://bayespy.org/",
+    "paperUrl": "https://www.jmlr.org/papers/v17/luttinen16a.html",
+    "formats": [
+      "Python package",
+      "package documentation",
+      "worked examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variational inference",
+      "bayesian inference",
+      "probabilistic programming",
+      "latent variable models",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Learning variational message passing through runnable probabilistic-model examples.",
+    "note": "Verified from the JMLR paper and official documentation; examples include Gaussian and Bernoulli mixtures, HMMs, PCA, linear state-space models, and LDA."
+  },
+  {
+    "access": "open",
+    "id": "jmlr-structured-vi-dynamic-latent-space",
+    "title": "Structured Optimal Variational Inference for Dynamic Latent Space Models",
+    "authors": "Peng Zhao, Anirban Bhattacharya, Debdeep Pati, Bani K. Mallick",
+    "year": 2024,
+    "citations": 6,
+    "dataset": "Replication repository with classroom and Enron dynamic networks, simulations, SMF and MF algorithms, and missing-link prediction",
+    "datasetUrl": "https://github.com/pengzhaostat/SMF-structured-variational-inference",
+    "paperUrl": "https://www.jmlr.org/papers/v25/22-0514.html",
+    "formats": [
+      "GitHub repository",
+      "R code",
+      "network data",
+      "simulation data"
+    ],
+    "properties": [
+      "repository-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variational inference",
+      "bayesian inference",
+      "latent variable models"
+    ],
+    "bestFor": "Comparing structured and mean-field variational inference for evolving latent-space networks.",
+    "note": "Verified from the JMLR paper and official repository; classroom and Enron analyses accompany simulation, missing-link, visualization, and sensitivity scripts."
+  },
+  {
+    "access": "open",
+    "id": "joss-sgmcmcjax-library",
+    "title": "SGMCMCJax: a lightweight JAX library for stochastic gradient Markov chain Monte Carlo algorithms",
+    "authors": "Jeremie Coullon, Christopher Nemeth",
+    "year": 2022,
+    "citations": 7,
+    "dataset": "SGMCMCJax repository with Gaussian-mean simulations and SGLD, SGHMC, pSGLD, SGNHT, BAOAB, and BADODAB examples",
+    "datasetUrl": "https://github.com/jeremiecoullon/SGMCMCJax",
+    "paperUrl": "https://doi.org/10.21105/joss.04113",
+    "formats": [
+      "GitHub repository",
+      "Python package",
+      "simulation data",
+      "tests"
+    ],
+    "properties": [
+      "repository-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "stochastic-gradient MCMC",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing scalable minibatch posterior samplers and variance-reduction strategies in JAX.",
+    "note": "Verified from the JOSS paper and official repository; the quickstart and test suite cover multiple stochastic-gradient MCMC families on reproducible synthetic data."
+  },
+  {
+    "access": "open",
+    "id": "pmlr-variational-ranked-samples",
+    "title": "Variational Inference from Ranked Samples with Features",
+    "authors": "Yuan Guo, Jennifer Dy, Deniz Erdogmus, Jayashree Kalpathy–Cramer, Susan R. Ostmo, J. Peter Campbell, Michael F. Chiang, Stratis Ioannidis",
+    "year": 2019,
+    "citations": 4,
+    "dataset": "VariationalPlackettLuce repository with ranking-feature inputs, variational EM, MAP Newton optimization, and evaluation metrics",
+    "datasetUrl": "https://github.com/neu-spiral/VariationalPlackettLuce",
+    "paperUrl": "https://proceedings.mlr.press/v101/guo19a.html",
+    "formats": [
+      "GitHub repository",
+      "Python code",
+      "ranking data examples"
+    ],
+    "properties": [
+      "repository-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variational inference",
+      "bayesian inference",
+      "latent variable models"
+    ],
+    "bestFor": "Studying variational Plackett-Luce inference when ranked observations have item-level features.",
+    "note": "Verified from the PMLR paper and official repository; the code exposes variational means, covariances, lower bounds, MAP optimization, and evaluation metrics."
+  },
+  {
+    "access": "open",
+    "id": "plos-atemevs-measurement-error-ate",
+    "title": "AteMeVs: An R package for the estimation of the average treatment effect with measurement error and variable selection for confounders",
+    "authors": "Li‐Pang Chen, Grace Y. Yi",
+    "year": 2024,
+    "citations": 3,
+    "dataset": "AteMeVs package source with artificial-data generation, SIMEX correction, confounder selection, propensity-score fitting, and ATE estimation",
+    "datasetUrl": "https://cran.r-project.org/web/packages/AteMeVs/index.html",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0296951",
+    "formats": [
+      "R package",
+      "simulation data",
+      "R examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "causal inference",
+      "treatment effect estimation",
+      "propensity score methods",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Estimating average treatment effects when confounders are both error-prone and high-dimensional.",
+    "note": "Verified from the CRAN source and manual; DG, SIMEX_EST, VSE_PS, and EST_ATE provide an end-to-end reproducible noisy-confounder workflow."
+  },
+  {
+    "access": "open",
+    "id": "jds-bayesdecon-density-deconvolution",
+    "title": "Bayesian Semiparametric Univariate and Multivariate Density Deconvolution for Continuous and Zero-Inflated Data with the R Package BayesDecon",
+    "authors": "Blake Moya, Mainak Manna, Abhra Sarkar",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "JDS BayesDecon data-and-code archive with simulations and NHANES dietary analyses plus the CRAN package's 3,000-row replicated example data",
+    "datasetUrl": "https://jds-online.org/journal/JDS/article/1503/file/14822",
+    "paperUrl": "https://doi.org/10.6339/26-JDS1244",
+    "formats": [
+      "JDS data and code archive",
+      "R package data",
+      "simulation data",
+      "NHANES examples"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "density estimation",
+      "bayesian inference",
+      "mixture models",
+      "bayesian nonparametric methods"
+    ],
+    "bestFor": "Comparing Bayesian semiparametric deconvolution for continuous, multivariate, heteroscedastic, and zero-inflated measurements.",
+    "note": "Verified from the public JDS ZIP and CRAN source; the archive includes data and code, while BayesDecon bundles replicated simulation data and executable density-deconvolution routines."
+  },
+  {
+    "access": "open",
+    "id": "rsif-mechanistic-measurement-error",
+    "title": "Implementing measurement error models with mechanistic mathematical models in a likelihood-based framework for estimation, identifiability analysis and prediction in the life sciences",
+    "authors": "Ryan J. Murphy, Oliver J. Maclaren, Matthew J. Simpson",
+    "year": 2024,
+    "citations": 58,
+    "dataset": "Zenodo replication archive with Julia ODE and PDE examples for additive Gaussian, multiplicative lognormal, and Poisson measurement errors",
+    "datasetUrl": "https://zenodo.org/records/10452931",
+    "paperUrl": "https://doi.org/10.1098/rsif.2023.0402",
+    "formats": [
+      "Zenodo archive",
+      "Julia code",
+      "simulation data",
+      "mechanistic-model examples"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models"
+    ],
+    "bestFor": "Studying identifiability, profile likelihoods, prediction, and coverage under alternative observation-error models.",
+    "note": "Verified from the paper-linked versioned Zenodo archive; it contains executable ODE and PDE case studies, profile-likelihood calculations, and coverage simulations."
+  },
+  {
+    "access": "open",
+    "id": "ejs-compositional-covariance-sppdcc",
+    "title": "Direct covariance matrix estimation with compositional data",
+    "authors": "Aaron J. Molstad, Karl Oskar Ekvall, Piotr M. Suder",
+    "year": 2024,
+    "citations": 2,
+    "dataset": "SpPDCC repository with package source, vignettes, simulation reproduction, and a microbiome compositional-data workflow",
+    "datasetUrl": "https://github.com/ajmolstad/SpPDCC",
+    "paperUrl": "https://doi.org/10.1214/24-EJS2222",
+    "formats": [
+      "GitHub repository",
+      "R package",
+      "package vignette",
+      "simulation data"
+    ],
+    "properties": [
+      "repository-data",
+      "simulation-data",
+      "high-dimensional-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Estimating sparse positive-definite covariance matrices directly from compositional observations.",
+    "note": "Verified from the official repository; package source, documentation, simulation-reproduction links, and a microbiome analysis are publicly available."
+  },
+  {
+    "access": "open",
+    "id": "arxiv-balance-regression-compositional-selection",
+    "title": "Variable selection in balance regression with applications to microbiome compositional data",
+    "authors": "Jing Ma, Paizhe Xie, Kristyn Pantoja, David E. Jones",
+    "year": 2023,
+    "citations": 1,
+    "dataset": "slr repository with supervised log-ratio screening, clustering, simulations, and an HIV microbiome application",
+    "datasetUrl": "https://github.com/drjingma/slr",
+    "paperUrl": "https://arxiv.org/abs/2304.00143",
+    "formats": [
+      "GitHub repository",
+      "R code",
+      "simulation data",
+      "microbiome data"
+    ],
+    "properties": [
+      "repository-data",
+      "simulation-data",
+      "high-dimensional-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "variable selection",
+      "high-dimensional statistics",
+      "clustering"
+    ],
+    "bestFor": "Selecting interpretable balance biomarkers in high-dimensional compositional regression and classification.",
+    "note": "Verified from the current arXiv record and official repository; supervised screening and clustering are accompanied by simulations and an HIV microbiome analysis."
+  },
+  {
+    "access": "open",
+    "id": "anzjs-synloc-disclosure-control",
+    "title": "Generating Synthetic Data With Locally Estimated Distributions for Disclosure Control",
+    "authors": "Ali Furkan Kalay",
+    "year": 2026,
+    "citations": 5,
+    "dataset": "synloc repository with package source, replication workflows, tests, examples, and sample extract.dta microdata",
+    "datasetUrl": "https://github.com/alfurka/synloc",
+    "paperUrl": "https://doi.org/10.1111/anzs.70032",
+    "formats": [
+      "GitHub repository",
+      "Python package",
+      "Stata data",
+      "replication code"
+    ],
+    "properties": [
+      "repository-data",
+      "synthetic-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical disclosure control",
+      "survey methodology",
+      "clustering"
+    ],
+    "bestFor": "Evaluating local-resampling synthetic data for confidentiality, utility, and distributional fidelity.",
+    "note": "Verified from the official repository; it includes k-nearest-neighbor and clustering synthesis, sample microdata, KS and Wasserstein diagnostics, correlations, utility, and disclosure measures."
+  },
+  {
+    "access": "open",
+    "id": "rj-sloth-spatial-point-process",
+    "title": "Species Distribution Modeling using Spatial Point Processes: a Case Study of Sloth Occurrence in Costa Rica",
+    "authors": "Paula Moraga",
+    "year": 2021,
+    "citations": 13,
+    "dataset": "Executable R Journal article retrieving 707 GBIF sloth occurrences and WorldClim minimum-temperature rasters for Costa Rica",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2021-017/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-017",
+    "formats": [
+      "executable R Journal article",
+      "GBIF occurrence data",
+      "raster data",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "spatial-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Reproducing log-Gaussian Cox process species-distribution models with public occurrence and climate data.",
+    "note": "Verified from the executable article; it documents public GBIF retrieval, WorldClim raster preparation, grid construction, R-INLA fitting, and mapping."
+  },
+  {
+    "access": "open",
+    "id": "rj-indtestpp-temporal-point-processes",
+    "title": "Analyzing Dependence between Point Processes in Time Using IndTestPP",
+    "authors": "Ana C. Cebrián, Jesús Asín",
+    "year": 2021,
+    "citations": 4,
+    "dataset": "IndTestPP package source with temporal point-process generators and parametric and nonparametric independence-test examples",
+    "datasetUrl": "https://cran.r-project.org/web/packages/IndTestPP/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-049",
+    "formats": [
+      "R package",
+      "simulation data",
+      "temporal point-process examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Testing dependence between temporal point processes with simulation-based and nonparametric procedures.",
+    "note": "Verified from the CRAN package and R Journal article; the source exposes dependence generators, independence tests, and reproducible temporal point-process analyses."
+  },
+  {
+    "access": "open",
+    "id": "jcgs-covariate-informed-density-deconvolution",
+    "title": "Bayesian Semiparametric Covariate Informed Multivariate Density Deconvolution",
+    "authors": "Abhra Sarkar",
+    "year": 2022,
+    "citations": 3,
+    "dataset": "Figshare Data and Codes archive for covariate-informed multivariate density deconvolution of replicated dietary recalls",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Bayesian_Semiparametric_Covariate_Informed_Multivariate_Density_Deconvolution/19497645",
+    "paperUrl": "https://doi.org/10.1080/10618600.2022.2060239",
+    "formats": [
+      "Figshare data and code",
+      "ZIP archive",
+      "R code",
+      "dietary recall data"
+    ],
+    "properties": [
+      "replication-data",
+      "multivariate-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "density estimation",
+      "bayesian inference",
+      "variable selection",
+      "high-dimensional statistics",
+      "bayesian nonparametric methods"
+    ],
+    "bestFor": "Estimating predictor-dependent latent multivariate densities from replicated, error-contaminated measurements.",
+    "note": "Verified from the Figshare manifest; Data and Codes.zip and a substantive appendix support multivariate deconvolution, automatic predictor selection, simulations, and nutritional applications."
+  },
+  {
+    "access": "open",
+    "id": "jasa-ngvb-latent-nongaussian-variational",
+    "title": "Fitting Latent Non-Gaussian Models Using Variational Bayes and Laplace Approximations",
+    "authors": "Rafael Cabral, David Bolin, Håvard Rue",
+    "year": 2023,
+    "citations": 22,
+    "dataset": "Figshare ngvb package and 171 MB reproducibility archive for autoregressive, areal, and spatial Matérn latent non-Gaussian models",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Fitting_latent_non-Gaussian_models_using_variational_Bayes_and_Laplace_approximations/24891113",
+    "paperUrl": "https://doi.org/10.1080/01621459.2023.2296704",
+    "formats": [
+      "Figshare replication data",
+      "R package source",
+      "ZIP archive",
+      "spatial and time-series examples"
+    ],
+    "properties": [
+      "replication-data",
+      "spatial-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variational inference",
+      "bayesian inference",
+      "spatial statistics",
+      "time series analysis",
+      "latent variable models"
+    ],
+    "bestFor": "Comparing variational Bayes and Laplace approximations for latent processes with jumps, spikes, and heavy tails.",
+    "note": "Verified from the Figshare file manifest; it exposes the ngvb package, two supplements, and a 171 MB reproducibility bundle spanning autoregressive, areal, and Matérn models."
+  },
+  {
+    "access": "open",
+    "id": "jbes-highdim-quantile-decorrelated-test",
+    "title": "Testing High-Dimensional Effects in Quantile Regression with High-Dimensional Confounding: A Decorrelated Approach",
+    "authors": "Bowen Zhou, Heng Peng, Peirong Xu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Figshare real_data.zip with U.S. stock-market data, simulation scripts, Readme, and high-dimensional quantile-test supplement",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Testing_High-Dimensional_Effects_in_Quantile_Regression_with_High-Dimensional_Confounding_A_Decorrelated_Approach/33966327",
+    "paperUrl": "https://doi.org/10.1080/07350015.2026.2737286",
+    "formats": [
+      "Figshare replication data",
+      "R code",
+      "ZIP archive",
+      "financial data"
+    ],
+    "properties": [
+      "replication-data",
+      "high-dimensional-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating smoothed and decorrelated score tests with ultrahigh-dimensional targets and nuisance covariates.",
+    "note": "Verified from the Figshare manifest; the archive includes a README, two R scripts, real_data.zip, and a supplement covering simulations and the U.S. stock-market application."
+  },
+  {
+    "access": "open",
+    "id": "jcgs-fastkqr-kernel-quantile",
+    "title": "fastkqr: A Fast Algorithm for Kernel Quantile Regression",
+    "authors": "Qian Tang, Yuwen Gu, Boxiang Wang",
+    "year": 2025,
+    "citations": 5,
+    "dataset": "fastkqr package source and vignette with synthetic data for kernel, non-crossing, and regularized linear quantile regression",
+    "datasetUrl": "https://CRAN.R-project.org/package=fastkqr",
+    "paperUrl": "https://doi.org/10.1080/10618600.2025.2541004",
+    "formats": [
+      "R package",
+      "package vignette",
+      "simulation data",
+      "Fortran source"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression"
+    ],
+    "bestFor": "Comparing fast kernel, non-crossing, and regularized linear quantile-regression algorithms.",
+    "note": "Verified from the current CRAN source; the package includes a runnable vignette, synthetic examples, cross-validation workflows, and compiled implementations."
+  },
+  {
+    "access": "open",
+    "id": "jasa-pmle-density-deconvolution",
+    "title": "Deconvolution Density Estimation with Penalized MLE",
+    "authors": "Yun Cai, Hong Gu, Toby Kenney",
+    "year": 2024,
+    "citations": 2,
+    "dataset": "pmledecon package source and documented simulations for known-family and pure-error-sample deconvolution",
+    "datasetUrl": "https://CRAN.R-project.org/package=pmledecon",
+    "paperUrl": "https://doi.org/10.1080/01621459.2024.2436686",
+    "formats": [
+      "R package",
+      "simulation data",
+      "R examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "density estimation"
+    ],
+    "bestFor": "Estimating latent densities under additive measurement error with penalized likelihood and alternative error specifications.",
+    "note": "Verified from the current CRAN source and manual; worked simulations cover known Normal errors and independently sampled unknown error distributions."
+  },
+  {
+    "access": "open",
+    "id": "plos-ssndesign-stream-networks",
+    "title": "SSNdesign—An R package for pseudo-Bayesian optimal and adaptive sampling designs on stream networks",
+    "authors": "Alan R. Pearse, James M. McGree, Nicholas A. Som, Catherine Leigh, Paul Maxwell, Jay M. Ver Hoef, Erin E. Peterson",
+    "year": 2020,
+    "citations": 15,
+    "dataset": "SSNdesign repository with 11 MB ExampleData.zip and 26 MB ExampleRData.zip for two Queensland stream-network case studies",
+    "datasetUrl": "https://github.com/apear9/SSNdesign",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0238422",
+    "formats": [
+      "GitHub repository",
+      "R package",
+      "spatial stream-network data",
+      "ZIP archives"
+    ],
+    "properties": [
+      "repository-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "optimal experimental design",
+      "spatial statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Designing information-efficient fixed and adaptive monitoring networks on branching streams.",
+    "note": "Verified from the paper's availability statement and repository tree; two large example archives reproduce Queensland stream-network geostatistical design case studies."
   }
 ]

@@ -1065,6 +1065,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["probabilistic programming", "probabilistic programming language", "probabilistic programming framework", "stan source package", "stan program", "stan code", "stan example", "stan examples", "pymc", "turing.jl", "turinglang", "greta", "brms", "nimblesmc", "nimble package", "bugs-language", "bugs language", "automated inference"]
   },
   {
+    name: "bayesian nonparametric methods",
+    level: "mid",
+    parents: ["bayesian inference"],
+    definition: "Datasets, package examples, and replication resources for Bayesian models with random probability measures, nonparametric priors, or data-adaptive latent structure, including Dirichlet-process mixtures, profile regression, and Bayesian nonparametric density estimation.",
+    includeWhen: [
+      "Bayesian nonparametric priors, random probability measures, Dirichlet or Pitman-Yor processes, profile regression, or Bayesian nonparametric density estimation are central to the paper or resource",
+      "the resource provides accessible data, code, package examples, simulations, or replication material for fitting or evaluating these models"
+    ],
+    avoidWhen: [
+      "the paper is Bayesian but uses only finite-dimensional parametric models",
+      "mixture modeling or clustering is central without a Bayesian nonparametric prior or data-adaptive nonparametric structure"
+    ],
+    evidenceTerms: ["bayesian nonparametric", "bayesian non-parametric", "nonparametric bayes", "dirichlet process", "dependent dirichlet process", "hierarchical dirichlet process", "pitman-yor", "random probability measure", "profile regression", "species sampling", "dp mixture", "dpmm", "bayesian semiparametric density"]
+  },
+  {
     name: "variational inference",
     level: "mid",
     parents: ["bayesian inference"],
@@ -1152,59 +1167,7 @@ export const LABEL_REGISTRY = [
   }
 ];
 
-export const LABEL_CANDIDATES = [
-  {
-    name: "bayesian nonparametric methods",
-    proposedLevel: "mid",
-    proposedParents: ["bayesian inference"],
-    status: "watch",
-    definition: "Datasets, package examples, and replication resources for Bayesian models with random probability measures, nonparametric priors, or data-adaptive latent structure, including Dirichlet-process mixtures and profile regression.",
-    currentEvidence: [
-      {
-        paperId: "jss-dppackage-bayesian-nonparametrics",
-        reason: "Provides code and datasets for Dirichlet-process density estimation, semiparametric regression, item response, interval-censored, and longitudinal models."
-      },
-      {
-        paperId: "jss-premium-profile-regression",
-        reason: "Provides package examples for Dirichlet-process profile regression, clustering, prediction, missing covariates, and variable selection."
-      },
-      {
-        paperId: "jss-hdpglm-hierarchical-dirichlet-process",
-        reason: "Provides replication code and welfare datasets for hierarchical Dirichlet-process generalized linear model mixtures."
-      },
-      {
-        paperId: "jss-dpmm-distributed-mixtures",
-        reason: "Provides scalable CPU and GPU replication materials for Dirichlet-process mixture sampling on large, high-dimensional data."
-      },
-      {
-        paperId: "rj-npbayesimputecat",
-        reason: "Provides ACS examples for Bayesian nonparametric latent-class imputation and disclosure-controlled synthetic-data generation."
-      },
-      {
-        paperId: "jss-bnpmix-pitman-yor-mixtures",
-        reason: "Provides package examples for Pitman-Yor random probability measures in multivariate density estimation, clustering, and regression."
-      },
-      {
-        paperId: "jss-bayesmix-cpp-mixtures",
-        reason: "Provides extensible C++ replication workflows for finite and Bayesian nonparametric mixture models."
-      },
-      {
-        paperId: "jss-bnp-functional-time-indexed",
-        reason: "Provides replication code for Bayesian nonparametric mixture modeling of dependent time-indexed functional observations."
-      },
-      {
-        paperId: "jss-bspmma-bayesian-semiparametric-meta-analysis",
-        reason: "Provides direct replication code and datasets for ordinary and conditional Dirichlet-process meta-analysis models."
-      }
-    ],
-    admitWhen: [
-      "additional high-confidence resources demonstrate reuse beyond Dirichlet-process mixtures and latent-class applications",
-      "the boundary with bayesian inference, mixture models, and clustering can be stated without making the label a redundant umbrella",
-      "users would gain a stable intersection for random-measure priors, density regression, survival, longitudinal, and other nonparametric Bayesian workflows"
-    ],
-    evidenceTerms: ["bayesian nonparametric", "bayesian non-parametric", "dirichlet process", "dependent dirichlet process", "hierarchical dirichlet process", "random probability measure", "profile regression", "species sampling", "dp mixture", "dpmm"]
-  }
-];
+export const LABEL_CANDIDATES = [];
 
 export const LABEL_RULES = {
   minLabelsPerPaper: 3,
