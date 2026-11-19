@@ -79444,5 +79444,1243 @@
     ],
     "bestFor": "Designing information-efficient fixed and adaptive monitoring networks on branching streams.",
     "note": "Verified from the paper's availability statement and repository tree; two large example archives reproduce Queensland stream-network geostatistical design case studies."
+  },
+  {
+    "access": "open",
+    "id": "jss-fhmm-financial-time-series",
+    "title": "fHMM: Hidden Markov Models for Financial Time Series in R",
+    "authors": "Lennart Oelschläger, Timo Adam, Rouven Michels",
+    "year": 2024,
+    "citations": 12,
+    "dataset": "Official fHMM package and JSS replication code for hidden Markov modeling of financial time series",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v109i09",
+    "paperUrl": "https://doi.org/10.18637/jss.v109.i09",
+    "formats": [
+      "R package",
+      "R replication code",
+      "financial time-series examples"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "latent variable models"
+    ],
+    "bestFor": "Fitting, decoding, and comparing hidden Markov models for regime-switching financial series.",
+    "note": "Verified on the official JSS page; it directly provides the fHMM package and a separate R replication-code archive."
+  },
+  {
+    "access": "open",
+    "id": "jss-doubleml-r-causal-inference",
+    "title": "DoubleML: An Object-Oriented Implementation of Double Machine Learning in R",
+    "authors": "Philipp Bach, Malte S. Kurz, Victor Chernozhukov, Martin Spindler, Sven Klaassen",
+    "year": 2024,
+    "citations": 131,
+    "dataset": "Official DoubleML R package and JSS replication materials for orthogonal-score causal estimation examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v108i03",
+    "paperUrl": "https://doi.org/10.18637/jss.v108.i03",
+    "formats": [
+      "R package",
+      "replication archive",
+      "R code",
+      "worked data examples"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "high-dimensional-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating double machine learning with nuisance estimation and orthogonal scores for causal parameters.",
+    "note": "Verified on the official JSS page; it supplies the DoubleML package and a distinct replication-materials download."
+  },
+  {
+    "access": "open",
+    "id": "jss-fungp-functional-inputs",
+    "title": "funGp: An R Package for Gaussian Process Regression with Scalar and Functional Inputs",
+    "authors": "José Betancourt, François Bachoc, Thierry Klein, Déborah Idier, Jérémy Rohmer, Yves Deville",
+    "year": 2024,
+    "citations": 3,
+    "dataset": "funGp package, R replication code, and supplementary R binary data for scalar and functional-input Gaussian process examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v109i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v109.i05",
+    "formats": [
+      "R package",
+      "R replication code",
+      "RData supplement"
+    ],
+    "properties": [
+      "package-data",
+      "replication-data",
+      "functional-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Modeling scalar responses with mixed scalar and curve-valued predictors using Gaussian process regression.",
+    "note": "Verified on the official JSS page; package source, replication code, and supplementary data are separate accessible downloads."
+  },
+  {
+    "access": "open",
+    "id": "jss-surveyhlm-educational-assessment",
+    "title": "SURVEYHLM: A SAS Macro for Multilevel Analysis with Large-Scale Educational Assessment Data",
+    "authors": "Daniel Kasper, Katrin Schulz-Heidorf, Knut Schwippert",
+    "year": 2025,
+    "citations": 1,
+    "dataset": "SURVEYHLM SAS macro and JSS replication materials for survey-weighted multilevel educational-assessment analyses",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v113i05",
+    "paperUrl": "https://doi.org/10.18637/jss.v113.i05",
+    "formats": [
+      "SAS macro",
+      "replication archive",
+      "survey examples",
+      "code"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "multilevel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "multilevel modeling"
+    ],
+    "bestFor": "Reproducing multilevel analyses that preserve sampling weights and design structure in educational surveys.",
+    "note": "Verified on the official JSS page; the SURVEYHLM macro and replication materials are directly downloadable."
+  },
+  {
+    "access": "open",
+    "id": "jss-jti-sparta-bayesian-networks",
+    "title": "jti and sparta: Time and Space Efficient Packages for Model-Based Prediction in Large Bayesian Networks",
+    "authors": "Mads Lindskou, Torben Tvedebrink, Poul Svante Eriksen, Søren Højsgaard, Niels Morling",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Official jti and sparta packages with JSS replication code for sparse large-network prediction examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v111i02",
+    "paperUrl": "https://doi.org/10.18637/jss.v111.i02",
+    "formats": [
+      "two R packages",
+      "R replication code",
+      "Bayesian-network examples"
+    ],
+    "properties": [
+      "package-data",
+      "high-dimensional-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Testing junction-tree and sparse-table computations for prediction in large discrete Bayesian networks.",
+    "note": "Verified on the official JSS page; it provides both package archives and separate R replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-cpop-piecewise-linear-signals",
+    "title": "cpop: Detecting Changes in Piecewise-Linear Signals",
+    "authors": "Paul Fearnhead, Daniel Grose",
+    "year": 2024,
+    "citations": 23,
+    "dataset": "cpop package and JSS replication code for simulated and empirical piecewise-linear signal examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v109i07",
+    "paperUrl": "https://doi.org/10.18637/jss.v109.i07",
+    "formats": [
+      "R package",
+      "R replication code",
+      "signal examples"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Detecting slope changes in noisy piecewise-linear signals with penalized dynamic programming.",
+    "note": "Verified on the official JSS page; the cpop package and article replication code are separate accessible files."
+  },
+  {
+    "access": "open",
+    "id": "jss-xtivdfreg-spatial-dynamic-panels",
+    "title": "Estimating Spatial Dynamic Panel Data Models with Unobserved Common Factors in Stata",
+    "authors": "Sebastian Kripfganz, Vasilis Sarafidis",
+    "year": 2025,
+    "citations": 15,
+    "dataset": "xtivdfreg Stata package and JSS replication materials for spatial dynamic panel estimators with common factors",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v113i06",
+    "paperUrl": "https://doi.org/10.18637/jss.v113.i06",
+    "formats": [
+      "Stata package",
+      "replication archive",
+      "panel-data examples",
+      "code"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "spatial-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "panel data methods",
+      "longitudinal data analysis",
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Estimating dynamic panels with spatial dependence, endogenous regressors, and unobserved common factors.",
+    "note": "Verified on the official JSS page; the xtivdfreg Stata package and replication materials are directly supplied."
+  },
+  {
+    "access": "open",
+    "id": "jss-scpi-synthetic-control-uncertainty",
+    "title": "scpi: Uncertainty Quantification for Synthetic Control Methods",
+    "authors": "Matias D. Cattaneo, Yingjie Feng, Filippo Palomba, Rocío Titiunik",
+    "year": 2025,
+    "citations": 18,
+    "dataset": "R, Python, and Stata scpi packages plus JSS replication materials for synthetic-control uncertainty analyses",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v113i01",
+    "paperUrl": "https://doi.org/10.18637/jss.v113.i01",
+    "formats": [
+      "R package",
+      "Python package",
+      "Stata package",
+      "replication archive"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "synthetic control methods",
+      "panel data methods",
+      "longitudinal data analysis",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Constructing prediction intervals and uncertainty assessments for synthetic-control counterfactuals.",
+    "note": "Verified on the official JSS page; it exposes implementations in three languages and a distinct replication-materials archive."
+  },
+  {
+    "access": "open",
+    "id": "rj-iar-irregular-time-series",
+    "title": "iAR: An R Package for Autoregressive Modeling Irregularly Observed Time Series",
+    "authors": "Felipe Elorrieta, Susana Eyheramendy, Wilfredo Palma, Cesar Ojeda",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "iAR package data with 191-observation dmcep and paired cvnovag/cvnovar irregular astronomical series",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2026-036/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-036",
+    "formats": [
+      "executable R Journal article",
+      "R package data",
+      "irregular time series",
+      "R code"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Modeling irregularly sampled univariate, complex, and bivariate autoregressive series with measurement errors.",
+    "note": "Verified from the executable R Journal article; it documents the dmcep, cvnovag, and cvnovar package datasets and their observational structure."
+  },
+  {
+    "access": "open",
+    "id": "rj-varshrink-high-dimensional-var",
+    "title": "VARshrink: An R Package for Shrinkage Estimation of High-Dimensional Vector Autoregressive Models",
+    "authors": "Namgil Lee, Sung-Ho Kim",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Executable article and supplement using the vars Canada macroeconomic benchmark for high-dimensional VAR shrinkage",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2026-042/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2026-042",
+    "formats": [
+      "executable R Journal article",
+      "R package",
+      "supplementary ZIP",
+      "macroeconomic time series"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "high-dimensional-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing shrinkage and lag-selection strategies in high-dimensional vector autoregressions.",
+    "note": "Verified from the executable article; its data-availability section links the Canada dataset in vars and a downloadable article supplement."
+  },
+  {
+    "access": "open",
+    "id": "rj-surveycc-canonical-correlation",
+    "title": "Canonical Correlation Analysis of Survey Data: The SurveyCC R Package",
+    "authors": "Raul Cruz-Cano, Aaron Cohen, Erin Mead-Morse",
+    "year": 2024,
+    "citations": 5,
+    "dataset": "SurveyCC package and article supplement with national complex-survey examples using weights, strata, clusters, and replicate weights",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-040/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-040",
+    "formats": [
+      "executable R Journal article",
+      "R package",
+      "supplementary ZIP",
+      "complex survey data"
+    ],
+    "properties": [
+      "package-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Estimating and testing canonical correlations while preserving complex survey design information.",
+    "note": "Verified from the executable article and supplement; the worked analyses explicitly use survey weights, clusters, strata, and replicate weights."
+  },
+  {
+    "access": "open",
+    "id": "rj-glmmpen-high-dimensional-mixed-models",
+    "title": "glmmPen: High Dimensional Penalized Generalized Linear Mixed Models",
+    "authors": "Hillary M. Heiling, Naim U. Rashid, Quefeng Li, Joseph G. Ibrahim",
+    "year": 2023,
+    "citations": 15,
+    "dataset": "glmmPen package and R Journal supplement with simulations and worked penalized mixed-model examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2023-086/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-086",
+    "formats": [
+      "R package",
+      "supplementary ZIP",
+      "simulation data",
+      "R code"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "high-dimensional-data",
+      "multilevel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "multilevel modeling"
+    ],
+    "bestFor": "Selecting fixed and random effects in high-dimensional generalized linear mixed models.",
+    "note": "Verified from the official R Journal article; package examples and the downloadable supplement reproduce penalized mixed-model workflows."
+  },
+  {
+    "access": "open",
+    "id": "rj-sihr-high-dimensional-inference",
+    "title": "SIHR: Statistical Inference in High-Dimensional Linear and Logistic Regression Models",
+    "authors": "Prabrisha Rakshit, Zhenyu Wang, Tony Cai, Zijian Guo",
+    "year": 2024,
+    "citations": 8,
+    "dataset": "SIHR package and R Journal supplement for confidence intervals and hypothesis tests in high-dimensional regressions",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-028/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-028",
+    "formats": [
+      "R package",
+      "supplementary ZIP",
+      "simulation data",
+      "R code"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "high-dimensional-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Assessing confidence intervals and hypothesis tests for individual or grouped coefficients in high-dimensional models.",
+    "note": "Verified from the official R Journal page; it identifies the SIHR package and provides a downloadable article supplement."
+  },
+  {
+    "access": "open",
+    "id": "rj-snseg-self-normalized-segmentation",
+    "title": "SNSeg: An R Package for Time Series Segmentation via Self-Normalization",
+    "authors": "Shubo Sun, Zifeng Zhao, Feiyu Jiang, Xiaofeng Shao",
+    "year": 2024,
+    "citations": 2,
+    "dataset": "SNSeg package and R Journal supplement with simulated and empirical multivariate time-series segmentation examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-029/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-029",
+    "formats": [
+      "executable R Journal article",
+      "R package",
+      "supplementary ZIP",
+      "time-series examples"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Segmenting dependent univariate and multivariate time series without long-run variance estimation.",
+    "note": "Verified from the executable R Journal article; SNSeg is on CRAN and the article supplies a downloadable supplement."
+  },
+  {
+    "access": "open",
+    "id": "rj-summer-survey-space-time-smoothing",
+    "title": "Space-Time Smoothing of Survey Outcomes using the R Package SUMMER",
+    "authors": "Zehang Richard Li, Bryan D Martin, Tracy Qi Dong, Geir-Arne Fuglstad, Jessica Godwin, John Paige, Andrea Riebler, Samuel J Clark, Jon Wakefield",
+    "year": 2025,
+    "citations": 12,
+    "dataset": "SUMMER package with 16,283-record BRFSS survey data, King County HRA maps, and executable small-area examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2025-005/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2025-005",
+    "formats": [
+      "executable R Journal article",
+      "R package data",
+      "complex survey data",
+      "spatial polygons"
+    ],
+    "properties": [
+      "package-data",
+      "survey-data",
+      "spatial-data",
+      "spatio-temporal-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "small area estimation",
+      "spatial statistics",
+      "spatio-temporal models",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Comparing direct, Fay-Herriot, and Bayesian space-time smoothing of survey indicators in small areas.",
+    "note": "Verified from the executable article; it documents the package's BRFSS microdata, KingCounty map, design weights, and spatial-adjacency workflow."
+  },
+  {
+    "access": "open",
+    "id": "rj-sfislands-disjoint-areal-zones",
+    "title": "Sfislands: An R Package for Accommodating Islands and Disjoint Zones in Areal Spatial Modelling",
+    "authors": "Kevin Horan, Katarina Domijan, Chris Brunsdon",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "sfislands package and public Indonesia earthquake catalog for areal models with islands and disconnected zones",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2025-015/",
+    "paperUrl": "https://doi.org/10.32614/RJ-2025-015",
+    "formats": [
+      "executable R Journal article",
+      "R package",
+      "GitHub earthquake data",
+      "spatial polygons"
+    ],
+    "properties": [
+      "package-data",
+      "repository-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Constructing areal adjacency structures and spatial models when regions include islands or disconnected zones.",
+    "note": "Verified from the executable article; it links the public USGS-derived Indonesia earthquake data repository and demonstrates spatial Bayesian models."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-incumbency-rdd",
+    "title": "Estimating Incumbency Effects Using Regression Discontinuity Design",
+    "authors": "B. K. Song",
+    "year": 2018,
+    "citations": 14,
+    "dataset": "Harvard Dataverse archive with candidate- and party-level election panels, six Stata analysis scripts, RD commands, and README",
+    "datasetUrl": "https://doi.org/10.7910/DVN/JSOWUR",
+    "paperUrl": "https://doi.org/10.1177/2053168018813446",
+    "formats": [
+      "Harvard Dataverse",
+      "tabular election data",
+      "Stata code",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "regression discontinuity designs",
+      "panel data methods",
+      "longitudinal data analysis",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Estimating candidate and party incumbency effects around close-election thresholds with alternative RD specifications.",
+    "note": "Verified through the Dataverse API; the archive exposes two multi-megabyte tables, six analysis do-files, RD ado-files, and a README."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-population-threshold-rdd",
+    "title": "Regression Discontinuity Designs Based on Population Thresholds: Pitfalls and Solutions",
+    "authors": "Andrew C. Eggers, Ronny Freier, Veronica Grembi, Tommaso Nannicini",
+    "year": 2017,
+    "citations": 187,
+    "dataset": "Harvard Dataverse 13.9 MB replication archive for population-threshold designs in France, Germany, and Italy",
+    "datasetUrl": "https://doi.org/10.7910/DVN/PGXO5O",
+    "paperUrl": "https://doi.org/10.1111/ajps.12332",
+    "formats": [
+      "Harvard Dataverse",
+      "ZIP replication archive",
+      "municipal panel data",
+      "code"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "quasi-experimental designs",
+      "regression discontinuity designs",
+      "panel data methods",
+      "longitudinal data analysis",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Studying sorting and compound-treatment pitfalls in population-threshold regression-discontinuity designs.",
+    "note": "Verified through the Dataverse API; the 13.9 MB archive reproduces cross-country municipal threshold analyses and diagnostic guidance."
+  },
+  {
+    "access": "open",
+    "id": "openicpsr-pretrend-event-study",
+    "title": "Pre-test with Caution: Event-study Estimates After Testing for Parallel Trends",
+    "authors": "Jonathan Roth",
+    "year": 2022,
+    "citations": 1356,
+    "dataset": "openICPSR replication archive with event-study simulations and a calibration survey of recent economics papers",
+    "datasetUrl": "https://doi.org/10.3886/E151982V1",
+    "paperUrl": "https://doi.org/10.1257/aeri.20210236",
+    "formats": [
+      "openICPSR replication archive",
+      "simulation data",
+      "survey-derived calibration data",
+      "code"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Studying bias and power after pre-testing parallel trends in event-study difference-in-differences designs.",
+    "note": "Verified from the openICPSR record and AEA paper; the archive is identified as the paper's replication code and data."
+  },
+  {
+    "access": "open",
+    "id": "zenodo-borusyak-event-study",
+    "title": "Revisiting Event-Study Designs: Robust and Efficient Estimation",
+    "authors": "Kirill Borusyak, Xavier Jaravel, Jann Spiess",
+    "year": 2024,
+    "citations": 3061,
+    "dataset": "Zenodo replication package for tax-rebate consumption panels and staggered-adoption event-study simulations",
+    "datasetUrl": "https://zenodo.org/records/10037585",
+    "paperUrl": "https://doi.org/10.1093/restud/rdae007",
+    "formats": [
+      "Zenodo replication archive",
+      "panel data",
+      "simulation data",
+      "code"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences",
+      "heterogeneous treatment effects",
+      "panel data methods"
+    ],
+    "bestFor": "Comparing robust imputation estimators for event studies with staggered adoption and heterogeneous effects.",
+    "note": "Verified from the Zenodo manifest and paper; the downloadable archive reproduces the empirical tax-rebate application and simulations."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-unit-fixed-effects-causal",
+    "title": "When Should We Use Unit Fixed Effects Regression Models for Causal Inference with Longitudinal Data?",
+    "authors": "Kosuke Imai, In Song Kim",
+    "year": 2019,
+    "citations": 493,
+    "dataset": "Harvard Dataverse verification files with GATT membership, dyadic trade panels, simulations, and replication code",
+    "datasetUrl": "https://doi.org/10.7910/DVN/YUM3K8",
+    "paperUrl": "https://doi.org/10.1111/ajps.12417",
+    "formats": [
+      "Harvard Dataverse",
+      "longitudinal panel data",
+      "simulation data",
+      "code"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "longitudinal-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Evaluating unit fixed-effects estimators under dynamic treatment relationships in longitudinal observational panels.",
+    "note": "Verified from the paper's verification-material statement and Dataverse DOI; the files cover the GATT trade application and simulations."
+  },
+  {
+    "access": "open",
+    "id": "cran-rdrobust-senate-randomization",
+    "title": "Randomization Inference in the Regression Discontinuity Design: An Application to Party Advantages in the U.S. Senate",
+    "authors": "Matias D. Cattaneo, Brigham R. Frandsen, Rocio Titiunik",
+    "year": 2015,
+    "citations": 446,
+    "dataset": "rdrobust_RDsenate package data with U.S. Senate election outcomes and incumbency advantage from 1914 to 2010",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/rdrobust/html/rdrobust_RDsenate.html",
+    "paperUrl": "https://doi.org/10.1515/jci-2013-0010",
+    "formats": [
+      "R package data",
+      "election panel",
+      "documented variables"
+    ],
+    "properties": [
+      "package-data",
+      "panel-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "regression discontinuity designs",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Implementing local-randomization tests for close-election regression-discontinuity designs.",
+    "note": "Verified from the rdrobust documentation; it identifies the Senate data as the paper's empirical dataset and cites the article directly."
+  },
+  {
+    "access": "open",
+    "id": "dataverse-counterfactual-tscs",
+    "title": "A Practical Guide to Counterfactual Estimators for Causal Inference with Time-Series Cross-Sectional Data",
+    "authors": "Licheng Liu, Ye Wang, Yiqing Xu",
+    "year": 2024,
+    "citations": 624,
+    "dataset": "AJPS Dataverse archive with Swiss municipal naturalization and English local-council grant-allocation panels",
+    "datasetUrl": "https://doi.org/10.7910/DVN/ZVC9W5",
+    "paperUrl": "https://doi.org/10.1111/ajps.12723",
+    "formats": [
+      "Harvard Dataverse",
+      "municipal panel data",
+      "local-government panel data",
+      "replication code"
+    ],
+    "properties": [
+      "replication-data",
+      "panel-data",
+      "longitudinal-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "panel data methods",
+      "longitudinal data analysis",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Comparing fixed-effects, interactive-effects, and matrix-completion counterfactual estimators on policy panels.",
+    "note": "Verified from the paper and AJPS Dataverse archive; both named empirical panels and their verification materials are deposited there."
+  },
+  {
+    "access": "open",
+    "id": "github-prophet-forecasting-scale",
+    "title": "Forecasting at Scale",
+    "authors": "Sean J. Taylor, Benjamin Letham",
+    "year": 2018,
+    "citations": 4170,
+    "dataset": "Official Prophet daily Wikipedia page-view series for Peyton Manning with dates and log traffic",
+    "datasetUrl": "https://github.com/facebook/prophet/blob/main/examples/example_wp_log_peyton_manning.csv",
+    "paperUrl": "https://doi.org/10.1080/00031305.2017.1380080",
+    "formats": [
+      "GitHub CSV",
+      "daily time series",
+      "official documentation"
+    ],
+    "properties": [
+      "repository-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "change point detection"
+    ],
+    "bestFor": "Evaluating scalable trend, changepoint, seasonality, and holiday components in operational forecasts.",
+    "note": "Verified from the official Prophet repository and quick-start documentation, which loads this CSV as the canonical worked series."
+  },
+  {
+    "access": "open",
+    "id": "cran-electricity-double-seasonal",
+    "title": "Short-Term Electricity Demand Forecasting Using Double Seasonal Exponential Smoothing",
+    "authors": "James W. Taylor",
+    "year": 2003,
+    "citations": 866,
+    "dataset": "forecast package taylor data with 4,032 half-hourly electricity-demand observations from England and Wales",
+    "datasetUrl": "https://pkg.robjhyndman.com/forecast/reference/taylor.html",
+    "paperUrl": "https://doi.org/10.1057/palgrave.jors.2601589",
+    "formats": [
+      "R package data",
+      "half-hourly time series",
+      "documented source"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Comparing double-seasonal exponential smoothing and autoregressive error correction for intraday demand.",
+    "note": "Verified from the forecast package documentation; it describes the exact series and cites Taylor's paper as its source."
+  },
+  {
+    "access": "open",
+    "id": "cran-ingarch-campy",
+    "title": "Integer-Valued GARCH Process",
+    "authors": "Rene Ferland, Alain Latour, Driss Oraichi",
+    "year": 2006,
+    "citations": 581,
+    "dataset": "tscount campy data with 140 four-week Campylobacter infection counts from northern Quebec",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/tscount/html/campy.html",
+    "paperUrl": "https://doi.org/10.1111/j.1467-9892.2006.00496.x",
+    "formats": [
+      "R package data",
+      "count time series",
+      "documented INGARCH example"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Fitting integer-valued autoregressive conditional heteroskedastic models to disease-count series.",
+    "note": "Verified from the tscount documentation; it supplies the infection series, demonstrates an INGARCH fit, and cites the article."
+  },
+  {
+    "access": "open",
+    "id": "cran-sae-cornsoybean",
+    "title": "An Error-Components Model for Prediction of County Crop Areas Using Survey and Satellite Data",
+    "authors": "George E. Battese, Rachel M. Harter, Wayne A. Fuller",
+    "year": 1988,
+    "citations": 934,
+    "dataset": "sae cornsoybean data with survey and LANDSAT crop-area measurements for 37 segments in 12 Iowa counties",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/sae/html/cornsoybean.html",
+    "paperUrl": "https://doi.org/10.1080/01621459.1988.10478561",
+    "formats": [
+      "R package data",
+      "complex survey data",
+      "satellite covariates",
+      "county domains"
+    ],
+    "properties": [
+      "package-data",
+      "survey-data",
+      "spatial-data",
+      "multilevel-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "small area estimation",
+      "multilevel modeling",
+      "spatial statistics"
+    ],
+    "bestFor": "Reproducing nested-error small-area estimators that combine probability samples with satellite covariates.",
+    "note": "Verified from the sae documentation; it describes the segment and county variables and identifies Battese, Harter, and Fuller as the source."
+  },
+  {
+    "access": "open",
+    "id": "github-structured-priors-mrp",
+    "title": "Improving Multilevel Regression and Poststratification with Structured Priors",
+    "authors": "Yuxiang Gao, Lauren Kennedy, Daniel Simpson, Andrew Gelman",
+    "year": 2021,
+    "citations": 72,
+    "dataset": "Replication repository with NAES analysis files, ACS-derived poststratification tables, Massachusetts adjacency matrices, and simulations",
+    "datasetUrl": "https://github.com/alexgao09/structuredpriorsmrp_public",
+    "paperUrl": "https://doi.org/10.1214/20-BA1223",
+    "formats": [
+      "GitHub repository",
+      "survey analysis data",
+      "poststratification tables",
+      "spatial matrices"
+    ],
+    "properties": [
+      "repository-data",
+      "survey-data",
+      "spatial-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "small area estimation",
+      "multilevel modeling",
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "survey weighting"
+    ],
+    "bestFor": "Evaluating structured priors for multilevel regression and poststratification with spatial and ordered effects.",
+    "note": "Verified from the paper and public repository; derived poststratification, adjacency, smoothing, and simulation files reproduce the analyses."
+  },
+  {
+    "access": "open",
+    "id": "github-gfpca-functional-time-series",
+    "title": "Graphical Principal Component Analysis of Multivariate Functional Time Series",
+    "authors": "Jianbin Tan, Decai Liang, Yongtao Guan, Hui Huang",
+    "year": 2024,
+    "citations": 18,
+    "dataset": "GFPCA repository with hourly PM2.5 curves from 24 stations in three Chinese cities over 60 winter days",
+    "datasetUrl": "https://github.com/Jianbin-Tan/GFPCA",
+    "paperUrl": "https://doi.org/10.1080/01621459.2024.2302198",
+    "formats": [
+      "GitHub repository",
+      "RData",
+      "multivariate functional time series",
+      "R code"
+    ],
+    "properties": [
+      "repository-data",
+      "functional-data",
+      "time-series-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics",
+      "graphical models",
+      "time series analysis",
+      "dimension reduction"
+    ],
+    "bestFor": "Studying dynamic functional principal components and conditional dependence across multivariate curve series.",
+    "note": "Verified from the publisher record and companion repository; Data/fda_dat.rda contains the PM2.5 application and scripts reproduce it."
+  },
+  {
+    "access": "open",
+    "id": "cran-refund-cd4-fast-covariance",
+    "title": "Fast Covariance Estimation for Sparse Functional Data",
+    "authors": "Luo Xiao, Cai Li, William Checkley, Ciprian Crainiceanu",
+    "year": 2018,
+    "citations": 94,
+    "dataset": "refund cd4 data with longitudinal CD4 counts for 366 HIV-infected men observed at one to eleven visits",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/refund/html/cd4.html",
+    "paperUrl": "https://doi.org/10.1007/s11222-017-9744-8",
+    "formats": [
+      "R package data",
+      "sparse functional data",
+      "longitudinal measurements"
+    ],
+    "properties": [
+      "package-data",
+      "functional-data",
+      "longitudinal-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics",
+      "dimension reduction",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Comparing fast covariance smoothing and functional principal components with sparsely observed curves.",
+    "note": "Verified from the open article and refund documentation; the package exposes the CD4 data used for sparse functional covariance analysis."
+  },
+  {
+    "access": "open",
+    "id": "cran-refund-dti-functional-regression",
+    "title": "Penalized Functional Regression",
+    "authors": "Jeff Goldsmith, Jennifer Bobb, Ciprian M. Crainiceanu, Brian Caffo, Daniel Reich",
+    "year": 2011,
+    "citations": 344,
+    "dataset": "refund DTI data with white-matter tract fractional-anisotropy profiles, multiple-sclerosis status, and PASAT scores",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/refund/html/DTI.html",
+    "paperUrl": "https://doi.org/10.1198/jcgs.2010.10007",
+    "formats": [
+      "R package data",
+      "functional predictors",
+      "clinical outcomes"
+    ],
+    "properties": [
+      "package-data",
+      "functional-data",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics",
+      "dimension reduction"
+    ],
+    "bestFor": "Fitting penalized scalar-on-function regressions with diffusion-tensor tract profiles.",
+    "note": "Verified from the refund documentation; it identifies the DTI tract-profile data and cites the article directly."
+  },
+  {
+    "access": "open",
+    "id": "cran-refund-dti2-longitudinal-functional",
+    "title": "Longitudinal Penalized Functional Regression for Cognitive Outcomes on Neuronal Tract Measurements",
+    "authors": "Jeff Goldsmith, Ciprian M. Crainiceanu, Brian Caffo, Daniel Reich",
+    "year": 2012,
+    "citations": 151,
+    "dataset": "refund DTI2 data with 340 longitudinal tract profiles, visit identifiers, and PASAT cognitive scores",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/refund/html/DTI2.html",
+    "paperUrl": "https://doi.org/10.1111/j.1467-9876.2011.01031.x",
+    "formats": [
+      "R package data",
+      "longitudinal functional data",
+      "repeated outcomes"
+    ],
+    "properties": [
+      "package-data",
+      "functional-data",
+      "longitudinal-data",
+      "multilevel-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "high-dimensional statistics",
+      "longitudinal data analysis",
+      "multilevel modeling"
+    ],
+    "bestFor": "Modeling repeated cognitive outcomes from longitudinal function-valued neuronal-tract predictors.",
+    "note": "Verified from the journal record and refund documentation; DTI2 exposes the measurements and cites the paper."
+  },
+  {
+    "access": "open",
+    "id": "cran-spdata-lisa-afcon",
+    "title": "Local Indicators of Spatial Association-LISA",
+    "authors": "Luc Anselin",
+    "year": 1995,
+    "citations": 15703,
+    "dataset": "spData afcon data with conflict indices, country centroids, and the reconstructed rook-neighbor graph for 42 African countries",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/spData/html/afcon.html",
+    "paperUrl": "https://doi.org/10.1111/j.1538-4632.1995.tb00338.x",
+    "formats": [
+      "R package data",
+      "spatial attributes",
+      "neighbor graph"
+    ],
+    "properties": [
+      "package-data",
+      "spatial-data",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Computing local spatial autocorrelation, hot spots, and spatial outliers with a canonical LISA example.",
+    "note": "Verified from the paper and spData documentation; the package reconstructs the paper's African conflict data and neighbor list."
+  },
+  {
+    "access": "open",
+    "id": "cran-spatialextremes-swiss-rainfall",
+    "title": "Statistical Modeling of Spatial Extremes",
+    "authors": "Anthony C. Davison, Simone A. Padoan, Mathieu Ribatet",
+    "year": 2012,
+    "citations": 698,
+    "dataset": "SpatialExtremes rainfall data with Swiss summer annual maximum daily precipitation, station coordinates, and elevations",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/SpatialExtremes/html/rainfall.html",
+    "paperUrl": "https://doi.org/10.1214/11-STS376",
+    "formats": [
+      "R package data",
+      "spatial extremes",
+      "station metadata"
+    ],
+    "properties": [
+      "package-data",
+      "spatial-data",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "extreme value analysis"
+    ],
+    "bestFor": "Comparing max-stable, copula, and latent models for spatially dependent precipitation maxima.",
+    "note": "Verified from the paper and SpatialExtremes documentation; the named Swiss rainfall data and spatial metadata are accessible in the package."
+  },
+  {
+    "access": "open",
+    "id": "rnews-evd-portpirie",
+    "title": "evd: Extreme Value Distributions",
+    "authors": "Alec Stephenson",
+    "year": 2002,
+    "citations": 0,
+    "dataset": "evd portpirie data with 65 annual maximum sea levels at Port Pirie, South Australia, from 1923 to 1987",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/evd/html/portpirie.html",
+    "paperUrl": "https://journal.r-project.org/articles/RN-2002-015/",
+    "formats": [
+      "R package data",
+      "annual maxima",
+      "documented provenance"
+    ],
+    "properties": [
+      "package-data",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis"
+    ],
+    "bestFor": "Fitting and diagnosing univariate extreme-value distributions on annual sea-level maxima.",
+    "note": "Verified from the R News article and evd documentation; the package supplies the Port Pirie maxima used for extreme-value modeling."
+  },
+  {
+    "access": "open",
+    "id": "cran-eva-lowestoft-order-statistics",
+    "title": "Automated Selection of r for the r Largest Order Statistics Approach with Adjustment for Sequential Testing",
+    "authors": "Brian Bader, Jun Yan, Xuebin Zhang",
+    "year": 2017,
+    "citations": 40,
+    "dataset": "eva lowestoft data with the ten largest annual sea-level events for 51 yearly blocks from 1964 to 2014",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/eva/html/lowestoft.html",
+    "paperUrl": "https://doi.org/10.1007/s11222-016-9697-3",
+    "formats": [
+      "R package data",
+      "order statistics",
+      "annual event blocks"
+    ],
+    "properties": [
+      "package-data",
+      "resampling-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "multiple testing",
+      "resampling methods"
+    ],
+    "bestFor": "Selecting the number of upper order statistics with sequential goodness-of-fit tests and bootstrap adjustments.",
+    "note": "Verified from the open article and eva documentation; the package provides the Lowestoft series and the paper's sequential-test workflow."
+  },
+  {
+    "access": "open",
+    "id": "cran-hdi-riboflavin",
+    "title": "High-Dimensional Inference: Confidence Intervals, p-Values and R-Software hdi",
+    "authors": "Ruben Dezeure, Peter Buhlmann, Lukas Meier, Nicolai Meinshausen",
+    "year": 2015,
+    "citations": 336,
+    "dataset": "hdi riboflavin data with 71 observations, 4,088 gene-expression predictors, and production response",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/hdi/html/riboflavin.html",
+    "paperUrl": "https://doi.org/10.1214/15-STS527",
+    "formats": [
+      "R package data",
+      "gene-expression matrix",
+      "continuous response"
+    ],
+    "properties": [
+      "package-data",
+      "high-dimensional-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "multiple testing"
+    ],
+    "bestFor": "Comparing de-sparsified lasso, ridge projection, and sample splitting for high-dimensional inference.",
+    "note": "Verified from the paper and hdi documentation; the paper's workflow loads the accessible riboflavin matrix directly."
+  },
+  {
+    "access": "open",
+    "id": "cran-gglasso-colon-group-lasso",
+    "title": "A Fast Unified Algorithm for Computing Group-Lasso Penalized Learning Problems",
+    "authors": "Yi Yang, Hui Zou",
+    "year": 2015,
+    "citations": 281,
+    "dataset": "gglasso colon data with 62 tumor or normal samples and 100 grouped spline-expanded predictors",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/gglasso/html/colon.html",
+    "paperUrl": "https://doi.org/10.1007/s11222-014-9498-5",
+    "formats": [
+      "R package data",
+      "gene-expression predictors",
+      "grouped design matrix"
+    ],
+    "properties": [
+      "package-data",
+      "high-dimensional-data",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Benchmarking block-coordinate algorithms for grouped lasso logistic and regression problems.",
+    "note": "Verified from the gglasso documentation; it constructs the grouped design as described in the paper and supplies the response."
+  },
+  {
+    "access": "open",
+    "id": "cran-gglasso-bardet-adaptive-lasso",
+    "title": "Adaptive Lasso for Sparse High-Dimensional Regression Models",
+    "authors": "Jian Huang, Shuangge Ma, Cun-Hui Zhang",
+    "year": 2008,
+    "citations": 0,
+    "dataset": "gglasso bardet data with 120 eye-expression samples and 100 grouped spline-expanded predictors",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/gglasso/html/bardet.html",
+    "paperUrl": "https://www3.stat.sinica.edu.tw/statistica/oldpdf/A18n413.pdf",
+    "formats": [
+      "R package data",
+      "gene-expression predictors",
+      "grouped design matrix"
+    ],
+    "properties": [
+      "package-data",
+      "high-dimensional-data",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Studying adaptive-lasso oracle behavior and sparse selection in gene-expression regressions.",
+    "note": "Verified from the paper and gglasso data documentation; the package exposes the eye-expression response and predictor construction."
   }
 ]

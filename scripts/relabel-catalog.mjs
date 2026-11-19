@@ -25,7 +25,9 @@ const topicExclusions = new Map([
   ["psrm-transformed-likelihood-dynamic-panels", new Set(["multilevel modeling"])],
   ["restat-robust-heteroskedastic-identification", new Set(["robust statistics"])],
   ["joss-kalepy-kernel-density", new Set(["resampling methods"])],
-  ["smmr-bayesian-compositional-ordinal", new Set(["item response theory"])]
+  ["smmr-bayesian-compositional-ordinal", new Set(["item response theory"])],
+  ["pmlr-variational-ranked-samples", new Set(["item response theory"])],
+  ["rj-indtestpp-temporal-point-processes", new Set(["spatial statistics"])]
 ]);
 
 const parentRules = [
