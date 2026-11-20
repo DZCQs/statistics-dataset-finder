@@ -222,6 +222,21 @@ export const LABEL_REGISTRY = [
     evidenceTerms: ["survey experiment", "survey experiments", "vignette experiment", "information treatment", "survey-embedded experiment", "randomized survey", "experimental survey"]
   },
   {
+    name: "factorial experimental design",
+    level: "mid",
+    parents: [],
+    definition: "Datasets, generated designs, simulations, and replication resources for full, fractional, blocked, split-plot, and orthogonal-array factorial experiments.",
+    includeWhen: [
+      "factorial structure, interactions, orthogonal arrays, blocking, split plots, or fractional-factorial construction is central",
+      "the resource provides generated designs, observations, simulations, code, or package examples for designing or analyzing factorial experiments"
+    ],
+    avoidWhen: [
+      "factorial language refers only to a generic crossed model without an experimental-design or factorial-analysis purpose",
+      "optimality or power is the sole purpose and factorial structure is incidental"
+    ],
+    evidenceTerms: ["factorial experimental design", "factorial experiment", "factorial experiments", "factorial design", "factorial designs", "fractional factorial", "full-factorial", "full factorial", "orthogonal array", "orthogonal arrays", "split-plot design", "split plot design"]
+  },
+  {
     name: "optimal experimental design",
     level: "mid",
     parents: [],

@@ -56,6 +56,7 @@ Good label level:
 - `heterogeneous treatment effects`
 - `causal mediation analysis`
 - `randomized experiments`
+- `factorial experimental design`
 - `optimal experimental design`
 - `power analysis`
 - `multiple imputation`
@@ -178,6 +179,7 @@ Mid-level topic families without a current high-level parent:
   - `network meta-analysis`
   - `diagnostic meta-analysis`
   - `publication bias`
+- `factorial experimental design`
 - `optimal experimental design`
 - `power analysis`
 - `quantile regression`

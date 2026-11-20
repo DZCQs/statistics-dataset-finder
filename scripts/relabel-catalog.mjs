@@ -6,7 +6,7 @@ const PAPERS_URL = new URL("../data/papers.json", import.meta.url);
 const labelNames = new Set(LABEL_REGISTRY.map((label) => label.name));
 
 // Persist reviewed exceptions where broad evidence terms or parent propagation
-// do not describe the paper's methodological focus.
+// do not describe the paper's focus, or where the label cap requires parent priority.
 const topicExclusions = new Map([
   ["jss-nonprobsvy-nonprobability-surveys", new Set(["robust statistics"])],
   ["bmcbioinformatics-catmap-genetic-meta-analysis", new Set(["multilevel modeling"])],
@@ -27,7 +27,11 @@ const topicExclusions = new Map([
   ["joss-kalepy-kernel-density", new Set(["resampling methods"])],
   ["smmr-bayesian-compositional-ordinal", new Set(["item response theory"])],
   ["pmlr-variational-ranked-samples", new Set(["item response theory"])],
-  ["rj-indtestpp-temporal-point-processes", new Set(["spatial statistics"])]
+  ["rj-indtestpp-temporal-point-processes", new Set(["spatial statistics"])],
+  ["rjournal-jmcmprsk-joint-competing-risks", new Set(["multilevel modeling"])],
+  ["jss-bbl-boltzmann-bayes", new Set(["multilevel modeling"])],
+  ["rj-survivalsl-super-learner", new Set(["longitudinal data analysis"])],
+  ["rj-npcure-mixture-cure", new Set(["longitudinal data analysis"])]
 ]);
 
 const parentRules = [
@@ -105,7 +109,11 @@ const parentRules = [
   },
   {
     label: "survival models",
-    children: ["joint models"]
+    children: ["joint models", "multi-state models", "competing risks", "recurrent event analysis"]
+  },
+  {
+    label: "multi-state models",
+    children: ["competing risks"]
   },
   {
     label: "survival analysis",
@@ -138,6 +146,14 @@ const parentRules = [
 ];
 
 const evidenceRules = [
+  {
+    label: "factorial experimental design",
+    reason: "factorial, fractional-factorial, orthogonal-array, or split-plot experimental-design evidence in record text",
+    test: (paper) =>
+      /\b(factorial experiments?|factorial designs?|fractional factorial|full-factorial|full factorial|orthogonal arrays?|split-plot designs?|split plot designs?)\b/i.test(
+        paperText(paper)
+      )
+  },
   {
     label: "causal mediation analysis",
     reason: "causal-mediation, direct/indirect-effect, path-specific-effect, or mediator-confounding evidence in record text",
@@ -544,6 +560,16 @@ function hasTopic(paper, label) {
   return (paper.topics || []).includes(label);
 }
 
+function normalizeTopics(paper) {
+  paper.topics = (paper.topics || []).filter((topic, index, topics) => {
+    return (
+      labelNames.has(topic) &&
+      topics.indexOf(topic) === index &&
+      !topicExclusions.get(paper.id)?.has(topic)
+    );
+  });
+}
+
 function addTopic(paper, label, reason, changeLog) {
   if (!labelNames.has(label)) return false;
   if (topicExclusions.get(paper.id)?.has(label)) return false;
@@ -565,6 +591,8 @@ const papers = JSON.parse(await readFile(PAPERS_URL, "utf8"));
 const changeLog = [];
 
 for (const paper of papers) {
+  normalizeTopics(paper);
+
   for (const rule of evidenceRules) {
     if (rule.test(paper)) {
       addTopic(paper, rule.label, rule.reason, changeLog);
@@ -583,13 +611,7 @@ for (const paper of papers) {
     }
   }
 
-  paper.topics = (paper.topics || []).filter((topic, index, topics) => {
-    return (
-      labelNames.has(topic) &&
-      topics.indexOf(topic) === index &&
-      !topicExclusions.get(paper.id)?.has(topic)
-    );
-  });
+  normalizeTopics(paper);
 }
 
 await writeFile(PAPERS_URL, `${JSON.stringify(papers, null, 2)}\n`);

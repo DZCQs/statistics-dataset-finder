@@ -65361,10 +65361,10 @@
       "needs-label-review"
     ],
     "topics": [
-      "optimal experimental design"
+      "factorial experimental design"
     ],
     "bestFor": "Generating and analyzing information-efficient two-level fractional factorial experiments with blocking, split plots, and estimability constraints.",
-    "note": "Verified on the official JSS page, which directly provides the FrF2 package, R example code, and a downloadable example dataset. The catalog lacks a broader design-of-experiments label, so the closest supported official label is used and the record is marked for label review."
+    "note": "Verified on the official JSS page, which directly provides the FrF2 package, R example code, and a downloadable example dataset. Factorial experimental design fits directly; the record remains marked for review because no other current official label is clearly supported."
   },
   {
     "id": "jss-skpr-optimal-design-power",
@@ -67284,8 +67284,8 @@
       "joint models",
       "competing risks",
       "longitudinal data analysis",
-      "multilevel modeling",
-      "survival models"
+      "survival models",
+      "multi-state models"
     ],
     "bestFor": "Evaluating joint models that combine continuous or ordinal longitudinal outcomes with multiple failure causes and correlated random effects.",
     "note": "Verified from the official R Journal article. It loads the bundled lung dataset, documents text-file simulation examples, and provides SimDataC and SimDataO generators with known ground truth."
@@ -67320,7 +67320,9 @@
       "recurrent event analysis",
       "latent variable models",
       "clustering",
-      "mixture models"
+      "mixture models",
+      "survival models",
+      "survival analysis"
     ],
     "bestFor": "Studying latent population heterogeneity in recurrent-event intensity models, entropy-based class selection, posterior class prediction, and model checking.",
     "note": "Verified from the official R Journal article and CRAN manual. SimData has 476 interval rows, while the bundled colorectal data contain recurrent lesions and terminal follow-up for 150 trial patients."
@@ -67354,7 +67356,8 @@
       "survival analysis",
       "survival models",
       "competing risks",
-      "risk prediction"
+      "risk prediction",
+      "multi-state models"
     ],
     "bestFor": "Reproducing cause-specific Cox absolute-risk prediction, confidence bands, competing-risk discrimination, calibration, and prediction-score comparisons.",
     "note": "Verified from the official R Journal article and CRAN package index. The article analyzes the bundled 205-row Melanoma competing-risk data; the package also supplies Paquid and simulation utilities."
@@ -68552,15 +68555,15 @@
       "worked-examples",
       "longitudinal-data",
       "auto-discovered",
-      "needs-review",
-      "needs-label-review"
+      "needs-review"
     ],
     "topics": [
       "longitudinal data analysis",
-      "robust statistics"
+      "robust statistics",
+      "factorial experimental design"
     ],
     "bestFor": "Comparing rank-based Wald- and ANOVA-type inference for repeated-measures factorial designs with outliers, nonnormal outcomes, or incomplete observations.",
-    "note": "Verified from the official JSS page and CRAN reference manual. The article supplies example code and the package exposes multiple documented longitudinal case-study datasets. Only two current official labels fit cleanly, so the record is marked for label review."
+    "note": "Verified from the official JSS page and CRAN reference manual. The article supplies example code and the package exposes multiple documented longitudinal factorial case-study datasets."
   },
   {
     "id": "jss-flexsurv-parametric-survival-modeling",
@@ -69532,7 +69535,8 @@
     "topics": [
       "power analysis",
       "randomized experiments",
-      "causal inference"
+      "causal inference",
+      "factorial experimental design"
     ],
     "bestFor": "Prospective simulation-based power analysis for factorial ANOVA, planned contrasts, multiple-comparison adjustments, repeated measures, and mixed experimental designs.",
     "note": "Verified from the journal's open-practices statement, which directly links the OSF reproduction materials, CRAN package, GitHub repository, manual, and Shiny applications."
@@ -80682,5 +80686,1548 @@
     ],
     "bestFor": "Studying adaptive-lasso oracle behavior and sparse selection in gene-expression regressions.",
     "note": "Verified from the paper and gglasso data documentation; the package exposes the eye-expression response and predictor construction."
+  },
+  {
+    "access": "open",
+    "id": "jss-slca-structural-latent-classes",
+    "title": "slca: An R Package for Structural Modeling for Multiple Latent Class Variables",
+    "authors": "Youngsun Kim, Hwan Chung",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "slca package and JSS replication code with real-world examples for structural models containing multiple latent class variables",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v117i08/4850",
+    "paperUrl": "https://doi.org/10.18637/jss.v117.i08",
+    "formats": [
+      "R package",
+      "replication code",
+      "latent-class examples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "mixture models"
+    ],
+    "bestFor": "Studying structural relationships among several latent class variables with reproducible R examples.",
+    "note": "Verified from the official JSS page; it directly provides the slca package and downloadable replication code for the article's real-world examples."
+  },
+  {
+    "access": "open",
+    "id": "jss-boxhed-dynamic-survival",
+    "title": "BoXHED2.0: Scalable Boosting of Dynamic Survival Analysis",
+    "authors": "Arash Pakbin, Xiaochen Wang, Bobak J. Mortazavi, Donald K. K. Lee",
+    "year": 2025,
+    "citations": 6,
+    "dataset": "BoXHED2.0 Python package, source code, and JSS replication archive for time-dependent survival, recurrent-event, and competing-risk analyses",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v113i03/4715",
+    "paperUrl": "https://doi.org/10.18637/jss.v113.i03",
+    "formats": [
+      "ZIP replication archive",
+      "Python package",
+      "survival examples"
+    ],
+    "properties": [
+      "replication-data",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "recurrent event analysis",
+      "competing risks",
+      "risk prediction",
+      "multi-state models"
+    ],
+    "bestFor": "Evaluating scalable nonparametric hazard boosting with dynamic covariates, recurrent events, and competing risks.",
+    "note": "Verified from the official JSS page; the Python package, source, and downloadable replication ZIP are all directly accessible."
+  },
+  {
+    "access": "open",
+    "id": "jss-bootur-bootstrap-unit-roots",
+    "title": "bootUR: An R Package for Bootstrap Unit Root Tests",
+    "authors": "Stephan Smeekes, Ines Wilms",
+    "year": 2023,
+    "citations": 23,
+    "dataset": "bootUR package and JSS replication archive for bootstrap unit-root tests on individual, multiple, and panel time series",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v106i12/4483",
+    "paperUrl": "https://doi.org/10.18637/jss.v106.i12",
+    "formats": [
+      "ZIP replication archive",
+      "R package",
+      "time-series examples"
+    ],
+    "properties": [
+      "replication-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "resampling methods",
+      "panel data methods",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Comparing bootstrap augmented Dickey-Fuller procedures across single and panel time series.",
+    "note": "Verified from the official JSS page; it links the live package and a downloadable replication archive used by the paper."
+  },
+  {
+    "access": "open",
+    "id": "jss-abn-additive-bayesian-networks",
+    "title": "Additive Bayesian Network Modeling with the R Package abn",
+    "authors": "Gilles Kratzer, Fraser Lewis, Arianna Comin, Marta Pittavino, Reinhard Furrer",
+    "year": 2023,
+    "citations": 41,
+    "dataset": "abn package and JSS replication archive with a commercial-swine respiratory-disease dataset for additive Bayesian-network structure learning",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v105i08/4432",
+    "paperUrl": "https://doi.org/10.18637/jss.v105.i08",
+    "formats": [
+      "ZIP replication archive",
+      "R package",
+      "veterinary observational data"
+    ],
+    "properties": [
+      "replication-data",
+      "network-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "graphical models",
+      "multilevel modeling",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Learning additive Bayesian networks with mixed outcome types, structural priors, and clustered observations.",
+    "note": "Verified from the official JSS page and abstract; the package and replication archive reproduce the swine respiratory-disease analysis."
+  },
+  {
+    "access": "open",
+    "id": "jss-bsl-bayesian-synthetic-likelihood",
+    "title": "BSL: An R Package for Efficient Parameter Estimation for Simulation-Based Models via Bayesian Synthetic Likelihood",
+    "authors": "Ziwen An, Leah F. South, Christopher Drovandi",
+    "year": 2022,
+    "citations": 19,
+    "dataset": "BSL package and JSS replication archive with simulator-based examples, summary statistics, and synthetic-likelihood posterior workflows",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v101i11/4251",
+    "paperUrl": "https://doi.org/10.18637/jss.v101.i11",
+    "formats": [
+      "ZIP replication archive",
+      "R package",
+      "simulated reference data"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "simulation-based inference",
+      "density estimation",
+      "approximate Bayesian computation"
+    ],
+    "bestFor": "Comparing Gaussian, semi-parametric, shrinkage, and robust synthetic-likelihood estimators for intractable models.",
+    "note": "Verified from the official JSS page; it directly supplies the BSL package and downloadable replication materials for the article examples."
+  },
+  {
+    "access": "open",
+    "id": "jss-simsurv-survival-simulation",
+    "title": "Simulating Survival Data Using the simsurv R Package",
+    "authors": "Samuel L. Brilleman, Rory Wolfe, Margarita Moreno-Betancur, Michael J. Crowther",
+    "year": 2021,
+    "citations": 96,
+    "dataset": "simsurv package and JSS replication code for generating censored survival data under complex hazards and time-dependent effects",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v097i03/4067",
+    "paperUrl": "https://doi.org/10.18637/jss.v097.i03",
+    "formats": [
+      "R replication code",
+      "R package",
+      "simulated survival data"
+    ],
+    "properties": [
+      "simulation-data",
+      "time-to-event-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Generating reproducible survival data under complex hazards, censoring, and time-dependent effects.",
+    "note": "Verified from the official JSS page; the live package and downloadable replication code implement the paper's simulation designs."
+  },
+  {
+    "access": "open",
+    "id": "jss-bambi-bayesian-model-interface",
+    "title": "Bambi: A Simple Interface for Fitting Bayesian Linear Models in Python",
+    "authors": "Tomas Capretto, Camen Piho, Ravin Kumar, Jacob Westfall, Tal Yarkoni, Osvaldo A. Martin",
+    "year": 2022,
+    "citations": 222,
+    "dataset": "Bambi Python package and JSS replication archive with regression, logistic-regression, and crossed mixed-effects examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v103i15/4347",
+    "paperUrl": "https://doi.org/10.18637/jss.v103.i15",
+    "formats": [
+      "ZIP replication archive",
+      "Python package",
+      "modeling examples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "probabilistic programming",
+      "multilevel modeling"
+    ],
+    "bestFor": "Teaching formula-based Bayesian regression and hierarchical modeling through a reproducible PyMC interface.",
+    "note": "Verified from the official JSS page; it provides the Bambi package and a downloadable replication archive for all worked examples."
+  },
+  {
+    "access": "open",
+    "id": "jss-bbl-boltzmann-bayes",
+    "title": "bbl: Boltzmann Bayes Learner for High-Dimensional Inference with Discrete Predictors in R",
+    "authors": "Jun Woo, Jinhua Wang",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "bbl package and JSS replication archive with categorical-predictor, image, and genomic high-dimensional examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v101i05/4248",
+    "paperUrl": "https://doi.org/10.18637/jss.v101.i05",
+    "formats": [
+      "ZIP replication archive",
+      "R package",
+      "high-dimensional examples"
+    ],
+    "properties": [
+      "replication-data",
+      "high-dimensional-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "graphical models"
+    ],
+    "bestFor": "Studying interpretable Boltzmann-machine associations between many categorical predictors and multilevel responses.",
+    "note": "Verified from the official JSS page; the package and replication archive cover the paper's discrete, image, and genomic examples."
+  },
+  {
+    "access": "open",
+    "id": "jss-gaussianprocesses-julia",
+    "title": "GaussianProcesses.jl: A Nonparametric Bayes Package for the Julia Language",
+    "authors": "Jamie Fairbrother, Christopher Nemeth, Maxime Rischard, Johanni Brea, Thomas Pinder",
+    "year": 2022,
+    "citations": 45,
+    "dataset": "GaussianProcesses.jl package and JSS replication code for Gaussian-process regression, classification, non-Gaussian likelihoods, and sparse approximations",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v102i01/4283",
+    "paperUrl": "https://doi.org/10.18637/jss.v102.i01",
+    "formats": [
+      "Julia replication code",
+      "Julia package",
+      "Gaussian-process examples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian nonparametric methods"
+    ],
+    "bestFor": "Reproducing exact and sparse Gaussian-process analyses for continuous and non-Gaussian outcomes in Julia.",
+    "note": "Verified from the official JSS page; it directly provides the Julia package and downloadable replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-blang-declarative-modeling",
+    "title": "Blang: Bayesian Declarative Modeling of General Data Structures and Inference via Algorithms Based on Distribution Continua",
+    "authors": "Alexandre Bouchard-Cote, Kevin Chern, Davor Cubranic, Sahand Hosseini, Justin Hume, Matteo Lepur, Zihui Ouyang, Giorgio Sgarbi",
+    "year": 2022,
+    "citations": 15,
+    "dataset": "Blang SDK source and JSS replication archive with declarative Bayesian models, synthetic observations, and inference examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v103i11/4366",
+    "paperUrl": "https://doi.org/10.18637/jss.v103.i11",
+    "formats": [
+      "ZIP replication archive",
+      "Java source",
+      "Bayesian examples"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "probabilistic programming"
+    ],
+    "bestFor": "Exploring declarative Bayesian modeling over general data structures and nonstandard Monte Carlo algorithms.",
+    "note": "Verified from the official JSS page; it links the Blang SDK source and a downloadable replication archive."
+  },
+  {
+    "access": "open",
+    "id": "jss-bfpack-bayes-factor-testing",
+    "title": "BFpack: Flexible Bayes Factor Testing of Scientific Theories in R",
+    "authors": "Joris Mulder, Donald R. Williams, Xin Gu, Andrew Tomarken, Florian Boing-Messing, Anton Olsson-Collentine, Marlyne Meijerink, Janosch Menke, Robbie van Aert, Jean-Paul Fox, Herbert Hoijtink, Yves Rosseel, Eric-Jan Wagenmakers, Caspar van Lissa",
+    "year": 2021,
+    "citations": 76,
+    "dataset": "BFpack package and JSS replication code for Bayes-factor tests in regression, multivariate, multilevel, and structural-equation examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v100i18/4209",
+    "paperUrl": "https://doi.org/10.18637/jss.v100.i18",
+    "formats": [
+      "R replication code",
+      "R package",
+      "model-testing examples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "multilevel modeling",
+      "latent variable models"
+    ],
+    "bestFor": "Testing equality and order-constrained hypotheses across common multivariate and latent-variable models.",
+    "note": "Verified from the official JSS page; the package and downloadable R replication code reproduce the article examples."
+  },
+  {
+    "access": "open",
+    "id": "jss-multibugs-parallel-bugs",
+    "title": "MultiBUGS: A Parallel Implementation of the BUGS Modeling Framework for Faster Bayesian Inference",
+    "authors": "Robert J. B. Goudie, Rebecca M. Turner, Daniela De Angelis, Andrew Thomas",
+    "year": 2020,
+    "citations": 86,
+    "dataset": "MultiBUGS software, source code, and JSS replication materials with hierarchical Bayesian and parallel-MCMC examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v095i07/4016",
+    "paperUrl": "https://doi.org/10.18637/jss.v095.i07",
+    "formats": [
+      "replication materials",
+      "software source",
+      "BUGS model examples"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "probabilistic programming",
+      "multilevel modeling"
+    ],
+    "bestFor": "Benchmarking parallel MCMC for complex hierarchical BUGS models with reproducible model files.",
+    "note": "Verified from the official JSS page; software, source code, and downloadable replication materials are separately accessible."
+  },
+  {
+    "access": "open",
+    "id": "jss-bayesnetbp-belief-propagation",
+    "title": "BayesNetBP: An R Package for Probabilistic Reasoning in Bayesian Networks",
+    "authors": "Han Yu, Janhavi Moharil, Rachael Hageman Blair",
+    "year": 2020,
+    "citations": 16,
+    "dataset": "BayesNetBP package, JSS replication code, and supplementary R data for exact and approximate Bayesian-network belief propagation",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v094i03/3967",
+    "paperUrl": "https://doi.org/10.18637/jss.v094.i03",
+    "formats": [
+      "R replication code",
+      "supplementary R data",
+      "R package"
+    ],
+    "properties": [
+      "replication-data",
+      "network-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "graphical models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing belief-propagation and probabilistic-reasoning workflows on reproducible Bayesian networks.",
+    "note": "Verified from the official JSS page; it provides the package, R replication code, and a separate supplementary-data download."
+  },
+  {
+    "access": "open",
+    "id": "jss-boin-dose-finding-designs",
+    "title": "BOIN: An R Package for Designing Single-Agent and Drug-Combination Dose-Finding Trials Using Bayesian Optimal Interval Designs",
+    "authors": "Fangrong Yan, Liangcai Zhang, Yanhong Zhou, Haitao Pan, Suyu Liu, Ying Yuan",
+    "year": 2020,
+    "citations": 31,
+    "dataset": "BOIN package and JSS replication code for simulated single-agent and drug-combination dose-finding trial designs",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v094i13/3996",
+    "paperUrl": "https://doi.org/10.18637/jss.v094.i13",
+    "formats": [
+      "R replication code",
+      "R package",
+      "trial-design simulations"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "optimal experimental design",
+      "power analysis"
+    ],
+    "bestFor": "Evaluating Bayesian optimal-interval dose escalation and combination-trial operating characteristics.",
+    "note": "Verified from the official JSS page; the package and downloadable R code implement the paper's dose-finding scenarios."
+  },
+  {
+    "access": "open",
+    "id": "jss-obsmd-follow-up-designs",
+    "title": "R Package OBsMD for Follow-Up Designs in an Objective Bayesian Framework",
+    "authors": "Laura Deldossi, Marta Nai Ruscone",
+    "year": 2020,
+    "citations": 1,
+    "dataset": "OBsMD package and JSS replication code for Bayesian model discrimination and follow-up runs after screening experiments",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v094i02/3965",
+    "paperUrl": "https://doi.org/10.18637/jss.v094.i02",
+    "formats": [
+      "R replication code",
+      "R package",
+      "experimental-design examples"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "optimal experimental design",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Selecting follow-up experimental runs after screening designs under objective Bayesian model uncertainty.",
+    "note": "Verified from the official JSS page; the package and downloadable R code reproduce the article's follow-up-design examples."
+  },
+  {
+    "access": "open",
+    "id": "rj-bartcs-bayesian-confounding",
+    "title": "bartcs: An R Package for Bayesian Nonparametric Adjustment for Confounding",
+    "authors": "Yeonghoon Yoo, Chanmin Kim",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "bartcs package vignette and bundled IHDP data for Bayesian-tree confounding adjustment and treatment-effect estimation",
+    "datasetUrl": "https://cran.r-project.org/web/packages/bartcs/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2025-019",
+    "formats": [
+      "R package data",
+      "IHDP benchmark",
+      "R vignette"
+    ],
+    "properties": [
+      "package-data",
+      "causal-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Comparing Bayesian nonparametric confounding adjustment on a standard treatment-effect benchmark.",
+    "note": "Verified from the official R Journal article and CRAN source; bartcs includes an executable vignette and the ihdp.rda dataset."
+  },
+  {
+    "access": "open",
+    "id": "rj-bcclong-consensus-clustering",
+    "title": "BCClong: An R Package for Bayesian Consensus Clustering for Multiple Longitudinal Features",
+    "authors": "Zhiwen Tan, Chang Shen, Zihang Lu",
+    "year": 2024,
+    "citations": 2,
+    "dataset": "BCClong package with epilepsy, primary-biliary-cirrhosis, continuous, and mixed-type longitudinal datasets and vignettes",
+    "datasetUrl": "https://cran.r-project.org/web/packages/BCClong/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-017",
+    "formats": [
+      "R package data",
+      "longitudinal records",
+      "R vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "longitudinal-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "clustering",
+      "longitudinal data analysis",
+      "mixture models"
+    ],
+    "bestFor": "Clustering subjects jointly across multiple continuous or mixed-type longitudinal features.",
+    "note": "Verified from the official R Journal article and CRAN source; the package bundles epilepsy and PBC sequences plus reproducible vignettes."
+  },
+  {
+    "access": "open",
+    "id": "rj-bmrmm-bayesian-renewal-mixed",
+    "title": "BMRMM: An R Package for Bayesian Markov (Renewal) Mixed Models",
+    "authors": "Yutong Wu, Abhra Sarkar",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "BMRMM package with FOXP2 primate vocal-sequence data for Bayesian Markov and renewal mixed models",
+    "datasetUrl": "https://cran.r-project.org/web/packages/BMRMM/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-011",
+    "formats": [
+      "R package data",
+      "categorical sequences",
+      "mixed-model examples"
+    ],
+    "properties": [
+      "package-data",
+      "longitudinal-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian hierarchical models",
+      "multilevel modeling",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Modeling repeated categorical transitions and renewal times with subject-level heterogeneity.",
+    "note": "Verified from the official R Journal article and live CRAN source; the package bundles foxp2 and foxp2sm data files."
+  },
+  {
+    "access": "open",
+    "id": "rj-pencal-dynamic-survival-prediction",
+    "title": "pencal: an R Package for the Dynamic Prediction of Survival with Many Longitudinal Predictors",
+    "authors": "Mirko Signorelli",
+    "year": 2024,
+    "citations": 6,
+    "dataset": "pencal package with PBC2 longitudinal-survival data and fitted high-dimensional dynamic-prediction examples",
+    "datasetUrl": "https://cran.r-project.org/web/packages/pencal/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-014",
+    "formats": [
+      "R package data",
+      "longitudinal biomarkers",
+      "time-to-event outcomes"
+    ],
+    "properties": [
+      "package-data",
+      "longitudinal-data",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "joint models",
+      "longitudinal data analysis",
+      "risk prediction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating penalized dynamic survival prediction with many longitudinal biomarkers.",
+    "note": "Verified from the official R Journal article and CRAN source; pencal bundles pbc2data and reusable fitted-model objects."
+  },
+  {
+    "access": "open",
+    "id": "rj-survivalsl-super-learner",
+    "title": "survivalSL: an R Package for Predicting Survival by a Super Learner",
+    "authors": "Camille Sabathe, Yohann Foucher",
+    "year": 2024,
+    "citations": 1,
+    "dataset": "survivalSL package with DIVAT kidney-transplant and OFSEP cohort data for ensemble survival prediction",
+    "datasetUrl": "https://cran.r-project.org/web/packages/survivalSL/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2024-037",
+    "formats": [
+      "R package data",
+      "cohort survival data",
+      "prediction examples"
+    ],
+    "properties": [
+      "package-data",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "risk prediction"
+    ],
+    "bestFor": "Comparing cross-validated ensembles of survival learners on transplant and disease cohorts.",
+    "note": "Verified from the official R Journal article and CRAN source; the package bundles dataDIVAT2, dataDIVAT3, and dataOFSEP."
+  },
+  {
+    "access": "open",
+    "id": "rj-robustcalibration-computer-models",
+    "title": "RobustCalibration: Robust Calibration of Computer Models in R",
+    "authors": "Mengyang Gu",
+    "year": 2023,
+    "citations": 5,
+    "dataset": "RobustCalibration package source with an executable calibration example and reproducible computer-model simulation inputs",
+    "datasetUrl": "https://cran.r-project.org/web/packages/RobustCalibration/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-085",
+    "formats": [
+      "R package",
+      "example script",
+      "simulated calibration data"
+    ],
+    "properties": [
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics"
+    ],
+    "bestFor": "Studying robust calibration and uncertainty analysis when computer simulators are imperfect.",
+    "note": "Verified from the official R Journal article and CRAN source; the package ships an executable extdata example for the article workflow."
+  },
+  {
+    "access": "open",
+    "id": "rj-bayescace-complier-effects",
+    "title": "Estimating Causal Effects using Bayesian Methods with the R Package BayesCACE",
+    "authors": "Jincheng Zhou, Jinhui Yang, James S. Hodges, Lifeng Lin, Haitao Chu",
+    "year": 2023,
+    "citations": 1,
+    "dataset": "BayesCACE package with compliant and incomplete epidural-trial datasets for Bayesian complier average causal effects",
+    "datasetUrl": "https://cran.r-project.org/web/packages/BayesCACE/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-038",
+    "formats": [
+      "R package data",
+      "randomized trial",
+      "noncompliance examples"
+    ],
+    "properties": [
+      "package-data",
+      "causal-data",
+      "missing-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "instrumental variables",
+      "bayesian inference",
+      "randomized experiments",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Estimating Bayesian complier-average causal effects under treatment noncompliance and missing outcomes.",
+    "note": "Verified from the official R Journal article and CRAN source; BayesCACE bundles epidural_c and epidural_ic trial datasets."
+  },
+  {
+    "access": "open",
+    "id": "rj-ggdensity-bivariate-density",
+    "title": "ggdensity: Improved Bivariate Density Visualization in R",
+    "authors": "James Otto, David Kahle",
+    "year": 2023,
+    "citations": 11,
+    "dataset": "ggdensity methods vignette and R Journal examples using accessible bivariate data including the palmerpenguins measurements",
+    "datasetUrl": "https://cran.r-project.org/web/packages/ggdensity/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2023-048",
+    "formats": [
+      "R vignette",
+      "package examples",
+      "bivariate measurements"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation"
+    ],
+    "bestFor": "Comparing contour-based bivariate density estimates and probability-content visualizations.",
+    "note": "Verified from the official R Journal article and CRAN package; the article links ggdensity and the public palmerpenguins data used in examples."
+  },
+  {
+    "access": "open",
+    "id": "rj-casebase-survival-rates",
+    "title": "casebase: An Alternative Framework for Survival Analysis and Comparison of Event Rates",
+    "authors": "Sahir Rai Bhatnagar, Maxime Turgeon, Jesse Islam, James A. Hanley, Olli Saarela",
+    "year": 2022,
+    "citations": 10,
+    "dataset": "casebase package with ERSPC, SUPPORT, BMT competing-risk, breast-cancer, and cardiovascular survival datasets plus vignettes",
+    "datasetUrl": "https://cran.r-project.org/web/packages/casebase/index.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2022-052",
+    "formats": [
+      "R package data",
+      "time-to-event cohorts",
+      "R vignettes"
+    ],
+    "properties": [
+      "package-data",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "competing risks",
+      "risk prediction",
+      "multi-state models"
+    ],
+    "bestFor": "Fitting case-base sampling models and comparing event rates across several survival settings.",
+    "note": "Verified from the official R Journal article and CRAN source; casebase bundles six documented survival and competing-risk datasets."
+  },
+  {
+    "access": "open",
+    "id": "rj-npcure-mixture-cure",
+    "title": "npcure: An R Package for Nonparametric Inference in Mixture Cure Models",
+    "authors": "Ana Lopez-Cheda, M. Amalia Jacome, Ignacio Lopez-de-Ullibarri",
+    "year": 2021,
+    "citations": 18,
+    "dataset": "Reproducible npcure article code with simulated cure data and the KMsurv bone-marrow-transplant dataset for 137 leukemia patients",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/KMsurv/html/bmt.html",
+    "paperUrl": "https://doi.org/10.32614/RJ-2021-027",
+    "formats": [
+      "R package data",
+      "bone-marrow transplant cohort",
+      "simulation code"
+    ],
+    "properties": [
+      "package-data",
+      "simulation-data",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "mixture models",
+      "risk prediction"
+    ],
+    "bestFor": "Estimating cure fractions, conditional latency, and survival functions without parametric assumptions.",
+    "note": "Verified from the executable R Journal article; its application loads the documented KMsurv bmt data and the package examples generate simulation data."
+  },
+  {
+    "access": "open",
+    "id": "jss-ggmcmc-mcmc-diagnostics",
+    "title": "ggmcmc: Analysis of MCMC Samples and Bayesian Inference",
+    "authors": "Xavier Fernandez-i-Marin",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Official ggmcmc replication script with bundled radon posterior draws, county uranium covariates, and MCMC diagnostic workflows",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v070i09/3249",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v070i09",
+    "formats": [
+      "R replication script",
+      "posterior draws",
+      "county covariates"
+    ],
+    "properties": [
+      "replication-data",
+      "posterior-samples",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "bayesian hierarchical models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Reproducing trace, convergence, autocorrelation, cross-correlation, and posterior-predictive MCMC diagnostics.",
+    "note": "Verified from the official JSS script; it loads the package's radon objects and county-level covariates used throughout the paper."
+  },
+  {
+    "access": "open",
+    "id": "jss-latentnet-latent-cluster-networks",
+    "title": "Fitting Latent Cluster Models for Networks with latentnet",
+    "authors": "Pavel N. Krivitsky, Mark S. Handcock",
+    "year": 2008,
+    "citations": 0,
+    "dataset": "Official latentnet replication code using Sampson monastery, samplike, and tribes network datasets for Bayesian latent-position and cluster models",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v024i05/1718",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v024i05",
+    "formats": [
+      "R replication code",
+      "social networks",
+      "posterior diagnostics"
+    ],
+    "properties": [
+      "replication-data",
+      "network-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "latent variable models",
+      "mixture models",
+      "clustering",
+      "bayesian inference",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Comparing latent-position and latent-cluster network models with posterior predictive checks.",
+    "note": "Verified from the official JSS code; it loads sampson, samplike, and tribes and reproduces the paper's MCMC analyses."
+  },
+  {
+    "access": "open",
+    "id": "jss-icenreg-interval-censored-regression",
+    "title": "icenReg: Regression Models for Interval Censored Data in R",
+    "authors": "Clifford Anderson-Bergman",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "Official icenReg replication code for nonparametric, semiparametric, and parametric interval-censored regression examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v081i12/3560",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v081i12",
+    "formats": [
+      "R replication code",
+      "interval-censored outcomes",
+      "model diagnostics"
+    ],
+    "properties": [
+      "replication-data",
+      "censored-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "missing data",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing regression estimators, imputation, and diagnostics for interval-censored event times.",
+    "note": "Verified from the official JSS page and downloadable R code covering the paper's complete interval-censoring workflow."
+  },
+  {
+    "access": "open",
+    "id": "jss-smoothhazard-illness-death",
+    "title": "SmoothHazard: An R Package for Fitting Regression Models to Interval-Censored Observations of Illness-Death Models",
+    "authors": "Celia Touraine, Thomas A. Gerds, Pierre Joly",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "SmoothHazard replication script and Paq1000 data for dementia and death transitions in the PAQUID study",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v079i07/3496",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v079i07",
+    "formats": [
+      "R replication code",
+      "illness-death transitions",
+      "longitudinal cohort"
+    ],
+    "properties": [
+      "replication-data",
+      "longitudinal-data",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "multi-state models",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Fitting Weibull and spline illness-death models when disease onset is interval censored.",
+    "note": "Verified from the official JSS script; it explicitly loads SmoothHazard::Paq1000 and reproduces the PAQUID analysis."
+  },
+  {
+    "access": "open",
+    "id": "jss-fhtest-survival-curves",
+    "title": "FHtest: An R Package for the Comparison of Survival Curves with Censored Data",
+    "authors": "Ramon Oller, Klaus Langohr",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "FHtest replication code with duser, illust3, ovarian, and bone-marrow-transplant survival datasets containing several censoring types",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v081i15/3566",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v081i15",
+    "formats": [
+      "R replication code",
+      "censored survival data",
+      "Monte Carlo tests"
+    ],
+    "properties": [
+      "replication-data",
+      "censored-data",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "resampling methods",
+      "missing data"
+    ],
+    "bestFor": "Comparing survival curves with exact, asymptotic, permutation, and Monte Carlo procedures.",
+    "note": "Verified from the official JSS script; it documents package datasets with exact, left-, and right-censored or missing times."
+  },
+  {
+    "access": "open",
+    "id": "jss-interval-weighted-logrank",
+    "title": "Exact and Asymptotic Weighted Logrank Tests for Interval Censored Data: The interval R Package",
+    "authors": "Michael P. Fay, Pamela A. Shaw",
+    "year": 2010,
+    "citations": 0,
+    "dataset": "Official interval-package example code with bcos interval-censored outcomes and ChickWeight repeated measurements",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v036i02/2082",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v036i02",
+    "formats": [
+      "R example code",
+      "interval-censored data",
+      "repeated measurements"
+    ],
+    "properties": [
+      "replication-data",
+      "censored-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "resampling methods"
+    ],
+    "bestFor": "Reproducing exact, asymptotic, and permutation weighted logrank tests for interval-censored outcomes.",
+    "note": "Verified from the official JSS code; it loads bcos and ChickWeight and reproduces the paper's testing examples."
+  },
+  {
+    "access": "open",
+    "id": "jss-eventglm-pseudo-observations",
+    "title": "Event History Regression with Pseudo-Observations: Computational Approaches and an Implementation in R",
+    "authors": "Michael C. Sachs, Erin E. Gabriel",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "eventglm replication code using colon trial and mgus2 event-history data, plus bootstrap and simulation studies",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v102i09/4299",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v102i09",
+    "formats": [
+      "R replication code",
+      "clinical event histories",
+      "simulation study"
+    ],
+    "properties": [
+      "replication-data",
+      "time-to-event-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "competing risks",
+      "resampling methods",
+      "multi-state models"
+    ],
+    "bestFor": "Regressing cumulative incidence and restricted mean survival through pseudo-observations.",
+    "note": "Verified from the official JSS script; it analyzes survival::colon and eventglm::mgus2 and includes 1,000-replicate bootstrap code."
+  },
+  {
+    "access": "open",
+    "id": "jss-idem-death-missingness",
+    "title": "idem: An R Package for Inferences in Clinical Trials with Death and Missingness",
+    "authors": "Chenguang Wang, Elizabeth Colantuoni, Andrew Leroux, Daniel O. Scharfstein",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Directly downloadable 187-row sedation-interruption trial TSV with randomized treatment, survival, age, and partially missing functional outcomes",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v093i12/3954",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v093i12",
+    "formats": [
+      "TSV data",
+      "randomized trial",
+      "missing outcomes"
+    ],
+    "properties": [
+      "tabular-data",
+      "missing-data",
+      "causal-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "nonignorable missing data",
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "survival analysis"
+    ],
+    "bestFor": "Studying treatment effects when death truncates outcomes and functional measurements are incomplete.",
+    "note": "Verified from the official JSS supplement; the TSV contains 187 participant rows and the variables described by the article."
+  },
+  {
+    "access": "open",
+    "id": "jss-survhe-health-economics",
+    "title": "survHE: Survival Analysis for Health Economic Evaluation and Cost-Effectiveness Modeling",
+    "authors": "Gianluca Baio",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Official survHE replication data and code for frequentist and Bayesian parametric survival analyses used in cost-effectiveness modeling",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v095i14/4035",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v095i14",
+    "formats": [
+      "replication data",
+      "R code",
+      "survival examples"
+    ],
+    "properties": [
+      "replication-data",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "bayesian inference",
+      "probabilistic programming"
+    ],
+    "bestFor": "Comparing frequentist, Stan, and INLA parametric survival models for economic evaluation.",
+    "note": "Verified from the official JSS page, which provides a dedicated replication-data download in addition to code."
+  },
+  {
+    "access": "open",
+    "id": "jss-naniar-missing-data-visualization",
+    "title": "Expanding Tidy Data Principles to Facilitate Missing Data Exploration, Visualization and Assessment of Imputations",
+    "authors": "Nicholas Tierney, Dianne Cook",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Dedicated JSS replication-data download for naniar workflows that explore missingness and assess imputations",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v105i07/4439",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v105i07",
+    "formats": [
+      "replication data",
+      "R package",
+      "imputation diagnostics"
+    ],
+    "properties": [
+      "replication-data",
+      "missing-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Evaluating tidy data structures and graphics for missingness patterns and imputation quality.",
+    "note": "Verified from the official JSS page; the replication data are a distinct download alongside package and code resources."
+  },
+  {
+    "access": "open",
+    "id": "jss-yaimpute-knn",
+    "title": "yaImpute: An R Package for kNN Imputation",
+    "authors": "Nicholas L. Crookston, Andrew O. Finley",
+    "year": 2008,
+    "citations": 0,
+    "dataset": "Official JSS example-data download for nearest-neighbor imputation, forest-attribute estimation, diagnostics, and spatial mapping",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v023i10/1702",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v023i10",
+    "formats": [
+      "example datasets",
+      "R package",
+      "spatial attributes"
+    ],
+    "properties": [
+      "replication-data",
+      "spatial-data",
+      "missing-data",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "spatial statistics"
+    ],
+    "bestFor": "Comparing nearest-neighbor imputation choices and mapping imputed forest attributes.",
+    "note": "Verified from the official JSS page, which exposes a separate data-sets-for-examples download."
+  },
+  {
+    "access": "open",
+    "id": "jss-missingdatagui",
+    "title": "Visually Exploring Missing Values in Multivariable Data Using a Graphical User Interface",
+    "authors": "Xiaoyue Cheng, Dianne Cook, Heike Hofmann",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "MissingDataGUI package and official JSS replication materials comparing fixed-value, multiple, and nearest-neighbor imputations",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v068i06/3184",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v068i06",
+    "formats": [
+      "replication materials",
+      "R package",
+      "multivariable missingness"
+    ],
+    "properties": [
+      "replication-data",
+      "missing-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation"
+    ],
+    "bestFor": "Teaching visual exploration of multivariable missingness and comparing imputation strategies.",
+    "note": "Verified from the official JSS page; it directly provides both MissingDataGUI and downloadable replication materials."
+  },
+  {
+    "access": "open",
+    "id": "jss-robustloggamma",
+    "title": "Robust Estimation of the Generalized Loggamma Model: The R Package robustloggamma",
+    "authors": "Claudio Agostinelli, Alfio Marazzi, Victor J. Yohai, Alex Randriamiharisoa",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "robustloggamma replication script with drg2000 diagnosis-related-group hospital-cost data and robust likelihood examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v070i07/3245",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v070i07",
+    "formats": [
+      "R replication script",
+      "hospital cost data",
+      "robust estimators"
+    ],
+    "properties": [
+      "replication-data",
+      "tabular-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "density estimation"
+    ],
+    "bestFor": "Comparing maximum-likelihood and robust weighted or tau estimators for skewed hospital costs.",
+    "note": "Verified from the official JSS script; it loads robustloggamma::drg2000 and reproduces the diagnosis-related-group analysis."
+  },
+  {
+    "access": "open",
+    "id": "jss-bms-bayesian-model-averaging",
+    "title": "Bayesian Model Averaging Employing Fixed and Flexible Priors: The BMS Package for R",
+    "authors": "Stefan Zeugner, Martin Feldkircher",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Official BMS replication code for Bayesian model averaging, MCMC model-space searches, and posterior inclusion analysis",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v068i04/3180",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v068i04",
+    "formats": [
+      "R replication code",
+      "model-space draws",
+      "regression examples"
+    ],
+    "properties": [
+      "replication-data",
+      "posterior-samples",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "variable selection",
+      "mcmc diagnostics",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing fixed and hierarchical priors in Bayesian model averaging and posterior variable inclusion.",
+    "note": "Verified from the official JSS page; the downloadable R code reproduces the article's two model-space samplers."
+  },
+  {
+    "access": "open",
+    "id": "rj-icenreg-bayesian-interval-censoring",
+    "title": "Bayesian Regression Models for Interval-censored Data in R",
+    "authors": "Clifford Anderson-Bergman",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "icenReg miceData with 144 control-exposed and germ-free mice for Bayesian interval-censored Weibull regression",
+    "datasetUrl": "https://cran.r-project.org/web/packages/icenReg/index.html",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2017-050/",
+    "formats": [
+      "R package data",
+      "interval-censored outcomes",
+      "MCMC examples"
+    ],
+    "properties": [
+      "package-data",
+      "censored-data",
+      "posterior-samples",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "survival analysis",
+      "survival models",
+      "missing data"
+    ],
+    "bestFor": "Fitting and diagnosing Bayesian proportional-hazards models for interval-censored event times.",
+    "note": "Verified from the executable R Journal article; it loads icenReg::miceData and fits four-chain Bayesian models."
+  },
+  {
+    "access": "open",
+    "id": "rj-penphcure-time-varying-cure",
+    "title": "penPHcure: Variable Selection in Proportional Hazards Cure Model with Time-Varying Covariates",
+    "authors": "Alessandro Beretta, Cedric Heuchenne",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "penPHcure cpRossi counting-process data with 1,405 rows for 432 people followed after release",
+    "datasetUrl": "https://cran.r-project.org/web/packages/penPHcure/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2021-061/",
+    "formats": [
+      "R package data",
+      "counting-process records",
+      "time-varying covariates"
+    ],
+    "properties": [
+      "package-data",
+      "longitudinal-data",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival analysis",
+      "survival models",
+      "longitudinal data analysis",
+      "variable selection",
+      "resampling methods",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Selecting incidence and latency predictors in cure models with time-varying covariates.",
+    "note": "Verified from the official R Journal article; it loads package dataset cpRossi and reproduces the recidivism analysis."
+  },
+  {
+    "access": "open",
+    "id": "jss-bpec-bayesian-phylogeographic-clustering",
+    "title": "BPEC: An R Package for Bayesian Phylogeographic and Ecological Clustering",
+    "authors": "Ioanna Manolopoulou, Axel Hille, Brent Emerson",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Two official BPEC replication-data downloads with Rana macrocnemis sequence, geographic, and ecological inputs",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v092i05/3923",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v092i05",
+    "formats": [
+      "replication data",
+      "genetic sequences",
+      "geographic covariates"
+    ],
+    "properties": [
+      "replication-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "clustering",
+      "mcmc diagnostics",
+      "spatial statistics"
+    ],
+    "bestFor": "Evaluating reversible-jump Bayesian clustering when the number of ecological and geographic groups is unknown.",
+    "note": "Verified from the official JSS page, which exposes two replication-data downloads and identifies the brown-frog application."
+  },
+  {
+    "access": "open",
+    "id": "rj-imputets-time-series",
+    "title": "imputeTS: Time Series Missing Value Imputation in R",
+    "authors": "Steffen Moritz, Thomas Bartz-Beielstein",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "imputeTS benchmark pairs for airline passengers, heating sensors, and ammonium sensors in missing and complete forms",
+    "datasetUrl": "https://cran.r-project.org/web/packages/imputeTS/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2017-009/",
+    "formats": [
+      "R package data",
+      "time series",
+      "complete and incomplete pairs"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "missing-data",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing time-series imputation methods against complete benchmark versions of the same series.",
+    "note": "Verified from the official R Journal article; it documents six bundled missing/complete benchmark series."
+  },
+  {
+    "access": "open",
+    "id": "rj-smicd-interval-censored",
+    "title": "The R Package smicd: Statistical Methods for Interval-Censored Data",
+    "authors": "Paul Walter",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "smicd examples using synthetic Austrian EU-SILC grouped-income data for density, inequality, bootstrap, and mixed-model inference",
+    "datasetUrl": "https://cran.r-project.org/web/packages/smicd/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2021-045/",
+    "formats": [
+      "R package data",
+      "grouped survey income",
+      "bootstrap examples"
+    ],
+    "properties": [
+      "package-data",
+      "survey-data",
+      "censored-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "density estimation",
+      "resampling methods",
+      "multilevel modeling",
+      "survey methodology"
+    ],
+    "bestFor": "Estimating distributions and mixed models from grouped or interval-censored survey values.",
+    "note": "Verified from the official R Journal article; its direct-estimation examples use the synthetic Austrian EU-SILC dataset."
+  },
+  {
+    "access": "open",
+    "id": "rj-record-linkage-one-to-one",
+    "title": "Optimization Routines for Enforcing One-to-One Matches in Record Linkage Problems",
+    "authors": "Diego Moretti, Luca Valentino, Tiziana Tuoto",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Official R Journal supplementary ZIP with real and mimicked linking variables for balanced, lopsided, and large record-linkage cases",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2019-008/RJ-2019-008.zip",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2019-008/",
+    "formats": [
+      "ZIP supplement",
+      "record pairs",
+      "linking variables"
+    ],
+    "properties": [
+      "replication-data",
+      "record-linkage-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "record linkage",
+      "mixture models",
+      "survey methodology"
+    ],
+    "bestFor": "Evaluating optimization methods that impose one-to-one constraints on probabilistic record links.",
+    "note": "Verified from the official R Journal page and directly downloadable supplementary ZIP used for the experiments."
+  },
+  {
+    "access": "open",
+    "id": "rj-miwqs-weighted-quantile-imputation",
+    "title": "miWQS: Multiple Imputation Using Weighted Quantile Sum Regression",
+    "authors": "Paul M. Hargarten, David C. Wheeler",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "miWQS simdata87 with 1,000 subjects, complete and interval-censored chemical concentrations, detection limits, outcome, and covariates",
+    "datasetUrl": "https://cran.r-project.org/web/packages/miWQS/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2021-014/",
+    "formats": [
+      "R package data",
+      "censored exposures",
+      "imputation simulations"
+    ],
+    "properties": [
+      "package-data",
+      "missing-data",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "bayesian inference",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing bootstrap and Bayesian multiple imputation for correlated exposures below detection limits.",
+    "note": "Verified from the official R Journal article; it loads package dataset simdata87 and documents all 1,000 simulated subjects."
+  },
+  {
+    "access": "open",
+    "id": "joss-mcmcvis",
+    "title": "MCMCvis: Tools to Visualize, Manipulate, and Summarize MCMC Output",
+    "authors": "Casey Youngflesh",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "MCMCvis repository data directory with bundled MCMC_data and MCMC_data2 posterior samples for diagnostics and visualization",
+    "datasetUrl": "https://github.com/caseyyoungflesh/MCMCvis/tree/master/data",
+    "paperUrl": "https://joss.theoj.org/papers/10.21105/joss.00640",
+    "formats": [
+      "R data objects",
+      "posterior samples",
+      "GitHub repository"
+    ],
+    "properties": [
+      "repository-data",
+      "posterior-samples",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "mcmc diagnostics",
+      "bayesian inference"
+    ],
+    "bestFor": "Testing trace, density, caterpillar, comparison, R-hat, and effective-sample-size displays.",
+    "note": "Verified from the official JOSS paper and project repository; the data directory contains the documented posterior-sample objects."
+  },
+  {
+    "access": "open",
+    "id": "jss-doebase-factorial-designs",
+    "title": "R Package DoE.base for Factorial Experiments",
+    "authors": "Ulrike Gromping",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official DoE.base replication code for full-factorial, orthogonal-array, augmented-design, and effects-analysis examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v085i05/3673",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v085i05",
+    "formats": [
+      "R replication code",
+      "generated designs",
+      "factorial analyses"
+    ],
+    "properties": [
+      "replication-data",
+      "experimental-design-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "factorial experimental design"
+    ],
+    "bestFor": "Constructing and analyzing full-factorial and orthogonal-array experiments in reproducible R workflows.",
+    "note": "Verified from the official JSS page; it directly supplies R code for the paper's design-generation and analysis examples."
+  },
+  {
+    "access": "open",
+    "id": "jss-ipdpower-mixed-effects",
+    "title": "Simulation-Based Power Calculations for Mixed Effects Modeling: ipdpower in Stata",
+    "authors": "Evangelos Kontopantelis, David A. Springate, Rosa Parisi, David Reeves",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Official ipdpower replication materials generating repeated two-level patient-within-study datasets for power and coverage analysis",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v074i12/3354",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v074i12",
+    "formats": [
+      "Stata replication code",
+      "simulated multilevel data",
+      "power results"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "multilevel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "power analysis",
+      "multilevel modeling",
+      "meta-analysis"
+    ],
+    "bestFor": "Estimating mixed-model power and coverage under varying random effects and error distributions.",
+    "note": "Verified from the official JSS page; the downloadable materials generate and analyze all simulation scenarios."
+  },
+  {
+    "access": "open",
+    "id": "jss-power-monte-carlo",
+    "title": "PoweR: A Reproducible Research Tool to Ease Monte Carlo Power Simulation Studies for Goodness-of-fit Tests in R",
+    "authors": "Pierre Lafaye de Micheaux, Viet Anh Tran",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Official PoweR replication materials for Monte Carlo empirical-level and power studies across goodness-of-fit tests and alternatives",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v069i03/3202",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v069i03",
+    "formats": [
+      "R replication materials",
+      "simulation results",
+      "goodness-of-fit tests"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "power analysis"
+    ],
+    "bestFor": "Reproducing empirical-size and power comparisons for goodness-of-fit tests under alternative distributions.",
+    "note": "Verified from the official JSS page; it directly provides the complete Monte Carlo replication materials."
   }
 ]
