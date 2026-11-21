@@ -83557,5 +83557,166 @@
     ],
     "bestFor": "Estimating spectra and cross-spectra with multitaper methods.",
     "note": "Verified from the official JOSS paper page, software repository, and versioned Zenodo archive."
+  },
+  {
+    "access": "open",
+    "id": "jasa-conformal-model-selection-2026",
+    "title": "Conformal Prediction After Data-Dependent Model Selection",
+    "authors": "Ruiting Liang, Wanrong Zhu, Rina Foygel Barber",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Taylor & Francis Figshare supplement with the paper's code, model-selection experiments, and conformal-coverage analyses",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Conformal_prediction_after_data-dependent_model_selection/32145084",
+    "paperUrl": "https://doi.org/10.1080/01621459.2026.2663588",
+    "formats": [
+      "ZIP supplement",
+      "analysis code",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "variable selection",
+      "high-dimensional statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Evaluating conformal predictive coverage after the same data have been used to choose a model.",
+    "note": "Verified through the official Taylor & Francis Figshare record and its IsSupplementTo relation to the journal DOI; the landing page exposes the downloadable code-and-supplement archive."
+  },
+  {
+    "access": "open",
+    "id": "jsa-functional-change-points-2026",
+    "title": "Self-normalization tests for change points in functional time series",
+    "authors": "Zhiyuan Du, Pang Du",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Taylor & Francis Figshare files with Fairbanks annual temperatures, NASA GISS year-to-year temperature differences, and the paper's R analysis program",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Self-normalization_tests_for_change_points_in_functional_time_series/33143832",
+    "paperUrl": "https://doi.org/10.1080/10485252.2026.2711599",
+    "formats": [
+      "CSV data",
+      "R code",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "functional data analysis",
+      "high-dimensional statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Testing self-normalized change-point procedures on functional climate time series.",
+    "note": "Verified through the paper-linked Taylor & Francis Figshare record, which directly lists both climate CSV files and the main R program."
+  },
+  {
+    "access": "open",
+    "id": "pan-rerandomization-p-hacking-2025",
+    "title": "Rerandomization for covariate balance mitigates p-hacking in regression adjustment",
+    "authors": "Xin Lu, Peng Ding",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Harvard Dataverse replication archive with Python and R inputs, simulation summaries, seed settings, figures, and master scripts for rerandomization analyses",
+    "datasetUrl": "https://doi.org/10.7910/DVN/OQNUON",
+    "paperUrl": "https://arxiv.org/abs/2505.01137",
+    "formats": [
+      "ZIP replication archive",
+      "R and Python code",
+      "simulation summaries"
+    ],
+    "properties": [
+      "replication-data",
+      "dataverse",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "causal inference",
+      "treatment effect estimation",
+      "optimal experimental design",
+      "resampling methods"
+    ],
+    "bestFor": "Studying how rerandomization and regression adjustment interact under selective analysis choices.",
+    "note": "Verified from the released Harvard Dataverse record and the accessible arXiv paper page; the repository provides an unrestricted replication.zip archive with complete documentation."
+  },
+  {
+    "access": "open",
+    "id": "qe-bootstrap-ar-iv-2024",
+    "title": "A Dimension-Agnostic Bootstrap Anderson-Rubin Test For Instrumental Variable Regressions",
+    "authors": "Dennis Lim, Wenjie Wang, Yichong Zhang",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Zenodo replication package with empirical instrumental-variable datasets, simulations, R code, outputs, and table-to-file documentation",
+    "datasetUrl": "https://zenodo.org/records/24359237",
+    "paperUrl": "https://arxiv.org/abs/2412.01603",
+    "formats": [
+      "ZIP replication package",
+      "empirical datasets",
+      "R code and simulation outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "zenodo",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "instrumental variables",
+      "quasi-experimental designs",
+      "treatment effect estimation",
+      "causal inference",
+      "resampling methods",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating bootstrap Anderson-Rubin inference with many or high-dimensional instruments.",
+    "note": "Verified from the open Zenodo replication record accepted by the Econometric Society Data Editor; the archive maps data and code to the paper's tables and figures."
+  },
+  {
+    "access": "open",
+    "id": "quantile-electricity-forecasting-2026",
+    "title": "Quantile Regression Postprocessing with Negative Electricity Price Forecasts",
+    "authors": "Bartosz Uniejewski, James W. Taylor",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Zenodo dataset with 99 out-of-sample quantile forecasts, observed electricity prices, and market coverage for EPEX SPOT Germany and the Southwest Power Pool",
+    "datasetUrl": "https://zenodo.org/records/24159788",
+    "paperUrl": "https://arxiv.org/abs/2610.35885",
+    "formats": [
+      "ZIP forecast dataset",
+      "observed prices",
+      "README"
+    ],
+    "properties": [
+      "repository-data",
+      "zenodo",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "distributional regression",
+      "time series forecasting",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing quantile-regression postprocessing when electricity-price forecasts can be negative.",
+    "note": "Verified from the open Zenodo record, which names the paper and authors and directly provides the forecast archive and README."
   }
 ]
