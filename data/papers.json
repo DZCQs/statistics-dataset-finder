@@ -82233,7 +82233,7 @@
   {
     "access": "open",
     "id": "jss-anomaly-time-series",
-    "title": "anomaly : Detection of Anomalous Structure in Time Series Data",
+    "title": "anomaly: Detection of Anomalous Structure in Time Series Data",
     "authors": "Alex Fisch, Daniel Grose, Idris A. Eckley, Paul Fearnhead, Lawrence Bardwell",
     "year": 2024,
     "citations": 0,
@@ -82263,7 +82263,7 @@
   {
     "access": "open",
     "id": "jss-magi-dynamic-systems",
-    "title": "magi : A Package for Inference of Dynamic Systems from Noisy and Sparse Data via Manifold-Constrained Gaussian Processes",
+    "title": "magi: A Package for Inference of Dynamic Systems from Noisy and Sparse Data via Manifold-Constrained Gaussian Processes",
     "authors": "Samuel W. K. Wong, Shihao Yang, S. C. Kou",
     "year": 2024,
     "citations": 0,
@@ -82293,7 +82293,7 @@
   {
     "access": "open",
     "id": "jss-gfpop-change-points",
-    "title": "gfpop : An R Package for Univariate Graph-Constrained Change-Point Detection",
+    "title": "gfpop: An R Package for Univariate Graph-Constrained Change-Point Detection",
     "authors": "Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill",
     "year": 2023,
     "citations": 0,
@@ -82352,7 +82352,7 @@
   {
     "access": "open",
     "id": "jss-rags2ridges-precision",
-    "title": "rags2ridges : A One-Stop- ℓ 2 -Shop for Graphical Modeling of High-Dimensional Precision Matrices",
+    "title": "rags2ridges: A One-Stop-ℓ2-Shop for Graphical Modeling of High-Dimensional Precision Matrices",
     "authors": "Carel F. W. Peeters, Anders Ellern Bilgrau, Wessel N. van Wieringen",
     "year": 2022,
     "citations": 0,
@@ -82412,7 +82412,7 @@
   {
     "access": "open",
     "id": "jss-ball-metric-spaces",
-    "title": "Ball : An R Package for Detecting Distribution Difference and Association in Metric Spaces",
+    "title": "Ball: An R Package for Detecting Distribution Difference and Association in Metric Spaces",
     "authors": "Jin Zhu, Wenliang Pan, Wei Zheng, Xueqin Wang",
     "year": 2021,
     "citations": 0,
@@ -82432,17 +82432,14 @@
       "auto-discovered",
       "needs-review"
     ],
-    "topics": [
-      "high-dimensional statistics",
-      "robust statistics"
-    ],
+    "topics": [],
     "bestFor": "Testing distributional differences and dependence for complex or non-Euclidean observations.",
     "note": "Verified from the official Journal of Statistical Software page; it directly provides replication materials."
   },
   {
     "access": "open",
     "id": "jss-subtee-treatment-effects",
-    "title": "subtee : An R Package for Subgroup Treatment Effect Estimation in Clinical Trials",
+    "title": "subtee: An R Package for Subgroup Treatment Effect Estimation in Clinical Trials",
     "authors": "Nicolas M. Ballarini, Marius Thomas, Gerd K. Rosenkranz, Björn Bornkamp",
     "year": 2021,
     "citations": 0,
@@ -82564,40 +82561,8 @@
   },
   {
     "access": "open",
-    "id": "jss-bess-best-subset",
-    "title": "BeSS : An R Package for Best Subset Selection in Linear, Logistic and Cox Proportional Hazards Models",
-    "authors": "Canhong Wen, Aijun Zhang, Shijie Quan, Xueqin Wang",
-    "year": 2020,
-    "citations": 0,
-    "dataset": "Official BeSS replication materials for best-subset linear, logistic, and Cox regression examples",
-    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v094i04/3970",
-    "paperUrl": "https://www.jstatsoft.org/article/view/v094i04",
-    "formats": [
-      "Replication materials",
-      "reproducible examples",
-      "journal-hosted files"
-    ],
-    "properties": [
-      "replication-data",
-      "package-data",
-      "code",
-      "auto-discovered",
-      "needs-review"
-    ],
-    "topics": [
-      "best subset selection",
-      "variable selection",
-      "high-dimensional statistics",
-      "survival models",
-      "survival analysis"
-    ],
-    "bestFor": "Benchmarking best-subset selection across continuous, binary, and time-to-event outcomes.",
-    "note": "Verified from the official Journal of Statistical Software page; it directly provides replication materials."
-  },
-  {
-    "access": "open",
     "id": "jss-credsubs-subsets",
-    "title": "credsubs : Multiplicity-Adjusted Subset Identification",
+    "title": "credsubs: Multiplicity-Adjusted Subset Identification",
     "authors": "Patrick M. Schnell, Mark Fiecas, Bradley P. Carlin",
     "year": 2020,
     "citations": 0,
@@ -82658,7 +82623,7 @@
   {
     "access": "open",
     "id": "jss-gckrig-counts",
-    "title": "gcKrig : An R Package for the Analysis of Geostatistical Count Data Using Gaussian Copulas",
+    "title": "gcKrig: An R Package for the Analysis of Geostatistical Count Data Using Gaussian Copulas",
     "authors": "Zifei Han, Victor De Oliveira",
     "year": 2018,
     "citations": 0,
@@ -82716,7 +82681,7 @@
   {
     "access": "open",
     "id": "jss-qxla-studentized-range",
-    "title": "QXLA : Adding Upper Quantiles for the Studentized Range to Excel for Multiple Comparison Procedures",
+    "title": "QXLA: Adding Upper Quantiles for the Studentized Range to Excel for Multiple Comparison Procedures",
     "authors": "K. Thomas Klasson",
     "year": 2018,
     "citations": 0,
@@ -82745,7 +82710,7 @@
   {
     "access": "open",
     "id": "jss-stampr-moving-polygons",
-    "title": "stampr : Spatial-Temporal Analysis of Moving Polygons in R",
+    "title": "stampr: Spatial-Temporal Analysis of Moving Polygons in R",
     "authors": "Jed Long, Colin Robertson, Trisalyn Nelson",
     "year": 2018,
     "citations": 0,
@@ -82981,7 +82946,7 @@
     "access": "open",
     "id": "rj-cpsurvsim-change-hazards",
     "title": "cpsurvsim: An R Package for Simulating Data from Change-Point Hazard Distributions",
-    "authors": "Camille J. Hochheimer, PhD, Roy T. Sabo, PhD",
+    "authors": "Camille J. Hochheimer, Roy T. Sabo",
     "year": 2022,
     "citations": 0,
     "dataset": "cpsurvsim-generated time-to-event datasets under piecewise and change-point hazard distributions",
@@ -82995,14 +82960,13 @@
     "properties": [
       "package-data",
       "code",
+      "needs-label-review",
       "auto-discovered",
       "needs-review"
     ],
     "topics": [
-      "change point detection",
       "survival models",
-      "survival analysis",
-      "time series analysis"
+      "survival analysis"
     ],
     "bestFor": "Simulating survival outcomes whose hazard changes at prespecified or random times.",
     "note": "Verified from the official R Journal article and the documented cpsurvsim package data source."
@@ -83127,7 +83091,7 @@
     "access": "open",
     "id": "rj-dchaos-chaotic-series",
     "title": "DChaos: An R Package for Chaotic Time Series Analysis",
-    "authors": "Julio,E. Sandubete, Lorenzo Escot",
+    "authors": "Julio E. Sandubete, Lorenzo Escot",
     "year": 2021,
     "citations": 0,
     "dataset": "DChaos package benchmark series and generated examples for chaotic time-series diagnostics",
@@ -83155,7 +83119,7 @@
     "access": "open",
     "id": "rj-mapgam-spatial-effects",
     "title": "Mapping Smoothed Spatial Effect Estimates from Individual-Level Data: MapGAM",
-    "authors": "Lu Bai, Daniel,L. Gillen, Scott,M. Bartell, Verónica,M. Vieira",
+    "authors": "Lu Bai, Daniel L. Gillen, Scott M. Bartell, Verónica M. Vieira",
     "year": 2020,
     "citations": 0,
     "dataset": "MapGAM article data for smoothed geographic effect estimation, including the documented Massachusetts and California examples",
@@ -83240,7 +83204,7 @@
     "access": "open",
     "id": "rj-tsmp-matrix-profile",
     "title": "tsmp: An R Package for Time Series with Matrix Profile",
-    "authors": "Francisco Bischoff, Pedro,Pereira Rodrigues",
+    "authors": "Francisco Bischoff, Pedro Pereira Rodrigues",
     "year": 2020,
     "citations": 0,
     "dataset": "tsmp package benchmark series for matrix-profile motif, discord, and segmentation analyses",
@@ -83269,7 +83233,7 @@
     "access": "open",
     "id": "rj-bayesdfa-multivariate-series",
     "title": "Modeling regimes with extremes: the bayesdfa package for identifying and forecasting common trends and anomalies in multivariate time-series data",
-    "authors": "Eric,J. Ward, Sean,C. Anderson, Luis,A. Damiano, Mary,E. Hunsicker, Michael,A. Litzow",
+    "authors": "Eric J. Ward, Sean C. Anderson, Luis A. Damiano, Mary E. Hunsicker, Michael A. Litzow",
     "year": 2019,
     "citations": 0,
     "dataset": "bayesdfa package ecological multivariate series and simulations for common-trend, regime, and anomaly models",
@@ -83300,7 +83264,7 @@
     "access": "open",
     "id": "rj-rfsa-subsets-interactions",
     "title": "rFSA: An R Package for Finding Best Subsets and Interactions",
-    "authors": "Joshua Lambert, Liyu Gong, Corrine,F. Elliott, Katherine Thompson, Arnold Stromberg",
+    "authors": "Joshua Lambert, Liyu Gong, Corrine F. Elliott, Katherine Thompson, Arnold Stromberg",
     "year": 2019,
     "citations": 0,
     "dataset": "rFSA package data and reproducible examples for searching predictor subsets and interactions",
@@ -83329,7 +83293,7 @@
     "access": "open",
     "id": "rj-spup-spatial-uncertainty",
     "title": "Spatial Uncertainty Propagation Analysis with the spup R Package",
-    "authors": "Kasia Sawicka, Gerard,B.M. Heuvelink, Dennis,J.J. Walvoort",
+    "authors": "Kasia Sawicka, Gerard B. M. Heuvelink, Dennis J. J. Walvoort",
     "year": 2019,
     "citations": 0,
     "dataset": "spup package spatial examples for propagating positional, attribute, and model uncertainty",
@@ -83357,7 +83321,7 @@
     "access": "open",
     "id": "rj-stilt-emulation",
     "title": "Stilt: Easy Emulation of Time Series AR(1) Computer Model Output in Multidimensional Parameter Space",
-    "authors": "Roman Olson, Kelsey,L. Ruckert, Won Chang, Klaus Keller, Murali Haran, Soon-Il An",
+    "authors": "Roman Olson, Kelsey L. Ruckert, Won Chang, Klaus Keller, Murali Haran, Soon-Il An",
     "year": 2019,
     "citations": 0,
     "dataset": "stilt package simulations for emulating AR(1) computer-model output over multidimensional parameter spaces",
@@ -83415,7 +83379,7 @@
     "access": "open",
     "id": "rj-hrm-repeated-measures",
     "title": "HRM: An R Package for Analysing High-dimensional Multi-factor Repeated Measures",
-    "authors": "Martin Happ, Solomon,W. Harrar, Arne,C. Bathke",
+    "authors": "Martin Happ, Solomon W. Harrar, Arne C. Bathke",
     "year": 2018,
     "citations": 0,
     "dataset": "HRM package high-dimensional multi-factor repeated-measures examples and simulation data",
@@ -83503,7 +83467,7 @@
     "access": "open",
     "id": "joss-geocmeans",
     "title": "geocmeans: An R package for spatial fuzzy c-means",
-    "authors": "Gelb Jeremy",
+    "authors": "Jeremy Gelb",
     "year": 2023,
     "citations": 0,
     "dataset": "geocmeans repository and archived release with spatial fuzzy-clustering example data and reproducible vignettes",
@@ -83577,14 +83541,12 @@
       "replication-data",
       "figshare",
       "code",
+      "needs-label-review",
       "auto-discovered",
       "needs-review"
     ],
     "topics": [
-      "conformal prediction",
-      "variable selection",
-      "high-dimensional statistics",
-      "resampling methods"
+      "conformal prediction"
     ],
     "bestFor": "Evaluating conformal predictive coverage after the same data have been used to choose a model.",
     "note": "Verified through the official Taylor & Francis Figshare record and its IsSupplementTo relation to the journal DOI; the landing page exposes the downloadable code-and-supplement archive."
@@ -83648,8 +83610,7 @@
       "randomized experiments",
       "causal inference",
       "treatment effect estimation",
-      "optimal experimental design",
-      "resampling methods"
+      "optimal experimental design"
     ],
     "bestFor": "Studying how rerandomization and regression adjustment interact under selective analysis choices.",
     "note": "Verified from the released Harvard Dataverse record and the accessible arXiv paper page; the repository provides an unrestricted replication.zip archive with complete documentation."
@@ -83718,5 +83679,37 @@
     ],
     "bestFor": "Comparing quantile-regression postprocessing when electricity-price forecasts can be negative.",
     "note": "Verified from the open Zenodo record, which names the paper and authors and directly provides the forecast archive and README."
+  },
+  {
+    "access": "open",
+    "id": "technometrics-dynamic-screening-2025",
+    "title": "A Dynamic Screening System for Early Detection of Multiple Interconnected Events",
+    "authors": "Zibo Tian, Peihua Qiu",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Taylor & Francis Figshare Code_and_Data.zip archive for dynamic screening of multiple interconnected event streams",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/A_Dynamic_Screening_System_for_Early_Detection_of_Multiple_Interconnected_Events/30112942",
+    "paperUrl": "https://doi.org/10.1080/00401706.2025.2560340",
+    "formats": [
+      "ZIP code-and-data archive",
+      "event-stream data",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "change point detection",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating early-warning procedures for multiple dependent event streams with changing behavior.",
+    "note": "Verified from the paper-linked Taylor & Francis Figshare record, which directly provides a Code_and_Data.zip archive and supplementary document."
   }
 ]
