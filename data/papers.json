@@ -82229,5 +82229,1333 @@
     ],
     "bestFor": "Reproducing empirical-size and power comparisons for goodness-of-fit tests under alternative distributions.",
     "note": "Verified from the official JSS page; it directly provides the complete Monte Carlo replication materials."
+  },
+  {
+    "access": "open",
+    "id": "jss-anomaly-time-series",
+    "title": "anomaly : Detection of Anomalous Structure in Time Series Data",
+    "authors": "Alex Fisch, Daniel Grose, Idris A. Eckley, Paul Fearnhead, Lawrence Bardwell",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Official anomaly package and replication scripts for point, collective, epidemic, and multivariate anomaly examples in ordered data",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v110i01/4597",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v110i01",
+    "formats": [
+      "R replication code",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "change point detection"
+    ],
+    "bestFor": "Comparing anomaly and change-point detection procedures on reproducible time-series examples.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides r replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-magi-dynamic-systems",
+    "title": "magi : A Package for Inference of Dynamic Systems from Noisy and Sparse Data via Manifold-Constrained Gaussian Processes",
+    "authors": "Samuel W. K. Wong, Shihao Yang, S. C. Kou",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Official magi replication bundle with noisy and sparsely observed dynamic-system trajectories for manifold-constrained Gaussian-process inference",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v109i04/4570",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v109i04",
+    "formats": [
+      "Replication materials",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "time series analysis"
+    ],
+    "bestFor": "Inferring nonlinear dynamic systems from sparse, noisy trajectories with Gaussian-process constraints.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides replication materials."
+  },
+  {
+    "access": "open",
+    "id": "jss-gfpop-change-points",
+    "title": "gfpop : An R Package for Univariate Graph-Constrained Change-Point Detection",
+    "authors": "Vincent Runge, Toby Dylan Hocking, Gaetano Romano, Fatemeh Afghah, Paul Fearnhead, Guillem Rigaill",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Official gfpop.data package of graph-constrained change-point examples plus the paper's reproducible analysis code",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v106i06/4468",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v106i06",
+    "formats": [
+      "R package (gfpop.data)",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating graph-constrained segmentation and change-point algorithms on ordered sequences.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides r package (gfpop.data)."
+  },
+  {
+    "access": "open",
+    "id": "jss-spldv-binary-spatial",
+    "title": "GMM Estimators for Binary Spatial Models in R",
+    "authors": "Gianfranco Piras, Mauricio Sarrias",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Official spldv package and replication scripts for binary spatial autoregressive GMM examples",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v107i08/4512",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v107i08",
+    "formats": [
+      "R replication code",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Fitting and comparing GMM estimators for binary outcomes with spatial dependence.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides r replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-rags2ridges-precision",
+    "title": "rags2ridges : A One-Stop- ℓ 2 -Shop for Graphical Modeling of High-Dimensional Precision Matrices",
+    "authors": "Carel F. W. Peeters, Anders Ellern Bilgrau, Wessel N. van Wieringen",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Official rags2ridges replication bundle for high-dimensional precision-matrix estimation and graphical-model examples",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v102i04/4292",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v102i04",
+    "formats": [
+      "R replication code",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "graphical models",
+      "variable selection"
+    ],
+    "bestFor": "Studying ridge-regularized precision matrices and network structure in high dimensions.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides r replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-ucomp-structural-series",
+    "title": "Automatic Identification and Forecasting of Structural Unobserved Components Models with UComp",
+    "authors": "Diego J. Pedregal",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Official UComp replication scripts and example series for structural unobserved-components identification and forecasting",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v103i09/4357",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v103i09",
+    "formats": [
+      "R replication code",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Reproducing automatic structural-component identification and forecasts for multiple time series.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides r replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-ball-metric-spaces",
+    "title": "Ball : An R Package for Detecting Distribution Difference and Association in Metric Spaces",
+    "authors": "Jin Zhu, Wenliang Pan, Wei Zheng, Xueqin Wang",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official Ball replication materials for distribution-difference and association tests in metric spaces",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v097i06/4077",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v097i06",
+    "formats": [
+      "Replication materials",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "robust statistics"
+    ],
+    "bestFor": "Testing distributional differences and dependence for complex or non-Euclidean observations.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides replication materials."
+  },
+  {
+    "access": "open",
+    "id": "jss-subtee-treatment-effects",
+    "title": "subtee : An R Package for Subgroup Treatment Effect Estimation in Clinical Trials",
+    "authors": "Nicolas M. Ballarini, Marius Thomas, Gerd K. Rosenkranz, Björn Bornkamp",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official subtee package and replication scripts for subgroup treatment-effect estimation in randomized trials",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v099i14/4161",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v099i14",
+    "formats": [
+      "R replication code",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "heterogeneous treatment effects",
+      "treatment effect estimation",
+      "causal inference",
+      "randomized experiments"
+    ],
+    "bestFor": "Assessing treatment-effect heterogeneity and subgroup procedures in clinical trials.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides r replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-dosearch-incomplete-causal",
+    "title": "Causal Effect Identification from Multiple Incomplete Data Sources: A General Search-Based Approach",
+    "authors": "Santtu Tikka, Antti Hyttinen, Juha Karvanen",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official dosearch replication materials for causal-effect identification from multiple incomplete data sources",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v099i05/4136",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v099i05",
+    "formats": [
+      "Replication materials",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal discovery",
+      "causal inference",
+      "graphical models",
+      "missing data",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Testing search-based causal identification when information is distributed across incomplete sources.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides replication materials."
+  },
+  {
+    "access": "open",
+    "id": "jss-rflexscan-spatial-clusters",
+    "title": "Flexible Scan Statistics for Detecting Spatial Disease Clusters: The rflexscan R Package",
+    "authors": "Takahiro Otani, Kunihiko Takahashi",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official rflexscan replication scripts for flexible spatial scan statistics and cluster-detection examples",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v099i13/4155",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v099i13",
+    "formats": [
+      "R replication code",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "clustering"
+    ],
+    "bestFor": "Comparing flexible scan statistics for detecting irregular spatial clusters.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides r replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-ordinalnet-regularized",
+    "title": "Regularized Ordinal Regression and the ordinalNet R Package",
+    "authors": "Michael J. Wurm, Paul J. Rathouz, Bret M. Hanlon",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Official ordinalNet replication materials for regularized ordinal-regression examples",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v099i06/4138",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v099i06",
+    "formats": [
+      "Replication materials",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Fitting and comparing penalized ordinal regressions with many predictors.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides replication materials."
+  },
+  {
+    "access": "open",
+    "id": "jss-bess-best-subset",
+    "title": "BeSS : An R Package for Best Subset Selection in Linear, Logistic and Cox Proportional Hazards Models",
+    "authors": "Canhong Wen, Aijun Zhang, Shijie Quan, Xueqin Wang",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Official BeSS replication materials for best-subset linear, logistic, and Cox regression examples",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v094i04/3970",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v094i04",
+    "formats": [
+      "Replication materials",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "best subset selection",
+      "variable selection",
+      "high-dimensional statistics",
+      "survival models",
+      "survival analysis"
+    ],
+    "bestFor": "Benchmarking best-subset selection across continuous, binary, and time-to-event outcomes.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides replication materials."
+  },
+  {
+    "access": "open",
+    "id": "jss-credsubs-subsets",
+    "title": "credsubs : Multiplicity-Adjusted Subset Identification",
+    "authors": "Patrick M. Schnell, Mark Fiecas, Bradley P. Carlin",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Official credsubs supplementary R data and replication code for multiplicity-adjusted subset identification",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v094i07/3984",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v094i07",
+    "formats": [
+      "Supplementary data (R binary format)",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "heterogeneous treatment effects",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Evaluating multiplicity-adjusted discovery of treatment-benefiting subgroups.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides supplementary data (r binary format)."
+  },
+  {
+    "access": "open",
+    "id": "jss-fuzzy-forests",
+    "title": "Fuzzy Forests: Extending Random Forest Feature Selection for Correlated, High-Dimensional Data",
+    "authors": "Daniel Conn, Tuck Ngun, Gang Li, Christina M. Ramirez",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Official fuzzyforest replication materials for feature selection with correlated high-dimensional predictors",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v091i09/3881",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v091i09",
+    "formats": [
+      "Replication materials",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing feature-selection strategies when predictors form correlated modules.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides replication materials."
+  },
+  {
+    "access": "open",
+    "id": "jss-gckrig-counts",
+    "title": "gcKrig : An R Package for the Analysis of Geostatistical Count Data Using Gaussian Copulas",
+    "authors": "Zifei Han, Victor De Oliveira",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official gcKrig replication scripts for geostatistical count-data models based on Gaussian copulas",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v087i13/3757",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v087i13",
+    "formats": [
+      "R replication code",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Modeling and kriging spatial counts with non-Gaussian margins and copula dependence.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides r replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-isap-stochastic-networks",
+    "title": "ISAP - MATLAB Package for Sensitivity Analysis of High-Dimensional Stochastic Chemical Networks",
+    "authors": "Weilong Hu, Yannis Pantazis, Markos A. Katsoulakis",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official ISAP source and replication scripts generating high-dimensional stochastic-network sensitivity examples",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v085i03/3667",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v085i03",
+    "formats": [
+      "MATLAB replication code",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Reproducing sensitivity analyses for high-dimensional stochastic reaction networks.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides matlab replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-qxla-studentized-range",
+    "title": "QXLA : Adding Upper Quantiles for the Studentized Range to Excel for Multiple Comparison Procedures",
+    "authors": "K. Thomas Klasson",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official QXLA source and replication materials for upper-tail studentized-range quantiles used in multiple-comparison procedures",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v085c01/3669",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v085c01",
+    "formats": [
+      "Source code and replication materials",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multiple testing"
+    ],
+    "bestFor": "Checking upper-tail critical values for simultaneous multiple-comparison procedures.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides source code and replication materials."
+  },
+  {
+    "access": "open",
+    "id": "jss-stampr-moving-polygons",
+    "title": "stampr : Spatial-Temporal Analysis of Moving Polygons in R",
+    "authors": "Jed Long, Colin Robertson, Trisalyn Nelson",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official stampr replication scripts for spatial-temporal intersection and movement examples with polygon trajectories",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v084c01/3646",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v084c01",
+    "formats": [
+      "R replication code",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatio-temporal models",
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Analyzing overlap and interaction among moving polygons through time.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides r replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-pylearn-simulate-sparse",
+    "title": "Simulated Data for Linear Regression with Structured and Sparse Penalties: Introducing pylearn-simulate",
+    "authors": "Tommy Löfstedt, Vincent Guillemot, Vincent Frouin, Edouard Duchesnay, Fouad Hadj-Selem",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official pylearn-simulate replication bundle for generated linear-regression datasets with structured and sparse penalties",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v087i03/3727",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v087i03",
+    "formats": [
+      "Replication materials",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Generating controlled sparse-regression benchmarks with structured predictor penalties.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides replication materials."
+  },
+  {
+    "access": "open",
+    "id": "jss-coxphw-weighted-cox",
+    "title": "Weighted Cox Regression Using the R Package coxphw",
+    "authors": "Daniela Dunkler, Meinhard Ploner, Michael Schemper, Georg Heinze",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official coxphw replication scripts and package examples for weighted Cox regression under nonproportional hazards",
+    "datasetUrl": "https://www.jstatsoft.org/index.php/jss/article/view/v084i02/3627",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v084i02",
+    "formats": [
+      "R replication code",
+      "reproducible examples",
+      "journal-hosted files"
+    ],
+    "properties": [
+      "replication-data",
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survival models",
+      "survival analysis"
+    ],
+    "bestFor": "Comparing weighted and conventional Cox regression when hazard ratios vary over time.",
+    "note": "Verified from the official Journal of Statistical Software page; it directly provides r replication code."
+  },
+  {
+    "access": "open",
+    "id": "rj-rchoice-iv-binary",
+    "title": "Estimating Heteroskedastic and Instrumental Variable Models for Binary Outcome Variables in R",
+    "authors": "Mauricio Sarrias",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Rchoice applied datasets and examples for heteroskedastic and instrumental-variable binary-outcome models",
+    "datasetUrl": "https://cran.r-project.org/web/packages/Rchoice/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2023-050/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "instrumental variables",
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Estimating binary-outcome models with endogenous regressors and heterogeneous variance.",
+    "note": "Verified from the official R Journal article and the documented Rchoice package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-langevitour-high-dimensional",
+    "title": "langevitour: Smooth Interactive Touring of High Dimensions, Demonstrated with scRNA-Seq Data",
+    "authors": "Paul Harrison",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "langevitour package examples and single-cell RNA sequencing data used for smooth high-dimensional tours",
+    "datasetUrl": "https://cran.r-project.org/web/packages/langevitour/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2023-046/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Exploring high-dimensional structure interactively after projection and preprocessing.",
+    "note": "Verified from the official R Journal article and the documented langevitour package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-remap-spatial",
+    "title": "remap: Regionalized Models with Spatially Smooth Predictions",
+    "authors": "Jadon Wagstaff, Brennan Bean",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "remap package data and article examples for regionalized models with spatially smooth predictions",
+    "datasetUrl": "https://cran.r-project.org/web/packages/remap/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2023-004/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Comparing regionalized predictive models while enforcing spatial smoothness.",
+    "note": "Verified from the official R Journal article and the documented remap package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-segmetric-geospatial",
+    "title": "The segmetric Package: Metrics for Assessing Segmentation Accuracy for Geospatial Data",
+    "authors": "Rolf Simoes, Alber Sanchez, Michelle C. A. Picoli, Patrick Meyfroidt",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "segmetric package reference data for evaluating agreement between geospatial segmentations",
+    "datasetUrl": "https://cran.r-project.org/web/packages/segmetric/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2023-030/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Assessing object-level and boundary accuracy in geospatial segmentation outputs.",
+    "note": "Verified from the official R Journal article and the documented segmetric package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-dglars-sparse-glms",
+    "title": "A Software Tool For Sparse Estimation Of A General Class Of High-dimensional GLMs",
+    "authors": "Hassan Pazira, Luigi Augugliaro, Ernst C. Wit",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "dglars package data and reproducible examples for sparse high-dimensional generalized linear models",
+    "datasetUrl": "https://cran.r-project.org/web/packages/dglars/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2022-008/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection"
+    ],
+    "bestFor": "Comparing pathwise sparse estimation across generalized linear models.",
+    "note": "Verified from the official R Journal article and the documented dglars package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-cpsurvsim-change-hazards",
+    "title": "cpsurvsim: An R Package for Simulating Data from Change-Point Hazard Distributions",
+    "authors": "Camille J. Hochheimer, PhD, Roy T. Sabo, PhD",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "cpsurvsim-generated time-to-event datasets under piecewise and change-point hazard distributions",
+    "datasetUrl": "https://cran.r-project.org/web/packages/cpsurvsim/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2022-005/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "survival models",
+      "survival analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Simulating survival outcomes whose hazard changes at prespecified or random times.",
+    "note": "Verified from the official R Journal article and the documented cpsurvsim package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-dbcsp-time-series",
+    "title": "dbcsp: User-friendly R package for Distance-Based Common Spatial Patterns",
+    "authors": "Itsaso Rodríguez, Itziar Irigoien, Basilio Sierra, Concepción Arenas",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "dbcsp package benchmark data for distance-based common spatial patterns in multivariate time series",
+    "datasetUrl": "https://cran.r-project.org/web/packages/dbcsp/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2022-044/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "time series classification",
+      "time series analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating supervised dimension reduction for multichannel time-series classification.",
+    "note": "Verified from the official R Journal article and the documented dbcsp package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-starvars-nonlinear-series",
+    "title": "starvars: An R Package for Analysing Nonlinearities in Multivariate Time Series",
+    "authors": "Andrea Bucci, Giulio Palomba, Eduardo Rossi",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "starvars package data and article examples for nonlinear multivariate smooth-transition autoregressions",
+    "datasetUrl": "https://cran.r-project.org/web/packages/starvars/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2022-018/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Detecting and modeling nonlinear regimes in multivariate time series.",
+    "note": "Verified from the official R Journal article and the documented starvars package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-smoots-trend-stationary",
+    "title": "The smoots Package in R for Semiparametric Modeling of Trend Stationary Time Series",
+    "authors": "Yuanhua Feng, Thomas Gries, Sebastian Letmathe, Dominik Schulz",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "smoots package series and simulation examples for semiparametric trend-stationary modeling",
+    "datasetUrl": "https://cran.r-project.org/web/packages/smoots/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2022-017/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Separating smooth deterministic trends from stationary short-run dependence.",
+    "note": "Verified from the official R Journal article and the documented smoots package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-bayesspsurv-spatial-survival",
+    "title": "BayesSPsurv: An R Package to Estimate Bayesian (Spatial) Split-Population Survival Models",
+    "authors": "Brandon Bolte, Nicolás Schmidt, Sergio Béjar, Nguyen Huynh, Bumba Mukherjee",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "BayesSPsurv package data and examples for Bayesian spatial split-population survival models",
+    "datasetUrl": "https://cran.r-project.org/web/packages/BayesSPsurv/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2021-068/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "spatial statistics",
+      "survival models",
+      "survival analysis"
+    ],
+    "bestFor": "Modeling spatially varying event risk when a fraction of subjects never experiences the event.",
+    "note": "Verified from the official R Journal article and the documented BayesSPsurv package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-dchaos-chaotic-series",
+    "title": "DChaos: An R Package for Chaotic Time Series Analysis",
+    "authors": "Julio,E. Sandubete, Lorenzo Escot",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "DChaos package benchmark series and generated examples for chaotic time-series diagnostics",
+    "datasetUrl": "https://cran.r-project.org/web/packages/DChaos/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2021-036/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Comparing chaos diagnostics and attractor-based summaries for nonlinear series.",
+    "note": "Verified from the official R Journal article and the documented DChaos package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-mapgam-spatial-effects",
+    "title": "Mapping Smoothed Spatial Effect Estimates from Individual-Level Data: MapGAM",
+    "authors": "Lu Bai, Daniel,L. Gillen, Scott,M. Bartell, Verónica,M. Vieira",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "MapGAM article data for smoothed geographic effect estimation, including the documented Massachusetts and California examples",
+    "datasetUrl": "https://cran.r-project.org/web/packages/MapGAM/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2020-001/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Mapping adjusted spatial effects from individual-level outcome data.",
+    "note": "Verified from the official R Journal article and the documented MapGAM package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-nts-nonlinear-series",
+    "title": "NTS: An R Package for Nonlinear Time Series Analysis",
+    "authors": "Xialu Liu, Rong Chen, Ruey Tsay",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "NTS package datasets and examples for threshold, nonlinear autoregressive, and regime-switching time-series models",
+    "datasetUrl": "https://cran.r-project.org/web/packages/NTS/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2021-016/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Fitting and diagnosing nonlinear and regime-dependent time-series models.",
+    "note": "Verified from the official R Journal article and the documented NTS package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-sortedeffects-causal",
+    "title": "SortedEffects: Sorted Causal Effects in R",
+    "authors": "Shuowen Chen, Victor Chernozhukov, Iván Fernández-Val, Ye Luo",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "SortedEffects package replication examples for estimating distributions and classifications of heterogeneous causal effects",
+    "datasetUrl": "https://cran.r-project.org/web/packages/SortedEffects/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2020-006/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "heterogeneous treatment effects",
+      "treatment effect estimation",
+      "causal inference"
+    ],
+    "bestFor": "Studying how causal effects vary across observational units and covariate profiles.",
+    "note": "Verified from the official R Journal article and the documented SortedEffects package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-tsmp-matrix-profile",
+    "title": "tsmp: An R Package for Time Series with Matrix Profile",
+    "authors": "Francisco Bischoff, Pedro,Pereira Rodrigues",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "tsmp package benchmark series for matrix-profile motif, discord, and segmentation analyses",
+    "datasetUrl": "https://cran.r-project.org/web/packages/tsmp/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2020-021/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "change point detection",
+      "time series classification"
+    ],
+    "bestFor": "Finding repeated patterns, anomalies, and regime boundaries in long time series.",
+    "note": "Verified from the official R Journal article and the documented tsmp package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-bayesdfa-multivariate-series",
+    "title": "Modeling regimes with extremes: the bayesdfa package for identifying and forecasting common trends and anomalies in multivariate time-series data",
+    "authors": "Eric,J. Ward, Sean,C. Anderson, Luis,A. Damiano, Mary,E. Hunsicker, Michael,A. Litzow",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "bayesdfa package ecological multivariate series and simulations for common-trend, regime, and anomaly models",
+    "datasetUrl": "https://cran.r-project.org/web/packages/bayesdfa/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2019-007/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "time series analysis",
+      "time series forecasting",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Estimating shared trends and forecasting multivariate series with extreme observations.",
+    "note": "Verified from the official R Journal article and the documented bayesdfa package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-rfsa-subsets-interactions",
+    "title": "rFSA: An R Package for Finding Best Subsets and Interactions",
+    "authors": "Joshua Lambert, Liyu Gong, Corrine,F. Elliott, Katherine Thompson, Arnold Stromberg",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "rFSA package data and reproducible examples for searching predictor subsets and interactions",
+    "datasetUrl": "https://cran.r-project.org/web/packages/rFSA/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2018-059/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "best subset selection",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Searching large predictor spaces for compact models and interactions.",
+    "note": "Verified from the official R Journal article and the documented rFSA package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-spup-spatial-uncertainty",
+    "title": "Spatial Uncertainty Propagation Analysis with the spup R Package",
+    "authors": "Kasia Sawicka, Gerard,B.M. Heuvelink, Dennis,J.J. Walvoort",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "spup package spatial examples for propagating positional, attribute, and model uncertainty",
+    "datasetUrl": "https://cran.r-project.org/web/packages/spup/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2018-047/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Quantifying how multiple uncertainty sources affect spatial predictions and maps.",
+    "note": "Verified from the official R Journal article and the documented spup package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-stilt-emulation",
+    "title": "Stilt: Easy Emulation of Time Series AR(1) Computer Model Output in Multidimensional Parameter Space",
+    "authors": "Roman Olson, Kelsey,L. Ruckert, Won Chang, Klaus Keller, Murali Haran, Soon-Il An",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "stilt package simulations for emulating AR(1) computer-model output over multidimensional parameter spaces",
+    "datasetUrl": "https://cran.r-project.org/web/packages/stilt/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2018-049/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "spatial statistics"
+    ],
+    "bestFor": "Building emulators for autocorrelated simulator output across parameter settings.",
+    "note": "Verified from the official R Journal article and the documented stilt package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-bayesvarsel-selection",
+    "title": "Bayesian Testing, Variable Selection and Model Averaging in Linear Models using R with BayesVarSel",
+    "authors": "Gonzalo Garcia-Donato, Anabel Forte",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "BayesVarSel package regression datasets and examples for Bayesian testing, variable selection, and model averaging",
+    "datasetUrl": "https://cran.r-project.org/web/packages/BayesVarSel/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2018-021/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing posterior inclusion and model-averaged inference in linear regression.",
+    "note": "Verified from the official R Journal article and the documented BayesVarSel package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-hrm-repeated-measures",
+    "title": "HRM: An R Package for Analysing High-dimensional Multi-factor Repeated Measures",
+    "authors": "Martin Happ, Solomon,W. Harrar, Arne,C. Bathke",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "HRM package high-dimensional multi-factor repeated-measures examples and simulation data",
+    "datasetUrl": "https://cran.r-project.org/web/packages/HRM/index.html",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2018-032/",
+    "formats": [
+      "R package data",
+      "article examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Testing factorial effects in high-dimensional repeated-measures designs.",
+    "note": "Verified from the official R Journal article and the documented HRM package data source."
+  },
+  {
+    "access": "open",
+    "id": "rj-small-area-disease-risk",
+    "title": "Small Area Disease Risk Estimation and Visualization Using R",
+    "authors": "Paula Moraga",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Official article code and public disease-mapping examples for small-area risk estimation and visualization",
+    "datasetUrl": "https://rjournal.github.io/articles/RJ-2018-036/",
+    "paperUrl": "https://rjournal.github.io/articles/RJ-2018-036/",
+    "formats": [
+      "article code",
+      "public spatial data",
+      "mapping examples"
+    ],
+    "properties": [
+      "journal-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "small area estimation",
+      "spatial statistics",
+      "survey methodology"
+    ],
+    "bestFor": "Estimating and mapping smoothed disease risk for small geographic areas.",
+    "note": "Verified from the official R Journal article, which documents the public example data and complete analysis workflow."
+  },
+  {
+    "access": "open",
+    "id": "joss-causaltables",
+    "title": "CausalTables.jl: Simulating and storing data for statistical causal inference in Julia",
+    "authors": "Salvador V. Balkus, Nima S. Hejazi",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "CausalTables.jl repository and archived release with simulated causal tables, treatment assignments, outcomes, and metadata",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.14867116",
+    "paperUrl": "https://joss.theoj.org/papers/10.21105/joss.07580",
+    "formats": [
+      "versioned software archive",
+      "repository examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "repository-data",
+      "software-archive",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Generating standardized causal-inference datasets with known treatment effects and data-generating mechanisms.",
+    "note": "Verified from the official JOSS paper page, software repository, and versioned Zenodo archive."
+  },
+  {
+    "access": "open",
+    "id": "joss-geocmeans",
+    "title": "geocmeans: An R package for spatial fuzzy c-means",
+    "authors": "Gelb Jeremy",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "geocmeans repository and archived release with spatial fuzzy-clustering example data and reproducible vignettes",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.8316593",
+    "paperUrl": "https://joss.theoj.org/papers/10.21105/joss.05259",
+    "formats": [
+      "versioned software archive",
+      "repository examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "repository-data",
+      "software-archive",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "clustering"
+    ],
+    "bestFor": "Comparing geographically weighted and spatially constrained fuzzy clustering.",
+    "note": "Verified from the official JOSS paper page, software repository, and versioned Zenodo archive."
+  },
+  {
+    "access": "open",
+    "id": "joss-multitaper-jl",
+    "title": "Multitaper.jl: A Julia package for frequency domain analysis of time series",
+    "authors": "Charlotte Haley, Christopher Geoga",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Multitaper.jl archived release with spectral-analysis examples for sampled time series",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.4274772",
+    "paperUrl": "https://joss.theoj.org/papers/10.21105/joss.02463",
+    "formats": [
+      "versioned software archive",
+      "repository examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "repository-data",
+      "software-archive",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Estimating spectra and cross-spectra with multitaper methods.",
+    "note": "Verified from the official JOSS paper page, software repository, and versioned Zenodo archive."
   }
 ]
