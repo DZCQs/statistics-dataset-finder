@@ -83852,15 +83852,12 @@
       "package-data",
       "spatial-data",
       "code",
+      "needs-label-review",
       "auto-discovered",
       "needs-review"
     ],
     "topics": [
-      "spatial statistics",
-      "optimal experimental design",
-      "factorial experimental design",
-      "randomized experiments",
-      "causal inference"
+      "spatial statistics"
     ],
     "bestFor": "Recovering plot-level experimental units from agricultural field imagery before design-based analysis.",
     "note": "Verified from the official R Journal package paper and the public CRAN source containing both documented datasets."
@@ -84354,6 +84351,7 @@
       "needs-review"
     ],
     "topics": [
+      "robust statistics",
       "resampling methods"
     ],
     "bestFor": "Comparing distribution-free rank tests for paired and two-sample outcomes with clustered observations.",
@@ -84441,7 +84439,6 @@
       "needs-review"
     ],
     "topics": [
-      "robust statistics",
       "resampling methods"
     ],
     "bestFor": "Studying nonparametric regression-curve differences, extrema, and inflection-point inference.",
@@ -84639,7 +84636,7 @@
     "id": "rj-csurvey-order-constraints",
     "title": "csurvey: Implementing Order Constraints in Survey Data Analysis",
     "authors": "Xiyue Liao, Mary C. Meyer",
-    "year": 2026,
+    "year": 2025,
     "citations": 0,
     "dataset": "Official csurvey data repository and package examples for order-constrained design-based survey domain estimation",
     "datasetUrl": "https://github.com/xliaosdsu/csurvey-data",
@@ -84669,7 +84666,7 @@
     "id": "rj-lhd-optimal-designs",
     "title": "LHD: An All-Encompassing R Package for Constructing Optimal Latin Hypercube Designs",
     "authors": "Hongzhi Wang, Qian Xiao, Abhyuday Mandal",
-    "year": 2026,
+    "year": 2025,
     "citations": 0,
     "dataset": "Official R Journal supplementary archive with construction examples for maximin, maximum-projection, and orthogonal Latin hypercube designs",
     "datasetUrl": "https://journal.r-project.org/articles/RJ-2025-033/RJ-2025-033.zip",
@@ -84727,7 +84724,7 @@
     "id": "rj-kernel-heaping-density",
     "title": "Kernel Heaping: Kernel Density Estimation from Regional Aggregates via Measurement Error Model",
     "authors": "Lorena Gril, Laura Steinkemper, Marcus Gross, Ulrich Rendtel",
-    "year": 2025,
+    "year": 2024,
     "citations": 0,
     "dataset": "Official R Journal supplement for correcting kernel-density estimates when geocoordinates are observed through regional aggregates",
     "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-026/RJ-2024-026.zip",
@@ -84867,7 +84864,6 @@
       "needs-review"
     ],
     "topics": [
-      "robust statistics",
       "resampling methods"
     ],
     "bestFor": "Comparing univariate goodness-of-fit and distribution-free two-sample procedures across simulated cases.",
