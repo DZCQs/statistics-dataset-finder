@@ -55483,8 +55483,8 @@
       "needs-label-review"
     ],
     "topics": [
-      "robust statistics",
-      "resampling methods"
+      "resampling methods",
+      "robust statistics"
     ],
     "bestFor": "Robust regression and fast robust bootstrap inference for direct and indirect effects in mediation models under outliers and nonnormality.",
     "note": "Verified from the official JSS paper and package documentation. The BSG2014 data are loaded directly from robmed and contain the paper's three-wave team-level case study."
@@ -84354,7 +84354,6 @@
       "needs-review"
     ],
     "topics": [
-      "robust statistics",
       "resampling methods"
     ],
     "bestFor": "Comparing distribution-free rank tests for paired and two-sample outcomes with clustered observations.",

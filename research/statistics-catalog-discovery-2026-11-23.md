@@ -10,9 +10,18 @@
 
 ## Accepted set
 
-Forty-seven records passed required-field, official-label, exact URL, normalized-title, DOI/repository-identifier, and fuzzy-title checks. All are marked `auto-discovered` and `needs-review`; 21 narrow records also carry `needs-label-review` rather than weak labels. The final reachability audit returned 2xx/3xx for 83 of 94 paper/resource URLs. Ten Taylor & Francis paper DOIs and one ICPSR DOI returned HTTP 403 after resolving to their correct landing pages; their linked Figshare/ICPSR artifacts had already been verified from first-party metadata.
+Fifty-five records received full artifact-level inspection. Forty-seven had clear paper-connected resources, passed required-field, official-label, exact URL, normalized-title, DOI/repository-identifier, and fuzzy-title checks, and were added to the catalog. Eight older JSS candidates were rejected because they lacked a separately verifiable data, package, supplement, or replication artifact. The run stopped at 47 rather than padding the batch to 50 with those weaker records.
+
+All additions are marked `auto-discovered` and `needs-review`; 21 narrow records also carry `needs-label-review` rather than weak labels. The final reachability audit returned 2xx/3xx for 83 of 94 paper/resource URLs. Ten Taylor & Francis paper DOIs and one ICPSR DOI returned HTTP 403 after resolving to their correct landing pages; their linked Figshare/ICPSR artifacts had already been verified from first-party metadata.
 
 Source mix: 23 R Journal/CRAN records, 10 JSS records, 10 Taylor & Francis Figshare records, 3 JOSS/Zenodo software archives, and 1 ICPSR replication package.
+
+## Validation and whole-system health
+
+- `node scripts/relabel-catalog.mjs` added seven supported parent labels to the new records and one evidence-supported `robust statistics` assignment to the older `robmed` record; a final rerun was idempotent. `node scripts/assess-labels.mjs` then reported 2,292 papers, all 82 registry labels active, and no underused labels, hierarchy issues, candidate labels, unknown labels, wrong label counts, or weak assignments.
+- JSON parsing, Node syntax checks, required-field checks, official-label checks, exact and fuzzy duplicate checks, direct-parent checks, review-marker checks, `git diff --check`, and the 94-link reachability audit all ran successfully for the new batch.
+- The new records have no missing direct parents and create no duplicate IDs, normalized titles, paper URLs, or resource URLs.
+- Pre-existing catalog debt remains: four duplicate normalized-title groups, 14 zero-topic records, and 313 older records missing 323 direct parent relationships. The `survival models` and `survival analysis` labels remain nearly redundant, with Jaccard overlap 0.97. None of these concerns was introduced by this batch.
 
 | Paper | Year | Paper page | Data or replication resource | Official labels before parent expansion |
 |---|---:|---|---|---|
@@ -39,7 +48,7 @@ Source mix: 23 R Journal/CRAN records, 10 JSS records, 10 Taylor & Francis Figsh
 | Wilcoxon Rank-Based Tests for Clustered Data with R Package clusrank | 2020 | [paper](https://www.jstatsoft.org/article/view/v096i06) | [resource](https://www.jstatsoft.org/article/download/v096i06/4058) | robust statistics, resampling methods |
 | kdecopula: An R Package for the Kernel Estimation of Bivariate Copula Densities | 2018 | [paper](https://www.jstatsoft.org/article/view/v084i07) | [resource](https://www.jstatsoft.org/article/download/v084i07/3639) | density estimation, resampling methods |
 | GFD: An R Package for the Analysis of General Factorial Designs | 2017 | [paper](https://www.jstatsoft.org/article/view/v079c01) | [resource](https://www.jstatsoft.org/article/download/v079c01/3498) | factorial experimental design, robust statistics, resampling methods |
-| npregfast: An R Package for Nonparametric Estimation and Inference in Life Sciences | 2017 | [paper](https://www.jstatsoft.org/article/view/v082i12) | [resource](https://www.jstatsoft.org/article/download/v082i12/3596) | robust statistics, resampling methods |
+| npregfast: An R Package for Nonparametric Estimation and Inference in Life Sciences | 2017 | [paper](https://www.jstatsoft.org/article/view/v082i12) | [resource](https://www.jstatsoft.org/article/download/v082i12/3596) | resampling methods |
 | QoLR: An R Package for the Longitudinal Analysis of Health-Related Quality of Life in Oncology | 2017 | [paper](https://www.jstatsoft.org/article/view/v077i12) | [resource](https://www.jstatsoft.org/article/download/v077i12/3441) | longitudinal data analysis, survival analysis, survival models |
 | A SAS Macro for Covariate-Constrained Randomization of General Cluster-Randomized and Unstratified Designs | 2017 | [paper](https://www.jstatsoft.org/article/view/v077c01) | [resource](https://www.jstatsoft.org/article/download/v077c01/3425) | randomized experiments, optimal experimental design |
 | Mixture Experiments in R Using mixexp | 2016 | [paper](https://www.jstatsoft.org/article/view/v072c02) | [resource](https://www.jstatsoft.org/article/download/v072c02/3294) | factorial experimental design, optimal experimental design |
@@ -53,7 +62,7 @@ Source mix: 23 R Journal/CRAN records, 10 JSS records, 10 Taylor & Francis Figsh
 | latrend: A Framework for Clustering Longitudinal Data | 2025 | [paper](https://journal.r-project.org/articles/RJ-2025-006/) | [resource](https://cran.r-project.org/package=latrend) | longitudinal data analysis, clustering, mixture models |
 | lqmix: An R Package for Longitudinal Data Analysis via Linear Quantile Mixtures | 2025 | [paper](https://journal.r-project.org/articles/RJ-2025-029/) | [resource](https://journal.r-project.org/articles/RJ-2025-029/RJ-2025-029.zip) | longitudinal data analysis, quantile regression, mixture models, resampling methods |
 | lsirm12pl: An R Package for the Latent Space Item Response Model | 2025 | [paper](https://journal.r-project.org/articles/RJ-2025-021/) | [resource](https://cran.r-project.org/package=lsirm12pl) | item response theory, latent variable models, clustering |
-| Rgof and R2sample: Testing and Benchmarking for the Univariate Goodness-of-Fit and Two-Sample Problems | 2025 | [paper](https://journal.r-project.org/articles/RJ-2025-027/) | [resource](https://journal.r-project.org/articles/RJ-2025-027/RJ-2025-027.zip) | robust statistics, resampling methods |
+| Rgof and R2sample: Testing and Benchmarking for the Univariate Goodness-of-Fit and Two-Sample Problems | 2025 | [paper](https://journal.r-project.org/articles/RJ-2025-027/) | [resource](https://journal.r-project.org/articles/RJ-2025-027/RJ-2025-027.zip) | resampling methods |
 | rankFD: An R Software Package for Nonparametric Analysis of General Factorial Designs | 2023 | [paper](https://journal.r-project.org/articles/RJ-2023-029/) | [resource](https://journal.r-project.org/articles/RJ-2023-029/RJ-2023-029.zip) | factorial experimental design, robust statistics, resampling methods |
 | Robust Functional Linear Regression Models | 2023 | [paper](https://journal.r-project.org/articles/RJ-2023-033/) | [resource](https://journal.r-project.org/articles/RJ-2023-033/RJ-2023-033.zip) | robust statistics, functional data analysis, dimension reduction |
 | brolgar: An R Package to Browse Over Longitudinal Data Graphically and Analytically in R | 2022 | [paper](https://journal.r-project.org/articles/RJ-2022-023/) | [resource](https://cran.r-project.org/package=brolgar) | longitudinal data analysis, panel data methods, multilevel modeling |
