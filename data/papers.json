@@ -83711,5 +83711,1447 @@
     ],
     "bestFor": "Evaluating early-warning procedures for multiple dependent event streams with changing behavior.",
     "note": "Verified from the paper-linked Taylor & Francis Figshare record, which directly provides a Code_and_Data.zip archive and supplementary document."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "rjournal-drip-image-analysis-2026",
+    "title": "DRIP: An R Package for Jump Regression and Image Analysis",
+    "authors": "Yicheng Kang",
+    "year": 2026,
+    "dataset": "DRIP package source with SAR, traffic-sign, peppers, child, brain, and synthetic-circle image datasets used in the paper",
+    "datasetUrl": "https://cran.r-project.org/package=DRIP",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2026-052/",
+    "formats": [
+      "R package data",
+      "image datasets",
+      "reproducible examples"
+    ],
+    "properties": [
+      "package-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "spatial statistics",
+      "robust statistics"
+    ],
+    "bestFor": "Studying discontinuity-preserving jump regression and image segmentation on real and synthetic images.",
+    "note": "Verified from the official R Journal package paper and the public CRAN source, which documents and distributes the example image data."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "rjournal-ldmppr-marked-point-processes-2026",
+    "title": "ldmppr: Location Dependent Marked Point Processes in R",
+    "authors": "Lane Drew, Andee Kaplan",
+    "year": 2026,
+    "dataset": "Official R Journal supplement with the forestry point-pattern and raster resources used in the location-dependent marked point-process examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2026-047/RJ-2026-047.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2026-047/",
+    "formats": [
+      "ZIP supplement",
+      "point-pattern data",
+      "raster data",
+      "R code"
+    ],
+    "properties": [
+      "supplementary-data",
+      "spatial-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Fitting and diagnosing spatial marked point processes whose mark behavior varies by location.",
+    "note": "Verified from the official R Journal article directory, which directly hosts the public article supplement."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "rjournal-mstest-markov-switching-2026",
+    "title": "MSTest: An R Package for Testing Markov Switching Models",
+    "authors": "Gabriel Rodriguez-Rondon, Jean-Marie Dufour",
+    "year": 2026,
+    "dataset": "Official R Journal supplement with scripts and resources reproducing the paper's Markov-switching tests, tables, and figures",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2026-044/RJ-2026-044.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2026-044/",
+    "formats": [
+      "ZIP supplement",
+      "R code",
+      "reproducible tables and figures"
+    ],
+    "properties": [
+      "supplementary-data",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Reproducing tests for regime changes in Markov-switching time-series models.",
+    "note": "Verified from the official R Journal article page and its directly downloadable reproduction archive."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "rjournal-sugarglider-glyph-maps-2026",
+    "title": "sugarglider: Create Glyph-Maps of Spatiotemporal Data",
+    "authors": "Maliny Po, S. Nathan Yang, H. Sherry Zhang, Dianne Cook",
+    "year": 2026,
+    "dataset": "Official R Journal supplement for the Victorian train-patronage and flight delay and cancellation case studies",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2026-050/RJ-2026-050.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2026-050/",
+    "formats": [
+      "ZIP supplement",
+      "spatio-temporal data",
+      "R code"
+    ],
+    "properties": [
+      "supplementary-data",
+      "spatial-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis"
+    ],
+    "bestFor": "Exploring repeated measurements across locations with glyph-map visualizations.",
+    "note": "Verified from the official R Journal article page and its public supplementary archive."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "rjournal-rpaex-experimental-units-2026",
+    "title": "rPAex: R Package for the Automatic Detection of Experimental Units in Precision Agriculture",
+    "authors": "Felipe de Mendiburu, Augusto Choy, Rodrigo Morales, Roberto Quiroz, David Mauricio",
+    "year": 2026,
+    "dataset": "rPAex package source with documented cropTime and cassava spectral-image datasets for detecting agricultural experimental units",
+    "datasetUrl": "https://cran.r-project.org/package=rPAex",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2026-021/",
+    "formats": [
+      "R package data",
+      "spectral images",
+      "reproducible examples"
+    ],
+    "properties": [
+      "package-data",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "optimal experimental design",
+      "factorial experimental design",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "Recovering plot-level experimental units from agricultural field imagery before design-based analysis.",
+    "note": "Verified from the official R Journal package paper and the public CRAN source containing both documented datasets."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "rjournal-profileladder-functional-reserving-2026",
+    "title": "ProfileLadder: Functional-Based Reserving",
+    "authors": "Matus Maciak, Ivan Mizera, Michal Pesta, Rastislav Matus",
+    "year": 2026,
+    "dataset": "ProfileLadder package source, vignette, and vignette code for functional analysis of insurance run-off triangles",
+    "datasetUrl": "https://cran.r-project.org/package=ProfileLadder",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2026-028/",
+    "formats": [
+      "R package",
+      "vignette data",
+      "R code"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "time series analysis",
+      "time series forecasting",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating functional-data reserving methods on insurance development triangles.",
+    "note": "Verified from the official package paper and CRAN page, which exposes the source, vignette, and runnable vignette code."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "rjournal-covests-autocovariance-2026",
+    "title": "CovEsts: Nonparametric Autocovariance Estimation and Analysis",
+    "authors": "Adam Bilchouris, Andriy Olenko",
+    "year": 2026,
+    "dataset": "Official R Journal supplement for the paper's yearly sunspot-count and US unemployment-increment analyses",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2026-031/RJ-2026-031.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2026-031/",
+    "formats": [
+      "ZIP supplement",
+      "time-series data",
+      "R code"
+    ],
+    "properties": [
+      "supplementary-data",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis"
+    ],
+    "bestFor": "Comparing nonparametric autocovariance estimators on economic and solar time series.",
+    "note": "Verified from the official R Journal article page and its public reproduction archive."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "rjournal-generalrss-ranked-set-sampling-2026",
+    "title": "generalRSS: Sampling and Inference for Balanced and Unbalanced Ranked Set Sampling",
+    "authors": "Chul Moon, Soohyun Ahn",
+    "year": 2026,
+    "dataset": "Official R Journal supplement supporting the paper's balanced and unbalanced ranked-set-sampling examples, including its NHANES analysis",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2026-017/RJ-2026-017.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2026-017/",
+    "formats": [
+      "ZIP supplement",
+      "survey data",
+      "R code"
+    ],
+    "properties": [
+      "supplementary-data",
+      "survey-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design"
+    ],
+    "bestFor": "Comparing estimators under balanced and unbalanced ranked set sampling designs.",
+    "note": "Verified from the official R Journal article directory, which directly provides the paper supplement."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "rjournal-accsamplingdesign-2026",
+    "title": "AccSamplingDesign: An R Package for Optimizing Acceptance Sampling Plans",
+    "authors": "Ha Truong, Victor Miranda, Roger Kissling",
+    "year": 2026,
+    "dataset": "Official R Journal supplement with reproducible acceptance-sampling design and optimization examples",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2026-007/RJ-2026-007.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2026-007/",
+    "formats": [
+      "ZIP supplement",
+      "R code",
+      "design outputs"
+    ],
+    "properties": [
+      "supplementary-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "optimal experimental design",
+      "power analysis"
+    ],
+    "bestFor": "Optimizing and comparing acceptance sampling plans under operating-characteristic constraints.",
+    "note": "Verified from the official R Journal article directory and its directly downloadable supplement."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "technometrics-multifidelity-extremes-2026",
+    "title": "Parametric Multi-Fidelity Monte Carlo Estimation With Applications to Extremes",
+    "authors": "Minji Kim, Brendan Brown, Vladas Pipiras",
+    "year": 2026,
+    "dataset": "Taylor & Francis Figshare archive with the paper's reproducible R code for multi-fidelity Monte Carlo estimation of extreme quantities",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Parametric_Multi-Fidelity_Monte_Carlo_Estimation_With_Applications_to_Extremes/32348344",
+    "paperUrl": "https://doi.org/10.1080/00401706.2026.2653569",
+    "formats": [
+      "ZIP supplement",
+      "R code",
+      "simulation outputs"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis"
+    ],
+    "bestFor": "Reproducing multi-fidelity Monte Carlo estimators for rare and extreme outcomes.",
+    "note": "Verified through the official paper-linked Taylor & Francis Figshare record, which exposes the reproducible R-code archive."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "technometrics-neural-adaptive-monitoring-2026",
+    "title": "A Neural Network-Based Adaptive Sampling in Monitoring High-Dimensional Processes",
+    "authors": "Ziqian Zheng, Kaibo Liu",
+    "year": 2026,
+    "dataset": "Taylor & Francis Figshare supplement with the code used for adaptive sampling and high-dimensional process-monitoring experiments",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/A_Neural_Network-based_Adaptive_Sampling_in_Monitoring_High-dimensional_Processes/31813941",
+    "paperUrl": "https://doi.org/10.1080/00401706.2026.2644479",
+    "formats": [
+      "ZIP code archive",
+      "simulation outputs",
+      "supplementary document"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "high-dimensional statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating adaptive observation policies for monitoring high-dimensional industrial processes.",
+    "note": "Verified through the official Taylor & Francis Figshare record and its explicit journal-DOI relation."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "technometrics-grouped-multinomial-monitoring-2026",
+    "title": "Is Grouping Always Detrimental to Monitoring Multinomial Data?",
+    "authors": "Jun Li, Yajun Mei",
+    "year": 2026,
+    "dataset": "Taylor & Francis Figshare files with multinomial monitoring data, analysis code, README, and in-control and out-of-control run-length results",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Is_Grouping_Always_Detrimental_to_Monitoring_Multinomial_Data_/31444964",
+    "paperUrl": "https://doi.org/10.1080/00401706.2026.2635355",
+    "formats": [
+      "TXT data",
+      "analysis code",
+      "result files",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "time series analysis"
+    ],
+    "bestFor": "Studying how category grouping affects sequential monitoring of multinomial streams.",
+    "note": "Verified from the paper-linked Taylor & Francis Figshare record, which directly lists the data and run-length files."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "technometrics-nonstationary-change-points-2026",
+    "title": "Multiple Change Point Detection in Time Series with Nonstationary Dynamics",
+    "authors": "Yuhan Tian, Abolfazl Safikhani",
+    "year": 2026,
+    "dataset": "Taylor & Francis Figshare Code.zip archive for the paper's multiple-change-point experiments under nonstationary dynamics",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Multiple_Change_Point_Detection_in_Time_Series_with_Non-stationary_Dynamics/31306005",
+    "paperUrl": "https://doi.org/10.1080/00401706.2026.2625472",
+    "formats": [
+      "ZIP code archive",
+      "simulation outputs",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Comparing multiple-change-point procedures when the surrounding dynamics are nonstationary.",
+    "note": "Verified through the official paper-linked Taylor & Francis Figshare record."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "jcgs-dtrace-precision-change-points-2026",
+    "title": "Change Point Detection in Precision Matrices with D-Trace Loss",
+    "authors": "Ying Lin, Benjamin Poignard, Ting Kei Pong, Akiko Takeda",
+    "year": 2026,
+    "dataset": "Taylor & Francis Figshare GFDtL archive with code and outputs for detecting structural breaks in precision matrices",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Change_Point_Detection_in_Precision_Matrices_with_D-trace_Loss/32617563",
+    "paperUrl": "https://doi.org/10.1080/10618600.2026.2685828",
+    "formats": [
+      "ZIP code archive",
+      "simulation outputs",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "graphical models",
+      "high-dimensional statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Evaluating change-point estimators for evolving high-dimensional precision matrices.",
+    "note": "Verified through the official paper-linked Taylor & Francis Figshare record and its downloadable GFDtL archive."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "jbes-mixed-integer-change-points-2025",
+    "title": "Change-Point Detection in Time Series Using Mixed Integer Programming",
+    "authors": "Artem Prokhorov, Peter Radchenko, Alexander Semenov, Anton Skrobotov",
+    "year": 2025,
+    "dataset": "Taylor & Francis Figshare supplement with notebooks, Python code, CSV and XLSX application data, and the paper's supplementary document",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Change-Point_Detection_in_Time_Series_Using_Mixed_Integer_Programming_/30621374",
+    "paperUrl": "https://doi.org/10.1080/07350015.2025.2583203",
+    "formats": [
+      "Jupyter notebooks",
+      "Python code",
+      "CSV data",
+      "XLSX data"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "time-series-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "change point detection",
+      "time series analysis"
+    ],
+    "bestFor": "Reproducing mixed-integer formulations for time-series change-point detection on empirical examples.",
+    "note": "Verified from the paper-linked Taylor & Francis Figshare record, which directly lists the notebooks and application datasets."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "jcgs-functional-merge-trees-2026",
+    "title": "Functional Data Representation with Merge Trees",
+    "authors": "Matteo Pegoraro, Piercesare Secchi",
+    "year": 2026,
+    "dataset": "Taylor & Francis Figshare supplement with code and resources for representing functional observations through merge trees",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Functional_Data_Representation_with_Merge_Trees/31975163",
+    "paperUrl": "https://doi.org/10.1080/10618600.2026.2654769",
+    "formats": [
+      "ZIP supplement",
+      "analysis code",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "dimension reduction",
+      "clustering",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing topological representations and downstream analyses of functional observations.",
+    "note": "Verified through the official paper-linked Taylor & Francis Figshare record and its downloadable analysis archive."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "jcgs-functional-graphical-models-2026",
+    "title": "Gaussian Graphical Models for Partially Observed Multivariate Functional Data",
+    "authors": "Marco Borriero, Luigi Augugliaro, Gianluca Sottile, Veronica Vinciotti",
+    "year": 2026,
+    "dataset": "Taylor & Francis Figshare supplement with code and resources for graphical modeling of partially observed multivariate functional data",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Gaussian_Graphical_Models_for_Partially_Observed_Multivariate_Functional_Data/34858650",
+    "paperUrl": "https://doi.org/10.1080/10618600.2026.2756975",
+    "formats": [
+      "ZIP supplement",
+      "analysis code",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "functional data analysis",
+      "graphical models",
+      "high-dimensional statistics",
+      "missing data"
+    ],
+    "bestFor": "Estimating conditional-dependence structure from incomplete multivariate functional trajectories.",
+    "note": "Verified through the official paper-linked Taylor & Francis Figshare record and its downloadable main archive."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "american-statistician-freedman-paradox-2026",
+    "title": "Freedman's Paradox at Forty: A Practitioner's Guide to Variable Selection Failures and Safeguards",
+    "authors": "Diogo Figueirinhas, Yulia Vakulenko",
+    "year": 2026,
+    "dataset": "Taylor & Francis Figshare supplement with README, session information, R code, and the paper's online empirical and simulation materials",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Freedman_s_Paradox_at_Forty_A_Practitioner_s_Guide_to_Variable_Selection_Failures_and_Safeguards/34169960",
+    "paperUrl": "https://doi.org/10.1080/00031305.2026.2742880",
+    "formats": [
+      "R code",
+      "online supplement",
+      "README",
+      "session information"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Demonstrating spurious significance after data-driven variable selection and comparing practical safeguards.",
+    "note": "Verified from the paper-linked Taylor & Francis Figshare record, which directly exposes the R code and full supplement."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "icpsr-counterfactual-game-models-2026",
+    "title": "A Decomposition Approach to Counterfactual Analysis in Game-Theoretic Models",
+    "authors": "Nathan Canen, Kyungchul Song",
+    "year": 2026,
+    "dataset": "ICPSR replication package with Monte Carlo resources and empirical-application files for the paper's game-theoretic counterfactual analyses",
+    "datasetUrl": "https://doi.org/10.3886/ICPSR320037.v1",
+    "paperUrl": "https://arxiv.org/abs/2010.08868",
+    "formats": [
+      "ICPSR replication package",
+      "Monte Carlo outputs",
+      "empirical application files",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "icpsr",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference"
+    ],
+    "bestFor": "Reproducing decomposition-based counterfactual analyses in strategic game models.",
+    "note": "Verified from the registered ICPSR dataset record and DOI, whose description maps separate folders to the Monte Carlo and empirical sections."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "technometrics-nonparametric-spatial-monitoring-2025",
+    "title": "Nonparametric Monitoring of Spatial Dependence",
+    "authors": "Philipp Adämmer, Philipp Wittenberg, Christian H. Weiß, Murat Caner Testik",
+    "year": 2025,
+    "dataset": "Taylor & Francis Figshare replication archive with Julia code, rainfall and Ukraine fire data, textile and image examples, simulation outputs, and a README",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Nonparametric_Monitoring_of_Spatial_Dependence/30347519",
+    "paperUrl": "https://doi.org/10.1080/00401706.2025.2573232",
+    "formats": [
+      "CSV data",
+      "Julia code",
+      "JLD2 data",
+      "simulation outputs",
+      "README"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "spatial statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Evaluating distribution-free control charts for changes in spatial dependence on regular lattices.",
+    "note": "Verified from the paper-linked Taylor & Francis Figshare API record, which lists the empirical data, code, simulation results, and paper DOI."
+  },
+  {
+    "access": "open",
+    "id": "jss-clusrank-clustered-tests",
+    "title": "Wilcoxon Rank-Based Tests for Clustered Data with R Package clusrank",
+    "authors": "Yujing Jiang, Mei-Ling Ting Lee, Xin He, Bernard Rosner, Jun Yan",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "JSS replication and simulation code with clustered rank-test examples, simulated samples, and an ophthalmological study dataset",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v096i06/4058",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v096i06",
+    "formats": [
+      "R replication code",
+      "simulation code",
+      "clustered study data"
+    ],
+    "properties": [
+      "replication-data",
+      "clustered-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing distribution-free rank tests for paired and two-sample outcomes with clustered observations.",
+    "note": "Verified from the official JSS page, which directly labels the accessible files as R replication and simulation code and documents the real ophthalmological example."
+  },
+  {
+    "access": "open",
+    "id": "jss-kdecopula-density",
+    "title": "kdecopula: An R Package for the Kernel Estimation of Bivariate Copula Densities",
+    "authors": "Thomas Nagler",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "JSS replication materials for nonparametric bivariate copula-density estimation, dependence exploration, and resampling",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v084i07/3639",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v084i07",
+    "formats": [
+      "R replication code",
+      "package examples",
+      "resampling workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation",
+      "resampling methods"
+    ],
+    "bestFor": "Evaluating kernel estimators of bivariate copula densities and resampling from fitted dependence structures.",
+    "note": "Verified from the official JSS page, which exposes two accessible R replication-code downloads for the paper."
+  },
+  {
+    "access": "open",
+    "id": "jss-gfd-factorial-designs",
+    "title": "GFD: An R Package for the Analysis of General Factorial Designs",
+    "authors": "Sarah Friedrich, Frank Konietschke, Markus Pauly",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "JSS replication code for Wald-, ANOVA-, and studentized-permutation inference in crossed and nested factorial designs",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v079c01/3498",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v079c01",
+    "formats": [
+      "R replication code",
+      "factorial-design examples",
+      "permutation procedures"
+    ],
+    "properties": [
+      "replication-data",
+      "experimental-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "factorial experimental design",
+      "robust statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing robust and permutation-based tests for main and interaction effects in general factorial designs.",
+    "note": "Verified from the official JSS article and its directly linked R replication-code artifact."
+  },
+  {
+    "access": "open",
+    "id": "jss-npregfast-nonparametric",
+    "title": "npregfast: An R Package for Nonparametric Estimation and Inference in Life Sciences",
+    "authors": "Marta Sestelo, Nora M. Villanueva, Luis Meira-Machado, Javier Roca-Pardinas",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "JSS replication code for nonparametric regression curves, factor-by-curve comparisons, and critical-point inference",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v082i12/3596",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v082i12",
+    "formats": [
+      "R replication code",
+      "nonparametric regression examples",
+      "inference workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Studying nonparametric regression-curve differences, extrema, and inflection-point inference.",
+    "note": "Verified from the official JSS page and its accessible R replication-code download."
+  },
+  {
+    "access": "open",
+    "id": "jss-qolr-longitudinal",
+    "title": "QoLR: An R Package for the Longitudinal Analysis of Health-Related Quality of Life in Oncology",
+    "authors": "Amelie Anota, Marion Savina, Caroline Bascoul-Mollevi, Franck Bonnetain",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "JSS supplementary CSV data and R code for repeated quality-of-life scores and time-to-deterioration analyses",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v077i12/3441",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v077i12",
+    "formats": [
+      "CSV data",
+      "R replication code",
+      "longitudinal questionnaire scores"
+    ],
+    "properties": [
+      "supplementary-data",
+      "longitudinal-data",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "survival analysis",
+      "survival models"
+    ],
+    "bestFor": "Analyzing repeated questionnaire outcomes together with time to clinically meaningful score deterioration.",
+    "note": "Verified from the official JSS page, which directly provides supplementary CSV data and R replication code."
+  },
+  {
+    "access": "open",
+    "id": "jss-covariate-constrained-randomization",
+    "title": "A SAS Macro for Covariate-Constrained Randomization of General Cluster-Randomized and Unstratified Designs",
+    "authors": "Erich J. Greene",
+    "year": 2017,
+    "citations": 0,
+    "dataset": "JSS SAS replication code and output for balancing cluster allocations under covariate-constrained randomization",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v077c01/3425",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v077c01",
+    "formats": [
+      "SAS replication code",
+      "replication output",
+      "cluster-allocation examples"
+    ],
+    "properties": [
+      "replication-data",
+      "cluster-randomized-trial",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "optimal experimental design",
+      "causal inference"
+    ],
+    "bestFor": "Constructing balanced treatment allocations for cluster-randomized and unstratified experiments.",
+    "note": "Verified from the official JSS page, which exposes the SAS replication code and corresponding output as separate downloads."
+  },
+  {
+    "access": "open",
+    "id": "jss-mixexp-mixture-designs",
+    "title": "Mixture Experiments in R Using mixexp",
+    "authors": "John Lawson, Cameron Willden",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "JSS replication code for constructing and analyzing constrained mixture experiments with extreme vertices and edge and face centroids",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v072c02/3294",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v072c02",
+    "formats": [
+      "R replication code",
+      "mixture-design examples",
+      "graphical analysis workflows"
+    ],
+    "properties": [
+      "replication-data",
+      "experimental-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "factorial experimental design",
+      "optimal experimental design"
+    ],
+    "bestFor": "Building constrained mixture experiments and visualizing fitted response surfaces.",
+    "note": "Verified from the official JSS article and its directly linked R replication-code artifact."
+  },
+  {
+    "access": "open",
+    "id": "jss-rartool-adaptive-trials",
+    "title": "RARtool: A MATLAB Software Package for Designing Response-Adaptive Randomized Clinical Trials with Time-to-Event Outcomes",
+    "authors": "Yevgen Ryeznik, Oleksandr Sverdlov, Weng Kee Wong",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "JSS MATLAB replication code and simulated survival-trial examples for response-adaptive randomization",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v066i01/3059",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v066i01",
+    "formats": [
+      "MATLAB replication code",
+      "simulated trial data",
+      "time-to-event examples"
+    ],
+    "properties": [
+      "replication-data",
+      "simulation-data",
+      "adaptive-randomization",
+      "time-to-event-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "optimal experimental design",
+      "survival analysis",
+      "survival models",
+      "causal inference"
+    ],
+    "bestFor": "Comparing response-adaptive allocation rules in randomized trials with censored time-to-event outcomes.",
+    "note": "Verified from the official JSS page, which labels the download as MATLAB replication code for the paper's examples."
+  },
+  {
+    "access": "open",
+    "id": "jss-intake-measurement-error",
+    "title": "Intake_epis_food(): An R Function for Fitting a Bivariate Nonlinear Measurement Error Model to Estimate Usual and Energy Intake for Episodically Consumed Foods",
+    "authors": "Adriana Perez, Saijuan Zhang, Victor Kipnis, Laurence S. Freedman, Raymond J. Carroll",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "JSS replication code and instructions for a three-level Bayesian measurement-error analysis of food-frequency and repeated 24-hour recall data",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v046c03/2408",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v046c03",
+    "formats": [
+      "R and WinBUGS code",
+      "replication instructions",
+      "repeated dietary measurements"
+    ],
+    "properties": [
+      "replication-data",
+      "multilevel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "multilevel modeling",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Estimating usual intake distributions from error-prone food-frequency reports and repeated dietary recalls.",
+    "note": "Verified from the official JSS page, which labels the accessible artifact as replication code and instructions."
+  },
+  {
+    "access": "open",
+    "id": "jss-runmlwin-multilevel",
+    "title": "runmlwin: A Program to Run the MLwiN Multilevel Modeling Software from within Stata",
+    "authors": "George Leckie, Chris Charlton",
+    "year": 2012,
+    "citations": 0,
+    "dataset": "JSS Stata example datasets and workflows for continuous, binary, ordinal, nominal, and mixed-response multilevel models",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v052i11/2605",
+    "paperUrl": "https://www.jstatsoft.org/article/view/v052i11",
+    "formats": [
+      "Stata binary data",
+      "multilevel-model examples",
+      "maximum-likelihood and MCMC workflows"
+    ],
+    "properties": [
+      "supplementary-data",
+      "multilevel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "multilevel modeling",
+      "bayesian inference",
+      "bayesian hierarchical models"
+    ],
+    "bestFor": "Comparing maximum-likelihood and Bayesian estimation across several multilevel response types.",
+    "note": "Verified from the official JSS page, which directly labels two downloads as example data in Stata binary format."
+  },
+  {
+    "access": "open",
+    "id": "rj-csurvey-order-constraints",
+    "title": "csurvey: Implementing Order Constraints in Survey Data Analysis",
+    "authors": "Xiyue Liao, Mary C. Meyer",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official csurvey data repository and package examples for order-constrained design-based survey domain estimation",
+    "datasetUrl": "https://github.com/xliaosdsu/csurvey-data",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2025-032/",
+    "formats": [
+      "GitHub data repository",
+      "R package examples",
+      "survey domain data"
+    ],
+    "properties": [
+      "repository-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "small area estimation"
+    ],
+    "bestFor": "Estimating ordered survey-domain means when some sampled domains are small or empty.",
+    "note": "Verified from the official R Journal article, which directly links the named data repository and CRAN package."
+  },
+  {
+    "access": "open",
+    "id": "rj-lhd-optimal-designs",
+    "title": "LHD: An All-Encompassing R Package for Constructing Optimal Latin Hypercube Designs",
+    "authors": "Hongzhi Wang, Qian Xiao, Abhyuday Mandal",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Official R Journal supplementary archive with construction examples for maximin, maximum-projection, and orthogonal Latin hypercube designs",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2025-033/RJ-2025-033.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2025-033/",
+    "formats": [
+      "ZIP supplementary archive",
+      "R code",
+      "computer-experiment designs"
+    ],
+    "properties": [
+      "replication-materials",
+      "computer-experiments",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Constructing and comparing optimal Latin hypercube designs under several geometric criteria.",
+    "note": "Verified from the official R Journal article directory and its accessible supplementary ZIP."
+  },
+  {
+    "access": "open",
+    "id": "rj-onewaytests-robust-tests",
+    "title": "onewaytests 3: One-Way Tests Independent Groups Designs - R Package and Its Web-Based Tool",
+    "authors": "Merve Kasikci, Osman Dag, H. Erkin Sulekli, Malwane M. A. Ananda, Samaradasa Weerahandi",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "onewaytests package examples, including public group-comparison data, for classical, robust, and nonparametric one-way procedures",
+    "datasetUrl": "https://cran.r-project.org/package=onewaytests",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2026-014/",
+    "formats": [
+      "R package data",
+      "worked examples",
+      "analysis code"
+    ],
+    "properties": [
+      "package-data",
+      "worked-examples",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics"
+    ],
+    "bestFor": "Comparing one-way independent-group tests under nonnormality and unequal variances.",
+    "note": "Verified from the official R Journal article and its directly linked CRAN package and public example data."
+  },
+  {
+    "access": "open",
+    "id": "rj-kernel-heaping-density",
+    "title": "Kernel Heaping: Kernel Density Estimation from Regional Aggregates via Measurement Error Model",
+    "authors": "Lorena Gril, Laura Steinkemper, Marcus Gross, Ulrich Rendtel",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official R Journal supplement for correcting kernel-density estimates when geocoordinates are observed through regional aggregates",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2024-026/RJ-2024-026.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2024-026/",
+    "formats": [
+      "ZIP supplementary archive",
+      "R code",
+      "georeferenced aggregate examples"
+    ],
+    "properties": [
+      "replication-materials",
+      "spatial-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation",
+      "measurement error models",
+      "spatial statistics"
+    ],
+    "bestFor": "Evaluating density-estimation corrections for location data aggregated to administrative regions.",
+    "note": "Verified from the official R Journal article and its accessible supplementary ZIP."
+  },
+  {
+    "access": "open",
+    "id": "rj-latrend-longitudinal-clustering",
+    "title": "latrend: A Framework for Clustering Longitudinal Data",
+    "authors": "Niek Den Teuling, Steffen Pauws, Edwin van den Heuvel",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "latrend package longitudinal trajectories, worked examples, and unified interfaces for comparing trajectory-clustering methods",
+    "datasetUrl": "https://cran.r-project.org/package=latrend",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2025-006/",
+    "formats": [
+      "R package data",
+      "longitudinal trajectories",
+      "reproducible code"
+    ],
+    "properties": [
+      "package-data",
+      "longitudinal-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "clustering",
+      "mixture models"
+    ],
+    "bestFor": "Comparing implementations and specifications of longitudinal trajectory-clustering methods.",
+    "note": "Verified from the official R Journal article and its directly linked CRAN package and source repository."
+  },
+  {
+    "access": "open",
+    "id": "rj-lqmix-longitudinal-quantile",
+    "title": "lqmix: An R Package for Longitudinal Data Analysis via Linear Quantile Mixtures",
+    "authors": "Marco Alfo, Maria Francesca Marino, Maria Giovanna Ranalli, Nicola Salvati",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official R Journal supplement with a benchmark longitudinal dataset and code for linear quantile-mixture estimation and block-bootstrap inference",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2025-029/RJ-2025-029.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2025-029/",
+    "formats": [
+      "ZIP supplementary archive",
+      "benchmark longitudinal data",
+      "R code"
+    ],
+    "properties": [
+      "replication-materials",
+      "longitudinal-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "quantile regression",
+      "mixture models",
+      "resampling methods"
+    ],
+    "bestFor": "Estimating longitudinal conditional quantiles with unit-specific random coefficients and mixture distributions.",
+    "note": "Verified from the official R Journal article and its directly accessible supplementary ZIP."
+  },
+  {
+    "access": "open",
+    "id": "rj-lsirm12pl-item-response",
+    "title": "lsirm12pl: An R Package for the Latent Space Item Response Model",
+    "authors": "Dongyoung Go, Gwanghee Kim, Jina Park, Junyong Park, Minjeong Jeon, Ick Hoon Jin",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "lsirm12pl package item-response datasets and examples for latent respondent-item interaction maps",
+    "datasetUrl": "https://cran.r-project.org/package=lsirm12pl",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2025-021/",
+    "formats": [
+      "R package data",
+      "item-response examples",
+      "Bayesian estimation code"
+    ],
+    "properties": [
+      "package-data",
+      "item-response-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "item response theory",
+      "latent variable models",
+      "clustering"
+    ],
+    "bestFor": "Estimating and interpreting latent respondent-item interaction structure in item-response data.",
+    "note": "Verified from the official R Journal article, which links the CRAN package and states that the real-data examples are included in it."
+  },
+  {
+    "access": "open",
+    "id": "rj-rgof-r2sample-tests",
+    "title": "Rgof and R2sample: Testing and Benchmarking for the Univariate Goodness-of-Fit and Two-Sample Problems",
+    "authors": "Wolfgang Rolke",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Official R Journal supplement with goodness-of-fit and two-sample test implementations, simulation cases, and power-comparison routines",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2025-027/RJ-2025-027.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2025-027/",
+    "formats": [
+      "ZIP supplementary archive",
+      "simulation data",
+      "R code"
+    ],
+    "properties": [
+      "replication-materials",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Comparing univariate goodness-of-fit and distribution-free two-sample procedures across simulated cases.",
+    "note": "Verified from the official R Journal article and its accessible supplementary ZIP."
+  },
+  {
+    "access": "open",
+    "id": "rj-rankfd-factorial",
+    "title": "rankFD: An R Software Package for Nonparametric Analysis of General Factorial Designs",
+    "authors": "Frank Konietschke, Edgar Brunner",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Official R Journal supplement and package examples for rank-based inference on main and interaction effects in factorial designs",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2023-029/RJ-2023-029.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2023-029/",
+    "formats": [
+      "ZIP supplementary archive",
+      "R package examples",
+      "rank-based analysis code"
+    ],
+    "properties": [
+      "replication-materials",
+      "experimental-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "factorial experimental design",
+      "robust statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Analyzing factorial main and interaction effects without parametric distribution assumptions.",
+    "note": "Verified from the official R Journal article, its supplementary ZIP, and the linked rankFD package."
+  },
+  {
+    "access": "open",
+    "id": "rj-robflreg-functional-regression",
+    "title": "Robust Functional Linear Regression Models",
+    "authors": "Ufuk Beyaztas, Han Lin Shang",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Official R Journal supplement with simulated and empirical functional datasets for robust scalar-on-function and function-on-function regression",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2023-033/RJ-2023-033.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2023-033/",
+    "formats": [
+      "ZIP supplementary archive",
+      "functional data",
+      "R code"
+    ],
+    "properties": [
+      "replication-materials",
+      "functional-data",
+      "simulated-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "robust statistics",
+      "functional data analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Evaluating functional regression estimators when trajectories contain influential or outlying observations.",
+    "note": "Verified from the official R Journal article and its accessible supplement containing simulated and empirical analyses."
+  },
+  {
+    "access": "open",
+    "id": "rj-brolgar-longitudinal",
+    "title": "brolgar: An R Package to Browse Over Longitudinal Data Graphically and Analytically in R",
+    "authors": "Nicholas Tierney, Dianne Cook, Tania Prvan",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "brolgar package longitudinal examples and tools for identifying unusual individual trajectories and diagnosing hierarchical summaries",
+    "datasetUrl": "https://cran.r-project.org/package=brolgar",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2022-023/",
+    "formats": [
+      "R package data",
+      "longitudinal trajectories",
+      "visual diagnostics"
+    ],
+    "properties": [
+      "package-data",
+      "longitudinal-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods",
+      "multilevel modeling"
+    ],
+    "bestFor": "Exploring individual trajectory heterogeneity before fitting longitudinal or multilevel models.",
+    "note": "Verified from the official R Journal article and its directly linked CRAN package."
+  },
+  {
+    "access": "open",
+    "id": "rj-bayessenmc-misclassification",
+    "title": "BayesSenMC: An R Package for Bayesian Sensitivity Analysis of Misclassification",
+    "authors": "Jinhui Yang, Lifeng Lin, Haitao Chu",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "BayesSenMC package real case-control example and code for differential and nondifferential exposure-misclassification sensitivity analysis",
+    "datasetUrl": "https://cran.r-project.org/package=BayesSenMC",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2021-097/",
+    "formats": [
+      "R package data",
+      "case-control example",
+      "Bayesian analysis code"
+    ],
+    "properties": [
+      "package-data",
+      "worked-examples",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "measurement error models",
+      "bayesian inference"
+    ],
+    "bestFor": "Quantifying how exposure misclassification changes posterior odds-ratio inference in case-control studies.",
+    "note": "Verified from the official R Journal article and its directly linked CRAN package and real-data example."
+  },
+  {
+    "access": "open",
+    "id": "rj-mudfold-nonparametric-irt",
+    "title": "mudfold: An R Package for Nonparametric IRT Modelling of Unfolding Processes",
+    "authors": "Spyros E. Balafas, Wim P. Krijnen, Wendy J. Post, Ernst C. Wit",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "mudfold package questionnaire examples and simulation tools for nonparametric item-response unfolding models",
+    "datasetUrl": "https://cran.r-project.org/package=mudfold",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2020-002/",
+    "formats": [
+      "R package data",
+      "item-response examples",
+      "simulation code"
+    ],
+    "properties": [
+      "package-data",
+      "item-response-data",
+      "simulation-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "item response theory",
+      "latent variable models"
+    ],
+    "bestFor": "Estimating person and item orderings from preferential-choice questionnaire data without parametric item-response curves.",
+    "note": "Verified from the official R Journal article and its directly linked CRAN package."
+  },
+  {
+    "access": "open",
+    "id": "rj-cvcrand-cluster-trials",
+    "title": "cvcrand: A Package for Covariate-Constrained Randomization and the Clustered Permutation Test for Cluster Randomized Trials",
+    "authors": "Hengshi Yu, Fan Li, John A. Gallis, Elizabeth L. Turner",
+    "year": 2019,
+    "citations": 0,
+    "dataset": "Official R Journal supplement with a real cluster-randomized trial, covariate-constrained allocation code, and clustered permutation tests",
+    "datasetUrl": "https://journal.r-project.org/articles/RJ-2019-027/RJ-2019-027.zip",
+    "paperUrl": "https://journal.r-project.org/articles/RJ-2019-027/",
+    "formats": [
+      "ZIP supplementary archive",
+      "cluster-randomized trial data",
+      "R code"
+    ],
+    "properties": [
+      "replication-materials",
+      "cluster-randomized-trial",
+      "randomized-experiment",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "randomized experiments",
+      "optimal experimental design",
+      "resampling methods",
+      "causal inference"
+    ],
+    "bestFor": "Designing balanced cluster-randomized trials and analyzing them with allocation-compatible permutation tests.",
+    "note": "Verified from the official R Journal article, which links the supplementary ZIP and documents the real trial example."
+  },
+  {
+    "access": "open",
+    "id": "joss-fedirt",
+    "title": "FedIRT: An R Package and Shiny App for Estimating Federated Item Response Theory Models",
+    "authors": "Biying Zhou, Yuhao Yuan, Nanyu Luo, Jia Qi, Feng Ji",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Versioned FedIRT software archive and repository examples for federated estimation of item-response models",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.16691211",
+    "paperUrl": "https://joss.theoj.org/papers/10.21105/joss.07869",
+    "formats": [
+      "versioned software archive",
+      "R package examples",
+      "reproducible code"
+    ],
+    "properties": [
+      "repository-data",
+      "software-archive",
+      "item-response-data",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "item response theory",
+      "latent variable models"
+    ],
+    "bestFor": "Testing federated item-response estimation workflows when response data cannot be centrally pooled.",
+    "note": "Verified from the official JOSS page, which directly links the software repository and versioned Zenodo archive."
+  },
+  {
+    "access": "open",
+    "id": "joss-measr",
+    "title": "measr: Bayesian Psychometric Measurement Using Stan",
+    "authors": "W. Jake Thompson",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Versioned measr software archive and repository examples for Bayesian psychometric measurement models implemented in Stan",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.10058365",
+    "paperUrl": "https://joss.theoj.org/papers/10.21105/joss.05742",
+    "formats": [
+      "versioned software archive",
+      "R package examples",
+      "Stan models"
+    ],
+    "properties": [
+      "repository-data",
+      "software-archive",
+      "item-response-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "item response theory",
+      "latent variable models",
+      "bayesian inference",
+      "probabilistic programming"
+    ],
+    "bestFor": "Fitting Bayesian psychometric measurement models and inspecting their Stan-based workflows.",
+    "note": "Verified from the official JOSS page, which directly links the measr repository and versioned Zenodo archive."
+  },
+  {
+    "access": "open",
+    "id": "joss-samplics",
+    "title": "samplics: A Python Package for Selecting, Weighting and Analyzing Data from Complex Sampling Designs",
+    "authors": "Mamadou Diallo",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Versioned samplics software archive and repository examples for sample selection, survey weighting, and complex-design analysis",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.5750761",
+    "paperUrl": "https://joss.theoj.org/papers/10.21105/joss.03376",
+    "formats": [
+      "versioned software archive",
+      "Python examples",
+      "survey-design workflows"
+    ],
+    "properties": [
+      "repository-data",
+      "software-archive",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "survey weighting"
+    ],
+    "bestFor": "Reproducing sample-selection, weighting, and estimation workflows for complex surveys in Python.",
+    "note": "Verified from the official JOSS page, which directly links the samplics repository and versioned Zenodo archive."
   }
 ]
