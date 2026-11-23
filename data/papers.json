@@ -85148,5 +85148,194 @@
     ],
     "bestFor": "Reproducing sample-selection, weighting, and estimation workflows for complex surveys in Python.",
     "note": "Verified from the official JOSS page, which directly links the samplics repository and versioned Zenodo archive."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "jasa-bayesian-multivariate-density-deconvolution",
+    "title": "Bayesian Semiparametric Multivariate Density Deconvolution",
+    "authors": "Abhra Sarkar, Debdeep Pati, Antik Chakraborty, Bani K. Mallick, Raymond J. Carroll",
+    "year": 2018,
+    "dataset": "Taylor & Francis Figshare software archive with R implementations, four initialization datasets, and a documented simulated multivariate measurement-error dataset",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Bayesian_Semiparametric_Multivariate_Density_Deconvolution/5596492",
+    "paperUrl": "https://doi.org/10.1080/01621459.2016.1260467",
+    "formats": [
+      "ZIP software archive",
+      "R code",
+      "RData simulation data",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation",
+      "measurement error models",
+      "bayesian inference",
+      "bayesian nonparametric methods"
+    ],
+    "bestFor": "Evaluating Bayesian semiparametric multivariate density deconvolution when replicated proxies have unknown measurement-error distributions.",
+    "note": "Verified through the official paper-linked Figshare record and direct inspection of Software.zip, which contains the simulated dataset and reproducible R programs."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "jcgs-bayesian-heteroscedastic-density-deconvolution",
+    "title": "Bayesian Semiparametric Density Deconvolution in the Presence of Conditionally Heteroscedastic Measurement Errors",
+    "authors": "Abhra Sarkar, Bani K. Mallick, John Staudenmayer, Debdeep Pati, Raymond J. Carroll",
+    "year": 2014,
+    "dataset": "Taylor & Francis Figshare supplement with two R programs, README, and a CSV dataset modeled after the EATS folate measurements",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Bayesian_Semiparametric_Density_Deconvolution_in_the_Presence_of_Conditionally_Heteroscedastic_Measurement_Errors/976116",
+    "paperUrl": "https://doi.org/10.1080/10618600.2014.899237",
+    "formats": [
+      "CSV data",
+      "R code",
+      "README",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "density estimation",
+      "measurement error models",
+      "bayesian inference",
+      "bayesian nonparametric methods"
+    ],
+    "bestFor": "Studying density deconvolution when replicate measurement errors vary with the latent quantity.",
+    "note": "Verified from the official Figshare file inventory and Crossref metadata; the record directly exposes the paper's CSV example data and R implementation."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "jcgs-bayesian-semiparametric-multivariate-responses",
+    "title": "Bayesian Semiparametric Analysis of Multivariate Continuous Responses, With Variable Selection",
+    "authors": "Georgios Papageorgiou, Benjamin C. Marshall",
+    "year": 2020,
+    "dataset": "Taylor & Francis Figshare archive with AMI and student-marks application scripts, simulation code, the BNSP package source, and the supplementary analysis document",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Bayesian_Semiparametric_Analysis_of_Multivariate_Continuous_Responses_With_Variable_Selection/11973537",
+    "paperUrl": "https://doi.org/10.1080/10618600.2020.1739534",
+    "formats": [
+      "ZIP replication archive",
+      "R application scripts",
+      "simulation code",
+      "R package source"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "bayesian nonparametric methods",
+      "variable selection",
+      "mixture models",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing flexible multivariate response regressions with smooth mean, variance, and dependence functions plus Bayesian variable selection.",
+    "note": "Verified through the official Figshare record and archive listing, which contains both named application scripts and simulation resources."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "jcgs-bivas-bilevel-variable-selection",
+    "title": "BIVAS: A Scalable Bayesian Method for Bi-Level Variable Selection With Applications",
+    "authors": "Mingxuan Cai, Mingwei Dai, Jingsi Ming, Heng Peng, Jin Liu, Can Yang",
+    "year": 2020,
+    "dataset": "Taylor & Francis Figshare supplement with R implementations for BIVAS, competing MCMC and EM methods, weak-signal, fixed-effect, multitask, and bi-level experiments",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/BIVAS_A_Scalable_Bayesian_Method_for_Bi-Level_Variable_Selection_With_Applications/8243270",
+    "paperUrl": "https://doi.org/10.1080/10618600.2019.1624365",
+    "formats": [
+      "ZIP replication code",
+      "R scripts",
+      "supplementary PDF"
+    ],
+    "properties": [
+      "replication-data",
+      "figshare",
+      "simulation-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "variational inference",
+      "variable selection",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Benchmarking scalable variational bi-level variable selection against MCMC and EM alternatives.",
+    "note": "Verified through the official paper-linked Figshare record and direct inspection of the code archive."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "nclimate-meta-environmental-migration",
+    "title": "A Meta-Analysis of Country-Level Studies on Environmental Change and Migration",
+    "authors": "Roman Hoffmann, Anna Dimitrova, Raya Muttarak, Jesus Crespo Cuaresma, Jonas Peisker",
+    "year": 2020,
+    "dataset": "Harvard Dataverse replication archive with study-level meta-analysis data, country-level covariates, combined RData, spreadsheets, and the complete R analysis script",
+    "datasetUrl": "https://doi.org/10.7910/DVN/HYRXVV",
+    "paperUrl": "https://doi.org/10.1038/s41558-020-0898-6",
+    "formats": [
+      "R code",
+      "RData",
+      "XLSX meta-analysis data",
+      "XLSX country data"
+    ],
+    "properties": [
+      "replication-data",
+      "dataverse",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis"
+    ],
+    "bestFor": "Reproducing a country-level meta-analysis with harmonized study estimates and contextual covariates.",
+    "note": "Verified from the released Harvard Dataverse record, which directly lists unrestricted study-level data, country data, combined RData, and analysis code."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "puar-expectancy-disconfirmation-meta-analysis",
+    "title": "The Expectancy-Disconfirmation Model and Citizen Satisfaction with Public Services: A Meta-Analysis and an Agenda for Best Practice",
+    "authors": "Jiasheng Zhang, Wenna Chen, Nicolai Petrovsky, Richard M. Walker",
+    "year": 2021,
+    "dataset": "Harvard Dataverse replication archive with tabular study inputs and R code for every reported meta-analysis result",
+    "datasetUrl": "https://doi.org/10.7910/DVN/RLP0UE",
+    "paperUrl": "https://doi.org/10.1111/puar.13368",
+    "formats": [
+      "tabular meta-analysis data",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "dataverse",
+      "code",
+      "needs-label-review",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "meta-analysis"
+    ],
+    "bestFor": "Reproducing a multistudy public-administration meta-analysis from coded study-level inputs.",
+    "note": "Verified from the official Harvard Dataverse file inventory and matching Crossref paper metadata."
   }
 ]
