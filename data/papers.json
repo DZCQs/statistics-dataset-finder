@@ -85639,8 +85639,7 @@
     "datasetUrl": "https://www.jstatsoft.org/article/download/v063i02/2936",
     "paperUrl": "https://doi.org/10.18637/jss.v063.i02",
     "formats": [
-      "R binary data",
-      "R code from journal page"
+      "RData"
     ],
     "properties": [
       "replication-data",
@@ -85649,11 +85648,10 @@
       "needs-label-review"
     ],
     "topics": [
-      "complex survey design",
       "survey methodology"
     ],
-    "bestFor": "Exploring linked displays of survey summaries and geographic distributions across areal units.",
-    "note": "The journal explicitly labels the downloadable supplement as R binary data, and the retrieved file has a gzip-compressed R serialization header."
+    "bestFor": "Displaying design-based lake survey estimates and confidence intervals alongside their ecoregion maps.",
+    "note": "The downloaded journal supplement is R binary data. The paper documents using spsurvey to estimate population medians and confidence limits for the National Lakes Assessment example."
   },
   {
     "access": "open",
@@ -85787,7 +85785,7 @@
     "datasetUrl": "https://github.com/AngelPone/project_hierarchy",
     "paperUrl": "https://doi.org/10.1016/j.ijforecast.2024.10.002",
     "formats": [
-      "RDS data",
+      "RDS",
       "R code"
     ],
     "properties": [
@@ -85910,7 +85908,7 @@
     "datasetUrl": "https://github.com/vcgarnica/MSE_FindR",
     "paperUrl": "https://doi.org/10.1094/PDIS-11-23-2519-SR",
     "formats": [
-      "CSV example tables",
+      "CSV",
       "R code"
     ],
     "properties": [
@@ -85981,10 +85979,9 @@
       "needs-label-review"
     ],
     "topics": [
-      "factorial experimental design",
-      "multilevel modeling"
+      "factorial experimental design"
     ],
-    "bestFor": "Reanalyzing crossed within-participant task conditions and testing effects on reaction time.",
+    "bestFor": "Reproducing within-subject analyses of reaction time across crossed task conditions.",
     "note": "The paper's accessibility statement links OSF. Downloaded and inspected a trial CSV from each experiment."
   },
   {
