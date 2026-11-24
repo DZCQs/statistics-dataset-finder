@@ -85337,5 +85337,774 @@
     ],
     "bestFor": "Reproducing a multistudy public-administration meta-analysis from coded study-level inputs.",
     "note": "Verified from the official Harvard Dataverse file inventory and matching Crossref paper metadata."
+  },
+  {
+    "access": "open",
+    "id": "jbes-spatial-functional-pca-zhang-li",
+    "title": "Unified Principal Component Analysis for Sparse and Dense Functional Data under Spatial Dependency",
+    "authors": "Haozhe Zhang, Yehua Li",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Journal supplement with neighborhood price-to-rent series, Zillow spatial inputs, and R analysis code",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Unified_Principal_Component_Analysis_for_Sparse_and_Dense_Functional_Data_under_Spatial_Dependency/14743584",
+    "paperUrl": "https://doi.org/10.1080/07350015.2021.1938085",
+    "formats": [
+      "ZIP archive",
+      "CSV",
+      "RDS",
+      "Shapefile",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "time series analysis",
+      "spatio-temporal models",
+      "functional data analysis",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing functional principal component estimators and functional kriging for spatially dependent curves.",
+    "note": "The Figshare record links the paper DOI. The downloaded source archive contains the Zillow price-to-rent CSV, location and analysis RDS objects, and neighborhood shapes."
+  },
+  {
+    "access": "open",
+    "id": "jasa-multiscale-spatiotemporal-monitoring",
+    "title": "Multiscale Spatio-Temporal Data Monitoring Using Forward Elimination and Scale Information Criterion",
+    "authors": "Kai Yang, Peihua Qiu",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Aggregate daily Florida influenza-like illness incidence rates at three geographic resolutions, with reproducibility materials",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Multiscale_Spatio-Temporal_Data_Monitoring_Using_Forward_Elimination_and_Scale_Information_Criterion/34622424",
+    "paperUrl": "https://doi.org/10.1080/01621459.2026.2742473",
+    "formats": [
+      "ZIP archive",
+      "RData",
+      "data dictionary",
+      "R and Fortran code"
+    ],
+    "properties": [
+      "replication-data",
+      "spatio-temporal",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "spatio-temporal models",
+      "spatial statistics",
+      "time series analysis"
+    ],
+    "bestFor": "Testing a sequential control chart that detects anomalous areas across geographic scales.",
+    "note": "The nested Figshare reproducibility archive contains ILI.rda, a data dictionary, and the code for the 2012-2014 case study."
+  },
+  {
+    "access": "open",
+    "id": "spasta-bayesian-geoadditive-disaggregation-rutten",
+    "title": "A Bayesian geoadditive model for spatial disaggregation",
+    "authors": "Sara Rutten, Thomas Neyens, Elisa Duarte, Christel Faes",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Newcastle primary biliary cholangitis incidence and gridded population density, with spatial disaggregation analysis code",
+    "datasetUrl": "https://github.com/Rutten-Sara/SpatialDisaggregation",
+    "paperUrl": "https://doi.org/10.1016/j.spasta.2026.100979",
+    "formats": [
+      "RData",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Reproducing a Bayesian geostatistical analysis that disaggregates areal counts to finer spatial support.",
+    "note": "The paper links the authors' repository; PBCshp.RData and pop_den.RData are public. The separate Belgian mortality case study is available only by request."
+  },
+  {
+    "access": "open",
+    "id": "isprs-spatial-information-explained-song",
+    "title": "Spatial information explained by prediction models under block cross-validation",
+    "authors": "Yongze Song",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Australian gridded C4 grass coverage and climate covariates with spatial block cross-validation examples",
+    "datasetUrl": "https://github.com/yongzesong/SIE",
+    "paperUrl": "https://doi.org/10.1016/j.isprsjprs.2026.09.034",
+    "formats": [
+      "CSV",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Examining how much spatial information predictions capture under blocked and random cross-validation.",
+    "note": "The author repository cites the paper DOI and contains c4-data.csv for 2,480 grid cells, reference results, and R code."
+  },
+  {
+    "access": "open",
+    "id": "gmd-spatialize-ensemble-interpolation",
+    "title": "Spatialize v1.0: a Python/C++ library for ensemble spatial interpolation",
+    "authors": "Felipe Navarro, Alvaro F. Egaña, Alejandro Ehrenfeld, Felipe Garrido, María Jesús Valenzuela, Juan F. Sánchez-Pérez",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Package-bundled sample and location tables for the ensemble spatial interpolation examples",
+    "datasetUrl": "https://github.com/alges/spatialize",
+    "paperUrl": "https://doi.org/10.5194/gmd-19-4633-2026",
+    "formats": [
+      "CSV",
+      "Shapefile",
+      "Python package",
+      "C++ code"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Comparing ensemble spatial interpolation with ordinary kriging and inverse-distance weighting.",
+    "note": "The paper identifies spatialize.resources as the real-data source, and the public project tree includes PP_locations.csv and PP_samples.csv; the paper also links the versioned Zenodo package."
+  },
+  {
+    "access": "open",
+    "id": "pmlr-localized-spatial-conformal-jiang-xie",
+    "title": "Spatial Conformal Inference through Localized Quantile Regression",
+    "authors": "Hanyang Jiang, Yao Xie",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Processed Ookla mobile-network measurements for New Mexico and Georgia, with a spatial conformal prediction workflow",
+    "datasetUrl": "https://github.com/scotthanyang/Spatial-CP",
+    "paperUrl": "https://proceedings.mlr.press/v306/jiang26at.html",
+    "formats": [
+      "CSV",
+      "Python code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "conformal prediction",
+      "quantile regression"
+    ],
+    "bestFor": "Comparing prediction-interval coverage and width across spatial neighborhoods.",
+    "note": "The paper-linked author repository includes weight_NM.csv and weight_GA.csv for the mobile-network experiments. Agriculture and housing experiments are not included."
+  },
+  {
+    "access": "open",
+    "id": "marstruc-ferry-wave-extremes",
+    "title": "Required test durations for converged short-term wave and impact extreme value statistics - Part 1: Ferry dataset",
+    "authors": "Sanne M. van Essen, Jule Scharnke, Harleigh C. Seyffert",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Ferry model-test wave crest and green-water impact data, with MATLAB scripts and readme",
+    "datasetUrl": "https://doi.org/10.4121/8d667cba-7cc1-416d-9ec8-d769ab3a51e6.v1",
+    "paperUrl": "https://doi.org/10.1016/j.marstruc.2023.103410",
+    "formats": [
+      "ZIP archive",
+      "MAT files",
+      "MATLAB code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis"
+    ],
+    "bestFor": "Studying the stability of fitted wave and impact maxima as experiment duration and replication counts vary.",
+    "note": "The open 4TU.ResearchData record directly links the paper DOI and lists a downloadable MATLAB and MAT-file archive."
+  },
+  {
+    "access": "open",
+    "id": "jscs-ims-bearing-sequential-rank-ewma",
+    "title": "A nonparametric exponentially weighted moving average control chart for online monitoring of independence based on sequential rank statistics",
+    "authors": "Meng Cheng, Liu Liu, Yuanqiu Wang",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "University of Cincinnati IMS bearing run-to-failure vibration experiments in the NASA Open Data Portal",
+    "datasetUrl": "https://data.nasa.gov/dataset/ims-bearings",
+    "paperUrl": "https://doi.org/10.1080/00949655.2026.2753576",
+    "formats": [
+      "ZIP archive",
+      "vibration time series"
+    ],
+    "properties": [
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "time series analysis"
+    ],
+    "bestFor": "Testing sequential rank-based dependence monitoring on continuously recorded industrial signals.",
+    "note": "The paper identifies the IMS bearing application. NASA identifies the IMS experiments by name and lists the public IMS.zip archive; the link is to the source measurements, not the authors' processed series."
+  },
+  {
+    "access": "open",
+    "id": "jss-geocount-geostatistical-counts",
+    "title": "geoCount: An R Package for the Analysis of Geostatistical Count Data",
+    "authors": "Liang Jing, Victor De Oliveira",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Journal-hosted geoCount package with Rongelap, weed, and Rhizoctonia geostatistical example data",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v063i11/2956",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i11",
+    "formats": [
+      "R package source",
+      "RData",
+      "R code"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Fitting Bayesian Poisson-lognormal and binomial-logitnormal spatial models to count observations.",
+    "note": "The authors describe bundled examples; the downloaded journal package contains Rongelap.RData, Weed.RData, and Rhizoc.RData."
+  },
+  {
+    "access": "open",
+    "id": "jss-geostatsp-model-based-geostatistics",
+    "title": "Model-Based Geostatistics the Easy Way",
+    "authors": "Patrick E. Brown",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "geostatsp package case-study datasets including Swiss rainfall and georeferenced count and point-pattern examples",
+    "datasetUrl": "https://cran.r-project.org/web/packages/geostatsp/refman/geostatsp.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i12",
+    "formats": [
+      "R package source",
+      "RData",
+      "package documentation"
+    ],
+    "properties": [
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Contrasting Gaussian geostatistical data analysis with INLA-based modeling of non-Gaussian spatial observations.",
+    "note": "The CRAN reference manual cites the paper and documents named data objects. The original journal-hosted package was also downloaded and its data directory inspected."
+  },
+  {
+    "access": "open",
+    "id": "jss-micromap-spatial-survey-examples",
+    "title": "micromap: A Package for Linked Micromaps",
+    "authors": "Quinn C. Payton, Michael G. McManus, Marc H. Weber, Anthony R. Olsen, Thomas M. Kincaid",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "Journal data supplement for linked maps of areal statistical summaries and spatially balanced environmental survey examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/download/v063i02/2936",
+    "paperUrl": "https://doi.org/10.18637/jss.v063.i02",
+    "formats": [
+      "R binary data",
+      "R code from journal page"
+    ],
+    "properties": [
+      "replication-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey methodology"
+    ],
+    "bestFor": "Exploring linked displays of survey summaries and geographic distributions across areal units.",
+    "note": "The journal explicitly labels the downloadable supplement as R binary data, and the retrieved file has a gzip-compressed R serialization header."
+  },
+  {
+    "access": "open",
+    "id": "jcgs-pinnev-us-wildfire-extremes",
+    "title": "Regression Modeling of Spatiotemporal Extreme U.S. Wildfires via Partially Interpretable Neural Networks",
+    "authors": "Jordan Richards, Raphaël Huser",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "pinnEV package USWild data with U.S. wildfire occurrences, burnt area, and spatially and temporally aligned predictors",
+    "datasetUrl": "https://github.com/Jbrich95/pinnEV",
+    "paperUrl": "https://doi.org/10.1080/10618600.2025.2609641",
+    "formats": [
+      "R package source",
+      "RData",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "software",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics",
+      "spatio-temporal models",
+      "time series analysis",
+      "distributional regression"
+    ],
+    "bestFor": "Fitting conditional tail models for wildfire extent and occurrence across space and time.",
+    "note": "The journal data statement links pinnEV and the analysis repository; the package tree contains USWild.rda."
+  },
+  {
+    "access": "open",
+    "id": "technometrics-fno-spatiotemporal-forecasting",
+    "title": "Spatio-temporal modeling and forecasting with Fourier neural operators",
+    "authors": "Pratik Nag, Andrew Zammit-Mangion, Sumeetpal Singh, Noel Cressie",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Sample and test files for North Atlantic sea-surface temperature and central European precipitation forecasts",
+    "datasetUrl": "https://github.com/pratiknag/FNO-DSTM-Code",
+    "paperUrl": "https://doi.org/10.1080/00401706.2026.2736750",
+    "formats": [
+      "NumPy arrays",
+      "CSV",
+      "Python and R code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatio-temporal models",
+      "spatial statistics",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Comparing probabilistic forecasts of evolving spatial fields from recent observations.",
+    "note": "The paper links the author repository; the checked datasets folder contains downloadable temperature and precipitation arrays. These are the supplied example and test files, not a claim that the full source grids are mirrored."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "egyai-fets-energy-forecasting-benchmark",
+    "title": "FETS Benchmark: Foundation Models Enable Scalable and Generalizable Energy Time Series Forecasting",
+    "authors": "Marco Obermeier, Marco Pruckner, Florian Haselbeck, Andreas Zeiselmair",
+    "year": 2026,
+    "dataset": "FETS downloadable subset of energy time series and external covariates, including weather forecast inputs; excludes sources the authors could not redistribute.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.21295408",
+    "paperUrl": "https://doi.org/10.1016/j.egyai.2026.100867",
+    "formats": [
+      "ZIP",
+      "Parquet",
+      "CSV inventory"
+    ],
+    "properties": [
+      "zenodo",
+      "benchmark",
+      "time-series",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "forecasting competitions"
+    ],
+    "bestFor": "Comparing forecasting methods on energy series with heterogeneous sampling and covariates.",
+    "note": "The paper cites the Zenodo concept DOI. The linked version 2 archive preview enumerates the actual Parquet data files; it does not contain all 54 paper datasets."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "ploscb-limits-model-based-experimental-design",
+    "title": "The Limitations of Model-Based Experimental Design and Parameter Estimation in Sloppy Systems",
+    "authors": "Andrew White, Malachi Tolman, Howard D. Thames, Hubert Rodney Withers, Kathy A. Mason, Mark K. Transtrum",
+    "year": 2016,
+    "dataset": "Author supplement with seven response arrays, associated weights, model parameters, and code for model-based experiment examples.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.159220",
+    "paperUrl": "https://doi.org/10.1371/journal.pcbi.1005227",
+    "formats": [
+      "ZIP",
+      "TXT data",
+      "Python code"
+    ],
+    "properties": [
+      "zenodo",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "optimal experimental design"
+    ],
+    "bestFor": "Studying how model discrepancy affects parameter estimation under alternative experiment choices.",
+    "note": "Downloaded author supplement contains browndata/y1.txt through y7.txt and corresponding weight arrays, in addition to code."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "ijforecast-constructing-hierarchies-clustering",
+    "title": "Constructing hierarchical time series through clustering: Is there an optimal way for forecasting?",
+    "authors": "Bohan Zhang, Anastasios Panagiotelis, Han Li",
+    "year": 2025,
+    "dataset": "Australian tourism demand and U.S. cause-of-death mortality time series, with bottom-level series and summing matrices in the author repository.",
+    "datasetUrl": "https://github.com/AngelPone/project_hierarchy",
+    "paperUrl": "https://doi.org/10.1016/j.ijforecast.2024.10.002",
+    "formats": [
+      "RDS data",
+      "R code"
+    ],
+    "properties": [
+      "github",
+      "replication-data",
+      "time-series",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "hierarchical forecasting",
+      "clustering"
+    ],
+    "bestFor": "Assessing how cluster-based hierarchy construction changes reconciled forecasts.",
+    "note": "Downloaded both mortality/data.rds and tourism/data.rds in the paper's author repository."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "technometrics-spc-dynamic-sampling",
+    "title": "Statistical Process Control Using a Dynamic Sampling Scheme",
+    "authors": "Zhonghua Li, Peihua Qiu",
+    "year": 2014,
+    "dataset": "Ordered triglyceride measurements from a chemical production process in the author supplement for an adaptive CUSUM chart.",
+    "datasetUrl": "https://users.phhp.ufl.edu/pqiu/research/DS-SPC-ComputerCodesAndData.zip",
+    "paperUrl": "https://doi.org/10.1080/00401706.2013.844731",
+    "formats": [
+      "ZIP",
+      "DAT numeric series",
+      "Fortran code"
+    ],
+    "properties": [
+      "replication-data",
+      "time-series",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "time series analysis",
+      "resampling methods"
+    ],
+    "bestFor": "Reproducing adaptive CUSUM monitoring and bootstrap-based chart design on process measurements.",
+    "note": "Downloaded archive and inspected the 149 numeric measurements in triglyceride.dat, matching the paper's worked example."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "polanalysis-blocking-sequential-experiments",
+    "title": "Blocking for Sequential Political Experiments",
+    "authors": "Ryan T. Moore, Sally A. Moore",
+    "year": 2013,
+    "dataset": "Harvard Dataverse replication files with trial inputs, covariates, simulation data and R code for sequential covariate blocking.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/SPTL3J",
+    "paperUrl": "https://doi.org/10.1093/pan/mpt007",
+    "formats": [
+      "CSV",
+      "TAB",
+      "TXT",
+      "RData",
+      "R code"
+    ],
+    "properties": [
+      "dataverse",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "randomized experiments",
+      "treatment effect estimation"
+    ],
+    "bestFor": "Comparing continuous-covariate sequential blocking with complete randomization and estimating treatment effects.",
+    "note": "The journal links the replication archive; original CombinedData.csv downloaded from public Dataverse file 2434837."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "pnas-conjoint-choice-strategy-classification",
+    "title": "Classifying strategy use in multiattribute subjective choice: Application to conjoint experiments in political science",
+    "authors": "Nidhi V. Banavar, Kirk Bansak",
+    "year": 2026,
+    "dataset": "Trial-level choice, rating and response-time data from two multiattribute conjoint experiments, with Bayesian analysis code.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/POMLLB",
+    "paperUrl": "https://doi.org/10.1073/pnas.2613113123",
+    "formats": [
+      "ZIP",
+      "CSV",
+      "R code"
+    ],
+    "properties": [
+      "dataverse",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "factorial experimental design"
+    ],
+    "bestFor": "Fitting latent strategy mixtures to responses under experimentally varied conjoint task conditions.",
+    "note": "Downloaded public Dataverse data_code.zip and checked five trial-level response CSVs beneath data_code/data/."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "plantdis-mse-findr-factorial-examples",
+    "title": "MSE FINDR: A Shiny R Application to Estimate Mean Square Error Using Treatment Means and Post Hoc Test Results",
+    "authors": "Vinicius C. Garnica, Denis A. Shah, Paul D. Esker, Peter S. Ojiambo",
+    "year": 2024,
+    "dataset": "Example treatment-summary tables for factorial, split-plot, Latin-square and randomized-block designs for within-study variance recovery.",
+    "datasetUrl": "https://github.com/vcgarnica/MSE_FindR",
+    "paperUrl": "https://doi.org/10.1094/PDIS-11-23-2519-SR",
+    "formats": [
+      "CSV example tables",
+      "R code"
+    ],
+    "properties": [
+      "github",
+      "example-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "factorial experimental design",
+      "meta-analysis"
+    ],
+    "bestFor": "Recovering an unreported within-study mean square error from factorial or split-plot summary statistics.",
+    "note": "The paper's data statement identifies the author repository. Downloaded a split-plot example CSV containing factor levels, block count, yield and Tukey groupings."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "jqt-split-plot-model-averaging",
+    "title": "Efficient analysis of split-plot experimental designs using model averaging",
+    "authors": "Chuen Yen Hong, David Fletcher, Jiaxu Zeng, Christina M. McGraw, Christopher E. Cornwall, Vonda J. Cummings, Neill G. Barr, Emily J. Frost, Peter W. Dillingham",
+    "year": 2023,
+    "dataset": "Juvenile mussel growth and condition data from a split-plot ocean global change experiment, with model-averaged confidence interval code.",
+    "datasetUrl": "https://doi.org/10.7910/DVN/UHMZ7P",
+    "paperUrl": "https://doi.org/10.1080/00224065.2022.2147108",
+    "formats": [
+      "RData",
+      "R code"
+    ],
+    "properties": [
+      "dataverse",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "factorial experimental design",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing whole-plot and subplot inference with model-averaged intervals.",
+    "note": "The paper links the dataset directly. Downloaded unrestricted Mussel.Rdata from Dataverse file 4924888."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "joc-web-based-numerical-cognition-experiments",
+    "title": "Conducting Web-Based Experiments for Numerical Cognition Research",
+    "authors": "Arnold R. Kochari",
+    "year": 2019,
+    "dataset": "Per-participant trial files with reaction times, responses and task conditions from two web experiment replications, plus stimulus and analysis scripts.",
+    "datasetUrl": "https://osf.io/dy8kf/",
+    "paperUrl": "https://doi.org/10.5334/joc.85",
+    "formats": [
+      "CSV",
+      "R Markdown",
+      "experiment scripts"
+    ],
+    "properties": [
+      "osf",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "factorial experimental design",
+      "multilevel modeling"
+    ],
+    "bestFor": "Reanalyzing crossed within-participant task conditions and testing effects on reaction time.",
+    "note": "The paper's accessibility statement links OSF. Downloaded and inspected a trial CSV from each experiment."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "forecasting-nonnegative-reconciliation-operational",
+    "title": "Non-Negative Forecast Reconciliation: Optimal Methods and Operational Solutions",
+    "authors": "Daniele Girolimetto",
+    "year": 2025,
+    "dataset": "Australian tourism demand hierarchy and R replication code for comparisons of cross-temporal forecasting under non-negativity constraints.",
+    "datasetUrl": "https://github.com/danigiro/vn525nn",
+    "paperUrl": "https://doi.org/10.3390/forecast7040064",
+    "formats": [
+      "RData",
+      "R code"
+    ],
+    "properties": [
+      "github",
+      "replication-data",
+      "time-series",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "hierarchical forecasting"
+    ],
+    "bestFor": "Evaluating constrained and heuristic reconciliation on a coherent tourism hierarchy.",
+    "note": "The paper names the author repository and its data; downloaded VN525.RData. Related papers use the same source series but this is the publication-specific replication repository."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "technometrics-transparent-sequential-spc",
+    "title": "Transparent Sequential Learning for Statistical Process Control of Serially Correlated Data",
+    "authors": "Peihua Qiu, Xiulin Xie",
+    "year": 2022,
+    "dataset": "In-control and Phase II semiconductor process observations used in the paper, plus Fortran monitoring code.",
+    "datasetUrl": "https://tandf.figshare.com/articles/dataset/Transparent_Sequential_Learning_for_Statistical_Process_Control_of_Serially_Correlated_Data/14599925",
+    "paperUrl": "https://doi.org/10.1080/00401706.2021.1929493",
+    "formats": [
+      "ZIP",
+      "TXT numeric data",
+      "Fortran code"
+    ],
+    "properties": [
+      "figshare",
+      "replication-data",
+      "time-series",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "time series analysis"
+    ],
+    "bestFor": "Checking online control charts against observed serially dependent manufacturing data.",
+    "note": "Downloaded the publisher's ComputerCodesAndData.zip and checked secom.txt and secom_II.txt against the author README."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "jqt-holm-mixed-type-process-control",
+    "title": "Monitoring and diagnostics of correlated quality variables of different types",
+    "authors": "Wei-Heng Huang, Jing Sun, Arthur B. Yeh",
+    "year": 2023,
+    "dataset": "Taiwan air-quality observations and a monthly analysis table, with R replication code for a Holm multiple-testing Phase II control chart.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.6885370",
+    "paperUrl": "https://doi.org/10.1080/00224065.2022.2109533",
+    "formats": [
+      "ZIP",
+      "CSV",
+      "R code"
+    ],
+    "properties": [
+      "zenodo",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "statistical process control",
+      "multiple testing"
+    ],
+    "bestFor": "Reproducing a multivariate control chart with multiplicity-adjusted fault diagnostics.",
+    "note": "The publisher calls this a code archive, but its downloaded ZIP includes Data/taiwan.csv and Data/taiwan-monthly.csv; the README identifies the latter as the applied example."
+  },
+  {
+    "access": "open",
+    "citations": 0,
+    "id": "cikm-real-e-electricity-forecasting",
+    "title": "Real-E: A Foundation Benchmark for Advancing Robust and Generalizable Electricity Forecasting",
+    "authors": "Chen Shao, Michael Färber, Sebastian Pütz, Benjamin Schäfer, Yue Wang, Tobias Käfer, Zhanbo Huang, Zhenyi Zhu",
+    "year": 2025,
+    "dataset": "European electricity forecasting benchmark with temporally resolved generation, load, market and other grid records assembled from ENTSO-E data.",
+    "datasetUrl": "https://doi.org/10.5281/zenodo.15685930",
+    "paperUrl": "https://doi.org/10.1145/3746252.3761637",
+    "formats": [
+      "ZIP",
+      "CSV"
+    ],
+    "properties": [
+      "zenodo",
+      "benchmark",
+      "time-series",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "forecasting competitions"
+    ],
+    "bestFor": "Evaluating forecast robustness across electricity series with evolving cross-series dependence.",
+    "note": "The published PDF directly links the open Zenodo archive. Verified actual country and bidding-zone CSV filenames in the 3.O20-G.zip server preview."
   }
 ]
