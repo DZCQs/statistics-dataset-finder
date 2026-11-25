@@ -86103,5 +86103,677 @@
     ],
     "bestFor": "Evaluating forecast robustness across electricity series with evolving cross-series dependence.",
     "note": "The published PDF directly links the open Zenodo archive. Verified actual country and bidding-zone CSV filenames in the 3.O20-G.zip server preview."
+  },
+  {
+    "access": "open",
+    "id": "arxiv-tbayesmice-time-series-imputation",
+    "title": "tBayes-MICE: A Bayesian Approach to Multiple Imputation for Time Series Data",
+    "authors": "Amuche Ibenegbu, Pierre Lafaye de Micheaux, Rohitash Chandra",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Hourly UCI air-quality observations with original and masked CSVs, plus prepared PhysioNet examples",
+    "datasetUrl": "https://github.com/sydney-machine-learning/Bayesian-MICE",
+    "paperUrl": "https://arxiv.org/abs/2603.27142",
+    "formats": [
+      "CSV",
+      "Python code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "missing data",
+      "multiple imputation",
+      "time series analysis",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Evaluating lag-aware multiple imputation and the mixing of MCMC samplers for incomplete time series.",
+    "note": "The project cites the preprint and documents both data sources. The public tree contains original, subset, and masked air-quality CSVs; the masked CSV returned data bytes."
+  },
+  {
+    "access": "open",
+    "id": "pvldb-shades-of-null-missing-data",
+    "title": "Still More Shades of Null: An Evaluation Suite for Responsible Missing Value Imputation",
+    "authors": "Falaah Arif Khan, Denys Herasymuk, Nazar Protsiv, Julia Stoyanovich",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Paper-linked source-data configurations and example imputed tables for mixed missingness mechanisms and shifts",
+    "datasetUrl": "https://github.com/FalaahArifKhan/data-cleaning-stability",
+    "paperUrl": "https://doi.org/10.14778/3746405.3746416",
+    "formats": [
+      "CSV",
+      "Python code"
+    ],
+    "properties": [
+      "example-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data",
+      "nonignorable missing data"
+    ],
+    "bestFor": "Comparing imputers when train and test sets have different missingness, including simulated MNAR patterns.",
+    "note": "The paper links the repository. It documents upstream inputs and contains imputed train/test example CSVs; an MNAR test example returned data bytes. These files are examples, not the full benchmark output."
+  },
+  {
+    "access": "open",
+    "id": "arxiv-colvr-waterbird-count-imputation",
+    "title": "Inferring the presence and abundance of rare waterbirds species from scarce data",
+    "authors": "Barbara Bricout, Laura Dami, Pierre Defos du Rau, Sophie Donnet, Thomas Galewski, Stephane Robin",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "colvR waterbird site-by-year count example with zero inflation and missing observations",
+    "datasetUrl": "https://cran.csiro.au/web/packages/colvR/vignettes/getting-started.html",
+    "paperUrl": "https://arxiv.org/abs/2602.10673",
+    "formats": [
+      "RDS",
+      "R package source",
+      "R vignette"
+    ],
+    "properties": [
+      "example-data",
+      "software",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Imputing incomplete count matrices with a low-rank, zero-inflated Poisson log-normal model.",
+    "note": "The CRAN package links the preprint, and its vignette loads sel_waterbird.rds from the package extdata directory. The public package file returned data bytes."
+  },
+  {
+    "access": "open",
+    "id": "environmetrics-evmissing-block-maxima",
+    "title": "Accounting for Missing Data When Modelling Block Maxima",
+    "authors": "Emma S. Simpson, Paul J. Northrop",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "evmissing examples for annual ozone and storm-surge maxima and seasonal precipitation and snow maxima, with underlying missingness information",
+    "datasetUrl": "https://paulnorthrop.github.io/evmissing/",
+    "paperUrl": "https://doi.org/10.1002/env.70075",
+    "formats": [
+      "RData",
+      "CSV",
+      "R package source"
+    ],
+    "properties": [
+      "example-data",
+      "software",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "extreme value analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Estimating extreme return levels when observations are missing within the blocks used to compute maxima.",
+    "note": "CRAN identifies evmissing as the companion package. The public source contains documented Bloomsbury and Plymouth ozone, Brest surge, and La Plagne data objects. A Bloomsbury maxima file returned RData bytes."
+  },
+  {
+    "access": "open",
+    "id": "brm-hinne-sequential-monte-carlo",
+    "title": "An introduction to Sequential Monte Carlo for Bayesian inference and model comparison—with examples for psychology and behavioral science",
+    "authors": "Max Hinne",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Iowa Gambling Task choice, win, and loss files and posterior outputs for the sequential Monte Carlo examples",
+    "datasetUrl": "https://github.com/UncertaintyInComplexSystems/Introduction-to-SMC",
+    "paperUrl": "https://doi.org/10.3758/s13428-025-02642-1",
+    "formats": [
+      "CSV",
+      "RData",
+      "NumPy arrays",
+      "Python code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "bayesian hierarchical models",
+      "multilevel modeling"
+    ],
+    "bestFor": "Comparing tempered sequential Monte Carlo with MCMC and checking convergence in hierarchical behavioral models.",
+    "note": "The paper links the author repository and identifies the published task data. The public tree contains choice.csv, wi.csv, and lo.csv; the choice data returned numeric bytes."
+  },
+  {
+    "access": "open",
+    "id": "jcgs-drrglm-matrix-variate-regression",
+    "title": "Doubly Regularized Matrix-Variate Regression",
+    "authors": "Zengchao Xu, Shan Luo, Binyan Jiang",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "drrglm EEG example for matrix-variate regression with low-rank and sparse coefficient components",
+    "datasetUrl": "https://cran.r-project.org/package=drrglm",
+    "paperUrl": "https://doi.org/10.1080/10618600.2026.2702534",
+    "formats": [
+      "RData",
+      "R package source"
+    ],
+    "properties": [
+      "example-data",
+      "software",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Estimating a matrix of regression coefficients with separate low-rank and sparse components.",
+    "note": "The paper links the CRAN package. Its manual documents EEG, which is bundled as EEG.rda and returned binary data bytes from the public package source."
+  },
+  {
+    "access": "open",
+    "id": "statcomp-kim-gaussian-copula-missingness",
+    "title": "Bayesian bootstrap based gaussian copula model for mixed data with high missing rates",
+    "authors": "Seongmin Kim, Jeunghun Oh, Hungkuk Ko, Jeongmin Park, Jaeyong Lee",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Public UCI Red Wine Quality table with the original predictor measurements used in the imputation experiments",
+    "datasetUrl": "https://doi.org/10.24432/C56S3T",
+    "paperUrl": "https://doi.org/10.1007/s11222-026-11025-1",
+    "formats": [
+      "CSV"
+    ],
+    "properties": [
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "bayesian inference",
+      "resampling methods"
+    ],
+    "bestFor": "Testing Gaussian copula imputation with Bayesian bootstrap marginals under several missingness rates.",
+    "note": "The paper and open preprint identify the exact red-wine table and also use UCI Breast Cancer Wisconsin (Diagnostic). Both source archives returned ZIP bytes. The semiconductor data are not public."
+  },
+  {
+    "access": "open",
+    "id": "plos-asif-layered-stacking-imputation",
+    "title": "A layered stacking ensemble approach for missing data imputation",
+    "authors": "Muhammad Asif, Klairung Samart",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Public UCI real-time Portuguese 2019 election returns used for the paper's imputation example",
+    "datasetUrl": "https://doi.org/10.24432/C5NS5M",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0359843",
+    "formats": [
+      "CSV"
+    ],
+    "properties": [
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "missing data"
+    ],
+    "bestFor": "Comparing single-imputation methods after introducing missingness in an observed tabular dataset.",
+    "note": "The journal data statement links the Portugal returns and Wine Quality source datasets; both UCI downloads returned ZIP bytes. The separately linked Figshare deposit provides code."
+  },
+  {
+    "access": "open",
+    "id": "statcomp-coullon-stochastic-gradient-mcmc",
+    "title": "Efficient and generalizable tuning strategies for stochastic gradient MCMC",
+    "authors": "Jeremie Coullon, Leah South, Christopher Nemeth",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "MovieLens 100K ratings and held-out splits for the paper's probabilistic matrix-factorization example",
+    "datasetUrl": "https://files.grouplens.org/datasets/movielens/ml-100k.zip",
+    "paperUrl": "https://doi.org/10.1007/s11222-023-10233-3",
+    "formats": [
+      "ZIP archive",
+      "tabular data"
+    ],
+    "properties": [
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mcmc diagnostics",
+      "stochastic-gradient MCMC"
+    ],
+    "bestFor": "Evaluating batch-size and step-size tuning for stochastic-gradient posterior sampling on a ratings matrix.",
+    "note": "The paper identifies MovieLens 100K and its five predefined splits in Appendix B. The official GroupLens archive returned ZIP bytes; the paper separately links tuning code."
+  },
+  {
+    "access": "open",
+    "id": "statcomp-newman-collapsed-gibbs-mixtures",
+    "title": "Fast sampling and model selection for Bayesian mixture models",
+    "authors": "M. E. J. Newman",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Author-hosted mixture-model examples, including candy counts, responses from an opinion poll, and state-level attributes",
+    "datasetUrl": "https://websites.umich.edu/~mejn/mixture/",
+    "paperUrl": "https://doi.org/10.1007/s11222-025-10753-0",
+    "formats": [
+      "tabular data",
+      "C code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "mixture models",
+      "clustering",
+      "mcmc diagnostics"
+    ],
+    "bestFor": "Comparing collapsed Gibbs samplers and estimating component membership in Bayesian mixture models.",
+    "note": "The paper links the author data page. Its candies.txt and states.txt files returned numeric data bytes, and the page also links the other examples and sampler code."
+  },
+  {
+    "access": "open",
+    "id": "jssam-bayes-raking-known-margins",
+    "title": "Bayes-Raking: Bayesian Finite Population Inference with Known Margins",
+    "authors": "Yajuan Si, Peigen Zhou",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "ACS-like simulation input and R/Stan replication materials for Bayesian calibration to known survey margins",
+    "datasetUrl": "https://github.com/BaconZhou/Bayesian-Raking",
+    "paperUrl": "https://doi.org/10.1093/jssam/smaa008",
+    "formats": [
+      "RDS",
+      "R code",
+      "Stan code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "bayesian inference",
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "probabilistic programming"
+    ],
+    "bestFor": "Comparing Bayesian and classical raking when population margins are available and some sample cells are sparse.",
+    "note": "The author repository identifies the paper and the ACS-like acs_simu.rds simulation input, which returned binary data bytes. It does not include the separate real-data analysis file."
+  },
+  {
+    "access": "open",
+    "id": "biometrics-zhou-weighted-two-step-imputation",
+    "title": "A Two-Step Semiparametric Method to Accommodate Sampling Weights in Multiple Imputation",
+    "authors": "Hanzhi Zhou, Michael R. Elliott, Trivellore E. Raghunathan",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "2009 BRFSS public-use survey file and design documentation for the Michigan item-nonresponse example",
+    "datasetUrl": "https://www.cdc.gov/brfss/annual_data/annual_2009.htm",
+    "paperUrl": "https://doi.org/10.1111/biom.12413",
+    "formats": [
+      "SAS transport",
+      "fixed-width text",
+      "ZIP archive"
+    ],
+    "properties": [
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "missing data",
+      "multiple imputation",
+      "survey methodology",
+      "complex survey design",
+      "survey weighting",
+      "nonresponse adjustment"
+    ],
+    "bestFor": "Comparing weighted multiple imputation approaches for survey estimates and regression parameters.",
+    "note": "The paper identifies the 2009 Michigan BRFSS subset. CDC lists the public national source file and its design documentation, and the SAS transport archive returned ZIP bytes."
+  },
+  {
+    "access": "open-link",
+    "id": "aejapp-global-air-connectivity-trade-iv",
+    "title": "All Roads Lead to Rome: Global Air Connectivity and Bilateral Trade",
+    "authors": "Zheng Wang, Feicheng Wang, Zhuo Zhou",
+    "year": 2026,
+    "paperUrl": "https://doi.org/10.1257/app.20240370",
+    "datasetUrl": "https://doi.org/10.3886/E237432V1",
+    "citations": 0,
+    "dataset": "Bilateral trade inputs, visa and product-classification tables, and a documented third-country transit instrument for air connectivity.",
+    "formats": [
+      "XLSX",
+      "DTA",
+      "Stata code"
+    ],
+    "properties": [
+      "icpsr",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "instrumental variables"
+    ],
+    "bestFor": "Studying bilateral-trade identification with variation in third-country transit links.",
+    "note": "AEA links the ICPSR deposit. Its raw inventory has visa and trade-classification files and a CEPII BACI directory; the OAG itinerary folder shows no files, so the full flight inputs are not verified as public."
+  },
+  {
+    "access": "open-link",
+    "id": "aejapp-cote-divoire-workfare-experiment",
+    "title": "Do Workfare Programs Live Up to Their Promises? Experimental Evidence from Côte d'Ivoire",
+    "authors": "Marianne Bertrand, Bruno Crépon, Alicia Marguerie, Patrick Premand",
+    "year": 2026,
+    "paperUrl": "https://doi.org/10.1257/app.20240586",
+    "datasetUrl": "https://microdata.worldbank.org/catalog/6775",
+    "citations": 0,
+    "dataset": "Anonymized baseline, midline and endline observations on Côte d'Ivoire's randomized youth public-works program, including employment, earnings and savings.",
+    "formats": [
+      "DTA"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "heterogeneous treatment effects"
+    ],
+    "bestFor": "Estimating contemporaneous and post-program impacts and comparing targeting strategies.",
+    "note": "The paper links a World Bank replication DOI. The World Bank Microdata Library separately identifies and provides terms-governed access to this study’s baseline (6774), midline (6775) and endline (6776) data."
+  },
+  {
+    "access": "open-link",
+    "id": "aejapp-mozambique-preschool-rct",
+    "title": "From Access to Achievement: The Primary School-Age Impacts of an At-Scale Preschool Construction Program in Highly Deprived Communities",
+    "authors": "Marina Bassi, Bruno Besbas, Lelys Dinarte-Diaz, Saravana Ravindran, Ana Reynoso",
+    "year": 2026,
+    "paperUrl": "https://doi.org/10.1257/app.20240364",
+    "datasetUrl": "https://reproducibility.worldbank.org/catalog/153",
+    "citations": 0,
+    "dataset": "Mozambique preschool construction trial with household and child outcomes from the baseline and primary-school-age follow-up.",
+    "formats": [
+      "DTA",
+      "Stata code"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments",
+      "heterogeneous treatment effects"
+    ],
+    "bestFor": "Estimating effects of preschool construction and checking subgroup effects on school progression and development.",
+    "note": "AEA links OpenICPSR E221003V1; the World Bank reproduction page maps actual Stata inputs to Microdata Library records 3418 and 4021. Obtain the survey inputs from the library under its terms."
+  },
+  {
+    "access": "open",
+    "id": "aejapp-globalization-effective-tax-rate-panel",
+    "title": "Globalization, Capital Taxation, and Development: Evidence from a Macrohistorical Database",
+    "authors": "Pierre Bachas, Matthew Fisher-Post, Anders Jensen, Gabriel Zucman",
+    "year": 2026,
+    "paperUrl": "https://doi.org/10.1257/app.20240746",
+    "datasetUrl": "https://github.com/pierrebachas/Globalization_Factor_Taxation",
+    "citations": 0,
+    "dataset": "Country-year panel of effective tax rates on labor, capital and corporate profits, with dataset construction and empirical analysis files.",
+    "formats": [
+      "CSV",
+      "DTA",
+      "Stata code"
+    ],
+    "properties": [
+      "github",
+      "replication-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Analyzing long-run cross-country changes in capital and labor taxation.",
+    "note": "AEA links E235001V1; the lead author separately links the data site and its public repository. The repository lists globalETR_bfjz.csv and globalETR_bfjz.dta; its README distinguishes the downloadable harmonized panel from the archival inputs."
+  },
+  {
+    "access": "open",
+    "id": "aejpol-polluted-ipos-reviewer-data",
+    "title": "Polluted IPOs",
+    "authors": "Meng Miao, Wei Wang, Zhengyu Zuo",
+    "year": 2026,
+    "paperUrl": "https://doi.org/10.1257/pol.20240900",
+    "datasetUrl": "https://doi.org/10.3886/E237301V1",
+    "citations": 0,
+    "dataset": "Chinese IPO review outcomes, reviewer-level observations, PM2.5 measures and subsequent performance data.",
+    "formats": [
+      "DTA",
+      "Stata code"
+    ],
+    "properties": [
+      "icpsr",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs"
+    ],
+    "bestFor": "Studying effects of review-day air pollution on IPO approval and reviewers’ decisions.",
+    "note": "AEA links the replication package. The project inventory lists myIPO.dta, myIPO_reviewer.dta and separate pollution and performance data files."
+  },
+  {
+    "access": "open",
+    "id": "aejpol-trade-protection-supply-chains-iv",
+    "title": "Trade Protection along Supply Chains",
+    "authors": "Chad P. Bown, Paola Conconi, Aksel Erbahar, Lorenzo Trimarchi",
+    "year": 2026,
+    "paperUrl": "https://doi.org/10.1257/pol.20240893",
+    "datasetUrl": "https://doi.org/10.3886/E238764V1",
+    "citations": 0,
+    "dataset": "Trade barriers, election inputs, concordances and economic series supporting a swing-state instrument for upstream and downstream trade exposure.",
+    "formats": [
+      "CSV",
+      "XLS",
+      "XLSX",
+      "DTA",
+      "Stata code"
+    ],
+    "properties": [
+      "icpsr",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "instrumental variables"
+    ],
+    "bestFor": "Studying the effects of trade barriers along supply chains with a political instrument.",
+    "note": "AEA links the data and code package; its data folder lists 1976-2020-senate.csv, CSGD-WTO.xls, CookPolitical.xlsx and Stata data files."
+  },
+  {
+    "access": "open",
+    "id": "aejpol-retail-crime-store-price-panel",
+    "title": "The Pass-Through of Retail Crime",
+    "authors": "Carl Hase, Johannes Kasinger",
+    "year": 2026,
+    "paperUrl": "https://doi.org/10.1257/pol.20240889",
+    "datasetUrl": "https://doi.org/10.3886/E237021V1",
+    "citations": 0,
+    "dataset": "Matched retail crime and Washington cannabis scanner-price data, including processed store and product panels and cost indices.",
+    "formats": [
+      "CSV",
+      "DTA",
+      "Feather"
+    ],
+    "properties": [
+      "icpsr",
+      "replication-data",
+      "panel-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences",
+      "longitudinal data analysis",
+      "panel data methods"
+    ],
+    "bestFor": "Estimating staggered price responses at victimized stores and nearby competitors.",
+    "note": "AEA links the package, whose processed data inventory lists pt_rate_panel.csv, pt_rate_panel.feather and pt_rate_panel_whole_cost_index_8.dta; the supplement compares staggered difference-in-differences estimators."
+  },
+  {
+    "access": "open",
+    "id": "aejapp-spanish-municipal-fragmentation-rd",
+    "title": "Political Fragmentation and Government Stability: Evidence from Local Governments in Spain",
+    "authors": "Felipe Carozzi, Davide Cipullo, Luca Repetto",
+    "year": 2022,
+    "paperUrl": "https://doi.org/10.1257/app.20200128",
+    "datasetUrl": "https://doi.org/10.3886/E125341V1",
+    "citations": 0,
+    "dataset": "Spanish municipal election inputs and replication materials for a regression discontinuity at the local council representation threshold.",
+    "formats": [
+      "DAT"
+    ],
+    "properties": [
+      "icpsr",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "regression discontinuity designs"
+    ],
+    "bestFor": "Estimating how a marginal party seat changes the stability of local government.",
+    "note": "The journal’s replication link resolves to E125341V1; its municipal raw-data tree lists fixed-width election files, including 04199505_MUNI/06109505.DAT."
+  },
+  {
+    "access": "open",
+    "id": "jep-undergraduate-women-economics-trial",
+    "title": "Seeking the “Missing Women” of Economics with the Undergraduate Women in Economics Challenge",
+    "authors": "Tatyana Avilova, Claudia Goldin",
+    "year": 2024,
+    "paperUrl": "https://doi.org/10.1257/jep.38.3.137",
+    "datasetUrl": "https://doi.org/10.3886/E201186V1",
+    "citations": 0,
+    "dataset": "IPEDS degree completions by institution, program and gender, with an institutional intervention randomized across 88 colleges and universities.",
+    "formats": [
+      "DTA",
+      "Stata code"
+    ],
+    "properties": [
+      "icpsr",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments"
+    ],
+    "bestFor": "Estimating effects of a stratified institution-level intervention on women’s economics degree attainment.",
+    "note": "The published paper cites E201186V1. The archive says public-domain IPEDS data are included and names the revised Stata completion files and their NCES download route."
+  },
+  {
+    "access": "open-link",
+    "id": "aejpol-competitive-drug-procurement-did",
+    "title": "Competitive Bidding in Drug Procurement: Evidence from China",
+    "authors": "Shengmao Cao, Lisa Xuejie Yi, Chuan Yu",
+    "year": 2024,
+    "paperUrl": "https://doi.org/10.1257/pol.20220505",
+    "datasetUrl": "https://doi.org/10.3886/E193165V1",
+    "citations": 0,
+    "dataset": "Nonconfidential Stata inputs on competitors and firms for a study of China’s centralized drug procurement reform; not the full confidential price microdata.",
+    "formats": [
+      "DTA",
+      "Stata code"
+    ],
+    "properties": [
+      "icpsr",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "quasi-experimental designs",
+      "difference-in-differences"
+    ],
+    "bestFor": "Examining the supply-side inputs and design of a difference-in-differences study of drug procurement.",
+    "note": "The journal links E193165V1. The archive’s non-confidential data folder exposes be_company.dta and number_competitors.dta; do not assume that these files reproduce the main price regressions."
+  },
+  {
+    "access": "open-link",
+    "id": "restud-cote-divoire-dual-apprenticeship-experiment",
+    "title": "Direct and Indirect Effects of Subsidized Dual Apprenticeships",
+    "authors": "Bruno Crépon, Patrick Premand",
+    "year": 2025,
+    "paperUrl": "https://doi.org/10.1093/restud/rdae094",
+    "datasetUrl": "https://reproducibility.worldbank.org/catalog/148",
+    "citations": 0,
+    "dataset": "Youth and firm surveys and a firm listing for a two-sided randomized apprenticeship subsidy experiment in Côte d'Ivoire.",
+    "formats": [
+      "DTA",
+      "Stata code"
+    ],
+    "properties": [
+      "replication-data",
+      "survey-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "causal inference",
+      "treatment effect estimation",
+      "randomized experiments"
+    ],
+    "bestFor": "Separating direct effects on youth from substitution and crowd-out effects on firms.",
+    "note": "The journal data statement links the World Bank reproduction package and identifies the underlying youth and firm data in the Microdata Library; the files are distributed separately under the library’s access terms."
   }
 ]
