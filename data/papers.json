@@ -86111,8 +86111,8 @@
     "authors": "Amuche Ibenegbu, Pierre Lafaye de Micheaux, Rohitash Chandra",
     "year": 2026,
     "citations": 0,
-    "dataset": "Hourly UCI air-quality observations with original and masked CSVs, plus prepared PhysioNet examples",
-    "datasetUrl": "https://github.com/sydney-machine-learning/Bayesian-MICE",
+    "dataset": "Hourly UCI air-quality observations with original and masked CSVs, plus PhysioNet examples and artificial masks",
+    "datasetUrl": "https://github.com/sydney-machine-learning/Bayes_MICE",
     "paperUrl": "https://arxiv.org/abs/2603.27142",
     "formats": [
       "CSV",
@@ -86132,7 +86132,7 @@
       "mcmc diagnostics"
     ],
     "bestFor": "Evaluating lag-aware multiple imputation and the mixing of MCMC samplers for incomplete time series.",
-    "note": "The project cites the preprint and documents both data sources. The public tree contains original, subset, and masked air-quality CSVs; the masked CSV returned data bytes."
+    "note": "The preprint links this repository. Its data directory contains air-quality and PhysioNet example files. The masked air-quality CSV and the artificial PhysioNet mask CSV both returned data bytes."
   },
   {
     "access": "open",
@@ -86452,10 +86452,10 @@
     "paperUrl": "https://doi.org/10.1257/app.20240370",
     "datasetUrl": "https://doi.org/10.3886/E237432V1",
     "citations": 0,
-    "dataset": "Bilateral trade inputs, visa and product-classification tables, and a documented third-country transit instrument for air connectivity.",
+    "dataset": "Bilateral trade inputs, visa tables, and product classifications for an air-connectivity study.",
     "formats": [
       "XLSX",
-      "DTA",
+      "Stata data",
       "Stata code"
     ],
     "properties": [
@@ -86463,15 +86463,15 @@
       "replication-data",
       "code",
       "auto-discovered",
-      "needs-review"
+      "needs-review",
+      "needs-label-review"
     ],
     "topics": [
       "causal inference",
       "treatment effect estimation",
-      "quasi-experimental designs",
-      "instrumental variables"
+      "quasi-experimental designs"
     ],
-    "bestFor": "Studying bilateral-trade identification with variation in third-country transit links.",
+    "bestFor": "Inspecting the visa and trade inputs used in the paper's identification design.",
     "note": "AEA links the ICPSR deposit. Its raw inventory has visa and trade-classification files and a CEPII BACI directory; the OAG itinerary folder shows no files, so the full flight inputs are not verified as public."
   },
   {
@@ -86481,11 +86481,11 @@
     "authors": "Marianne Bertrand, Bruno Crépon, Alicia Marguerie, Patrick Premand",
     "year": 2026,
     "paperUrl": "https://doi.org/10.1257/app.20240586",
-    "datasetUrl": "https://microdata.worldbank.org/catalog/6775",
+    "datasetUrl": "https://reproducibility.worldbank.org/catalog/298",
     "citations": 0,
     "dataset": "Anonymized baseline, midline and endline observations on Côte d'Ivoire's randomized youth public-works program, including employment, earnings and savings.",
     "formats": [
-      "DTA"
+      "Stata data"
     ],
     "properties": [
       "replication-data",
@@ -86500,7 +86500,7 @@
       "heterogeneous treatment effects"
     ],
     "bestFor": "Estimating contemporaneous and post-program impacts and comparing targeting strategies.",
-    "note": "The paper links a World Bank replication DOI. The World Bank Microdata Library separately identifies and provides terms-governed access to this study’s baseline (6774), midline (6775) and endline (6776) data."
+    "note": "The linked World Bank reproduction entry maps the inputs for all three waves to Microdata Library records 6774, 6775, and 6776. Obtain the baseline, midline, and endline data separately under the library's terms."
   },
   {
     "access": "open-link",
@@ -86513,7 +86513,7 @@
     "citations": 0,
     "dataset": "Mozambique preschool construction trial with household and child outcomes from the baseline and primary-school-age follow-up.",
     "formats": [
-      "DTA",
+      "Stata data",
       "Stata code"
     ],
     "properties": [
@@ -86544,7 +86544,7 @@
     "dataset": "Country-year panel of effective tax rates on labor, capital and corporate profits, with dataset construction and empirical analysis files.",
     "formats": [
       "CSV",
-      "DTA",
+      "Stata data",
       "Stata code"
     ],
     "properties": [
@@ -86564,7 +86564,7 @@
     "note": "AEA links E235001V1; the lead author separately links the data site and its public repository. The repository lists globalETR_bfjz.csv and globalETR_bfjz.dta; its README distinguishes the downloadable harmonized panel from the archival inputs."
   },
   {
-    "access": "open",
+    "access": "open-link",
     "id": "aejpol-polluted-ipos-reviewer-data",
     "title": "Polluted IPOs",
     "authors": "Meng Miao, Wei Wang, Zhengyu Zuo",
@@ -86574,7 +86574,7 @@
     "citations": 0,
     "dataset": "Chinese IPO review outcomes, reviewer-level observations, PM2.5 measures and subsequent performance data.",
     "formats": [
-      "DTA",
+      "Stata data",
       "Stata code"
     ],
     "properties": [
@@ -86593,7 +86593,7 @@
     "note": "AEA links the replication package. The project inventory lists myIPO.dta, myIPO_reviewer.dta and separate pollution and performance data files."
   },
   {
-    "access": "open",
+    "access": "open-link",
     "id": "aejpol-trade-protection-supply-chains-iv",
     "title": "Trade Protection along Supply Chains",
     "authors": "Chad P. Bown, Paola Conconi, Aksel Erbahar, Lorenzo Trimarchi",
@@ -86606,7 +86606,7 @@
       "CSV",
       "XLS",
       "XLSX",
-      "DTA",
+      "Stata data",
       "Stata code"
     ],
     "properties": [
@@ -86626,7 +86626,7 @@
     "note": "AEA links the data and code package; its data folder lists 1976-2020-senate.csv, CSGD-WTO.xls, CookPolitical.xlsx and Stata data files."
   },
   {
-    "access": "open",
+    "access": "open-link",
     "id": "aejpol-retail-crime-store-price-panel",
     "title": "The Pass-Through of Retail Crime",
     "authors": "Carl Hase, Johannes Kasinger",
@@ -86637,7 +86637,7 @@
     "dataset": "Matched retail crime and Washington cannabis scanner-price data, including processed store and product panels and cost indices.",
     "formats": [
       "CSV",
-      "DTA",
+      "Stata data",
       "Feather"
     ],
     "properties": [
@@ -86660,7 +86660,7 @@
     "note": "AEA links the package, whose processed data inventory lists pt_rate_panel.csv, pt_rate_panel.feather and pt_rate_panel_whole_cost_index_8.dta; the supplement compares staggered difference-in-differences estimators."
   },
   {
-    "access": "open",
+    "access": "open-link",
     "id": "aejapp-spanish-municipal-fragmentation-rd",
     "title": "Political Fragmentation and Government Stability: Evidence from Local Governments in Spain",
     "authors": "Felipe Carozzi, Davide Cipullo, Luca Repetto",
@@ -86689,7 +86689,7 @@
     "note": "The journal’s replication link resolves to E125341V1; its municipal raw-data tree lists fixed-width election files, including 04199505_MUNI/06109505.DAT."
   },
   {
-    "access": "open",
+    "access": "open-link",
     "id": "jep-undergraduate-women-economics-trial",
     "title": "Seeking the “Missing Women” of Economics with the Undergraduate Women in Economics Challenge",
     "authors": "Tatyana Avilova, Claudia Goldin",
@@ -86699,7 +86699,7 @@
     "citations": 0,
     "dataset": "IPEDS degree completions by institution, program and gender, with an institutional intervention randomized across 88 colleges and universities.",
     "formats": [
-      "DTA",
+      "Stata data",
       "Stata code"
     ],
     "properties": [
@@ -86728,7 +86728,7 @@
     "citations": 0,
     "dataset": "Nonconfidential Stata inputs on competitors and firms for a study of China’s centralized drug procurement reform; not the full confidential price microdata.",
     "formats": [
-      "DTA",
+      "Stata data",
       "Stata code"
     ],
     "properties": [
@@ -86736,15 +86736,15 @@
       "replication-data",
       "code",
       "auto-discovered",
-      "needs-review"
+      "needs-review",
+      "needs-label-review"
     ],
     "topics": [
       "causal inference",
       "treatment effect estimation",
-      "quasi-experimental designs",
-      "difference-in-differences"
+      "quasi-experimental designs"
     ],
-    "bestFor": "Examining the supply-side inputs and design of a difference-in-differences study of drug procurement.",
+    "bestFor": "Inspecting the nonconfidential firm and competitor inputs for a procurement reform study.",
     "note": "The journal links E193165V1. The archive’s non-confidential data folder exposes be_company.dta and number_competitors.dta; do not assume that these files reproduce the main price regressions."
   },
   {
@@ -86758,7 +86758,7 @@
     "citations": 0,
     "dataset": "Youth and firm surveys and a firm listing for a two-sided randomized apprenticeship subsidy experiment in Côte d'Ivoire.",
     "formats": [
-      "DTA",
+      "Stata data",
       "Stata code"
     ],
     "properties": [
@@ -86774,6 +86774,6 @@
       "randomized experiments"
     ],
     "bestFor": "Separating direct effects on youth from substitution and crowd-out effects on firms.",
-    "note": "The journal data statement links the World Bank reproduction package and identifies the underlying youth and firm data in the Microdata Library; the files are distributed separately under the library’s access terms."
+    "note": "The linked World Bank reproduction entry maps the youth surveys, firm surveys, and firm listing to Microdata Library records 6267, 6268, and 6269. The library requires sign-in to download the files."
   }
 ]
