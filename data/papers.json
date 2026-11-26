@@ -86497,7 +86497,8 @@
       "causal inference",
       "treatment effect estimation",
       "randomized experiments",
-      "heterogeneous treatment effects"
+      "heterogeneous treatment effects",
+      "longitudinal data analysis"
     ],
     "bestFor": "Estimating contemporaneous and post-program impacts and comparing targeting strategies.",
     "note": "The linked World Bank reproduction entry maps the inputs for all three waves to Microdata Library records 6774, 6775, and 6776. Obtain the baseline, midline, and endline data separately under the library's terms."
@@ -86775,5 +86776,641 @@
     ],
     "bestFor": "Separating direct effects on youth from substitution and crowd-out effects on firms.",
     "note": "The linked World Bank reproduction entry maps the youth surveys, firm surveys, and firm listing to Microdata Library records 6267, 6268, and 6269. The library requires sign-in to download the files."
+  },
+  {
+    "access": "open",
+    "id": "statcomp-agarwal-ireland-wind-changepoints",
+    "title": "Efficient Likelihood-Based Temporal Changepoint Detection in Spatio-Temporal Processes",
+    "authors": "Gaurav Agarwal, Idris A. Eckley, Paul Fearnhead",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "Irish Met Eireann wind observations from six synoptic stations with an accompanying spatial map.",
+    "datasetUrl": "https://github.com/gaurav-agarwal-github/spatio-temporal-changepoint",
+    "paperUrl": "https://doi.org/10.1007/s11222-025-10745-0",
+    "formats": [
+      "ZIP",
+      "RData",
+      "R code"
+    ],
+    "properties": [
+      "spatial-data",
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "change point detection",
+      "spatial statistics",
+      "spatio-temporal models"
+    ],
+    "bestFor": "Estimating temporal breaks when observations are correlated across weather stations and across time.",
+    "note": "The journal's availability statement links the author repository; Ireland wind data.zip returned ZIP bytes and the inventory also lists map_ire.RData."
+  },
+  {
+    "access": "open",
+    "id": "jtsa-lund-nongaussian-changepoints",
+    "title": "Multiple Changepoint Detection for Non-Gaussian Time Series",
+    "authors": "Robert Lund, Thomas J. Fisher, Norou Diawara, Michael Wehner",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Lahman baseball tables and tropical cyclone count inputs for changepoint models with beta and Poisson margins.",
+    "datasetUrl": "https://github.com/tjfisher19/non-gaussian_changepoints",
+    "paperUrl": "https://doi.org/10.1111/jtsa.12833",
+    "formats": [
+      "CSV",
+      "RData",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "change point detection"
+    ],
+    "bestFor": "Comparing changepoint penalties for proportions and counts with serial dependence.",
+    "note": "The journal links this repository. The Lahman Teams.csv input returned tabular bytes; the material includes the baseball and cyclone analyses."
+  },
+  {
+    "access": "open",
+    "id": "neurocomputing-fabisearch-network-changepoints",
+    "title": "fabisearch: A package for change point detection in and visualization of the network structure of multivariate high-dimensional time series in R",
+    "authors": "Martin Ondrus, Ivor Cribben",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Bundled AAL-atlas fMRI series and logged S&P 500 prices used to illustrate changes in network structure.",
+    "datasetUrl": "https://cran.r-project.org/package=fabisearch",
+    "paperUrl": "https://doi.org/10.1016/j.neucom.2024.127321",
+    "formats": [
+      "RData",
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "change point detection",
+      "high-dimensional statistics",
+      "dimension reduction"
+    ],
+    "bestFor": "Detecting shifts in networks of many time series using non-negative matrix factorization.",
+    "note": "The software paper identifies fabisearch as its companion. The source package's AALfmri.rda and logSP500.rda both returned binary data bytes."
+  },
+  {
+    "access": "open",
+    "id": "plos-turkmen-deep-renewal-spare-parts",
+    "title": "Forecasting intermittent and sparse time series: A unified probabilistic framework via deep renewal processes",
+    "authors": "Ali Caner Türkmen, Tim Januschowski, Yuyang Wang, Ali Taylan Cemgil",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "Automotive spare-parts demand train and test series from the paper's intermittent demand experiments.",
+    "datasetUrl": "https://github.com/canerturkmen/gluon-ts/tree/intermittent-datasets/datasets/intermittent_auto",
+    "paperUrl": "https://doi.org/10.1371/journal.pone.0259764",
+    "formats": [
+      "JSON"
+    ],
+    "properties": [
+      "time-series-data",
+      "replication-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Comparing discrete-time renewal forecasts of demand timing and size.",
+    "note": "The PLOS data statement links the intermittent datasets branch. The Auto folder has train and test JSON; the training file returned serialized time-series data."
+  },
+  {
+    "access": "open",
+    "id": "arxiv-chin-intermittent-demand-service",
+    "title": "Accuracy Is Not Service: A Decision-Aware Benchmark for Intermittent-Demand Forecasting",
+    "authors": "Joo Ern Chin, Shih-Fen Cheng, Aldy Gunawan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "A synthetic intermittent-demand panel and a prepared M5 demand matrix for the paper's public forecasting experiments.",
+    "datasetUrl": "https://github.com/sfcheng-research/icdm-2026-reproduction",
+    "paperUrl": "https://arxiv.org/abs/2609.13840",
+    "formats": [
+      "ZIP",
+      "CSV",
+      "Python code"
+    ],
+    "properties": [
+      "synthetic-data",
+      "replication-data",
+      "benchmark-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "forecasting competitions"
+    ],
+    "bestFor": "Evaluating forecast accuracy alongside inventory service metrics with intermittent demand.",
+    "note": "The authors' repository identifies the paper. The synthetic RUF v2 archive and prepared M5 demand CSV returned data bytes. The industrial orderbook is confidential and is not included."
+  },
+  {
+    "access": "open",
+    "id": "arxiv-biswas-nonlinear-probabilistic-reconciliation",
+    "title": "Nonlinear Probabilistic Forecast Reconciliation",
+    "authors": "Anubhab Biswas, Lorenzo Zambon, Lorenzo Nespoli, Giorgio Corani",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Swiss immigration and citizenship series and Australian state-level quarterly tourism data for reconciliation under nonlinear ratio constraints.",
+    "datasetUrl": "https://github.com/ijfpnlr-svg/ijf_sub",
+    "paperUrl": "https://arxiv.org/abs/2604.26668",
+    "formats": [
+      "CSV",
+      "Python code"
+    ],
+    "properties": [
+      "replication-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "hierarchical forecasting"
+    ],
+    "bestFor": "Reconciling probabilistic forecasts for ratios, regional counts, and their aggregates.",
+    "note": "The preprint links the repository in its introduction. The Swiss immigration/citizenship and Australian tourism analysis CSVs both returned tabular data bytes."
+  },
+  {
+    "access": "open",
+    "id": "sma-girolimetto-solar-reconciliation",
+    "title": "Cross-temporal forecast reconciliation: insights on sequential, iterative, and optimal approaches",
+    "authors": "Daniele Girolimetto, Tommaso Di Fonzo",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Measured and forecast solar power series for the empirical comparison of cross-temporal reconciliation methods.",
+    "datasetUrl": "https://github.com/danigiro/ct-comp",
+    "paperUrl": "https://doi.org/10.1007/s10260-025-00822-z",
+    "formats": [
+      "CSV",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "time-series-data",
+      "code",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "hierarchical forecasting"
+    ],
+    "bestFor": "Comparing sequential, iterative, and optimal reconciliation of solar forecasts across sites and temporal aggregates.",
+    "note": "The journal identifies the NREL source and links this processing repository. Its raw/meas.csv and raw/pred.csv both returned tabular bytes."
+  },
+  {
+    "access": "open",
+    "id": "statcomp-corradin-exchange-rates-structural-changes",
+    "title": "Model-based clustering of time-dependent observations with common structural changes",
+    "authors": "Riccardo Corradin, Luca Danese, Wasiur R. KhudaBukhsh, Andrea Ongaro",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "ECB historical euro reference rates, the source of the paper's 29-currency example for 2022 to January 2024.",
+    "datasetUrl": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+    "paperUrl": "https://doi.org/10.1007/s11222-025-10756-x",
+    "formats": [
+      "CSV",
+      "ZIP"
+    ],
+    "properties": [
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "change point detection",
+      "clustering",
+      "bayesian inference",
+      "mixture models"
+    ],
+    "bestFor": "Grouping exchange-rate series that exhibit common structural breaks under a Bayesian partition model.",
+    "note": "The article links the ECB archive and describes the period, exclusions, and marginal standardization. The historical CSV ZIP downloaded from the ECB; it is the upstream archive, not the fitted or filtered panel."
+  },
+  {
+    "access": "open",
+    "id": "jcgs-wilms-changepoint-influence-well-log",
+    "title": "Graphical Influence Diagnostics for Changepoint Models",
+    "authors": "Ines Wilms, Rebecca Killick, David S. Matteson",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "A 4,050-observation borehole series, with package instructions to extract the 1,000-observation subset used for changepoint influence diagnostics.",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/changepoint.influence/html/welldata.html",
+    "paperUrl": "https://doi.org/10.1080/10618600.2021.2000873",
+    "formats": [
+      "RData",
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "change point detection"
+    ],
+    "bestFor": "Studying how observation deletion or contamination changes segmentations and detected break locations.",
+    "note": "The university publication record identifies changepoint.influence as the data source. Its CRAN docs specify rows 1001 to 2000 and rescaling; welldata.rda downloaded successfully from the package source."
+  },
+  {
+    "access": "open-link",
+    "id": "jors-petropoulos-scalable-subhierarchies-m5",
+    "title": "Scalable forecast reconciliation through (un)guided Sub-hierarchies",
+    "authors": "Fotios Petropoulos, Ross A. Hollyman, Evangelos Spiliotis",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "M5 competition retail unit sales with product and store groupings, calendar variables, and prices.",
+    "datasetUrl": "https://www.kaggle.com/competitions/m5-forecasting-accuracy/data",
+    "paperUrl": "https://doi.org/10.1080/01605682.2025.2599394",
+    "formats": [
+      "CSV"
+    ],
+    "properties": [
+      "benchmark-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "hierarchical forecasting",
+      "forecasting competitions"
+    ],
+    "bestFor": "Testing forecast reconciliation on large retail hierarchies partitioned randomly or by clustered series.",
+    "note": "The paper's data statement links this competition page. The organizers document the train/test data and provide an alternate shared inventory. The linked source is the upstream M5 data, not the study's tourism application."
+  },
+  {
+    "id": "qe-ina-tile-split-plot-reanalysis",
+    "title": "Split Plot Experiments: Taguchi's Ina Tile Experiment Reanalyzed",
+    "authors": "Søren Bisgaard, Michael Sutherland",
+    "year": 2003,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.1081/QEN-120020782",
+    "dataset": "Ina tile experiment: eight trials with seven coded factors and paired inner- and outer-kiln defect counts per 100 tiles.",
+    "datasetUrl": "https://www.tandfonline.com/doi/pdf/10.1081/QEN-120020782",
+    "access": "open",
+    "formats": [
+      "PDF"
+    ],
+    "properties": [
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "factorial experimental design"
+    ],
+    "bestFor": "Reanalyzing a fractional factorial split-plot experiment with separate whole-plot and subplot error terms.",
+    "note": "The published PDF exposes all eight design and response rows in Table 3, including both kiln positions. The responses are defect counts, not individual tile measurements."
+  },
+  {
+    "id": "jse-graphical-split-plot-tensile-strength",
+    "title": "An Intuitive Graphical Approach to Understanding the Split-Plot Experiment",
+    "authors": "Timothy J. Robinson, William A. Brenneman, William R. Myers",
+    "year": 2009,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.1080/10691898.2009.11889505",
+    "dataset": "Illustrative paper tensile-strength responses by pulp preparation method, batch, and cooking temperature, with blocking layouts.",
+    "datasetUrl": "https://www.tandfonline.com/doi/pdf/10.1080/10691898.2009.11889505",
+    "access": "open",
+    "formats": [
+      "PDF"
+    ],
+    "properties": [
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "factorial experimental design",
+      "randomized experiments",
+      "causal inference"
+    ],
+    "bestFor": "Comparing the error strata implied by complete randomization, blocks, and separate randomization at the whole-plot and subplot levels.",
+    "note": "Tables 1 and 3 print the introductory responses; Table 8 reports 36 tensile-strength values alongside a blocked split-plot layout. This is a teaching example, not a separate downloadable file."
+  },
+  {
+    "id": "jss-samplingstrata-swiss-municipalities",
+    "title": "SamplingStrata: An R Package for the Optimization of Stratified Sampling",
+    "authors": "Giulio Barcaroli",
+    "year": 2014,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.18637/jss.v061.i04",
+    "dataset": "The swissmunicipalities R data object: a finite frame of 2,896 Swiss municipalities in 2003, with regional identifiers, land use and age-group totals.",
+    "datasetUrl": "https://cloud.r-project.org/web/packages/SamplingStrata/refman/SamplingStrata.html",
+    "access": "open",
+    "formats": [
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "survey-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "complex survey design",
+      "survey methodology"
+    ],
+    "bestFor": "Choosing strata and allocating a survey sample subject to precision constraints on multiple regional estimates.",
+    "note": "Section 3.1 uses sampling::swissmunicipalities. The current SamplingStrata manual also documents swissmunicipalities, with the variables needed to build the paper's frame."
+  },
+  {
+    "id": "jss-intsvy-pisa-design-weights",
+    "title": "intsvy: An R Package for Analyzing International Large-Scale Assessment Data",
+    "authors": "Daniel H. Caro, Przemysław Biecek",
+    "year": 2017,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.18637/jss.v081.i07",
+    "dataset": "OECD PISA 2012 international public-use assessment records, including student performance and questionnaire data with replicate weights and plausible values.",
+    "datasetUrl": "https://www.oecd.org/en/data/datasets/pisa-2012-database.html",
+    "access": "open-link",
+    "formats": [
+      "fixed-width text",
+      "SAS syntax",
+      "SPSS syntax",
+      "codebook"
+    ],
+    "properties": [
+      "survey-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey weighting",
+      "complex survey design",
+      "survey methodology"
+    ],
+    "bestFor": "Estimating assessment summaries and their uncertainty using survey replicate weights and plausible values.",
+    "note": "The paper demonstrates PISA 2012. OECD documents INT_STU12_DEC03.txt and links public-use files via a request form; no form was submitted. Restricted U.S. state questionnaire files are not part of this access claim."
+  },
+  {
+    "id": "jss-ca-correspondence-analysis-examples",
+    "title": "Correspondence Analysis in R, with Two- and Three-dimensional Graphics: The ca Package",
+    "authors": "Oleg Nenadić, Michael Greenacre",
+    "year": 2007,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.18637/jss.v020.i03",
+    "dataset": "ca::smoke, an artificial staff-by-smoking contingency table, and ca::wg93, categorical environmental survey responses from the western German ISSP sample.",
+    "datasetUrl": "https://cran.rstudio.com/web/packages/ca/refman/ca.html",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "contingency table"
+    ],
+    "properties": [
+      "package-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing simple, multiple and joint correspondence analysis on categorical tables and responses.",
+    "note": "The CRAN manual documents data(smoke) and data(wg93), with worked correspondence-analysis calls. The high-dimensional statistics label is the official parent of dimension reduction, not a claim about these example sizes."
+  },
+  {
+    "id": "jss-homals-nonlinear-optimal-scaling",
+    "title": "Gifi Methods for Optimal Scaling in R: The Package homals",
+    "authors": "Jan de Leeuw, Patrick Mair",
+    "year": 2009,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.18637/jss.v031.i04",
+    "dataset": "homals::galo, five categorical or ordinal variables on 1,290 Groningen schoolchildren, including categorized IQ, school advice and socioeconomic status.",
+    "datasetUrl": "https://cran.r-project.org/web/packages/homals/refman/homals.html",
+    "access": "open",
+    "formats": [
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing homogeneity analysis and rank-constrained nonlinear PCA on the same multivariate categorical data.",
+    "note": "The CRAN manual documents data(galo), its five variables and worked homals models. The high-dimensional statistics label is inherited from dimension reduction."
+  },
+  {
+    "id": "jss-mvord-simulated-credit-ratings",
+    "title": "mvord: An R Package for Fitting Multivariate Ordinal Regression Models",
+    "authors": "Rainer Hirk, Kurt Hornik, Laura Vana",
+    "year": 2020,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.18637/jss.v093.i04",
+    "dataset": "mvord::data_cr and mvord::data_cr_panel: simulated correlated firm ratings and simulated performance measures, with a separate repeated-year example.",
+    "datasetUrl": "https://cran.r-project.org/web/packages/mvord/mvord.pdf",
+    "access": "open",
+    "formats": [
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "longitudinal data analysis"
+    ],
+    "bestFor": "Fitting composite-likelihood models to dependent ordinal ratings, including repeated firm ratings across years.",
+    "note": "CRAN inventories the two simulated objects; data_cr has 690 rows and 11 columns. The examples are simulations rather than distributed proprietary agency ratings."
+  },
+  {
+    "id": "jss-smacof-v2-facial-expression-mds",
+    "title": "More on Multidimensional Scaling and Unfolding in R: smacof Version 2",
+    "authors": "Patrick Mair, Patrick J. F. Groenen, Jan de Leeuw",
+    "year": 2022,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.18637/jss.v102.i10",
+    "dataset": "smacof::FaceExp and smacof::FaceScale, a dissimilarity matrix for 13 expressions and external rating scales used for MDS biplots.",
+    "datasetUrl": "https://cran.r-project.org/web/packages/smacof/smacof.pdf",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "dissimilarity matrix"
+    ],
+    "properties": [
+      "package-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Fitting ordinal multidimensional scaling and mapping external ratings onto a low-dimensional configuration.",
+    "note": "The paper uses FaceExp and FaceScale in the ordinal biplot example; the CRAN manual documents both. The high-dimensional statistics label is inherited from dimension reduction."
+  },
+  {
+    "id": "jss-vgam-categorical-back-pain",
+    "title": "The VGAM Package for Categorical Data Analysis",
+    "authors": "Thomas W. Yee",
+    "year": 2010,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.18637/jss.v032.i10",
+    "dataset": "VGAM::backPain and the recoded VGAM::backPain2: 101 patients, three prognostic predictors and a six-level ordinal response.",
+    "datasetUrl": "https://cran.r-project.org/web/packages/VGAM/refman/VGAM.html",
+    "access": "open",
+    "formats": [
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing categorical regression with reduced-rank multinomial logit models and interpreting their biplots.",
+    "note": "Section 6.3 uses the original backPain data for rank-1 and rank-2 stereotype models. The CRAN manual documents both the original and recoded versions."
+  },
+  {
+    "id": "frontiers-greenacre-additive-logratio-validation",
+    "title": "Compositional Data Analysis of Microbiome and Any-Omics Datasets: A Validation of the Additive Logratio Transformation",
+    "authors": "Michael Greenacre, Marina Martínez-Álvaro, Agustín Blasco",
+    "year": 2021,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.3389/fmicb.2021.727398",
+    "dataset": "The mouse RNA count data used as a high-dimensional additive log-ratio example, archived in the Quinn et al. CoDaGuide deposit.",
+    "datasetUrl": "https://zenodo.org/records/3270954",
+    "access": "open",
+    "formats": [
+      "count matrix",
+      "ZIP"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "compositional data analysis",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing additive log-ratio geometries and selecting interpretable reference components in wide count tables.",
+    "note": "The article explicitly links the mouse example to Zenodo 3270954, which lists CoDaGuide.zip. The source paper documents the archive as containing data and scripts. Cow data are not claimed open."
+  },
+  {
+    "id": "jss-ade4-supervised-multiblock-chickenk",
+    "title": "Supervised Multiblock Analysis in R with the ade4 Package",
+    "authors": "Stéphanie Bougeard, Stéphane Dray",
+    "year": 2018,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.18637/jss.v086.i01",
+    "dataset": "ade4::chickenk, with poultry flock losses and linked blocks of explanatory variables used in supervised multiblock analysis.",
+    "datasetUrl": "https://cran.r-project.org/web/packages/ade4/refman/ade4.html",
+    "access": "open",
+    "formats": [
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "dimension reduction",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Comparing multiblock partial least squares with multiblock principal component analysis on grouped predictors.",
+    "note": "The authors' JSS script uses chickenk[2:5] as the predictor blocks. The block regressions construct supervised components rather than identify intervention effects."
+  },
+  {
+    "id": "jss-conting-bayesian-contingency-tables",
+    "title": "conting: An R Package for Bayesian Analysis of Complete and Incomplete Contingency Tables",
+    "authors": "Antony M. Overstall, Ruth King",
+    "year": 2014,
+    "citations": 0,
+    "paperUrl": "https://doi.org/10.18637/jss.v058.i07",
+    "dataset": "conting::heart, conting::spina and conting::ScotPWID, complete or incomplete contingency tables used in Bayesian log-linear and capture-recapture examples.",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v058i07",
+    "access": "open",
+    "formats": [
+      "R package data",
+      "contingency table"
+    ],
+    "properties": [
+      "package-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing Bayesian inference for complete count tables with closed-population estimation from incomplete count tables.",
+    "note": "The JSS article links the archived package. The article and example script name the bundled R objects, which provide aggregate counts rather than person-level records."
+  },
+  {
+    "access": "open",
+    "id": "jasa-tripet-balanced-meuse-sampling",
+    "title": "Balanced Sampling With Inequalities: Application to Category Bounding, Matrix Rounding, and Spread Sampling",
+    "authors": "Arnaud Tripet, Yves Tillé",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "The 155 georeferenced Meuse river soil observations used as a finite population frame for cadmium estimation.",
+    "datasetUrl": "https://search.r-project.org/CRAN/refmans/sp/html/meuse.html",
+    "paperUrl": "https://doi.org/10.1080/01621459.2025.2550667",
+    "formats": [
+      "RData",
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "spatial-data",
+      "survey-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "survey methodology",
+      "complex survey design",
+      "spatial statistics"
+    ],
+    "bestFor": "Comparing spatially balanced samples and inclusion probabilities under sampling constraints.",
+    "note": "The paper names sp::meuse and the exact finite population. The source package's meuse.rda returned binary data bytes. The linked object provides the upstream observations, not the selected samples."
   }
 ]
