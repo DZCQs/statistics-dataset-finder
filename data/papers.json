@@ -86912,7 +86912,7 @@
     "properties": [
       "synthetic-data",
       "replication-data",
-      "benchmark-data",
+      "benchmark",
       "code",
       "auto-discovered",
       "needs-review"
@@ -87054,7 +87054,7 @@
       "CSV"
     ],
     "properties": [
-      "benchmark-data",
+      "benchmark",
       "time-series-data",
       "auto-discovered",
       "needs-review"
@@ -87077,7 +87077,7 @@
     "paperUrl": "https://doi.org/10.1081/QEN-120020782",
     "dataset": "Ina tile experiment: eight trials with seven coded factors and paired inner- and outer-kiln defect counts per 100 tiles.",
     "datasetUrl": "https://www.tandfonline.com/doi/pdf/10.1081/QEN-120020782",
-    "access": "open",
+    "access": "open-link",
     "formats": [
       "PDF"
     ],
@@ -87101,21 +87101,20 @@
     "paperUrl": "https://doi.org/10.1080/10691898.2009.11889505",
     "dataset": "Illustrative paper tensile-strength responses by pulp preparation method, batch, and cooking temperature, with blocking layouts.",
     "datasetUrl": "https://www.tandfonline.com/doi/pdf/10.1080/10691898.2009.11889505",
-    "access": "open",
+    "access": "open-link",
     "formats": [
       "PDF"
     ],
     "properties": [
       "auto-discovered",
-      "needs-review"
+      "needs-review",
+      "needs-label-review"
     ],
     "topics": [
-      "factorial experimental design",
-      "randomized experiments",
-      "causal inference"
+      "factorial experimental design"
     ],
-    "bestFor": "Comparing the error strata implied by complete randomization, blocks, and separate randomization at the whole-plot and subplot levels.",
-    "note": "Tables 1 and 3 print the introductory responses; Table 8 reports 36 tensile-strength values alongside a blocked split-plot layout. This is a teaching example, not a separate downloadable file."
+    "bestFor": "Comparing the error strata in illustrative blocked and split-plot layouts.",
+    "note": "Tables 1 and 3 print the introductory responses; Table 8 reports 36 teaching-example tensile-strength values alongside a blocked split-plot layout. The layouts illustrate randomization; they are not evidence of separately run experiments."
   },
   {
     "id": "jss-samplingstrata-swiss-municipalities",
@@ -87153,7 +87152,7 @@
     "paperUrl": "https://doi.org/10.18637/jss.v081.i07",
     "dataset": "OECD PISA 2012 international public-use assessment records, including student performance and questionnaire data with replicate weights and plausible values.",
     "datasetUrl": "https://www.oecd.org/en/data/datasets/pisa-2012-database.html",
-    "access": "open-link",
+    "access": "request",
     "formats": [
       "fixed-width text",
       "SAS syntax",
@@ -87184,8 +87183,7 @@
     "datasetUrl": "https://cran.rstudio.com/web/packages/ca/refman/ca.html",
     "access": "open",
     "formats": [
-      "R package data",
-      "contingency table"
+      "R package data"
     ],
     "properties": [
       "package-data",
@@ -87262,8 +87260,7 @@
     "datasetUrl": "https://cran.r-project.org/web/packages/smacof/smacof.pdf",
     "access": "open",
     "formats": [
-      "R package data",
-      "dissimilarity matrix"
+      "R package data"
     ],
     "properties": [
       "package-data",
@@ -87313,9 +87310,8 @@
     "paperUrl": "https://doi.org/10.3389/fmicb.2021.727398",
     "dataset": "The mouse RNA count data used as a high-dimensional additive log-ratio example, archived in the Quinn et al. CoDaGuide deposit.",
     "datasetUrl": "https://zenodo.org/records/3270954",
-    "access": "open",
+    "access": "open-link",
     "formats": [
-      "count matrix",
       "ZIP"
     ],
     "properties": [
@@ -87369,8 +87365,7 @@
     "datasetUrl": "https://www.jstatsoft.org/article/view/v058i07",
     "access": "open",
     "formats": [
-      "R package data",
-      "contingency table"
+      "R package data"
     ],
     "properties": [
       "package-data",
@@ -87412,5 +87407,32 @@
     ],
     "bestFor": "Comparing spatially balanced samples and inclusion probabilities under sampling constraints.",
     "note": "The paper names sp::meuse and the exact finite population. The source package's meuse.rda returned binary data bytes. The linked object provides the upstream observations, not the selected samples."
+  },
+  {
+    "access": "open",
+    "id": "jbes-wickramasuriya-gaussian-tourism-reconciliation",
+    "title": "Probabilistic Forecast Reconciliation under the Gaussian Framework",
+    "authors": "Shanika L. Wickramasuriya",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "Monthly Australian domestic tourism series supplied with the worked probabilistic forecast reconciliation example in Section 3.",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.22110307.v2",
+    "paperUrl": "https://doi.org/10.1080/07350015.2023.2181176",
+    "formats": [
+      "CSV"
+    ],
+    "properties": [
+      "replication-data",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "time series analysis",
+      "time series forecasting",
+      "hierarchical forecasting"
+    ],
+    "bestFor": "Comparing projection-based reconciliation of jointly Gaussian forecasts across an aggregation hierarchy.",
+    "note": "The publisher's Figshare record cites the paper and lists tourism-dataset.csv, which returned tabular data bytes. This is the Section 3 example, not a claim that the separate Section 5 analysis panel is included."
   }
 ]
