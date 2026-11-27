@@ -87619,18 +87619,20 @@
     "year": 2026,
     "citations": 0,
     "dataset": "Prepared regression inputs for conditional coverage experiments, including Perth wave-energy and hourly bike-sharing tables.",
-    "datasetUrl": "https://github.com/Cqyiiii/Colorful-Pinball-Conformal-Prediction-CPCP/tree/main/Datasets",
+    "datasetUrl": "https://github.com/Cqyiiii/Colorful-Pinball-Conformal-Prediction-CPCP",
     "paperUrl": "https://proceedings.mlr.press/v306/chen26bm.html",
     "formats": [
       "CSV",
-      "TSV"
+      "TSV",
+      "Python code"
     ],
     "properties": [
       "replication-data",
       "benchmark",
       "auto-discovered",
       "needs-review",
-      "needs-label-review"
+      "needs-label-review",
+      "code"
     ],
     "topics": [
       "conformal prediction",
@@ -87678,8 +87680,8 @@
     "datasetUrl": "https://www.oecd.org/en/data/datasets/pisa-2015-database.html",
     "paperUrl": "https://doi.org/10.1093/jrsssa/qnad137",
     "formats": [
-      "SAS",
-      "SPSS"
+      "sas",
+      "spss"
     ],
     "properties": [
       "survey-data",
@@ -87692,9 +87694,10 @@
       "variable selection",
       "multiple testing",
       "latent variable models",
-      "missing data"
+      "missing data",
+      "item response theory"
     ],
-    "bestFor": "Selecting predictors from incomplete questionnaire and assessment variables when the response is a latent construct.",
+    "bestFor": "Selecting predictors from incomplete questionnaire data when science proficiency is modeled from item responses.",
     "note": "The paper links the OECD's 2015 release, which inventories the student and cognitive inputs and requires its public-use access form. No data request was submitted."
   },
   {
@@ -87766,7 +87769,7 @@
     "datasetUrl": "https://github.com/liyaguang/DCRNN#data-preparation",
     "paperUrl": "https://proceedings.mlr.press/v267/cini25a.html",
     "formats": [
-      "HDF5"
+      "hdf5"
     ],
     "properties": [
       "benchmark",
@@ -87794,7 +87797,7 @@
     "dataset": "Croton shrub coordinates from 16 replicated plots",
     "datasetUrl": "https://doi.org/10.5061/dryad.72193",
     "paperUrl": "https://doi.org/10.1111/ecog.01848",
-    "access": "open",
+    "access": "open-link",
     "formats": [
       "XLS"
     ],
@@ -87809,7 +87812,7 @@
       "resampling methods"
     ],
     "bestFor": "Testing associations of altitude and slope with replicated spatial K-functions using a nonparametric bootstrap.",
-    "note": "The publisher cites the Dryad deposit, whose public inventory lists coord_croton_replicated_16plots.xls. This is the empirical case data, not the simulated input realizations."
+    "note": "The publisher cites the Dryad deposit, whose public inventory lists coord_croton_replicated_16plots.xls. The automated download did not return the file. The listed workbook contains empirical coordinates, not the simulation draws."
   },
   {
     "id": "frontiers-rspplme4-replicated-point-patterns",
