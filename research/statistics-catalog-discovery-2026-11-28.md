@@ -15,7 +15,30 @@ The API and journal-index pass collected **927 raw entries**, **881 unique leads
 
 Queries covered model-X knockoffs, selective inference, sparse precision matrices, conformal calibration, spatial point processes, and directional, quantile, and extreme-value models. The Zenodo discovery API returned HTTP 403 and some DataCite requests timed out. Targeted verification also used primary journal and proceedings pages, arXiv, GitHub, Dryad, CRAN and R-universe package data, UCI, Keras, OECD, NBER, and Stata Press.
 
+<details>
+<summary>Discovery queries and deduplication</summary>
+
+The same nine search strings were sent to Crossref, OpenAlex, DataCite, Harvard Dataverse, and Figshare:
+
+- model X knockoffs false discovery variable selection real data
+- selective inference lasso post selection inference real data replication
+- high dimensional sparse precision covariance graphical models replication dataset
+- conditional coverage conformal prediction quantile regression data
+- distribution free conformal prediction time series uncertainty intervals
+- spatial point process statistical methodology R dataset
+- distributional regression quantile functional response statistical software
+- directional circular statistics dataset regression
+- extreme value inference threshold exceedance package dataset
+
+Crossref requested up to 35 journal articles per string; OpenAlex, DataCite, Dataverse, and Figshare requested up to 20 results each. DataCite and Dataverse were restricted to datasets. The separate Crossref journal requests used ISSNs 1532-4435, 1932-6157, 0006-3444, 1350-7265, and 1061-8600, requesting up to 60 journal articles per ISSN from January 2024 onward, latest first. The Zenodo title searches targeted conformal prediction, selective inference, spatial point patterns, and quantile regression.
+
+Raw counts retained titled results from successful responses. Duplicates matched on lowercased DOI or title after Unicode decomposition, lowercasing, and collapsing nonalphanumeric runs. The unmatched count excludes normalized titles and paper or dataset DOIs already in the catalog at `cec87fe`. These are snapshot counts; live-index responses and request failures can differ on rerun.
+
+</details>
+
 **41 candidates received source-level checks. 28 had clear data sources:** 22 new records and six verified catalog duplicates. Thirteen were unresolved or otherwise not added during the checks. The batch stayed below 50 because most raw leads did not reach source-level review, and some shortlisted leads lacked a verified file, exact public dataset, or documented access route. Successful file requests, archive listings, and named package or provider documentation are distinguished below. No supplied code was executed.
+
+Citation fields were populated from [Crossref work metadata](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) for 17 exact publication DOIs, using the index's `is-referenced-by-count` at review time. The five records identified by JMLR or PMLR article URLs retain the catalog's zero placeholder; it is not a verified citation count for those records.
 
 ## Added records and evidence
 
