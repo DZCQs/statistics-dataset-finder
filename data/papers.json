@@ -87434,5 +87434,620 @@
     ],
     "bestFor": "Comparing projection-based reconciliation of jointly Gaussian forecasts across an aggregation hierarchy.",
     "note": "The publisher's Figshare record cites the paper and lists tourism-dataset.csv, which returned tabular data bytes. This is the Section 3 example, not a claim that the separate Section 5 analysis panel is included."
+  },
+  {
+    "access": "open",
+    "id": "jasa-ipad-stock-watson-macro-panel",
+    "title": "IPAD: Stable Interpretable Forecasting with Knockoffs Inference",
+    "authors": "Yingying Fan, Jinchi Lv, Mahrad Sharifvaghefi, Yoshimasa Uematsu",
+    "year": 2020,
+    "citations": 0,
+    "dataset": "Stock-Watson U.S. macroeconomic time series used in the paper's GDP forecasting experiment, plus distributed examples.",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.9619052.v2",
+    "paperUrl": "https://doi.org/10.1080/01621459.2019.1654878",
+    "formats": [
+      "ZIP",
+      "XLSX",
+      "RData",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "multiple testing",
+      "time series analysis",
+      "time series forecasting"
+    ],
+    "bestFor": "Studying high-dimensional predictor selection with false-discovery-rate control in macroeconomic forecasting.",
+    "note": "The publisher's Figshare record cites the paper DOI. The downloaded supplement contains StockWatson.xlsx and an empirical data note, plus simulation Data.RData."
+  },
+  {
+    "access": "open",
+    "id": "jcgs-chen-graph-fused-lasso-state-rates",
+    "title": "More Powerful Selective Inference for the Graph Fused Lasso",
+    "authors": "Yiqun Chen, Sean Jewell, Daniela Witten",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "CDC state-level teenage birth and overdose mortality rates, with state identifiers for the contiguous-U.S. graph examples.",
+    "datasetUrl": "https://github.com/yiqunchen/GFLassoInference-experiment",
+    "paperUrl": "https://doi.org/10.1080/10618600.2022.2097246",
+    "formats": [
+      "CSV",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "spatial-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "multiple testing",
+      "spatial statistics",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Testing differences between graph segments estimated from the observations, while accounting for how the segments were selected.",
+    "note": "The paper links the authors' repository. It inventories both state-rate CSVs, and the teenage birth rate CSV returned table bytes."
+  },
+  {
+    "access": "open",
+    "id": "jscs-pirenne-adaptive-lasso-selective-inference",
+    "title": "Parametric programming-based approximate selective inference for adaptive lasso, adaptive elastic net and group lasso",
+    "authors": "Sarah Pirenne, Gerda Claeskens",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "gglasso::bardet, the grouped-regression example, with MASS::birthwt used in a separate example.",
+    "datasetUrl": "https://cran.r-project.org/web/packages/gglasso/refman/gglasso.html#bardet",
+    "paperUrl": "https://doi.org/10.1080/00949655.2024.2337342",
+    "formats": [
+      "R package data",
+      "RData"
+    ],
+    "properties": [
+      "package-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "variable selection",
+      "high-dimensional statistics",
+      "multiple testing"
+    ],
+    "bestFor": "Comparing conditional inference procedures after adaptive penalization and group selection.",
+    "note": "The journal explicitly names gglasso::bardet and MASS::birthwt in its data statement. Both package objects returned binary data bytes. The dataset link opens the grouped-regression object's documentation."
+  },
+  {
+    "access": "open",
+    "id": "jmlr-kmeans-selective-inference-mnist",
+    "title": "Selective inference for k-means clustering",
+    "authors": "Yiqun T. Chen, Daniela M. Witten",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "MNIST handwritten digits: the upstream 28-by-28 images for the paper's selective clustering example.",
+    "datasetUrl": "https://keras.io/api/datasets/mnist/",
+    "paperUrl": "https://www.jmlr.org/papers/v24/22-0371.html",
+    "formats": [
+      "NPZ"
+    ],
+    "properties": [
+      "benchmark",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "clustering",
+      "multiple testing",
+      "high-dimensional statistics"
+    ],
+    "bestFor": "Studying selective tests for differences between clusters on high-dimensional digit images.",
+    "note": "Section 6.1 describes the MNIST training images and the paper's preprocessing; Keras documents the same data and its mnist.npz returned archive bytes. This is not a precomputed cluster dataset."
+  },
+  {
+    "access": "open",
+    "id": "jmlr-cap-selective-conformal-airfoil",
+    "title": "CAP: A General Algorithm for Online Selective Conformal Prediction with FCR Control",
+    "authors": "Yajie Bao, Yuyang Huo, Haojie Ren, Changliang Zou",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "UCI Airfoil Self-Noise measurements for the paper's Appendix F.11 application.",
+    "datasetUrl": "https://doi.org/10.24432/C5VW2C",
+    "paperUrl": "https://jmlr.org/papers/v26/24-0452.html",
+    "formats": [
+      "DAT",
+      "ZIP"
+    ],
+    "properties": [
+      "benchmark",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "multiple testing"
+    ],
+    "bestFor": "Evaluating selectively reported conformal intervals and controlling false coverage under changing data distributions.",
+    "note": "Appendix F.11 names the UCI dataset and its 1,503 observations. The UCI download returned ZIP bytes. The link covers the acoustic illustration only."
+  },
+  {
+    "access": "open",
+    "id": "pmlr-xu-spci-electricity",
+    "title": "Sequential Predictive Conformal Inference for Time Series",
+    "authors": "Chen Xu, Yao Xie",
+    "year": 2023,
+    "citations": 0,
+    "dataset": "Normalized electricity observations used in the sequential conformal experiments and the authors' worked notebook.",
+    "datasetUrl": "https://github.com/hamrel-cxu/SPCI-code",
+    "paperUrl": "https://proceedings.mlr.press/v202/xu23r.html",
+    "formats": [
+      "CSV",
+      "Python code",
+      "Jupyter notebook"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "time series analysis",
+      "time series forecasting",
+      "quantile regression"
+    ],
+    "bestFor": "Calibrating sequential forecast intervals by modeling conditional quantiles of past prediction errors.",
+    "note": "The author repository identifies the proceedings paper and the electricity notebook; Data/electricity-normalized.csv returned tabular bytes. This link does not imply that other paper datasets are bundled."
+  },
+  {
+    "access": "open",
+    "id": "pmlr-colorful-pinball-conditional-conformal",
+    "title": "Colorful Pinball: Density-Weighted Quantile Regression for Conditional Guarantee of Conformal Prediction",
+    "authors": "Qianyi Chen, Bo Li",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Prepared regression inputs for conditional coverage experiments, including Perth wave-energy and hourly bike-sharing tables.",
+    "datasetUrl": "https://github.com/Cqyiiii/Colorful-Pinball-Conformal-Prediction-CPCP/tree/main/Datasets",
+    "paperUrl": "https://proceedings.mlr.press/v306/chen26bm.html",
+    "formats": [
+      "CSV",
+      "TSV"
+    ],
+    "properties": [
+      "replication-data",
+      "benchmark",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "quantile regression"
+    ],
+    "bestFor": "Comparing conditional coverage with density-weighted and conventional pinball loss calibration.",
+    "note": "The proceedings link the author repository, whose Datasets inventory and README identify the experiment inputs. Both named CSVs returned data bytes."
+  },
+  {
+    "access": "open",
+    "id": "bmc-kammer-lasso-bodyfat-selection",
+    "title": "Evaluating methods for Lasso selective inference in biomedical research: a comparative simulation study",
+    "authors": "Michael Kammer, Daniela Dunkler, Stefan Michiels, Georg Heinze",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "Johnson's body-fat and body-measurement data, available as BAS::bodyfat before the paper's preprocessing.",
+    "datasetUrl": "https://cran.r-project.org/web/packages/BAS/refman/BAS.html#bodyfat",
+    "paperUrl": "https://doi.org/10.1186/s12874-022-01681-y",
+    "formats": [
+      "R package data",
+      "RData"
+    ],
+    "properties": [
+      "package-data",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "multiple testing"
+    ],
+    "bestFor": "Comparing confidence intervals and predictor selection when the fitted regression model was selected from the same observations.",
+    "note": "The paper's public-data statement points to Johnson's data. The BAS manual documents the same 252-observation source, and bodyfat.rda returned binary data bytes."
+  },
+  {
+    "access": "request",
+    "id": "jrsssa-xie-knockoffs-pisa-2015",
+    "title": "Variable selection in latent variable models via knockoffs: an application to international large-scale assessment in education",
+    "authors": "Zilong Xie, Yunxiao Chen, Matthias von Davier, Haolei Weng",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "OECD PISA 2015 public-use assessment and questionnaire files used for latent-regression feature selection.",
+    "datasetUrl": "https://www.oecd.org/en/data/datasets/pisa-2015-database.html",
+    "paperUrl": "https://doi.org/10.1093/jrsssa/qnad137",
+    "formats": [
+      "SAS",
+      "SPSS"
+    ],
+    "properties": [
+      "survey-data",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "variable selection",
+      "multiple testing",
+      "latent variable models",
+      "missing data"
+    ],
+    "bestFor": "Selecting predictors from incomplete questionnaire and assessment variables when the response is a latent construct.",
+    "note": "The paper links the OECD's 2015 release, which inventories the student and cognitive inputs and requires its public-use access form. No data request was submitted."
+  },
+  {
+    "access": "open",
+    "id": "jcgs-lu-spatial-sign-precision-finance",
+    "title": "Spatial-Sign based Robust Sparse Precision Matrix Estimation and its Applications",
+    "authors": "Zhengke Lu, Long Feng",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "S&P 500 daily log returns (2015–2019) and sector membership files supplied for the paper's financial graph example.",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.34098742.v1",
+    "paperUrl": "https://doi.org/10.1080/10618600.2026.2743036",
+    "formats": [
+      "CSV",
+      "R code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "time-series-data",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "high-dimensional statistics",
+      "graphical models",
+      "robust statistics"
+    ],
+    "bestFor": "Comparing robust sparse precision estimators and graph recovery on multivariate financial returns.",
+    "note": "The downloaded publisher supplement contains sp500_log_returns_2015_2019.csv and sp500_gics_sectors.csv under SSPME/inst/extdata. The separate renal input is not bundled."
+  },
+  {
+    "access": "open",
+    "id": "jcgs-li-generative-conformal-weather",
+    "title": "Generative Conformal Prediction Under Covariate Shift",
+    "authors": "Cheng Li, Siming Zheng, Yuanyuan Lin",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "Processed weather data with separate development and training files for the supplementary covariate-shift analysis.",
+    "datasetUrl": "https://doi.org/10.6084/m9.figshare.32983922.v2",
+    "paperUrl": "https://doi.org/10.1080/10618600.2026.2703276",
+    "formats": [
+      "CSV",
+      "ZIP",
+      "Python code"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "distributional regression"
+    ],
+    "bestFor": "Assessing conditional predictive distributions and interval coverage when training and evaluation covariates differ.",
+    "note": "Figshare metadata link the paper and identify the weather analysis in the README. The downloaded JCGS_GCP_code.zip contains real_data/weather/train.csv and dev_out.csv."
+  },
+  {
+    "access": "open-link",
+    "id": "pmlr-cini-relational-conformal-traffic",
+    "title": "Relational Conformal Prediction for Correlated Time Series",
+    "authors": "Andrea Cini, Alexander Jenkins, Danilo Mandic, Cesare Alippi, Filippo Maria Bianchi",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "METR-LA five-minute traffic observations from 207 loop detectors, the source input for the paper's Los Angeles case.",
+    "datasetUrl": "https://github.com/liyaguang/DCRNN#data-preparation",
+    "paperUrl": "https://proceedings.mlr.press/v267/cini25a.html",
+    "formats": [
+      "HDF5"
+    ],
+    "properties": [
+      "benchmark",
+      "time-series-data",
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "conformal prediction",
+      "time series analysis",
+      "time series forecasting",
+      "spatio-temporal models",
+      "spatial statistics"
+    ],
+    "bestFor": "Evaluating interval forecasts for correlated time series on a network of nearby sensors.",
+    "note": "Appendix C names METR-LA and cites Li et al. The upstream DCRNN repository links a reachable dataset folder listing metr-la.h5. This is the source series, not the authors' preprocessed splits or other case datasets."
+  },
+  {
+    "id": "ecography-ramon-replicated-point-patterns",
+    "title": "A new non-parametric method for analyzing replicated point patterns in ecology",
+    "authors": "Pablo Ramón, Marcelino de la Cruz, Julia Chacón-Labella, Adrián Escudero",
+    "year": 2016,
+    "citations": 0,
+    "dataset": "Croton shrub coordinates from 16 replicated plots",
+    "datasetUrl": "https://doi.org/10.5061/dryad.72193",
+    "paperUrl": "https://doi.org/10.1111/ecog.01848",
+    "access": "open",
+    "formats": [
+      "XLS"
+    ],
+    "properties": [
+      "replication-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "resampling methods"
+    ],
+    "bestFor": "Testing associations of altitude and slope with replicated spatial K-functions using a nonparametric bootstrap.",
+    "note": "The publisher cites the Dryad deposit, whose public inventory lists coord_croton_replicated_16plots.xls. This is the empirical case data, not the simulated input realizations."
+  },
+  {
+    "id": "frontiers-rspplme4-replicated-point-patterns",
+    "title": "Replicated Spatial Point Pattern Analyses for Ecological Inference: A Tutorial Using the RSPPlme4 Package in R",
+    "authors": "Robert Bagchi, Michael C. LaScaleia, Valerie R. Milici, Dipanjana Dalui",
+    "year": 2022,
+    "citations": 0,
+    "dataset": "spatstat.data::lansing, the marked Lansing Woods tree point pattern",
+    "datasetUrl": "https://cran.r-project.org/web/packages/spatstat.data/refman/spatstat.data.html",
+    "paperUrl": "https://doi.org/10.3389/ffgc.2022.810010",
+    "access": "open",
+    "formats": [
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "spatial statistics",
+      "multilevel modeling",
+      "resampling methods"
+    ],
+    "bestFor": "Using replicated point-pattern summaries in mixed models and bootstrapping variation in spatial clustering.",
+    "note": "Box 2 names spatstat.data::lansing and specifies the filtering and rescaling. The underlying one-plot tree pattern returned binary data bytes. The tutorial's synthetic examples are separate."
+  },
+  {
+    "id": "ece-samarasekara-multispecies-point-patterns",
+    "title": "Modelling the Spatial Dependence of Multi-Species Point Patterns",
+    "authors": "Chathuri L. Samarasekara, Ian Flint, Yan Wang",
+    "year": 2025,
+    "citations": 0,
+    "dataset": "ecespa::swamp, Savannah River forest tree locations and species marks",
+    "datasetUrl": "https://cran.rstudio.org/web/packages/ecespa/refman/ecespa.html",
+    "paperUrl": "https://doi.org/10.1002/ece3.71066",
+    "access": "open",
+    "formats": [
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Comparing multivariate log-Gaussian Cox and saturated pairwise Gibbs models using empirical and fitted K-functions.",
+    "note": "The paper and author script identify the Savannah River plot; the ecespa manual documents data(swamp), and the package object returned binary bytes. This is the observed plot, not simulation data."
+  },
+  {
+    "id": "jss-dbmss-point-patterns",
+    "title": "Tools to Characterize Point Patterns: dbmss for R",
+    "authors": "Eric Marcon, Stéphane Traissac, Florence Puech, Gabriel Lang",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "CSBIGS.Rdata, JSS supplementary input for the dbmss examples",
+    "datasetUrl": "https://www.jstatsoft.org/article/view/v067c03",
+    "paperUrl": "https://doi.org/10.18637/jss.v067.c03",
+    "access": "open",
+    "formats": [
+      "RData"
+    ],
+    "properties": [
+      "replication-data",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "spatial statistics"
+    ],
+    "bestFor": "Comparing distance-based summaries of point patterns, including absolute and relative measures of spatial concentration.",
+    "note": "The JSS article lists supplementary data separately from code. Its CSBIGS.Rdata download returned binary data. No separate complete raw-data release is claimed."
+  },
+  {
+    "id": "extremes-beranger-padoan-extremal-dependence",
+    "title": "Modeling extremal dependence in multivariate and spatial problems: a practical perspective",
+    "authors": "Boris Béranger, Simone A. Padoan",
+    "year": 2026,
+    "citations": 0,
+    "dataset": "ExtremalDep 1.0.0 application datasets, including Milan pollution, French precipitation, and wind data",
+    "datasetUrl": "https://cran.r-project.org/web/packages/ExtremalDep/refman/ExtremalDep.html",
+    "paperUrl": "https://doi.org/10.1007/s10687-026-00539-6",
+    "access": "open",
+    "formats": [
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "spatial statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Comparing parametric and nonparametric extremal dependence methods and applying Bayesian and frequentist tail models to environmental observations.",
+    "note": "The journal names ExtremalDep 1.0.0 as its data source. The manual documents MilanPollution, PrecipFrance, Wind, and WindSpeedGust, and the Wind package object returned binary bytes."
+  },
+  {
+    "id": "jss-nhpoisson-heat-events",
+    "title": "NHPoisson: An R Package for Fitting and Validating Nonhomogeneous Poisson Processes",
+    "authors": "Ana C. Cebrián, Jesús Abaurrea, Jesús Asín",
+    "year": 2015,
+    "citations": 0,
+    "dataset": "NHPoisson::BarTxTn, daily Barcelona summer temperatures, 1951–2004",
+    "datasetUrl": "https://cran.r-project.org/web/packages/NHPoisson/refman/NHPoisson.html",
+    "paperUrl": "https://doi.org/10.18637/jss.v064.i06",
+    "access": "open",
+    "formats": [
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "worked-examples",
+      "code",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "extreme value analysis",
+      "time series analysis"
+    ],
+    "bestFor": "Deriving extreme heat events from temperature series and fitting and validating a time-varying Poisson intensity.",
+    "note": "The companion package documents data(BarTxTn) with its coverage and variables. These are the observed input series, not a precomputed heat-event catalog. The model is temporal, not spatial."
+  },
+  {
+    "id": "jss-boa-mcmc-output",
+    "title": "boa: An R Package for MCMC Output Convergence Assessment and Posterior Inference",
+    "authors": "Brian J. Smith",
+    "year": 2007,
+    "citations": 0,
+    "dataset": "boa Line example: five regression observations and companion MCMC output",
+    "datasetUrl": "https://brian-j-smith.r-universe.dev/boa",
+    "paperUrl": "https://doi.org/10.18637/jss.v021.i11",
+    "access": "open",
+    "formats": [
+      "R package data"
+    ],
+    "properties": [
+      "package-data",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "mcmc diagnostics",
+      "bayesian inference"
+    ],
+    "bestFor": "Checking convergence diagnostics and posterior summaries against a small, fully specified linear-regression example.",
+    "note": "The package manual gives the five observed coordinate pairs and the maintainer inventory identifies the bundled BUGS Line example (line1). This is diagnostic teaching data, not a broad sampler benchmark."
+  },
+  {
+    "id": "bmsp-cremers-circular-regression-coefficients",
+    "title": "Circular interpretation of regression coefficients",
+    "authors": "Jolien Cremers, Kees Tim Mulder, Irene Klugkist",
+    "year": 2018,
+    "citations": 0,
+    "dataset": "Brunyé et al. Experiment 1 pointing-north observations and participant covariates",
+    "datasetUrl": "https://doi.org/10.1371/journal.pone.0135803.s001",
+    "paperUrl": "https://doi.org/10.1111/bmsp.12108",
+    "access": "open",
+    "formats": [
+      "XLSX"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "directional statistics",
+      "bayesian inference"
+    ],
+    "bestFor": "Interpreting effects of continuous and categorical predictors in Bayesian projected-normal regression with a circular response.",
+    "note": "The methods article identifies the Brunye et al. pointing-north sample of 200 students. PLOS's Experiment 1 XLSX returned spreadsheet archive bytes. It is the upstream data, not a processed regression table."
+  },
+  {
+    "id": "statajournal-qregsel-quantile-selection",
+    "title": "Implementing quantile selection models in Stata",
+    "authors": "Ercio Muñoz, Mariel Siravegna",
+    "year": 2021,
+    "citations": 0,
+    "dataset": "womenwk.dta, Stata's fictional women's wage and employment selection example",
+    "datasetUrl": "https://www.stata-press.com/data/r17/womenwk.dta",
+    "paperUrl": "https://doi.org/10.1177/1536867X211063148",
+    "access": "open",
+    "formats": [
+      "Stata data"
+    ],
+    "properties": [
+      "synthetic-data",
+      "existing-dataset",
+      "worked-examples",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "quantile regression",
+      "missing data"
+    ],
+    "bestFor": "Comparing conditional wage quantiles with and without a copula-based sample-selection adjustment.",
+    "note": "The article uses the fictional Heckman manual data for its first application. Stata Press lists womenwk.dta under heckman, and the file returned Stata data bytes. The separate UK empirical application is not covered."
+  },
+  {
+    "id": "jbes-jiang-yu-unconditional-streaming-quantiles",
+    "title": "Unconditional Quantile Regression for Streaming Datasets",
+    "authors": "Rong Jiang, Keming Yu",
+    "year": 2024,
+    "citations": 0,
+    "dataset": "NBER CPS Merged Outgoing Rotation Group earnings files, 2011–2020",
+    "datasetUrl": "https://www.nber.org/research/data/current-population-survey-cps-merged-outgoing-rotation-group-earnings-data",
+    "paperUrl": "https://doi.org/10.1080/07350015.2023.2293162",
+    "access": "open-link",
+    "formats": [
+      "Stata data"
+    ],
+    "properties": [
+      "existing-dataset",
+      "auto-discovered",
+      "needs-review",
+      "needs-label-review"
+    ],
+    "topics": [
+      "quantile regression"
+    ],
+    "bestFor": "Evaluating renewable unconditional quantile regression on successive batches of a large earnings sample.",
+    "note": "The authors identify the 2011–2020 NBER MORG source and a processed sample of 941,174 observations. The linked public archive supplies the upstream annual files, not the exact filtered analysis table."
   }
 ]
